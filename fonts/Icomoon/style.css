@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'icomoon';
-  src:  url('fonts/icomoon.eot?bnha8j');
-  src:  url('fonts/icomoon.eot?bnha8j#iefix') format('embedded-opentype'),
-    url('fonts/icomoon.ttf?bnha8j') format('truetype'),
-    url('fonts/icomoon.woff?bnha8j') format('woff'),
-    url('fonts/icomoon.svg?bnha8j#icomoon') format('svg');
+  src:  url('fonts/icomoon.eot?h6ilfy');
+  src:  url('fonts/icomoon.eot?h6ilfy#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?h6ilfy') format('truetype'),
+    url('fonts/icomoon.woff?h6ilfy') format('woff'),
+    url('fonts/icomoon.svg?h6ilfy#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -25,6 +25,9 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-telegram-1:before {
+  content: "\e917";
+}
 .icon-Done-Ok4:before {
   content: "\e914";
 }
@@ -69,6 +72,9 @@
   content: "\e915";
   margin-left: -1em;
   color: rgb(255, 255, 255);
+}
+.icon-icons8-done:before {
+  content: "\e916";
 }
 .icon-4:before {
   content: "\e907";
