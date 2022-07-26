@@ -242,6 +242,7 @@ body {
     border-color: white;
     top: 0px;
     left: 0px;
+    border-radius: 5px 0px 0px 0px;
   }
   .header-menu ul li::after {
     position: absolute;
@@ -263,6 +264,7 @@ body {
     border-color: white;
     top: 0px;
     right: 0px;
+    border-radius: 0 5px 0px 0px;
   }
 
   .header-menu ul li a.corners::before {
@@ -285,6 +287,7 @@ body {
     border-color: white;
     bottom: 0px;
     left: 0px;
+    border-radius: 0px 0px 0px 5px;
   }
   
   .header-menu ul li a.corners::after {
@@ -307,6 +310,7 @@ body {
     border-color: white;
     bottom: 0px;
     right: 0px;
+    border-radius: 0 0px 5px 0px;
   }
 
  .header-menu .header__profile a.corners i::before {
