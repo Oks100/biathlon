@@ -131,7 +131,7 @@ body {
   .header__logo .socials .telegram a::before {
     /*content: "\f3fe";
     font-family: FontAwesome;*/
-    display: flex;
+    /*display: flex;
     content: "\e917";
     font-family: 'icomoon', sans-serif;
     font-size: 18px;
@@ -139,7 +139,18 @@ body {
     justify-content: center;
     color: #fff;
     margin-left: -2px;
-    cursor: crosshair;
+    cursor: crosshair;*/
+    display: flex;
+    content: "\e917";
+    font-family: 'icomoon', sans-serif;
+    font-size: 21px;
+    padding: 6px;
+    justify-content: center;
+    color: #fff;
+    margin-left: -2px;
+    ursor: crosshair;
+    content: "\f2c6";
+    font-family: 'Line Awesome Brands';
   }
   .header__logo .socials .youtube a::before {
     content: "\f167";
