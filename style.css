@@ -15,7 +15,7 @@ body {
     display: flex;
     flex-direction: column;
     /*background: #eef3f7;*/
-    background: white;
+    background: #f9fbff;
     gap: 5px;
     line-height: 1.5;
   }
@@ -521,42 +521,60 @@ body.dark {
     border-radius: 3px;
   }
 
-  .left-sidebar {
+  .left-sidebar, .right-sidebar {
     /*padding: 1em 0.6em 1em 0.6em;*/
     display: flex;
     flex-direction: column;
+    gap: 5px;
   }
+  .left-sidebar a, .right-sidebar a {
+    color: #002b71;
+  }
+  .left-sidebar a:hover, .right-sidebar a:hover {
+    color: #73b5e5;
+    border-bottom: 1px solid #73b5e5;
+  }
+
   .left-sidebar__body {
 
   }
   .main-cup {
     font-family: tahoma, Arial, Helvetica, sans-serif;
-    font-size: 0.95em;
-    padding: 1em 0.6em 1em 0.6em;
+    /*font-size: 0.95em;*/
+    padding: 1.5em 0.6em 1.5em 0.6em;
     background-color: #e7f3fa;
     border-radius: 3px;
   }
-  .main-cup a {
+  /*.main-cup a {
     color: #002b71;
-  }
+  }*/
   .main-cup a:hover {
     color: #73b5e5;
     border-bottom: 1px solid #73b5e5;
   }
   .main-cup__header {
     text-align: center;
-    margin-bottom: 10px;
+    margin-bottom: 0.5em;
   }
   .main-cup__header span {
+    /*text-transform: uppercase;
+    font-weight: 800;*/
+  }
+  .term, 
+  .lead,
+  .term2,
+  .lead2 {
     text-transform: uppercase;
     font-weight: 800;
   }
+
   .main-cup__header .main-cup__term {
   }
   .main-cup__header .main-cup__lead {
     color: #265a92;
   }
-  .main-cup__body {
+  .main-cup__body, .main-cup__footer {
+    font-size: 0.95em;
   }
 
   table.main-cup__top10 {
@@ -604,10 +622,144 @@ body.dark {
     color: rgb(227, 0, 0);
   }
   .main-cup__footer {
-    padding: 0.5em 0.6em 0.2em 06em;
+  }
+  .footer__all {
+    padding-top: 0.6em;
+    text-align: center;
   }
   .main-cup__refer {
   }
+  .right-sidebar {
+
+  }
+  /*
+  .comment-block {
+
+  }
+  .comment-block__body {
+  }
+
+  .comment-block__gossip {
+    display: flex;
+  }
+  .comment-block__avatar {
+  }  
+  .comment-block__avatar .las.la-user {
+    font-size: 3.1em;
+  }
+  .comment-block__exile {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+  }
+  .comment-block__exile span:first-child {
+    padding: 0 10px 0 0;
+  }
+  .comment-block__name {
+    display: flex;
+  }
+  .comment-block__data {
+    display: flex;
+  }
+  .comment-block .comment-block__rumor {
+    display: flex;
+    text-align: left;
+  }
+  .comment-block a.comment-block__rumor:hover {
+    border-bottom: none;
+    text-decoration: underline;
+  }
+  .comment-block__footer {
+  }
+*/
+.comment-block {
+  font-family: tahoma, Arial, Helvetica, sans-serif;
+  padding: 1.5em 0.6em 1.5em 0.6em;
+  background-color: #e7f3fa;
+  border-radius: 3px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+.comment-block__header {
+  text-transform: uppercase;
+  padding: 0 0.6em 0 0.6em;
+}
+.term2{
+  padding-right: 5px;
+}
+.lead2 {
+  color: #265a92;
+}
+
+.comment-block__body {
+  background-color: #e7f3fa;
+}
+
+.comment-block__gossip {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 0.6em 0 0.6em;
+}
+.comment-block__gossip span:first-child {
+  padding: 0 10px 0 0;
+}
+.comment-block__user {
+  display: flex;
+  align-items: center;
+}
+a.user:hover {
+  border: none;
+}
+.comment-block__user::before {
+  content: "\f2bd";
+  font-family: 'Line Awesome Free';
+  font-size: 2.5em;
+  padding-right: 0.15em;
+}
+/*.comment-block__avatar {
+}  
+.comment-block__avatar .las.la-user {
+  font-size: 3.1em;
+}*/
+/*.comment-block__exile {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}*/
+/*.comment-block__exile span:first-child {
+  padding: 0 10px 0 0;
+}*/
+/*.comment-block__name {
+  display: flex;
+}*/
+.comment-block__data {
+  display: flex;
+}
+.comment-block .comment-block__rumor {
+  display: flex;
+  text-align: left;
+  max-height: 8.4em;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 5;
+  -webkit-box-orient: vertical;
+  background-color: rgb(246, 253, 255);
+  box-shadow: inset 0px 0px 5px rgb(131, 131, 131);
+  box-shadow: inset 0px 0px 5px #8a9da9;
+  padding: 0.6em;
+  border-radius: 3px;
+}
+.comment-block a.comment-block__rumor:hover {
+  border-bottom: none;
+  text-decoration: underline;
+}
+.comment-block__footer {
+  padding-top: 0.8em;
+}
 
   @media screen and (min-width: 600px) {
     body {
