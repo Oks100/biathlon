@@ -521,11 +521,15 @@ body.dark {
     border-radius: 3px;
   }
 
+  .header-block {
+    font-size: 1em;
+  }
   .left-sidebar, .right-sidebar {
     /*padding: 1em 0.6em 1em 0.6em;*/
     display: flex;
     flex-direction: column;
     gap: 5px;
+    font-size: 0.95em;
   }
   .left-sidebar a, .right-sidebar a {
     color: #002b71;
@@ -574,7 +578,7 @@ body.dark {
     color: #265a92;
   }
   .main-cup__body, .main-cup__footer {
-    font-size: 0.95em;
+    /* ! font-size: 0.95em;*/
   }
 
   table.main-cup__top10 {
@@ -629,6 +633,26 @@ body.dark {
   }
   .main-cup__refer {
   }
+
+
+  .slider-block {
+    padding: 1.5em 0.6em 1.5em 0.6em;
+    text-align: center;
+    background-color: #e7f3fa;
+    border-radius: 3px;
+  }
+  .slider-block__header {
+  }
+  .slider-block__body {
+  }
+  .sloder-block__footer {
+  }
+  .footer__all {
+  }
+
+
+
+
   .right-sidebar {
 
   }
@@ -679,7 +703,7 @@ body.dark {
   background-color: #e7f3fa;
   border-radius: 3px;
   text-align: center;
-  margin-bottom: 10px;
+  /*margin-bottom: 10px;*/
 }
 .comment-block__header {
   text-transform: uppercase;
@@ -752,6 +776,7 @@ a.user:hover {
   box-shadow: inset 0px 0px 5px #8a9da9;
   padding: 0.6em;
   border-radius: 3px;
+  color: black;
 }
 .comment-block a.comment-block__rumor:hover {
   border-bottom: none;
