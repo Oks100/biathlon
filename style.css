@@ -765,7 +765,8 @@ a.user:hover {
 .comment-block .comment-block__rumor {
   display: flex;
   text-align: left;
-  max-height: 8.4em;
+  max-height: 8.5em;
+  min-height: 8.5em;
   overflow: hidden;
   text-overflow: ellipsis;
   display: -webkit-box;
