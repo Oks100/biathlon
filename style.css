@@ -452,14 +452,6 @@ body.dark {
 }
 
 /*! Переключитель*/
-
-
-
-
-
-
-
-
  .header__menu-body .header__additional-menu .languages {
     display: flex;
     transition: 1.7s ease;
