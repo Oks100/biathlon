@@ -663,6 +663,18 @@ body.dark {
   .swiper-button-next:hover, .swiper-button-prev:hover {
     color: #73b5e5;
   }
+  .swiper-button-next, .swiper-rtl .swiper-button-prev {
+    right: 0px !important;
+  }
+  .swiper-button-prev, .swiper-rtl .swiper-button-next {
+    left: 0px !important;
+  }
+  .swiper-button-next {
+    padding-right: 15px !important;
+  }
+  .swiper-button-prev {
+    padding-left: 15px !important;
+  }
   .swiper-button-next, .swiper-button-prev {
   }
   .swiper-lazy-preloader {
