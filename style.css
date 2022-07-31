@@ -1069,9 +1069,6 @@ table.stars-table tbody tr td:nth-child(3)::before {
 }
 .stars-table {
 }
-.stars-table a {
-  vertical-align: middle;
-}
 .stars-block__footer {
 }
 
@@ -1115,7 +1112,19 @@ table.stars-table tbody tr td:nth-child(3)::before {
   height: inherit;
   background-color: rgb(47, 111, 200);
   border-radius: 3px;
+  /*background-image: linear-gradient(45deg, #fca311 25%, transparent 25%, transparent 50%, #fca311 50%, #fca311 75%, transparent 75%, transparent);
+  animation: progressAnimationStrike 2s;*/
 }
+
+/*@keyframes progressAnimationStrike {
+  from { 
+    width: 0;
+  }
+  to {
+    width: 33%;
+  }
+  }*/
+
 .vote-block__footer {
 }
 
