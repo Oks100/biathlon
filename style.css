@@ -1170,7 +1170,7 @@ table.popular__table tbody tr {
 }
 .popular-block__search-form input {
   width: 100%;
-  height: 35px;
+  height: 33px;
   background: #fff;
   padding-left: 15px;
   /*box-shadow: inset 0px 0px 5px #8a9da9;*/
@@ -1184,14 +1184,13 @@ table.popular__table tbody tr {
   color: transparent;
 }
 .popular-block__search-form button {
-  height: 33.5px;
-  width: 33.5px;
+  height: 31px;
+  width: 31px;
   position: absolute;
-  top: 0.5px;
+  top: 1px;
   right: 1.22px;
   cursor: pointer;
   background: none;
-  border-radius: 2px;
 }
 .popular-block__search-form button::before {
   content: "\f002";
