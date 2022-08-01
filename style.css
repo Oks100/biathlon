@@ -961,7 +961,7 @@ body.dark {
 }
 
 .sidebar-block {
-  padding: 1.5em 0.6em 1.5em 0.6em;
+  padding: 1.5em 1em 1.5em 1em;
   text-align: center;
   background-color: #e7f3fa;
   border-radius: 3px;
@@ -1048,10 +1048,6 @@ a.user:hover {
 }
 
 .stars-block {
-}
-.sidebar-block {
-}
-.sidebar-block2 {
 }
 .stars-block__head {
 }
@@ -1172,7 +1168,7 @@ table.popular__table tbody tr {
   width: 100%;
   height: 33px;
   background: #fff;
-  padding-left: 15px;
+  padding: 0 35px 0 15px;
   /*box-shadow: inset 0px 0px 5px #8a9da9;*/
   box-shadow: 0 1px 2px rgba(0,0,0,.5) inset, 0 -1px 0 rgba(0,0,0,.2) inset;
 }
@@ -1206,6 +1202,72 @@ table.popular__table tbody tr {
 }
 
 .popular-block__footer {
+}
+
+.interview-block {
+}
+.interview-block__head {
+}
+.interview-block__body {
+}
+.interview-block__items {
+  /*border-bottom: 1px solid rgb(189, 189, 189);*/
+  border-bottom: 1px groove #c0d1db;
+  text-align: left;
+  padding: 0.7em 0 0.7em 0;
+}
+.interview-block__items:last-child {
+  border-bottom: none;
+  padding: 0.7em 0 0 0;
+}
+.interview-block__said {
+  display: flex;
+  margin-bottom: 0.5em;
+}
+.interview-block__gossip_image {
+  /* background-image: url(//www.biathlon.com.ua/uploads/2021/132527.jpg); */
+  background-color: rgba(103,155,205,1.00);
+  width: 3.50em;
+  height: 3.50em;
+  border-radius: 50%;
+  /*border-radius: 3px;*/
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: cover;
+  margin-right: 0.50em;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+}
+.interview-block > .interview-block__body > .interview-block__items:nth-child(1) > .interview-block__said > .interview-block__gossip_image {
+  background-image: url(//www.biathlon.com.ua/uploads/2021/132527.jpg);
+}
+.interview-block > .interview-block__body > .interview-block__items:nth-child(2) > .interview-block__said > .interview-block__gossip_image {
+  background-image: url(//www.biathlon.com.ua/uploads/2019/87630.jpg);
+}
+.interview-block > .interview-block__body > .interview-block__items:nth-child(3) > .interview-block__said > .interview-block__gossip_image {
+  background-image: url(//www.biathlon.com.ua/uploads/1/12218.jpg);
+}
+.interview-block > .interview-block__body > .interview-block__items:nth-child(4) > .interview-block__said > .interview-block__gossip_image {
+  background-image: url(//www.biathlon.com.ua/uploads/2/20537.jpg);
+}
+.interview-block > .interview-block__body > .interview-block__items:nth-child(5) > .interview-block__said > .interview-block__gossip_image {
+  background-image: url(//www.biathlon.com.ua/uploads/2018/80773.jpg);
+
+}
+.interview-block__gossip_exile {
+  margin-top: 0.25em;
+}
+.interview-block__gossip_name {
+}
+.interview-block__gossip_date {
+  display: flex;
+}
+.interview-block__gossip_date span:first-child {
+  padding-right: 10px;
+}
+.interview-block__rumor {
+}
+.interview-block__footer {
 }
 
 article {
