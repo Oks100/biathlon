@@ -771,11 +771,15 @@ body.dark {
   .main-cup__top10 th,
   .stars-table td,
   .popular__table td {
-    padding: 0.2em;
+    /*padding: 0.2em;*/
+    padding: 2.4px;
     /*border: 1px solid #999;*/
   }
   .main-cup__top10 th {
     font-family: Arial, tahoma, Helvetica, sans-serif;
+  }
+  table.main-cup__top10 tbody tr {
+    line-height: 17.95px;
   }
   table.main-cup__top10 thead tr th:nth-child(3) {
     text-align: left;
@@ -1075,6 +1079,15 @@ table.stars-table tbody tr td:nth-child(3)::before {
   padding-right: 5px;
   font-size: 0.9em;
 }
+table.stars-table tbody tr td:nth-child(1),
+table.popular__table tbody tr td:nth-child(1) {
+  width: 25.2833px;;
+}
+table.stars-table tbody tr,
+table.popular__table tbody tr {
+  line-height: 20.55px;
+}
+
 .stars-table {
 }
 .stars-block__footer {
