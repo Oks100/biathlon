@@ -542,9 +542,11 @@ body {
 .timer span:hover {
   cursor: help;
 }
-
 .timer .timer__body .timer__items i {
   font-size: 1.1em;
+  padding-right: 5px;
+}
+.item__addition {
   padding-right: 5px;
 }
 .timer__item {
