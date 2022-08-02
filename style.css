@@ -1008,7 +1008,24 @@ body.dark {
 }
 
 
-
+.blogs-block {
+}
+.blogs-block__head {
+  text-align: center;
+}
+.blogs-block__body {
+}
+.blogs-block__item span {
+  display: flex;
+}
+.blogs-block__item {
+  padding-bottom: 1em;
+}
+.blogs-block__time {
+  font-weight: 600;
+}
+.blogs-block__name {
+}
 
 
 
