@@ -1019,7 +1019,16 @@ body.dark {
   display: flex;
 }
 .blogs-block__item {
-  padding-bottom: 1em;
+  padding-bottom: 0.7em;
+  padding-top: 0.7em;
+  border-bottom: 1px solid #c0d1db;
+}
+.blogs-block__item:nth-child(1) {
+  padding-top: 0em;
+}
+.blogs-block__item:last-of-type {
+  padding-bottom: 0em;
+  border-bottom: none;
 }
 .blogs-block__time {
   font-weight: 600;
