@@ -904,11 +904,110 @@ body.dark {
   }
   .slider-block__footer {
   }
-  .footer__all {
-  }
-  /*.swiper-pagination-progressbar .swiper-pagination-progressbar-fill {
-    background: #265a92 !important;
-  }*/
+
+.slider-block {
+}
+.slider-block__head {
+}
+.slider-block__term {
+}
+.slider-block__lead {
+}
+.slider-block__body {
+}
+.swiper-container {
+}
+.swiper-wrapper {
+}
+.swiper-slide {
+}
+.swiper-lazy {
+}
+.swiper-lazy-preloader {
+}
+.swiper-button-prev {
+}
+.swiper-button-next {
+}
+.swiper-pagination {
+}
+.slider-block__footer {
+}
+.slider-block__refer {
+}
+
+
+.next-race-block {
+}
+.next-race-block__head {
+  text-align: center;
+}
+.next-race-block__term {
+}
+.next-race-block__body {
+}
+.next-race-block__event {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+}
+.next-race-block__name {
+  font-weight: 600;
+}
+.next-race-block__name img {
+  padding-right: 5px;
+  vertical-align: middle;
+  padding-bottom: 2px;
+}
+.next-race-block__time {
+}
+.next-race-block__time span {
+  font-weight: 600;
+}
+.next-race-block__time span:first-child {
+  padding-right: 10px;
+}
+.next-race-block__type {
+}
+
+
+.next-translate-block {
+
+}
+.next-translate-block__head {
+  text-align: center;
+}
+.next-translate-block__term {
+}
+.next-translate-block__body {
+}
+.next-translate-block__event {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+}
+.next-translate-block__name {
+  font-weight: 600;
+}
+.next-translate-block__name img {
+  padding-right: 5px;
+  vertical-align: middle;
+  padding-bottom: 2px;
+}
+.next-race-block__flag {
+}
+.next-translate-block__time {
+}
+.next-translate-block__time span {
+  font-weight: 600;
+}
+.next-translate-block__time span:first-child {
+  padding-right: 10px;
+}
+.next-translate-block__type {
+}
+
+
 
 
 
@@ -916,53 +1015,8 @@ body.dark {
   .right-sidebar {
 
   }
-  /*
-  .comment-block {
-
-  }
-  .comment-block__body {
-  }
-
-  .comment-block__gossip {
-    display: flex;
-  }
-  .comment-block__avatar {
-  }  
-  .comment-block__avatar .las.la-user {
-    font-size: 3.1em;
-  }
-  .comment-block__exile {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width: 100%;
-  }
-  .comment-block__exile span:first-child {
-    padding: 0 10px 0 0;
-  }
-  .comment-block__name {
-    display: flex;
-  }
-  .comment-block__data {
-    display: flex;
-  }
-  .comment-block .comment-block__rumor {
-    display: flex;
-    text-align: left;
-  }
-  .comment-block a.comment-block__rumor:hover {
-    border-bottom: none;
-    text-decoration: underline;
-  }
-  .comment-block__footer {
-  }
-*/
+  
 .comment-block {
-  /*padding: 1.5em 0.6em 1.5em 0.6em;
-  background-color: #e7f3fa;
-  border-radius: 3px;
-  text-align: center;*/
-  /*margin-bottom: 10px;*/
 }
 .comment-block__header {
   text-transform: uppercase;
@@ -973,7 +1027,6 @@ body.dark {
 .term2{
 }
 .lead2 {
-  /*color: #265a92;*/
   color: #1e78d9;
 }
 
@@ -990,6 +1043,11 @@ body.dark {
 .sidebar-block2 {
   padding: 1.5em;
   text-align: center;
+  background-color: #e7f3fa;
+  border-radius: 3px;
+}
+.sidebar-block3 {
+  padding: 1.5em;
   background-color: #e7f3fa;
   border-radius: 3px;
 }
