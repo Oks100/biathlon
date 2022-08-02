@@ -539,7 +539,7 @@ body {
   padding-left: 15px;
 }
 
-.timer span:hover {
+.timer {
   cursor: help;
 }
 .timer .timer__body .timer__items i {
@@ -548,6 +548,9 @@ body {
 }
 .item__addition {
   padding-right: 5px;
+}
+.timer__items i {
+
 }
 .timer__item {
 }
