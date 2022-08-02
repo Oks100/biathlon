@@ -540,7 +540,6 @@ body {
 }
 
 .timer {
-  cursor: help;
 }
 .timer .timer__body .timer__items i {
   font-size: 1.1em;
@@ -549,8 +548,8 @@ body {
 .item__addition {
   padding-right: 5px;
 }
-.timer__items i {
-
+.timer__items {
+  cursor: help;
 }
 .timer__item {
 }
