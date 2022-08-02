@@ -10,13 +10,21 @@
   <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="path/to/line-awesome/css/line-awesome-font-awesome.min.css">
   <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/font-awesome-line-awesome/css/all.min.css"> -->
+  <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
+  <link rel="manifest" href="img/favicon/site.webmanifest">
+  <link rel="mask-icon" href="img/favicon/safari-pinned-tab.svg" color="#5bbad5">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="theme-color" content="#ffffff">
   <link rel="stylesheet" href="fonts/icomoon/style.css">
   <link rel="stylesheet" href="fonts/line-awesome/css/line-awesome.css">
   <link rel="stylesheet"
     href="https://maxst.icons8.com/vue-static/landings/line-awesome/font-awesome-line-awesome/css/all.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
   <script src="https://kit.fontawesome.com/d70cc4a9aa.js" crossorigin="anonymous"></script>
   <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+  <script src="js/script2.js"></script>
 </head>
 
 <body>
@@ -25,7 +33,7 @@
       <div class="header__logo">
         <a href="#">
           <!-- <img src="img/222-3.png" alt=""> -->
-          <img src="img/q1.png" alt="">
+          <img src="img/logo.png" alt="">
         </a>
         <div class="socials">
           <div class="socials__body">
@@ -91,7 +99,7 @@
     </div>
   </header>
   <main>
-    <article>
+    <article class="timeline">
       <h1>Что такое Lorem Ipsum?</h1>
       <p>
         Lorem Ipsum - это текст-"рыба", часто используемый
@@ -110,7 +118,7 @@
       <!-- <div class="left-sidebar__body"> -->
       <div class="main-cup man">
         <div class="main-cup__header header-block">
-          <span class="main-cup__term term">Кубок Мира -</span>
+          <span class="main-cup__term term">Кубок Мира - </span>
           <span class="main-cup__lead lead">Мужчины</span>
         </div>
         <div class="main-cup__body">
@@ -166,7 +174,7 @@
                 <td><a href="#">Тарьей Бё</a></td>
                 <td>601</td>
               </tr>
-              <tr>
+              <tr class="tr_countries country_48">
                 <td>7</td>
                 <td class="td_flag" data-country="48"><img src="https://www.biathlon.com.ua/uploads/0/53.gif" alt="">
                 </td>
@@ -201,41 +209,52 @@
           <a class="main-cup__refer" href="#">Весь рейтинг</a>
         </div>
       </div>
-      <div class="slider-block">
-        <div class="slider-block__header">
-          <span class="slider-block__term term term2">Последние</span><span class="slider-block__lead lead lead2">фото</span>
+      <div class="slider-block sidebar-block">
+        <div class="slider-block__header head__all">
+          <span class="slider-block__term term term2">Новые </span><span
+            class="slider-block__lead lead lead2">фото</span>
         </div>
         <div class="slider-block__body">
           <div class="swiper-container">
             <div class="swiper-wrapper">
               <div class="swiper-slide">
-                <img src="https://images.unsplash.com/photo-1597515449381-b57ede1fa281?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHx0b3BpYy1mZWVkfDZ8UzRNS0xBc0JCNzR8fGVufDB8fHw%3D&auto=format&fit=crop&w=500&q=60" alt="">
+                <a href="#"><img src="img/slider/1.jpg" class="swiper-lazy" alt=""></a>
+                <div class="swiper-lazy-preloader"></div>
               </div>
-              <div class="swiper-slide"><img src="https://images.unsplash.com/photo-1526857240824-92be52581d9b?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHx0b3BpYy1mZWVkfDh8UzRNS0xBc0JCNzR8fGVufDB8fHw%3D&auto=format&fit=crop&w=500&q=60" alt=""></div>
-              <div class="swiper-slide"><img src="https://images.unsplash.com/photo-1566534268110-74c44e12e34d?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHx0b3BpYy1mZWVkfDI5fFM0TUtMQXNCQjc0fHxlbnwwfHx8&auto=format&fit=crop&w=500&q=60" alt=""></div>
+              <div class="swiper-slide">
+                <a href="#"><img src="img/slider/2.jpg" class="swiper-lazy" alt=""></a>
+                <div class="swiper-lazy-preloader"></div>
+              </div>
+              <div class="swiper-slide">
+                <a href="#"><img src="img/slider/3.jpg" class="swiper-lazy" alt=""></a>
+                <div class="swiper-lazy-preloader"></div>
+              </div>
+              <div class="swiper-slide">
+                <a href="#"><img src="img/slider/4.jpg" class="swiper-lazy" alt=""></a>
+                <div class="swiper-lazy-preloader"></div>
+              </div>
+              <div class="swiper-slide">
+                <a href="#"><img src="img/slider/5.jpg" class="swiper-lazy" alt=""></a>
+                <div class="swiper-lazy-preloader"></div>
+              </div>
+              <div class="swiper-slide">
+                <a href="#"><img src="img/slider/6.jpg" class="swiper-lazy" alt=""></a>
+                <div class="swiper-lazy-preloader"></div>
+              </div>
             </div>
-          
-          
-          <!-- Добавление стрелочек в HTML код -->
-          <div class="swiper-button-prev"></div>
-          <div class="swiper-button-next"></div>
-          
-          <!-- Добавление буллитов в HTML код -->
-          <div class="swiper-pagination"></div>
-            
-          <!-- Добавление скроллбара в HTML код -->
-          <div class="swiper-scrollbar"></div>  
-            
-          </div>  
-    <div class="slider-block__footer footer__all">
-      <a class="slider-block__refer" href="#">Посмотреть все</a>
-    </div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
+        <div class="slider-block__footer footer__all">
+          <a class="slider-block__refer" href="#">Посмотреть все</a>
+        </div>
     </nav>
     <aside class="right-sidebar">
-      <!-- <div class="left-sidebar__body"> -->
       <div class="main-cup women">
         <div class="main-cup__header header-block">
-          <span class="main-cup__term term">Кубок Мира -</span>
+          <span class="main-cup__term term">Кубок Мира - </span>
           <span class="main-cup__lead lead">Женщины</span>
         </div>
         <div class="main-cup__body">
@@ -291,7 +310,7 @@
                 <td><a href="#">Дениз Херрманн</a></td>
                 <td>589</td>
               </tr>
-              <tr>
+              <tr class="tr_countries country_48">
                 <td>7</td>
                 <td class="td_flag" data-country="48"><img src="https://www.biathlon.com.ua/uploads/0/53.gif" alt="">
                 </td>
@@ -326,31 +345,271 @@
           <a class="main-cup__refer" href="#">Весь рейтинг</a>
         </div>
       </div>
-      <div class="comment-block">
-        <div class="comment-block__header header-block">
-          <span class="comment-block__term term term2">Последние</span><span
-            class="comment-block__term lead lead2">комментарии</span>
+      <div class="twitter-block">
+        <!-- <a class="twitter-timeline" data-height="500" data-dnt="true" href="https://twitter.com/biathloncomua?ref_src=twsrc%5Etfw">Tweets by biathloncomua</a> 
+        <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>  -->
+        <a class="twitter-timeline"
+    data-chrome="noheader noborders transparent nofooter"
+    data-link-color="#8e1d08"
+    data-dnt="true"
+    data-widget-id="your-widget-id"
+    href="https://twitter.com/biathloncomua?ref_src=twsrc%5Etfw"></a>
+    <script>
+      !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];
+          if(!d.getElementById(id)){js=d.createElement(s);js.id=id;
+          js.src="//platform.twitter.com/widgets.js";
+          fjs.parentNode.insertBefore(js,fjs);}
+      }(document,"script","twitter-wjs");
+      </script>
+      <script src="js/customize-twitter-1.1.min.js" type="text/javascript"></script>
+      <script>
+        var options = {
+            "url": "/style.css"
+        };
+        CustomizeTwitterWidget(options);
+        </script>
+      </div>
+      <div class="comment-block sidebar-block">
+        <div class="comment-block__header head__all">
+          <span class="comment-block__term term term2">Новые </span>
+          <span class="comment-block__term lead lead2">комментарии</span>
         </div>
         <div class="comment-block__body">
           <div class="comment-block__gossip">
             <a class="comment-block__user user" href="##">
-                SAFI
+              SAFI
             </a>
             <div class="comment-block__data">
               <span>22.07.22</span><span>03:46</span>
             </div>
           </div>
-        <a class="comment-block__rumor" href="#">"про рівнозначного побратима Віталія Мандзіна по команді - Степана
-          Кінаша, з"
-          Так про Кинаша было во вью Санитры...
-          Что пока его оставляют с Зоцем, потому что есть доверие к нему и его работе.</a>
+          <a class="comment-block__rumor" href="#">"про рівнозначного побратима Віталія Мандзіна по команді - Степана
+            Кінаша, з"
+            Так про Кинаша было во вью Санитры...
+            Что пока его оставляют с Зоцем, потому что есть доверие к нему и его работе.</a>
         </div>
         <div class="comment-block__footer footer__all">
           <a href="#">Читать все</a>
         </div>
       </div>
+      <div class="stars-block sidebar-block">
+        <div class="stars-block__head head__all">
+          <span class="stars-block__term term term2">Оценки за </span>
+          <span class="stars-block__term lead lead2">гонку</span>
+        </div>
+        <div class="stars-block__body">
+          <table class="stars-table">
+            <tbody>
+              <tr class="tr_countries country_48">
+                <td class="td_flag" data-country="48"><img src="https://www.biathlon.com.ua/uploads/0/53.gif" alt="">
+                </td>
+                <td><a href="#">Дмитрий Пидручный</a></td>
+                <td>5.73/<strong>8</strong></td>
+              </tr>
+              <tr class="tr_countries country_48">
+                <td class="td_flag" data-country="48"><img src="https://www.biathlon.com.ua/uploads/0/53.gif" alt="">
+                </td>
+                <td><a href="#">Артём Прима</a></td>
+                <td>5.67/<strong>8</strong></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="stars-block__footer footer__all">
+          <a href="#">Поставить / Посмотреть все оценки</a>
+        </div>
       </div>
-      <!-- </div> -->
+      <div class="vote-block sidebar-block">
+        <div class="vote-block__head head__all">
+          <span class="vote-block__term lead lead2">Голосование</span>
+        </div>
+        <div class="vote-block__body">
+          <p class="vote-block__question">На какой позиции будет лучший из украинцев (мужчины или женщины) в общем
+            зачете КМ по итогам сезона 2021/22?</p>
+          <div class="vote-block__voited">
+            <p class="vote-block__option">16-20 места</p>
+            <div class="vote-block__bar">
+              <span class="vote-block__votes">32,3% (Голосов: 169)</span>
+              <div class="vote-block__percent" style="width:32.38%"></div>
+            </div>
+          </div>
+          <div class="vote-block__voited">
+            <p class="vote-block__option">21 место или ниже</p>
+            <div class="vote-block__bar">
+              <span class="vote-block__votes">31,6% (Голосов: 165)</span>
+              <div class="vote-block__percent" style="width:31.61%"></div>
+            </div>
+          </div>
+          <div class="vote-block__voited">
+            <p class="vote-block__option">11-15 места</p>
+            <div class="vote-block__bar">
+              <span class="vote-block__votes">23,7% (Голосов: 124)</span>
+              <div class="vote-block__percent" style="width:23.75%"></div>
+            </div>
+          </div>
+          <div class="vote-block__voited">
+            <p class="vote-block__option">1-10 места</p>
+            <div class="vote-block__bar">
+              <span class="vote-block__votes">12,2% (Голосов: 64)</span>
+              <div class="vote-block__percent" style="width:12.26%"></div>
+            </div>
+          </div>
+          <div class="vote-block__total-votes">
+            <span>Всего голосов: 522</span>
+          </div>
+        </div>
+        <div class="vote-block__footer footer__all">
+          <a href="#">Проголосовать</a>
+        </div>
+      </div>
+      <div class="popular-block sidebar-block">
+        <div class="popular-block__head head__all">
+          <span class="vote-block__term lead lead2">Популярные профайлы</span>
+        </div>
+        <div class="popular-block__body">
+          <table class="popular__table">
+            <tbody>
+              <tr class="tr_countries country_48">
+                <td class="td_flag" data-country="48"><img src="https://www.biathlon.com.ua/uploads/0/53.gif" alt="">
+                </td>
+                <td><a href="#">Елена Билосюк</a></td>
+              </tr>
+              <tr class="tr_countries country_48">
+                <td class="td_flag" data-country="48"><img src="https://www.biathlon.com.ua/uploads/0/53.gif" alt="">
+                </td>
+                <td><a href="#">Юлия Джима</a></td>
+              </tr>
+              <tr class="tr_countries country_48">
+                <td class="td_flag" data-country="48"><img src="https://www.biathlon.com.ua/uploads/0/53.gif" alt="">
+                </td>
+                <td><a href="#">Дарья Блашко</a></td>
+              </tr>
+              <tr class="tr_countries country_48">
+                <td class="td_flag" data-country="48"><img src="https://www.biathlon.com.ua/uploads/0/53.gif" alt="">
+                </td>
+                <td><a href="#">Денис Насыко</a></td>
+              </tr>
+              <tr class="tr_countries country_48">
+                <td class="td_flag" data-country="48"><img src="https://www.biathlon.com.ua/uploads/0/53.gif" alt="">
+                </td>
+                <td><a href="#">Дмитрий Пидручный</a></td>
+              </tr>
+              <tr class="tr_countries country_48">
+                <td class="td_flag" data-country="48"><img src="https://www.biathlon.com.ua/uploads/0/53.gif" alt="">
+                </td>
+                <td><a href="#">Богдан Цымбал</a></td>
+              </tr>
+              <tr class="tr_countries country_48">
+                <td class="td_flag" data-country="48"><img src="https://www.biathlon.com.ua/uploads/0/53.gif" alt="">
+                </td>
+                <td><a class="active" href="#">Антон Дудченко</a></td>
+              </tr>
+              <tr class="tr_countries country_36">
+                <td class="td_flag" data-country="36"><img src="https://www.biathlon.com.ua/uploads/0/41.gif" alt="">
+                </td>
+                <td><a href="#">Йоханнес Тингнес Бё</a></td>
+              </tr>
+              <tr class="tr_countries country_48">
+                <td class="td_flag" data-country="48"><img src="https://www.biathlon.com.ua/uploads/0/53.gif" alt="">
+                </td>
+                <td><a href="#">Ирина Петренко</a></td>
+              </tr>
+              <tr class="tr_countries country_48">
+                <td class="td_flag" data-country="48"><img src="https://www.biathlon.com.ua/uploads/0/53.gif" alt="">
+                </td>
+                <td><a href="#">Валя Семеренко</a></td>
+              </tr>
+            </tbody>
+          </table>
+          <div class="popular-block__search-form">
+            <form>
+              <input type="text" placeholder="Искать профайл">
+              <button type="submit"></button>
+            </form>
+          </div>
+        </div>
+        <div class="popular-block__footer footer__all">
+          <span><a href="#">Другие профайлы</a></span>
+        </div>
+      </div>
+      <div class="interview-block sidebar-block">
+        <div class="interview-block__head head__all">
+          <span class="vote-block__term lead lead2">Интервью</span>
+        </div>
+        <div class="interview-block__body">
+          <div class="interview-block__items">
+            <div class="interview-block__said">
+                <div class="interview-block__gossip_image">
+                </div>
+                <div class="interview-block__gossip_exile">
+                  <a href="profile/5759-mandzyn-vitaliy" class="interview-block__gossip_name">Виталий Мандзын</a>
+                  <div class="interview-block__gossip_date">
+                    <span>18.07.22</span><span>09:00</span>
+                  </div>
+                </div>
+            </div>
+            <a href="#" class="interview-block__rumor">Меня мотивирует то, что есть куда расти, к кому расти и с кем
+              расти</a>
+          </div>
+          <div class="interview-block__items">
+            <div class="interview-block__said">
+              <div class="interview-block__gossip_image">
+              </div>
+              <div class="interview-block__gossip_exile">
+                <a href="profile/5027-sanitra-juraj" class="interview-block__gossip_name">Юрай Санитра</a>
+                <div class="interview-block__gossip_date">
+                  <span>13.07.22</span><span>15:40</span>
+                </div>
+              </div>
+            </div>
+            <a href="#" class="interview-block__rumor">Дополнили команду еще одним молодым и перспективным
+              спортсменом</a>
+          </div>
+          <div class="interview-block__items">
+            <div class="interview-block__said">
+              <div class="interview-block__gossip_image">
+              </div>
+              <div class="interview-block__gossip_exile">
+                <a href="profile/2486-kolupaev-yevgeniy" class="interview-block__gossip_name">Евгений Колупаев</a>
+                <div class="interview-block__gossip_date">
+                  <span>14.04.22</span><span>11:46</span>
+                </div>
+              </div>
+            </div>
+            <a href="#" class="interview-block__rumor">Подготовка команды к сезону начнется 20-25 мая</a>
+          </div>
+          <div class="interview-block__items">
+            <div class="interview-block__said">
+              <div class="interview-block__gossip_image">
+              </div>
+              <div class="interview-block__gossip_exile">
+                <a href="profile/3262-karlenko-vassil" class="interview-block__gossip_name">Василий Карленко</a>
+                <div class="interview-block__gossip_date">
+                  <span>13.04.22</span><span>14:28</span>
+                </div>
+              </div>
+            </div>
+            <a href="#" class="interview-block__rumor">Для многих заявление Брынзака стало неожиданностью</a>
+          </div>
+          <div class="interview-block__items">
+            <div class="interview-block__said">
+              <div class="interview-block__gossip_image">
+              </div>
+              <div class="interview-block__gossip_exile">
+                <a href="profile/2481-vladimir-brinzak" class="interview-block__gossip_name">Владимир Брынзак</a>
+                <div class="interview-block__gossip_date">
+                  <span>21.02.22</span><span>02:05</span>
+                </div>
+              </div>
+            </div>
+            <a href="#" class="interview-block__rumor">Главное - не допускать стратегических ошибок</a>
+          </div>
+        </div>
+        <div class="interview-block__footer footer__all">
+          <span><a href="#">Другие интервью</a></span>
+        </div>
+      </div>
+    </div>
     </aside>
   </main>
   <footer>
