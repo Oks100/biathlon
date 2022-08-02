@@ -547,6 +547,16 @@ body {
   font-size: 1.1em;
   padding-right: 5px;
 }
+.timer__item {
+}
+.timer__days {
+}
+.timer__hours {
+}
+.timer__minutes {
+}
+.timer__seconds {
+}
 /*! Таймер конец*/
 
 .header__group {
@@ -980,12 +990,6 @@ body.dark {
   border-radius: 3px;
 }
 
-/*! Твиттер*/
-.timeline-Header {
-  background-color: #e7f3fa !important;
-}
-/*! Твиттер*/
-
 .comment-block__gossip {
   display: flex;
   justify-content: space-between;
@@ -1132,15 +1136,38 @@ table.popular__table tbody tr {
   padding-right: 10px;
 }
 
+/*! Твиттер старт*/
+.twitter-block {
+  padding: 1.5em 0px 1.5em 0px;
+  text-align: center;
+  background-color: #e7f3fa;
+  border-radius: 3px;
+}
+.twitter-block__head {
+}
+.twitter-block__term {
+}
+.twitter-block__body {
+  box-shadow: 0 1px 2px rgb(0 0 0 / 50%) inset, 0 -1px 0 rgb(0 0 0 / 20%) inset !important;
+}
+.twitter-block__footer {
+}
 
-
+/*! Лента Твиттера*/
+.timeline-Header {
+  background-color: #e7f3fa !important;
+}
 .SandboxRoot.env-bp-min .timeline-Tweet-text {
   color: black;
 }
 #twitter-widget-0 {
   max-height: 500px !important;
   height: 500px !important;
-  border-radius: 3px !important;
+  margin-bottom: -5px !important;
+  margin-left: 2.2px !important;
+  margin-top: 2.2px !important;
+  /* margin-right: 5px !important; */
+  width: 99% !important;
 }
 .TweetAuthor a {
   color: #002b71 !important;
@@ -1148,9 +1175,6 @@ table.popular__table tbody tr {
 .TweetAuthor a:hover {
   color: #73b5e5 !important;
 }
-/*.SandboxRoot.env-bp-min .timeline-Tweet {
-  background-color: #e7f3fa !important;
-}*/
 .timeline-Tweet-text a {
   color: #002b71 !important;
 }
@@ -1164,13 +1188,15 @@ table.popular__table tbody tr {
 .Icon.Icon--share.TweetAction-icon:hover {
   color: #73b5e5 !important;
 }
-/*.timeline-TweetList-tweet:hover {
-  background-color: red !important;
+.timeline-Tweet-text {
+  margin-bottom: 0px !important;
 }
-.timeline-Tweet:hover {
-  background-color: red !important;
-}*/
-
+.timeline-ShowMoreButton {
+  padding: 0px 0 !important;
+  margin: 10px 0 10px 0 !important;
+  border-radius: 3px !important;
+}
+/*! Твиттер конец*/
 
 
 
