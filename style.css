@@ -532,22 +532,22 @@ body {
     justify-content: space-between;
     font-size: 0.91em;
 }
-
-
-.new-event {
+/*! Таймер старт*/
+.timer {
   display: flex;
   align-items: center;
   padding-left: 15px;
 }
 
-.new-event span:hover {
+.timer span:hover {
   cursor: help;
 }
 
-.new-event span i {
+.timer .timer__body .timer__items i {
   font-size: 1.1em;
   padding-right: 5px;
 }
+/*! Таймер конец*/
 
 .header__group {
   display: flex;
@@ -994,7 +994,7 @@ body.dark {
   line-height: 3em;
 }
 .comment-block__gossip span:first-child {
-  padding: 0 10px 0 0;
+  padding: 0 1.1em 0 0;
 }
 .comment-block__user {
   display: flex;
