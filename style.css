@@ -994,7 +994,7 @@ body.dark {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 0.6em 0 0.6em;
+  /* padding: 0 0.6em 0 0.6em; */
   line-height: 3em;
 }
 .comment-block__gossip span:first-child {
@@ -1138,19 +1138,28 @@ table.popular__table tbody tr {
 
 /*! Твиттер старт*/
 .twitter-block {
-  padding: 1.5em 0px 1.5em 0px;
+  /* padding: 1.5em 0px 1.5em 0px; */
   text-align: center;
-  background-color: #e7f3fa;
   border-radius: 3px;
 }
 .twitter-block__head {
+  padding: 1.5em 0 0.5em 0;
+  font-family: tahoma, Arial, Helvetica, sans-serif;
+  color: #1f73cc;
+  background-color: rgb(231, 243, 250);
+  border-radius: 3px 3px 0px 0px;
 }
 .twitter-block__term {
 }
 .twitter-block__body {
   box-shadow: 0 1px 2px rgb(0 0 0 / 50%) inset, 0 -1px 0 rgb(0 0 0 / 20%) inset !important;
+  border-radius: 3px;
+  margin: 0 0px 0 0px;
 }
 .twitter-block__footer {
+  padding-top: 1.5em;
+  background-color: rgb(231, 243, 250);
+  border-radius: 0px 0px 3px 3px;
 }
 
 /*! Лента Твиттера*/
