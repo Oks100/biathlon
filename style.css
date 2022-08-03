@@ -574,10 +574,6 @@ body {
   margin-right: 20px;
 }
 
-.header__massages span{
-  /* margin-right: 12px; */
-}
-
 .header__massages span a{
   color: white;
 }
@@ -598,16 +594,6 @@ body {
   position: relative;
   margin-bottom: 2px;
 }
-
-/* .header__number-massage {
-  position: absolute;
-  top: -4px;
-  right: -22px;
-  text-align: center;
-} 
-.header__massages span .header__link-massage:hover .header__number-massage {
-  top: -4.6px;
-}  */
 .header__number-massage {
   position: absolute;
   top: -4px;
@@ -619,34 +605,22 @@ body {
 .header__number-massage span {
   font-weight: 600;
 }
-.header__number-massage span {
-  /* font-size: 0.75em; */
-}
 .header__number-massage span::before {
-  font-size: 1em;
-  content: "\e920"; /*! кружок из fontawesome, шрифт tahoma 144 жирный*/
-  font-family: 'icomoon', sans-serif;
+  content: "\e920";
+  font-family: 'icomoon' !important;
   color: red;
   background-color: white;
   border-radius: 50%;
   margin: 1.8px;
 }
 
-
 .header__link-massage:hover span::before {
   background-color: #ffd700;
 }
 
-/* .header__number-massage span::after {
-  font-size: 1em;
-  content: "\e91f";
-  font-family: 'icomoon', sans-serif;
-  color: white;
-} */
-
 .header__massages span .header__link-massage::after {
   content: "\e91b";
-  font-family: 'icomoon', sans-serif;
+  font-family: 'icomoon' !important;
   font-size: 1.2em;
 }
 
@@ -658,6 +632,9 @@ body {
 
 .header__massages .header__hello .header__username {
   padding: 0 7px 0 5px;
+}
+
+.header__active__massage{
 }
 
 /*! Переключитель*/
