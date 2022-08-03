@@ -1368,6 +1368,9 @@ table.popular__table tbody tr {
   text-align: left;
   padding: 0.7em 0 0.7em 0;
 }
+.interview-block__items:first-of-type {
+  padding-top: 0;
+}
 .interview-block__items:last-child {
   border-bottom: none;
   padding: 0.7em 0 0 0;
