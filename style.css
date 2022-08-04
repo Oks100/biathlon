@@ -606,8 +606,9 @@ body {
   font-weight: 600;
 }
 .header__number-massage span::before {
-  content: "\e920";
-  font-family: 'icomoon' !important;
+  /* content: "\e920"; */
+  content: "\e908";
+  font-family: 'icomoon';
   color: red;
   background-color: white;
   border-radius: 50%;
@@ -619,8 +620,8 @@ body {
 }
 
 .header__massages span .header__link-massage::after {
-  content: "\e91b";
-  font-family: 'icomoon' !important;
+  content: "\e914";
+  font-family: 'icomoon';
   font-size: 1.2em;
 }
 
