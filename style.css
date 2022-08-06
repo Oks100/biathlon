@@ -897,7 +897,8 @@ body.dark {
   }
   .vertical-menu-block__categories span {
     display: flex;
-    padding: 0.3em 0.3em 0.3em 1em;
+    align-items: center;
+    padding: 0.3em 0.3em 0.3em 0.3em;
     justify-content: center;
     font-weight: 600;
     height: 29.1333;
@@ -915,11 +916,11 @@ body.dark {
     background-color: white;
     border-bottom: 1px solid #c0d1db;
   }
-  .vertical-menu-block__body .vertical-menu-block__list-last li:last-child {
+  .vertical-menu-block__body .vertical-menu-block__list-four li:last-child {
     border-bottom: none;
     border-radius: 0 0 3px 3px;
   }
-  .vertical-menu-block__body .vertical-menu-block__list-last li:last-child::before {
+  .vertical-menu-block__body .vertical-menu-block__list-four li:last-child::before {
     height: 30px;
     border-radius: 0 0 3px 3px;
   }
