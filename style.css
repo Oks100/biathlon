@@ -902,7 +902,19 @@ body.dark {
     justify-content: center;
     font-weight: 600;
     height: 29.1333;
-    background: #d1ebfb;
+    /* background: #d1ebfb; */
+    
+    /* background: -moz-linear-gradient(-45deg, rgba(208,228,247,1) 0%, rgba(169,216,242,1) 25%, rgba(209,235,251,1) 50%, rgba(171,220,244,1) 75%, rgba(209,235,251,1) 100%);
+    background: -webkit-linear-gradient(-45deg, rgba(208,228,247,1) 0%,rgba(169,216,242,1) 25%,rgba(209,235,251,1) 50%,rgba(171,220,244,1) 75%,rgba(209,235,251,1) 100%);
+    background: linear-gradient(135deg, rgba(208,228,247,1) 0%,rgba(169,216,242,1) 25%,rgba(209,235,251,1) 50%,rgba(171,220,244,1) 75%,rgba(209,235,251,1) 100%); */
+    
+    /* background: -moz-linear-gradient(-45deg, rgba(209,235,251,1) 0%, rgba(179,218,239,1) 25%, rgba(209,235,251,1) 50%, rgba(179,218,239,1) 75%, rgba(209,235,251,1) 100%);
+    background: -webkit-linear-gradient(-45deg, rgba(209,235,251,1) 0%,rgba(179,218,239,1) 25%,rgba(209,235,251,1) 50%,rgba(179,218,239,1) 75%,rgba(209,235,251,1) 100%);
+    background: linear-gradient(135deg, rgba(209,235,251,1) 0%,rgba(179,218,239,1) 25%,rgba(209,235,251,1) 50%,rgba(179,218,239,1) 75%,rgba(209,235,251,1) 100%); */
+    
+    background: -moz-linear-gradient(-45deg, rgba(209,235,251,1) 0%, rgba(171,220,244,1) 25%, rgba(209,235,251,1) 50%, rgba(171,220,244,1) 75%, rgba(209,235,251,1) 100%);
+    background: -webkit-linear-gradient(-45deg, rgba(209,235,251,1) 0%,rgba(171,220,244,1) 25%,rgba(209,235,251,1) 50%,rgba(171,220,244,1) 75%,rgba(209,235,251,1) 100%);
+    background: linear-gradient(135deg, rgba(209,235,251,1) 0%,rgba(171,220,244,1) 25%,rgba(209,235,251,1) 50%,rgba(171,220,244,1) 75%,rgba(209,235,251,1) 100%);
     border-bottom: 1px solid #c0d1db;
     border-radius: 3px 3px 0 0;
   }
@@ -973,6 +985,14 @@ body.dark {
     -o-transition-duration: .3s;
     transition-duration: .3s;
   }
+
+  /* .vertical-menu-block__list-one, .vertical-menu-block__list-two, .vertical-menu-block__list-three, .vertical-menu-block__list-four{
+    display: none !important;
+  }
+
+  .vertical-menu-block__list-one.active, .vertical-menu-block__list-two.active, .vertical-menu-block__list-three.active, .vertical-menu-block__list-four.active {
+    display: flex !important;
+  } */
 
   .slider-block {
   }
