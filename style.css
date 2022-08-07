@@ -773,7 +773,7 @@ body.dark {
   .main-cup {
     /*font-family: tahoma, Arial, Helvetica, sans-serif;*/
     /*font-size: 0.95em;*/
-    padding: 1.5em 0.6em 1.5em 0.6em;
+    padding: 1.5em 0.6em 0.75em 0.6em;
     background-color: #e7f3fa;
     border-radius: 3px;
   }
@@ -1101,11 +1101,33 @@ body.dark {
 }
 .next-race-block__time {
 }
-.next-race-block__time span {
+.next-race-block__time span{
   font-weight: 600;
 }
-.next-race-block__time span:first-child {
-  padding-right: 10px;
+.next-race-block__time span:first-child::before, .next-translate-block__time span:first-child::before, .interview-block__gossip_date span:first-child::before, .comment-block__data span:first-child::before {
+  /* content: "\f073";
+  font-family: 'fontAwesome'; */
+  content: "\e900";
+  font-family: 'icomoon';
+  font-size: 1em;
+  font-weight: normal;
+  padding-right: 5px;
+  color: rgba(47, 111, 200, 0.75);
+}
+.next-race-block__time span + span::before, .next-translate-block__time span + span::before, .interview-block__gossip_date span + span::before, .blogs-block__item span::before, .comment-block__data span + span::before {
+  /* content: "\f017";
+  font-family: 'fontAwesome'; */
+  /* content: "\e902"; */
+  content: "\e905";
+  font-family: 'icomoon';
+  font-size: 1em;
+  font-weight: normal;
+  padding-right: 5px;
+  color: rgba(47, 111, 200, 0.75);
+  vertical-align: bottom;
+}
+.next-race-block__time span:first-child, .next-translate-block__time span:first-child, .interview-block__gossip_date span:first-child {
+  margin-right: 1.5em;
 }
 .next-race-block__type {
 }
@@ -1141,9 +1163,6 @@ body.dark {
 .next-translate-block__time span {
   font-weight: 600;
 }
-.next-translate-block__time span:first-child {
-  padding-right: 10px;
-}
 .next-translate-block__type {
 }
 
@@ -1157,6 +1176,12 @@ body.dark {
 }
 .blogs-block__item span {
   display: flex;
+}
+.blogs-block__item span::before {
+  /* content: "\e901";
+  font-family: 'icomoon';
+  font-weight: normal;
+  margin-right: 5px; */
 }
 .blogs-block__item {
   padding-bottom: 0.7em;
@@ -1184,9 +1209,8 @@ body.dark {
   
 .comment-block {
 }
-.comment-block__header {
-  text-transform: uppercase;
-  padding: 0 0.6em 0 0.6em;
+.comment-block__head {
+  margin-bottom: 0em;
   font-family: tahoma, Arial, Helvetica, sans-serif;
   color: #1f73cc;
 }
@@ -1200,7 +1224,7 @@ body.dark {
 }
 
 .sidebar-block {
-  padding: 1.5em 1em 1.5em 1em;
+  padding: 1.5em 1em 0.75em 1em;
   text-align: center;
   background-color: #e7f3fa;
   border-radius: 3px;
@@ -1213,38 +1237,56 @@ body.dark {
   border-radius: 3px;
 }
 .sidebar-block3 {
-  padding: 1.5em 1em 1.5em 1em;
+  padding: 1.5em 1em 0.75em 1em;
   background-color: #e7f3fa;
   border-radius: 3px;
 }
 
 .comment-block__gossip {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  /* justify-content: space-between;
+  align-items: center; */
   /* padding: 0 0.6em 0 0.6em; */
-  line-height: 3em;
+  /* line-height: 3em; */
+  flex-direction: column;
 }
 .comment-block__gossip span:first-child {
   padding: 0 1.1em 0 0;
 }
-.comment-block__user {
+.comment-block__user-avatar {
   display: flex;
   align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  text-align: left;
+}
+.comment-block__user-avatar::before {
+  content: "\e904";
+  font-family: 'icomoon';
+  font-size: 3.5em;
+  padding-right: 0.2em;
+  color: rgba(47, 111, 200, 0.75);
+}
+
+.comment-block__name-user, .interview-block__gossip_name {
+  font-weight: 600;
 }
 a.user:hover {
-  border: none;
+  /* border: none; */
 }
-.comment-block__user::before {
-  content: "\f2bd";
+.comment-block__name-user::before {
+  /* content: "\f2bd";
   font-family: 'Line Awesome Free';
   font-size: 2.5em;
-  padding-right: 0.15em;
+  padding-right: 0.15em; */
 }
-.comment-block__user:hover:before {
-  color: #002b71;
+.comment-block__name-user:hover:before {
+  /* color: #002b71; */
 }
 .comment-block__data {
+  display: flex;
+}
+.comment-block__data span {
   display: flex;
 }
 .comment-block .comment-block__rumor {
@@ -1297,7 +1339,7 @@ table.popular__table tbody tr td:nth-child(2) {
 table.stars-table tbody tr td:nth-child(3)::before {
   content: "\f005";
   font-family: FontAwesome;
-  color: rgb(47, 111, 200);
+  color: rgba(47, 111, 200, 0.75);
   padding-right: 5px;
   font-size: 0.9em;
 }
@@ -1556,9 +1598,9 @@ table.popular__table tbody tr {
 .interview-block__gossip_date {
   display: flex;
 }
-.interview-block__gossip_date span:first-child {
+/* .interview-block__gossip_date span:first-child {
   padding-right: 1.1em;
-}
+} */
 .interview-block__rumor {
 }
 .interview-block__footer {
