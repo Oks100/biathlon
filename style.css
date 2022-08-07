@@ -676,7 +676,7 @@ body.dark {
 
 /*  target the elemenent after the label*/
 .checkbox:checked + .label .ball{
-  transform: translateX(25px);
+  transform: translateX(26px);
 }
 
 .fa-moon {
@@ -1126,7 +1126,7 @@ body.dark {
   color: rgba(47, 111, 200, 0.75);
   vertical-align: bottom;
 }
-.next-race-block__time span:first-child, .next-translate-block__time span:first-child, .interview-block__gossip_date span:first-child {
+.next-race-block__time span:first-child, .next-translate-block__time span:first-child, .interview-block__gossip_date span:first-child, .comment-block__user-avatar span:first-child {
   margin-right: 1.5em;
 }
 .next-race-block__type {
@@ -1243,16 +1243,16 @@ body.dark {
 }
 
 .comment-block__gossip {
-  display: flex;
-  /* justify-content: space-between;
-  align-items: center; */
-  /* padding: 0 0.6em 0 0.6em; */
-  /* line-height: 3em; */
-  flex-direction: column;
+  /* display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 0.6em 0 0.6em;
+  line-height: 3em; 
+  flex-direction: column; */
 }
-.comment-block__gossip span:first-child {
+/* .comment-block__gossip span:first-child {
   padding: 0 1.1em 0 0;
-}
+} */
 .comment-block__user-avatar {
   display: flex;
   align-items: center;
@@ -1596,6 +1596,10 @@ table.popular__table tbody tr {
 .interview-block__gossip_name {
 }
 .interview-block__gossip_date {
+  display: flex;
+  align-items: center;
+}
+.interview-block__gossip_date span {
   display: flex;
 }
 /* .interview-block__gossip_date span:first-child {
