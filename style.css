@@ -945,7 +945,7 @@ body.dark {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 0 1rem;
+    margin-right: 1em;
   }
   .timeline__footer button .text, .timeline__footer button .icon-container {
     position: relative;
