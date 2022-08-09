@@ -775,18 +775,16 @@ body.dark {
   }
   .important-news__item {
   }
-  .important-news__news-spoiler {
-    background-color: #e7f3fa;
-    border-radius: 3px;
-  }
   .timeline__body-important-news .spoiler {
     display: flex;
     cursor: pointer;
     padding: 1.5em 1.2em 1.5em 1.2em;
     font-weight: 600;
     justify-content: center;
-    transition-delay: 0.3s;
-  }   
+    transition-delay: 0.25s;
+    background-color: #e7f3fa;
+    border-radius: 3px;
+  }
   .timeline__body-important-news .spoiler:after {
     /* content: "\e907";
     font-family: 'icomoon';
@@ -822,7 +820,7 @@ body.dark {
     content: '';
     transform: rotate(-43deg);
     top: 10px;
-    left: 8px;
+    left: 8.1px;
     width: 13px;
     height: 2px;
     background-color: #5d90d5;
@@ -840,6 +838,9 @@ body.dark {
   .important-news__list {
     display: none;
     padding: 1.5em 1.2em 1.5em 1.2em;
+    background-image: url(/img/bl-min2.png);
+    background-position: 100% 50%;
+    background-repeat: no-repeat;
   }
   .important-news__item {
   }
