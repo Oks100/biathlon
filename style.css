@@ -771,19 +771,18 @@ body.dark {
     border-radius: 3px;
     box-shadow: 0px 5px 24px rgba(32,60,87,0.11);
   }
-  .important-news__body {
-  }
   .important-news__item {
   }
   .timeline__body-important-news .spoiler {
     display: flex;
     cursor: pointer;
-    padding: 1.5em 1.2em 1.5em 1.2em;
+    padding: 1.1em 1.2em 1.1em 1.2em;
     font-weight: 600;
     justify-content: center;
     transition-delay: 0.25s;
-    background-color: #e7f3fa;
+    /* background-color: #e7f3fa; */
     border-radius: 3px;
+    font-size: 1.1em;
   }
   .timeline__body-important-news .spoiler:after {
     /* content: "\e907";
@@ -858,14 +857,178 @@ body.dark {
   .timeline__item {
     background-color: #fff;
     border-radius: 3px;
-    padding: 1.5em 1.2em 1.2em 1.2em;
+    padding: 1.5em 1.5em 1.5em 1.5em;
+  }
+  .timeline__head a:hover {
+    border: none;
   }
   .timeline__head {
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    /* webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center; */
+  }
+  .timeline__head a {
+    font-size: 1.25em;
+    color: black;
+    font-weight: 700;
+  }
+  .timeline__head {
+    border-bottom: 1px solid #c0d1db;
+    padding-bottom: 0.75em;
+  }
+  .timeline__date {
+    font-size: 0.95em;
+    white-space: nowrap;
+    margin: 4px 0 0 20px;
+  }
+  .timeline__body {
+    padding: 0.75em 0 0.75em 0;
+    text-align: left;
+    display: inline-block;
+    border-bottom: 1px solid #c0d1db;
+  }
+  .timeline__body .img-right {
+    float: right;
+    margin: 0 0 10px 10px;
+    border-radius: 3px;
   }
   .timeline__footer {
+    display: flex;
+    padding-top: 0.75em;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    font-size: 0.95em;
   }
+  /* .timeline__btn-more {
+    outline: 1px solid black;
+    border-radius: 3px;
+    padding: 5px;
+  }
+  a.timeline__btn-more:hover {
+    border: none;
+  } */
 
 
+  .btn-container {
+    /* width: 100%;
+    height: 100%; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    --btn-bg: #b9e4ff;
+  }
+  button {
+    --width: 100px;
+    --height: 33px;
+    border: 0;
+    position: relative;
+    min-width: var(--width);
+    min-height: var(--height);
+    border-radius: var(--height);
+    color: #002b71;
+    /*font-family: arial;*/
+    background: #d1ebfb;
+    cursor: pointer;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 1rem;
+  }
+  button .text, button .icon-container {
+    position: relative;
+    z-index: 2;
+    padding-left: 15px;
+  }
+  button .icon-container {
+    --icon-size: 20px;
+    position: relative;
+    width: 25px;
+    height: 20px;
+    margin-left: 13px;
+    transition: transform 500ms ease;
+  }
+  button .icon-container .icon {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: var(--icon-size);
+    height: var(--icon-size);
+    transition: transform 500ms ease, opacity 250ms ease;
+  }
+  button .icon-container .icon--left {
+    transform: translateX(-200%);
+    opacity: 0;
+  }
+  button .icon-container .icon svg {
+    width: 100%;
+    height: 100%;
+    fill: #002b7194;
+  }
+  button::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: var(--btn-bg);
+    border-radius: var(--height);
+    z-index: 1;
+    transition: transform 500ms ease;
+  }
+  button:hover::after {
+    transform: translateX(76%);
+  }
+  button:hover .icon-container .icon--left {
+    transform: translateX(10%);
+    opacity: 1;
+  }
+  button:hover .icon-container .icon--right {
+    transform: translateX(200%);
+    opacity: 0;
+  }
+  .support {
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    padding: 10px;
+    display: flex;
+  }
+  .support a {
+    margin: 0 10px;
+    /* color: red; */
+    font-size: 1.8rem;
+    backface-visibility: hidden;
+    transition: all 150ms ease;
+  }
+  .support a:hover {
+    transform: scale(1.1);
+  }
+  
+  
+
+
+  .timeline__btn-more::after {
+
+  }
+  .timeline__comments {
+
+  }
+  a.timeline__comments:hover {
+    border: none;
+  }
+  .timeline__comments-refer {
+
+  }
 
 
 
@@ -1225,17 +1388,18 @@ body.dark {
 .next-race-block__time span{
   font-weight: 600;
 }
-.next-race-block__time span:first-child::before, .next-translate-block__time span:first-child::before, .interview-block__gossip_date span:first-child::before, .comment-block__data span:first-child::before {
+.next-race-block__time span:first-child::before, .next-translate-block__time span:first-child::before, .interview-block__gossip_date span:first-child::before, .comment-block__data span:first-child::before, .timeline__date span:first-child::before {
   /* content: "\f073";
   font-family: 'fontAwesome'; */
-  content: "\e900";
+  /* content: "\e900"; */
+  content: "\e909";
   font-family: 'icomoon';
   font-size: 0.95em;
   font-weight: normal;
   padding-right: 5px;
   color: rgba(47, 111, 200, 0.75);
 }
-.next-race-block__time span + span::before, .next-translate-block__time span + span::before, .interview-block__gossip_date span + span::before, .blogs-block__item span::before, .comment-block__data span + span::before {
+.next-race-block__time span + span::before, .next-translate-block__time span + span::before, .interview-block__gossip_date span + span::before, .blogs-block__item span::before, .comment-block__data span + span::before, .timeline__date span + span::before {
   /* content: "\f017";
   font-family: 'fontAwesome'; */
   /* content: "\e902"; */
@@ -1247,8 +1411,8 @@ body.dark {
   color: rgba(47, 111, 200, 0.75);
   vertical-align: bottom;
 }
-.next-race-block__time span:first-child, .next-translate-block__time span:first-child, .interview-block__gossip_date span:first-child, .comment-block__user-avatar span:first-child {
-  margin-right: 1.5em;
+.next-race-block__time span:first-child, .next-translate-block__time span:first-child, .interview-block__gossip_date span:first-child, .comment-block__user-avatar span:first-child, .timeline__date span:first-child {
+  margin-right: 1em;
 }
 .next-race-block__type {
 }
