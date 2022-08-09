@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'icomoon';
-  src:  url('fonts/icomoon.eot?lrm4qk');
-  src:  url('fonts/icomoon.eot?lrm4qk#iefix') format('embedded-opentype'),
-    url('fonts/icomoon.ttf?lrm4qk') format('truetype'),
-    url('fonts/icomoon.woff?lrm4qk') format('woff'),
-    url('fonts/icomoon.svg?lrm4qk#icomoon') format('svg');
+  src:  url('fonts/icomoon.eot?6nn0t7');
+  src:  url('fonts/icomoon.eot?6nn0t7#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?6nn0t7') format('truetype'),
+    url('fonts/icomoon.woff?6nn0t7') format('woff'),
+    url('fonts/icomoon.svg?6nn0t7#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -25,8 +25,17 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-comments2:before {
+  content: "\e907";
+}
+.icon-calendar1:before {
+  content: "\e909";
+}
 .icon-arrow-right:before {
   content: "\e902";
+}
+.icon-arrow-list:before {
+  content: "\e901";
 }
 .icon-clock2:before {
   content: "\e905";
@@ -37,11 +46,8 @@
 .icon-user-female:before {
   content: "\e904";
 }
-.icon-atte2:before {
+.icon-comments:before {
   content: "\e906";
-}
-.icon-atte:before {
-  content: "\e907";
 }
 .icon-calendar3:before {
   content: "\e900";
@@ -51,7 +57,4 @@
 }
 .icon-number33:before {
   content: "\e908";
-}
-.icon-sort-amount-desc:before {
-  content: "\e901";
 }
