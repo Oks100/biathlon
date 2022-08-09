@@ -534,6 +534,9 @@ body {
     justify-content: space-between;
     font-size: 0.91em;
 }
+.header-block {
+  font-size: 1em;
+}
 /*! Таймер старт*/
 .timer {
   display: flex;
@@ -858,6 +861,7 @@ body.dark {
     background-color: #fff;
     border-radius: 3px;
     padding: 1.5em 1.5em 1.5em 1.5em;
+    box-shadow: 0px 5px 24px rgba(32,60,87,0.11);
   }
   .timeline__head a:hover {
     border: none;
@@ -925,7 +929,7 @@ body.dark {
     align-items: center;
     --btn-bg: #b9e4ff;
   }
-  button {
+  .timeline__footer button {
     --width: 100px;
     --height: 33px;
     border: 0;
@@ -943,12 +947,12 @@ body.dark {
     align-items: center;
     margin: 0 1rem;
   }
-  button .text, button .icon-container {
+  .timeline__footer button .text, .timeline__footer button .icon-container {
     position: relative;
     z-index: 2;
     padding-left: 15px;
   }
-  button .icon-container {
+  .timeline__footer button .icon-container {
     --icon-size: 20px;
     position: relative;
     width: 25px;
@@ -956,7 +960,7 @@ body.dark {
     margin-left: 13px;
     transition: transform 500ms ease;
   }
-  button .icon-container .icon {
+  .timeline__footer button .icon-container .icon {
     position: absolute;
     left: 0;
     top: 0;
@@ -964,16 +968,16 @@ body.dark {
     height: var(--icon-size);
     transition: transform 500ms ease, opacity 250ms ease;
   }
-  button .icon-container .icon--left {
+  .timeline__footer button .icon-container .icon--left {
     transform: translateX(-200%);
     opacity: 0;
   }
-  button .icon-container .icon svg {
+  .timeline__footer button .icon-container .icon svg {
     width: 100%;
     height: 100%;
     fill: #002b7194;
   }
-  button::after {
+  .timeline__footer button::after {
     content: "";
     position: absolute;
     left: 0;
@@ -985,14 +989,14 @@ body.dark {
     z-index: 1;
     transition: transform 500ms ease;
   }
-  button:hover::after {
+  .timeline__footer button:hover::after {
     transform: translateX(76%);
   }
-  button:hover .icon-container .icon--left {
+  .timeline__footer button:hover .icon-container .icon--left {
     transform: translateX(10%);
     opacity: 1;
   }
-  button:hover .icon-container .icon--right {
+  .timeline__footer button:hover .icon-container .icon--right {
     transform: translateX(200%);
     opacity: 0;
   }
@@ -1029,12 +1033,15 @@ body.dark {
   .timeline__comments-refer {
 
   }
-
-
-
-  .header-block {
-    font-size: 1em;
+  .timeline__comments-refer::before {
+    content: "\e907";
+    font-family: 'icomoon';
+    padding-right: 5px;
+    font-size: 0.90em;
   }
+
+
+
   .left-sidebar, .right-sidebar {
     /*padding: 1em 0.6em 1em 0.6em;*/
     display: flex;
