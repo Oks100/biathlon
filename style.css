@@ -840,7 +840,7 @@ body.dark {
   .important-news__list {
     display: none;
     padding: 1.5em 1.2em 1.5em 1.2em;
-    background-image: url(/img/bl-min2.png);
+    background-image: url(img/bl-min2.png);
     background-position: 100% 50%;
     background-repeat: no-repeat;
   }
