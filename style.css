@@ -951,6 +951,7 @@ body.dark {
     position: relative;
     z-index: 2;
     padding-left: 15px;
+    padding-bottom: 1.5px;
   }
   .timeline__footer button .icon-container {
     --icon-size: 20px;
@@ -993,7 +994,7 @@ body.dark {
     transform: translateX(76%);
   }
   .timeline__footer button:hover .icon-container .icon--left {
-    transform: translateX(10%);
+    transform: translateX(13%);
     opacity: 1;
   }
   .timeline__footer button:hover .icon-container .icon--right {
