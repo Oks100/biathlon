@@ -1028,6 +1028,9 @@ body.dark {
   .timeline__comments {
 
   }
+  .timeline__comments span + span {
+    color: black;
+  }
   a.timeline__comments:hover {
     border: none;
   }
