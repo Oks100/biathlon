@@ -26,6 +26,18 @@ body {
     flex-direction: column;
     gap: 5px;
   }
+
+  a[href*="http"]::before {
+    content: "\e911";
+    font-family: 'icomoon';
+    font-size: 0.95em;
+    padding-right: 5px;
+    color: rgba(47, 111, 200, 0.75);
+  }
+
+  a[href*="http"]:hover::before {
+    color: #73b5e5;
+  }
   .header {
     /*padding: 15px;*/
     display: flex;
@@ -1404,7 +1416,7 @@ body.dark {
   /* content: "\f073";
   font-family: 'fontAwesome'; */
   /* content: "\e900"; */
-  content: "\e909";
+  content: "\e900";
   font-family: 'icomoon';
   font-size: 0.95em;
   font-weight: normal;
