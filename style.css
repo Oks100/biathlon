@@ -1226,7 +1226,7 @@ body.dark {
   .vertical-menu-block__categories {
     padding: 1.6px 0.8px 0.8px 0.8px;
   }
-  .vertical-menu-block__categories span {
+  .vertical-menu-block__categories span:not(.news_date) {
     display: flex;
     align-items: center;
     padding: 0.3em 0.3em 0.3em 0.3em;
@@ -1315,6 +1315,10 @@ body.dark {
     -moz-transition-duration: .3s;
     -o-transition-duration: .3s;
     transition-duration: .3s;
+  }
+  .vertical-menu-block__link .news_date {
+    padding-left: 10px;
+    color: #6699cc;
   }
 
   /* .vertical-menu-block__list-one, .vertical-menu-block__list-two, .vertical-menu-block__list-three, .vertical-menu-block__list-four{
