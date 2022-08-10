@@ -1199,7 +1199,7 @@ body.dark {
   table.main-cup__top10 tbody tr:nth-child(2n+1) {
     background-color: #d1ebfb;
   }
-  .main-cup__top10 .red-color {
+  .main-cup__top10 .red-color, .timeline__item .red-color {
     color: red;
   }
   .main-cup__top10 .red-color:hover {
