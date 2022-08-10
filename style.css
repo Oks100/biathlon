@@ -28,7 +28,8 @@ body {
   }
 
   a[href*="http"]::before {
-    content: "\e911";
+    /* content: "\e911"; */
+    content: "\e90a";
     font-family: 'icomoon';
     font-size: 0.95em;
     padding-right: 5px;
