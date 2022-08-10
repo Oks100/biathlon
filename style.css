@@ -1344,6 +1344,12 @@ body.dark {
   .swiper-button-prev {
     padding-left: 15px !important;
   }
+  .swiper-pagination-progressbar .swiper-pagination-progressbar-fill {
+    background: #1f73cc !important;
+  }
+  .swiper-button-next, .swiper-button-prev {
+    color: #1f73cc !important;
+  }
   .swiper-button-next, .swiper-button-prev {
   }
   .swiper-lazy-preloader {
@@ -1536,6 +1542,7 @@ body.dark {
   padding: 1.5em 1em 0.75em 1em;
   text-align: center;
   background-color: #e7f3fa;
+  /* background-color: #edf8ff; */ /* ! Возможный цвет*/
   border-radius: 3px;
   box-shadow: 0px 5px 24px rgba(32,60,87,0.11);
 }
