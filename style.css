@@ -66,6 +66,9 @@ body {
     border-bottom: 1px solid #fff;
     padding-bottom: 2.2px;
   }
+  .timeline__body a[href$=".jpg"]:hover {
+    border-bottom: none;
+  }
   .header {
     /*padding: 15px;*/
     display: flex;
