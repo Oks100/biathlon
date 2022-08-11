@@ -1446,7 +1446,7 @@ body.dark {
 .next-race-block__time span{
   font-weight: 600;
 }
-.next-race-block__time span:first-child::before, .next-translate-block__time span:first-child::before, .interview-block__gossip_date span:first-child::before, .comment-block__data span:first-child::before, .timeline__date span:first-child::before {
+.next-race-block__time span:first-child::before, .next-translate-block__time span:first-child::before, .blogs-block__item span::before, .interview-block__gossip_date span:first-child::before, .comment-block__data span:first-child::before, .timeline__date span:first-child::before {
   /* content: "\f073";
   font-family: 'fontAwesome'; */
   /* content: "\e900"; */
@@ -1457,7 +1457,7 @@ body.dark {
   padding-right: 5px;
   color: rgba(47, 111, 200, 0.75);
 }
-.next-race-block__time span + span::before, .next-translate-block__time span + span::before, .interview-block__gossip_date span + span::before, .blogs-block__item span::before, .comment-block__data span + span::before, .timeline__date span + span::before {
+.next-race-block__time span + span::before, .next-translate-block__time span + span::before, .interview-block__gossip_date span + span::before, .comment-block__data span + span::before, .timeline__date span + span::before {
   /* content: "\f017";
   font-family: 'fontAwesome'; */
   /* content: "\e902"; */
