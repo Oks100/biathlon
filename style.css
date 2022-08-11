@@ -27,7 +27,7 @@ body {
     gap: 5px;
   }
 
-  a[href*="http"]::before {
+  .timeline__body a[href*="http"]::before {
     /* content: "\e911"; */
     content: "\e90a";
     font-family: 'icomoon';
@@ -44,7 +44,17 @@ body {
     color: rgba(47, 111, 200, 0.75);
   } */
 
-  a[href*="http"]:hover::before {
+  .timeline__body a[href*="http"]:hover::before {
+    color: #73b5e5;
+  }
+  .timeline__body a[href*="gallery"]::before {
+    content: "\e90c";
+    font-family: 'icomoon';
+    font-size: 0.95em;
+    padding-right: 5px;
+    color: rgba(47, 111, 200, 0.75);
+  }
+  .timeline__body a[href*="gallery"]:hover::before {
     color: #73b5e5;
   }
   .header {
@@ -921,27 +931,27 @@ body.dark {
     border-spacing: 0px !important;
     border-collapse: collapse !important;
   }
-  .timeline__body table td {
+  .timeline__body table td:not(.table0_100 tr td) {
     border: 1px solid black;
     padding: 3px;
   }
   @media screen and (max-width: 380px) {
-    .timeline__body table td {
+    .timeline__body table td:not(.table0_100 tr td) {
       padding: 2px;
     }
   }
   @media screen and (max-width: 365px) {
-    .timeline__body table td {
+    .timeline__body table td:not(.table0_100 tr td) {
       padding: 1px;
     }
   }
   @media screen and (max-width: 350px) {
-    .timeline__body table td {
+    .timeline__body table td:not(.table0_100 tr td) {
       padding: 0.3px;
     }
   }
   @media screen and (max-width: 340px) {
-    .timeline__body table td {
+    .timeline__body table td:not(.table0_100 tr td) {
       padding: 0px;
     }
   }
@@ -960,10 +970,36 @@ body.dark {
     padding: 3px;
     border-radius: 3px;
   }
-  .timeline__body .news_text tr td {
+  .timeline__body .news_text tr td:not(.table0_100 tr td) {
     width: 50% !important;
     border: none !important;
     padding: 0 !important;
+  }
+  .news_text.table0_100 tr td a:hover {
+    border: none;
+  }
+  .news_text.table0_100 tr td {
+    width: 33.3333%;
+  }
+  .news_text.table0_100 tr td a img {
+    object-fit: cover;
+    height: 223px;
+    width: auto;
+    transition: 1s;
+  }
+  .news_text.table0_100 tr td a img:hover{
+    transform: scale(1.1);
+  }
+  .news_text.table0_100 tr td a {
+    display: block;
+    overflow: hidden;
+    height: 223px;
+    width: auto;
+    margin: 3px;
+    border-radius: 3px;
+  }
+  .news_text.table0_100 tr td a:hover:last-of-type {
+    background: rgb(69, 69, 69) none repeat scroll 0% 0%;
   }
   .news_text {
     border-spacing: 0px;
