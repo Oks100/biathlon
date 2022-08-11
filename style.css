@@ -988,7 +988,7 @@ body.dark {
     transition: 1s;
   }
   .news_text.table0_100 tr td a img:hover{
-    transform: scale(1.1);
+    transform: scale(1.07);
   }
   .news_text.table0_100 tr td a {
     display: block;
