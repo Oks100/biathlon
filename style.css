@@ -26,9 +26,10 @@ body {
     flex-direction: column;
     gap: 5px;
   }
-
+  .timeline__body a[href*="http"] {
+    position: relative;
+  }
   .timeline__body a[href*="http"]::before {
-    /* content: "\e911"; */
     content: "\e90a";
     font-family: 'icomoon';
     font-size: 0.95em;
@@ -47,15 +48,23 @@ body {
   .timeline__body a[href*="http"]:hover::before {
     color: #73b5e5;
   }
+  .timeline__body a[href*="gallery"] {
+    /* position: relative;
+    margin-left: 22px; */
+  }
   .timeline__body a[href*="gallery"]::before {
+    /* position: absolute;
+    left: -20px; */
     content: "\e90c";
     font-family: 'icomoon';
     font-size: 0.95em;
     padding-right: 5px;
     color: rgba(47, 111, 200, 0.75);
   }
-  .timeline__body a[href*="gallery"]:hover::before {
+  .timeline__body a[href*="gallery"]:hover::before, .timeline__body a[href*="http"]:hover::before {
     color: #73b5e5;
+    border-bottom: 1px solid #fff;
+    padding-bottom: 2.2px;
   }
   .header {
     /*padding: 15px;*/
