@@ -36,6 +36,13 @@ body {
     color: rgba(47, 111, 200, 0.75);
     font-style: normal;
   }
+  /* a[href$=".pdf"]::before {
+    content: "\e90b";
+    font-family: 'icomoon';
+    font-size: 1.1em;
+    padding-right: 3px;
+    color: rgba(47, 111, 200, 0.75);
+  } */
 
   a[href*="http"]:hover::before {
     color: #73b5e5;
@@ -909,6 +916,35 @@ body.dark {
     display: inline-block;
     /* border-bottom: 1px solid #c0d1db; */
   }
+  .timeline__body table {
+    width: 100% !important;
+    border-spacing: 0px !important;
+    border-collapse: collapse !important;
+  }
+  .timeline__body table td {
+    border: 1px solid black;
+    padding: 3px;
+  }
+  @media screen and (max-width: 380px) {
+    .timeline__body table td {
+      padding: 2px;
+    }
+  }
+  @media screen and (max-width: 365px) {
+    .timeline__body table td {
+      padding: 1px;
+    }
+  }
+  @media screen and (max-width: 350px) {
+    .timeline__body table td {
+      padding: 0.3px;
+    }
+  }
+  @media screen and (max-width: 340px) {
+    .timeline__body table td {
+      padding: 0px;
+    }
+  }
   .timeline__body img {
     max-width: 100%;
   }
@@ -926,6 +962,8 @@ body.dark {
   }
   .timeline__body .news_text tr td {
     width: 50% !important;
+    border: none !important;
+    padding: 0 !important;
   }
   .news_text {
     border-spacing: 0px;
