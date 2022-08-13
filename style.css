@@ -1322,11 +1322,13 @@ body.dark {
     content: "\f104";
     font-family: "FontAwesome";
     font-size: 1em;
+    color: #002b7194;
   }
   .timeline-navigation_arrow-right::after {
     content: "\f105";
     font-family: "FontAwesome";
     font-size: 1em;
+    color: #002b7194;
   }
   .timeline-navigation__list span {
     display: flex;
