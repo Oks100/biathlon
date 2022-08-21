@@ -1359,11 +1359,6 @@ body.dark {
     .slider-container3 .card {
       width: 49.5%;
     }
-    .slider-container3 {
-      width: 90%;
-      margin: 0 auto;
-      margin-top: 5px;
-      }
   }
   @media (min-width: 601px) {
   .timeline__body.gallery br:last-of-type {
@@ -1389,6 +1384,11 @@ body.dark {
       justify-content: initial;
       flex-wrap: nowrap;
     }
+    .slider-container3 {
+      width: 90%;
+      margin: 0 auto;
+      margin-top: 5px;
+      }
   }
 
 
