@@ -42,7 +42,7 @@ if (document.querySelector('.swiper-container')) {
 if (document.querySelector('.swiper-container2')) {
 	new Swiper('.swiper-container2', {
 		slidesPerView: 1,
-		spaceBetween: 10,
+		spaceBetween: 5,
 		loop: true,
 		pagination: {
 			el: '.swiper-pagination',
@@ -75,3 +75,53 @@ if (document.querySelector('.swiper-container2')) {
 		}
 	})
 }
+
+const slider = document.querySelector('.slider-container3');
+
+//  let mySwiper = new Swiper(slider, {
+// 	slidesPerView: 3,
+// 	spaceBetween: 10,
+//  	loop: true,
+//  	pagination: {
+//  		el: '.swiper-pagination',
+// 		clickable: true,
+//  	},
+//  	navigation: {
+//  		nextEl: '.swiper-button-next',
+//  		prevEl: '.swiper-button-prev',
+//  	},
+//  })
+
+let mySwiper;
+
+function mobileSlider() {
+	if (window.innerWidth <= 600 && slider.dataset.mobile == 'false') {
+		mySwiper = new Swiper(slider, {
+			slidesPerView: 1,
+			spaceBetween: 0,
+			loop: true,
+			effect: 'cards',
+			slideClass: 'card',
+			pagination: {
+			el: '.swiper-pagination',
+			clickable: true,
+			},
+		});
+
+		slider.dataset.mobile = 'true';
+	}
+
+	if (window.innerWidth > 600) {
+		slider.dataset.mobile = 'false';
+		if (slider.classList.contains('swiper-container-initialized')) {
+			mySwiper.destroy();
+		}
+	}
+}
+
+mobileSlider()
+
+window.addEventListener('resize', () => {
+	slidesPerView: 6,
+	mobileSlider();
+});
