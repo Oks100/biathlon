@@ -571,6 +571,12 @@ body {
     justify-content: space-around;
  }
 
+ @media (max-width: 601px) {
+  .header__menu-body {
+    display: none;
+  }
+  }
+
  .header__menu-body .header__additional-menu {
     display: flex;
     justify-content: space-between;
