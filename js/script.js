@@ -119,8 +119,8 @@ function mobileSlider() {
 	}
 }
 
-// mobileSlider()
+mobileSlider()
 
-// window.addEventListener('resize', () => {
-// 	mobileSlider();
-// });
+window.addEventListener('resize', () => {
+	mobileSlider();
+});
