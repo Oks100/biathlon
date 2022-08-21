@@ -122,6 +122,5 @@ function mobileSlider() {
 mobileSlider()
 
 window.addEventListener('resize', () => {
-	slidesPerView: 6,
 	mobileSlider();
 });
