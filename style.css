@@ -1364,6 +1364,9 @@ body.dark {
   .timeline__body.gallery br:last-of-type {
     display: none;
   }
+  .slider-container3 .swiper-pagination {
+    display: none;
+  }
   }
 
   @media (max-width: 600px) {
