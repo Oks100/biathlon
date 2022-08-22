@@ -1300,7 +1300,7 @@ body.dark {
 
 
 
-  .slider-container3 img {
+  /* .slider-container3 img {
     max-width: 100%;
     object-fit: cover;
     height: 100%;
@@ -1310,10 +1310,8 @@ body.dark {
     transform: scale(1.05);
     }
   .slider-container3 {
-    /* max-width: 1200px; */
     padding: 0;
     position: relative;
-    /* margin: 0 auto; */
     margin-top: 5px;
     }
   .slider-container3 .swiper-horizontal > .swiper-pagination-bullets, .slider-container3 .swiper-pagination-bullets.swiper-pagination-horizontal, .slider-container3 .swiper-pagination-custom, .swiper-pagination-fraction {
@@ -1345,11 +1343,7 @@ body.dark {
   }
   
   .slider-container3 .card {
-    /* width: 227px; */
-    /* width: 32.61%; */
     width: 32.8%;
-    /* margin-right: 5px;
-    margin-bottom: 5px; */
     padding: 0 !important;
     min-height: auto !important;
     overflow: hidden;
@@ -1392,7 +1386,7 @@ body.dark {
       margin: 0 auto;
       margin-top: 5px;
       }
-  }
+  } */
 
 
 
