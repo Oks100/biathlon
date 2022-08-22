@@ -76,7 +76,7 @@ if (document.querySelector('.swiper-container2')) {
 	})
 }
 
-const slider = document.querySelector('.slider-container3');
+/*const slider = document.querySelector('.slider-container3');
 
 let mySwiper;
 
@@ -111,4 +111,4 @@ mobileSlider()
 
 window.addEventListener('resize', () => {
 	mobileSlider();
-});
+});*/
