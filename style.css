@@ -2503,3 +2503,10 @@ nav, aside {
       max-width: 21.58%;
     }
   }
+
+
+  @media screen and (max-width: 992px) {
+    .header__menu-body {
+      display: none;
+  }
+  }
