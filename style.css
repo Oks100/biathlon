@@ -1311,7 +1311,7 @@ body.dark {
     padding-bottom: 50px;
     margin: 1.5em 30px 0 30px;
     overflow: hidden;
-    max-width: 90%;
+    max-width: 100%;
   }
   .timeline-sponsors .swiper-slide.card {
     justify-content: center;
@@ -1330,11 +1330,7 @@ body.dark {
     display: flex;
     justify-content: center;
     padding: 15px;
-    /* width: 100%; */
   }
-  /* .timeline-sponsors .swiper-container2 a:hover img {
-    transform: scale(1.05);
-  } */
 
   .timeline-sponsors .card img {
     max-width: 100%;
@@ -1352,12 +1348,7 @@ body.dark {
     border: 1px solid #c0d1db;
   }
   .timeline-sponsors .swiper-button-prev, .timeline-sponsors .swiper-button-next {
-    /* position: absolute;
-    margin-top: calc(-1 * var(--swiper-navigation-size)/ 2);
-    display: flex;
-    color: var(--swiper-navigation-color,var(--swiper-theme-color)); */
     height: 111px;
-    /* width: 35.7px; */
     width: 35px;
     top: 22px;
     transition: all 0.4s ease;
@@ -1372,15 +1363,13 @@ body.dark {
     background-color: #d1ebfb;
   }
   .timeline-sponsors .slider-container {
-    /* max-width: 1200px; */
-    /* padding: 0 15px; */
     padding: 0 5px;
     position: relative;
     margin: 0 auto;
-    max-width: 90%;
+    max-width: 100%;
   }
   .timeline-sponsors__body {
-    max-width: 90%;
+    max-width: 100%;
   }
   .timeline-sponsors button {
     border: none;
@@ -1389,28 +1378,6 @@ body.dark {
     padding: 0;
     font-size: 12px;
     }
-  /* .timeline-sponsors .swiper-button-prev {
-    background-image: url("back.svg");
-    }
-  .timeline-sponsors .swiper-button-next {
-    background-image: url("right.svg");
-    } */
-  /* .timeline-sponsors .swiper-button-prev, .swiper-button-next {
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: 20px 20px;
-    } */
-  /* .timeline-sponsors .slider-top {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
-    margin-bottom: 30px;
-    } */
-  /* .timeline-sponsors .slider-buttons {
-    display: flex;
-    align-items: center;
-    } */
   .timeline-sponsors .swiper-button-next::after, .timeline-sponsors .swiper-button-prev::after {
       font-size: 25px !important;
   }
@@ -1435,12 +1402,6 @@ body.dark {
   .timeline-sponsors .swiper-pagination-bullet-active {
     transition: all 0.5s ease;
   }
-
-  /* .timeline-sponsors .swiper-button-prev::after,
-  .timeline-sponsors .swiper-button-next::after {
-    display: none;
-  } */
-
 
 
 
