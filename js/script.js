@@ -56,7 +56,7 @@ if (document.querySelector('.swiper-container2')) {
     },
 		breakpoints: {
 			1025: {
-				slidesPerView: 3,
+				slidesPerView: 1,
 			},
 			500: {
 				slidesPerView: 1,
