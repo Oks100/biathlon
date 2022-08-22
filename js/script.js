@@ -86,7 +86,9 @@ function mobileSlider() {
 			slidesPerView: 1,
 			spaceBetween: 0,
 			loop: true,
-			effect: 'cards',
+      flipEffect: {
+        slideShadows: false,
+      },
 			slideClass: 'card',
 			pagination: {
 			el: '.swiper-pagination',
