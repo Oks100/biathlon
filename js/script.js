@@ -39,10 +39,10 @@ if (document.querySelector('.swiper-container')) {
 
 
 
-if (document.querySelector('.swiper-container2')) {
+/*if (document.querySelector('.swiper-container2')) {
 	new Swiper('.swiper-container2', {
 		slidesPerView: 1,
-		spaceBetween: 0,
+		spaceBetween: 5,
 		loop: true,
 		pagination: {
 			el: '.swiper-pagination',
@@ -55,16 +55,6 @@ if (document.querySelector('.swiper-container2')) {
     autoplay: {
       delay: 5000,
     },
-    // effect: 'creative',
-    // creativeEffect: {
-    //   limitProgress: 3,
-    //   prev: {
-    //     translate: [0, 0, -400],
-    //   },
-    //   next: {
-    //     translate: ['100%', 0, 0],
-    //   },
-    // },
 		breakpoints: {
 			1025: {
 				slidesPerView: 3,
@@ -74,4 +64,4 @@ if (document.querySelector('.swiper-container2')) {
 			}
 		}
 	})
-}
+}*/
