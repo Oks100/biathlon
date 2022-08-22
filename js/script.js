@@ -39,9 +39,8 @@ if (document.querySelector('.swiper-container')) {
 
 
 
-/*if (document.querySelector('.swiper-container2')) {
+if (document.querySelector('.swiper-container2')) {
 	new Swiper('.swiper-container2', {
-		slidesPerView: 1,
 		spaceBetween: 5,
 		loop: true,
 		pagination: {
@@ -64,4 +63,4 @@ if (document.querySelector('.swiper-container')) {
 			}
 		}
 	})
-}*/
+}
