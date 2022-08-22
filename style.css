@@ -2505,8 +2505,8 @@ nav, aside {
   }
 
 
-  @media screen and (max-width: 992px) {
+  /* @media screen and (max-width: 992px) {
     .header__menu-body {
       display: none;
   }
-  }
+  } */
