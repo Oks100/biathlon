@@ -54,13 +54,13 @@ if (document.querySelector('.swiper-container2')) {
     autoplay: {
       delay: 5000,
     },
-		/*breakpoints: {
+		breakpoints: {
 			1025: {
 				slidesPerView: 3,
 			},
 			500: {
 				slidesPerView: 1,
 			}
-		}*/
+		}
 	})
 }
