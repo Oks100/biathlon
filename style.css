@@ -1346,6 +1346,8 @@ body.dark {
   
   .timeline-sponsors .swiper-slide.card {
     border: 1px solid #c0d1db;
+    width: 32.79% !important;
+    background-color: red;
   }
   .timeline-sponsors .swiper-button-prev, .timeline-sponsors .swiper-button-next {
     height: 111px;
