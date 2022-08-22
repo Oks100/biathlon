@@ -42,7 +42,7 @@ if (document.querySelector('.swiper-container')) {
 if (document.querySelector('.swiper-container2')) {
 	new Swiper('.swiper-container2', {
 		slidesPerView: 1,
-		spaceBetween: 20,
+		spaceBetween: 0,
 		loop: true,
 		pagination: {
 			el: '.swiper-pagination',
