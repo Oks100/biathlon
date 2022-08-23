@@ -2490,12 +2490,11 @@ nav, aside {
       flex: 1 1 auto;
     }
     article.timeline {
-      /* max-width: 56.84%; */
-      /* max-width: 56.0%; */
-      max-width: 728px;
+      max-width: 56.84%;
+      /* max-width: 728px; */
     }
     .left-sidebar, .right-sidebar {
-      /* max-width: 22%; */
-      max-width: 281px;
+      max-width: 21.58%;
+      /* max-width: 281px; */
     }
   }
