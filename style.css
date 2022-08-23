@@ -1290,6 +1290,9 @@ body.dark {
     color: rgba(47, 111, 200, 0.75);
   }
 
+  .timeline-sponsors {
+    overflow: hidden;
+  }
   .timeline-sponsors__head {
     font-size: 1.3em;
     color: black;
@@ -1347,7 +1350,8 @@ body.dark {
   .timeline-sponsors .swiper-button-prev, .timeline-sponsors .swiper-button-next {
     height: 111px;
     width: 35px;
-    top: 22px;
+    /* top: 22px; */
+    top: 42.5px;
     transition: all 0.4s ease;
   }
   .timeline-sponsors .swiper-button-prev {
@@ -1364,9 +1368,11 @@ body.dark {
     position: relative;
     margin: 0 auto;
     max-width: 100%;
+    overflow: hidden;
   }
   .timeline-sponsors__body {
     max-width: 100%;
+    overflow: hidden;
   }
   .timeline-sponsors button {
     border: none;
