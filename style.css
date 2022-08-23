@@ -1291,7 +1291,6 @@ body.dark {
   }
 
   .timeline-sponsors {
-    overflow: hidden;
   }
   .timeline-sponsors__head {
     font-size: 1.3em;
@@ -1312,7 +1311,7 @@ body.dark {
   
   .timeline-sponsors .swiper-container2 {
     padding-bottom: 50px;
-    margin: 1.5em 30px 0 30px;
+    /* margin: 1.5em 30px 0 30px; */
     overflow: hidden !important;
     max-width: 100%;
   }
@@ -1350,8 +1349,7 @@ body.dark {
   .timeline-sponsors .swiper-button-prev, .timeline-sponsors .swiper-button-next {
     height: 111px;
     width: 35px;
-    /* top: 22px; */
-    top: 42.5px;
+    top: 22px;
     transition: all 0.4s ease;
   }
   .timeline-sponsors .swiper-button-prev {
@@ -1364,15 +1362,13 @@ body.dark {
     background-color: #d1ebfb;
   }
   .timeline-sponsors .slider-container {
-    padding: 0 5px;
+    /* padding: 0 5px; */
     position: relative;
     margin: 0 auto;
     max-width: 100%;
-    overflow: hidden;
   }
   .timeline-sponsors__body {
     max-width: 100%;
-    overflow: hidden;
   }
   .timeline-sponsors button {
     border: none;
