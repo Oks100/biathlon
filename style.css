@@ -1291,6 +1291,7 @@ body.dark {
   }
 
   .timeline-sponsors {
+    max-width: 729px;
   }
   .timeline-sponsors__head {
     font-size: 1.3em;
@@ -1311,7 +1312,7 @@ body.dark {
   
   .timeline-sponsors .swiper-container2 {
     padding-bottom: 50px;
-    /* margin: 1.5em 30px 0 30px; */
+    margin: 1.5em 35px 0 35px;
     overflow: hidden !important;
     max-width: 100%;
   }
