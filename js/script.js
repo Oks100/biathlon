@@ -41,7 +41,7 @@ if (document.querySelector('.swiper-container')) {
 
 if (document.querySelector('.swiper-container2')) {
 	new Swiper('.swiper-container2', {
-		/*spaceBetween: 5,*/
+    spaceBetween: 5,
 		loop: true,
 		pagination: {
 			el: '.swiper-pagination',
