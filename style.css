@@ -1306,7 +1306,7 @@ body.dark {
   .slider-container3 {
     padding: 0;
     position: relative;
-    margin-top: 5px;
+    margin-top: 10px;
     }
   .slider-container3 .swiper-horizontal > .swiper-pagination-bullets, .slider-container3 .swiper-pagination-bullets.swiper-pagination-horizontal, .slider-container3 .swiper-pagination-custom, .swiper-pagination-fraction {
       bottom: -30px !important;
