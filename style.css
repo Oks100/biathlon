@@ -1343,6 +1343,10 @@ body.dark {
     overflow: hidden;
     border-radius: 3px;
   }
+  .timeline__body.gallery .swiper-pagination-bullet:hover:not(.swiper-pagination-bullet-active) {
+    background-color: #b9e4ff;
+  }
+
   @media (max-width: 1169px){
     .slider-container3 .card {
       width: 49.5%;
@@ -1516,7 +1520,7 @@ body.dark {
   .timeline-sponsors .swiper-pagination-bullet {
     background-color: #d1ebfb;
   }
-  .timeline-sponsors .swiper-pagination-bullet:hover {
+  .timeline-sponsors .swiper-pagination-bullet:hover:not(.swiper-pagination-bullet-active) {
     background-color: #b9e4ff;
   }
   .timeline-sponsors .swiper-pagination-bullet-active {
