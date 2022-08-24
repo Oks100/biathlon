@@ -1,39 +1,4 @@
-const slider = document.querySelector('.slider-container3');
-
-let mySwiper;
-
-function mobileSlider() {
-	if (window.innerWidth <= 600 && slider.dataset.mobile == 'false') {
-		mySwiper = new Swiper(slider, {
-			slidesPerView: 1,
-			spaceBetween: 0,
-			loop: true,
-      effect: 'cards',
-			slideClass: 'card',
-			pagination: {
-			el: '.swiper-pagination',
-			clickable: true,
-			},
-		});
-
-		slider.dataset.mobile = 'true';
-	}
-
-	if (window.innerWidth > 600) {
-		slider.dataset.mobile = 'false';
-		if (slider.classList.contains('swiper-initialized')) {
-			mySwiper.destroy();
-		}
-	}
-}
-
-mobileSlider()
-
-window.addEventListener('resize', () => {
-	mobileSlider();
-});
-
-/*if (document.querySelector('.swiper-container')) {
+if (document.querySelector('.swiper-container')) {
   new Swiper('.swiper-container', {
     // Вывод стрелок навигации
      navigation: {
@@ -102,4 +67,38 @@ if (document.querySelector('.swiper-container2')) {
 		}
 	})
 }
-*/
+
+const slider = document.querySelector('.slider-container3');
+
+let mySwiper;
+
+function mobileSlider() {
+	if (window.innerWidth <= 600 && slider.dataset.mobile == 'false') {
+		mySwiper = new Swiper(slider, {
+			slidesPerView: 1,
+			spaceBetween: 0,
+			loop: true,
+      effect: 'cards',
+			slideClass: 'card',
+			pagination: {
+			el: '.swiper-pagination',
+			clickable: true,
+			},
+		});
+
+		slider.dataset.mobile = 'true';
+	}
+
+	if (window.innerWidth > 600) {
+		slider.dataset.mobile = 'false';
+		if (slider.classList.contains('swiper-initialized')) {
+			mySwiper.destroy();
+		}
+	}
+}
+
+mobileSlider()
+
+window.addEventListener('resize', () => {
+	mobileSlider();
+});
