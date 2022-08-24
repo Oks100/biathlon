@@ -908,6 +908,7 @@ body.dark {
     border-radius: 3px;
     padding: 1.5em;
     box-shadow: 0px 5px 24px rgba(32,60,87,0.11);
+    overflow-x: hidden;
   }
   .timeline__head a:hover {
     border: none;
@@ -1158,6 +1159,7 @@ body.dark {
     display: flex;
     flex-direction: row;
     gap: 10px;
+    flex-wrap: wrap;
   }
   .timeline-navigation__list a {
     /* border-radius: 50%;
