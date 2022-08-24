@@ -428,6 +428,7 @@ body {
     display: flex;
     /*align-items: center;*/
   }
+
   .header-menu {
     width: 100%;
     margin: 0 auto;
@@ -2627,5 +2628,10 @@ nav, aside {
     }
     nav, aside {
       max-width: 21.58%;
+    }
+  }
+  @media screen and (max-width: 992px) {
+    .header__menu-body {
+      display: none;
     }
   }
