@@ -2962,15 +2962,19 @@ nav, aside {
     }
   @media screen and (max-width: 450px) {
     .footer__body {
-      margin: 30px 25px 10px;
+      /* margin: 30px 25px 10px; */
+      margin: 30px 17px 10px;
     }
   }
-  @media screen and (max-width: 416px) {
+  /* @media screen and (max-width: 416px) {
     .footer__column2 {
       margin-top: -26px;
     }
-  }
-  @media screen and (max-width: 401px) {
+  } */
+  @media screen and (max-width: 400px) {
+    .footer__body {
+      margin: 30px 35px 10px;
+    }
     .footer__about-site {
       margin-right: 0%;
     }
