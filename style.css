@@ -2505,7 +2505,7 @@ footer.footer .footer__column a:hover, footer.footer .footer__bottom-text a:hove
   display: flex;
   background-color: #265a92;
   margin-top: 26px;
-  justify-content: space-around;
+  justify-content: space-between;
   width: 100%;
   flex-wrap: wrap;
 }
