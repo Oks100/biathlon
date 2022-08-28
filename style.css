@@ -2522,7 +2522,7 @@ footer.footer .footer__column a:hover, footer.footer .footer__bottom-text a:hove
   content: "\f39e";
   font-family: 'FontAwesome';
   font-size: 22px;
-  padding-left: 10px;
+  padding-left: 9.5px;
   justify-content: center;
   color: white;
 }
@@ -2544,9 +2544,11 @@ footer.footer .footer__column a:hover, footer.footer .footer__bottom-text a:hove
   content: "\f16d";
   font-family: 'FontAwesome';
   font-size: 23px;
-  padding-left: 6.5px;
+  /* padding-left: 6.5px; */
   justify-content: center;
   color: white;
+  align-items: center;
+  display: flex;
 }
 .footer__telegram::before {
   content: "\e90e";
