@@ -2963,7 +2963,7 @@ nav, aside {
       margin: 30px 25px 10px;
     }
   }
-  @media screen and (max-width: 417px) {
+  @media screen and (max-width: 416px) {
     .footer__column2 {
       margin-top: -26px;
     }
