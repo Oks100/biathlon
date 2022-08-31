@@ -3016,6 +3016,7 @@ nav, aside {
     }
     .footer__bottom {
       text-align: center;
+      margin-top: 35px;
     }
     .footer__bottom-text a:last-of-type {
       display: inline-flex;
