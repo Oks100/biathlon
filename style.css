@@ -1,5 +1,26 @@
 @import url('nullstyle.css');
 
+.tippy-content {
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+}
+.tippy-box {
+  border-radius: 3px;
+}
+.oeverg-elvira-karin__profile img {
+  width: 120px;
+  transform: scale(1.4);
+}
+.img__profile {
+  width: 120px;
+  overflow: hidden;
+  border-radius: 3px;
+  margin: 0 7px 7px 0;
+}
+.text__profile {
+}
+
 html,
 body {
   padding: 0;
@@ -2508,13 +2529,14 @@ footer.footer .footer__column a:hover, footer.footer .footer__bottom-text a:hove
   justify-content: space-between;
   width: 100%;
   flex-wrap: wrap;
+  padding-right: 15%;
 }
 .footer__facebook, .footer__twitter, .footer__instagram, .footer__telegram, .footer__youtube {
   display: block;
   /* width: 36px;
   height: 36px; */
-  width: 41px;
-  height: 41px;
+  width: 38.5px;
+  height: 38.5px;
   border: 2px solid white;
   border-radius: 50%;
   transition: all 0.4s ease;
@@ -2524,8 +2546,9 @@ footer.footer .footer__column a:hover, footer.footer .footer__bottom-text a:hove
   content: "\f39e";
   font-family: 'FontAwesome';
   /* font-size: 22px; */
-  font-size: 25px;
-  padding-left: 9.5px;
+  font-size: 23px;
+  /* padding-left: 9.5px; */
+  padding-left: 10px;
   justify-content: center;
   color: white;
 }
@@ -2533,13 +2556,13 @@ footer.footer .footer__column a:hover, footer.footer .footer__bottom-text a:hove
   box-shadow: 0 0 13px #ffd700;
   color: #ffd700;
   border-color: #ffd700;
-  transform: rotate(360deg) scale(1.1);
+  transform: rotate(360deg) scale(1.09);
 }
 .footer__twitter::before {
   content: "\f099";
   font-family: 'FontAwesome';
   /* font-size: 21px; */
-  font-size: 25px;
+  font-size: 23px;
   padding-left: 6px;
   justify-content: center;
   color: white;
@@ -2548,7 +2571,7 @@ footer.footer .footer__column a:hover, footer.footer .footer__bottom-text a:hove
   content: "\f16d";
   font-family: 'FontAwesome';
   /* font-size: 23px; */
-  font-size: 25px;
+  font-size: 23px;
   justify-content: center;
   color: white;
   align-items: center;
@@ -2558,8 +2581,8 @@ footer.footer .footer__column a:hover, footer.footer .footer__bottom-text a:hove
   content: "\e90e";
   font-family: 'icomoon';
   /* font-size: 22px; */
-  font-size: 25px;
-  padding-left: 5px;
+  font-size: 23px;
+  padding-left: 4px;
   justify-content: center;
   color: white;
 }
@@ -2567,7 +2590,7 @@ footer.footer .footer__column a:hover, footer.footer .footer__bottom-text a:hove
   content: "\f167";
   font-family: 'FontAwesome';
   /* font-size: 21px; */
-  font-size: 25px;
+  font-size: 23px;
   padding-left: 4.5px;
   justify-content: center;
   color: white;
