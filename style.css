@@ -53,7 +53,7 @@
   background: -moz-linear-gradient(to top, rgb(0, 0, 0.1) 0%, rgb(0, 0, 0, 0.5) 60%, transparent 100%);
   background: linear-gradient(to top, rgb(0, 0, 0.1) 0%,rgb(0, 0, 0, 0.5) 60%, transparent 100%);
   transition-delay: 0.1s;
-  transition: all 0.4s ease !important;
+  transition: all 0.4s ease-in-out;
   z-index: 2;
 }
 .img__profile a {
