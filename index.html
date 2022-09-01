@@ -22,12 +22,17 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
   <link rel="stylesheet"
     href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+  <link rel="stylesheet" href="https://unpkg.com/tippy.js@6/animations/scale.css" />
+  <link rel="stylesheet" href="https://unpkg.com/tippy.js@6/animations/perspective.css" />
+  <link rel="stylesheet" href="https://unpkg.com/tippy.js@6/animations/shift-away.css" />
+  <link rel="stylesheet" href="https://unpkg.com/tippy.js@6/animations/shift-toward.css" />
   <script src="https://kit.fontawesome.com/d70cc4a9aa.js" crossorigin="anonymous"></script>
   <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
   <script src="js/script3.js"></script>
 </head>
 
 <body>
+  <div class="wrapper">
   <header class="header">
     <div class="header__body">
       <div class="header__logo">
@@ -1863,7 +1868,6 @@
           </div>
         </div>
       </div>
-      </div>
     </article>
     <nav class="left-sidebar">
       <div class="main-cup man">
@@ -2142,15 +2146,180 @@
                 <td>1</td>
                 <td class="td_flag" data-country="36"><img src="https://www.biathlon.com.ua/uploads/0/41.gif" alt="">
                 </td>
-                <td><a href="#">Марте Олсбю Ройселанд</a></td>
+                <td><a href="#" class="olsby-roeideland-marte">Марте Олсбю Ройселанд</a></td>
+                <div class="olsby-roeideland-marte__profile">
+                  <div>Tex HTML Styled tooltip HTML Styled tooltip HTML Styled tooltip HTML Styled tooltip t</div>
+                </div>
                 <td>957</td>
               </tr>
               <tr class="tr_countries country_36">
                 <td>2</td>
                 <td class="td_flag" data-country="45"><img src="https://www.biathlon.com.ua/uploads/0/50.gif" alt="">
                 </td>
-                <td><a href="#">Эльвира Карин Эберг</a></td>
-                <td>823</td>
+                <td><a href="#" class="oeverg-elvira-karin">Эльвира Карин Эберг</a></td>
+                <div class="oeverg-elvira-karin__profile">
+                  <div class="oeverg-elvira-karin__profile_body">
+                    <div class="foto__etc">
+                    <div class="img__profile">
+                      <img class="img__profile_img" src="//www.biathlon.com.ua/uploads/2021/129459.jpg" alt="">
+                      <p><a href="#">Больше фото</a></p>
+                    </div>
+                    <!-- <div class="foto-and-text">
+                      <div class="foto-and-text__text">
+                        <div class="aim">
+                          <span>Точность:</span>
+                          <span>84.4% (34)</span>
+                        </div>
+                        <div class="speed">
+                          <span>Скорость:</span>
+                          <span>0.50 сек. (1)</span>
+                        </div>
+                      </div>
+                    </div> -->
+                    <div class="divTable">
+                      <div class="divTableBody">
+                        <div class="divTableRow">
+                          <div class="divTableCell">Страна/Возраст:</div>
+                          <div class="divTableCell help3" title="Дата рождения: 1999-02-26"><img src="https://www.biathlon.com.ua/uploads/0/50.gif" alt="">
+                            23 года</div>
+                        </div>
+                        <div class="divTableRow">
+                          <div class="divTableCell">Рост:</div>
+                          <div class="divTableCell">176 см</div>
+                        </div>
+                        <div class="divTableRow">
+                          <div class="divTableCell">Вес:</div>
+                          <div class="divTableCell">72 кг</div>
+                        </div>
+                        <div class="divTableRow">
+                          <div class="divTableCell">Гонок КМ:</div>
+                          <div class="divTableCell help" title="Всего гонок и средняя занимаемая позиция">88 (12.58)</div>
+                        </div>
+                        <div class="divTableRow">
+                          <div class="divTableCell">Личных подиумов:</div>
+                          <div class="divTableCell help2" title="Всего и золото, серебро, бронза">10 (4+2+4)</div>
+                        </div>
+                        <div class="divTableRow">
+                          <div class="divTableCell">Подиумов в эстафетах:</div>
+                          <div class="divTableCell help2" title="Всего и золото, серебро, бронза">11 (3+3+5)</div>
+                        </div>
+                        <div class="divTableRow">
+                          <div class="divTableCell">Медалей ОИ:</div>
+                          <div class="divTableCell help2" title="Всего и золото, серебро, бронза">3 (1+2+0)</div>
+                        </div>
+                      </div>
+                    </div> 
+                  </div>
+                    <div class="text__profile">
+                      <div class="foto-and-text">
+                        <div class="foto-and-text__statistics">
+                          <div class="statistics1 help4" title="Средняя скорость за карьеру: 3.3 сек.">
+                            <span>Скорость:</span>
+                            <span>0.50 сек. (1)</span>
+                          </div>
+                          <div class="statistics2 help5" title="Средняя точность за карьеру: 80.9%">
+                            <span>Точность:</span>
+                            <span>84.4% (34)</span>
+                          </div>
+                          <div class="statistics3 help6" title="Средняя скорострельность за карьеру: 2.2 сек.">
+                            <span>Скорострельность:</span>
+                            <span>2.50 сек. (27)</span>
+                          </div>
+                        </div>
+                        <div class="foto-and-text__statistics2">
+                          <div class="statistics4">
+                            <span>БХГ:</span>
+                            <span>0</span>
+                          </div>
+                          <div class="statistics5">
+                            <span>МХГ:</span>
+                            <span>0</span>
+                          </div>
+                          <div class="statistics__button button-style">
+                            <a href="#">Полный профайл</a>
+                          </div>
+                        </div>
+                      </div>
+                      <!-- <ul>
+                      <li>Возраст: 23 года</li>
+                      <li>Рост: 176 см</li>
+                      <li>Вес: 72 кг</li>
+                      <li>Гонок КМ: 88</li>
+                      <li>Личных подиумов: 12</li>
+                      <li>Подиумов в эстафетах: 12</li>
+                      <li>Медалей ОИ: 3</li>
+                    </ul> -->
+
+                      <!-- <table>
+                      <tbody>
+                      <tr>
+                      <td>Возраст:</td>
+                      <td>23 года</td>
+                      </tr>
+                      <tr>
+                      <td>Рост:</td>
+                      <td>176 см</td>
+                      </tr>
+                      <tr>
+                      <td>Вес:</td>
+                      <td>72 кг</td>
+                      </tr>
+                      <tr>
+                      <td>Гонок КМ:</td>
+                      <td>88</td>
+                      </tr>
+                      <tr>
+                      <td>Личных подиумов:</td>
+                      <td>12</td>
+                      </tr>
+                      <tr>
+                      <td>Подиумов в эстафетах:</td>
+                      <td>12</td>
+                      </tr>
+                      <tr>
+                      <td>Медалей ОИ:</td>
+                      <td>3</td>
+                      </tr>
+                      </tbody>
+                      </table>-->
+
+                      <!-- <div class="divTable">
+                        <div class="divTableBody">
+                          <div class="divTableRow">
+                            <div class="divTableCell">Возраст:</div>
+                            <div class="divTableCell">23 года</div>
+                          </div>
+                          <div class="divTableRow">
+                            <div class="divTableCell">Рост:</div>
+                            <div class="divTableCell">176 см</div>
+                          </div>
+                          <div class="divTableRow">
+                            <div class="divTableCell">Вес:</div>
+                            <div class="divTableCell">72 кг</div>
+                          </div>
+                          <div class="divTableRow">
+                            <div class="divTableCell">Гонок КМ:</div>
+                            <div class="divTableCell">88</div>
+                          </div>
+                          <div class="divTableRow">
+                            <div class="divTableCell">Личных подиумов:</div>
+                            <div class="divTableCell">12</div>
+                          </div>
+                          <div class="divTableRow">
+                            <div class="divTableCell">Подиумов в эстафетах:</div>
+                            <div class="divTableCell">12</div>
+                          </div>
+                          <div class="divTableRow">
+                            <div class="divTableCell">Медалей ОИ:</div>
+                            <div class="divTableCell">3</div>
+                          </div>
+                        </div>
+                      </div>  -->
+
+                    </div>
+                  </div>
+                </div>
+                  <td>823</td>
               </tr>
               <tr class="tr_countries country_45">
                 <td>3</td>
@@ -2487,45 +2656,44 @@
           <span><a href="#">Другие интервью</a></span>
         </div>
       </div>
-      </div>
     </aside>
   </main>
   <footer class="footer">
     <div class="footer__body">
-        <div class="footer__column footer__about-site">
-          <ul>
-            <span>Разное</span>
-            <li><a href="#">Новости</a></li>
-            <li><a href="#">Турнир прогнозистов</a></li>
-            <li><a href="#">Интервью</a></li>
-            <li><a href="#">Пресса</a></li>
-            <li><a href="#">Все о биатлоне</a></li>
-            <li><a href="#">Фотогалереи</a></li>
-            <li><a href="#">Профайлы</a></li>
-            <li><a href="#">Видео</a></li>
-            <li><a href="#">Трансляции на ТВ</a></li>
-            <li><a href="#">Голосования</a></li>
-            <li><a href="#">Обсуждения</a></li>
-            <li><a href="#">Чат</a></li>
-          </ul>
-        </div>
-        <div class="footer__column">
-          <ul>
-            <span>Кубок мира</span>
-            <li><a href="#">Календарь</a></li>
-            <li><a href="#">Кубок мира</a></li>
-            <li><a href="#">Кубок IBU</a></li>
-            <li><a href="#">Юниорский кубок IBU</a></li>
-            <li><a href="#">Результаты</a></li>
-            <li><a href="#">Кубок наций</a></li>
-            <li><a href="#">Кубок наций IBU</a></li>
-            <li><a href="#">Статистика стрельбы</a></li>
-            <li><a href="#">Скорость спортсменов</a></li>
-            <li><a href="#">Биатлонная статистика</a></li>
-          </ul>
-        </div>
-        <div class="footer__column footer__column3">
-          <div class="footer__column-body">
+      <div class="footer__column footer__about-site">
+        <ul>
+          <span>Разное</span>
+          <li><a href="#">Новости</a></li>
+          <li><a href="#">Турнир прогнозистов</a></li>
+          <li><a href="#">Интервью</a></li>
+          <li><a href="#">Пресса</a></li>
+          <li><a href="#">Все о биатлоне</a></li>
+          <li><a href="#">Фотогалереи</a></li>
+          <li><a href="#">Профайлы</a></li>
+          <li><a href="#">Видео</a></li>
+          <li><a href="#">Трансляции на ТВ</a></li>
+          <li><a href="#">Голосования</a></li>
+          <li><a href="#">Обсуждения</a></li>
+          <li><a href="#">Чат</a></li>
+        </ul>
+      </div>
+      <div class="footer__column">
+        <ul>
+          <span>Кубок мира</span>
+          <li><a href="#">Календарь</a></li>
+          <li><a href="#">Кубок мира</a></li>
+          <li><a href="#">Кубок IBU</a></li>
+          <li><a href="#">Юниорский кубок IBU</a></li>
+          <li><a href="#">Результаты</a></li>
+          <li><a href="#">Кубок наций</a></li>
+          <li><a href="#">Кубок наций IBU</a></li>
+          <li><a href="#">Статистика стрельбы</a></li>
+          <li><a href="#">Скорость спортсменов</a></li>
+          <li><a href="#">Биатлонная статистика</a></li>
+        </ul>
+      </div>
+      <div class="footer__column footer__column3">
+        <div class="footer__column-body">
           <ul>
             <span>Наша команда</span>
             <li><a href="#">Наша сборная</a></li>
@@ -2535,18 +2703,18 @@
             <li><a href="#">Автографкарты</a></li>
           </ul>
         </div>
-          <div class="footer__column2">
-            <ul>
-              <span>Связаться с нами</span>
-              <li><a href="#">Контакты</a></li>
-              <li><a href="#">Прислать новость</a></li>
-            </ul>
-          </div>
+        <div class="footer__column2">
+          <ul>
+            <span>Связаться с нами</span>
+            <li><a href="#">Контакты</a></li>
+            <li><a href="#">Прислать новость</a></li>
+          </ul>
         </div>
-        <div class="footer__column-logo footer__column4">
-          <div class="footer__logo">
-            <img src="img/logo.png" alt="">
-          </div>
+      </div>
+      <div class="footer__column-logo footer__column4">
+        <div class="footer__logo">
+          <img src="img/logo.png" alt="">
+        </div>
         <div class="footer__warning">
           <p>Использование материалов возможно только с письменного разрешения редакции сайта</p>
         </div>
@@ -2571,7 +2739,7 @@
         </div>
         <div class="footer__bottom-text">
           <a href="#">Пользовательское соглашение</a>
-          | 
+          |
           <a href="#">Политика конфиденциальности</a>
         </div>
       </div>
@@ -2595,8 +2763,11 @@
       <div class="footer__menu3"></div> -->
     </div>
   </footer>
+  <script src="https://unpkg.com/@popperjs/core@2"></script>
+  <script src="https://unpkg.com/tippy.js@6"></script>
   <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
   <script src="js/script.js"></script>
+</div>
 </body>
 
 </html>
