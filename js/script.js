@@ -102,3 +102,35 @@ mobileSlider()
 window.addEventListener('resize', () => {
 	mobileSlider();
 });
+
+
+
+tippy('.olsby-roeideland-marte', {
+  content: document.querySelector('.olsby-roeideland-marte__profile'),
+  arrow: true,
+  interactive: true,
+  trigger: 'mouseenter',
+  delay: [500, 350],
+  placement: 'auto-start',
+  duration: 300,
+  maxWidth: 150,
+  animation: 'shift-toward',
+  // followCursor: true,
+  // offset: [0, -98],
+});
+
+tippy('.oeverg-elvira-karin', {
+  content: document.querySelector('.oeverg-elvira-karin__profile'),
+  arrow: true,
+  interactive: true,
+  trigger: 'mouseenter',
+  delay: [1000, 4000000],
+  placement: 'auto-start',
+  duration: 350,
+  maxWidth: 400,
+  // animation: 'shift-toward',
+  animation: 'scale',
+  // animation: 'perspective',
+  // followCursor: true,
+  // offset: [0, 0],
+});
