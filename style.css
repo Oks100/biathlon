@@ -1,7 +1,7 @@
 @import url('nullstyle.css');
 
 .tippy-content {
-  padding: 7px;
+  padding: 7px 7px 7.5px 7px;
   display: flex;
   flex-direction: row;
   color: black;
@@ -31,10 +31,11 @@
 .oeverg-elvira-karin__profile_body {
 }
 .profile__name {
-  margin-bottom: 2px;
+  /* margin-bottom: 2px; */
   display: flex;
   justify-content: space-between;
-  line-height: 23.8px;
+  /* line-height: 23.8px; */
+  line-height: 28.8px;
 }
 .profile__name span:first-of-type {
   font-weight: 700;
@@ -107,6 +108,13 @@
   min-height: 26.7px;
   align-items: center;
 }
+.divTableRow:nth-child(1), .divTableRow:nth-child(2), .divTableRow:nth-child(3), .divTableRow:nth-child(4), .divTableRow:nth-child(7) {
+  min-height: 25.35px;
+}
+.divTableRow:nth-child(5), .divTableRow:nth-child(6) {
+  height: 41px;
+}
+
 .divTableRow:nth-child(odd) { 
   background-color: #e7f3fa;
 }
@@ -120,6 +128,7 @@
 .divTableRow .divTableCell:first-child {
   /* max-width: 105px; */
   width: 105px;
+  /* color: #074cef; */
 }
 
 .foto-and-text__statistics, .foto-and-text__statistics2 {
@@ -238,10 +247,51 @@
   border: none;
   cursor: pointer;
   height: 100%;
-  padding: 0px 7px 0 7px;
+  /* padding: 0px 7px 0 7px; */
+  /* padding: 0px 25px 0 7px; */
   border-radius: 3px;
   transition: all 0.4s ease;
+  width: 85px;
 }
+/* .dropbtn::after {
+  content: "5";
+  padding-left: 5px;
+} */
+.dropbtn .arrow2 {
+  font-style: normal;
+  padding-left: 25px;
+}
+.dropbtn .arrow2::before {
+  content: '';
+  width: 10px;
+  height: 1px;
+  background-color: #265a92;
+  position: absolute;
+  top: 13px;
+  transition: all .3s ease 0s;
+  left: 59.5px;
+  transform: rotate(43deg);
+}
+.dropbtn .arrow2::after {
+  content: '';
+  transform: rotate(-43deg);
+  top: 13px;
+  left: 56.5px;
+  width: 10px;
+  height: 1px;
+  background-color: #265a92;
+  position: absolute;
+  transition: all .3s ease 0s;
+  margin-left: 10px;
+}
+
+.dropbtn:focus > .arrow2::before {
+  transform: rotate(-43deg);
+}
+.dropbtn:focus > .arrow2::after {
+  transform: rotate(43deg);
+}
+
 
 .dropbtn:hover, .dropbtn:focus {
   background-color: #b9e4ff;
@@ -266,10 +316,11 @@
 
 .dropdown-content li {
   color: black;
-  padding: 5px 5px;
+  padding: 4px 5px;
   text-decoration: none;
   display: block;
   text-align: center;
+  width: 85px;
 }
 
 .dropdown li:hover {
