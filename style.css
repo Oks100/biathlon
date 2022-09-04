@@ -2899,8 +2899,8 @@ footer.footer .footer__column a:hover, footer.footer .footer__bottom-text a:hove
   display: block;
   /* width: 36px;
   height: 36px; */
-  width: 38.5px;
-  height: 38.5px;
+  width: 39px;
+  height: 39px;
   border: 2px solid white;
   border-radius: 50%;
   transition: all 0.4s ease;
@@ -2952,7 +2952,7 @@ footer.footer .footer__column a:hover, footer.footer .footer__bottom-text a:hove
   justify-content: center;
   display: flex;
   color: white;
-  padding-right: 2px;
+  padding-right: 4px;
 }
 .footer__youtube::before {
   content: "\f167";
