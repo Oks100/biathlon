@@ -268,9 +268,9 @@
 }
 
 .no-data span + span::before {
-  content: "\e915";
+  content: "\e918";
   font-family: 'icomoon';
-  font-size: 18px;
+  font-size: 17px;
   color: black;
 }
 
