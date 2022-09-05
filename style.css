@@ -2102,12 +2102,25 @@ body.dark {
   -ms-flex-align: center;
   text-align: left;
 }
-.comment-block__user-avatar::before {
+.comment-block__user-avatar.woman-user::before {
   content: "\e904";
   font-family: 'icomoon';
   font-size: 3em;
   padding-right: 0.2em;
   color: rgba(47, 111, 200, 0.75);
+}
+.comment-block__user-avatar.male-user::before {
+  content: "\e903";
+  font-family: 'icomoon';
+  font-size: 3em;
+  padding-right: 0.2em;
+  color: rgba(47, 111, 200, 0.75);
+}
+.comment-block .comment-block__body:nth-child(3), .comment-block .comment-block__body:nth-child(4) {
+  margin-top: 10px;
+}
+.comment-block .comment-block__body:nth-child(2) {
+  margin-top: 5px;
 }
 
 /* .comment-block__name-user, .interview-block__gossip_name {
