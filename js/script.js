@@ -965,7 +965,7 @@ tippy('.header__profile-button', {
   arrow: true,
   interactive: true,
   trigger: 'mouseenter',
-  delay: [0, 350],
+  delay: [350, 350],
   placement: 'bottom',
   duration: 350,
   maxWidth: 400,
