@@ -947,6 +947,31 @@ tippy('.ponomarenko-oleksandr', {
   // offset: [0, -98],
 });
 
+tippy('.timer__more-events', {
+  content: document.querySelector('.timer__more_info'),
+  arrow: true,
+  interactive: true,
+  trigger: 'click',
+  delay: [0, 350],
+  placement: 'auto',
+  duration: 350,
+  maxWidth: 400,
+  animation: 'perspective',
+  inertia: true,
+});
+
+tippy('.header__profile-button', {
+  content: document.querySelector('.header__profile-button-info'),
+  arrow: true,
+  interactive: true,
+  trigger: 'mouseenter',
+  delay: [0, 350],
+  placement: 'bottom',
+  duration: 350,
+  maxWidth: 400,
+  animation: 'shift-away',
+  inertia: true,
+});
 
 function myFunction() {
   document.getElementById("myDropdown").classList.toggle("show");
