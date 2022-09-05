@@ -935,7 +935,7 @@ body {
  .header-menu .header__profile a.corners i::before {
     /* content: "\f406";
     font-family: FontAwesome; */
-    content: "\e91a";
+    content: "\e9a";
     font-family: 'icomoon';
     font-size: 16px;
     font-style: normal;
@@ -968,7 +968,7 @@ body {
   color: red !important;
  }
  #tippy-62 ul li:last-of-type a::after {
-  content: "\e91b";
+  content: "\e9b";
   font-family: 'icomoon';
   margin-left: 7px;
   font-size: 15px;
@@ -1020,7 +1020,7 @@ body {
   color: #ffd700;
 }
 .timer__more-events span:first-of-type::after {
-  content: "\e919";
+  content: "\e9c";
   font-family: 'icomoon';
   font-size: 10px;
   margin-left: 5px;
