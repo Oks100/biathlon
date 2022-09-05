@@ -53,12 +53,35 @@
         <div class="header__additional-menu">
           <div class="timer">
             <div class="timer__body">
-              <div class="timer__items" title="Рупольдинг. ЛЧМ (Супер спринт квалификация. Юниоры) 25.08.2022 12:00"><i
-                  class="fa-solid fa-stopwatch"></i><span class="item__addition">До старта:</span><span
+              <div class="timer__items" id="timer1" title="Рупольдинг. ЛЧМ (Супер спринт квалификация. Юниоры) 25.08.2022 12:00"><i
+                  class="fa-solid fa-stopwatch"></i><span class="item__addition">До старта №1:</span><span
                   class="timer__item timer__days">00</span><span class="item__addition">д</span><span
                   class="timer__item timer__hours">00</span><span class="item__addition">ч</span><span
                   class="timer__item timer__minutes">00</span><span class="item__addition">м</span><span
                   class="timer__item timer__seconds">00</span><span>с</span>
+              </div>
+            </div>
+            <div class="timer__more-events">
+              <span>+ ещё 3</span>
+              <div class="timer__more_info">
+                <div class="timer__items" id="timer2" title="Рупольдинг. ЛЧМ (Супер спринт квалификация. Юниоры) 25.08.2022 12:00"><span class="item__addition">До старта №2:</span><span
+                  class="timer__item timer__days">00</span><span class="item__addition">д</span><span
+                  class="timer__item timer__hours">00</span><span class="item__addition">ч</span><span
+                  class="timer__item timer__minutes">00</span><span class="item__addition">м</span><span
+                  class="timer__item timer__seconds">00</span><span>с</span>
+              </div>
+              <div class="timer__items" id="timer3" title="Рупольдинг. ЛЧМ (Супер спринт квалификация. Юниоры) 25.08.2022 12:00"><span class="item__addition">До старта №3:</span><span
+                class="timer__item timer__days">00</span><span class="item__addition">д</span><span
+                class="timer__item timer__hours">00</span><span class="item__addition">ч</span><span
+                class="timer__item timer__minutes">00</span><span class="item__addition">м</span><span
+                class="timer__item timer__seconds">00</span><span>с</span>
+            </div>
+            <div class="timer__items" id="timer4" title="Рупольдинг. ЛЧМ (Супер спринт квалификация. Юниоры) 25.08.2022 12:00"><span class="item__addition">До старта №4:</span><span
+              class="timer__item timer__days">00</span><span class="item__addition">д</span><span
+              class="timer__item timer__hours">00</span><span class="item__addition">ч</span><span
+              class="timer__item timer__minutes">00</span><span class="item__addition">м</span><span
+              class="timer__item timer__seconds">00</span><span>с</span>
+          </div>
               </div>
             </div>
             <script src="js/timer.js"></script>
@@ -88,7 +111,7 @@
           </div>
         </div>
         <div class="header-menu">
-          <ul>
+          <ul class="header-menu__list">
             <li><a class="corners" href="#">Главная</a></li>
             <li><a class="corners" href="#">Новости</a></li>
             <li><a class="corners" href="#">Результаты</a></li>
@@ -96,14 +119,18 @@
             <li><a class="corners" href="#">Турнир</a></li>
             <li><a class="corners" href="#">Чат</a></li>
             <li class="header__profile">
-              <a class="corners" href="#"><i></i>
-              </a>
+              <a class="corners header__profile-button" href="#"><i></i>
               </a>
             </li>
           </ul>
-        </div>
         <div class="header-search"></div>
         <div class="header__burger"></div>
+      </div>
+      <div class="header__profile-button-info">
+        <ul>
+          <li><a href="#">Мой профиль</a></li>
+          <li><a href="#">Выход</a></li>
+        </ul>
       </div>
     </div>
   </header>
