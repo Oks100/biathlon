@@ -468,7 +468,7 @@ body {
   .header-menu .header-menu__list li:hover a {
     text-shadow: none;
   }
-  .header-menu .header-menu__list li:before {
+  .header-menu .header-menu__list li::before {
     position: absolute;
     content: "";
     box-sizing: border-box;
@@ -574,30 +574,50 @@ body {
 
  }
  #tippy-62 {
-  width: 121px;
+  /* width: 121px; */
+  /* width: 142px; */
+  width: auto;
  }
-
+ #tippy-62 .tippy-content {
+  padding: 0 !important;
+ }
  #tippy-62 ul li a {
   color: black !important;
   font-size: 15px !important;
   text-transform: none !important;
-  padding: 5px !important;
+  padding: 0px 10px 0px 10px !important;
   transition: 0s !important;
   text-shadow: none !important;
+  width: 100%;
+  display: flex;
+ }
+ #tippy-62 ul li::before, #tippy-62 ul li::after {
+  display: none !important;
  }
 
  #tippy-62 ul li a:hover {
-  color: #73b5e5 !important;
+  background-color: #ecf5fb;
  }
-
- #tippy-62 ul li:last-of-type a:hover {
+ #tippy-62 ul li {
+  white-space: nowrap;
+  line-height: 33px;
+ }
+ #tippy-62 ul li:last-of-type a:hover, #tippy-62 ul li:last-of-type a:hover::before {
   color: red !important;
  }
- #tippy-62 ul li:last-of-type a::after {
+ #tippy-62 ul li:first-of-type a::before {
+  content: "\e919";
+  font-family: 'icomoon';
+  margin-right: 7px;
+  font-size: 13.5px;
+  color: #6393d6;
+ }
+ #tippy-62 ul li:last-of-type a::before {
   content: "\e9b";
   font-family: 'icomoon';
-  margin-left: 7px;
-  font-size: 15px;
+  margin-right: 7px;
+  font-size: 13.5px;
+  color: #6393d6;
  }
 
  .header-menu a.header__massange {
