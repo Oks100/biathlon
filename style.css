@@ -597,6 +597,7 @@ body {
 
  #tippy-62 ul li a:hover {
   background-color: #ecf5fb;
+  border-radius: 3px;
  }
  #tippy-62 ul li {
   white-space: nowrap;
@@ -673,9 +674,21 @@ body {
 }
 
 #timer2, #timer3 {
-  padding-bottom: 5px;
+  /* padding-bottom: 5px;
   border-bottom: 1px solid #c0d1db;
-  margin-bottom: 5px;
+  margin-bottom: 5px; */
+}
+.timer__more_info {
+
+}
+.timer__more_info div {
+  line-height: 33px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.timer__more_info div:hover {
+  background-color: #ecf5fb;
+  border-radius: 3px;
 }
 .item__addition {
   padding-right: 5px;
@@ -728,23 +741,38 @@ body {
 }
 .header__number-massage {
   position: absolute;
-  top: -4px;
+  /* top: -4px; */
+  top: -3px;
   right: -10px;
 } 
 .header__massages span .header__link-massage:hover .header__number-massage {
-  top: -4.6px;
+  /* top: -4.6px; */
+  top: -3.6px;
 } 
 .header__number-massage span {
   font-weight: 600;
 }
-.header__number-massage span::before {
-  content: "\e908"; /* ! шрифт tahoma 144px жирный на картинке 240х240*/
+/* .header__number-massage span::before {
+  content: "\e908"; ! шрифт tahoma 144px жирный на картинке 240х240*
   font-family: 'icomoon';
   color: red;
   background-color: white;
   border-radius: 50%;
   margin: 1.8px;
+} */
+.header__number-massage span {
+  display: flex;
+  height: 15px;
+  width: 15px;
+  font-size: 11.5px;
+  background-color: red;
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  font-family: "RobotoCondensed";
 }
+
 
 .header__link-massage:hover span::before {
   background-color: #ffd700;
@@ -765,6 +793,75 @@ body {
 .header__massages .header__hello .header__username {
   padding: 0 7px 0 5px;
 }
+
+
+
+.header__massages span .header__link-massage2 {
+  position: relative;
+  /* margin-bottom: 2px; */
+  margin-left: 20px;
+}
+.header__number-massage2 {
+  position: absolute;
+  top: -4px;
+  right: -10px;
+} 
+.header__massages span .header__link-massage2:hover .header__number-massage2 {
+  /* top: -3.6px; */
+} 
+.header__number-massage2 span {
+  font-weight: 600;
+}
+/* .header__number-massage2 span::before {
+  content: "\e908";
+  font-family: 'icomoon';
+  color: red;
+  background-color: white;
+  border-radius: 50%;
+  margin: 1.8px;
+} */
+.header__number-massage2 span {
+  display: flex;
+  height: 15px;
+  width: 15px;
+  font-size: 11.5px;
+  background-color: red;
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  font-family: "RobotoCondensed";
+}
+
+.header__link-massage2:hover span::before {
+  background-color: #ffd700;
+}
+
+.header__massages span .header__link-massage2::after {
+  content: "\e91a";
+  font-family: 'icomoon';
+  font-size: 1.2em;
+}
+
+/* .header__massages2 span .header__link-massage2:hover::after {
+  content: "\f2b6";
+  font-family: 'fontAwesome';
+  font-size: 1.2em;
+} */
+
+.header__massages .header__hello .header__username {
+  padding: 0 7px 0 5px;
+}
+
+
+
+
+
+
+
+
+
+
 
 .header__active-massage{
 }
@@ -3269,7 +3366,7 @@ footer.footer .footer__column a:hover, footer.footer .footer__bottom-text a:hove
     padding: 7px;
   }
   #tippy-61 .tippy-content {
-    padding: 10px;
+    padding: 0px;
   }
   
   .dropbtn {
@@ -3626,3 +3723,16 @@ nav, aside {
       margin-top: 30px;
     }
   }
+
+  @font-face {
+    font-family: "RobotoCondensed";
+    src: url("/fonts/RobotoCondensed-Regular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+    } 
+  @font-face {
+    font-family: "RobotoCondensed";
+    src: url("/fonts/RobotoCondensed-Bold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: bold;
+  } 
