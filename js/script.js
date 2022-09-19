@@ -957,7 +957,6 @@ tippy('.timer__more-events', {
   duration: 350,
   maxWidth: 400,
   animation: 'perspective',
-  inertia: true,
 });
 
 tippy('.header__profile-button', {
@@ -970,7 +969,6 @@ tippy('.header__profile-button', {
   duration: 350,
   maxWidth: 400,
   animation: 'shift-away',
-  inertia: true,
 });
 
 function myFunction() {
