@@ -591,6 +591,13 @@ body {
   width: 100%;
   display: flex;
  }
+ #tippy-62 ul li a {
+  border-bottom: 1px solid #dce9f0 !important;
+ }
+ #tippy-62 ul li:last-of-type a {
+  border-bottom: none !important;
+ }
+
  #tippy-62 ul li::before, #tippy-62 ul li::after {
   display: none !important;
  }
@@ -653,7 +660,7 @@ body {
 }
 
 .timer__more-events {
-  margin-left: 10px;
+  margin-left: 5px;
   cursor: pointer;
 }
 .timer {
@@ -685,6 +692,7 @@ body {
   line-height: 33px;
   padding-left: 10px;
   padding-right: 10px;
+  border-bottom: 1px solid #dce9f0;
 }
 .timer__more_info div:hover {
   background-color: #ecf5fb;
@@ -716,14 +724,14 @@ body {
 .header__massages{
   display: flex;
   align-items: center;
-  margin-right: 20px;
+  margin-right: 15px;
 }
 
 .header__massages span a{
   color: white;
 }
 
-.header__massages span a:hover{
+.header__massages span a:hover, .header__massages span a:focus{
   color: #ffd700;
 }
 
@@ -798,6 +806,8 @@ body {
 
 
 
+
+
 .header__massages span .header__link-massage2 {
   position: relative;
   /* margin-bottom: 2px; */
@@ -851,14 +861,205 @@ body {
   font-size: 1.2em;
 } */
 
+
+
+
+
 .header__massages .header__hello .header__username {
   padding: 0 7px 0 5px;
 }
+.header__notifications {
+}
+#tippy-63 .tippy-box {
+  width: 400px;
+}
+#tippy-63 .tippy-content {
+  padding: 0;
+}
+.header__notifications_conteiner {
+  /* position: relative; */
+  width: 100%;
+}
+.header__notifications_head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  /* border-bottom: 1px solid #dce9f0; */
+  /* box-shadow: 0 1px 6px 0 rgba(32, 33, 36, 0.28); */
+  box-shadow: 0px 5px 8px 0px rgba(50, 50, 50, 0.15);
+  position: relative;
+}
+.header__notifications_head span {
+  font-size: 15px;
+  font-weight: 700;
+  position: relative;
+  margin-left: 22px;
+  font-family: tahoma;
+}
+.header__notifications_head span::before {
+  position: absolute;
+  content: "\e001";
+  font-family: 'icomoon';
+  font-size: 1.2em;
+  color: rgba(47, 111, 200, 0.75);
+  left: -22px;
+  top: -2px;
+}
+.header__notifications_conteiner a {
+  color: black !important;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.header__notifications_conteiner a:hover {
+  color: #73b5e5 !important;
+}
+.header__notifications_item {
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  border-bottom: 1px solid #dce9f0;
+  /* transition-duration: 0.3s; */
+}
+.tippy-content .header__notifications_item:nth-last-child(1) {
+  border-bottom: none;
+}
+/* .header__notifications_item:last-of-type {
+  border-bottom: none;
+} */
+.header__notifications_item:hover {
+  background-color: #ecf5fb;
+}
+.notification__img {
+  display: flex;
+  align-items: center;
+}
+.notification__img:before {
+  /* content: "\e904";
+  font-family: 'icomoon';
+  font-size: 3em;
+  padding-right: 0.2em;
+  color: rgba(47, 111, 200, 0.75); */
+}
+.notification__img.woman-user {
+  margin-bottom: 3px;
+}
+.admin:before {
+  content: "\e006";
+  font-family: 'icomoon';
+  font-size: 3em;
+  padding-right: 0.2em;
+  color: rgba(47, 111, 200, 0.75);
+}
+.admin-item {
+  /* background-color: #ffc4c4; */
+  /* background-color: #ffa0a07a; */
+  border-left: 5px solid red;
+  background-color: rgba(255, 0, 0, 0.1);
+}
+.admin-item:hover {
+  /* background-color: #ffc4c4; */
+  background-color: rgba(255, 0, 0, 0.12);
+}
+.notification__text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.notification__text .viewed::before {
+  content: "\e003";
+  font-family: 'icomoon';
+  font-size: 0.85em;
+  font-weight: normal;
+  padding-right: 5px;
+  font-style: normal;
+  color: rgba(47, 111, 200, 0.35);
+}
+.notification__text .view::before {
+  content: "\e003";
+  font-family: 'icomoon';
+  font-size: 0.85em;
+  font-weight: normal;
+  color: rgba(47, 111, 200, 0.75);
+  cursor: pointer;
+  padding: 5px;
+  font-style: normal;
+}
+.notification__text .view:hover::before {
+  color: rgba(47, 111, 200, 0.9);
+}
+.notification__time span::before {
+  content: "\e007";
+  font-family: 'icomoon';
+  font-size: 0.90em;
+  font-weight: normal;
+  color: rgba(47, 111, 200, 0.75);
+  padding-right: 5px;
+  font-style: normal;
+}
+.notification__time span {
+  display: flex;
+}
 
+/* .notification__text a {
+  margin-bottom: 3px;
+} */
+.notification__time {
+  display: flex;
+  flex-direction: row;
+  line-height: 23px;
+  justify-content: space-between;
+  margin-top: 5px;
+}
+.header__notification_all {
+  /* padding: 10px 7px 10px 7px; */
+  box-shadow: 0px -5px 8px 0px rgba(50, 50, 50, 0.15);
+}
+.header__notification_all a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 7px 10px 7px;
+  transition-duration: 0.4s;
+}
+.header__notification_all a::before {
+  content: "\e005";
+  font-family: 'icomoon';
+  font-size: 15px;
+  font-weight: normal;
+  padding-right: 5px;
+  color: rgba(47, 111, 200, 0.75);
+}
 
+.header__notification_all a:hover {
+  background-color: #e7f3fa;
+  color: black !important;
+}
 
+.header__notifications_content {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  height: 366px;
+  overflow: auto;
+}
+.header__notifications_conteiner .header__notifications_content-hide {
+  display: block;
+}
 
+.header__notifications_conteiner.notif-more .header__notifications_content {
+  height: auto;
+}
 
+.header__notifications_conteiner.notif-more > .header__notifications_content > .header__notifications_content-hide {
+  display: none;
+}
+
+.header__notifications_conteiner.notif-more .header__notifications_item:nth-child(3) {
+  border-bottom: none;
+}
 
 
 
@@ -2324,14 +2525,14 @@ body.dark {
   -ms-flex-align: center;
   text-align: left;
 }
-.comment-block__user-avatar.woman-user::before {
+.woman-user::before {
   content: "\e904";
   font-family: 'icomoon';
   font-size: 3em;
   padding-right: 0.2em;
   color: rgba(47, 111, 200, 0.75);
 }
-.comment-block__user-avatar.male-user::before {
+.male-user::before {
   content: "\e903";
   font-family: 'icomoon';
   font-size: 3em;
