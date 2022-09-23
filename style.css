@@ -614,7 +614,10 @@ body {
   white-space: nowrap;
   line-height: 33px;
  }
- #tippy-62 ul li:last-of-type a:hover, #tippy-62 ul li:last-of-type a:hover::before {
+ /* #tippy-62 ul li:last-of-type a:hover, #tippy-62 ul li:last-of-type a:hover::before {
+  color: red !important;
+ } */
+ #tippy-62 ul li:last-of-type a, #tippy-62 ul li:last-of-type a::before {
   color: red !important;
  }
  #tippy-62 ul li:first-of-type a::before {
@@ -934,6 +937,7 @@ body {
   flex-direction: row;
   border-bottom: 1px solid #dce9f0;
   /* transition-duration: 0.3s; */
+  align-items: center;
 }
 .tippy-content .header__notifications_item:nth-last-child(1) {
   border-bottom: none;
@@ -956,7 +960,7 @@ body {
   color: rgba(47, 111, 200, 0.75); */
 }
 .notification__img.woman-user {
-  margin-bottom: 3px;
+  /* margin-bottom: 3px; */
 }
 .admin:before {
   content: "\e006";
@@ -1021,7 +1025,7 @@ body {
 .notification__time {
   display: flex;
   flex-direction: row;
-  line-height: 23px;
+  /* line-height: 23px; */
   justify-content: space-between;
   margin-top: 5px;
 }
@@ -1053,7 +1057,7 @@ body {
 .header__notifications_content {
   display: -webkit-box;
   -webkit-box-orient: vertical;
-  height: 366px;
+  height: 348px;
   overflow: auto;
 }
 .header__notifications_conteiner .header__notifications_content-hide {
@@ -1327,7 +1331,7 @@ body.dark {
     font-weight: 700;
   }
   .timeline__head {
-    border-bottom: 1px solid #c0d1db;
+    border-bottom: 1px solid #dce9f0;
     padding-bottom: 0.75em;
   }
   .timeline__date {
@@ -2398,7 +2402,7 @@ body.dark {
   color: rgba(47, 111, 200, 0.75);
   vertical-align: bottom;
 }
-.next-race-block__time span:first-child, .next-translate-block__time span:first-child, .interview-block__gossip_date span:first-child, .comment-block__user-avatar span:first-child, .timeline__date span:first-child {
+.next-race-block__time span:first-child, .next-translate-block__time span:first-child, .interview-block__gossip_date span:first-child, .comment-block__user-content span:first-child, .timeline__date span:first-child {
   margin-right: 1em;
 }
 .next-race-block__type {
@@ -2529,7 +2533,7 @@ body.dark {
 /* .comment-block__gossip span:first-child {
   padding: 0 1.1em 0 0;
 } */
-.comment-block__user-avatar {
+.comment-block__user-content {
   display: flex;
   align-items: center;
   -webkit-box-align: center;
@@ -2543,6 +2547,45 @@ body.dark {
   padding-right: 0.2em;
   color: rgba(47, 111, 200, 0.75);
 }
+.woman-user {
+  position: relative;
+}
+
+.header__notifications_item .logged {
+  position: absolute;
+  height: 12px;
+  width: 12px;
+  border: 2px solid white;
+  border-radius: 50%;
+  background-color: #1bd212;
+  right: 6px;
+  top: 10px;
+}
+.header__notifications_item:hover .logged {
+  border: 2px solid #ecf5fb;
+}
+
+/* .comment-block__user-avatar.woman-user::before .logged {
+  position: absolute;
+  height: 12px;
+  width: 12px;
+  border: 2px solid white;
+  border-radius: 50%;
+  background-color: #1bd212;
+  right: 5px;
+  top: 12px;
+} */
+.comment-block__user-content .woman-user.logged span {
+  position: absolute;
+  height: 12px;
+  width: 12px;
+  border: 2px solid #e7f3fa;
+  border-radius: 50%;
+  background-color: #1bd212;
+  right: -7px;
+  top: 13px;
+}
+
 .male-user::before {
   content: "\e903";
   font-family: 'icomoon';
