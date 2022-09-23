@@ -956,7 +956,7 @@ tippy('.timer__more-events', {
   placement: 'auto',
   duration: 350,
   maxWidth: 400,
-  animation: 'perspective',
+  animation: 'shift-away',
 });
 
 tippy('.header__profile-button', {
@@ -965,6 +965,18 @@ tippy('.header__profile-button', {
   interactive: true,
   trigger: 'mouseenter',
   delay: [250, 0],
+  placement: 'bottom',
+  duration: 350,
+  maxWidth: 400,
+  animation: 'shift-away',
+});
+
+tippy('.header__notifications', {
+  content: document.querySelector('.header__notifications_conteiner'),
+  arrow: true,
+  interactive: true,
+  trigger: 'click',
+  delay: [0, 900000],
   placement: 'bottom',
   duration: 350,
   maxWidth: 400,
@@ -988,7 +1000,6 @@ window.onclick = function(event) {
   }
 }
 
-
 // if(document.getElementsByClassName('dropbtn').length > 0) {
 //   document.getElementsByClassName('show')[0].classList.add('actual');
 // }
@@ -997,4 +1008,15 @@ window.onclick = function(event) {
 // $(document).ready(function(){
 //   if($('#myDropdown').hasClass("show")) 
 //      $("dropbtn").addClass("actual");
+// });
+
+
+// document.getElementById('more-button').onclick = function() {
+//   document.getElementById('notif').classList.add('notif-more');
+// }
+
+// $(document).ready(function(){
+// 	$(".main-cup__term term").click(function(){
+// 		$(".main-cup__lead lead").toggleClass("notif-more"); return false;
+// 	});
 // });
