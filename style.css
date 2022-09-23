@@ -1017,6 +1017,7 @@ body {
 }
 .notification__time span {
   display: flex;
+  align-items: center;
 }
 
 /* .notification__text a {
