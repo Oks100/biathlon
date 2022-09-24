@@ -2376,6 +2376,8 @@ body.dark {
   padding-bottom: 2px;
 }
 .next-race-block__time {
+  display: flex;
+  align-items: center;
 }
 .next-race-block__time span{
   font-weight: 600;
@@ -2441,6 +2443,8 @@ body.dark {
 .next-race-block__flag {
 }
 .next-translate-block__time {
+  display: flex;
+  align-items: center;
 }
 .next-translate-block__time span {
   font-weight: 600;
