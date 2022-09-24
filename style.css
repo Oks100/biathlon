@@ -2413,6 +2413,10 @@ body.dark {
   margin-right: 1em;
 }
 
+.blogs-block__footer.footer__all, .interview-block__footer.footer__all {
+  padding-top: 0;
+}
+
 .next-race-block__type {
 }
 
