@@ -2406,6 +2406,11 @@ body.dark {
 .next-race-block__time span:first-child, .next-translate-block__time span:first-child, .interview-block__gossip_date span:first-child, .comment-block__user-content span:first-child, .timeline__date span:first-child {
   margin-right: 1em;
 }
+
+.blogs-block__name a{
+  margin-right: 1em;
+}
+
 .next-race-block__type {
 }
 
@@ -2452,7 +2457,7 @@ body.dark {
 .blogs-block__body {
 }
 .blogs-block__item span {
-  display: flex;
+  /* display: flex; */
 }
 .blogs-block__item span::before {
   /* content: "\e901";
@@ -2473,9 +2478,16 @@ body.dark {
   border-bottom: none;
 }
 .blogs-block__time {
-  font-weight: 600;
+  /* font-weight: 600; */
 }
-.blogs-block__name {
+.blogs-block .interview-block__said {
+  margin-bottom: 0;
+}
+.blogs-block .interview-block__items {
+  margin-top: 0;
+}
+.blogs-block .interview-block__items:first-of-type {
+  margin-top: -7px;
 }
 
 
@@ -2565,6 +2577,23 @@ body.dark {
 .header__notifications_item:hover .logged {
   border: 2px solid #ecf5fb;
 }
+.logged {
+  cursor: help;
+}
+.blogs-block .logged {
+  position: absolute;
+  height: 12px;
+  width: 12px;
+  border: 2px solid #e7f3fa;
+  border-radius: 50%;
+  background-color: #1bd212;
+  right: 6px;
+  top: 12px;
+}
+
+.male-user {
+  position: relative;
+}
 
 /* .comment-block__user-avatar.woman-user::before .logged {
   position: absolute;
@@ -2576,7 +2605,7 @@ body.dark {
   right: 5px;
   top: 12px;
 } */
-.comment-block__user-content .woman-user.logged span {
+.comment-block__user-content .woman-user .logged {
   position: absolute;
   height: 12px;
   width: 12px;
@@ -2723,6 +2752,7 @@ table.popular__table tbody tr {
   background-color: rgba(73, 167, 194, 0.12);
   height: 1.2em;
   border-radius: 3px;
+  box-shadow: inset 0 0 7px 0px rgba(73, 167, 194, 0.12);
 }
 .vote-block__votes {
   font-size: 0.9em;
@@ -2905,11 +2935,12 @@ table.popular__table tbody tr {
 }
 .interview-block__items:last-child {
   border-bottom: none;
-  padding: 0.7em 0 0 0;
+  /* padding: 0.7em 0 0 0; */
 }
 .interview-block__said {
   display: flex;
   margin-bottom: 0.5em;
+  align-items: center;
 }
 .interview-block__gossip_image {
   background-color: rgba(103,155,205,1.00);
@@ -2940,7 +2971,7 @@ table.popular__table tbody tr {
 
 }
 .interview-block__gossip_exile {
-  margin-top: 0.25em;
+  /* margin-top: 0.25em; */
 }
 .interview-block__gossip_name {
 }
@@ -3403,11 +3434,28 @@ footer.footer .footer__column a:hover, footer.footer .footer__bottom-text a:hove
     background-color: black;
     margin-left: 10px;
     display: inline-block; */
-    content: "\e916";
+    content: "\e012";
     font-family: 'icomoon';
-    font-size: 18px;
+    font-size: 12px;
     margin-left: 10px;
-    color: rgba(0, 0, 0, 0.85);
+    /* color: rgba(0, 0, 0, 0.85); */
+    color: #6393d6;
+  }
+  .pause-career::after {
+    content: "\e013";
+    font-family: 'icomoon';
+    font-size: 12px;
+    margin-left: 10px;
+    color: #6393d6;
+    cursor: help;
+  }
+  .continue-career::after {
+    content: "\e014";
+    font-family: 'icomoon';
+    font-size: 12px;
+    margin-left: 10px;
+    color: #6393d6;
+    cursor: help;
   }
   
   .img__profile {
