@@ -1054,26 +1054,23 @@ body {
   background-color: #e7f3fa;
   color: black !important;
 }
-
-.header__notifications_content {
+/* .header__notifications_conteiner .header__notifications_content {
+  height: auto;
+} */
+.header__notifications_conteiner.notif-more .header__notifications_content {
   display: -webkit-box;
   -webkit-box-orient: vertical;
   height: 348px;
   overflow: auto;
 }
-.header__notifications_conteiner .header__notifications_content-hide {
+.header__notifications_conteiner > .header__notifications_content > .header__notifications_content-hide {
+  display: none;
+}
+.header__notifications_conteiner.notif-more .header__notifications_content-hide {
   display: block;
 }
 
-.header__notifications_conteiner.notif-more .header__notifications_content {
-  height: auto;
-}
-
-.header__notifications_conteiner.notif-more > .header__notifications_content > .header__notifications_content-hide {
-  display: none;
-}
-
-.header__notifications_conteiner.notif-more .header__notifications_item:nth-child(3) {
+.header__notifications_conteiner .header__notifications_item:nth-child(3) {
   border-bottom: none;
 }
 
@@ -2236,8 +2233,9 @@ body.dark {
     border-radius: 0 0 3px 3px;
   }
   .vertical-menu-block__body .vertical-menu-block__list-four li:last-child::before {
-    height: 30px;
+    /* height: 30px; */
     border-radius: 0 0 3px 3px;
+    height: 33.1px;
   }
   .vertical-menu-block__body .vertical-menu-block__list li a:hover {
     border: none;
@@ -2247,7 +2245,8 @@ body.dark {
   }
   .vertical-menu-block__body .vertical-menu-block__list li {
     background: white;
-    height: 2.25em;
+    /* height: 2.25em; */
+    height: 2.481em;
     position: relative;
   }
   .vertical-menu-block__body .vertical-menu-block__list li:hover::before{
@@ -2259,7 +2258,8 @@ body.dark {
   .vertical-menu-block__body .vertical-menu-block__list li::before{
     content: '';
     position: absolute;
-    height: 29.1333px;
+    /* height: 29.1333px; */
+    height: 32.2px;
     width: 0;
     background: #d1ebfb;
     -webkit-transition-timing-function: linear;
