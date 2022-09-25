@@ -13,8 +13,8 @@ $(document).ready(function() {
   });
  });
 
- $(document).ready(function(){
-  $(".header__notifications").click(function(event){
-    $(".header__notifications_conteiner").toggleClass("notif-more");
-  });
-});
+//  $(document).ready(function(){
+//   $(".header__notifications").click(function(event){
+//     $(".header__notifications_conteiner").toggleClass("notif-more");
+//   });
+// });
