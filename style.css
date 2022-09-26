@@ -684,7 +684,10 @@ body {
   padding-right: 5px;
 }
 
-.timer__more-events span:first-of-type:hover {
+.timer__more-events span:hover {
+  color: #ffd700;
+}
+.timer__more-events[aria-expanded="true"] span {
   color: #ffd700;
 }
 .timer__more-events span:first-of-type::after {
@@ -703,7 +706,7 @@ body {
 
 }
 .timer__more_info div {
-  line-height: 33px;
+  line-height: 32.2px;
   padding-left: 10px;
   padding-right: 10px;
   border-bottom: 1px solid #dce9f0;
@@ -745,7 +748,13 @@ body {
   color: white;
 }
 
-.header__massages span a:hover, .header__massages span a:focus{
+/* .header__massages span a:hover, .header__massages span a:focus{
+  color: #ffd700;
+} */
+.header__massages span a:hover {
+  color: #ffd700;
+}
+.header__link-massage2[aria-expanded="true"] {
   color: #ffd700;
 }
 
