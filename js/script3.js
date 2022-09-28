@@ -18,3 +18,7 @@ $(document).ready(function() {
 //     $(".header__notifications_conteiner").toggleClass("notif-more");
 //   });
 // });
+
+// document.querySelector('.main-cup__term').addEventListener('click', () => {
+//   document.querySelector('.body').classList.toggle('dark');
+// });

@@ -124,7 +124,7 @@ tippy('.oeverg-elvira-karin', {
   arrow: true,
   interactive: true,
   trigger: 'mouseenter',
-  delay: [1000, 350],
+  delay: [1000, 3509999],
   placement: 'auto',
   duration: 350,
   maxWidth: 400,
@@ -266,7 +266,7 @@ tippy('.davidova-marketa', {
   arrow: true,
   interactive: true,
   trigger: 'mouseenter',
-  delay: [1000, 350],
+  delay: [1000, 350000],
   placement: 'auto',
   duration: 350,
   maxWidth: 400,
@@ -964,7 +964,7 @@ tippy('.header__profile-button', {
   arrow: true,
   interactive: true,
   trigger: 'mouseenter',
-  delay: [250, 0],
+  delay: [250, 900000],
   placement: 'bottom',
   duration: 350,
   maxWidth: 400,
@@ -976,12 +976,13 @@ tippy('.header__notifications', {
   arrow: true,
   interactive: true,
   trigger: 'click',
-  delay: [0, 900000],
+  delay: [0, 0],
   placement: 'bottom',
   duration: 350,
   maxWidth: 400,
   animation: 'shift-away',
 });
+
 
 function myFunction() {
   document.getElementById("myDropdown").classList.toggle("show");
@@ -1000,9 +1001,44 @@ window.onclick = function(event) {
   }
 }
 
-// if(document.getElementsByClassName('dropbtn').length > 0) {
-//   document.getElementsByClassName('show')[0].classList.add('actual');
+// const toggleSwitch = document.querySelector('.theme-switch input[type="checkbox"]');
+
+// function switchTheme(e) {
+//     if (e.target.checked) {
+//         document.documentElement.setAttribute('data-theme', 'dark');
+//     }
+//     else {
+//         document.documentElement.setAttribute('data-theme', 'light');
+//     }    
 // }
+
+// toggleSwitch.addEventListener('change', switchTheme, false);
+
+const toggleSwitch = document.querySelector('.light-dark input[type="checkbox"]');
+
+function switchTheme(e) {
+    if (e.target.checked) {
+        document.documentElement.setAttribute('data-theme', 'dark');
+    }
+    else {
+        document.documentElement.setAttribute('data-theme', 'light');
+    }    
+}
+
+toggleSwitch.addEventListener('change', switchTheme, false);
+
+// document.querySelector('.header__notification_all').addEventListener('click', () => {
+//   document.querySelector('.notif-more').classList.toggle('three');
+// });
+
+// $('.oeverg-elvira-karin__profile_body').on('click', function(){
+//   $('.header__notifications_item').toggleClass('actuall');
+// });
+
+
+// if(document.getElementsByClassName('main-cup__term').length > 0) {
+//    document.getElementsByClassName('main-cup__lead')[0].classList.add('actual');
+//  }
 
 
 // $(document).ready(function(){
