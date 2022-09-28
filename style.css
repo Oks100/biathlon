@@ -4178,7 +4178,8 @@ html[data-theme='dark'] .comment-block__user-content .woman-user .logged, html[d
 html[data-theme='dark'] .main-cup, html[data-theme='dark'] .sidebar-block, html[data-theme='dark'] .sidebar-block3, html[data-theme='dark'] .twitter-block {
   /* background-color: #22293f; */
   /* background-color: #212533; */
-  background-color: #15202e;
+  /* background-color: #15202e; */
+  background-color: #172230;
   /* color: white; */
   color: #e1e1e1;
 }
@@ -4345,7 +4346,8 @@ html[data-theme="dark"] .table__two tbody tr:nth-child(2n+2) td {
 }
 html[data-theme="dark"] .table__two tbody tr:nth-child(2n+3) td {
   /* background-color: #212533 !important; */
-  background-color: #15202e !important;
+  /* background-color: #15202e !important; */
+  background-color: #172230;
 }
 html[data-theme="dark"] .tippy-content {
   color: #e1e1e1;
