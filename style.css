@@ -4373,7 +4373,7 @@ html[data-theme="dark"] .timer__more_info div:hover, html[data-theme="dark"] .he
   /* background-color: #2b3f54; */
   background-color: #263647;
 }
-html[data-theme="dark"] .timer__more_info div, html[data-theme="dark"] .header__notifications_item {
+html[data-theme="dark"] .timer__more_info div, html[data-theme="dark"] .header__notifications_item, html[data-theme="dark"] .statistics1, html[data-theme="dark"] .statistics2, html[data-theme="dark"] .statistics4 {
   border-color: #565d61;
 }
 html[data-theme="dark"] .header__notifications_conteiner.notif-more .header__notifications_item:nth-child(3) {
