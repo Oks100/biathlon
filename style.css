@@ -4174,7 +4174,7 @@ html[data-theme='dark'] .timeline__item, html[data-theme='dark'] .timeline__body
 html[data-theme='dark'] .comment-block__user-content .woman-user .logged, html[data-theme='dark'] .blogs-block .logged {
   border-color: #212533;
 }
-html[data-theme='dark'] .main-cup, html[data-theme='dark'] .sidebar-block, html[data-theme='dark'] .sidebar-block3 {
+html[data-theme='dark'] .main-cup, html[data-theme='dark'] .sidebar-block, html[data-theme='dark'] .sidebar-block3, html[data-theme='dark'] .twitter-block {
   /* background-color: #22293f; */
   background-color: #212533;
   /* color: white; */
