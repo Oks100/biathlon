@@ -2880,6 +2880,7 @@ table.popular__table tbody tr {
   font-family: tahoma, Arial, Helvetica, sans-serif;
   color: #1f73cc;
   /* background-color: rgb(231, 243, 250); */
+  background-color: transparent;
   border-radius: 3px 3px 0px 0px;
 }
 .twitter-block__term {
