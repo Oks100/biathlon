@@ -483,7 +483,7 @@ body {
     top: -7px;
     left: -7px;
   }
-  .header-menu .header-menu__list li:hover::before {
+  .header-menu .header-menu__list li:hover::before, .header-menu .header-menu__list li[aria-expanded="true"]::before {
     width: 12px;
     height: 12px;
     border-color: white;
@@ -505,7 +505,7 @@ body {
     right: -7px;
   }
   
-  .header-menu .header-menu__list li:hover::after {
+  .header-menu .header-menu__list li:hover::after, .header-menu .header-menu__list li[aria-expanded="true"]::after {
     width: 15px;
     height: 15px;
     border-color: white;
@@ -528,7 +528,7 @@ body {
     left: -7px;
   }
   
-  .header-menu .header-menu__list li:hover a.corners::before {
+  .header-menu .header-menu__list li:hover a.corners::before, .header-menu .header-menu__list li[aria-expanded="true"] a.corners::before {
     width: 15px;
     height: 15px;
     border-color: white;
@@ -551,7 +551,7 @@ body {
     right: -7px;
   }
   
-  .header-menu .header-menu__list li:hover a.corners::after {
+  .header-menu .header-menu__list li:hover a.corners::after, .header-menu .header-menu__list li[aria-expanded="true"] a.corners::after {
     width: 15px;
     height: 15px;
     border-color: white;
@@ -665,6 +665,8 @@ body {
     display: flex;
     justify-content: space-between;
     font-size: 0.91em;
+    height: 44.0167px;
+    align-items: center;
 }
 .header-block {
   font-size: 1em;
@@ -698,6 +700,10 @@ body {
   font-family: 'icomoon';
   font-size: 10px;
   margin-left: 5px;
+}
+.timer__more-events[aria-expanded="true"] span::after {
+  display: inline-block;
+  transform: rotate(180deg);
 }
 
 #timer2, #timer3 {
@@ -987,7 +993,8 @@ body {
 .admin-item {
   /* background-color: #ffc4c4; */
   /* background-color: #ffa0a07a; */
-  border-left: 5px solid red;
+  /* border-left: 5px solid red; */
+  border-left: 5px solid #ff0000b3;
   background-color: rgba(255, 0, 0, 0.1) !important;
 }
 .admin-item:hover {
@@ -1209,10 +1216,9 @@ body.dark {
 }
 
 /*! Переключитель*/
- .header__menu-body .header__additional-menu .languages {
+ /* .header__menu-body .header__additional-menu .languages {
     display: flex;
     transition: 1.7s ease;
-    /*gap: 20px;*/
     align-items: center;
     margin: 15px;
 }
@@ -1224,7 +1230,7 @@ body.dark {
 }
 .header__menu-body .header__additional-menu .languages a:hover {
     color: #ffd700;
-}
+} */
  .header__menu-body .header__additional-menu ul li {
 
 }
@@ -1234,12 +1240,97 @@ body.dark {
 .header__menu-body .header__additional-menu ul li a {
     color: white;
 }
-.header__menu-body .header__additional-menu .languages a.active {
+/* .header__menu-body .header__additional-menu .languages a.active {
     color: #ffd700;
     pointer-events: none;
-}
+} */
   .header-search {
   }
+
+
+
+  .dropdown2{
+    position: relative;
+    display: inline-block;
+    z-index: 100;
+  }
+  .dropdown__button{
+    /* background-color: #133f6d; */
+    background-color: transparent;
+    padding: 5px 10px;
+    border-radius: 3px;
+    font-size: 16px;
+    width: 65px;
+    /* box-shadow: inset 0 0 7px 0px rgba(0, 0, 0, 0.3); */
+    color: white;
+    font-size: 1em;
+  }
+  .dropdown__box{
+    display: none;
+    background-color: white;
+    border-radius: 3px;
+    position: absolute;
+    top: 100%;
+    overflow: hidden;
+    box-shadow: 0px 0px 12px rgba(32,60,87,0.30);
+  }
+  .dropdown__box ul {
+    margin: 0;
+    padding: 0;
+  }
+  .dropdown__box li {
+    display: block;
+  }
+  .dropdown__box a {
+    display: flex;
+    flex-wrap: nowrap;
+    padding: 0px 10px;
+    text-decoration: none;
+    font-size: 13px;
+    color: black !important;
+  }
+  .dropdown__box a:hover {
+    background-color: #ecf5fb;
+  }
+  .dropdown2.open .dropdown__box{
+    display: block;
+  }
+
+  .dropdown__button::after {
+    content: "\e9c";
+    font-family: 'icomoon';
+    font-size: 10px;
+    margin-left: 5px;    
+    color: white;
+  }
+  .js-dropdown-box ul li a {
+    line-height: 33px;
+    font-size: 1em;
+  }
+  .dropdown__box ul li a[href*="UA"]::before {
+    content: url('//www.biathlon.com.ua/uploads/0/53.gif');
+    margin-right: 5px;
+  }
+  .dropdown__box ul li a[href*="EN"]::before {
+    content: url('//www.biathlon.com.ua/uploads/0/61.gif');
+    margin-right: 5px;
+  }
+  .dropdown__box ul li a[href*="RU"]::before {
+    content: url('img/nullflag.png');
+    margin-right: 5px;
+  }
+  .dropdown2.open .dropdown__button:focus, .dropdown2.open .dropdown__button:focus::after {
+    color: #ffd700;
+  }
+  .dropdown__button:hover, .dropdown__button:hover::after {
+    color: #ffd700;
+  }
+
+  .dropdown2.open .dropdown__button:focus::after {
+    display: inline-block;
+    transform: rotate(180deg);
+  }
+
 
   article.timeline {
     /* background-color: #546e7a; */
@@ -4382,7 +4473,8 @@ html[data-theme="dark"] .header__notifications_head, html[data-theme="dark"] .he
   background-color: #242527;
 }
 html[data-theme="dark"] .admin-item {
-  border-left: 5px solid #d40000;
+  /* border-left: 5px solid #d40000; */
+  border-left: 5px solid #d40000d3;
 }
 html[data-theme="dark"] .header__notifications_item .logged {
   border-color: #2a2b2d;
@@ -4403,13 +4495,13 @@ html[data-theme="dark"] .header__notifications_head {
 html[data-theme="dark"] .header__notification_all {
   box-shadow: 0px -5px 8px 0px rgba(80, 80, 80, 0.15);
 }
-html[data-theme="dark"] #tippy-62 ul li a:hover {
+html[data-theme="dark"] #tippy-62 ul li a:hover, html[data-theme="dark"] .dropdown__box a:hover {
   background-color: #2b3f54;
 }
 html[data-theme="dark"] #tippy-62 ul li a {
   border-color: #45484a !important;
 }
-html[data-theme='dark'] #tippy-62 ul li a {
+html[data-theme='dark'] #tippy-62 ul li a, html[data-theme='dark'] .dropdown__box a {
   color: #e1e1e1 !important;
 }
 html[data-theme='dark'] .header__number-massage span, html[data-theme='dark'] .header__number-massage2 span {
@@ -4421,7 +4513,7 @@ html[data-theme='dark'] #tippy-62 ul li:last-of-type a, html[data-theme='dark'] 
 html[data-theme='dark'] .main-cup__top10 .red-color, html[data-theme='dark'] .timeline__item .red-color {
   color: #d40000;
 }
-html[data-theme='dark'] .important-news__list {
+html[data-theme='dark'] .important-news__list, html[data-theme='dark'] .dropdown__box {
   background-color: #2a2b2d;
 }
 html[data-theme='dark'] .table__two tbody .active-biathlete td:not(.table0_100 tr td) {
