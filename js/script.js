@@ -959,12 +959,12 @@ tippy('.timer__more-events', {
   animation: 'shift-away',
 });
 
-tippy('.header__profile-button', {
+tippy('.header__profile', {
   content: document.querySelector('.header__profile-button-info'),
   arrow: true,
   interactive: true,
-  trigger: 'mouseenter',
-  delay: [250, 900000],
+  trigger: 'click',
+  delay: [0, 0],
   placement: 'bottom',
   duration: 350,
   maxWidth: 400,
@@ -1056,3 +1056,42 @@ toggleSwitch.addEventListener('change', switchTheme, false);
 // 		$(".main-cup__lead lead").toggleClass("notif-more"); return false;
 // 	});
 // });
+
+/* Выбор языка */
+$(".js-dropdown").each(function(){
+	var $dropdown = $(this),
+		$dropdownToggler = $dropdown.find(".js-dropdown-toggler"),
+		$dropdownBox = $dropdown.find(".js-dropdown-box"),
+		dropdownType = $dropdown.data("dropdown-type"),
+		close = function(e){
+			var $target = $(e.target),
+				inBox = $target.closest($dropdownBox[0]).length,
+				inButton = $target.closest($dropdownToggler[0]).length,
+				outside = (!inButton) ? (dropdownType !== "closing") ? (!inBox) ? true : false : true : false;
+			if(outside){
+				$dropdown.removeClass("open");
+				$(document).unbind("click", close);
+			}
+		},
+		open = function(){
+			if(!$dropdown.hasClass("open")){
+				$(document).bind("click", close);
+			} else {
+				$(document).unbind("click", close);
+			}
+			$dropdown.toggleClass("open");
+		};
+	$dropdownToggler.on("click", open);
+});
+
+$(".js-lang").each(function(){
+	var $lang = $(this),
+		$langDisplay = $lang.find(".js-lang-display"),
+		$langToggler = $lang.find(".js-lang-toggler")
+		;
+	$langToggler.on("click", function(){
+		var lang = $(this).attr("href").substring(1);
+		$langDisplay.text(lang);
+	});
+});
+/* Выбор языка */
