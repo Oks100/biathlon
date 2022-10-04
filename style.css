@@ -4703,7 +4703,7 @@ html[data-theme='dark'] .header__notifications_item.user-item:hover .logged {
 
 
 
-html[data-theme='summer'] .main-cup, html[data-theme='summer'] .sidebar-block, html[data-theme='summer'] .sidebar-block3,  html[data-theme='summer'] .timeline__body .td_top10w td, html[data-theme='summer'] .divTableRow:nth-child(2n+1) {
+html[data-theme='summer'] .main-cup, html[data-theme='summer'] .sidebar-block, html[data-theme='summer'] .sidebar-block3,  html[data-theme='summer'] .timeline__body .td_top10w td, html[data-theme='summer'] .divTableRow:nth-child(2n+1), html[data-theme='summer'] .twitter-block {
   /* background-color: #ffe7ae; */
   /* background-color: #ffeec6; */
   /* background-color: #fff3d7; */
