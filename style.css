@@ -4744,7 +4744,7 @@ html[data-theme='summer'] .vote-block__bar {
   background-color: rgba(77, 176, 75, 0.12);
   box-shadow: inset 0 0 7px 0px rgba(77, 176, 75, 0.12);
 }
-html[data-theme='summer'] .learn-more .circle-element, html[data-theme='summer'] .vertical-menu-block__categories span:not(.news_date), html[data-theme='summer'] .timeline-sponsors .swiper-pagination-bullet:hover:not(.swiper-pagination-bullet-active), html[data-theme='summer'] .timeline-sponsors .swiper-button-prev:hover, html[data-theme='summer'] .timeline-sponsors .swiper-button-next:hover, html[data-theme='summer'] .dropbtn:hover, html[data-theme='summer'] .dropbtn:focus {
+html[data-theme='summer'] .learn-more .circle-element, html[data-theme='summer'] .vertical-menu-block__categories span:not(.news_date), html[data-theme='summer'] .timeline-sponsors .swiper-pagination-bullet:hover:not(.swiper-pagination-bullet-active), html[data-theme='summer'] .timeline-sponsors .swiper-button-prev:hover, html[data-theme='summer'] .timeline-sponsors .swiper-button-next:hover, html[data-theme='summer'] .dropbtn:hover, html[data-theme='summer'] .dropbtn:focus, html[data-theme='summer'] .timeline__body.gallery .swiper-pagination-bullet:hover:not(.swiper-pagination-bullet-active) {
   /* background: #ffdd95; */
   background: #ffe8b5;
 }
@@ -4759,7 +4759,7 @@ html[data-theme='summer'] .btn-container {
   /* --btn-bg: #ffdd95; */
   --btn-bg: #ffe8b5;
 }
-html[data-theme='summer'] .timeline__footer button, html[data-theme='summer'] .timeline-navigation__page a, html[data-theme='summer'] .timeline-navigation_arrow-left, html[data-theme='summer'] .timeline-navigation_arrow-right, html[data-theme='summer'] .timeline-sponsors .swiper-pagination-bullet {
+html[data-theme='summer'] .timeline__footer button, html[data-theme='summer'] .timeline-navigation__page a, html[data-theme='summer'] .timeline-navigation_arrow-left, html[data-theme='summer'] .timeline-navigation_arrow-right, html[data-theme='summer'] .timeline-sponsors .swiper-pagination-bullet, html[data-theme='summer'] .slider-container3 .swiper-pagination-bullet {
   /* background: #ffe8b7;*/
   background: #fff1d4;
 }
@@ -4769,7 +4769,7 @@ html[data-theme="summer"] .table__two tbody tr:nth-child(2n+2) td, html[data-the
 html[data-theme="summer"] .table__two tbody tr:nth-child(2n+3) td, html[data-theme="summer"] .table__one tbody tr:nth-child(2n+4) td {
   background-color: #ffe8b5 !important;
 }
-html[data-theme="summer"] .timeline-navigation__page a:hover::before, html[data-theme="summer"] .timeline-navigation_arrow-left:hover::before, html[data-theme="summer"] .timeline-navigation_arrow-right:hover::before, html[data-theme="summer"] .timeline-navigation__list a.active, html[data-theme='summer'] .timeline-navigation__page a::before, html[data-theme='summer'] .timeline-navigation__page a::before, .timeline-navigation_arrow-left::before, .timeline-navigation_arrow-right::before, html[data-theme="summer"] .timeline-sponsors .swiper-pagination-bullet-active {
+html[data-theme="summer"] .timeline-navigation__page a:hover::before, html[data-theme="summer"] .timeline-navigation_arrow-left:hover::before, html[data-theme="summer"] .timeline-navigation_arrow-right:hover::before, html[data-theme="summer"] .timeline-navigation__list a.active, html[data-theme='summer'] .timeline-navigation__page a::before, html[data-theme='summer'] .timeline-navigation__page a::before, .timeline-navigation_arrow-left::before, .timeline-navigation_arrow-right::before, html[data-theme="summer"] .timeline-sponsors .swiper-pagination-bullet-active, html[data-theme="summer"] .slider-container3 .swiper-pagination-bullet-active {
   /* background: #ffe8b5; */
   background: #ffe19f;
 }
