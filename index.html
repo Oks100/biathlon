@@ -102,7 +102,7 @@
                     <a href="#">Пометить все как прочитанные (2)</a>
                   </div>
                   <div class="header__notifications_content">
-                  <div class="header__notifications_item">
+                  <div class="header__notifications_item user-item">
                     <div class="notification__img woman-user">
                       <span class="logged" title="Онлайн"></span>
                     </div>
@@ -114,17 +114,6 @@
                       </div>
                     </div>
                   </div>
-                  <div class="header__notifications_item">
-                    <div class="notification__img male-user">
-                    </div>
-                    <div class="notification__text">
-                      <a href="#"><b>Євген Z</b> ответил на ваш комментарий на странице "Дарья Блашко вторая на Martin Fourcade Nordic Festival!"</a>
-                      <div class="notification__time">
-                        <span>21 час назад</span>
-                        <a href="#" class="view">Отметить прочитанным</a>
-                      </div>
-                    </div>
-                  </div>
                   <div class="header__notifications_item admin-item">
                     <div class="notification__img admin">
                     </div>
@@ -132,7 +121,18 @@
                       <a href="#"><b>Администрация</b>. Турнир прогнозистов 2022/23. СТАРТ СЕЗОНА</a>
                       <div class="notification__time">
                         <span>1 день назад</span>
-                        <span href="#" class="viewed">Прочитано</span>
+                        <a href="#" class="view">Отметить прочитанным</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="header__notifications_item">
+                    <div class="notification__img male-user">
+                    </div>
+                    <div class="notification__text">
+                      <a href="#"><b>Євген Z</b> ответил на ваш комментарий на странице "Дарья Блашко вторая на Martin Fourcade Nordic Festival!"</a>
+                      <div class="notification__time">
+                        <span>21 час назад</span>
+                        <span class="viewed">Прочитано</span>
                       </div>
                     </div>
                   </div>
@@ -213,12 +213,7 @@
                 </div>
               </span>
             </div>
-            <!-- <div class="theme-switch-wrapper">
-              <label class="theme-switch" for="checkbox">
-                  <input type="checkbox" id="checkbox" />
-                  <div class="slider round"></div>
-            </label>
-          </div> -->
+
             <!-- <div class="light-dark">
               <input type="checkbox" class="checkbox" id="checkbox">
               <label for="checkbox" class="label">
@@ -227,21 +222,32 @@
                 <div class="ball"></div>
               </label>
             </div> -->
-            <div class="light-dark">
-              <input type="checkbox" class="checkbox" id="checkbox">
-              <label for="checkbox" class="label">
-                <i class="fas fa-moon"></i>
-                <i class="fas fa-sun"></i>
-                <div class="ball"></div>
-              </label>
-            </div>
-            <!-- <div class="languages">
-              <a href="#">UA</a>
-              <span>/</span>
-              <a class="active" href="#">RU</a>
-              <span>/</span>
-              <a href="#">EN</a>
+
+            <!-- <div class="select light-dark">
+              <input type="checkbox">
             </div> -->
+            <div class="select light-dark">
+              <input class="none" type="checkbox" type="hidden" name="">
+              <input class="select__input" type="hidden" name="">
+              <div class="select__head">Тема: <span>Стандарт</span></div>
+              <ul class="select__list" style="display: none;">
+                  <li data-set-theme="" class="select__item">Тема: <span>Стандарт</span></li>
+                  <li data-set-theme="dark" class="select__item">Тема 2: <span>Темная</span></li>
+                  <li data-set-theme="summer" class="select__item">Тема 3: <span>Летняя</span></li>
+                  <li data-set-theme="Black" class="select__item">Тема 4: <span>Черная</span></li>
+              </ul>
+          </div>
+            <!-- <div class="select light-dark">
+              <input class="select__input" type="hidden" name="">
+              <div class="select__head">Тема: Стандартная</div>
+              <ul class="select__list" style="display: none;">
+                  <li data-set-theme="" class="select__item">Тема: Стандартная</li>
+                  <li data-set-theme="dark" class="select__item">Тема 2: Летняя</li>
+                  <li data-set-theme="black" class="select__item">Тема 3: Темная</li>
+                  <li data-set-theme="Pink" class="select__item">Тема 4: Черная</li>
+              </ul>
+          </div> -->
+
             <div class="dropdown2 js-dropdown js-lang" data-dropdown-type="closing">
               <button class="dropdown__button js-dropdown-toggler js-lang-display">RU</button>
               <div class="dropdown__box js-dropdown-box">
@@ -4482,8 +4488,8 @@
     <nav class="left-sidebar">
       <div class="main-cup man">
         <div class="main-cup__header header-block">
-          <span class="main-cup__term term">Кубок Мира - </span>
-          <span class="main-cup__lead lead">Мужчины</span>
+          <span class="main-cup__term term">Кубок Мира - Мужчины</span>
+          <!-- <span class="main-cup__lead lead">Мужчины</span> -->
         </div>
         <div class="main-cup__body">
           <table class="main-cup__top10">
@@ -5493,8 +5499,8 @@
       </div>
       <div class="slider-block sidebar-block">
         <div class="slider-block__head head__all">
-          <span class="slider-block__term term term2">Новые </span><span
-            class="slider-block__lead lead lead2">фото</span>
+          <span class="slider-block__term term term2">Новые фото</span>
+          <!-- <span class="slider-block__lead lead lead2">фото</span> -->
         </div>
         <div class="slider-block__body">
           <div class="swiper-container">
@@ -5698,8 +5704,8 @@
     <aside class="right-sidebar">
       <div class="main-cup women">
         <div class="main-cup__header header-block">
-          <span class="main-cup__term term">Кубок Мира - </span>
-          <span class="main-cup__lead lead">Женщины</span>
+          <span class="main-cup__term term">Кубок Мира - Женщины</span>
+          <!-- <span class="main-cup__lead lead">Женщины</span> -->
         </div>
         <div class="main-cup__body">
           <table class="main-cup__top10">
@@ -6687,8 +6693,8 @@
       </div>
       <div class="comment-block sidebar-block">
         <div class="comment-block__head">
-          <span class="comment-block__term term term2">Новые </span>
-          <span class="comment-block__term lead lead2">комментарии</span>
+          <span class="comment-block__term term term2">Новые комментарии</span>
+          <!-- <span class="comment-block__term lead lead2">комментарии</span> -->
         </div>
         <div class="comment-block__body">
           <div class="comment-block__user-content">
@@ -6748,8 +6754,8 @@
       </div>
       <div class="stars-block sidebar-block">
         <div class="stars-block__head head__all">
-          <span class="stars-block__term term term2">Оценки за </span>
-          <span class="stars-block__term lead lead2">гонку</span>
+          <span class="stars-block__term term term2">Оценки за гонку</span>
+          <!-- <span class="stars-block__term lead lead2">гонку</span> -->
         </div>
         <div class="stars-block__body">
           <table class="stars-table">
