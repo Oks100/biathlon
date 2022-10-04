@@ -4804,10 +4804,12 @@ html[data-theme="summer"] .main-cup__header, html[data-theme="summer"] .comment-
 html[data-theme="summer"] .timeline a:not(.timeline__head a), html[data-theme="summer"] .user, html[data-theme="summer"] .main-cup a, html[data-theme="summer"] .learn-more:hover .learn-more__text, html[data-theme="summer"] .learn-more__text, html[data-theme="summer"] .timeline__footer button, html[data-theme="summer"] .next-race-block a, html[data-theme="summer"] .next-translate-block a, html[data-theme="summer"] .popular-block a, html[data-theme="summer"] .interview-block a, html[data-theme="summer"] .blogs-block a, html[data-theme="summer"] .stars-block a {
   /* color: #4a9748; */
   /* color: #48a046; */
-  color: #3b9039;
+  /* color: #3b9039; */
+  color: #348232;
 }
 html[data-theme="summer"] .timeline__footer button .icon-container .icon svg {
-  fill: #3b9039;
+  /* fill: #3b9039; */
+  fill: #348232;
 }
 html[data-theme="summer"] .vertical-menu-block__link .news_date {
   color: #71d06e;
