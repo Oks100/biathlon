@@ -4853,3 +4853,18 @@ html[data-theme="summer"] .main-cup__top10 .red-color:hover, html[data-theme="su
   color: rgb(227, 0, 0) !important;
   border-color: rgb(227, 0, 0) !important;
 }
+html[data-theme="summer"] .slider-block .swiper-container .swiper-button-next, html[data-theme="summer"] .slider-block .swiper-container .swiper-button-prev {
+  color: #e99e00 !important;
+}
+html[data-theme="summer"] .slider-block .swiper-container .swiper-button-next:hover, html[data-theme="summer"] .slider-block .swiper-container .swiper-button-prev:hover {
+  color: #ffe19f !important;
+}
+html[data-theme="summer"] .slider-block .swiper-container .swiper-pagination-progressbar .swiper-pagination-progressbar-fill {
+  background: #e99e00 !important;
+}
+.timeline-sponsors .swiper-button-next, .timeline-sponsors .swiper-button-prev {
+  color: #e99e00 !important;
+}
+.timeline-sponsors .swiper-button-next:hover, .timeline-sponsors .swiper-button-prev:hover {
+  color: #e99e00 !important;
+}
