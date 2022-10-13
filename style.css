@@ -5016,10 +5016,15 @@ html[data-theme='Black'] .header__number-massage span, html[data-theme='Black'] 
 }
 html[data-theme='Black'] .header__notifications_conteiner.notif-more .header__notifications_item:nth-child(3), html[data-theme='Black'] .timeline-sponsors .swiper-slide.card, html[data-theme='Black'] .timeline__body table td:not(.table0_100 tr td), html[data-theme='Black'] .timeline__head, html[data-theme='Black'] .vertical-menu-block__body .vertical-menu-block__list li, html[data-theme='Black'] .vertical-menu-block__categories span:not(.news_date), html[data-theme='Black'] .interview-block__items {
   /* border-color: #3a3d41; */
+  /* border-color: #2f3133; */
+  border-color: #242527;
+}
+html[data-theme='Black'] .statistics1, html[data-theme='Black'] .statistics2, html[data-theme='Black'] .statistics4 {
   border-color: #2f3133;
 }
 html[data-theme='Black'] .header__notifications_item {
-  border-bottom: 1px solid #2f3133;
+  /* border-bottom: 1px solid #2f3133; */
+  border-bottom: 1px solid #242527;
 }
 html[data-theme='Black'] .blogs-block .logged, html[data-theme='Black'] .comment-block__user-content .woman-user .logged {
   border-color: #000;
@@ -5038,6 +5043,9 @@ html[data-theme='Black'] .notification__text .viewed::before {
 }
 html[data-theme='Black'] .dropbtn .arrow2::before, html[data-theme='Black'] .dropbtn .arrow2::after, html[data-theme='Black'] .important-news__news-spoiler .arrow::before, html[data-theme='Black'] .important-news__news-spoiler .arrow::after {
   background-color: #214e8c;
+}
+html[data-theme='Black'] #tippy-62 ul li:first-of-type a::before, html[data-theme='Black'] #tippy-62 ul li:nth-child(2) a::before {
+  color: #214e8c;
 }
 html[data-theme='Black'] .vote-block__bar {
   background-color: rgba(47, 111, 200, 0.17);
@@ -5084,30 +5092,29 @@ html[data-theme="Black"] .table__two tbody .active-biathlete td:not(.table0_100 
 html[data-theme="Black"] .footer__warning p, html[data-theme="Black"] .footer__address, html[data-theme="Black"] .footer__copyright, html[data-theme="Black"] .footer__rights {
   color: #c1cddf;
 }
-html[data-theme="Black"] .footer__facebook:hover, html[data-theme="Black"] .footer__twitter:hover, html[data-theme="Black"] .footer__instagram:hover, html[data-theme="Black"] .footer__telegram:hover, html[data-theme="Black"] .footer__youtube:hover {
-  box-shadow: 0 0 13px #e3c000;
-  color: #e3c000;
-  border-color: #e3c000;
-}
 html[data-theme="Black"] .footer__column ul li a::before {
-  background-color: #e3c000;
+  /* background-color: #e3c000; */
+  background-color: #c8a900;
 }
 html[data-theme="Black"] .footer__column span, html[data-theme="Black"] .footer__title span {
-  border-left: 3.5px solid #e3c000;
+  /* border-left: 3.5px solid #e3c000; */
+  border-left: 3.5px solid #c8a900;
 }
-html[data-theme="Black"] .footer__facebook:hover, html[data-theme="Black"] .footer__twitter:hover, html[data-theme="Black"] .footer__instagram:hover, html[data-theme="Black"] .footer__telegram:hover, html[data-theme="Black"] .footer__youtube:hover {
-  box-shadow: 0 0 13px #e3c000;
+html[data-theme="Black"] .footer__facebook:hover, html[data-theme="Black"] .footer__twitter:hover, html[data-theme="Black"] .footer__instagram:hover, html[data-theme="Black"] .footer__telegram:hover, html[data-theme="Black"] .footer__youtube:hover, html[data-theme="Black"] .footer__facebook:hover, html[data-theme="Black"] .footer__twitter:hover, html[data-theme="Black"] .footer__instagram:hover, html[data-theme="Black"] .footer__telegram:hover, html[data-theme="Black"] .footer__youtube:hover {
+  /* box-shadow: 0 0 13px #e3c000;
   color: #e3c000;
-  border-color: #e3c000;
+  border-color: #e3c000; */
+  box-shadow: 0 0 13px #c8a900;
+  color: #c8a900;
+  border-color: #c8a900;
 }
-html[data-theme="Black"] .header__link-massage2[aria-expanded="true"], html[data-theme="Black"] .select__head:hover, html[data-theme="Black"] .dropdown__button:hover, html[data-theme="Black"] .dropdown__button:hover::after, html[data-theme="Black"] .timer__more-events span:hover {
-  color: #e3c000;
-}
-html[data-theme="Black"] .timer__more-events[aria-expanded="true"] span, html[data-theme="Black"] .header .header__additional-menu a:hover, html[data-theme="Black"] .header__menu-body .header__additional-menu .languages a:hover, html[data-theme="Black"] .header__menu-body .header__additional-menu .languages a.active {
-  color: #e3c000;
+html[data-theme="Black"] .timer__more-events[aria-expanded="true"] span, html[data-theme="Black"] .header .header__additional-menu a:hover, html[data-theme="Black"] .header__menu-body .header__additional-menu .languages a:hover, html[data-theme="Black"] .header__menu-body .header__additional-menu .languages a.active, html[data-theme="Black"] .header__link-massage2[aria-expanded="true"], html[data-theme="Black"] .select__head:hover, html[data-theme="Black"] .dropdown__button:hover, html[data-theme="Black"] .dropdown__button:hover::after, html[data-theme="Black"] .timer__more-events span:hover {
+  /* color: #e3c000; */
+  color: #c8a900;
 }
 html[data-theme="Black"] .header, html[data-theme="Black"] footer.footer {
-  border-color: #e3c000;
+  /* border-color: #e3c000; */
+  border-color: #c8a900;
 }
 html[data-theme="Black"] .statistics__button, html[data-theme="Black"] .dropbtn {
   background-color: #102442;
