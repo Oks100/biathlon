@@ -5119,7 +5119,7 @@ html[data-theme="Black"] .header, html[data-theme="Black"] footer.footer {
 html[data-theme="Black"] .statistics__button, html[data-theme="Black"] .dropbtn {
   background-color: #102442;
 }
-html[data-theme="Black"] .statistics__button:hover, html[data-theme="Black"] .dropbtn:hover {
+html[data-theme="Black"] .statistics__button:hover, html[data-theme="Black"] .dropbtn:hover, html[data-theme="Black"] .header__logo .socials .facebook, html[data-theme="Black"] .header__logo .socials .twitter, html[data-theme="Black"] .header__logo .socials .instagram, html[data-theme="Black"] .header__logo .socials .telegram, html[data-theme="Black"] .header__logo .socials .youtube, html[data-theme="Black"] .footer__facebook, html[data-theme="Black"] .footer__twitter, html[data-theme="Black"] .footer__instagram, html[data-theme="Black"] .footer__telegram, html[data-theme="Black"] .footer__youtube {
   background-color: #173660;
 }
 html[data-theme="Black"] .header__notifications_head, html[data-theme="Black"] .header__notification_all, html[data-theme="Black"] .dropdown-content, html[data-theme='Black'] .important-news__list, html[data-theme='Black'] .vertical-menu-block__body .vertical-menu-block__list li {
