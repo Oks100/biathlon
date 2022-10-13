@@ -467,7 +467,7 @@ body {
     position: relative;
     z-index: 1;
   }
-  .header-menu .header-menu__list li:hover a {
+  .header-menu .header-menu__list li:hover a, .header-menu .header-menu__list li a:focus {
     text-shadow: none;
   }
   .header-menu .header-menu__list li::before {
