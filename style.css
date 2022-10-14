@@ -775,7 +775,7 @@ body {
 .header__massages{
   display: flex;
   align-items: center;
-  margin-right: 15px;
+  margin-right: 23px;
 }
 
 .header__massages span a{
@@ -1151,7 +1151,7 @@ body {
   max-width: 400px;
   margin-bottom: 20px; */
   margin-right: 10px;
-  width: 120px;
+  width: 109px;
 }
 
 .select__head {
@@ -1199,7 +1199,7 @@ body {
   background-color: #fff;
   box-shadow: 0px 0px 12px rgba(32,60,87,0.30);
   border-radius: 3px;
-  width: 123px;
+  width: 109px;
   z-index: 100;
   color: black;
   overflow: hidden;
@@ -1234,7 +1234,6 @@ body {
 .select__item span {
   margin: 0 !important;
 }
-
 
 /* :root {
 	--color-default: #fff;
@@ -4092,9 +4091,6 @@ footer.footer .footer__column a:hover, footer.footer .footer__bottom-text a:hove
     display: block;
   }
   
-
-
-
 
 article.timeline {
   max-width: 100%;
