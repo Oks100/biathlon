@@ -32,6 +32,41 @@ body {
     line-height: 1.5; */
   }
 
+
+  /* .athletes-speed {
+    display: none;
+  }
+  .main-cup__body2.active .athletes-speed {
+    display: block;
+  }
+  .main-cup__body2.active .main-cup__body2-spoiler {
+    display: none;
+  }
+  .main-cup__body2-spoiler {
+    display: flex;
+    justify-content: center;
+  } */
+  /* .main-cup__body2.active {
+    padding: 1.5em 0.6em 0.75em 0.6em;
+  } */
+  .shooting-statistics {
+    display: none;
+  }
+  .athletes-speed.active {
+    display: none !important;
+  }
+  .main-cup__bottons {
+    display: flex;
+    justify-content: space-between;
+  }
+  .main-cup__next {
+  }
+  .main-cup__spoiler {
+  }
+  .main-cup__back {
+  }
+
+
   main {
     display: flex;
     flex-direction: column;
@@ -47,6 +82,10 @@ body {
     padding-right: 5px;
     color: rgba(47, 111, 200, 0.75);
     font-style: normal;
+  }
+  
+  .timeline__body a:hover[href*="http"]::before, .timeline__body a:hover[href*="gallery"]::before {
+    color: rgba(47, 111, 200, 0.75) !important;
   }
   /* a[href$=".pdf"]::before {
     content: "\e90b";
@@ -978,7 +1017,7 @@ body {
   padding: 10px;
   display: flex;
   flex-direction: row;
-  border-bottom: 1px solid #d8e2e7;
+  border-bottom: 1px solid #d0d9dd;
   /* transition-duration: 0.3s; */
   align-items: center;
 }
@@ -1131,7 +1170,7 @@ body {
   border-bottom: none;
 }
 .header__notifications_conteiner.notif-more .header__notifications_item:nth-child(3) {
-  border-bottom: 1px solid #d8e2e7;
+  border-bottom: 1px solid #d0d9dd;
 }
 
 .header__active-massage{
@@ -1591,7 +1630,7 @@ body {
     font-weight: 700;
   }
   .timeline__head {
-    border-bottom: 1px solid #d8e2e7;
+    border-bottom: 1px solid #d0d9dd;
     padding-bottom: 0.75em;
   }
   .timeline__date {
@@ -1612,7 +1651,7 @@ body {
     border-collapse: collapse !important;
   }
   .timeline__body table td:not(.table0_100 tr td) {
-    border: 1px solid #d8e2e7;
+    border: 1px solid #d0d9dd;
     padding: 3px;
   }
 
@@ -2498,7 +2537,7 @@ body {
   .vertical-menu-block__body .vertical-menu-block__list li {
     background-color: white;
     /* border-bottom: 1px solid #c0d1db; */
-    border-bottom: 1px solid #d8e2e7;
+    border-bottom: 1px solid #d0d9dd;
   }
   .vertical-menu-block__body .vertical-menu-block__list-four li:last-child {
     border-bottom: none;
@@ -3072,7 +3111,8 @@ table.popular__table tbody tr {
   font-size: 0.9em;
   font-family: Arial;
   position: absolute;
-  right: 10px;
+  /* right: 10px; */
+  right: 0px;
   top: -1px;
   margin-left: 0.70em;
   margin-top: 1.6em;
@@ -3084,7 +3124,8 @@ table.popular__table tbody tr {
 }
 .vote-block__total-votes {
   text-align: right;
-  padding-right: 10px;
+  /* padding-right: 10px; */
+  padding-right: 0px;
 }
 
 /*! Твиттер старт*/
@@ -3900,7 +3941,7 @@ footer.footer .footer__column a:hover, footer.footer .footer__bottom-text a:hove
     /* width: 119.7943px; */
   }
   .statistics1, .statistics2, .statistics4 {
-    border-right: 1px solid #d8e2e7;
+    border-right: 1px solid #d0d9dd;
   }
   .statistics1, .statistics4 {
     /* width: 105.33px; */
@@ -5156,8 +5197,9 @@ html[data-theme="Black"] .admin-item {
 html[data-theme="Black"] .header__logo a img, html[data-theme="Black"] .footer__logo img {
   content: url(img/logo-black.png);
 }
-
-/* .swiper-container2 .swiper-wrapper {
-  -webkit-transition-timing-function: linear !important;
-  transition-timing-function: linear !important;
-} */
+html[data-theme="Black"] .timeline__item, html[data-theme="Black"] .main-cup, html[data-theme="Black"] .timeline__body-important-news, html[data-theme="Black"] .sidebar-block3, html[data-theme="Black"] .sidebar-block {
+  border: 1px solid #242527;
+}
+html[data-theme="Black"] .timeline__body-important-news {
+  background-color: transparent;
+}
