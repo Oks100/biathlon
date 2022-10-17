@@ -5198,7 +5198,7 @@ html[data-theme="Black"] .header__logo a img, html[data-theme="Black"] .footer__
   content: url(img/logo-black.png);
 }
 html[data-theme="Black"] .timeline__item, html[data-theme="Black"] .main-cup, html[data-theme="Black"] .timeline__body-important-news, html[data-theme="Black"] .sidebar-block3, html[data-theme="Black"] .sidebar-block {
-  border: 1px solid #242527;
+  border: 1px solid #1a1b1c;
 }
 html[data-theme="Black"] .timeline__body-important-news {
   background-color: transparent;
