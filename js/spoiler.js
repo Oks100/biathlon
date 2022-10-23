@@ -4,12 +4,13 @@ $(document).ready(function() {
     });
 });
 
-$(document).ready(function() {
-    $('.slider-main-cup-spoiler').click(function(event) {
-        $('.slider-main-cup').slideToggle(300);
-        $('.slider-main-cup').toggleClass('active');
-    });
-});
+// Спойлер топ 10
+// $(document).ready(function() {
+//     $('.slider-main-cup-spoiler').click(function(event) {
+//         $('.slider-main-cup').slideToggle(300);
+//         $('.slider-main-cup').toggleClass('active');
+//     });
+// });
 
 // $(document).ready(function() {
 //     $('.main-cup__next').click(function(event) {
@@ -18,3 +19,26 @@ $(document).ready(function() {
 //         $('.athletes-speed').toggleClass('active');
 //     });
 // });
+
+$(document).ready(function(){
+    $('.learn-more__text2-href').hover(
+     function() {
+        $('.swiper-button-prev-icon').addClass('rotate');
+      },
+      function() {
+        $('.swiper-button-prev-icon').removeClass('rotate');
+      },
+    );
+  });
+
+
+  $(document).ready(function(){
+    $('.learn-more__text2-href').hover(
+    function() {
+        $('.swiper-button-next-icon').addClass('rotate');
+        },
+        function() {
+        $('.swiper-button-next-icon').removeClass('rotate');
+        },
+    );
+  });
