@@ -1,3 +1,15 @@
+if (document.querySelector('.swiper-container4')) {
+  new Swiper('.swiper-container4', {
+    spaceBetween: 15,
+    // Вывод стрелок навигации
+     navigation: {
+       nextEl: '.swiper-button-next',
+       prevEl: '.swiper-button-prev',
+     },
+    loop: true,
+   })
+};
+
 if (document.querySelector('.swiper-container')) {
   new Swiper('.swiper-container', {
     // Вывод стрелок навигации
@@ -43,6 +55,8 @@ if (document.querySelector('.swiper-container2')) {
 	new Swiper('.swiper-container2', {
     spaceBetween: 5,
 		loop: true,
+    allowTouchMove: true,
+    // speed: 1500,
 		pagination: {
 			el: '.swiper-pagination',
 			clickable: true,
