@@ -49,7 +49,7 @@ body {
   /* .main-cup__body2.active {
     padding: 1.5em 0.6em 0.75em 0.6em;
   } */
-  .shooting-statistics {
+  /* .shooting-statistics {
     display: none;
   }
   .athletes-speed.active {
@@ -64,7 +64,78 @@ body {
   .main-cup__spoiler {
   }
   .main-cup__back {
+  } */
+  #main-cup__slider {
+    position: relative;
+    overflow: hidden;
+    margin: 20px auto 0 auto;
+    /* border-radius: 4px; */
+    width: 100% !important;
   }
+  
+  #main-cup__slider ul {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    /* height: 200px; */
+    list-style: none;
+    width: 100% !important;
+    margin-left: 0 !important;
+  }
+  
+  #main-cup__slider ul li {
+    position: relative;
+    display: block;
+    float: left;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 300px;
+    background: #ccc;
+    text-align: center;
+    /* line-height: 300px; */
+  }
+  
+  a.control_prev, a.control_next {
+    position: absolute;
+    top: 40%;
+    z-index: 999;
+    display: block;
+    padding: 4% 3%;
+    width: auto;
+    height: auto;
+    background: #2a2a2a;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 18px;
+    opacity: 0.8;
+    cursor: pointer;
+  }
+  
+  a.control_prev:hover, a.control_next:hover {
+    opacity: 1;
+    -webkit-transition: all 0.2s ease;
+  }
+  
+  a.control_prev {
+    border-radius: 0 2px 2px 0;
+  }
+  
+  a.control_next {
+    right: 0;
+    border-radius: 2px 0 0 2px;
+  }
+  
+  .slider_option {
+    position: relative;
+    margin: 10px auto;
+    width: 160px;
+    font-size: 18px;
+  }
+
+
+
 
 
   main {
@@ -2440,13 +2511,10 @@ body {
     bottom: 0;
     margin: auto;
     background: transparent;
-  }
-  .learn-more .circle-element .circle-element__icon {
     transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
     left: 4px;
     width: 16.875px;
     height: 1.875px;
-    /* background: none; */
   }
   .learn-more .circle-element .circle-element__icon::before {
     position: absolute;
@@ -5202,4 +5270,304 @@ html[data-theme="Black"] .timeline__item, html[data-theme="Black"] .main-cup, ht
 }
 html[data-theme="Black"] .timeline__body-important-news {
   background-color: transparent;
+}
+
+
+
+.main-cup__controls .swiper-button-next::after {
+  content: "";
+}
+.main-cup__controls .swiper-button-prev::after {
+  content: "";
+}
+.main-cup .swiper-container4 .swiper-slide img {
+  max-width: 100%;
+}
+.main-cup .swiper-container4 .swiper-slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main-cup .swiper-container4 {
+  position: relative !important;
+  box-sizing: border-box;
+  overflow: hidden;
+  max-width: 100%;
+  max-height: 100%;
+  overflow: hidden;
+}
+
+
+
+.swiper-button-prev-body {
+  width: 41px;
+  height: 33px;
+  background: transparent;
+  border-radius: 33px;
+  position: absolute;
+  left: -19.5px;
+}
+.swiper-button-next-body {
+  width: 41px;
+  height: 33px;
+  background: transparent;
+  border-radius: 33px;
+  position: absolute;
+  right: -13px;
+}
+.main-cup__controls .swiper-button-next {
+  width: 33px;
+  height: 33px;
+  background: #b9e4ff;
+  border-radius: 33px;
+  transition: all 0.45s ease;
+  position: absolute;
+  margin: 0;
+  top: auto;
+  left: 0px;
+}
+.swiper-button-next:hover .swiper-button-next-icon {
+  transform: translate(10px, 0);
+}
+/* .swiper-button-prev:hover .swiper-button-prev-icon {
+  transform: translate(-10px, 0);
+} */
+.main-cup__controls .swiper-button-prev {
+  width: 33px;
+  height: 33px;
+  background: #b9e4ff;
+  border-radius: 33px;
+  transition: all 0.45s ease;
+  position: absolute;
+  margin: 0;
+  top: auto;
+  left: 8px;
+}
+.main-cup__controls .swiper-button-prev {
+  /* left: 11px; */
+}
+.main-cup__controls .swiper-button-next {
+  right: 11px;
+}
+.swiper-button-next-icon::before {
+  position: absolute;
+  content: '';
+  top: -4px;
+  right: 0px;
+  width: 9.375px;
+  height: 9.375px;
+  border-top: 1.875px solid #4e79ad;
+  border-right: 1.875px solid #4e79ad;
+  transform: rotate(45deg);
+}
+.swiper-button-prev-icon::before {
+  content: '';
+  position: absolute;
+  top: -4px;
+  right: 6px;
+  width: 9.375px;
+  height: 9.375px;
+  border-top: 1.875px solid #4e79ad;
+  border-right: 1.875px solid #4e79ad;
+  transform: rotate(225deg);
+  transition: all 0.8s ease;
+}
+.swiper-button-next-icon {
+  width: 16.875px;
+  height: 1.6px;
+  background: none;
+  transition: all 0.45s ease;
+  position: absolute;
+  left: 3px;
+}
+.swiper-button-prev-icon {
+  width: 16.875px;
+  height: 1.6px;
+  background: none;
+  transition: all 0.45s ease;
+  position: absolute;
+  left: 12px;
+}
+.swiper-button-next:hover .swiper-button-next-icon, .swiper-button-prev:hover .swiper-button-prev-icon {
+  background: #4e79ad;
+}
+.main-cup__controls .swiper-button-prev:hover {
+  left: 0;
+  right: 0;
+  width: 100%;
+}
+.main-cup__controls .swiper-button-next:hover {
+  left: 0;
+  right: 0;
+  width: 100%;
+}
+
+
+/* .swiper-button-prev-body {
+  width: 41px;
+  height: 33px;
+  background: transparent;
+  border-radius: 33px;
+  position: absolute;
+  left: -19.5px;
+}
+.swiper-button-next-body {
+  width: 41px;
+  height: 33px;
+  background: transparent;
+  border-radius: 33px;
+  position: absolute;
+  right: -13px;
+}
+.main-cup__controls .swiper-button-next {
+  width: 33px;
+  height: 33px;
+  background: #b9e4ff;
+  border-radius: 33px;
+  transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+  position: absolute;
+  margin: 0;
+  top: auto;
+  left: 0px;
+}
+.main-cup__controls .swiper-button-prev {
+  width: 33px;
+  height: 33px;
+  background: #b9e4ff;
+  border-radius: 33px;
+  transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+  position: absolute;
+  margin: 0;
+  top: auto;
+  right: 0px;
+}
+.main-cup__controls .swiper-button-prev {
+  left: 11px;
+}
+.main-cup__controls .swiper-button-next {
+  right: 11px;
+}
+.swiper-button-next-icon::before {
+  content: '';
+  position: absolute;
+  top: 11.4px;
+  right: 13px;
+  width: 9.375px;
+  height: 9.375px;
+  border-top: 1.875px solid #4e79ad;
+  border-right: 1.875px solid #4e79ad;
+  transform: rotate(45deg);
+  transition: all 0.8s ease;
+}
+.swiper-button-prev-icon::before {
+  content: '';
+  position: absolute;
+  top: 11.4px;
+  right: 10px;
+  width: 9.375px;
+  height: 9.375px;
+  border-top: 1.875px solid #4e79ad;
+  border-right: 1.875px solid #4e79ad;
+  transform: rotate(225deg);
+  transition: all 0.8s ease;
+}
+.swiper-button-next-icon {
+  width: 16.875px;
+  height: 1.6px;
+  background: none;
+  transition: all 0.45s ease;
+}
+.swiper-button-prev-icon {
+  width: 16.875px;
+  height: 1.6px;
+  background: none;
+  transition: all 0.45s ease;
+}
+.swiper-button-next:hover .swiper-button-next-icon, .swiper-button-prev:hover .swiper-button-prev-icon {
+  background: #4e79ad;
+}
+.main-cup__controls .swiper-button-prev:hover {
+  left: 0;
+  right: 0;
+  width: 100%;
+}
+.main-cup__controls .swiper-button-next:hover {
+  left: 0;
+  right: 0;
+  width: 100%;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+.learn-more__text2 {
+  margin: 0 25px 0 25px;
+  line-height: 33px;
+  position: relative;
+}
+.learn-more__text2-href:hover {
+  border: none !important;
+  color: #002b71 !important;
+}
+.learn-more__text2::before {
+  content: '';
+  position: absolute;
+  height: 33px;
+  left: -16px;
+  transition: all 0.8s ease;
+  width: 0;
+  background-color: #d1ebfb;
+  border-radius: 0px 33px 33px 0;
+}
+.learn-more__text2::after {
+  content: '';
+  position: absolute;
+  height: 33px;
+  right: -16px;
+  transition: all 0.8s ease;
+  width: 0;
+  background-color: #d1ebfb;
+  border-radius: 33px 0 0 33px;
+}
+.learn-more__text2:hover::before {
+  width: 100%;
+}
+.learn-more__text2:hover::after {
+  width: 100%;
+}
+.main-cup__controls {
+  display: flex;
+  margin-top: 15px;
+  align-items: center;
+  position: relative;
+  height: 33px;
+  width: 150px;
+  margin: 15px auto;
+}
+.learn-more__text2-href {
+  position: relative;
+  z-index: 100;
+  display: inline-flex;
+  padding: 0 7px 0 7px;
+}
+
+
+.athletes-speed, .shooting-statistics, .shot-rate-statistics {
+  width: 100%;
+  margin-bottom: 0px;
+}
+.slider-main-cup {
+  display: none;
+  position: relative;
+}
+.slider-main-cup.active {
+  display: block;
 }
