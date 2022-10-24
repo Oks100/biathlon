@@ -5307,20 +5307,20 @@ html[data-theme="Black"] .timeline__body-important-news {
 
 
 .swiper-button-prev-body {
-  width: 41px;
+  width: 45px;
   height: 33px;
   background: transparent;
   border-radius: 33px;
   position: absolute;
-  left: -17px;
+  left: -20.5px;
 }
 .swiper-button-next-body {
-  width: 41px;
+  width: 45px;
   height: 33px;
   background: transparent;
   border-radius: 33px;
   position: absolute;
-  right: -13px;
+  right: -17px;
 }
 .main-cup__controls .swiper-button-next {
   width: 33px;
@@ -5348,7 +5348,7 @@ html[data-theme="Black"] .timeline__body-important-news {
   position: absolute;
   margin: 0;
   top: auto;
-  left: 8px;
+  left: 12px;
 }
 .main-cup__controls .swiper-button-prev {
   /* left: 11px; */
@@ -5416,6 +5416,9 @@ html[data-theme="Black"] .timeline__body-important-news {
 .swiper-button-prev-icon.rotate::before {
   transform: rotate(45deg);
   right: 9px;
+}
+.swiper-button-prev:hover .swiper-button-prev-icon {
+  left: 15px;
 }
 /* .swiper-button-prev-body {
   width: 41px;
