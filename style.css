@@ -5192,19 +5192,24 @@ html[data-theme="summer"] .main-cup__top10 .red-color:hover, html[data-theme="su
   border-color: rgb(227, 0, 0) !important;
 }
 html[data-theme="summer"] .slider-block .swiper-container .swiper-button-next, html[data-theme="summer"] .slider-block .swiper-container .swiper-button-prev {
-  color: #e99e00 !important;
+  /* color: #e99e00 !important; */
+  color: #348232 !important;
 }
 html[data-theme="summer"] .slider-block .swiper-container .swiper-button-next:hover, html[data-theme="summer"] .slider-block .swiper-container .swiper-button-prev:hover {
-  color: #ffe19f !important;
+  /* color: #ffe19f !important; */
+  color: #71d06e !important;
 }
 html[data-theme="summer"] .slider-block .swiper-container .swiper-pagination-progressbar .swiper-pagination-progressbar-fill {
-  background: #e99e00 !important;
+  /* background: #e99e00 !important; */
+  background: #348232 !important;
 }
 html[data-theme="summer"] .timeline-sponsors .swiper-button-next, html[data-theme="summer"] .timeline-sponsors .swiper-button-prev {
-  color: #e99e00 !important;
+  /* color: #e99e00 !important; */
+  color: #348232 !important;
 }
 html[data-theme="summer"] .timeline-sponsors .swiper-button-next:hover, html[data-theme="summer"] .timeline-sponsors .swiper-button-prev:hover {
-  color: #e99e00 !important;
+  /* color: #e99e00 !important; */
+  color: #71d06e !important;
 }
 html[data-theme="summer"] .table__two tbody .active-biathlete td:not(.table0_100 tr td) {
   background-color: #ffc4c4 !important;
