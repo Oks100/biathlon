@@ -1,3 +1,15 @@
+if (document.querySelector('.swiper-container5')) {
+  new Swiper('.swiper-container5', {
+    spaceBetween: 15,
+    // Вывод стрелок навигации
+     navigation: {
+       nextEl: '.swiper-button-next',
+       prevEl: '.swiper-button-prev',
+     },
+    loop: true,
+   })
+};
+
 if (document.querySelector('.swiper-container4')) {
   new Swiper('.swiper-container4', {
     spaceBetween: 15,
