@@ -5195,16 +5195,16 @@ html[data-theme="summer"] .main-cup__top10 .red-color:hover, html[data-theme="su
   border-color: rgb(227, 0, 0) !important;
 }
 html[data-theme="summer"] .slider-block .swiper-container .swiper-button-next, html[data-theme="summer"] .slider-block .swiper-container .swiper-button-prev {
-  /* color: #e99e00 !important; */
-  color: #348232 !important;
+  color: #e99e00 !important;
+  /* color: #348232 !important; */
 }
 html[data-theme="summer"] .slider-block .swiper-container .swiper-button-next:hover, html[data-theme="summer"] .slider-block .swiper-container .swiper-button-prev:hover {
-  /* color: #ffe19f !important; */
-  color: #71d06e !important;
+  color: #ffe19f !important;
+  /* color: #71d06e !important; */
 }
 html[data-theme="summer"] .slider-block .swiper-container .swiper-pagination-progressbar .swiper-pagination-progressbar-fill {
-  /* background: #e99e00 !important; */
-  background: #348232 !important;
+  background: #e99e00 !important;
+  /* background: #348232 !important; */
 }
 html[data-theme="summer"] .timeline-sponsors .swiper-button-next, html[data-theme="summer"] .timeline-sponsors .swiper-button-prev {
   /* color: #e99e00 !important; */
@@ -5337,8 +5337,8 @@ html[data-theme='Black'] .red-color, html[data-theme='Black'] .timeline__red-new
 html[data-theme='Black'] .main-cup__top10 .red-color:hover {
   /* border-bottom: 1px solid rgb(227, 0, 0) !important;
   color: rgb(227, 0, 0) !important; */
-  color: #d40000 !important;
-  border-bottom: 1px solid #d40000 !important;
+  color: rgb(227, 0, 0) !important;
+  border-bottom: 1px solid rgb(227, 0, 0) !important;
 }
 html[data-theme='Black'] #tippy-52 ul li:last-of-type a, html[data-theme='Black'] #tippy-52 ul li:last-of-type a::before {
   /* color: rgb(227, 0, 0) !important; */
