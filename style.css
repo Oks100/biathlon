@@ -758,6 +758,9 @@ body {
  #tippy-53 .tippy-content, #tippy-52 .tippy-content, #tippy-51 .tippy-content {
   padding: 0;
  }
+ #tippy-51 .tippy-content {
+  overflow: hidden;
+ }
 
  .header-menu a.header__massange {
     position: absolute;
