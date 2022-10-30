@@ -685,16 +685,16 @@ body {
  .header__profile-button {
 
  }
- #tippy-52 {
+ #tippy-42 {
   /* width: 121px; */
   /* width: 142px; */
   width: auto;
  }
- #tippy-52 .tippy-content {
+ #tippy-42 .tippy-content {
   padding: 0 !important;
   overflow: hidden;
  }
- #tippy-52 ul li a {
+ #tippy-42 ul li a {
   color: black !important;
   font-size: 14px !important;
   text-transform: none !important;
@@ -704,50 +704,50 @@ body {
   width: 100%;
   display: flex;
  }
- #tippy-52 ul li a {
+ #tippy-42 ul li a {
   /* border-bottom: 1px solid #dce9f0 !important; */
  }
- #tippy-52 ul li:last-of-type a {
+ #tippy-42 ul li:last-of-type a {
   border-bottom: none !important;
  }
 
- #tippy-52 ul li::before, #tippy-52 ul li::after {
+ #tippy-42 ul li::before, #tippy-52 ul li::after {
   display: none !important;
  }
 
- #tippy-52 ul li a:hover {
+ #tippy-42 ul li a:hover {
   background-color: #ecf5fb;
   /* border-radius: 3px; */
  }
- #tippy-52 ul li {
+ #tippy-42 ul li {
   white-space: nowrap;
   line-height: 33px;
  }
- #tippy-52 ul li:last-of-type {
+ #tippy-42 ul li:last-of-type {
   white-space: nowrap;
   line-height: 33px;
  }
  /* #tippy-52 ul li:last-of-type a:hover, #tippy-52 ul li:last-of-type a:hover::before {
   color: red !important;
  } */
- #tippy-52 ul li:last-of-type a, #tippy-52 ul li:last-of-type a::before {
+ #tippy-42 ul li:last-of-type a, #tippy-52 ul li:last-of-type a::before {
   color: red !important;
  }
- #tippy-52 ul li:first-of-type a::before {
+ #tippy-42 ul li:first-of-type a::before {
   content: "\e919";
   font-family: 'icomoon';
   margin-right: 7px;
   font-size: 13px;
   color: #6393d6;
  }
- #tippy-52 ul li:nth-child(2) a::before {
+ #tippy-42 ul li:nth-child(2) a::before {
   content: "\e008";
   font-family: 'icomoon';
   margin-right: 7px;
   font-size: 13px;
   color: #6393d6;
  }
- #tippy-52 ul li:last-of-type a::before {
+ #tippy-42 ul li:last-of-type a::before {
   content: "\e9b";
   font-family: 'icomoon';
   margin-right: 7px;
@@ -755,7 +755,7 @@ body {
   color: #6393d6;
  }
 
- #tippy-53 .tippy-content, #tippy-52 .tippy-content, #tippy-51 .tippy-content {
+ #tippy-53 .tippy-content, #tippy-42 .tippy-content, #tippy-51 .tippy-content {
   padding: 0;
  }
  #tippy-51 .tippy-content {
@@ -4311,7 +4311,7 @@ footer.footer .footer__column a:hover, footer.footer .footer__bottom-text a:hove
   #tippy-52 .tippy-content, #tippy-61 .tippy-content {
     padding: 7px;
   }
-  #tippy-61 .tippy-content {
+  #tippy-61 .tippy-content, #tippy-43 .tippy-content, #tippy-41 .tippy-content {
     padding: 0px;
     overflow: hidden;
   }
