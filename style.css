@@ -741,7 +741,8 @@ body {
   color: #6393d6;
  }
  #tippy-42 ul li:nth-child(2) a::before {
-  content: "\e008";
+  /* content: "\e008"; */
+  content: "\e015";
   font-family: 'icomoon';
   margin-right: 7px;
   font-size: 13px;
