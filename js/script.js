@@ -7,6 +7,7 @@ if (document.querySelector('.swiper-container5')) {
        prevEl: '.swiper-button-prev',
      },
     loop: true,
+    autoHeight: true,
    })
 };
 
@@ -19,6 +20,7 @@ if (document.querySelector('.swiper-container4')) {
        prevEl: '.swiper-button-prev',
      },
     loop: true,
+    autoHeight: true,
    })
 };
 
