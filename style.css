@@ -5585,5 +5585,9 @@ html[data-theme="Black"] .vertical-menu-block__categories {
 html[data-theme="Black"] .vertical-menu-block__body {
   box-shadow: none;
   border: 1px solid #242527;
-  border-radius: 3px 3px 0 0;
+  border-radius: 3px;
+}
+html[data-theme="Black"] .vertical-menu-block__body .vertical-menu-block__list-four li:last-child::before {
+  height: 33px;
+  border-radius: 0 0 2px 2px;
 }
