@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'icomoon';
-  src:  url('fonts/icomoon.eot?e8cvcl');
-  src:  url('fonts/icomoon.eot?e8cvcl#iefix') format('embedded-opentype'),
-    url('fonts/icomoon.ttf?e8cvcl') format('truetype'),
-    url('fonts/icomoon.woff?e8cvcl') format('woff'),
-    url('fonts/icomoon.svg?e8cvcl#icomoon') format('svg');
+  src:  url('fonts/icomoon.eot?mryezr');
+  src:  url('fonts/icomoon.eot?mryezr#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?mryezr') format('truetype'),
+    url('fonts/icomoon.woff?mryezr') format('woff'),
+    url('fonts/icomoon.svg?mryezr#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -25,14 +25,11 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.icon-settings4:before {
-  content: "\e016";
-}
-.icon-settings3:before {
+.icon-Watch3:before {
   content: "\e017";
 }
-.icon-settings2:before {
-  content: "\e018";
+.icon-settings4:before {
+  content: "\e016";
 }
 .icon-pause3:before {
   content: "\e013";
@@ -60,6 +57,9 @@
 }
 .icon-arrow-down1:before {
   content: "\e004";
+}
+.icon-Ok2:before {
+  content: "\e018";
 }
 .icon-Watch:before {
   content: "\e003";
