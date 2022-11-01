@@ -1858,6 +1858,18 @@ body {
     align-items: center;
     margin-right: 1em;
   }
+  .icon.icon--left::before, .icon.icon--right::before {
+    position: absolute;
+    content: '';
+    top: 5px;
+    right: 11px;
+    width: 9.375px;
+    height: 9.375px;
+    border-top: 1.875px solid #4e79ad;
+    border-right: 1.875px solid #4e79ad;
+    transform: rotate(45deg);
+    transition: all 0.45s ease;
+  }
   .timeline__footer button .text, .timeline__footer button .icon-container {
     position: relative;
     z-index: 2;
@@ -2569,7 +2581,7 @@ body {
     background-color: #d1ebfb;
     border-radius: 33px 0 0 33px;
   }
-  .learn-more__text2:hover::before {
+  .learn-more__text2:hover::before, .learn-more__text2:focus::before {
     width: 100%;
   }
   .learn-more__text2:hover::after {
@@ -4847,7 +4859,7 @@ html[data-theme='dark'] .timeline-sponsors .swiper-button-prev:hover, html[data-
 html[data-theme='dark'] .timeline-sponsors .swiper-button-next, html[data-theme='dark'] .timeline-sponsors .swiper-button-prev {
   color: #abcbff !important;
 }
-html[data-theme="dark"] main a:hover, html[data-theme="dark"] .comment-block__rumor:hover {
+html[data-theme="dark"] main a:hover, html[data-theme="dark"] .comment-block__rumor:hover, html[data-theme="dark"] .icon.icon--left::before, html[data-theme="dark"] .icon.icon--right::before {
   color: #8ab4f8;
   border-color: #8ab4f8;
 }
@@ -5208,7 +5220,7 @@ html[data-theme="summer"] .timeline__body a:hover, html[data-theme="summer"] .ti
 html[data-theme="summer"] .statistics__button a:hover {
   color: #3b9039 !important;
 }
-html[data-theme="summer"] .swiper-button-next-icon::before, html[data-theme="summer"] .swiper-button-prev-icon::before, html[data-theme="summer"] .learn-more .circle-element .circle-element__icon::before {
+html[data-theme="summer"] .icon.icon--left::before, html[data-theme="summer"] .icon.icon--right::before, html[data-theme="summer"] .swiper-button-next-icon::before, html[data-theme="summer"] .swiper-button-prev-icon::before, html[data-theme="summer"] .learn-more .circle-element .circle-element__icon::before {
   border-color: #3b9039;
 }
 html[data-theme="summer"] .learn-more:hover .circle-element .circle-element__icon, html[data-theme="summer"] .swiper-button-next:hover .swiper-button-next-icon, html[data-theme="summer"] .swiper-button-prev:hover .swiper-button-prev-icon, html[data-theme="summer"] .swiper-button-next:hover .swiper-button-next-icon {
@@ -5330,6 +5342,9 @@ html[data-theme='Black'] .learn-more__text2-href, html[data-theme='Black'] .lear
 }
 html[data-theme='Black'] .timeline__footer button .icon-container .icon svg {
   fill: #6688c0;
+}
+html[data-theme="Black"] .icon.icon--left::before, html[data-theme="Black"] .icon.icon--right::before {
+  border-color: #6688c0;
 }
 html[data-theme='Black'] .timeline a:hover, html[data-theme='Black'] .left-sidebar a:hover, html[data-theme='Black'] .right-sidebar a:hover {
   /* color: #8eacde; */
