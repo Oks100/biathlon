@@ -602,7 +602,7 @@ tippy('.mandzyn-vitaliy', {
   arrow: true,
   interactive: true,
   trigger: 'mouseenter',
-  delay: [1000, 350],
+  delay: [1000, 3500000],
   placement: 'auto',
   duration: 350,
   maxWidth: 400,
@@ -700,7 +700,7 @@ tippy('.tishchenko-artem', {
   arrow: true,
   interactive: true,
   trigger: 'mouseenter',
-  delay: [1000, 350],
+  delay: [1000, 3500000],
   placement: 'auto',
   duration: 350,
   maxWidth: 400,
@@ -1012,22 +1012,23 @@ tippy('.header__notifications', {
 });
 
 
-function myFunction() {
-  document.getElementById("myDropdown").classList.toggle("show");
-}
 
-window.onclick = function(event) {
-  if (!event.target.matches('.dropbtn')) {
-    var dropdowns = document.getElementsByClassName("dropdown-content");
-    var i;
-    for (i = 0; i < dropdowns.length; i++) {
-      var openDropdown = dropdowns[i];
-      if (openDropdown.classList.contains('show')) {
-        openDropdown.classList.remove('show');
-      }
-    }
-  }
-}
+// function myFunction() {
+//   document.getElementById("myDropdown").classList.toggle("show");
+// }
+
+// window.onclick = function(event) {
+//   if (!event.target.matches('.dropbtn')) {
+//     var dropdowns = document.getElementsByClassName("dropdown-content");
+//     var i;
+//     for (i = 0; i < dropdowns.length; i++) {
+//       var openDropdown = dropdowns[i];
+//       if (openDropdown.classList.contains('show')) {
+//         openDropdown.classList.remove('show');
+//       }
+//     }
+//   }
+// }
 
 // const toggleSwitch = document.querySelector('.theme-switch input[type="checkbox"]');
 
