@@ -800,7 +800,6 @@ body {
 .timer__more-events {
   margin-left: 5px;
   cursor: pointer;
-  /* transition-duration: 0.5s; */
 }
 .timer {
 }
@@ -808,15 +807,14 @@ body {
   font-size: 1.1em;
   padding-right: 5px;
 }
-.timer__more-events span:hover, .timer__more-events[aria-expanded="true"] span {
+.timer__more-events span:hover {
   color: #ffd700;
 }
-.timer__more-events span, .select__head, .dropdown__button, .header__username, .header__link-massage, .header__link-massage2 {
-  transition: all 0.3s ease;
-}
-.dropdown__button::after {
-  display: inline-block;
-  transition: all 0.3s ease;
+/* .timer__more-events span::after {
+  transition: all .5s ease !important;
+} */
+.timer__more-events[aria-expanded="true"] span {
+  color: #ffd700;
 }
 .timer__more-events span::after {
   content: "\e9c";
@@ -824,14 +822,31 @@ body {
   font-size: 10px;
   margin-left: 5px;
 }
-.timer__more-events span::after, .select__head::after {
+.timer__more-events[aria-expanded="true"] > span::after {
   display: inline-block;
-  transition: all 0.3s ease, color 0s;
+  transform: rotate(180deg);
 }
-.timer__more-events[aria-expanded="true"] > span::after, .select__head.open::after, .dropdown2.open .dropdown__button::after {
-  transform: rotate(180deg) scale(.95) translateY(0px);
-  transition: all 0.3s ease;
+
+/* .timer__more-events[aria-expanded="true"] span::after {
+  animation: rotate 0.5s forwards;
 }
+
+@keyframes rotate {
+  0% { 
+    transform: rotate(0deg);
+  }
+  100% { 
+    transform: rotate(180deg); 
+  }
+ } */
+ /* @keyframes rotate2 {
+  0% { 
+    transform: rotate(0deg);
+  }
+  100% { 
+    transform: rotate(180deg); 
+  }
+ } */
 
 #timer2, #timer3 {
   /* padding-bottom: 5px;
@@ -1242,116 +1257,6 @@ body {
 .header__active-massage{
 }
 
-
-
-
-
-
-.select2 {
-  position: relative;
-  display: flex;
-  align-items: center;
-  width: 95px;
-  background-color: #d1ebfb;
-  border-radius: 3px;
-}
-.select__head2:hover {
-  background-color: #b9e4ff;
-}
-
-.select__head2 {
-  cursor: pointer;
-  width: 100%;
-  height: 100%;
-  display: flex;
-  align-items: center;
-  position: relative;
-  padding: 0 10px;
-  border-radius: 3px;
-  transition: 1s ease;
-}
-.select__list2 {
-  display: none;
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  background-color: #fff;
-  box-shadow: 0px 0px 12px rgba(32,60,87,0.30);
-  border-radius: 3px;
-  width: 95px;
-  z-index: 100;
-  color: black;
-  overflow: hidden;
-  /* margin-top: 5px; */
-}
-.select__head2::before {
-  content: '';
-  width: 11px;
-  height: 1.6px;
-  background-color: #5d90d5;
-  position: absolute;
-  top: 45%;
-  transition: all .3s ease 0s;
-  right: 17.5px;
-  transform: rotate(43deg);
-}
-.select__head2::after {
-  content: '';
-  transform: rotate(-43deg);
-  top: 45%;
-  width: 11px;
-  height: 1.6px;
-  background-color: #5d90d5;
-  position: absolute;
-  transition: all .3s ease 0s;
-  right: 10px;
-}
-.select__head2.open::before {
-  transform: rotate(-43deg);
-}
-.select__head2.open::after {
-  transform: rotate(43deg);
-}
-
-.select__list2 span {
-  font-weight: 400 !important;
-}
-
-/* .select__list::-webkit-scrollbar {
-  width: 7px;
-  background-color: #F8F9FA;
-  padding: 5px;
-}
-
-.select__list::-webkit-scrollbar-thumb {
-  border-radius: 10px;
-  background-color: #D9D9D9;
-} */
-
-.select__list2 .select__item2 {
-  position: relative;
-  /* border-top: 1px solid rgba(224, 229, 231, 0.5); */
-  /* padding: 10px 15px; */
-  padding: 0 10px;
-  line-height: 33px;
-  cursor: pointer;
-  list-style-type: none;
-  white-space: nowrap;
-}
-
-.select__list2 .select__item2:hover {
-  background-color: #ecf5fb;
-}
-.select__item2 span {
-  margin: 0 !important;
-}
-
-
-
-
-
-
 /*! Переключитель*/
 .none {
   display: none;
@@ -1384,10 +1289,27 @@ body {
   font-size: 10px;
   margin-left: 5px;
 }
-/* .select__head.open::after {
+.select__head.open::after {
   display: inline-block;
   transform: rotate(180deg);
+}
+/* .select__head::after {
+  width: 10px;
+  height: 6px;
+  background: #FFF url("data:image/svg+xml,%3Csvg width='10' height='6' viewBox='0 0 10 6' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M4.50495 5.78413L0.205241 1.25827C-0.0684138 0.970375 -0.0684138 0.503596 0.205241 0.215836C0.478652 -0.0719461 0.922098 -0.071946 1.19549 0.215837L5.00007 4.22052L8.80452 0.215953C9.07805 -0.0718292 9.52145 -0.0718292 9.79486 0.215953C10.0684 0.503736 10.0684 0.970492 9.79486 1.25839L5.49508 5.78425C5.35831 5.92814 5.17925 6 5.00009 6C4.82085 6 4.64165 5.928 4.50495 5.78413Z' fill='%23ED266A'/%3E%3C/svg%3E%0A") no-repeat center / cover;
+  position: absolute;
+  right: 20px;
+  bottom: 50%;
+  transform: translateY(50%);
+  content: '';
+  display: block;
+  transition: .2s ease-in;
+}
+
+.select__head.open::after {
+  transform: translateY(50%) rotate(180deg);
 } */
+
 .select__list {
   display: none;
   position: absolute;
@@ -1553,14 +1475,15 @@ body {
     z-index: 100;
   }
   .dropdown__button{
+    /* background-color: #133f6d; */
     background-color: transparent;
+    /* padding: 5px 10px; */
     border-radius: 3px;
     font-size: 16px;
     width: 37px;
+    /* box-shadow: inset 0 0 7px 0px rgba(0, 0, 0, 0.3); */
     color: white;
     font-size: 1em;
-    display: flex;
-    align-items: center;
   }
   .dropdown__box{
     display: none;
@@ -1625,10 +1548,10 @@ body {
     color: #ffd700;
   }
 
-  /* .dropdown2.open .dropdown__button:focus::after {
+  .dropdown2.open .dropdown__button:focus::after {
     display: inline-block;
     transform: rotate(180deg);
-  } */
+  }
 
 
   article.timeline {
@@ -4839,7 +4762,7 @@ html[data-theme="dark"] .ball {
 html[data-theme='dark'] .vertical-menu-block__body .vertical-menu-block__list li a, html[data-theme='dark'] .dropbtn, html[data-theme='dark'] .select__list {
   color: #e1e1e1;
 }
-html[data-theme='dark'] .dropdown2.open .dropdown__button:focus, html[data-theme='dark'] .dropdown2.open .dropdown__button:focus::after, html[data-theme='dark'] .select__head.open, html[data-theme='dark'] .timer__more-events[aria-expanded="true"] span, html[data-theme='dark'] .header .header__additional-menu a:hover, html[data-theme='dark'] .header__menu-body .header__additional-menu .languages a:hover, html[data-theme='dark'] .header__menu-body .header__additional-menu .languages a.active {
+html[data-theme='dark'] .timer__more-events[aria-expanded="true"] span, html[data-theme='dark'] .header .header__additional-menu a:hover, html[data-theme='dark'] .header__menu-body .header__additional-menu .languages a:hover, html[data-theme='dark'] .header__menu-body .header__additional-menu .languages a.active {
   color: #e3c000;
 }
 html[data-theme='dark'] .header__logo .socials .facebook, html[data-theme='dark'] .header__logo .socials .twitter, html[data-theme='dark'] .header__logo .socials .instagram, html[data-theme='dark'] .header__logo .socials .telegram, html[data-theme='dark'] .header__logo .socials .youtube {
@@ -5640,7 +5563,7 @@ html[data-theme="Black"] .footer__facebook:hover, html[data-theme="Black"] .foot
   color: #c8a900;
   border-color: #c8a900;
 }
-html[data-theme='Black'] .dropdown2.open .dropdown__button:focus, html[data-theme='Black'] .dropdown2.open .dropdown__button:focus::after, html[data-theme='Black'] .select__head.open, html[data-theme="Black"] .timer__more-events[aria-expanded="true"] span, html[data-theme="Black"] .header .header__additional-menu a:hover, html[data-theme="Black"] .header__menu-body .header__additional-menu .languages a:hover, html[data-theme="Black"] .header__menu-body .header__additional-menu .languages a.active, html[data-theme="Black"] .header__link-massage2[aria-expanded="true"], html[data-theme="Black"] .select__head:hover, html[data-theme="Black"] .dropdown__button:hover, html[data-theme="Black"] .dropdown__button:hover::after, html[data-theme="Black"] .timer__more-events span:hover {
+html[data-theme="Black"] .timer__more-events[aria-expanded="true"] span, html[data-theme="Black"] .header .header__additional-menu a:hover, html[data-theme="Black"] .header__menu-body .header__additional-menu .languages a:hover, html[data-theme="Black"] .header__menu-body .header__additional-menu .languages a.active, html[data-theme="Black"] .header__link-massage2[aria-expanded="true"], html[data-theme="Black"] .select__head:hover, html[data-theme="Black"] .dropdown__button:hover, html[data-theme="Black"] .dropdown__button:hover::after, html[data-theme="Black"] .timer__more-events span:hover {
   /* color: #e3c000; */
   color: #c8a900;
 }
