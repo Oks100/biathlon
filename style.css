@@ -3863,6 +3863,9 @@ footer.footer .footer__column a:hover, footer.footer .footer__bottom-text a:hove
   /* transform: scale(1.2); */
   box-shadow: 0 0 12px #ffd700;
 }
+.footer__column-logo_body {
+  height: 187.617px;
+}
 .footer__about-site {
 }
 .footer__logo {
@@ -3871,7 +3874,7 @@ footer.footer .footer__column a:hover, footer.footer .footer__bottom-text a:hove
   width: 100%;
 }
 .footer__warning {
-  margin-top: 40px;
+  margin-top: 30px;
 }
 .footer__warning p {
   font-style: italic;
@@ -3880,7 +3883,7 @@ footer.footer .footer__column a:hover, footer.footer .footer__bottom-text a:hove
 .footer__socials-block {
   display: flex;
   align-items: start;
-  margin-top: 46px;
+  margin-top: 36px;
   flex-direction: column;
 }
 .footer__title {
@@ -4582,25 +4585,25 @@ nav, aside {
   max-width: 100%;
 }
 @media screen and (max-width: 1295px) {
-  .footer__socials-block {
+  /* .footer__socials-block {
     margin-top: 26px;
-  }
+  } */
   .footer__social-buttons {
     margin-top: 25px;
   }
   }
 @media screen and (max-width: 1220px) {
-  .footer__socials-block {
+  /* .footer__socials-block {
     margin-top: 31.5px;
-  }
+  } */
   .footer__social-buttons {
     padding-right: 0;
   }
   }
 @media screen and (max-width: 1150px) {
-  .footer__socials-block {
+  /* .footer__socials-block {
     margin-top: 37px;
-  }
+  } */
 }
   @media screen and (min-width: 992px) {
     /* body {
@@ -4627,6 +4630,9 @@ nav, aside {
   @media screen and (max-width: 992px) {
     .header__menu-body {
       display: none;
+    }
+    .footer__column-logo_body {
+      height: auto;
     }
     .footer__column {
       width: 50%;
@@ -4682,7 +4688,7 @@ nav, aside {
       width: 320px;
     }
     .footer__socials-block {
-      margin-top: 43px;
+      margin-top: 41px;
     }
     }
   @media screen and (max-width: 690px) {
@@ -4711,7 +4717,7 @@ nav, aside {
       width: 270px;
     }
     .footer__socials-block {
-      margin-top: 36px;
+      margin-top: 35px;
     }
     .footer__social-buttons {
       justify-content: flex-start;
@@ -4731,7 +4737,7 @@ nav, aside {
       width: 245px;
     }
     .footer__socials-block {
-      margin-top: 44px;
+      margin-top: 42px;
     }
     }
   @media screen and (max-width: 551px) {
