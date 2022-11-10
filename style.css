@@ -3874,7 +3874,8 @@ footer.footer .footer__column a:hover, footer.footer .footer__bottom-text a:hove
   width: 100%;
 }
 .footer__warning {
-  margin-top: 30px;
+  /* margin-top: 30px; */
+  margin-top: 40px;
 }
 .footer__warning p {
   font-style: italic;
@@ -4590,6 +4591,9 @@ nav, aside {
   } */
   .footer__social-buttons {
     margin-top: 25px;
+  }
+  .footer__warning {
+    margin-top: 30px;
   }
   }
 @media screen and (max-width: 1220px) {
