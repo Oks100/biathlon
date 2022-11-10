@@ -1865,12 +1865,15 @@ body {
     }
   }
    
-  @media screen and (max-width: 410px) {
+  /* @media screen and (max-width: 410px) {
     .scroll {
       display: inline-block !important;
       width: 380px !important;
       overflow-x: scroll !important;
     }
+  } */
+  .scroll {
+    overflow: scroll !important;
   }
   /*
   @media screen and (max-width: 392px) {
