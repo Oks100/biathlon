@@ -3926,6 +3926,7 @@ footer.footer .footer__column a:hover, footer.footer .footer__bottom-text a:hove
   display: flex;
   justify-content: center;
   color: white;
+  line-height: 35px;
 }
 .footer__facebook:hover, .footer__twitter:hover, .footer__instagram:hover, .footer__telegram:hover, .footer__youtube:hover {
   box-shadow: 0 0 13px #ffd700;
@@ -5284,13 +5285,13 @@ html[data-theme="dark"] #back-to-top-button:active {
 
 
 
-html[data-theme='summer'] .main-cup, html[data-theme='summer'] .sidebar-block, html[data-theme='summer'] .sidebar-block3,  html[data-theme='summer'] .timeline__body .td_top10w td, html[data-theme='summer'] .divTableRow:nth-child(2n+1), html[data-theme='summer'] .twitter-block {
+html[data-theme='summer'] .main-cup, html[data-theme='summer'] .sidebar-block, html[data-theme='summer'] .sidebar-block3, html[data-theme='summer'] .divTableRow:nth-child(2n+1), html[data-theme='summer'] .twitter-block {
   /* background-color: #ffe7ae; */
   /* background-color: #ffeec6; */
   /* background-color: #fff3d7; */
   background-color: #fff7e6;
 }
-html[data-theme='summer'] table.main-cup__top10 tbody tr:nth-child(2n+1), html[data-theme='summer'] .dropbtn, html[data-theme='summer'] .statistics__button{
+html[data-theme='summer'] .timeline__body .td_top10w td, html[data-theme='summer'] table.main-cup__top10 tbody tr:nth-child(2n+1), html[data-theme='summer'] .dropbtn, html[data-theme='summer'] .statistics__button{
   /* background-color: #fff2d4; */
   /* background-color: #ffe3a6; */
   /* background-color: #ffe8b7; */
