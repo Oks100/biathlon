@@ -1826,6 +1826,7 @@ body {
     align-items: center; */
     flex-wrap: wrap;
     gap: 10px 2em;
+    align-items: baseline;
   }
   .timeline__head a {
     font-size: 1.3em;
@@ -1858,13 +1859,13 @@ body {
     border: 1px solid #d0d9dd;
     padding: 3px;
   }
-  .news_text2 tr td, .news_text3 tr td {
+  /* .news_text2 tr td, .news_text3 tr td {
     border: none !important;
-  }
-  .news_text3 tbody {
+  } */
+  /* .news_text3 tbody {
     display: flex;
     gap: 15px;
-  }
+  } */
   .table-scroll {
     overflow: auto;
   }
@@ -1921,6 +1922,10 @@ body {
     border-spacing: 0px;
     border-collapse: collapse;
     width: 100%;
+  }
+  .news_text tbody tr:not(.td_top10w) {
+    display: flex;
+    gap: 15px;
   }
   .timeline__body .img-right {
     float: right;
@@ -4863,6 +4868,14 @@ nav, aside {
       padding: 2px;
       }
     }
+  @media screen and (max-width: 550px) {
+    .timeline__body .news_text tr td:not(.table0_100 tr td) {
+      width: 100% !important;
+    }
+    .news_text tbody tr:not(.td_top10w) {
+      flex-wrap: wrap;
+    }
+    }
 
   @font-face {
     font-family: "RobotoCondensed";
@@ -5291,7 +5304,7 @@ html[data-theme='summer'] .main-cup, html[data-theme='summer'] .sidebar-block, h
   /* background-color: #fff3d7; */
   background-color: #fff7e6;
 }
-html[data-theme='summer'] .timeline__body .td_top10w td, html[data-theme='summer'] table.main-cup__top10 tbody tr:nth-child(2n+1), html[data-theme='summer'] .dropbtn, html[data-theme='summer'] .statistics__button{
+html[data-theme='summer'] table.main-cup__top10 tbody tr:nth-child(2n+1), html[data-theme='summer'] .dropbtn, html[data-theme='summer'] .statistics__button{
   /* background-color: #fff2d4; */
   /* background-color: #ffe3a6; */
   /* background-color: #ffe8b7; */
@@ -5338,7 +5351,7 @@ html[data-theme="summer"] .main-cup__controls .swiper-button-next, html[data-the
 html[data-theme='summer'] .statistics__button:hover {
   background: #ffe8b5 !important;
 }
-html[data-theme='summer'] .learn-more__text2::after, html[data-theme='summer'] .learn-more__text2::before, html[data-theme='summer'] .vertical-menu-block__body .vertical-menu-block__list li::before, html[data-theme='summer'] .timeline-sponsors .swiper-button-prev, html[data-theme='summer'] .timeline-sponsors .swiper-button-next {
+html[data-theme='summer'] .timeline__body .td_top10w td, html[data-theme='summer'] .learn-more__text2::after, html[data-theme='summer'] .learn-more__text2::before, html[data-theme='summer'] .vertical-menu-block__body .vertical-menu-block__list li::before, html[data-theme='summer'] .timeline-sponsors .swiper-button-prev, html[data-theme='summer'] .timeline-sponsors .swiper-button-next {
   /* background: #ffe8b7; */
   background: #fff1d4;
 }
@@ -5876,15 +5889,4 @@ html[data-theme="Black"] #back-to-top-button:active {
   #back-to-top-button {
     display: none;
   }
-}
-
-
-/* .news_text tbody tr:nth-child(2) {
-  display: flex;
-  gap: 15px;
-} */
-
-.news_text tbody tr:not(.td_top10w) {
-  display: flex;
-  gap: 15px;
 }
