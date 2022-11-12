@@ -3590,7 +3590,6 @@ table.popular__table tbody tr {
   padding: 1.5em 0 0.75em 0;
   font-family: tahoma, Arial, Helvetica, sans-serif;
   color: #1f73cc;
-  /* background-color: rgb(231, 243, 250); */
   background-color: transparent;
   border-radius: 3px 3px 0px 0px;
 }
@@ -3601,6 +3600,7 @@ table.popular__table tbody tr {
   box-shadow: 0 1px 2px rgb(0 0 0 / 50%) inset, 0 -1px 0 rgb(0 0 0 / 20%) inset !important;
   border-radius: 3px;
   margin: 0 0px 0 0px;
+  background-color: #fff;
 }
 /* .twitter-block__footer {
   padding-top: 1.5em;
@@ -3628,7 +3628,10 @@ table.popular__table tbody tr {
   /* width: 98.78% !important; */
   /* background-color: #fff !important; */
 }
-
+.twitter-timeline.twitter-timeline-rendered {
+  margin-left: 0.1px;
+  margin-right: 50px;
+}
 /* #twitter-widget-0 .css-1dbjc4n {
   border-radius: 0 !important; 
 }/* ! ???*/
@@ -5292,8 +5295,16 @@ html[data-theme="dark"] #back-to-top-button:hover {
 html[data-theme="dark"] #back-to-top-button:active {
   background-color: rgb(0, 0, 0, 8);
 }
+html[data-theme='dark'] .twitter-block__body {
+  background-color: #202124 !important;
+  color: white !important;
+}
+html[data-theme='dark'] #twitter-widget-0 {
+  color: white !important;
+}
+html[data-theme='dark'] .twitter-timeline.twitter-timeline-rendered {
 
-
+}
 
 
 
@@ -5847,7 +5858,6 @@ html[data-theme="Black"] #back-to-top-button:active {
 }
 
 
-
 /* Кнопка наверх */
 #back-to-top-button {
   display: inline-block;
@@ -5858,14 +5868,14 @@ html[data-theme="Black"] #back-to-top-button:active {
   border-radius: 4px;
   position: fixed;
   bottom: 30px;
-  right: 25px;
+  right: 35px;
   transition: background-color .3s, 
     opacity .5s, visibility .5s;
   opacity: 0;
   visibility: hidden;
   border-radius: 50%;
   z-index: 1000;
-  margin: 30px;
+  /* margin: 30px; */
 }
 #back-to-top-button::after {
   content: "\e019";
