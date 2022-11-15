@@ -1871,7 +1871,7 @@ body {
   }
   .table__one, .table__two {
     /* border: 2px solid #a6adb1; */
-    border: 2px solid #b9c1c4;
+    border: 2px solid black;
   }
   .timeline__body img {
     max-width: 100%;
@@ -5281,7 +5281,7 @@ html[data-theme="dark"] .vertical-menu-block__categories {
   padding: 1px 0.8px 0.8px 0.7px;
 }
 html[data-theme="dark"] .table__one, html[data-theme="dark"] .table__two {
-  border-color: #5e6164;
+  border-color: #e1e1e1;
 }
 html[data-theme="dark"] #back-to-top-button {
   background-color: rgb(0, 0, 0, 0.3);
@@ -5294,16 +5294,6 @@ html[data-theme="dark"] #back-to-top-button:hover {
 }
 html[data-theme="dark"] #back-to-top-button:active {
   background-color: rgb(0, 0, 0, 8);
-}
-html[data-theme='dark'] .twitter-block__body {
-  background-color: #202124 !important;
-  color: white !important;
-}
-html[data-theme='dark'] #twitter-widget-0 {
-  color: white !important;
-}
-html[data-theme='dark'] .twitter-timeline.twitter-timeline-rendered {
-
 }
 
 
@@ -5521,10 +5511,12 @@ html[data-theme="summer"] .select__head2:hover {
 html[data-theme="summer"] .select__head2::before, html[data-theme="summer"] .select__head2::after {
   background-color: rgb(117, 204, 115);
 }
-html[data-theme="summer"] .table__one, html[data-theme="summer"] .table__two {
+/* html[data-theme="summer"] .table__one, html[data-theme="summer"] .table__two {
   border-color: #bfbbb2;
+} */
+html[data-theme='summer'] .twitter-block__body {
+  background-color: #fffcf4 !important;
 }
-
 
 
 
@@ -5842,7 +5834,7 @@ html[data-theme="Black"] .select__list2 .select__item2:hover {
   background-color: #19202b;
 }
 html[data-theme="Black"] .table__one, html[data-theme="Black"] .table__two {
-  border-color: #333537;
+  border-color: #c9ccd0;
 }
 html[data-theme="Black"] #back-to-top-button {
   background-color: rgb(255, 255, 255, 0.1);
@@ -5878,10 +5870,10 @@ html[data-theme="Black"] #back-to-top-button:active {
   /* margin: 30px; */
 }
 #back-to-top-button::after {
-  content: "\e019";
+  content: "\e020";
   font-family: 'icomoon';
   font-size: 1.5em;
-  line-height: 50px;
+  line-height: 47px;
   color: #fff;
 }
 #back-to-top-button:hover {
