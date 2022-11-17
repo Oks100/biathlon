@@ -1883,9 +1883,12 @@ body {
     /* background-color: #e7f3fa;
     padding: 3px 0 3px 0; */
   }
+  .timeline__body .td_top10w strong {
+    margin-left: 3.5px;
+  }
   .timeline__body .td_top10w td {
     background-color: #e7f3fa;
-    padding: 3px;
+    /* padding: 3px; */
   }
   .timeline__body .news_text tr td:not(.table0_100 tr td) {
     width: 50% !important;
