@@ -1,3 +1,29 @@
+if (document.querySelector('.swiper-container5')) {
+  new Swiper('.swiper-container5', {
+    spaceBetween: 15,
+    // Вывод стрелок навигации
+     navigation: {
+       nextEl: '.swiper-button-next',
+       prevEl: '.swiper-button-prev',
+     },
+    loop: true,
+    autoHeight: true,
+   })
+};
+
+if (document.querySelector('.swiper-container4')) {
+  new Swiper('.swiper-container4', {
+    spaceBetween: 15,
+    // Вывод стрелок навигации
+     navigation: {
+       nextEl: '.swiper-button-next',
+       prevEl: '.swiper-button-prev',
+     },
+    loop: true,
+    autoHeight: true,
+   })
+};
+
 if (document.querySelector('.swiper-container')) {
   new Swiper('.swiper-container', {
     // Вывод стрелок навигации
@@ -116,7 +142,7 @@ tippy('.olsby-roeideland-marte', {
   placement: 'auto',
   duration: 350,
   maxWidth: 400,
-  animation: 'shift-toward',
+  animation: 'perspective',
   // followCursor: true,
   // offset: [0, -98],
 });
@@ -126,12 +152,12 @@ tippy('.oeverg-elvira-karin', {
   arrow: true,
   interactive: true,
   trigger: 'mouseenter',
-  delay: [1000, 3509999],
+  delay: [1000, 350],
   placement: 'auto',
   duration: 350,
   maxWidth: 400,
-  // animation: 'shift-toward',
-  animation: 'scale',
+  // animation: 'perspective',
+  animation: 'perspective',
   // animation: 'perspective',
   // followCursor: true,
   // offset: [0, 0],
@@ -146,7 +172,7 @@ tippy('.hauser-lisa-theresa', {
   placement: 'auto',
   duration: 350,
   maxWidth: 400,
-  animation: 'shift-away',
+  animation: 'perspective',
   // followCursor: true,
   // offset: [0, -98],
 });
@@ -174,7 +200,7 @@ tippy('.chevailier-anais-bouchet', {
   placement: 'auto',
   duration: 350,
   maxWidth: 400,
-  animation: 'scale',
+  animation: 'perspective',
   followCursor: true,
   // offset: [0, -98],
 });
@@ -202,7 +228,7 @@ tippy('.dzhima-yuliia', {
   placement: 'auto',
   duration: 350,
   maxWidth: 400,
-  animation: 'shift-away',
+  animation: 'perspective',
   // followCursor: true,
   // offset: [0, -98],
 });
@@ -216,7 +242,7 @@ tippy('.dzhima-yuliia2', {
   placement: 'auto',
   duration: 350,
   maxWidth: 400,
-  animation: 'shift-away',
+  animation: 'perspective',
   // followCursor: true,
   // offset: [0, -98],
 });
@@ -230,7 +256,7 @@ tippy('.dzhima-yuliia3', {
   placement: 'auto',
   duration: 350,
   maxWidth: 400,
-  animation: 'shift-away',
+  animation: 'perspective',
   // followCursor: true,
   // offset: [0, -98],
 });
@@ -244,7 +270,7 @@ tippy('.braisaz-bouchet-justine', {
   placement: 'auto',
   duration: 350,
   maxWidth: 400,
-  animation: 'shift-toward',
+  animation: 'perspective',
   // followCursor: true,
   // offset: [0, -98],
 });
@@ -258,7 +284,7 @@ tippy('.wierer-dorothea', {
   placement: 'auto',
   duration: 350,
   maxWidth: 400,
-  animation: 'scale',
+  animation: 'perspective',
   // followCursor: true,
   // offset: [0, -98],
 });
@@ -268,7 +294,7 @@ tippy('.davidova-marketa', {
   arrow: true,
   interactive: true,
   trigger: 'mouseenter',
-  delay: [1000, 350000],
+  delay: [1000, 350],
   placement: 'auto',
   duration: 350,
   maxWidth: 400,
@@ -674,7 +700,7 @@ tippy('.tishchenko-artem', {
   arrow: true,
   interactive: true,
   trigger: 'mouseenter',
-  delay: [1000, 350],
+  delay: [1000, 3500000],
   placement: 'auto',
   duration: 350,
   maxWidth: 400,
@@ -692,7 +718,7 @@ tippy('.fillon-maillet-quentin', {
   placement: 'auto',
   duration: 350,
   maxWidth: 400,
-  animation: 'shift-toward',
+  animation: 'perspective',
   // followCursor: true,
   // offset: [0, -98],
 });
@@ -720,7 +746,7 @@ tippy('.samuelsson-sebastian', {
   placement: 'auto',
   duration: 350,
   maxWidth: 400,
-  animation: 'auto',
+  animation: 'perspective',
   // followCursor: true,
   // offset: [0, -98],
 });
@@ -734,7 +760,7 @@ tippy('.christiansen-vetle-sjastad', {
   placement: 'auto',
   duration: 350,
   maxWidth: 400,
-  animation: 'auto',
+  animation: 'perspective',
   // followCursor: true,
   // offset: [0, -98],
 });
@@ -748,7 +774,7 @@ tippy('.jacquelin-emilien', {
   placement: 'auto',
   duration: 350,
   maxWidth: 400,
-  animation: 'shift-toward',
+  animation: 'perspective',
   // followCursor: true,
   // offset: [0, -98],
 });
@@ -762,7 +788,7 @@ tippy('.boe-tarjei', {
   placement: 'auto',
   duration: 350,
   maxWidth: 400,
-  animation: 'scale',
+  animation: 'perspective',
   // followCursor: true,
   // offset: [0, -98],
 });
@@ -818,7 +844,7 @@ tippy('.doll-benedikt', {
   placement: 'auto',
   duration: 350,
   maxWidth: 400,
-  animation: 'shift-toward',
+  animation: 'perspective',
   // followCursor: true,
   // offset: [0, -98],
 });
@@ -832,7 +858,7 @@ tippy('.bakken-sivert-guttorm', {
   placement: 'auto',
   duration: 350,
   maxWidth: 400,
-  animation: 'shift-away',
+  animation: 'perspective',
   // followCursor: true,
   // offset: [0, -98],
 });
@@ -986,22 +1012,23 @@ tippy('.header__notifications', {
 });
 
 
-function myFunction() {
-  document.getElementById("myDropdown").classList.toggle("show");
-}
 
-window.onclick = function(event) {
-  if (!event.target.matches('.dropbtn')) {
-    var dropdowns = document.getElementsByClassName("dropdown-content");
-    var i;
-    for (i = 0; i < dropdowns.length; i++) {
-      var openDropdown = dropdowns[i];
-      if (openDropdown.classList.contains('show')) {
-        openDropdown.classList.remove('show');
-      }
-    }
-  }
-}
+// function myFunction() {
+//   document.getElementById("myDropdown").classList.toggle("show");
+// }
+
+// window.onclick = function(event) {
+//   if (!event.target.matches('.dropbtn')) {
+//     var dropdowns = document.getElementsByClassName("dropdown-content");
+//     var i;
+//     for (i = 0; i < dropdowns.length; i++) {
+//       var openDropdown = dropdowns[i];
+//       if (openDropdown.classList.contains('show')) {
+//         openDropdown.classList.remove('show');
+//       }
+//     }
+//   }
+// }
 
 // const toggleSwitch = document.querySelector('.theme-switch input[type="checkbox"]');
 
@@ -1249,3 +1276,21 @@ if (typeof exports != "undefined") {
 	themeChange()
 }
 /* Выбор темы*/
+
+
+/* Кнопка наверх */
+var btn = $('#back-to-top-button');
+
+$(window).scroll(function() {
+  if ($(window).scrollTop() > 500) {
+    btn.addClass('show');
+  } else {
+    btn.removeClass('show');
+  }
+});
+
+btn.on('click', function(e) {
+  e.preventDefault();
+  $('html, body').animate({scrollTop:0}, '300');
+});
+/* Кнопка наверх */
