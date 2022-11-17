@@ -2238,7 +2238,7 @@ body {
     margin-top: 10px;
     }
   .slider-container3 .swiper-horizontal > .swiper-pagination-bullets, .slider-container3 .swiper-pagination-bullets.swiper-pagination-horizontal, .slider-container3 .swiper-pagination-custom, .swiper-pagination-fraction {
-    bottom: -40px !important;
+    bottom: -39.5px !important;
     }
   .slider-container3 .swiper-pagination-bullet {
     width: 10px;
