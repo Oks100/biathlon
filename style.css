@@ -2658,7 +2658,8 @@ body {
   }
   .main-cup__controls.men .swiper-button-prev-icon.rotate::before {
     transform: rotate(45deg);
-    right: 9px;
+    /* right: 9px; */
+    right: 8.5px;
   }
 
   .main-cup__controls.women .swiper-button-next-icon.rotate2::before {
@@ -2667,7 +2668,8 @@ body {
   }
   .main-cup__controls.women .swiper-button-prev-icon.rotate2::before {
     transform: rotate(45deg);
-    right: 9px;
+    /* right: 9px; */
+    right: 8.5px;
   }
 
   .swiper-button-prev:hover .swiper-button-prev-icon {
