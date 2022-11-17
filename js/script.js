@@ -8,6 +8,12 @@ if (document.querySelector('.swiper-container5')) {
      },
     loop: true,
     autoHeight: true,
+    allowTouchMove: true,
+    breakpoints: {
+			992: {
+				allowTouchMove: false,
+			},
+		}
    })
 };
 
@@ -21,6 +27,12 @@ if (document.querySelector('.swiper-container4')) {
      },
     loop: true,
     autoHeight: true,
+    allowTouchMove: true,
+    breakpoints: {
+			992: {
+				allowTouchMove: false,
+			},
+		}
    })
 };
 
