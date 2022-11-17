@@ -1889,6 +1889,10 @@ body {
   .timeline__body .table0_100 .td_top10w td, .timeline__body .news_text .td_top10w strong {
     margin-left: 3.5px;
   }
+  .timeline__body .table0_100 .td_top10w td {
+    display: flex;
+    width: 100%;
+  }
   .timeline__body .news_text tr td:not(.table0_100 tr td) {
     width: 50% !important;
     border: none !important;
