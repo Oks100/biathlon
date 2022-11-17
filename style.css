@@ -1886,8 +1886,8 @@ body {
   .timeline__body .td_top10w td {
     background-color: #e7f3fa;
   }
-  .timeline__body .table0_100 .td_top10w td, .timeline__body .news_text .td_top10w strong {
-    margin-left: 3.5px;
+  .timeline__body .table0_100 .td_top10w td, .timeline__body .news_text:not(.table0_100) .td_top10w strong {
+    padding-left: 3.5px;
   }
   .timeline__body .table0_100 .td_top10w td {
     display: flex;
