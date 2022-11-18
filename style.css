@@ -3953,6 +3953,12 @@ footer.footer .footer__column a:hover, footer.footer .footer__bottom-text a:hove
   border-color: #ffd700;
   transform: rotate(360deg) scale(1.09);
 }
+.footer__facebook::before, .footer__twitter::before, .footer__instagram::before, .footer__telegram::before, .footer__youtube::before {
+  transition: all .4s ease;
+}
+.footer__facebook:hover::before, .footer__twitter:hover::before, .footer__instagram:hover::before, .footer__telegram:hover::before, .footer__youtube:hover::before {
+  color: #ffd700;
+}
 .footer__twitter::before {
   content: "\f099";
   font-family: 'FontAwesome';
@@ -5028,7 +5034,7 @@ html[data-theme="dark"] .ball {
 html[data-theme='dark'] .select__list2, html[data-theme='dark'] .vertical-menu-block__body .vertical-menu-block__list li a, html[data-theme='dark'] .dropbtn, html[data-theme='dark'] .select__list {
   color: #e1e1e1;
 }
-html[data-theme='dark'] .dropdown2.open .dropdown__button:focus, html[data-theme='dark'] .dropdown2.open .dropdown__button:focus::after, html[data-theme='dark'] .select__head.open, html[data-theme='dark'] .timer__more-events[aria-expanded="true"] span, html[data-theme='dark'] .header .header__additional-menu a:hover, html[data-theme='dark'] .header__menu-body .header__additional-menu .languages a:hover, html[data-theme='dark'] .header__menu-body .header__additional-menu .languages a.active {
+html[data-theme='dark'] .footer__facebook:hover::before, html[data-theme='dark'] .footer__twitter:hover::before, html[data-theme='dark'] .footer__instagram:hover::before, html[data-theme='dark'] .footer__telegram:hover::before, html[data-theme='dark'] .footer__youtube:hover::before, html[data-theme='dark'] .dropdown2.open .dropdown__button:focus, html[data-theme='dark'] .dropdown2.open .dropdown__button:focus::after, html[data-theme='dark'] .select__head.open, html[data-theme='dark'] .timer__more-events[aria-expanded="true"] span, html[data-theme='dark'] .header .header__additional-menu a:hover, html[data-theme='dark'] .header__menu-body .header__additional-menu .languages a:hover, html[data-theme='dark'] .header__menu-body .header__additional-menu .languages a.active {
   color: #e3c000;
 }
 html[data-theme='dark'] .header__logo .socials .facebook, html[data-theme='dark'] .header__logo .socials .twitter, html[data-theme='dark'] .header__logo .socials .instagram, html[data-theme='dark'] .header__logo .socials .telegram, html[data-theme='dark'] .header__logo .socials .youtube {
@@ -5859,7 +5865,7 @@ html[data-theme="Black"] .footer__facebook:hover, html[data-theme="Black"] .foot
   color: #c8a900;
   border-color: #c8a900;
 }
-html[data-theme='Black'] .dropdown2.open .dropdown__button:focus, html[data-theme='Black'] .dropdown2.open .dropdown__button:focus::after, html[data-theme='Black'] .select__head.open, html[data-theme="Black"] .timer__more-events[aria-expanded="true"] span, html[data-theme="Black"] .header .header__additional-menu a:hover, html[data-theme="Black"] .header__menu-body .header__additional-menu .languages a:hover, html[data-theme="Black"] .header__menu-body .header__additional-menu .languages a.active, html[data-theme="Black"] .header__link-massage2[aria-expanded="true"], html[data-theme="Black"] .select__head:hover, html[data-theme="Black"] .dropdown__button:hover, html[data-theme="Black"] .dropdown__button:hover::after, html[data-theme="Black"] .timer__more-events span:hover {
+html[data-theme='Black'] .footer__facebook:hover::before, html[data-theme='Black'] .footer__twitter:hover::before, html[data-theme='Black'] .footer__instagram:hover::before, html[data-theme='Black'] .footer__telegram:hover::before, html[data-theme='Black'] .footer__youtube:hover::before, html[data-theme='Black'] .dropdown2.open .dropdown__button:focus, html[data-theme='Black'] .dropdown2.open .dropdown__button:focus::after, html[data-theme='Black'] .select__head.open, html[data-theme="Black"] .timer__more-events[aria-expanded="true"] span, html[data-theme="Black"] .header .header__additional-menu a:hover, html[data-theme="Black"] .header__menu-body .header__additional-menu .languages a:hover, html[data-theme="Black"] .header__menu-body .header__additional-menu .languages a.active, html[data-theme="Black"] .header__link-massage2[aria-expanded="true"], html[data-theme="Black"] .select__head:hover, html[data-theme="Black"] .dropdown__button:hover, html[data-theme="Black"] .dropdown__button:hover::after, html[data-theme="Black"] .timer__more-events span:hover {
   /* color: #e3c000; */
   color: #c8a900;
 }
