@@ -206,7 +206,7 @@ body {
     display: flex;
     width: 100%;
     justify-content: space-between;
-    margin: 0 35px 0 35px;
+    margin: 0 30px 0 30px;
   }
   .header__logo {
     position: relative;
@@ -4908,13 +4908,16 @@ nav, aside {
   } */
   @media screen and (max-width: 450px) {
     .header__logo a img {
-      width: 85%;
+      /* width: 85%; */
     }
     .header__logo .socials {
       display: none;
     }
     .header__logo a {
       width: auto;
+    }
+    .header__logo {
+      width: 85%;
     }
     }
 
