@@ -1824,7 +1824,6 @@ body {
     /* webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center; */
-    flex-wrap: wrap;
     gap: 10px 2em;
     align-items: baseline;
   }
@@ -1949,6 +1948,7 @@ body {
     font-size: 0.95em;
     flex-wrap: wrap;
     gap: 1em 0;
+    width: 100%;
   }
   /* .timeline__btn-more {
     outline: 1px solid black;
@@ -4678,6 +4678,9 @@ nav, aside {
   /* .footer__socials-block {
     margin-top: 37px;
   } */
+  .timeline__head {
+    flex-wrap: wrap;
+  }
 }
   @media screen and (min-width: 992px) {
     /* body {
