@@ -4920,7 +4920,12 @@ nav, aside {
       width: 85%;
     }
     .header__logo a img {
-      content: url(img/test3.png);
+      content: url(img/logo-mobile2.png);
+    }
+    }
+    @media screen and (max-width: 360px) {
+      .header__logo a img {
+        content: url(img/logo-mobile3.png);
     }
     }
 
@@ -5995,7 +6000,7 @@ html[data-theme="Black"] #back-to-top-button:active {
   align-items: end;
   position: relative;
   /* bottom: 12%; */
-  bottom: 11.5px;
+  bottom: 10px;
   margin-left: 10px;
   transition-timing-function: linear;
   transition-duration: .15s;
