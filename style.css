@@ -5994,7 +5994,8 @@ html[data-theme="Black"] #back-to-top-button:active {
   display: flex;
   align-items: end;
   position: relative;
-  bottom: 9.6%;
+  /* bottom: 12%; */
+  bottom: 11.5px;
   margin-left: 10px;
   transition-timing-function: linear;
   transition-duration: .15s;
@@ -6009,20 +6010,20 @@ html[data-theme="Black"] #back-to-top-button:active {
   }
 .burger-menu_button {
   position: relative;
-  width: 40px;
-  height: 40px;
+  width: 35px;
+  height: 35px;
   z-index: 999;
   display: flex;
   justify-self: end;
 }
 
 
-.burger-menu_button {
+/* .burger-menu_button {
   position: relative;
   display: inline-block;
   width: 40px;
   height: 40px;
-}
+} */
 
 .burger-menu-spin .burger-menu_lines {
   transition-timing-function: cubic-bezier(.55,.055,.675,.19);
@@ -6030,8 +6031,9 @@ html[data-theme="Black"] #back-to-top-button:active {
 }
 .burger-menu_lines, .burger-menu_lines::after, .burger-menu_lines::before {
   position: absolute;
-  width: 40px;
-  height: 4px;
+  width: 30px;
+  right: 0;
+  height: 3.1px;
   transition-timing-function: ease;
   transition-duration: .15s;
   transition-property: -webkit-transform;
@@ -6052,7 +6054,7 @@ html[data-theme="Black"] #back-to-top-button:active {
   transition: top .1s .34s ease-in,opacity .1s ease-in;
 }
 .burger-menu_lines::before {
-  top: -10px;
+  top: -8px;
 }
 .burger-menu_lines::after, .burger-menu_lines::before {
   display: block;
@@ -6064,7 +6066,7 @@ html[data-theme="Black"] #back-to-top-button:active {
   transition: bottom .1s .34s ease-in,transform .3s cubic-bezier(.55,.055,.675,.19),-webkit-transform .3s cubic-bezier(.55,.055,.675,.19);
 }
 .burger-menu_lines::after {
-  bottom: -10px;
+  bottom: -8px;
 }
 .burger-menu_lines::after, .burger-menu_lines::before {
   display: block;
