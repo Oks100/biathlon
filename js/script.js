@@ -1307,10 +1307,15 @@ btn.on('click', function(e) {
 });
 /* Кнопка наверх */
 
+/* Костыль к бургер кнопке -_-*/
+$(document).ready(function(){
+	$('.burger-menu_button').click(function () {
+		$('.body').toggleClass('overflow');
+		});
+	});
+/* Костыль к бургер кнопке*/
 
-
-
-
+/* Бургер кнопка */
 function burgerMenu(selector) {
   let menu = $(selector);
   let button = menu.find('.burger-menu_button', '.burger-menu_lines');
@@ -1325,6 +1330,7 @@ function burgerMenu(selector) {
   // links.on('click', () => toggleMenu());
   overlay.on('click', () => toggleMenu());
   
+
   function toggleMenu(){
     menu.toggleClass('burger-menu_active');
     
@@ -1337,3 +1343,9 @@ function burgerMenu(selector) {
 }
 
 burgerMenu('.burger-menu');
+/* Бургер кнопка */
+
+
+
+
+
