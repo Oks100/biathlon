@@ -6055,6 +6055,13 @@ html[data-theme="Black"] #back-to-top-button:active {
 .burger-menu .burger-menu_lines, .burger-menu .burger-menu_lines::after, .burger-menu .burger-menu_lines::before {
   background-color: #fff;
 }
+/* .burger-menu_active .burger-menu_lines, .burger-menu_active .burger-menu_lines::after, .burger-menu_active .burger-menu_lines::before {
+  background-color: black;
+} */
+.burger-menu_active .burger-menu_button {
+  background-color: #000 !important;
+  border-radius: 50%;
+}
 .burger-menu-spin .burger-menu_lines::before {
   transition: top .1s .34s ease-in,opacity .1s ease-in;
 }
@@ -6109,7 +6116,7 @@ html[data-theme="Black"] #back-to-top-button:active {
   flex-flow: column;
   height: 100%;
   width: 100%;
-  background-color: gray;
+  background-color: #fff;
   overflow-y: auto;
   top: -100%;
   left: 0;
@@ -6117,12 +6124,15 @@ html[data-theme="Black"] #back-to-top-button:active {
   transition: all 0.4s ease;
   justify-content: space-between;
 }
+.burger-menu_nav a {
+  color: #002b71;
+}
 .burger-menu_active .burger-menu_nav {
   top: 0;
   left: 0;
   transition: all 0.4s ease;
 }
-.burger-menu_link {
+/* .burger-menu_link {
   padding: 18px 35px;
   font-family: 'Roboto', sans-serif;
   font-size: 18px;
@@ -6130,15 +6140,15 @@ html[data-theme="Black"] #back-to-top-button:active {
   text-transform: uppercase;
   letter-spacing: 5px;
   font-weight: 400;
-  color: blue;
+  color: black;
   border-bottom: 1px solid #fff;
-}
-.burger-menu_link:first-child {
+} */
+/* .burger-menu_link:first-child {
   border-top: 1px solid #fff;
 }
 .burger-menu_link:hover {
   filter: brightness(0.9);
-}
+} */
 /* .burger-menu_overlay {
   display: none;
   position: fixed;
@@ -6181,7 +6191,9 @@ html[data-theme="Black"] #back-to-top-button:active {
 .burger-menu__profile {
   display: flex;
   flex-direction: column;
-  margin-left: 15px;
+  padding-left: 15px;
+  padding-bottom: 25px;
+  background-color: #e7f3fa;
 }
 .burger-menu__profile-name {
   display: flex;
@@ -6283,7 +6295,7 @@ html[data-theme="Black"] #back-to-top-button:active {
 .burger-menu_nav-menu {
   display: flex;
   flex-direction: column;
-  margin-top: 25px;
+  /* margin-top: 25px; */
 }
 .burger-menu_nav-menu a {
   padding: 12.3px 0;
@@ -6292,10 +6304,17 @@ html[data-theme="Black"] #back-to-top-button:active {
 
 
 .burger-menu__socials {
+  /* display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 15px 0; */
   display: flex;
   flex-direction: row;
   justify-content: center;
-  margin: 15px 0;
+  padding-bottom: 15px;
+  background-color: #e7f3fa;
+  height: 100%;
+  align-items: end;
 }
 .burger-menu__socials-facebook {
 }
