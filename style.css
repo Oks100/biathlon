@@ -6055,13 +6055,13 @@ html[data-theme="Black"] #back-to-top-button:active {
 .burger-menu .burger-menu_lines, .burger-menu .burger-menu_lines::after, .burger-menu .burger-menu_lines::before {
   background-color: #fff;
 }
-/* .burger-menu_active .burger-menu_lines, .burger-menu_active .burger-menu_lines::after, .burger-menu_active .burger-menu_lines::before {
-  background-color: black;
-} */
-.burger-menu_active .burger-menu_button {
+.burger-menu_active .burger-menu_lines, .burger-menu_active .burger-menu_lines::after, .burger-menu_active .burger-menu_lines::before {
+  background-color: #002b71;
+}
+/* .burger-menu_active .burger-menu_button {
   background-color: #000 !important;
   border-radius: 50%;
-}
+} */
 .burger-menu-spin .burger-menu_lines::before {
   transition: top .1s .34s ease-in,opacity .1s ease-in;
 }
@@ -6237,6 +6237,8 @@ html[data-theme="Black"] #back-to-top-button:active {
   content: "\e914";
   font-family: 'icomoon';
   font-size: 1.5em;
+  color: #fff;
+  text-shadow: #1f4d99 1px 0 10px;
 }
 .burger-menu__profile-notice {
   display: flex;
@@ -6249,6 +6251,8 @@ html[data-theme="Black"] #back-to-top-button:active {
   font-family: 'icomoon';
   font-size: 1.5em;
   margin-top: 3px;
+  color: #fff;
+  text-shadow: #1f4d99 1px 0 10px;
 }
 .burger-menu__profile-messange span {
   position: absolute;
