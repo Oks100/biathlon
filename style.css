@@ -6197,6 +6197,8 @@ html[data-theme="Black"] #back-to-top-button:active {
   padding-left: 15px;
   padding-bottom: 15px;
   background-color: #e7f3fa;
+  position: fixed;
+  width: 100%;
 }
 .burger-menu__profile-name {
   display: flex;
@@ -6310,6 +6312,7 @@ html[data-theme="Black"] #back-to-top-button:active {
   padding: 0 15px;
   background-color: #e7f3fa;
   border-radius: 3px;
+  margin-top: 145px;
 }
 .burger-menu_nav-menu a {
   display: flex;
@@ -6346,7 +6349,7 @@ html[data-theme="Black"] #back-to-top-button:active {
   border-top: 1.875px solid #4e79ad;
   border-right: 1.875px solid #4e79ad;
   transform: rotate(45deg);
-  margin-top: 2px;
+  margin-top: 1.5px;
   margin-left: 5px;
 }
 .burger-menu_nav-menu-content li .burger-menu_nav-more span {
@@ -6361,7 +6364,7 @@ html[data-theme="Black"] #back-to-top-button:active {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  padding-bottom: 15px;
+  padding: 15px 0;
   background-color: #e7f3fa;
   height: 100%;
   align-items: end;
