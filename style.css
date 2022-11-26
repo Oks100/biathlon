@@ -6199,6 +6199,8 @@ html[data-theme="Black"] #back-to-top-button:active {
   background-color: #e7f3fa;
   position: fixed;
   width: 100%;
+  z-index: 1;
+  height: 145px;
 }
 .burger-menu__profile-name {
   display: flex;
