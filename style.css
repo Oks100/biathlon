@@ -6333,7 +6333,7 @@ html[data-theme="Black"] #back-to-top-button:active {
 .burger-menu_nav-menu-content li:last-of-type a {
   border-radius: 0 0 3px 3px;
 } 
-.burger-menu_nav-menu-content li a {
+.burger-menu_nav-menu-content li:not(:last-of-type) a {
   border-bottom: 1px solid #d0d9dd;
   /* position: relative; */
   display: flex;
@@ -6346,13 +6346,18 @@ html[data-theme="Black"] #back-to-top-button:active {
 .burger-menu_nav-menu-content li .burger-menu_nav-more span::after {
   position: absolute;
   content: '';
-  height: 12px;
+  /* height: 12px;
   width: 12px;
   border-top: 1.875px solid #4e79ad;
-  border-right: 1.875px solid #4e79ad;
+  border-right: 1.875px solid #4e79ad; */
+  height: 8px;
+  width: 8px;
+  border-top: 2px solid #1f73cc;
+  border-right: 2px solid #1f73cc;
   transform: rotate(45deg);
-  margin-top: 1.5px;
-  margin-left: 5px;
+  /* margin-top: 1.5px; */
+  margin-top: 3px;
+  margin-left: 10px;
 }
 .burger-menu_nav-menu-content li .burger-menu_nav-more span {
   color: black;
@@ -6381,7 +6386,7 @@ html[data-theme="Black"] #back-to-top-button:active {
   padding: 6px;
   justify-content: center;
   display: flex;
-  color: #3b85ff;
+  color: #1f73cc;
 }
 .burger-menu__socials-twitter {
 }
@@ -6392,7 +6397,7 @@ html[data-theme="Black"] #back-to-top-button:active {
   padding: 6px;
   justify-content: center;
   display: flex;
-  color: #3b85ff;
+  color: #1f73cc;
 }
 .burger-menu__socials-instagram {
 }
@@ -6403,7 +6408,7 @@ html[data-theme="Black"] #back-to-top-button:active {
   padding: 6px;
   justify-content: center;
   display: flex;
-  color: #3b85ff;
+  color: #1f73cc;
 }
 .burger-menu__socials-telegram {
 }
@@ -6412,7 +6417,7 @@ html[data-theme="Black"] #back-to-top-button:active {
   font-size: 39px;
   padding: 6px;
   justify-content: center;
-  color: #3b85ff;
+  color: #1f73cc;
   margin-left: -2px;
   margin-top: -1px;
   content: "\f2c6";
@@ -6429,6 +6434,6 @@ html[data-theme="Black"] #back-to-top-button:active {
   padding: 6px;
   justify-content: center;
   display: flex;
-  color: #3b85ff;
+  color: #1f73cc;
 }
 
