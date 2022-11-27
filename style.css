@@ -6313,23 +6313,32 @@ html[data-theme="Black"] #back-to-top-button:active {
   flex-direction: column;
   padding: 0 15px;
   background-color: #e7f3fa;
-  border-radius: 3px;
+  /* border-radius: 3px; */
   margin-top: 145px;
 }
-.burger-menu_nav-menu a {
+.burger-menu_nav-menu a:not(.burger-menu__tabs) {
   display: flex;
-  padding: 12.3px 35px 12.3px 94px;
+  /* padding: 12.3px 35px 12.3px 35px; */
+  padding: 11.9px 35px 11.9px 35px;
   /* border: 1px solid black; */
-  background-color: #fff;
+  /* background-color: #fff; */
 }
 .burger-menu_nav-menu-content {
   box-shadow: 0 1px 2px rgba(0,0,0,.5) inset, 0 -1px 0 rgba(0,0,0,.2) inset;
   padding: 1.2px 1px;
   border-radius: 3px;
+  display: flex;
+  flex-direction: column-reverse;
 }
-.burger-menu_nav-menu-content li:first-of-type a {
+/* .burger-menu_nav-menu-tabs {
   border-radius: 3px 3px 0 0;
-} 
+}  */
+.burger-menu__tab1 {
+  border-radius: 3px 0px 0 0
+}
+.burger-menu__tab2 {
+  border-radius: 0px 3px 0 0
+}
 .burger-menu_nav-menu-content li:last-of-type a {
   border-radius: 0 0 3px 3px;
 } 
@@ -6437,3 +6446,65 @@ html[data-theme="Black"] #back-to-top-button:active {
   color: #1f73cc;
 }
 
+
+
+
+.burger-menu_nav-menu-tabs {
+  display: flex;
+  /* background-color: #fff; */
+}
+.burger-menu_nav-menu-tabs a {
+  width: 50%;
+  justify-content: center;
+  padding: 15px 0px !important;
+  display: flex;
+  border-bottom: 1px solid #d0d9dd;
+}
+.burger-menu_nav-menu-tabs a:first-of-type {
+  border-right: 1px solid #d0d9dd;
+}
+/* .burger-menu_nav-menu-tabs a:last-of-type {
+  background-color: #d0d9dd;
+} */
+.burger-menu__tab {
+
+}
+
+.burger-menu_nav-menu-list:not(:target),
+:target ~ .burger-menu_nav-menu-list__default {
+  display: none;
+  background-color: #d0d9dd;
+}
+.burger-menu_nav-menu-list:target,
+.burger-menu_nav-menu-list__default {
+  display: block;
+  background-color: #fff;
+}
+.burger-menu_nav-menu-list:target,
+.burger-menu_nav-menu-list__default {
+  background-color: #d0d9dd;
+}
+.burger-menu_nav-menu-list:target,
+.burger-menu_nav-menu-list__default {
+  background-color: #fff;
+}
+
+.burger-menu_nav-menu-list {
+  height: 399.2px;
+  background-color: #fff;
+}
+.burger-menu__tab2 {
+  background-color: #d0d9dd !important;
+}
+.burger-menu_nav-menu-content > .burger-menu_nav-menu-list:target ~ .burger-menu_nav-menu-tabs .burger-menu__tab1 {
+  background-color: #d0d9dd !important;
+}
+.burger-menu_nav-menu-content > .burger-menu_nav-menu-list:target ~ .burger-menu_nav-menu-tabs .burger-menu__tab2 {
+  background-color: #fff !important;
+}
+.burger-menu_nav-menu-content > .burger-menu_nav-menu-list__default:target ~ .burger-menu_nav-menu-tabs .burger-menu__tab2 {
+  background-color: #d0d9dd !important;
+}
+.burger-menu__tab1 {
+  background-color: #fff;
+}
