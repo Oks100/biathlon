@@ -5627,7 +5627,8 @@ html[data-theme="summer"] .footer__warning p, html[data-theme="summer"] .footer_
   color: #e7ffe6;
 }
 html[data-theme="summer"] .select__list2, html[data-theme="summer"] .popular-block__search-form input, html[data-theme="summer"] .comment-block .comment-block__rumor, html[data-theme="summer"] .select__list, html[data-theme="summer"] .dropdown__box, html[data-theme="summer"] .dropdown-content, html[data-theme="summer"] .tippy-content, html[data-theme="summer"] .timeline__item, html[data-theme="summer"] .timeline__body-important-news, html[data-theme="summer"] .vertical-menu-block__body .vertical-menu-block__list li, html[data-theme='Black'] .comment-block .comment-block__rumor, html[data-theme='Black'] .popular-block__search-form input {
-  background-color: #fffcf4;
+  /* background-color: #fffcf4; */
+  background-color: #fffdf8;
 }
 html[data-theme="summer"] .tippy-arrow {
   color: #fffcf4;
