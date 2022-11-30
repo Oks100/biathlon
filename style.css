@@ -6540,6 +6540,7 @@ html[data-theme="Black"] #back-to-top-button:active {
 
 .list-center {
   width: 106px;
+  white-space: nowrap;
 }
 .list-center2 {
   width: 101px;
