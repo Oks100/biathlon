@@ -1307,13 +1307,27 @@ btn.on('click', function(e) {
 });
 /* Кнопка наверх */
 
-/* Костыль к бургер кнопке -_-*/
+
+/* Костыль к бургер кнопке*/
 $(document).ready(function(){
 	$('.burger-menu_button').click(function () {
 		$('.body').toggleClass('overflow');
 		});
 	});
 /* Костыль к бургер кнопке*/
+
+/* Табы*/
+$('.burger-menu__tab').click(function() {
+  var id = $(this).attr('data-tab'),
+      content = $('.burger-menu_nav-menu-list2[data-tab="'+ id +'"]');
+  
+  $('.burger-menu__tab.active').removeClass('active');
+  $(this).addClass('active'); // 2
+  
+  $('.burger-menu_nav-menu-list2.active').removeClass('active');
+  content.addClass('active');
+});
+/* Табы*/
 
 /* Бургер кнопка */
 function burgerMenu(selector) {
@@ -1344,8 +1358,3 @@ function burgerMenu(selector) {
 
 burgerMenu('.burger-menu');
 /* Бургер кнопка */
-
-
-
-
-
