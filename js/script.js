@@ -1341,7 +1341,7 @@ function burgerMenu(selector) {
     toggleMenu();
   });
   
-  // links.on('click', () => toggleMenu());
+  links.on('click', () => toggleMenu());
   overlay.on('click', () => toggleMenu());
   
 
