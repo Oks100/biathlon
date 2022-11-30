@@ -6372,6 +6372,10 @@ html[data-theme="Black"] #back-to-top-button:active {
 .burger-menu_nav-menu-title {
   /* justify-content: center; */
   background-color: #eff4f7;
+  border-bottom: 1px solid #d0d9dd;
+  display: flex;
+  padding: 11.9px 0;
+  justify-content: center;
 }
 .burger-menu_nav-menu-list2 {
   background-color: #fff;
