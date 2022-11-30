@@ -1641,15 +1641,15 @@ body {
     line-height: 33px;
     font-size: 1em;
   }
-  .dropdown__box ul li a[href*="UA"]::before {
+  .dropdown__box ul li a[href*="UA"]::before, .burger-menu_nav-menu-list li a[href*="UA"] .list-center2::before {
     content: url('//www.biathlon.com.ua/uploads/0/53.gif');
     margin-right: 5px;
   }
-  .dropdown__box ul li a[href*="EN"]::before {
+  .dropdown__box ul li a[href*="EN"]::before, .burger-menu_nav-menu-list li a[href*="EN"] .list-center2::before {
     content: url('//www.biathlon.com.ua/uploads/0/61.gif');
     margin-right: 5px;
   }
-  .dropdown__box ul li a[href*="RU"]::before {
+  .dropdown__box ul li a[href*="RU"]::before, .burger-menu_nav-menu-list li a[href*="RU"] .list-center2::before {
     content: url('img/nullflag.png');
     margin-right: 5px;
   }
@@ -6318,17 +6318,15 @@ html[data-theme="Black"] #back-to-top-button:active {
 }
 .burger-menu_nav-menu a:not(.burger-menu__tabs) {
   display: flex;
-  /* padding: 12.3px 35px 12.3px 35px; */
-  padding: 11.9px 35px 11.9px 35px;
-  /* border: 1px solid black; */
-  /* background-color: #fff; */
+  /* padding: 11.9px 35px 11.9px 35px; */
+  padding: 11.9px 0;
 }
 .burger-menu_nav-menu-content {
   box-shadow: 0 1px 2px rgba(0,0,0,.5) inset, 0 -1px 0 rgba(0,0,0,.2) inset;
-  padding: 1.2px 1px;
+  padding: 1.2px 0.9px;
   border-radius: 3px;
   display: flex;
-  flex-direction: column-reverse;
+  flex-direction: column;
 }
 /* .burger-menu_nav-menu-tabs {
   border-radius: 3px 3px 0 0;
@@ -6339,20 +6337,49 @@ html[data-theme="Black"] #back-to-top-button:active {
 .burger-menu__tab2 {
   border-radius: 0px 3px 0 0
 }
+/* .burger-menu_nav-menu-list, .burger-menu_nav-menu-list__default {
+  display: none;
+}
+.burger-menu_nav-menu-list__default.active, .burger-menu_nav-menu-list.active {
+  display: block;
+} */
+.burger-menu_nav-menu-list2 {
+  display: none;
+}
+
+.burger-menu_nav-menu-list2.active {
+  display: block;
+}
 .burger-menu_nav-menu-content li:last-of-type a {
   border-radius: 0 0 3px 3px;
 } 
-.burger-menu_nav-menu-content li:not(:last-of-type) a {
+/* .burger-menu_nav-menu-list__default li:not(:last-of-type) a {
   border-bottom: 1px solid #d0d9dd;
-  /* position: relative; */
   display: flex;
   align-items: center;
+} */
+.burger-menu_nav-menu-list li a {
+  position: relative;
 }
-.burger-menu_nav-menu-content li .burger-menu_nav-more {
+.burger-menu_nav-menu-list li a, .burger-menu_nav-menu-list__default li a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.burger-menu_nav-menu-list li:not(:last-of-type) a, .burger-menu_nav-menu-list__default li:not(:last-of-type) a {
+  border-bottom: 1px solid #d0d9dd;
+}
+.burger-menu_nav-menu-title {
+  /* justify-content: center; */
+  background-color: #eff4f7;
+}
+.burger-menu_nav-menu-list2 {
+  background-color: #fff;
+}
+/* .burger-menu_nav-menu-content li .burger-menu_nav-more {
   justify-content: space-between;
-}
-
-.burger-menu_nav-menu-content li .burger-menu_nav-more span::after {
+} */
+.burger-menu_nav-menu-content li .burger-menu_nav-more .list-number::after {
   position: absolute;
   content: '';
   /* height: 12px;
@@ -6365,11 +6392,13 @@ html[data-theme="Black"] #back-to-top-button:active {
   border-right: 2px solid #1f73cc;
   transform: rotate(45deg);
   /* margin-top: 1.5px; */
-  margin-top: 3px;
+  margin-top: 4px;
   margin-left: 10px;
 }
-.burger-menu_nav-menu-content li .burger-menu_nav-more span {
+.burger-menu_nav-menu-content li .burger-menu_nav-more .list-number {
   color: black;
+  position: absolute;
+  right: 55px;
 }
 
 .burger-menu__socials {
@@ -6470,7 +6499,7 @@ html[data-theme="Black"] #back-to-top-button:active {
 
 }
 
-.burger-menu_nav-menu-list:not(:target),
+/* .burger-menu_nav-menu-list:not(:target),
 :target ~ .burger-menu_nav-menu-list__default {
   display: none;
   background-color: #d0d9dd;
@@ -6487,16 +6516,16 @@ html[data-theme="Black"] #back-to-top-button:active {
 .burger-menu_nav-menu-list:target,
 .burger-menu_nav-menu-list__default {
   background-color: #fff;
-}
+} */
 
 .burger-menu_nav-menu-list {
-  height: 399.2px;
+  /* height: 399.2px; */
   background-color: #fff;
 }
-.burger-menu__tab2 {
-  background-color: #d0d9dd !important;
+.burger-menu__tab {
+  background-color: #d0d9dd;
 }
-.burger-menu_nav-menu-content > .burger-menu_nav-menu-list:target ~ .burger-menu_nav-menu-tabs .burger-menu__tab1 {
+/* .burger-menu_nav-menu-content > .burger-menu_nav-menu-list:target ~ .burger-menu_nav-menu-tabs .burger-menu__tab1 {
   background-color: #d0d9dd !important;
 }
 .burger-menu_nav-menu-content > .burger-menu_nav-menu-list:target ~ .burger-menu_nav-menu-tabs .burger-menu__tab2 {
@@ -6504,7 +6533,17 @@ html[data-theme="Black"] #back-to-top-button:active {
 }
 .burger-menu_nav-menu-content > .burger-menu_nav-menu-list__default:target ~ .burger-menu_nav-menu-tabs .burger-menu__tab2 {
   background-color: #d0d9dd !important;
+} */
+.burger-menu__tab.active {
+  background-color: #fff !important;
 }
-.burger-menu__tab1 {
-  background-color: #fff;
+
+.list-center {
+  width: 106px;
+}
+.list-center2 {
+  width: 101px;
+}
+.list-center3 {
+  width: 55px;
 }
