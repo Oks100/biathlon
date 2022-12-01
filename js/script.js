@@ -1309,11 +1309,17 @@ btn.on('click', function(e) {
 
 
 /* Костыль к бургер кнопке*/
-$(document).ready(function(){
-	$('.burger-menu_button').click(function () {
-		$('.body').toggleClass('overflow');
-		});
-	});
+// $(document).ready(function(){
+// 	$('.burger-menu_button').click(function () {
+// 		$('.body').toggleClass('overflow');
+// 		});
+// 	});
+
+//   $(document).ready(function(){
+//     $('.burger-menu_link').click(function () {
+//       $('.body').toggleClass('overflow');
+//       });
+//     });
 /* Костыль к бургер кнопке*/
 
 /* Табы*/
@@ -1342,7 +1348,7 @@ function burgerMenu(selector) {
   });
   
   links.on('click', () => toggleMenu());
-  overlay.on('click', () => toggleMenu());
+  // overlay.on('click', () => toggleMenu());
   
 
   function toggleMenu(){
@@ -1354,6 +1360,17 @@ function burgerMenu(selector) {
       $('body').css('overlow', 'visible');
     }
   }
+  $(document).ready(function(){
+    $('.burger-menu_button').click(function () {
+      $('.body').toggleClass('overflow');
+      });
+    });
+  
+    $(document).ready(function(){
+      $('.burger-menu_link').click(function () {
+        $('.body').toggleClass('overflow');
+        });
+      });
 }
 
 burgerMenu('.burger-menu');
