@@ -5631,7 +5631,8 @@ html[data-theme="summer"] .select__list2, html[data-theme="summer"] .popular-blo
   background-color: #fffdf8;
 }
 html[data-theme="summer"] .tippy-arrow {
-  color: #fffcf4;
+  /* color: #fffcf4; */
+  color: #fffdf8;
 }
 html[data-theme="summer"] .timeline__comments:hover {
   background-color: #fff1d4;
@@ -5656,7 +5657,8 @@ html[data-theme="summer"] .select__head2::before, html[data-theme="summer"] .sel
   border-color: #bfbbb2;
 } */
 html[data-theme='summer'] .twitter-block__body {
-  background-color: #fffcf4 !important;
+  /* background-color: #fffcf4 !important; */
+  background-color: #fffdf8 !important;
 }
 
 
@@ -6300,7 +6302,7 @@ html[data-theme="Black"] #back-to-top-button:active {
   margin-left: 15px;
 }
 .burger-menu__content a {
-  padding: 12.3px 10px 12.3px 0;
+  padding: 12.3px 5px 12.3px 5px;
 }
 .burger-menu__profile-footer {
 }
@@ -6553,4 +6555,40 @@ html[data-theme="Black"] #back-to-top-button:active {
 }
 .list-center3 {
   width: 55px;
+}
+.burger-menu_link[data-set-theme="winter"]::before {
+  background-image: url(img/Winter-theme.png);
+  background-size: 22px 22px;
+  width: 22px;
+  height: 22px;
+  display: block;
+  content: "";
+  margin-right: 5px;
+}
+.burger-menu_link[data-set-theme="dark"]::before {
+  background-image: url(img/Dark-theme.png);
+  background-size: 22px 22px;
+  width: 22px;
+  height: 22px;
+  display: block;
+  content: "";
+  margin-right: 5px;
+}
+.burger-menu_link[data-set-theme="summer"]::before {
+  background-image: url(img/Summer-theme.png);
+  background-size: 22px 22px;
+  width: 22px;
+  height: 22px;
+  display: block;
+  content: "";
+  margin-right: 5px;
+}
+.burger-menu_link[data-set-theme="Black"]::before {
+  background-image: url(img/Black-theme.png);
+  background-size: 22px 22px;
+  width: 22px;
+  height: 22px;
+  display: block;
+  content: "";
+  margin-right: 5px;
 }
