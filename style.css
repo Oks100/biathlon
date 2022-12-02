@@ -6603,7 +6603,7 @@ html[data-theme="Black"] #back-to-top-button:active {
   left: 0;
   bottom: 0;
   right: 0;
-  background-color: rgba(0, 0, 0, 0.35);
+  background-color: rgba(0, 0, 0, 0.25);
   opacity: 0;
   transition: all 0.4s ease;
   z-index: -1;
