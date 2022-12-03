@@ -6402,7 +6402,7 @@ html[data-theme="Black"] #back-to-top-button:active {
   border-right: 2px solid #1f73cc;
   transform: rotate(45deg);
   /* margin-top: 1.5px; */
-  margin-top: 4px;
+  margin-top: 3px;
   margin-left: 10px;
 }
 .burger-menu_nav-menu-content li .burger-menu_nav-more .list-number {
@@ -6668,9 +6668,8 @@ html[data-theme="Black"] #back-to-top-button:active {
 }
 
 .burger-menu-back-tab::after {
-  position: absolute;
+  /* position: absolute;
   content: '';
-  /* right: 35px; */
   left: 35px;
   height: 10px;
   width: 10px;
@@ -6678,8 +6677,44 @@ html[data-theme="Black"] #back-to-top-button:active {
   border-right: 2px solid #1f73cc;
   transform: rotate(225deg);
   margin-top: 4px;
-  margin-left: 10px;
+  margin-left: 10px; */
 }
+
+.burger-menu-back-tab::before, .burger-menu-back-tab::after {
+  position: absolute;
+  content: "";
+  height: 1.6px;
+  width: 15px;
+  right: 30px;
+  background-color: #1f73cc;
+}
+.burger-menu-back-tab::before {
+  /* position: absolute;
+  content: '';
+  left: 35px;
+  height: 15px;
+  width: 15px;
+  border-top: 2px solid #1f73cc;
+  transform: rotate(225deg); */
+  transform: rotate(45deg);
+}
+.burger-menu-back-tab::after {
+  /* position: absolute;
+  content: '';
+  left: 25px;
+  height: 15px;
+  width: 15px;
+  border-top: 2px solid #1f73cc;
+  transform: rotate(135deg); */
+  transform: rotate(-45deg);
+}
+/* div {cursor: pointer; position: absolute; top: 20px; left: 10px;}
+div:before, div:after {content: ""; position: absolute; width: 24px; height: 4px; background: gray;}
+div:before {transform: rotate(45deg);}
+div:after {transform: rotate(-45deg);} */
+
+
+
 
 .burger-menu__new-slide_list {
   overflow-x: scroll;
