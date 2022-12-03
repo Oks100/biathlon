@@ -6356,9 +6356,9 @@ html[data-theme="Black"] #back-to-top-button:active {
 .burger-menu_nav-menu-list2.active {
   display: block;
 }
-.burger-menu_nav-menu-content li:last-of-type a {
+/* .burger-menu_nav-menu-content li:last-of-type a {
   border-radius: 0 0 3px 3px;
-} 
+}  */
 /* .burger-menu_nav-menu-list__default li:not(:last-of-type) a {
   border-bottom: 1px solid #d0d9dd;
   display: flex;
@@ -6374,6 +6374,9 @@ html[data-theme="Black"] #back-to-top-button:active {
 }
 .burger-menu_nav-menu-list li:not(:last-of-type) a, .burger-menu_nav-menu-list__default li:not(:last-of-type) a {
   border-bottom: 1px solid #d0d9dd;
+}
+.burger-menu__new-slide.slide3 .burger-menu__new-slide_list li a, .burger-menu__new-slide.slide4 .burger-menu__new-slide_list li a {
+  border-bottom: 1px solid #d0d9dd !important;
 }
 .burger-menu_nav-menu-title {
   /* justify-content: center; */
@@ -6563,12 +6566,12 @@ html[data-theme="Black"] #back-to-top-button:active {
   transition: all 0.4s ease;
   z-index: -1;
 }
-.burger-menu_nav-menu-content.new-slide .burger-menu__layer-background, .burger-menu_nav-menu-content.new-slide2 .burger-menu__layer-background {
+.burger-menu_nav-menu-content.new-slide .burger-menu__layer-background, .burger-menu_nav-menu-content.new-slide2 .burger-menu__layer-background, .burger-menu_nav-menu-content.new-slide3 .burger-menu__layer-background, .burger-menu_nav-menu-content.new-slide4 .burger-menu__layer-background {
   opacity: 1;
   z-index: 1;
 }
 
-.burger-menu_nav-menu-content.new-slide .burger-menu__new-slide.slide1, .burger-menu_nav-menu-content.new-slide2 .burger-menu__new-slide.slide2 {
+.burger-menu_nav-menu-content.new-slide .burger-menu__new-slide.slide1, .burger-menu_nav-menu-content.new-slide2 .burger-menu__new-slide.slide2, .burger-menu_nav-menu-content.new-slide3 .burger-menu__new-slide.slide3, .burger-menu_nav-menu-content.new-slide4 .burger-menu__new-slide.slide4 {
   transform: translateX(15%);
 }
 .burger-menu__new-slide {
@@ -6629,6 +6632,12 @@ html[data-theme="Black"] #back-to-top-button:active {
 }
 .burger-menu__new-slide.slide2 .burger-menu__new-slide_list span {
   width: 207px;
+}
+.burger-menu__new-slide.slide3 .burger-menu__new-slide_list span {
+  width: 172px;
+}
+.burger-menu__new-slide.slide4 .burger-menu__new-slide_list span {
+  width: 94px;
 }
 .burger-menu__new-slide_list a {
   display: flex;
