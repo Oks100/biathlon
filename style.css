@@ -6323,7 +6323,8 @@ html[data-theme="Black"] #back-to-top-button:active {
 .burger-menu_nav-menu a:not(.burger-menu__tabs) {
   display: flex;
   /* padding: 11.9px 35px 11.9px 35px; */
-  padding: 11.9px 0;
+  /* padding: 11.9px 0; */
+  padding: 14.4px 0;
 }
 .burger-menu_nav-menu-content {
   box-shadow: 0 1px 2px rgba(0,0,0,.5) inset, 0 -1px 0 rgba(0,0,0,.2) inset;
@@ -6389,6 +6390,12 @@ html[data-theme="Black"] #back-to-top-button:active {
 .burger-menu_nav-menu-list2 {
   background-color: #fff;
 }
+.burger-menu_link {
+  padding: 9.6px 0 !important;
+}
+.burger-menu_nav-menu-list2 li:last-child .burger-menu_link {
+  padding: 10px 0 !important;
+}
 
 .burger-menu_nav-menu-content li .burger-menu_nav-more .list-number::after {
   position: absolute;
@@ -6415,8 +6422,17 @@ html[data-theme="Black"] #back-to-top-button:active {
   background-color: #e7f3fa;
   height: 100%;
   align-items: end;
-  gap: 10px;
+  gap: 0 10px;
+  flex-wrap: wrap;
 }
+.burger-menu__socials a {
+  width: 45px;
+  height: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .burger-menu__socials-facebook {
 }
 .burger-menu__socials-facebook a::before {
@@ -6424,8 +6440,8 @@ html[data-theme="Black"] #back-to-top-button:active {
   font-family: 'FontAwesome';
   font-size: 35px;
   padding: 6px;
-  justify-content: center;
-  display: flex;
+  /* justify-content: center;
+  display: flex; */
   color: #1f73cc;
 }
 .burger-menu__socials-twitter {
@@ -6435,8 +6451,8 @@ html[data-theme="Black"] #back-to-top-button:active {
   font-family: 'FontAwesome';
   font-size: 35px;
   padding: 6px;
-  justify-content: center;
-  display: flex;
+  /* justify-content: center;
+  display: flex; */
   color: #1f73cc;
 }
 .burger-menu__socials-instagram {
@@ -6446,17 +6462,17 @@ html[data-theme="Black"] #back-to-top-button:active {
   font-family: 'FontAwesome';
   font-size: 35px;
   padding: 6px;
-  justify-content: center;
-  display: flex;
+  /* justify-content: center;
+  display: flex; */
   color: #1f73cc;
 }
 .burger-menu__socials-telegram {
 }
 .burger-menu__socials-telegram a::before {
-  display: flex;
+  /* display: flex; */
   font-size: 39px;
   padding: 6px;
-  justify-content: center;
+  /* justify-content: center; */
   color: #1f73cc;
   margin-left: -2px;
   margin-top: -1px;
@@ -6472,8 +6488,8 @@ html[data-theme="Black"] #back-to-top-button:active {
   margin-top: -1px;
   margin-left: -1.5px;
   padding: 6px;
-  justify-content: center;
-  display: flex;
+  /* justify-content: center;
+  display: flex; */
   color: #1f73cc;
 }
 
@@ -6519,36 +6535,36 @@ html[data-theme="Black"] #back-to-top-button:active {
 }
 .burger-menu_link[data-set-theme="winter"]::before {
   background-image: url(img/Winter-theme.png);
-  background-size: 22px 22px;
-  width: 22px;
-  height: 22px;
+  background-size: 20px 20px;
+  width: 20px;
+  height: 20px;
   display: block;
   content: "";
   margin-right: 5px;
 }
 .burger-menu_link[data-set-theme="dark"]::before {
   background-image: url(img/Dark-theme.png);
-  background-size: 22px 22px;
-  width: 22px;
-  height: 22px;
+  background-size: 20px 20px;
+  width: 20px;
+  height: 20px;
   display: block;
   content: "";
   margin-right: 5px;
 }
 .burger-menu_link[data-set-theme="summer"]::before {
   background-image: url(img/Summer-theme.png);
-  background-size: 22px 22px;
-  width: 22px;
-  height: 22px;
+  background-size: 20px 20px;
+  width: 20px;
+  height: 20px;
   display: block;
   content: "";
   margin-right: 5px;
 }
 .burger-menu_link[data-set-theme="Black"]::before {
   background-image: url(img/Black-theme.png);
-  background-size: 22px 22px;
-  width: 22px;
-  height: 22px;
+  background-size: 20px 20px;
+  width: 20px;
+  height: 20px;
   display: block;
   content: "";
   margin-right: 5px;
@@ -6603,6 +6619,7 @@ html[data-theme="Black"] #back-to-top-button:active {
   left: 0;
   right: 0;
   top: 0;
+  cursor: pointer;
 }
 .burger-menu-back-tab {
   justify-content: center;
@@ -6613,7 +6630,7 @@ html[data-theme="Black"] #back-to-top-button:active {
 .burger-menu-back-tab::before, .burger-menu-back-tab::after {
   position: absolute;
   content: "";
-  height: 1.6px;
+  height: 2px;
   width: 15px;
   right: 30px;
   background-color: #1f73cc;
@@ -6646,4 +6663,8 @@ html[data-theme="Black"] #back-to-top-button:active {
 }
 .burger-menu__new-slide_list li:not(:last-of-type) a {
   border-bottom: 1px solid #d0d9dd;
+}
+#anchor {
+  position: absolute;
+  top: -500px;
 }
