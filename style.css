@@ -6387,17 +6387,18 @@ html[data-theme="Black"] #back-to-top-button:active {
   background-color: #eff4f7;
   border-bottom: 1px solid #d0d9dd;
   display: flex;
-  padding: 11.9px 0;
+  /* padding: 11.9px 0; */
+  padding: 14.4px 0;
   justify-content: center;
 }
 .burger-menu_nav-menu-list2 {
   background-color: #fff;
 }
 .burger-menu_link {
-  padding: 9.6px 0 !important;
+  padding: 12.1px 0 !important;
 }
 .burger-menu_nav-menu-list2 li:last-child .burger-menu_link {
-  padding: 10px 0 !important;
+  padding: 12.5px 0 !important;
 }
 
 .burger-menu_nav-menu-content li .burger-menu_nav-more .list-number::after {
@@ -6681,10 +6682,9 @@ html[data-theme="Black"] #back-to-top-button:active {
 }
 .burger-menu__new-slide_list li:last-child a {
   border: none;
-  /* padding: 14.8px 0; */
 }
 
-.burger-menu__new-slide.slide2 .burger-menu__new-slide_list li:last-child a {
+.burger-menu__new-slide.slide1 .burger-menu__new-slide_list li:last-child a, .burger-menu__new-slide.slide2 .burger-menu__new-slide_list li:last-child a {
   padding: 14.8px 0;
 }
 
