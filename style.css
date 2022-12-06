@@ -6357,10 +6357,14 @@ html[data-theme="Black"] #back-to-top-button:active {
 .burger-menu__content {
   display: flex;
   flex-direction: column;
-  margin-left: 15px;
+  margin-left: 10px;
 }
 .burger-menu__content a {
-  padding: 12.3px 5px 12.3px 5px;
+  padding: 12.3px 10px;
+  border-radius: 20px;
+}
+.burger-menu__content a:active {
+  background-color: #fff;
 }
 .burger-menu__profile-footer {
 }
@@ -6500,39 +6504,42 @@ html[data-theme="Black"] #back-to-top-button:active {
 .burger-menu__socials-facebook a::before {
   content: "\f39e";
   font-family: 'FontAwesome';
-  font-size: 35px;
+  font-size: 30px;
   padding: 6px;
   /* justify-content: center;
   display: flex; */
   color: #1f73cc;
+  text-shadow: 1px 1px 2px #b5b5b5;
 }
 .burger-menu__socials-twitter {
 }
 .burger-menu__socials-twitter a::before {
   content: "\f099";
   font-family: 'FontAwesome';
-  font-size: 35px;
+  font-size: 30px;
   padding: 6px;
   /* justify-content: center;
   display: flex; */
   color: #1f73cc;
+  text-shadow: 1px 1px 2px #b5b5b5;
 }
 .burger-menu__socials-instagram {
 }
 .burger-menu__socials-instagram a::before {
   content: "\f16d";
   font-family: 'FontAwesome';
-  font-size: 35px;
+  font-size: 30px;
   padding: 6px;
   /* justify-content: center;
   display: flex; */
   color: #1f73cc;
+  text-shadow: 1px 1px 2px #b5b5b5;
 }
 .burger-menu__socials-telegram {
 }
 .burger-menu__socials-telegram a::before {
   /* display: flex; */
-  font-size: 39px;
+  font-size: 34px;
   padding: 6px;
   /* justify-content: center; */
   color: #1f73cc;
@@ -6540,19 +6547,21 @@ html[data-theme="Black"] #back-to-top-button:active {
   margin-top: -1px;
   content: "\f2c6";
   font-family: 'Line Awesome Brands';
+  text-shadow: 1px 1px 2px #b5b5b5;
 }
 .burger-menu__socials-youtube {
 }
 .burger-menu__socials-youtube a:before {
   content: "\f167";
   font-family: 'FontAwesome';
-  font-size: 35px;
+  font-size: 30px;
   margin-top: -1px;
   margin-left: -1.5px;
   padding: 6px;
   /* justify-content: center;
   display: flex; */
   color: #1f73cc;
+  text-shadow: 1px 1px 2px #b5b5b5;
 }
 
 
