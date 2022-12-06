@@ -6699,7 +6699,7 @@ html[data-theme="Black"] #back-to-top-button:active {
   position: absolute;
   content: "";
   height: 2px;
-  width: 15px;
+  width: 13px;
   right: 30px;
   background-color: #1f73cc;
 }
