@@ -4769,7 +4769,19 @@ nav, aside {
       font-family: 'icomoon';
       font-size: 1.48em;
       color: #fff;
+      animation: bell 2s ease-in 0.5s infinite alternate;
     }
+  }
+  @keyframes bell {
+    0% {
+      transform: rotate(0.04turn);
+    }
+    100% {
+      transform: rotate(-0.04turn);
+    }
+  }
+
+
     .header__mobile-number-massage2 {
       position: absolute;
       top: 1px;
@@ -6162,11 +6174,6 @@ html[data-theme="Black"] #back-to-top-button:active {
   0% {
     background-color: #fff;
   }
-  
-  /*50% {
-    background-color: red;
-  }*/
-  
   100% {
     background-color: red;
   }
