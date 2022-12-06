@@ -4771,7 +4771,6 @@ nav, aside {
       color: #fff;
       /* animation: bell 2s ease-in 0.5s infinite alternate; */
     }
-  }
   /* @keyframes bell {
     0% {
       transform: rotate(0.04turn);
@@ -4842,7 +4841,7 @@ nav, aside {
     #back-to-top-button {
       display: none;
     }
-    
+  }
   @media screen and (max-width: 950px) {
     .footer__social-buttons {
       padding-right: 25%;
