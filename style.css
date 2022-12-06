@@ -6069,9 +6069,42 @@ html[data-theme="Black"] #back-to-top-button:active {
 .burger-menu-spin .burger-menu_lines::before {
   transition: top .1s .34s ease-in,opacity .1s ease-in;
 }
-.burger-menu_lines::before {
+.burger-menu:not(.burger-menu_active) .burger-menu_lines::before {
   top: -8px;
+  width: 30px;
+  height: 3.1px;
+  animation: color 3s ease-in 0.5s infinite alternate;
 }
+@keyframes color {
+  0% {
+    background-color: #fff;
+  }
+  
+  /*50% {
+    background-color: red;
+  }*/
+  
+  100% {
+    background-color: red;
+  }
+}
+/* .burger-menu .burger-notification {
+  position: absolute;
+  right: -2px;
+  top: 3px;
+  height: 9px;
+  width: 9px;
+  border-radius: 50%;
+  background-color: red;
+  transition: all 0.2s ease;
+  opacity: 1;
+  transition-delay: 0.4s;
+}
+.burger-menu.burger-menu_active .burger-notification {
+  opacity: 0;
+  transition-delay: 0s;
+} */
+
 .burger-menu_lines::after, .burger-menu_lines::before {
   display: block;
   content: '';
@@ -6691,24 +6724,5 @@ html[data-theme="Black"] #back-to-top-button:active {
 #anchor {
   position: absolute;
   top: -500px;
-}
-
-.burger-menu .burger-notification {
-  position: absolute;
-  right: -2px;
-  top: 3px;
-  height: 9px;
-  width: 9px;
-  /* border: 2px solid #265a92; */
-  border-radius: 50%;
-  background-color: red;
-  transition: all 0.2s ease;
-  opacity: 1;
-  transition-delay: 0.4s;
-}
-.burger-menu.burger-menu_active .burger-notification {
-  /* display: none; */
-  opacity: 0;
-  transition-delay: 0s;
 }
 
