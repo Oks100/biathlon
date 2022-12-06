@@ -1127,7 +1127,7 @@ body {
   font-family: 'icomoon';
   /* font-size: 3em; */
   font-size: 3.2em;
-  padding-right: 0.2em;
+  margin-right: 0.2em;
   color: rgba(47, 111, 200, 0.75);
 }
 .admin-item {
@@ -1674,9 +1674,19 @@ body {
     align-items: center;
   }
 
-  .dropdown__box ul li a[href*="RU"]::before, .burger-menu_nav-menu-list li a[href*="RU"] .list-center2::before {
+  .dropdown__box ul li a[href*="RU"]::before {
     content: url('img/nullflag.png');
     margin-right: 5px;
+  }
+  .burger-menu_nav-menu-list li a[href*="RU"] .list-center2::before {
+    content: '';
+    background-image: url(img/null.png);
+    margin-right: 5px;
+    background-size: 20px 20px;
+    width: 20px;
+    height: 20px;
+    display: block;
+    background-repeat: no-repeat;
   }
   .dropdown2.open .dropdown__button:focus, .dropdown2.open .dropdown__button:focus::after {
     color: #ffd700;
@@ -3376,11 +3386,11 @@ body {
   text-align: left;
 }
 .woman-user::before {
-  content: "\e904";
+  content: "\e025";
   font-family: 'icomoon';
   /* font-size: 3em; */
   font-size: 3.2em;
-  padding-right: 0.2em;
+  margin-right: 0.2em;
   color: rgba(47, 111, 200, 0.75);
 }
 .woman-user {
@@ -3446,11 +3456,11 @@ body {
 }
 
 .male-user::before {
-  content: "\e903";
+  content: "\e024";
   font-family: 'icomoon';
   /* font-size: 3em; */
   font-size: 3.2em;
-  padding-right: 0.2em;
+  margin-right: 0.2em;
   color: rgba(47, 111, 200, 0.75);
 }
 .comment-block .comment-block__body:nth-child(3), .comment-block .comment-block__body:nth-child(4) {
@@ -6278,7 +6288,7 @@ html[data-theme="Black"] #back-to-top-button:active {
   position: relative;
 }
 .burger-menu__profile-icon::before {
-  content: "\e903";
+  content: "\e024";
   font-family: 'icomoon';
   font-size: 5.195em;
   /* padding-right: 0.2em; */
