@@ -1657,6 +1657,7 @@ body {
     width: 20px;
     height: 20px;
     display: block;
+    background-repeat: no-repeat;
   }
   .burger-menu_nav-menu-list li a[href*="EN"] .list-center2::before {
     content: '';
@@ -1666,6 +1667,7 @@ body {
     width: 20px;
     height: 20px;
     display: block;
+    background-repeat: no-repeat;
   }
   .burger-menu_nav-menu-list li a .list-center2 {
     display: flex;
@@ -6588,7 +6590,7 @@ html[data-theme="Black"] #back-to-top-button:active {
   white-space: nowrap;
 }
 .list-center2 {
-  width: 105px;
+  width: 110px;
   display: flex;
 }
 .list-center3 {
