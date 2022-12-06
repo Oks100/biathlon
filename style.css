@@ -4769,17 +4769,17 @@ nav, aside {
       font-family: 'icomoon';
       font-size: 1.48em;
       color: #fff;
-      animation: bell 2s ease-in 0.5s infinite alternate;
+      /* animation: bell 2s ease-in 0.5s infinite alternate; */
     }
   }
-  @keyframes bell {
+  /* @keyframes bell {
     0% {
       transform: rotate(0.04turn);
     }
     100% {
       transform: rotate(-0.04turn);
     }
-  }
+  } */
 
 
     .header__mobile-number-massage2 {
@@ -4842,7 +4842,7 @@ nav, aside {
     #back-to-top-button {
       display: none;
     }
-  }
+    
   @media screen and (max-width: 950px) {
     .footer__social-buttons {
       padding-right: 25%;
