@@ -1641,14 +1641,37 @@ body {
     line-height: 33px;
     font-size: 1em;
   }
-  .dropdown__box ul li a[href*="UA"]::before, .burger-menu_nav-menu-list li a[href*="UA"] .list-center2::before {
+  .dropdown__box ul li a[href*="UA"]::before {
     content: url('//www.biathlon.com.ua/uploads/0/53.gif');
     margin-right: 5px;
   }
-  .dropdown__box ul li a[href*="EN"]::before, .burger-menu_nav-menu-list li a[href*="EN"] .list-center2::before {
+  .dropdown__box ul li a[href*="EN"]::before {
     content: url('//www.biathlon.com.ua/uploads/0/61.gif');
     margin-right: 5px;
   }
+  .burger-menu_nav-menu-list li a[href*="UA"] .list-center2::before {
+    content: '';
+    background-image: url(img/UA2.png);
+    margin-right: 5px;
+    background-size: 20px 20px;
+    width: 20px;
+    height: 20px;
+    display: block;
+  }
+  .burger-menu_nav-menu-list li a[href*="EN"] .list-center2::before {
+    content: '';
+    background-image: url(img/GB2.png);
+    margin-right: 5px;
+    background-size: 20px 20px;
+    width: 20px;
+    height: 20px;
+    display: block;
+  }
+  .burger-menu_nav-menu-list li a .list-center2 {
+    display: flex;
+    align-items: center;
+  }
+
   .dropdown__box ul li a[href*="RU"]::before, .burger-menu_nav-menu-list li a[href*="RU"] .list-center2::before {
     content: url('img/nullflag.png');
     margin-right: 5px;
@@ -6565,7 +6588,7 @@ html[data-theme="Black"] #back-to-top-button:active {
   white-space: nowrap;
 }
 .list-center2 {
-  width: 101px;
+  width: 103px;
   display: flex;
 }
 .list-center3 {
