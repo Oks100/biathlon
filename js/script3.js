@@ -1,3 +1,4 @@
+/*Навигация в бургер меню*/
 $(document).ready(function(){
     $('.more1').click(function () {
         $('.burger-menu_nav-menu-content').toggleClass('new-slide');
@@ -73,3 +74,21 @@ $(document).ready(function(){
         $('.burger-menu_nav-menu-content').removeClass('new-slide4');
             });
     });
+/*Навигация в бургер меню*/
+
+
+/*Кнопка сайдбара*/
+$(document).ready(function(){
+    $('.layer-toggle').click(function () {
+        $('.body').toggleClass('open-menu');
+        $('.body').toggleClass('overflow');
+            });
+    });
+
+$(document).ready(function(){
+    $('.layer-background').click(function () {
+        $('.body').removeClass('open-menu');
+        $('.body').removeClass('overflow');
+            });
+    });
+/*Кнопка сайдбара*/
