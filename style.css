@@ -6160,10 +6160,7 @@ html[data-theme="Black"] #back-to-top-button:active {
   transition-property: opacity,filter,-webkit-filter;
 }
 @media screen and (min-width: 992px) {
-  .desktop-hidden {
-    display: none;
-  }
-  .burger-menu {
+  .layer-toggle, .layer-background, .desktop-hidden, .burger-menu {
     display: none;
   }
   }
