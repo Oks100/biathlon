@@ -4776,7 +4776,7 @@ nav, aside {
       border-radius: 10px 0 0 10px;
       cursor: pointer;
       box-shadow: 0px 0px 18px 5px rgba(50, 50, 50, 0.15);
-      z-index: 5;
+      z-index: 3;
     }
     .body.open-menu .layer-toggle {
       right: 300px;
@@ -5615,14 +5615,17 @@ html[data-theme='summer'] .header__logo .socials .facebook, html[data-theme='sum
 }
 html[data-theme='summer'] .end-career::after, html[data-theme='summer'] .pause-career::after, html[data-theme='summer'] .continue-career::after, html[data-theme='summer'] .next-race-block__time span:first-child::before, html[data-theme='summer'] .next-translate-block__time span:first-child::before, html[data-theme='summer'] .blogs-block__item span::before, html[data-theme='summer'] .interview-block__gossip_date span:first-child::before, html[data-theme='summer'] .comment-block__data span:first-child::before, html[data-theme='summer'] .timeline__date span:first-child::before, html[data-theme='summer'] .next-race-block__time span + span::before, html[data-theme='summer'] .next-translate-block__time span + span::before, html[data-theme='summer'] .interview-block__gossip_date span + span::before, html[data-theme='summer'] .comment-block__data span + span::before, html[data-theme='summer'] .timeline__date span + span::before, html[data-theme='summer'] .woman-user::before, html[data-theme='summer'] .male-user::before, html[data-theme='summer'] .timeline__comments-refer::before, html[data-theme='summer'] table.stars-table tbody tr td:nth-child(3)::before, html[data-theme='summer'] .timeline__body-important-news .spoiler::before, html[data-theme='summer'] .admin::before, html[data-theme='summer'] .header__notification_all a::before, html[data-theme='summer'] .header__notifications_head span::before, html[data-theme='summer'] #tippy-42 ul li:first-of-type a::before, html[data-theme='summer'] #tippy-42 ul li:nth-child(2) a::before, html[data-theme='summer'] .important-news__link::before, html[data-theme='summer'] .notification__time span::before {
   /* color: rgb(77, 176, 75); */
-  color: rgb(117, 204, 115);
+  /* color: rgb(117, 204, 115); */
+  color: rgb(101, 192, 99);
 }
 html[data-theme='summer'] .timeline__body a[href*="http"]::before, html[data-theme='summer'] .timeline__body a[href*="gallery"]::before {
-  color: rgb(117, 204, 115) !important;
+  /* color: rgb(117, 204, 115) !important; */
+  color: rgb(101, 192, 99) !important;
 }
 html[data-theme='summer'] .vote-block__percent, html[data-theme='summer'] .important-news__news-spoiler .arrow::before, html[data-theme='summer'] .important-news__news-spoiler .arrow::after, html[data-theme='summer'] .dropbtn .arrow2::before, html[data-theme='summer'] .dropbtn .arrow2::after {
   /* background-color: rgb(77, 176, 75); */
-  background-color: rgb(117, 204, 115);
+  /* background-color: rgb(117, 204, 115); */
+  background-color: rgb(101, 192, 99);
 }
 html[data-theme='summer'] .comment-block__user-content .woman-user .logged, html[data-theme='summer'] .blogs-block .logged, html[data-theme='summer'] .header__notifications_item .logged {
   background-color: #ff891f;
@@ -5799,7 +5802,8 @@ html[data-theme="summer"] .select__head2:hover {
   background-color: #ffe8b5;
 }
 html[data-theme="summer"] .select__head2::before, html[data-theme="summer"] .select__head2::after {
-  background-color: rgb(117, 204, 115);
+  /* background-color: rgb(117, 204, 115); */
+  background-color: rgb(101, 192, 99);
 }
 /* html[data-theme="summer"] .table__one, html[data-theme="summer"] .table__two {
   border-color: #bfbbb2;
