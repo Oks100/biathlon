@@ -4753,7 +4753,7 @@ nav, aside {
       right: -300px;
       width: 300px;
       background-color: #eef3f7;
-      height: 100vh;
+      height: 100%;
       overflow: auto;
       z-index: 3;
       transition: all 0.4s ease;
