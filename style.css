@@ -4831,7 +4831,7 @@ nav, aside {
       transition: all 0.4s ease;
     }
     .body.open-menu .swipe-area {
-      right: 299.5px;
+      right: 299px;
       z-index: 2;
       top: -110px;
       z-index: 3;
