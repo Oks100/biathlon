@@ -4818,6 +4818,7 @@ nav, aside {
       border-top: 1.875px solid #4e79ad;
       border-right: 1.875px solid #4e79ad;
       transform: rotate(45deg);
+      box-shadow: none;
     }
     .swipe-area {
       position: absolute;
