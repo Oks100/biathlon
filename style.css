@@ -143,6 +143,7 @@ body {
     display: flex;
     flex-direction: column;
     /* gap: 5px; */
+    position: relative;
   }
   .timeline__body a[href*="http"] {
     position: relative;
@@ -1716,7 +1717,6 @@ body {
     border-radius: 3px;
     color: black;
   }
-
   nav {
     order: -1;
     border-radius: 3px;
@@ -1748,6 +1748,8 @@ body {
     background-color: #fff;
     border-radius: 3px;
     box-shadow: 0px 5px 24px rgba(32,60,87,0.11);
+    position: relative;
+    z-index: 1;
   }
   .important-news__item {
     overflow: hidden;
@@ -4753,7 +4755,7 @@ nav, aside {
       right: -300px;
       width: 300px;
       background-color: #eef3f7;
-      height: 100vh;
+      height: 100%;
       overflow: auto;
       z-index: 3;
       transition: all 0.4s ease;
@@ -4779,7 +4781,7 @@ nav, aside {
       z-index: 3;
     }
     .swipe-area {
-      position: fixed;
+      position: absolute;
       width: 30px;
       height: 100%;
       right: 0;
@@ -4789,12 +4791,16 @@ nav, aside {
     .body.open-menu .swipe-area {
       right: 300px;
       z-index: 2;
+      top: -110px;
+      z-index: 3;
     }
     .body.open-menu .layer-toggle {
       right: 300px;
     }
     .body .layer-background {
       display: none;
+      opacity: 0;
+      transition: all 1s ease;
     }
     .body.open-menu .layer-background {
       display: block;
@@ -4805,6 +4811,7 @@ nav, aside {
       right: 0;
       z-index: 2;
       background-color: rgba(0, 0, 0, 0.45);
+      opacity: 1;
     }
     .mobile-hidden {
       display: none;
