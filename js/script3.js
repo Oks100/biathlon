@@ -115,11 +115,31 @@ $(document).ready(function(){
 $(function() {
     $(".swipe-area").on("swipeleft", swipeHandler);
     $(".swipe-area").on("swiperight", swipeHandler);
-    $(".layer-background").on("swipeleft", swipeHandler);
-    $(".layer-background").on("swiperight", swipeHandler);
+    // $(".layer-background").on("swipeleft", swipeHandler);
+    // $(".layer-background").on("swiperight", swipeHandler);
+    // $(".layer-toggle").on("swipeleft", swipeHandler);
+    // $(".layer-toggle").on("swiperight", swipeHandler);
   
     function swipeHandler(event) {
     //   $(event.target).removeClass("right left");
+      event.type == 'swipeleft' ? $(".body").toggleClass("open-menu") : $(".body").removeClass("open-menu");
+    }
+  });
+
+  $(function() {
+    // $(".layer-background").on("swipeleft", swipeHandler);
+    $(".layer-background").on("swiperight", swipeHandler);
+  
+    function swipeHandler(event) {
+      event.type == 'swipeleft' ? $(".body").toggleClass("open-menu") : $(".body").removeClass("open-menu");
+    }
+  });
+
+  $(function() {
+    $(".layer-toggle").on("swipeleft", swipeHandler);
+    $(".layer-toggle").on("swiperight", swipeHandler);
+  
+    function swipeHandler(event) {
       event.type == 'swipeleft' ? $(".body").toggleClass("open-menu") : $(".body").removeClass("open-menu");
     }
   });
