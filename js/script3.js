@@ -81,14 +81,38 @@ $(document).ready(function(){
 $(document).ready(function(){
     $('.layer-toggle').click(function () {
         $('.body').toggleClass('open-menu');
-        $('.body').toggleClass('overflow');
+        // $('.body').toggleClass('overflow');
             });
-    });
+        });
 
 $(document).ready(function(){
     $('.layer-background').click(function () {
         $('.body').removeClass('open-menu');
-        $('.body').removeClass('overflow');
+        // $('.body').removeClass('overflow');
             });
     });
 /*Кнопка сайдбара*/
+
+/*Свайп сайдбара*/
+// $(function() {
+//     $(".swipe-area").on("swipeleft", swipeHandler);
+//     $(".swipe-area").on("swiperight", swipeHandler);
+//     $(".layer-toggle").on("swipeleft", swipeHandler);
+//     $(".layer-toggle").on("swiperight", swipeHandler);
+
+//     function swipeHandler(event) {
+//         $(".body").toggleClass("open-menu");
+//         $('.body').toggleClass('overflow');
+//     }
+//   });
+/*Свайп сайдбара*/
+
+$(function() {
+    $(".swipe-area").on("swipeleft", swipeHandler);
+    $(".swipe-area").on("swiperight", swipeHandler);
+  
+    function swipeHandler(event) {
+    //   $(event.target).removeClass("right left");
+      event.type == 'swipeleft' ? $(".body").toggleClass("open-menu") : $(".body").removeClass("open-menu");
+    }
+  });
