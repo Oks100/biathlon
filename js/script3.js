@@ -88,7 +88,12 @@ $(document).ready(function(){
 $(document).ready(function(){
     $('.layer-background').click(function () {
         $('.body').removeClass('open-menu');
-        // $('.body').removeClass('overflow');
+            });
+    });
+
+$(document).ready(function(){
+    $('.swipe-area').click(function () {
+        $('.body').removeClass('open-menu');
             });
     });
 /*Кнопка сайдбара*/
@@ -110,6 +115,8 @@ $(document).ready(function(){
 $(function() {
     $(".swipe-area").on("swipeleft", swipeHandler);
     $(".swipe-area").on("swiperight", swipeHandler);
+    $(".layer-background").on("swipeleft", swipeHandler);
+    $(".layer-background").on("swiperight", swipeHandler);
   
     function swipeHandler(event) {
     //   $(event.target).removeClass("right left");
