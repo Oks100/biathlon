@@ -4760,8 +4760,8 @@ nav, aside {
       height: 100%;
       overflow: auto;
       z-index: 8;
-      transition: all 0.4s ease;
-      box-shadow: 0px 0px 18px 5px rgba(50, 50, 50, 0.15);
+      transition: all 0.4s ease-in-out;
+      /* box-shadow: 0px 0px 18px 5px rgba(50, 50, 50, 0.15); */
     }
     .body.open-menu .right-sidebar {
       right: -0;
@@ -4777,7 +4777,7 @@ nav, aside {
       background-color: rgba(0, 0, 0, 0);
       top: calc(50% - 35px);
       right: 0;
-      transition: all 0.4s ease;
+      transition: all 0.4s ease-in-out;
       border-radius: 10px 0 0 10px;
       cursor: pointer;
       /* box-shadow: 0px 0px 18px 5px rgba(50, 50, 50, 0.15); */
@@ -4792,9 +4792,32 @@ nav, aside {
       display: flex;
       width: 15px;
       height: 60px;
-      background-color: red;
+      background-color: #b9e4ff;
       border-radius: 10px 0 0 10px;
-      box-shadow: 0px 0px 18px 5px rgba(50, 50, 50, 0.15);
+      box-shadow: 0px 0px 5px 1px rgba(50, 50, 50, 0.15);
+    }
+    .layer-toggle-visible::before {
+      content: '';
+      position: absolute;
+      top: 30px;
+      right: 0px;
+      width: 9.375px;
+      height: 9.375px;
+      border-top: 1.875px solid #4e79ad;
+      border-right: 1.875px solid #4e79ad;
+      transform: rotate(225deg);
+      transition: all 0.4s ease-in-out;
+    }
+    .body.open-menu .layer-toggle-visible::before {
+      content: '';
+      position: absolute;
+      top: 30px;
+      right: 5px;
+      width: 9.375px;
+      height: 9.375px;
+      border-top: 1.875px solid #4e79ad;
+      border-right: 1.875px solid #4e79ad;
+      transform: rotate(45deg);
     }
     .swipe-area {
       position: absolute;
@@ -6378,7 +6401,7 @@ html[data-theme="Black"] #back-to-top-button:active {
 .burger-menu_active .burger-menu_nav {
   top: 0;
   left: 0;
-  transition: all 0.4s ease;
+  transition: all 0.4s ease-in-out;
 }
 /* .burger-menu_link {
   padding: 18px 35px;
