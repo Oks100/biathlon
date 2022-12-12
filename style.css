@@ -4772,7 +4772,7 @@ nav, aside {
     .layer-toggle {
       position: fixed;
       /* width: 25px; */
-      width: 50px;
+      width: 25px;
       height: 70px;
       background-color: rgba(0, 0, 0, 0);
       top: calc(50% - 35px);
