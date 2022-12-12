@@ -143,3 +143,15 @@ $(function() {
       event.type == 'swipeleft' ? $(".body").toggleClass("open-menu") : $(".body").removeClass("open-menu");
     }
   });
+
+
+  $(function() {
+    $(".burger-menu__layer-background").on("swiperight", swipeHandler);
+  
+    function swipeHandler(event) {
+    $(".burger-menu_nav-menu-content").removeClass("new-slide");
+    $(".burger-menu_nav-menu-content").removeClass("new-slide2");
+    $(".burger-menu_nav-menu-content").removeClass("new-slide3");
+    $(".burger-menu_nav-menu-content").removeClass("new-slide4");
+    }
+  });
