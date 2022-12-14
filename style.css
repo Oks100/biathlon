@@ -4978,7 +4978,47 @@ nav, aside {
       padding-right: 35%;
     }
     #back-to-top-button {
-      display: none;
+      /* display: none; */
+      width: 25px;
+      height: 40px;
+      bottom: 30px;
+      right: -2px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: transparent;
+    }
+    #back-to-top-button:hover {
+      background-color: transparent;
+    }
+    #back-to-top-button div {
+      width: 2px;
+      height: 20px;
+      background-color: #4e79ad;
+      margin-left: 1.5px;
+    }
+    #back-to-top-button div::before {
+      content: "";
+      position: absolute;
+      top: 8px;
+      right: 8.5px;
+      width: 1.5px;
+      height: 10px;
+      background-color: #4e79ad;
+      transform: rotate(150deg);
+    }
+    #back-to-top-button div::after {
+      content: "";
+      position: absolute;
+      top: 8px;
+      left: 10.5px;
+      width: 1.5px;
+      height: 10px;
+      background-color: #4e79ad;
+      transform: rotate(-150deg);
+    }
+    #back-to-top-button::after {
+      content: "";
     }
   }
   @media screen and (max-width: 950px) {
