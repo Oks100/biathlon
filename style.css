@@ -4774,7 +4774,7 @@ nav, aside {
       width: 25px;
       height: 70px;
       background-color: rgba(0, 0, 0, 0);
-      top: calc(50% - 35px);
+      top: 50%;
       right: 0;
       transition: all 0.4s ease;
       border-radius: 10px 0 0 10px;
