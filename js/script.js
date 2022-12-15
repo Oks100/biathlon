@@ -1354,7 +1354,7 @@ if (typeof exports != "undefined") {
 var btn = $('#back-to-top-button');
 
 $(window).scroll(function() {
-  if ($(window).scrollTop() > 500) {
+  if ($(window).scrollTop() > 1000) {
     btn.addClass('show');
   } else {
     btn.removeClass('show');
