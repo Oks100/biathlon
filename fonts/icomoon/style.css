@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'icomoon';
-  src:  url('fonts/icomoon.eot?gh3mmo');
-  src:  url('fonts/icomoon.eot?gh3mmo#iefix') format('embedded-opentype'),
-    url('fonts/icomoon.ttf?gh3mmo') format('truetype'),
-    url('fonts/icomoon.woff?gh3mmo') format('woff'),
-    url('fonts/icomoon.svg?gh3mmo#icomoon') format('svg');
+  src:  url('fonts/icomoon.eot?dxcco5');
+  src:  url('fonts/icomoon.eot?dxcco5#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?dxcco5') format('truetype'),
+    url('fonts/icomoon.woff?dxcco5') format('woff'),
+    url('fonts/icomoon.svg?dxcco5#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -25,6 +25,9 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-Timetable2:before {
+  content: "\e026";
+}
 .icon-famale102:before {
   content: "\e025";
 }
@@ -126,6 +129,9 @@
 }
 .icon-user-female:before {
   content: "\e904";
+}
+.icon-Timetable11:before {
+  content: "\e028";
 }
 .icon-stop3:before {
   content: "\e011";
