@@ -596,8 +596,8 @@ body {
     left: -7px;
   }
   .header-menu .header-menu__list li:hover::before, .header-menu .header-menu__list li[aria-expanded="true"]::before {
-    width: 12px;
-    height: 12px;
+    width: 15px;
+    height: 15px;
     border-color: white;
     top: 0px;
     left: 0px;
