@@ -878,6 +878,7 @@ body {
   font-weight: 700;
   gap: 7px;
   z-index: 1;
+  font-size: 14px;
 }
 /* .timer__data-prev {
   width: 33px;
@@ -1378,6 +1379,14 @@ body {
 .notification__img {
   display: flex;
   align-items: center;
+  position: relative;
+}
+.notification__img.woman-user::after, .notification__img.male-user::after {
+  position: absolute;
+  content: url(img/answer4.png);
+  /* font-size: 3em; */
+  top: 5px;
+  right: 7px;
 }
 .notification__img:before {
   /* content: "\e904";
@@ -2552,6 +2561,9 @@ body {
   .slider-container3 .swiper-horizontal > .swiper-pagination-bullets, .slider-container3 .swiper-pagination-bullets.swiper-pagination-horizontal, .slider-container3 .swiper-pagination-custom, .swiper-pagination-fraction {
     bottom: -39.5px !important;
     }
+  .swiper-pagination {
+    z-index: 1 !important;
+  }
   .slider-container3 .swiper-pagination-bullet {
     width: 10px;
     height: 10px;
@@ -3428,8 +3440,9 @@ body {
   .slider-block .swiper-container .swiper-pagination-progressbar .swiper-pagination-progressbar-fill {
     background: #1f73cc !important;
   }
-  .slider-block .swiper-container .swiper-button-next, .swiper-button-prev {
+  .swiper-button-next, .swiper-button-prev {
     color: #1f73cc !important;
+    z-index: 1 !important;
   }
   /* .slider-block .swiper-container .swiper-button-next {
     color: #1f73cc !important;
@@ -5047,8 +5060,8 @@ nav, aside {
     /* article.timeline {
       margin: 0 5px;
     }*/
-    .header, footer.footer, .timeline__item {
-      border-radius: 0;
+    .header, footer.footer, .timeline__item, aside {
+      border-radius: 0 !important;
     }
     .right-sidebar {
       position: fixed;
@@ -5298,22 +5311,22 @@ nav, aside {
     #back-to-top-button div::before {
       content: "";
       position: absolute;
-      top: 18px;
+      top: 18.5px;
       right: 8.5px;
       width: 1.5px;
       height: 10px;
       background-color: gray;
-      transform: rotate(150deg);
+      transform: rotate(145deg);
     }
     #back-to-top-button div::after {
       content: "";
       position: absolute;
-      top: 18px;
-      left: 10.5px;
+      top: 18.5px;
+      left: 10px;
       width: 1.5px;
       height: 10px;
       background-color: gray;
-      transform: rotate(-150deg);
+      transform: rotate(-145deg);
     }
     #back-to-top-button::after {
       content: "";
@@ -5885,7 +5898,7 @@ html[data-theme='dark'] .header__logo a img {
   content:url(img/logo-dark.png);
 }
 html[data-theme='dark'] .footer__logo img {
-    content:url(img/logo-dark-test3.png);
+    content:url(img/logo-dark-test5.png);
 }
 html[data-theme='dark'] .interview-block__items {
   border-color: #4e5262;
@@ -6503,7 +6516,7 @@ html[data-theme="Black"] .header__logo a img {
   content: url(img/logo-black.png);
 }
 html[data-theme="Black"] .footer__logo img {
-  content: url(img/logo-black-test3.png);
+  content: url(img/logo-black-test5.png);
 }
 html[data-theme="Black"] .timeline__item, html[data-theme="Black"] .main-cup, html[data-theme="Black"] .timeline__body-important-news, html[data-theme="Black"] .sidebar-block3, html[data-theme="Black"] .sidebar-block {
   border: 1px solid #1a1b1c;
