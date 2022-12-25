@@ -7384,11 +7384,11 @@ html[data-theme="Black"] #back-to-top-button:active {
   background-color: white;
   position: fixed;
   bottom: 0;
-  transition: all .4s ease;
+  transition: all 1.4s ease;
   z-index: 10;
 }
 .mobile-notification-window {
-  transition: all .4s ease;
+  transition: all 1.4s ease;
   background-color: white;
   position: fixed;
   bottom: -100%;
