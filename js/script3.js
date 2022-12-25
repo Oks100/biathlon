@@ -157,3 +157,16 @@ $(function() {
     }
   });
 /*Закрытие сайдбара по свайпу*/
+
+
+$(document).ready(function(){
+    $('.header__mobile-link-massage2').click(function () {
+        $('.body').toggleClass('mobile-notification-active');
+        });
+    });
+
+$(document).ready(function(){
+    $('.mobile-notification__close').click(function () {
+        $('.body').removeClass('mobile-notification-active');
+        });
+    });
