@@ -6771,7 +6771,6 @@ html[data-theme="Black"] #back-to-top-button:active {
 }
 .burger-menu_active .burger-menu_nav {
   top: 0;
-  left: 0;
   transition: all 0.3s ease-in-out;
 }
 /* .burger-menu_link {
@@ -7388,6 +7387,8 @@ html[data-theme="Black"] #back-to-top-button:active {
   top: 0;
   transition: all 0.4s ease-in-out !important;
   z-index: 10;
+  height: 100%;
+  overflow: auto;
 }
 .mobile-notification-window {
   transition: all 0.4s ease-in-out !important;
