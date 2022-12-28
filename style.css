@@ -7424,6 +7424,8 @@ html[data-theme="Black"] #back-to-top-button:active {
   top: 0;
   left: 0;
   right: 0;
+  z-index: 1;
+  background-color: white;
 }
 .mobile-notification__head span {
   font-weight: 600;
@@ -7482,10 +7484,10 @@ html[data-theme="Black"] #back-to-top-button:active {
   cursor: pointer;
 }
 .mobile-notification__content-body {
-  height: calc(100vh - 92.9px);
-  /* height: 100vh; */
+  /*height: calc(100vh - 92.9px); */
+  height: 100vh;
   overflow: auto;
-  margin-top: 92.9px;
+  padding-top: 92.9px;
 }
 .mobile-notification__content {
 }
