@@ -2815,6 +2815,7 @@ body {
     flex-direction: column;
     gap: 7px;
     font-size: 0.95em;
+    position: relative;
   }
   .left-sidebar a, .right-sidebar a {
     color: #002b71;
@@ -7392,6 +7393,7 @@ html[data-theme="Black"] #back-to-top-button:active {
   z-index: 10;
   height: 100%;
   /* overflow: auto; */
+  overflow: hidden;
 }
 .mobile-notification-window {
   /* transition: all 0.4s ease-in-out !important; */
