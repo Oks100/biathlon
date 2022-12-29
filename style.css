@@ -1372,7 +1372,7 @@ body {
 .header__notifications_item.user-item:hover .logged {
   border-color: #d0ecff;
 }
-.tippy-content .header__notifications_item:nth-last-child(1), .mobile-notification__content-body .mobile-notification__item:nth-last-child(2) {
+.tippy-content .header__notifications_item:nth-last-child(1) {
   border-bottom: none;
 }
 /* .header__notifications_item:last-of-type {
@@ -6599,9 +6599,9 @@ html[data-theme="Black"] #back-to-top-button:hover {
 html[data-theme="Black"] #back-to-top-button:active {
   background-color: rgb(255, 255, 255, 0.20);
 }
-/* .important-news__news-spoiler.active .spoiler {
+.important-news__news-spoiler.active .spoiler {
   box-shadow: none;
-} */
+}
 
 
 
@@ -7388,7 +7388,7 @@ html[data-theme="Black"] #back-to-top-button:active {
   transition: all 0.4s ease-in-out !important;
   z-index: 10;
   height: 100%;
-  /* overflow: auto; */
+  overflow: auto;
 }
 .mobile-notification-window {
   transition: all 0.4s ease-in-out !important;
@@ -7420,17 +7420,10 @@ html[data-theme="Black"] #back-to-top-button:active {
   padding: 1.3em 15px 1.3em 15px;
   box-shadow: 0px 5px 8px 0px rgba(50, 50, 50, 0.15);
   position: relative;
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  z-index: 1;
-  background-color: white;
 }
 .mobile-notification__head span {
   font-weight: 600;
-  /* font-size: 15px; */
-  font-size: 16px;
+  font-size: 15px;
   font-family: tahoma;
   margin-left: 22px;
 }
@@ -7445,9 +7438,11 @@ html[data-theme="Black"] #back-to-top-button:active {
 }
 .mobile-notification__head-content {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   gap: 15px 25px;
   position: relative;
+  flex-wrap: wrap;
+  align-items: center;
   margin-right: 45px;
 }
 .mobile-notification__head-content a {
@@ -7485,10 +7480,9 @@ html[data-theme="Black"] #back-to-top-button:active {
   cursor: pointer;
 }
 .mobile-notification__content-body {
-  /*height: calc(100vh - 92.9px); */
+  /* height: calc(100vh - 92.9px); */
   height: 100vh;
   overflow: auto;
-  padding-top: 92.9px;
 }
 .mobile-notification__content {
 }
