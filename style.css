@@ -7363,7 +7363,6 @@ html[data-theme="Black"] #back-to-top-button:active {
   bottom: 0;
   left: 0; */
   /* z-index: -1; */
-  overflow: hidden;
 }
 .mobile-notification-window span {
   color: black;
