@@ -2068,9 +2068,6 @@ body {
     position: relative;
     z-index: 1;
   }
-  .important-news__news-spoiler:hover {
-    background-color: #e7f3fa;
-  }
   .timeline__body-important-news .spoiler::before {
     content: "\e901";
     font-family: 'icomoon';
@@ -5038,6 +5035,9 @@ nav, aside {
       min-height: 100vh;
       padding: 0;
     } */
+    .important-news__news-spoiler:hover {
+      background-color: #e7f3fa;
+    }
     .wrapper {
       min-height: 100vh;
       padding: 0;
