@@ -2068,6 +2068,9 @@ body {
     position: relative;
     z-index: 1;
   }
+  .important-news__news-spoiler:hover {
+    background-color: #e7f3fa;
+  }
   .timeline__body-important-news .spoiler::before {
     content: "\e901";
     font-family: 'icomoon';
@@ -2815,7 +2818,6 @@ body {
     flex-direction: column;
     gap: 7px;
     font-size: 0.95em;
-    position: relative;
   }
   .left-sidebar a, .right-sidebar a {
     color: #002b71;
@@ -5036,9 +5038,6 @@ nav, aside {
       min-height: 100vh;
       padding: 0;
     } */
-    .important-news__news-spoiler:hover {
-      background-color: #e7f3fa;
-    }
     .wrapper {
       min-height: 100vh;
       padding: 0;
@@ -7353,15 +7352,12 @@ html[data-theme="Black"] #back-to-top-button:active {
 .mobile-notification-window {
   /* opacity: 0; */
   transition: all 0.4s ease;
-  z-index: -1;
+  z-index: 1;
   background-color: white;
   position: fixed;
-  top: 100%;
-  height: 100%;
-  width: 100%;
-  /* right: 0;
+  right: 0;
   bottom: 0;
-  left: 0; */
+  left: 0;
   /* z-index: -1; */
 }
 .mobile-notification-window span {
@@ -7389,18 +7385,18 @@ html[data-theme="Black"] #back-to-top-button:active {
   background-color: white;
   position: fixed;
   top: 0;
-  /* transition: all 0.4s ease-in-out !important; */
+  transition: all 0.4s ease-in-out !important;
   z-index: 10;
   height: 100%;
   /* overflow: auto; */
 }
 .mobile-notification-window {
-  /* transition: all 0.4s ease-in-out !important; */
-  /* background-color: white;
+  transition: all 0.4s ease-in-out !important;
+  background-color: white;
   position: fixed;
   top: 100%;
   height: 100%;
-  width: 100%; */
+  width: 100%;
 }
 .mobile-notification-window span {
   color: black;
@@ -7428,7 +7424,7 @@ html[data-theme="Black"] #back-to-top-button:active {
   top: 0;
   left: 0;
   right: 0;
-  z-index: 11;
+  z-index: 1;
   background-color: white;
 }
 .mobile-notification__head span {
@@ -7489,11 +7485,10 @@ html[data-theme="Black"] #back-to-top-button:active {
   cursor: pointer;
 }
 .mobile-notification__content-body {
+  /*height: calc(100vh - 92.9px); */
   height: 100vh;
   overflow: auto;
   padding-top: 92.9px;
-  position: relative;
-  z-index: 10;
 }
 .mobile-notification__content {
 }
