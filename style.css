@@ -7351,13 +7351,16 @@ html[data-theme="Black"] #back-to-top-button:active {
 
 .mobile-notification-window {
   /* opacity: 0; */
-  transition: all 0.4s ease;
+  transition: all 0.4s ease-in-out;
   z-index: 1;
   background-color: white;
   position: fixed;
-  right: 0;
+  top: 100%;
+  height: 100%;
+  width: 100%;
+  /* right: 0;
   bottom: 0;
-  left: 0;
+  left: 0; */
   /* z-index: -1; */
 }
 .mobile-notification-window span {
@@ -7385,18 +7388,18 @@ html[data-theme="Black"] #back-to-top-button:active {
   background-color: white;
   position: fixed;
   top: 0;
-  transition: all 0.4s ease-in-out !important;
+  /* transition: all 0.4s ease-in-out !important; */
   z-index: 10;
   height: 100%;
   /* overflow: auto; */
 }
 .mobile-notification-window {
-  transition: all 0.4s ease-in-out !important;
-  background-color: white;
+  /* transition: all 0.4s ease-in-out !important; */
+  /* background-color: white;
   position: fixed;
   top: 100%;
   height: 100%;
-  width: 100%;
+  width: 100%; */
 }
 .mobile-notification-window span {
   color: black;
