@@ -7363,6 +7363,7 @@ html[data-theme="Black"] #back-to-top-button:active {
   bottom: 0;
   left: 0; */
   /* z-index: -1; */
+  overflow: hidden;
 }
 .mobile-notification-window span {
   color: black;
@@ -7393,6 +7394,7 @@ html[data-theme="Black"] #back-to-top-button:active {
   z-index: 10;
   height: 100vh;
   /* overflow: auto; */
+  overflow: hidden;
 }
 .mobile-notification-window {
   /* transition: all 0.4s ease-in-out !important; */
@@ -7494,6 +7496,7 @@ html[data-theme="Black"] #back-to-top-button:active {
   padding-top: 92.9px;
   position: relative;
   z-index: 10;
+  padding-bottom: 42.5px;
 }
 .mobile-notification__content {
 }
@@ -7578,6 +7581,10 @@ html[data-theme="Black"] #back-to-top-button:active {
 } */
 .mobile-notification__all {
   box-shadow: 0px -5px 8px 0px rgba(50, 50, 50, 0.15);
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: white;
 }
 .mobile-notification__more-button {
   color: black;
