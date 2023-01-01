@@ -7492,7 +7492,8 @@ html[data-theme="Black"] #back-to-top-button:active {
 }
 .mobile-notification__content-body {
   /* height: 100vh; */
-  height: calc(100vh - 94.4px);
+  /* height: calc(100vh - 94.4px); */
+  height: calc(100vh - 145px);
   overflow: auto;
   /* padding-top: 92.9px; */
   /* position: relative; */
