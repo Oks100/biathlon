@@ -7392,9 +7392,8 @@ html[data-theme="Black"] #back-to-top-button:active {
   top: 0;
   /* transition: all 0.4s ease-in-out !important; */
   z-index: 10;
-  height: 100vh;
+  /* height: 100vh; */
   /* overflow: auto; */
-  overflow: auto;
 }
 .mobile-notification-window {
   /* transition: all 0.4s ease-in-out !important; */
@@ -7493,7 +7492,8 @@ html[data-theme="Black"] #back-to-top-button:active {
 }
 .mobile-notification__content-body {
   /* height: 100vh; */
-  /* overflow: auto; */
+  height: calc(100vh - 94.4px);
+  overflow: auto;
   /* padding-top: 92.9px; */
   /* position: relative; */
   position: absolute;
