@@ -1372,8 +1372,8 @@ body {
 .header__notifications_item.user-item:hover {
   background-color: #d8ebf7;
 }
-.header__notifications_item.user-item .logged {
-  border-color: #daf0ff;
+.header__notifications_item.user-item .logged, .mobile-notification__item.user-item .mobile-notification__img .logged {
+  border-color: #daf0ff !important;
 }
 .header__notifications_item.user-item:hover .logged {
   border-color: #d0ecff;
