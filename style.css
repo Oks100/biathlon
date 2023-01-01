@@ -7394,6 +7394,8 @@ html[data-theme="Black"] #back-to-top-button:active {
   z-index: 10;
   /* height: 100vh; */
   /* overflow: auto; */
+  height: 100vh;
+  overflow: auto;
 }
 .mobile-notification-window {
   /* transition: all 0.4s ease-in-out !important; */
@@ -7424,9 +7426,8 @@ html[data-theme="Black"] #back-to-top-button:active {
   justify-content: space-between;
   padding: 1.3em 15px 1.3em 15px;
   box-shadow: 0px 5px 8px 0px rgba(50, 50, 50, 0.15);
-  /* position: relative; */
   /* position: absolute; */
-  position: absolute;
+  position: sticky;
   top: 0;
   left: 0;
   right: 0;
@@ -7492,9 +7493,8 @@ html[data-theme="Black"] #back-to-top-button:active {
 }
 .mobile-notification__content-body {
   /* height: 100vh; */
-  /* height: calc(100vh - 94.4px); */
-  height: calc(100vh - 145px);
-  overflow: auto;
+  /* height: calc(100vh - 94.4px);
+  overflow: auto; */
   /* padding-top: 92.9px; */
   /* position: relative; */
   position: absolute;
