@@ -5084,7 +5084,7 @@ nav, aside {
       height: 100%;
       overflow: auto;
       z-index: 9;
-      transition: all 0.4s ease;
+      transition: all 0.3s ease-in-out;
       /* box-shadow: 0px 0px 18px 5px rgba(50, 50, 50, 0.15); */
     }
     .body.open-menu .right-sidebar {
@@ -6874,21 +6874,35 @@ html[data-theme="Black"] #back-to-top-button:active {
   color: rgba(47, 111, 200, 0.75);
 }
 .burger-menu__profile-notification {
-  position: absolute;
+  /* position: absolute;
   width: 80px;
   height: 40px;
   left: 0;
   bottom: 0px;
-  /* background-color: red; */
   display: flex;
   flex-direction: row;
+  justify-content: center; */
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  bottom: 5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  right: 0;
+  border-radius: 50%;
+  background-color: white;
 }
 .burger-menu__profile-messange {
   display: flex;
-  width: 50%;
   justify-content: center;
-  align-items: center;
+  /* align-items: center; */
   position: relative;
+  height: 100%;
+  width: 100%;
+  padding-top: 6px;
+  border-radius: 50%;
+  box-shadow: 0px 0px 5px 2px rgba(50, 50, 50, 0.15);
 }
 .burger-menu__profile-messange::before {
   content: "\e914";
@@ -6897,7 +6911,7 @@ html[data-theme="Black"] #back-to-top-button:active {
   color: #1f73cc;
   /* text-shadow: #1f4d99 1px 0 10px; */
 }
-.burger-menu__profile-notice {
+/* .burger-menu__profile-notice {
   display: flex;
   width: 50%;
   justify-content: center;
@@ -6909,11 +6923,10 @@ html[data-theme="Black"] #back-to-top-button:active {
   font-size: 1.5em;
   margin-top: 3px;
   color: #1f73cc;
-  /* text-shadow: #1f4d99 1px 0 10px; */
-}
+} */
 .burger-menu__profile-messange span {
   position: absolute;
-  top: 7px;
+  top: 4.2px;
   right: 2px;
   display: flex;
   height: 15px;
@@ -6927,7 +6940,7 @@ html[data-theme="Black"] #back-to-top-button:active {
   font-family: "RobotoCondensed";
   color: #fff;
 }
-.burger-menu__profile-notice span {
+/* .burger-menu__profile-notice span {
   position: absolute;
   top: 7px;
   right: 5px;
@@ -6942,7 +6955,7 @@ html[data-theme="Black"] #back-to-top-button:active {
   font-weight: 700;
   font-family: "RobotoCondensed";
   color: #fff;
-}
+} */
 .burger-menu__content {
   display: flex;
   flex-direction: column;
