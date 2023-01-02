@@ -1863,6 +1863,7 @@ body {
     position: relative;
     display: flex;
     z-index: 100;
+    margin-right: 5px;
   }
   .dropdown__button{
     background-color: transparent;
@@ -5311,22 +5312,21 @@ nav, aside {
       align-items: center;
       justify-content: center;
       background-color: transparent;
+      padding-left: 1.5px;
     }
     #back-to-top-button:hover {
       background-color: transparent;
     }
-    #back-to-top-button div {
+    /* #back-to-top-button div {
       width: 2px;
       height: 20px;
       background-color: gray;
-      /* margin-left: 1.5px; */
       margin-left: 3px;
     }
     #back-to-top-button div::before {
       content: "";
       position: absolute;
       top: 18.5px;
-      /* right: 8.5px; */
       right: 7.5px;
       width: 1.5px;
       height: 10px;
@@ -5337,15 +5337,16 @@ nav, aside {
       content: "";
       position: absolute;
       top: 18.5px;
-      /* left: 10px; */
       left: 10.5px;
       width: 1.5px;
       height: 10px;
       background-color: gray;
       transform: rotate(-145deg);
-    }
+    } */
     #back-to-top-button::after {
-      content: "";
+      content: "\e033";
+      font-size: 1.3em;
+      color: grey;
     }
   }
   @media screen and (max-width: 950px) {
