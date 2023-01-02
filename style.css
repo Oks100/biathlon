@@ -5073,6 +5073,9 @@ nav, aside {
     /* article.timeline {
       margin: 0 5px;
     }*/
+    .header__logo .socials {
+      display: none;
+    }
     .header, footer.footer, .timeline__item, aside {
       border-radius: 0 !important;
     }
@@ -5510,9 +5513,6 @@ nav, aside {
   @media screen and (max-width: 450px) {
     .header__logo a img {
       /* width: 85%; */
-    }
-    .header__logo .socials {
-      display: none;
     }
     .header__logo a {
       width: auto;
@@ -7201,6 +7201,7 @@ html[data-theme="Black"] #back-to-top-button:active {
   border-bottom: 1px solid #d0d9dd;
   font-family: tahoma;
   text-transform: uppercase;
+  color: black;
 }
 .burger-menu_nav-menu-tabs a:first-of-type {
   border-right: 1px solid #d0d9dd;
