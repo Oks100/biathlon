@@ -1395,9 +1395,14 @@ body {
 }
 .notification__img.woman-user::after, .notification__img.male-user::after {
   position: absolute;
-  content: url(img/answer4.png);
+  /* content: url(img/answer4.png); */
   top: 5px;
   right: 7px;
+  content: '';
+  background-image: url(img/answ2.png);
+  width: 18px;
+  height: 19px;
+  background-size: cover;
 }
 .notification__img:before {
   /* content: "\e904";
@@ -7580,9 +7585,14 @@ html[data-theme="Black"] #back-to-top-button:active {
 }
 .mobile-notification__img.woman-user::after, .mobile-notification__img.male-user::after {
   position: absolute;
-  content: url(img/answer4.png);
+  /* content: url(img/answer4.png); */
   top: 8px;
   right: 8px;
+  content: '';
+  background-image: url(img/answ2.png);
+  width: 18px;
+  height: 19px;
+  background-size: cover;
 }
 .mobile-notification__text {
   display: flex;
