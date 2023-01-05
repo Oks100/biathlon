@@ -7733,3 +7733,6 @@ html[data-theme="Black"] #back-to-top-button:active {
 }
 .mobile-timer__more-result {
 }
+#tippy-3 {
+  visibility: hidden;
+}
