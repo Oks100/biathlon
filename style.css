@@ -6593,7 +6593,8 @@ html[data-theme="Black"] .footer__logo img {
   content: url(img/logo-black-test5.png);
 }
 html[data-theme="Black"] .twitter-block, html[data-theme="Black"] .timeline__item, html[data-theme="Black"] .main-cup, html[data-theme="Black"] .timeline__body-important-news, html[data-theme="Black"] .sidebar-block3, html[data-theme="Black"] .sidebar-block {
-  border: 1px solid #1a1b1c;
+  /* border: 1px solid #1a1b1c; */
+  border: 1px solid #292a2c;
 }
 html[data-theme="Black"] .timeline__body-important-news {
   background-color: transparent;
@@ -7733,3 +7734,12 @@ html[data-theme="Black"] #back-to-top-button:active {
 }
 .mobile-timer__more-result {
 }
+
+/* .facebook:active, .twitter:active, .instagram:active, .telegram:active, .youtube:active {
+  background-color: white !important;
+  transition: all 0.1s !important;
+}
+.facebook:active a::before, .twitter:active a::before, .instagram:active a::before, .telegram:active a::before, .youtube:active a::before {
+  color: #133f6d !important;
+  transition: all 0.1s !important;
+} */
