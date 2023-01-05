@@ -158,7 +158,7 @@ $(function() {
   });
 /*Закрытие сайдбара по свайпу*/
 
-
+/*Открытие окна уведомлений на мобилке*/
 $(document).ready(function(){
     $('.header__mobile-link-massage2').click(function () {
         $('.body').toggleClass('mobile-notification-active');
@@ -170,3 +170,18 @@ $(document).ready(function(){
         $('.body').removeClass('mobile-notification-active');
         });
     });
+/*Открытие окна уведомлений на мобилке*/
+
+/*Открытие окна гонок на мобилке*/
+$(document).ready(function(){
+    $('.mobile-timer__more-events').click(function () {
+        $('.body').toggleClass('mobile-timer__more-events-active');
+        });
+    });
+
+$(document).ready(function(){
+    $('.mobile-timer__more-events_head-close').click(function () {
+        $('.body').removeClass('mobile-timer__more-events-active');
+        });
+    });
+/*Открытие окна гонок на мобилке*/
