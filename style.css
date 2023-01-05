@@ -7679,7 +7679,7 @@ html[data-theme="Black"] #back-to-top-button:active {
 .mobile-timer__more-events-content {
   display: flex;
   flex-direction: column;
-  padding: 10px;
+  padding: 10px 15px;
   border-bottom: 1px solid #d0d9dd;
 }
 .mobile-timer__more-events__all {
