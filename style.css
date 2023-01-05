@@ -1428,7 +1428,7 @@ body {
   border-left: 4px solid #ff0000b3;
   background-color: rgba(255, 0, 0, 0.1) !important;
 }
-.header__notifications_item .admin-item:hover {
+.header__notifications_item.admin-item:hover {
   /* background-color: #ffc4c4; */
   background-color: rgba(255, 0, 0, 0.15) !important;
 }
@@ -7732,8 +7732,4 @@ html[data-theme="Black"] #back-to-top-button:active {
 .timer__more-timer {
 }
 .mobile-timer__more-result {
-}
-#tippy-3 {
-  visibility: hidden;
-  display: none;
 }
