@@ -7735,4 +7735,5 @@ html[data-theme="Black"] #back-to-top-button:active {
 }
 #tippy-3 {
   visibility: hidden;
+  display: none;
 }
