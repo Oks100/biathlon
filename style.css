@@ -3077,6 +3077,7 @@ body {
     z-index: 100;
     display: inline-flex;
     padding: 0 7px 0 7px;
+    white-space: nowrap;
   }
   .athletes-speed, .shooting-statistics, .shot-rate-statistics, .main-cup-slide {
     width: 100%;
