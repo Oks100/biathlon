@@ -2915,9 +2915,8 @@ body {
     background: transparent;
     border-radius: 33px;
     position: absolute;
-    /* right: -17px; */
+    right: -17px;
     /* right: -21px; */
-    right: -32px;
   }
   .main-cup__controls .swiper-button-next {
     width: 33px;
@@ -3070,7 +3069,7 @@ body {
     align-items: center;
     position: relative;
     height: 33px;
-    width: 150px;
+    /* width: 150px; */
     margin: 0.75em auto 0px auto;
   }
   .learn-more__text2-href, .learn-more__text3-href {
@@ -5094,6 +5093,9 @@ nav, aside {
     /* article.timeline {
       margin: 0 5px;
     }*/
+    .main-cup__controls {
+      width: 153px;
+    }
     .left-sidebar, .right-sidebar {
       font-size: 1em;
     }
