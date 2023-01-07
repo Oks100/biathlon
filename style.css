@@ -2915,7 +2915,8 @@ body {
     background: transparent;
     border-radius: 33px;
     position: absolute;
-    right: -17px;
+    /* right: -17px; */
+    right: -21px;
   }
   .main-cup__controls .swiper-button-next {
     width: 33px;
