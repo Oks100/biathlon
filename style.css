@@ -7503,6 +7503,7 @@ html[data-theme="Black"] #back-to-top-button:active {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  width: 100%;
 }
 .mobile-notification__content {
 }
@@ -7545,6 +7546,7 @@ html[data-theme="Black"] #back-to-top-button:active {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  width: 100%;
 }
 .mobile-notification__text a {
   color: black !important;
