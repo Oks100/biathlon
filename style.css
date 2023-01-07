@@ -2917,7 +2917,7 @@ body {
     position: absolute;
     /* right: -17px; */
     /* right: -21px; */
-    right: -31px;
+    right: -23px;
   }
   .main-cup__controls .swiper-button-next {
     width: 33px;
@@ -3078,7 +3078,6 @@ body {
     z-index: 100;
     display: inline-flex;
     padding: 0 7px 0 7px;
-    white-space: nowrap;
   }
   .athletes-speed, .shooting-statistics, .shot-rate-statistics, .main-cup-slide {
     width: 100%;
