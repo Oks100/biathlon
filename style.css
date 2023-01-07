@@ -3069,7 +3069,7 @@ body {
     align-items: center;
     position: relative;
     height: 33px;
-    /* width: 150px; */
+    width: 150px;
     margin: 0.75em auto 0px auto;
   }
   .learn-more__text2-href, .learn-more__text3-href {
