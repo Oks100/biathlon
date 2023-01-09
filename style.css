@@ -1406,6 +1406,8 @@ body {
   width: 18px;
   height: 19px;
   background-size: cover;
+  -webkit-transform: translateZ(1px); /* Фикс отсутствия поддержки Хромом сглаживания через image-rendering */
+  -webkit-filter: blur(0.4px); /* Фикс отсутствия поддержки Хромом сглаживания через image-rendering */
 }
 .notification__img:before {
   /* content: "\e904";
@@ -5584,7 +5586,7 @@ nav, aside {
     /* article.timeline {
       margin: 0 5px;
     }*/
-    .main-cup, .sidebar-block, .sidebar-block3 {
+    .main-cup, .sidebar-block, .sidebar-block3, .twitter-block {
       border-radius: 0;
     }
     .main-cup__controls {
