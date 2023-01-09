@@ -5590,6 +5590,7 @@ nav, aside {
       padding: 15px 0 10px 10px;
       cursor: pointer;
       color: #fff;
+      z-index: 3;
     }
     .mobile-timer__more-events span::after {
       content: "\e036";
