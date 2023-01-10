@@ -1407,7 +1407,7 @@ body {
   height: 19px;
   background-size: cover;
   -webkit-transform: translateZ(1px); /* Фикс отсутствия поддержки Хромом сглаживания через image-rendering */
-  -webkit-filter: blur(0.4px); /* Фикс отсутствия поддержки Хромом сглаживания через image-rendering */
+  /* -webkit-filter: blur(0.4px); Фикс отсутствия поддержки Хромом сглаживания через image-rendering */
 }
 .notification__img:before {
   /* content: "\e904";
