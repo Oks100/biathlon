@@ -6568,7 +6568,7 @@ html[data-theme="dark"] .timeline__comments:hover {
   color: #abcbff !important;
   background-color: #184779;
 }
-html[data-theme='dark'] .burger-menu__socials, html[data-theme='dark'] .burger-menu_nav-menu, html[data-theme="dark"] .important-news__news-spoiler:hover {
+html[data-theme='dark'] .burger-menu__socials, html[data-theme='dark'] .burger-menu_nav-menuhtml, html[data-theme='dark'] .burger-menu_nav-menu {
   background-color: #172230;
 }
 html[data-theme="dark"] .select__list-arrow, html[data-theme="dark"] .dropdown__box-arrow {
@@ -6633,6 +6633,9 @@ html[data-theme="dark"] .burger-menu:not(.burger-menu_active) .burger-menu_lines
 }
 
 @media screen and (min-width: 992px) {
+  [data-theme="dark"] .important-news__news-spoiler:hover {
+    background-color: #172230 !important;
+  }
   html[data-theme="dark"] #back-to-top-button {
     background-color: rgb(0, 0, 0, 0.3);
   }
@@ -6857,9 +6860,9 @@ html[data-theme="summer"] .timeline__comments:hover {
 html[data-theme="summer"] .timeline__comments-refer:hover {
   color: #348232 !important;
 }
-html[data-theme="summer"] .important-news__news-spoiler:hover {
+/* html[data-theme="summer"] .important-news__news-spoiler:hover {
   background-color: #fff7e6;
-}
+} */
 html[data-theme="summer"] .select2 {
   background-color: #ffeec9;
 }
@@ -6877,6 +6880,13 @@ html[data-theme='summer'] .twitter-block__body {
   /* background-color: #fffcf4 !important; */
   background-color: #fffdf8 !important;
 }
+@media screen and (min-width: 992px) {
+  html[data-theme="summer"] .important-news__news-spoiler:hover {
+    background-color: #fff7e6;
+  }
+}
+
+
 
 
 
@@ -7192,9 +7202,9 @@ html[data-theme="Black"] .vertical-menu-block__body .vertical-menu-block__list-f
 html[data-theme="Black"] .vertical-menu-block__categories {
   padding: 1px 0.8px 0.8px 0.7px;
 }
-html[data-theme="Black"] .important-news__news-spoiler:hover {
+/* html[data-theme="Black"] .important-news__news-spoiler:hover {
   background-color: #0e1721;
-}
+} */
 html[data-theme="Black"] .select__list-arrow, html[data-theme="Black"] .dropdown__box-arrow {
   border-bottom-color: #1d1d1d;
 }
@@ -7237,6 +7247,12 @@ html[data-theme="Black"] .burger-menu__socials-facebook a::before, html[data-the
     background-color: rgb(255, 255, 255, 0.20);
   }
 }
+@media screen and (min-width: 992px) {
+  html[data-theme="Black"] .important-news__news-spoiler:hover {
+    background-color: #0e1721;
+  }
+}
+
 
 
 
