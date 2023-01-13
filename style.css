@@ -7573,7 +7573,7 @@ html[data-theme='Black'] .notification__text a:hover, html[data-theme='Black'] .
   color: #93bbff !important;
   border-color: #93bbff !important;
 }
-html[data-theme="Black"] .mobile-notification-window, html[data-theme="Black"] .burger-menu__new-slide, html[data-theme="Black"] .burger-menu_nav-menu-list2, html[data-theme="Black"] .mobile-timer__more-events__head, html[data-theme="Black"] .mobile-timer__more-events-active .mobile-timer__more-events-window, html[data-theme="Black"] .mobile-timer__more-events-active .mobile-timer__more-events-window, html[data-theme="Black"] .select__list, html[data-theme="Black"] .dropdown__box, html[data-theme='Black'] .tippy-box, .tippy-arrow, html[data-theme='Black'] .tippy-content, html[data-theme='Black'] .comment-block .comment-block__rumor, html[data-theme='Black'] .popular-block__search-form input {
+html[data-theme="Black"] .mobile-notification-window, html[data-theme="Black"] .burger-menu__new-slide, html[data-theme="Black"] .burger-menu_nav-menu-list2, html[data-theme="Black"] .mobile-timer__more-events__head, html[data-theme="Black"] .mobile-timer__more-events-window, html[data-theme="Black"] .select__list, html[data-theme="Black"] .dropdown__box, html[data-theme='Black'] .tippy-box, .tippy-arrow, html[data-theme='Black'] .tippy-content, html[data-theme='Black'] .comment-block .comment-block__rumor, html[data-theme='Black'] .popular-block__search-form input {
   /* background-color: #0d0d0d; */
   background-color: #1d1d1d;
 }
