@@ -7552,7 +7552,7 @@ html[data-theme='Black'] html, html[data-theme='Black'] body {
   background-color: #101113;
 }
 @media screen and (max-width: 992px) {
-  .right-sidebar {
+  html[data-theme='Black'] .right-sidebar {
     background-color: #101113;
   }
 }
