@@ -5594,9 +5594,9 @@ nav, aside {
     .learn-more:hover .circle-element {
       width: 102.5%;
     }
-    .main-cup, .sidebar-block, .sidebar-block3, .twitter-block {
+    /* .main-cup, .sidebar-block, .sidebar-block3, .twitter-block {
       border-radius: 0;
-    }
+    } */
     .main-cup__controls {
       width: 153px;
     }
@@ -5630,9 +5630,9 @@ nav, aside {
     .header__logo .socials {
       display: none;
     }
-    .header, footer.footer, .timeline__item, aside {
+    /* .header, footer.footer, .timeline__item, aside {
       border-radius: 0 !important;
-    }
+    } */
     .right-sidebar {
       position: fixed;
       top: 0;
@@ -7550,6 +7550,11 @@ html[data-theme='Black'] html, html[data-theme='Black'] body {
   /* background: #0b1218; */
   /* background-color: #0d0e0f; */
   background-color: #101113;
+}
+@media screen and (max-width: 992px) {
+  .right-sidebar {
+    background-color: #101113;
+  }
 }
 html[data-theme='Black'] .burger-menu_nav a, html[data-theme='Black'] .mobile-notification__head-content a, html[data-theme='Black'] .timeline a, html[data-theme='Black'] .left-sidebar a, html[data-theme='Black'] .right-sidebar a, html[data-theme='Black'] .timeline__footer button {
   /* color: #3e69af; */
