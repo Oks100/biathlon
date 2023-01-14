@@ -2203,7 +2203,8 @@ body {
   .burger-menu_nav-menu-content li .burger-menu_nav-more .list-number {
     color: black;
     position: absolute;
-    right: 55px;
+    /* right: 55px; */
+    right: 45px;
   }
   
   .burger-menu__socials {
@@ -2300,6 +2301,7 @@ body {
     font-family: tahoma;
     text-transform: uppercase;
     color: black;
+    font-weight: 600;
   }
   .burger-menu_nav-menu-tabs a:first-of-type {
     border-right: 1px solid #d0d9dd;
@@ -2429,7 +2431,8 @@ body {
     height: 2px;
     /* width: 13px; */
     width: 16px;
-    right: 30px;
+    /* right: 30px; */
+    right: 22px;
     background-color: #1f73cc;
   }
   .burger-menu-back-tab::before {
@@ -6830,7 +6833,7 @@ html[data-theme='dark'] table.main-cup__top10 tbody tr:nth-child(2n+1), html[dat
   /* background-color: #293a50; */
   background-color: #1f2d40;
 }
-html[data-theme='dark'] .burger-menu_nav-menu-list2.burger-menu_nav-menu-list li a, html[data-theme='dark'] .burger-menu__content a, html[data-theme='dark'] .burger-menu_nav-menu-list2.burger-menu_nav-menu-list__default.active li a, html[data-theme='dark'] .mobile-notification__head-content a, html[data-theme='dark'] main a, html[data-theme='dark'] .timeline__footer button {
+html[data-theme='dark'] .burger-menu__content a, html[data-theme='dark'] main a, html[data-theme='dark'] .timeline__footer button {
   color: #abcbff;
 }
 html[data-theme='dark'] main a:hover {
@@ -7095,7 +7098,7 @@ html[data-theme='dark'] .interview-block__items {
 html[data-theme='dark'] .dropbtn .arrow2::after, html[data-theme='dark'] .dropbtn .arrow2::before {
   background-color: rgb(96, 156, 239);
 }
-html[data-theme='dark'] .mobile-notification__time .view, html[data-theme='dark'] .timer__more-translation, html[data-theme='dark'] .timer__more-result, html[data-theme='dark'] .learn-more__text2-href, html[data-theme='dark'] .learn-more__text3-href, html[data-theme='dark'] .statistics__button.button-style a, html[data-theme='dark'] .learn-more__text2-href:hover, html[data-theme='dark'] .learn-more__text3-href {
+html[data-theme='dark'] .mobile-notification__head-content a, html[data-theme='dark'] .mobile-notification__time .view, html[data-theme='dark'] .timer__more-translation, html[data-theme='dark'] .timer__more-result, html[data-theme='dark'] .learn-more__text2-href, html[data-theme='dark'] .learn-more__text3-href, html[data-theme='dark'] .statistics__button.button-style a, html[data-theme='dark'] .learn-more__text2-href:hover, html[data-theme='dark'] .learn-more__text3-href {
   color: #abcbff !important;
 }
 html[data-theme='dark'] .statistics__button:hover {
@@ -7220,7 +7223,9 @@ html[data-theme="Black"] .burger-menu__layer-background, html[data-theme="dark"]
 html[data-theme="dark"] .burger-menu:not(.burger-menu_active) .burger-menu_lines::before {
   animation: color-dark 2s ease-in 0.5s infinite alternate;
 }
-
+html[data-theme="Black"] .important-news__list, html[data-theme="dark"] .important-news__list {
+  background-image: url(img/bl-min3.png);
+}
 @media screen and (min-width: 992px) {
   [data-theme="dark"] .important-news__news-spoiler:hover {
     background-color: #172230 !important;
@@ -7238,7 +7243,6 @@ html[data-theme="dark"] .burger-menu:not(.burger-menu_active) .burger-menu_lines
     background-color: rgb(0, 0, 0, 8);
   }
 }
-
 
 
 
@@ -7566,11 +7570,11 @@ html[data-theme='Black'] html, html[data-theme='Black'] body {
     background-color: #101113;
   }
 }
-html[data-theme='Black'] .burger-menu_nav a, html[data-theme='Black'] .mobile-notification__head-content a, html[data-theme='Black'] .timeline a, html[data-theme='Black'] .left-sidebar a, html[data-theme='Black'] .right-sidebar a, html[data-theme='Black'] .timeline__footer button {
+html[data-theme='Black'] .burger-menu_nav a, html[data-theme='Black'] .timeline a, html[data-theme='Black'] .left-sidebar a, html[data-theme='Black'] .right-sidebar a, html[data-theme='Black'] .timeline__footer button {
   /* color: #3e69af; */
   color: #6688c0;
 }
-html[data-theme='Black'] .mobile-timer__more-events-content-group a, html[data-theme='Black'] .mobile-notification__time .view, html[data-theme='Black'] .learn-more__text2-href, html[data-theme='Black'] .learn-more__text3-href, html[data-theme='Black'] .learn-more__text2-href:hover, html[data-theme='Black'] .learn-more__text3-href:hover, html[data-theme='Black'] .timeline-navigation_arrow-left::after, html[data-theme='Black'] .timeline-navigation_arrow-right::after, html[data-theme='Black'] .timeline-navigation__page a:hover, html[data-theme='Black'] .statistics__button a:hover, html[data-theme='Black'] .timeline-sponsors .swiper-button-next, html[data-theme='Black'] .timeline-sponsors .swiper-button-prev {
+html[data-theme='Black'] .mobile-notification__head-content a, html[data-theme='Black'] .mobile-timer__more-events-content-group a, html[data-theme='Black'] .mobile-notification__time .view, html[data-theme='Black'] .learn-more__text2-href, html[data-theme='Black'] .learn-more__text3-href, html[data-theme='Black'] .learn-more__text2-href:hover, html[data-theme='Black'] .learn-more__text3-href:hover, html[data-theme='Black'] .timeline-navigation_arrow-left::after, html[data-theme='Black'] .timeline-navigation_arrow-right::after, html[data-theme='Black'] .timeline-navigation__page a:hover, html[data-theme='Black'] .statistics__button a:hover, html[data-theme='Black'] .timeline-sponsors .swiper-button-next, html[data-theme='Black'] .timeline-sponsors .swiper-button-prev {
   color: #6688c0 !important;
 }
 html[data-theme='Black'] .timeline__footer button .icon-container .icon svg {
