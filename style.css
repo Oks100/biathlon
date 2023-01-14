@@ -4816,7 +4816,8 @@ footer.footer .footer__column a:hover, footer.footer .footer__bottom-text a:hove
 .footer__facebook::before {
   content: "\f39e";
   font-family: 'FontAwesome';
-  font-size: 20.5px;
+  /* font-size: 20.5px; */
+  font-size: 20px;
   display: flex;
   justify-content: center;
   color: white;
@@ -4837,9 +4838,8 @@ footer.footer .footer__column a:hover, footer.footer .footer__bottom-text a:hove
 .footer__twitter::before {
   content: "\f099";
   font-family: 'FontAwesome';
-  /* font-size: 21px; */
-  font-size: 20.5px;
-  /* padding-left: 6px; */
+  /* font-size: 20.5px; */
+  font-size: 20px;
   justify-content: center;
   color: white;
   display: flex;
@@ -4847,8 +4847,8 @@ footer.footer .footer__column a:hover, footer.footer .footer__bottom-text a:hove
 .footer__instagram::before {
   content: "\f16d";
   font-family: 'FontAwesome';
-  /* font-size: 23px; */
-  font-size: 20.5px;
+  /* font-size: 20.5px; */
+  font-size: 20px;
   justify-content: center;
   color: white;
   align-items: center;
@@ -4857,8 +4857,8 @@ footer.footer .footer__column a:hover, footer.footer .footer__bottom-text a:hove
 .footer__telegram::before {
   content: "\e90e";
   font-family: 'icomoon';
-  /* font-size: 22px; */
-  font-size: 20.5px;
+  /* font-size: 20.5px; */
+  font-size: 20px;
   /* padding-left: 4px; */
   justify-content: center;
   display: flex;
@@ -4868,8 +4868,8 @@ footer.footer .footer__column a:hover, footer.footer .footer__bottom-text a:hove
 .footer__youtube::before {
   content: "\f167";
   font-family: 'FontAwesome';
-  /* font-size: 21px; */
-  font-size: 20.5px;
+  /* font-size: 20.5px; */
+  font-size: 20px;
   /* padding-left: 4.5px; */
   justify-content: center;
   display: flex;
