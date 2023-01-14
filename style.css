@@ -6277,6 +6277,12 @@ nav, aside {
     flex-wrap: wrap;
     gap: 0 15px;
   }
+  .mobile-notification__time a, .mobile-notification__head-content a {
+    color: #002b71 !important;
+  }
+  .burger-menu_nav-menu-tabs a {
+    color: black;
+  }
   .mobile-notification__time span, .mobile-notification__time a {
     display: flex;
   }
@@ -7488,7 +7494,11 @@ html[data-theme='summer'] .twitter-block__body, html[data-theme="summer"] .burge
     background-color: #fff7e6;
   }
 }
-
+@media screen and (max-width: 992px) {
+  html[data-theme='summer'] #back-to-top-button::after {
+    color: #565656;
+  }
+}
 
 
 
