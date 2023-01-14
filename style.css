@@ -7075,7 +7075,7 @@ html[data-theme="dark"] .timer__more-button, html[data-theme="dark"] .mobile-tim
 html[data-theme='dark'] .burger-menu__new-slide.slide3 .burger-menu__new-slide_list li a, html[data-theme='dark'] .burger-menu__new-slide.slide4 .burger-menu__new-slide_list li a, html[data-theme="dark"] #tippy-42 ul li a {
   border-color: #45484a !important;
 }
-html[data-theme='dark'] #tippy-42 ul li a, html[data-theme='dark'] .dropdown__box a, html[data-theme='dark'] .timer__more-button:hover a {
+html[data-theme='dark'] .header__notification_all:hover a, html[data-theme='dark'] #tippy-42 ul li a, html[data-theme='dark'] .dropdown__box a, html[data-theme='dark'] .timer__more-button:hover a {
   color: #e1e1e1 !important;
 }
 html[data-theme='dark'] .header__mobile-number-massage2 span, html[data-theme='dark'] .burger-menu__profile-messange span, html[data-theme='dark'] .race-ended::before, html[data-theme='dark'] .header__number-massage span, html[data-theme='dark'] .header__number-massage2 span {
