@@ -272,6 +272,7 @@ body {
     animation: move 0.3s linear;
     animation-fill-mode: forwards;
     animation-delay: 0.25s;
+    align-items: center;
   }
   @keyframes move {
     0% {
@@ -300,6 +301,7 @@ body {
   animation: move1 0.3s linear;
   animation-fill-mode: forwards;
   animation-delay: 0.4s;
+  align-items: center;
 }
 @keyframes move1 {
   0% {
@@ -328,6 +330,7 @@ body {
   animation: move2 0.3s linear;
   animation-fill-mode: forwards;
   animation-delay: 0.55s;
+  align-items: center;
 }
 @keyframes move2 {
   0% {
@@ -356,6 +359,7 @@ body {
   animation: move3 0.3s linear;
   animation-fill-mode: forwards;
   animation-delay: 0.70s;
+  align-items: center;
 }
 @keyframes move3 {
   0% {
@@ -384,6 +388,7 @@ body {
   animation: move4 0.3s linear;
   animation-fill-mode: forwards;
   animation-delay: 0.85s;
+  align-items: center;
 }
 @keyframes move4 {
   0% {
@@ -455,39 +460,45 @@ body {
 
   .header__logo .socials .facebook a::before {
     content: "\f39e";
-    font-family: FontAwesome;
-    font-size: 19px;
+    font-family: 'FontAwesome';
+    /* font-size: 19px; */
+    font-size: 17.5px;
     padding: 6px;
     justify-content: center;
     display: flex;
     color: #fff;
     cursor: crosshair;
+    scale: 1;
   }
   .header__logo .socials .twitter a::before {
     content: "\f099";
-    font-family: FontAwesome;
-    font-size: 19px;
+    font-family: 'FontAwesome';
+    /* font-size: 19px; */
+    font-size: 17.5px;
     padding: 6px;
     justify-content: center;
     display: flex;
     color: #fff;
     cursor: crosshair;
+    scale: 1;
   }
   .header__logo .socials .instagram a::before {
     content: "\f16d";
-    font-family: FontAwesome;
-    font-size: 19px;
+    font-family: 'FontAwesome';
+    /* font-size: 19px; */
+    font-size: 17.5px;
     padding: 6px;
     justify-content: center;
     display: flex;
     color: #fff;
     cursor: crosshair;
+    scale: 1;
   }
   .header__logo .socials .telegram a::before {
     display: flex;
     content: "\e917";
-    font-family: 'icomoon', sans-serif;
-    font-size: 23px;
+    /* font-size: 23px; */
+    font-size: 21.5px;
     padding: 6px;
     justify-content: center;
     color: #fff;
@@ -496,18 +507,21 @@ body {
     cursor: crosshair;
     content: "\f2c6";
     font-family: 'Line Awesome Brands';
+    scale: 1;
   }
   .header__logo .socials .youtube a::before {
     content: "\f167";
-    font-family: FontAwesome;
-    font-size: 19px;
+    font-family: 'FontAwesome';
+    /* font-size: 19px; */
+    font-size: 17.5px;
     margin-top: -0.5px;
-    margin-left: -1.5px;
+    /* margin-left: -1.5px; */
     padding: 6px;
     justify-content: center;
     display: flex;
     color: #fff;
     cursor: crosshair;
+    scale: 1;
   }
   .header__logo .socials .twitter {
     width: 33px;
@@ -517,6 +531,7 @@ body {
     border-radius: 50%;
     transition-duration: 0.4s;
     background-color: #133f6d;
+    align-items: center;
   }
   .header__logo .socials .instagram {
     width: 33px;
@@ -526,6 +541,7 @@ body {
     border-radius: 50%;
     transition-duration: 0.4s;
     background-color: #133f6d;
+    align-items: center;
   }
   .header__logo .socials .telegram {
     width: 33px;
@@ -535,6 +551,7 @@ body {
     border-radius: 50%;
     transition-duration: 0.4s;
     background-color: #133f6d;
+    align-items: center;
   }
   .header__logo .socials .youtube {
     width: 33px;
@@ -545,6 +562,7 @@ body {
     border-radius: 50%;
     transition-duration: 0.4s;
     background-color: #133f6d;
+    align-items: center;
   }
   .header__menu-body {
     /*width: 100%;*/ /*! Меню на всю ширину шапки*/
@@ -2845,6 +2863,7 @@ body {
     width: var(--icon-size);
     height: var(--icon-size);
     transition: transform 500ms ease, opacity 250ms ease;
+    scale: 1;
   }
   .timeline__footer button .icon-container .icon--left {
     transform: translateX(-200%);
@@ -3724,6 +3743,7 @@ body {
     left: 4px;
     width: 16.875px;
     height: 1.875px;
+    scale: 1;
   }
   .learn-more .circle-element .circle-element__icon::before {
     position: absolute;
@@ -4780,7 +4800,7 @@ footer.footer .footer__column a:hover, footer.footer .footer__bottom-text a:hove
   gap: 20px;
 }
 .footer__facebook, .footer__twitter, .footer__instagram, .footer__telegram, .footer__youtube {
-  display: block;
+  display: flex;
   /* width: 36px;
   height: 36px; */
   width: 39px;
@@ -4789,14 +4809,14 @@ footer.footer .footer__column a:hover, footer.footer .footer__bottom-text a:hove
   border-radius: 50%;
   transition: all 0.4s ease;
   background-color: #133f6d;
+  align-items: center;
+  justify-content: center;
+  scale: 1;
 }
 .footer__facebook::before {
   content: "\f39e";
   font-family: 'FontAwesome';
-  /* font-size: 22px; */
-  font-size: 21.5px;
-  /* padding-left: 9.5px; */
-  /* padding-left: 10px; */
+  font-size: 20.5px;
   display: flex;
   justify-content: center;
   color: white;
@@ -4818,46 +4838,42 @@ footer.footer .footer__column a:hover, footer.footer .footer__bottom-text a:hove
   content: "\f099";
   font-family: 'FontAwesome';
   /* font-size: 21px; */
-  font-size: 21.5px;
+  font-size: 20.5px;
   /* padding-left: 6px; */
   justify-content: center;
   color: white;
   display: flex;
-  padding-top: 2px;
 }
 .footer__instagram::before {
   content: "\f16d";
   font-family: 'FontAwesome';
   /* font-size: 23px; */
-  font-size: 21.5px;
+  font-size: 20.5px;
   justify-content: center;
   color: white;
   align-items: center;
   display: flex;
-  padding-top: 2px;
 }
 .footer__telegram::before {
   content: "\e90e";
   font-family: 'icomoon';
   /* font-size: 22px; */
-  font-size: 21.5px;
+  font-size: 20.5px;
   /* padding-left: 4px; */
   justify-content: center;
   display: flex;
   color: white;
   padding-right: 4px;
-  padding-top: 2px;
 }
 .footer__youtube::before {
   content: "\f167";
   font-family: 'FontAwesome';
   /* font-size: 21px; */
-  font-size: 21.5px;
+  font-size: 20.5px;
   /* padding-left: 4.5px; */
   justify-content: center;
   display: flex;
   color: white;
-  padding-top: 2px;
 }
 .footer__bottom {
   display: flex;
