@@ -944,6 +944,7 @@ body {
   position: absolute;
   top: 16px;
   left: 3px;
+  scale: 1;
 }
 .timer__data-next-icon::before {
   position: absolute;
@@ -3216,6 +3217,7 @@ body {
     max-width: 100%;
     object-fit: contain;
     transition: all 0.4s linear;
+    scale: 1;
   }
   
   .timeline-sponsors .swiper-slide {
@@ -4730,7 +4732,8 @@ footer.footer .footer__column a:hover, footer.footer .footer__bottom-text a:hove
   
 }
 .footer__column ul li {
-  margin-bottom: 5px;
+  /* margin-bottom: 5px; */
+  margin-bottom: 7px;
   width: 173.15px;
 }
 .footer__column ul li:first-of-type {
@@ -4745,7 +4748,14 @@ footer.footer .footer__column a:hover, footer.footer .footer__bottom-text a:hove
   background-color: #ffd700;
   margin-right: 8px;
   transition: all 0.3s ease;
-  transform: scale(1); /* костыль исправляет странный баг сплющенности*/
+  position: absolute;
+  left: 0px;
+}
+.footer__column ul li a {
+  margin-left: 14px;
+}
+.footer__column ul li {
+  position: relative;
 }
 .footer__column a {
   display: inline-flex;
