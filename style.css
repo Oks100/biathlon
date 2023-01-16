@@ -4721,7 +4721,6 @@ footer.footer .footer__column a:hover, footer.footer .footer__bottom-text a:hove
   height: 100%;
   width: 3.5px;
   left: 0;
-  transform: scalex(1.01); /* костыль исправляет странный баг разной ширины полосок*/
 }
 .footer__column span, .footer__title span {
   font-size: 1.3em;
@@ -7257,7 +7256,7 @@ html[data-theme="dark"] .burger-menu:not(.burger-menu_active) .burger-menu_lines
   animation: color-dark 2s ease-in 0.5s infinite alternate;
 }
 html[data-theme="Black"] .important-news__list, html[data-theme="dark"] .important-news__list {
-  background-image: url(img/bl-min3.png);
+  background-image: url(img/bl-min5.png);
 }
 @media screen and (min-width: 992px) {
   [data-theme="dark"] .important-news__news-spoiler:hover {
