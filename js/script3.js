@@ -185,3 +185,15 @@ $(document).ready(function(){
         });
     });
 /*Открытие окна гонок на мобилке*/
+
+$(document).ready(function(){
+    $('.exit').click(function () {
+        $('.body').addClass('confirmation-menu');
+        });
+    });
+
+$(document).ready(function(){
+    $('.burger-menu__layer-background-global, .exit-yes, .exit-no').click(function () {
+        $('.body').removeClass('confirmation-menu');
+        });
+    });
