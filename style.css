@@ -6166,23 +6166,25 @@ nav, aside {
   .burger-menu__confirmation-menu {
     position: sticky;
     display: none;
-    /* bottom: -10%; */
     z-index: 201;
-    width: 100%;
-    transition: all 3.4s ease;
+    /* width: 100%; */
+    margin: 0 15px;
+    transition: all .4s ease;
     background-color: #fff;
     opacity: 0;
   }
   .body.confirmation-menu .burger-menu__confirmation-menu {
-    bottom: 50%;
-    transition: all 3.4s ease;
+    /* bottom: 50%; */
+    bottom: calc(50% - 57.8px);
+    transition: all .4s ease;
     opacity: 1;
     display: block;
   }
   .burger-menu__confirmation-menu_body {
     display: flex;
     flex-direction: column;
-    padding: 10px 15px;
+    /* padding: 10px 15px; */
+    padding: 1.3em 1.06em;
   }
   .body.confirmation-menu .burger-menu__confirmation-menu_body {
     width: 100%;
@@ -6193,8 +6195,9 @@ nav, aside {
     align-items: flex-start;
     justify-content: center;
     color: black;
-    height: 35px;
-    font-weight: 600;
+    /* height: 40px; */
+    margin-bottom: 1.3em;
+    /* font-weight: 600; */
   }
   .burger-menu__confirmation-menu_button {
     display: flex;
@@ -6209,18 +6212,21 @@ nav, aside {
     justify-content: center;
     align-items: center;
     width: 100%;
-    height: 45px;
+    height: 40px;
     border-radius: 30px;
-    border: 1px solid black;
+    /* border: 1px solid black; */
+    background-color: #d1ebfb;
+    color: #002b71;
   }
   .exit-no {
     display: flex;
     justify-content: center;
     align-items: center;
     width: 100%;
-    height: 45px;
+    height: 40px;
     border-radius: 30px;
-    border: 1px solid black;
+    color: #002b71;
+    border: 2px solid #d1ebfb;
   }
 
 
