@@ -197,3 +197,9 @@ $(document).ready(function(){
         $('.body').removeClass('confirmation-menu');
         });
     });
+
+$(document).ready(function(){
+    $('.exit-yes').click(function () {
+        $('.body').addClass('guest');
+        });
+    });
