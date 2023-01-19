@@ -7481,7 +7481,7 @@ html[data-theme="summer"] html, html[data-theme="summer"] body {
   background: #ece6dc;
 }
 @media screen and (max-width: 992px) {
-  .right-sidebar {
+  html[data-theme="summer"] .right-sidebar {
     background-color: #ece6dc;
   }
 }
