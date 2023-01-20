@@ -1612,7 +1612,7 @@ body {
   height: 1.6px;
   background-color: #5d90d5;
   position: absolute;
-  top: 45%;
+  top: 49%;
   transition: all .3s ease 0s;
   right: 17.5px;
   transform: rotate(43deg);
@@ -1620,7 +1620,7 @@ body {
 .select__head2::after {
   content: '';
   transform: rotate(-43deg);
-  top: 45%;
+  top: 49%;
   width: 11px;
   height: 1.6px;
   background-color: #5d90d5;
@@ -5140,7 +5140,8 @@ footer.footer .footer__column a:hover, footer.footer .footer__bottom-text a:hove
     justify-content: space-between;
     /* line-height: 23.8px; */
     /* line-height: 28.8px; */
-    height: 28.8px;
+    /* height: 28.8px; */
+    height: 33px;
   }
   .profile__name span:first-of-type {
     font-weight: 700;
@@ -8058,7 +8059,8 @@ html[data-theme="Black"] .burger-menu:not(.burger-menu_active) .burger-menu_line
   border-radius: 30px;
   color: #002b71;
   width: calc(100% - 85px);
-  max-width: 250px;
+  /* max-width: 250px; */
+  max-width: 225px;
 }
 .sign-up {
   border: 2px solid #d1ebfb;
@@ -8122,59 +8124,85 @@ html[data-theme="Black"] .burger-menu:not(.burger-menu_active) .burger-menu_line
   border-radius: 3px;
 }
 .burger-menu__log-in_contant-form {
-  padding: 25px 15px 25px 15px;
+  padding: 0px 35px 25px 35px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* gap: 25px; */
+  /* align-items: center; */
+  width: 100%;
 }
-.form.login {
+.burger-menu__log-in_contant-form span {
+  color: black;
+  margin-bottom: 5px;
+}
+/* .form.login {
   display: flex;
   flex-direction: column;
   justify-content: center;
   gap: 25px;
   align-items: center;
   width: 100%;
-}
+} */
 .form__field {
   display: flex;
   justify-content: center;
-  min-width: 250px;
-  border: 1px solid #bfc6ca;
-  border-radius: 33px;
-  /* overflow: hidden; */
-  position: relative;
-  height: 40px;
+  /* border: 1px solid #bfc6ca; */
+  /* border-radius: 33px; */
+  width: 100%;
+  max-width: 300px;
+  /* border: 1px solid #bfc6ca; */
+  /* border-radius: 33px; */
+  margin: 0 auto;
+  flex-direction: column;
+  margin-top: 25px;
 }
-.form__user-icon {
+/* .form__input {
+
+} */
+.form__user-icon, .form__password-icon {
   height: 40px;
   width: 40px;
   border-radius: 50%;
   background-color: #bfc6ca;
-  left: -0.5px;
+  left: -1px;
   top: -0.5px;
   position: absolute;
-}
-.form__password-icon {
-  height: 40px;
-  width: 40px;
-  border-radius: 50%;
-  background-color: #bfc6ca;
-  left: -0.5px;
-  top: -0.5px;
-  position: absolute;
+  transition: all 0.4s ease-in-out;
 }
 .login__username, .login__password, .enter-button {
-  width: 100%;
   border-radius: 33px;
+  height: 100%;
+  width: 100%;
 }
 .login__username {
 
 }
+.ooo {
+  height: 40px;
+  border: 1px solid #bfc6ca;
+  border-radius: 33px;
+  position: relative;
+}
 .login__username, .login__password {
   padding: 0 20px 0 50px;
+}
+.login__username:focus::-moz-placeholder, .login__password:focus::-moz-placeholder { 
+  color: transparent;
+}
+.login__username:focus::-webkit-input-placeholder, .login__password:focus::-webkit-input-placeholder {
+  color: transparent;
+}
+.login__username:focus:-ms-input-placeholder, .login__password:focus:-ms-input-placeholder {
+  color: transparent;
+}
+.login__username:focus ~ .form__user-icon, .login__password:focus ~ .form__password-icon {
+  border-radius: 33px 0 0 33px;
 }
 .enter-button {
   height: 40px;
   border-radius: 33px;
-  background-color: red;
-  min-width: 250px;
+  background-color: #d1ebfb;
   /* width: 250px; */
   /* margin: 25px 0; */
 }
@@ -8187,4 +8215,7 @@ html[data-theme="Black"] .burger-menu:not(.burger-menu_active) .burger-menu_line
 }
 .form.login span {
   color: black;
+}
+.forgot-password a {
+  color: #002b71;
 }

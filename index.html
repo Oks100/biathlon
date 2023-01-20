@@ -28,7 +28,7 @@
   <link rel="stylesheet" href="https://unpkg.com/tippy.js@6/animations/shift-toward.css" />
   <script src="https://kit.fontawesome.com/d70cc4a9aa.js" crossorigin="anonymous"></script>
   <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-  <script src="//code.jquery.com/mobile/1.5.0-alpha.1/jquery.mobile-1.5.0-alpha.1.min.js"></script>
+  <!-- <script src="//code.jquery.com/mobile/1.5.0-alpha.1/jquery.mobile-1.5.0-alpha.1.min.js"></script> -->
   <!-- <script src="js/script3.js"></script> -->
 </head>
 
@@ -9361,26 +9361,32 @@
     <div class="burger-menu__log-in_contant">
     <div class="burger-menu__tabs">
       <div class="burger-menu__tab_log-in">
-        <span>Войти</span>
+        <span>Вход</span>
       </div>
       <div class="burger-menu__tab_sign-up">
         <span>Регистрация</span>
       </div>
     </div>
     <div class="burger-menu__log-in_contant-form">
-      <form action="" class="form login" method="post">
+     <!-- <form action="" class="form login" method="post"> -->
         <div class="form__field">
-          <label class="form__user-icon" for="login__username"></label>
+          <span>Почта</span>
+          <div class="ooo">
           <input type="text" class="login__username" name="username" placeholder="Введите почту">
+          <label class="form__user-icon" for="login__username"></label>
         </div>
+      </div>
         <div class="form__field">
-          <label class="form__password-icon" for="login__password"></label>
+          <span>Пароль</span>
+          <div class="ooo">
           <input type="password" class="login__password" name="password" placeholder="Введите пароль">
+          <label class="form__password-icon" for="login__password"></label>
         </div>
+      </div>
         <div class="form__field">
           <input type="submit" value="Войти" class="enter-button">
         </div>
-      </form>
+      <!-- </form> -->
         <div class="forgot-password">
           <a href="#">Забыли пароль?</a>
         </div>
