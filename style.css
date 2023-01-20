@@ -6291,7 +6291,7 @@ nav, aside {
     content: "\e001";
     font-family: 'icomoon';
     font-size: 1.1em;
-    color: rgba(47, 111, 200, 0.75);
+    color: #6393d6;
     left: 0px;
     top: 0;
   }
@@ -8063,4 +8063,114 @@ html[data-theme="Black"] .burger-menu:not(.burger-menu_active) .burger-menu_line
 .sign-up {
   border: 2px solid #d1ebfb;
   background-color: #fff;
+}
+.body.log-in-window {
+
+}
+
+.burger-menu__log-in-menu {
+  /* display: none; */
+}
+.body.log-in-window .burger-menu__log-in-menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 201;
+  background-color: #e7f3fa;
+}
+.burger-menu__log-in_body {
+  padding: 15px;
+}
+.burger-menu__tabs {
+  display: flex;
+  flex-direction: row;
+  flex-basis: 50%;
+  /* height: 45px; */
+}
+.burger-menu__tab_log-in, .burger-menu__tab_sign-up  {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: black;
+  padding: 12px 10px;
+  border-bottom: 1px solid #d0d9dd;
+}
+.body.log-in-window .burger-menu__tab_log-in {
+  border-bottom: none;
+}
+.burger-menu__tab_log-in span, .burger-menu__tab_sign-up span {
+  word-wrap: break-word;
+  overflow-wrap: anywhere;
+}
+.burger-menu__tab_log-in {
+  border-right: 1px solid #d0d9dd;
+}
+.burger-menu__tab_sign-up {
+  
+}
+.burger-menu__log-in_contant {
+  box-shadow: 0 1px 2px rgba(0,0,0,.5) inset, 0 -1px 0 rgba(0,0,0,.2) inset;
+  padding: 1.2px 0.9px;
+  background-color: #fff;
+  border-radius: 3px;
+}
+.burger-menu__log-in_contant-form {
+  padding: 25px 15px 25px 15px;
+}
+.form.login {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 25px;
+  align-items: center;
+}
+.form__field {
+  display: flex;
+  justify-content: center;
+  max-width: 250px;
+  border: 1px solid black;
+  border-radius: 33px;
+  overflow: hidden;
+}
+.form__user-icon {
+  height: 40px;
+  width: 50px;
+  border-radius: 50%;
+  background-color: grey;
+}
+.form__password-icon {
+  height: 40px;
+  width: 50px;
+  border-radius: 50%;
+  background-color: grey;
+}
+.login__username, .login__password, .enter-button {
+  width: 100%;
+}
+.login__username {
+
+}
+.login__username, .login__password {
+  padding: 0 15px;
+}
+.enter-button {
+  height: 40px;
+  border-radius: 33px;
+  background-color: red;
+  min-width: 250px;
+  /* width: 250px; */
+  /* margin: 25px 0; */
+}
+.forgot-password {
+  /* margin: 0 0 15px 25px; */
+  margin-top: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.form.login span {
+  color: black;
 }
