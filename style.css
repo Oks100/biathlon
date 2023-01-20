@@ -8126,6 +8126,7 @@ html[data-theme="Black"] .burger-menu:not(.burger-menu_active) .burger-menu_line
   justify-content: center;
   gap: 25px;
   align-items: center;
+  width: 100%;
 }
 .form__field {
   display: flex;
@@ -8134,18 +8135,26 @@ html[data-theme="Black"] .burger-menu:not(.burger-menu_active) .burger-menu_line
   border: 1px solid black;
   border-radius: 33px;
   overflow: hidden;
+  position: relative;
+  height: 40px;
 }
 .form__user-icon {
   height: 40px;
-  width: 50px;
+  width: 40px;
   border-radius: 50%;
   background-color: grey;
+  left: -1px;
+  top: -1px;
+  position: absolute;
 }
 .form__password-icon {
   height: 40px;
-  width: 50px;
+  width: 40px;
   border-radius: 50%;
   background-color: grey;
+  left: -1px;
+  top: -1px;
+  position: absolute;
 }
 .login__username, .login__password, .enter-button {
   width: 100%;
@@ -8154,7 +8163,7 @@ html[data-theme="Black"] .burger-menu:not(.burger-menu_active) .burger-menu_line
 
 }
 .login__username, .login__password {
-  padding: 0 15px;
+  padding: 0 20px 0 50px;
 }
 .enter-button {
   height: 40px;
