@@ -8199,6 +8199,7 @@ html[data-theme="Black"] .burger-menu:not(.burger-menu_active) .burger-menu_line
 .login__username:focus ~ .form__user-icon, .login__password:focus ~ .form__password-icon {
   border-radius: 33px 0 0 33px;
 }
+/* .login__username:valid ~ .form__user-icon, .login__password:focus:valid ~ .form__password-icon */
 .enter-button {
   height: 40px;
   border-radius: 33px;
