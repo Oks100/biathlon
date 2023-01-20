@@ -203,3 +203,9 @@ $(document).ready(function(){
         $('.body').addClass('guest');
         });
     });
+
+$(document).ready(function(){
+    $('.log-in').click(function () {
+        $('.body').addClass('log-in-window');
+        });
+    });
