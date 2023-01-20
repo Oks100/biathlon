@@ -8071,7 +8071,11 @@ html[data-theme="Black"] .burger-menu:not(.burger-menu_active) .burger-menu_line
 .burger-menu__log-in-menu {
   /* display: none; */
 }
+.burger-menu__log-in-menu {
+  display: none;
+}
 .body.log-in-window .burger-menu__log-in-menu {
+  display: block;
   position: fixed;
   top: 0;
   left: 0;
@@ -8131,10 +8135,10 @@ html[data-theme="Black"] .burger-menu:not(.burger-menu_active) .burger-menu_line
 .form__field {
   display: flex;
   justify-content: center;
-  max-width: 250px;
-  border: 1px solid black;
+  min-width: 250px;
+  border: 1px solid #bfc6ca;
   border-radius: 33px;
-  overflow: hidden;
+  /* overflow: hidden; */
   position: relative;
   height: 40px;
 }
@@ -8142,22 +8146,23 @@ html[data-theme="Black"] .burger-menu:not(.burger-menu_active) .burger-menu_line
   height: 40px;
   width: 40px;
   border-radius: 50%;
-  background-color: grey;
-  left: -1px;
-  top: -1px;
+  background-color: #bfc6ca;
+  left: -0.5px;
+  top: -0.5px;
   position: absolute;
 }
 .form__password-icon {
   height: 40px;
   width: 40px;
   border-radius: 50%;
-  background-color: grey;
-  left: -1px;
-  top: -1px;
+  background-color: #bfc6ca;
+  left: -0.5px;
+  top: -0.5px;
   position: absolute;
 }
 .login__username, .login__password, .enter-button {
   width: 100%;
+  border-radius: 33px;
 }
 .login__username {
 
