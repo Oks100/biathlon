@@ -8160,14 +8160,14 @@ html[data-theme="Black"] .burger-menu:not(.burger-menu_active) .burger-menu_line
   max-width: 200px;
   margin: 0 auto;
   flex-direction: column;
-  margin-top: 25px;
+  margin-top: 35px;
 }
 /* .form__input {
 
 } */
 .form__user-icon, .form__password-icon {
-  height: 40px;
-  width: 40px;
+  height: 39px;
+  width: 39px;
   border-radius: 50%;
   background-color: #bfc6ca;
   left: -1px;
