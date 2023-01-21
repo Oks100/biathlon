@@ -8267,10 +8267,10 @@ html[data-theme="Black"] .burger-menu:not(.burger-menu_active) .burger-menu_line
   position: absolute;
   content: "\e047";
   font-family: 'icomoon';
-  font-size: 1.1em;
+  font-size: 1.0em;
   color: #fff;
-  left: 9.5px;
-  top: 8.5px;
+  left: 10px;
+  top: 10px;
 }
 .form__password-icon::before {
   position: absolute;
@@ -8279,7 +8279,7 @@ html[data-theme="Black"] .burger-menu:not(.burger-menu_active) .burger-menu_line
   font-size: 1.2em;
   color: #fff;
   left: 12px;
-  top: 7px;
+  top: 6px;
 }
 .form__user-icon::before {
   position: absolute;
