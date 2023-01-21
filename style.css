@@ -8110,6 +8110,8 @@ html[data-theme="Black"] .burger-menu:not(.burger-menu_active) .burger-menu_line
 .burger-menu__tab_log-in span, .burger-menu__tab_sign-up span {
   word-wrap: break-word;
   overflow-wrap: anywhere;
+  font-weight: 600;
+  text-transform: uppercase;
 }
 .burger-menu__tab_log-in {
   border-right: 1px solid #d0d9dd;
