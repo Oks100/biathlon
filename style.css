@@ -8048,7 +8048,7 @@ html[data-theme="Black"] .burger-menu:not(.burger-menu_active) .burger-menu_line
   padding-top: 0.8em;
 }
 .log-in {
-  background-color: #d1ebfb;
+  background-color: #b9e4ff;
 }
 .log-in, .sign-up {
   display: flex;
@@ -8063,7 +8063,7 @@ html[data-theme="Black"] .burger-menu:not(.burger-menu_active) .burger-menu_line
   max-width: 225px;
 }
 .sign-up {
-  border: 2px solid #d1ebfb;
+  border: 2px solid #b9e4ff;
   background-color: #fff;
 }
 .body.log-in-window {
@@ -8134,7 +8134,7 @@ html[data-theme="Black"] .burger-menu:not(.burger-menu_active) .burger-menu_line
 }
 .burger-menu__log-in_contant-form span {
   color: black;
-  margin-bottom: 5px;
+  margin-bottom: 10px;
 }
 /* .form.login {
   display: flex;
@@ -8144,15 +8144,20 @@ html[data-theme="Black"] .burger-menu:not(.burger-menu_active) .burger-menu_line
   align-items: center;
   width: 100%;
 } */
-.form__field {
+.form__field:not(:nth-child(3)) {
   display: flex;
   justify-content: center;
-  /* border: 1px solid #bfc6ca; */
-  /* border-radius: 33px; */
   width: 100%;
   max-width: 300px;
-  /* border: 1px solid #bfc6ca; */
-  /* border-radius: 33px; */
+  margin: 0 auto;
+  flex-direction: column;
+  margin-top: 25px;
+}
+.form__field:nth-child(3) {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  max-width: 200px;
   margin: 0 auto;
   flex-direction: column;
   margin-top: 25px;
@@ -8170,15 +8175,19 @@ html[data-theme="Black"] .burger-menu:not(.burger-menu_active) .burger-menu_line
   position: absolute;
   transition: all 0.4s ease-in-out;
 }
-.login__username, .login__password, .enter-button {
+.login__username, .login__password {
   border-radius: 33px;
   height: 100%;
   width: 100%;
+  position: relative;
+}
+.enter-button {
+
 }
 .login__username {
 
 }
-.ooo {
+.form__input {
   height: 40px;
   border: 1px solid #bfc6ca;
   border-radius: 33px;
@@ -8204,9 +8213,16 @@ html[data-theme="Black"] .burger-menu:not(.burger-menu_active) .burger-menu_line
   height: 40px;
   border-radius: 33px;
   background-color: #d1ebfb;
-  /* width: 250px; */
-  /* margin: 25px 0; */
+  /* border-radius: 50%;
+  height: 65px;
+  width: 65px; */
 }
+/* .form__field:nth-child(3) {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  margin-top: 25px;
+} */
 .forgot-password {
   /* margin: 0 0 15px 25px; */
   margin-top: 25px;
@@ -8219,4 +8235,22 @@ html[data-theme="Black"] .burger-menu:not(.burger-menu_active) .burger-menu_line
 }
 .forgot-password a {
   color: #002b71;
+}
+.form__user-icon::before {
+  position: absolute;
+  content: "\e047";
+  font-family: 'icomoon';
+  font-size: 1.1em;
+  color: #fff;
+  left: 9px;
+  top: 9px;
+}
+.form__password-icon::before {
+  position: absolute;
+  content: "\e048";
+  font-family: 'icomoon';
+  font-size: 1.2em;
+  color: #fff;
+  left: 12px;
+  top: 7px;
 }
