@@ -209,3 +209,15 @@ $(document).ready(function(){
         $('.body').addClass('log-in-window');
         });
     });
+
+$(document).ready(function(){
+    $('.burger-menu__tab_sign-up').click(function () {
+        $('.body').addClass('sign-up-tab');
+        });
+    });
+
+$(document).ready(function(){
+    $('.burger-menu__tab_log-in').click(function () {
+        $('.body').removeClass('sign-up-tab');
+        });
+    });
