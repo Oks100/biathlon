@@ -8279,6 +8279,15 @@ html[data-theme="Black"] .burger-menu:not(.burger-menu_active) .burger-menu_line
   left: 12px;
   top: 7px;
 }
+.form__user-icon::before {
+  position: absolute;
+  content: "\e050";
+  font-family: 'icomoon';
+  font-size: 1.1em;
+  color: #fff;
+  left: 12px;
+  top: 7px;
+}
 .burger-menu__sign-up_contant-form {
   display: none;
 }
