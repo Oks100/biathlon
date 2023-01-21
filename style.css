@@ -8242,12 +8242,12 @@ html[data-theme="Black"] .burger-menu:not(.burger-menu_active) .burger-menu_line
   font-family: 'icomoon';
   font-size: 1.1em;
   color: #fff;
-  left: 9px;
-  top: 9px;
+  left: 9.5px;
+  top: 8.5px;
 }
 .form__password-icon::before {
   position: absolute;
-  content: "\e048";
+  content: "\e049";
   font-family: 'icomoon';
   font-size: 1.2em;
   color: #fff;
