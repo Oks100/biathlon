@@ -75,16 +75,16 @@ $(document).ready(function(){
             });
     });
 /*Закрытие по свайпу*/
-    $(function() {
-        $(".burger-menu__layer-background").on("swiperight", swipeHandler);
+    // $(function() {
+    //     $(".burger-menu__layer-background").on("swiperight", swipeHandler);
       
-        function swipeHandler(event) {
-        $(".burger-menu_nav-menu-content").removeClass("new-slide");
-        $(".burger-menu_nav-menu-content").removeClass("new-slide2");
-        $(".burger-menu_nav-menu-content").removeClass("new-slide3");
-        $(".burger-menu_nav-menu-content").removeClass("new-slide4");
-        }
-      });
+    //     function swipeHandler(event) {
+    //     $(".burger-menu_nav-menu-content").removeClass("new-slide");
+    //     $(".burger-menu_nav-menu-content").removeClass("new-slide2");
+    //     $(".burger-menu_nav-menu-content").removeClass("new-slide3");
+    //     $(".burger-menu_nav-menu-content").removeClass("new-slide4");
+    //     }
+    //   });
 /*Закрытие по свайпу*/
 /*Навигация в бургер меню*/
 
@@ -118,7 +118,7 @@ $(document).ready(function(){
 //     $(".layer-toggle").on("swiperight", swipeHandler);
 
 //     function swipeHandler(event) {
-//         $(".body").toggleClass("open-menu");
+//         $('.body').toggleClass('open-menu');
 //         $('.body').toggleClass('overflow');
 //     }
 //   });
@@ -128,19 +128,13 @@ $(document).ready(function(){
 $(function() {
     $(".swipe-area").on("swipeleft", swipeHandler);
     $(".swipe-area").on("swiperight", swipeHandler);
-    // $(".layer-background").on("swipeleft", swipeHandler);
-    // $(".layer-background").on("swiperight", swipeHandler);
-    // $(".layer-toggle").on("swipeleft", swipeHandler);
-    // $(".layer-toggle").on("swiperight", swipeHandler);
   
     function swipeHandler(event) {
-    //   $(event.target).removeClass("right left");
       event.type == 'swipeleft' ? $(".body").toggleClass("open-menu") : $(".body").removeClass("open-menu");
     }
   });
 
   $(function() {
-    // $(".layer-background").on("swipeleft", swipeHandler);
     $(".layer-background").on("swiperight", swipeHandler);
   
     function swipeHandler(event) {
@@ -157,6 +151,19 @@ $(function() {
     }
   });
 /*Закрытие сайдбара по свайпу*/
+
+/*Закрытие слайдов в бургере*/
+$(function() {
+    $(".burger-menu__layer-background").on("swiperight", swipeHandler);
+  
+    function swipeHandler(event) {
+      event.type == 'swipeleft' ? $(".burger-menu_nav-menu-content").toggleClass("new-slide") : $(".burger-menu_nav-menu-content").removeClass("new-slide");
+      event.type == 'swipeleft' ? $(".burger-menu_nav-menu-content").toggleClass("new-slide2") : $(".burger-menu_nav-menu-content").removeClass("new-slide2");
+      event.type == 'swipeleft' ? $(".burger-menu_nav-menu-content").toggleClass("new-slide3") : $(".burger-menu_nav-menu-content").removeClass("new-slide3");
+      event.type == 'swipeleft' ? $(".burger-menu_nav-menu-content").toggleClass("new-slide4") : $(".burger-menu_nav-menu-content").removeClass("new-slide4");
+    }
+  });
+/*Закрытие слайдов в бургере*/
 
 /*Открытие окна уведомлений на мобилке*/
 $(document).ready(function(){
