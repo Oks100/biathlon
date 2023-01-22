@@ -29,6 +29,7 @@
   <script src="https://kit.fontawesome.com/d70cc4a9aa.js" crossorigin="anonymous"></script>
   <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
   <!-- <script src="//code.jquery.com/mobile/1.5.0-alpha.1/jquery.mobile-1.5.0-alpha.1.min.js"></script> -->
+  <script src="https://code.jquery.com/mobile/1.5.0-rc1/jquery.mobile-1.5.0-rc1.min.js"></script>
   <!-- <script src="js/script3.js"></script> -->
 </head>
 
@@ -6183,7 +6184,7 @@
             <span>
               Оповещения
             </span>
-            <a href="#">Пометить все как прочитанные<span class="mobile-notification-number">(2)</span>
+            <a href="#">Пометить все как прочитанные<p class="mobile-notification-number">(2)</p>
             </a>
           </div>
           <div class="mobile-notification__close">
@@ -9370,14 +9371,14 @@
     <div class="burger-menu__log-in_contant-form">
      <!-- <form action="" class="form login" method="post"> -->
         <div class="form__field">
-          <span>Почта</span>
+          <span>Почта:</span>
           <div class="form__input">
           <input type="text" class="e-mail__login" name="email" required="required" placeholder="Введите почту">
           <label class="form__e-mail-icon" for="email"></label>
         </div>
       </div>
         <div class="form__field">
-          <span>Пароль</span>
+          <span>Пароль:</span>
           <div class="form__input">
           <input type="password" class="login__password" name="password" required="required" placeholder="Введите пароль">
           <label class="form__password-icon" for="login__password"></label>
@@ -9393,32 +9394,45 @@
       </div>
       <div class="burger-menu__sign-up_contant-form">
         <div class="form__field">
-          <span>Логин</span>
+          <span>Логин:</span>
           <div class="form__input">
           <input type="text" class="login__username" name="username" required="required" placeholder="Введите логин">
           <label class="form__user-icon" for="login__username"></label>
         </div>
       </div>
       <div class="form__field">
-        <span>Почта</span>
+        <span>Почта:</span>
         <div class="form__input">
-        <input type="text" class="e-mail__login" name="e-mail__login" required="required" placeholder="Введите логин">
-        <label class="form__e-mail-icon" for="e-mail__login"></label>
+          <input type="text" class="e-mail__login" name="email" required="required" placeholder="Введите почту">
+          <label class="form__e-mail-icon" for="email"></label>
       </div>
     </div>
         <div class="form__field">
-          <span>Пароль</span>
+          <span>Пароль:</span>
           <div class="form__input">
           <input type="password" class="login__password" name="password" required="required" placeholder="Введите пароль">
           <label class="form__password-icon" for="login__password"></label>
         </div>
       </div>
       <div class="form__field">
-        <span>Повторите пароль</span>
+        <span>Повторите пароль:</span>
         <div class="form__input">
         <input type="password" class="login__repeat_password" name="password" required="required" placeholder="Повторите пароль">
         <label class="form__password-icon" for="login__password"></label>
       </div>
+    </div>
+    <div class="form__field form__radio-button">
+      <span>Ваш пол:</span>
+      <div class="radio__choice">
+      <input type="radio" id="choice1"
+       name="choice" value="male">
+      <label class="radio-label" for="choice1">Мужской</label>
+    </div>
+    <div class="radio__choice">
+      <input type="radio" id="choice2"
+       name="choice" value="woman">
+      <label class="radio-label" for="choice2">Женский</label>
+    </div>
     </div>
     <div class="form__field">
       <input type="submit" value="Зарегистрироваться" class="enter-button">
