@@ -8204,7 +8204,8 @@ html[data-theme="Black"] .burger-menu:not(.burger-menu_active) .burger-menu_line
   max-width: 200px;
   margin: 0 auto;
   flex-direction: column;
-  margin-top: 35px;
+  /* margin-top: 35px; */
+  margin-top: 28px;
 }
 .burger-menu__log-in_contant-form .form__field:nth-child(3) {
   display: flex;
@@ -8320,14 +8321,14 @@ html[data-theme="Black"] .burger-menu:not(.burger-menu_active) .burger-menu_line
 .burger-menu__sign-up_contant-form {
   display: none;
 }
-.form__radio-button label {
+.form__radio-buttons label {
   color: black;
 }
 .radio__choice:first-of-type {
   margin-bottom: 10px;
 }
 
-.form__radio-button input[type="radio"] {
+/* .form__radio-button input[type="radio"] {
   position: absolute;
   opacity: 0;
 }
@@ -8346,10 +8347,67 @@ html[data-theme="Black"] .burger-menu:not(.burger-menu_active) .burger-menu_line
   margin-top: 7px;
   vertical-align: middle;
   cursor: pointer;
-  /* text-align: center; */
   transition: all .25s ease;
 }
 .form__radio-button input[type="radio"]:checked + .radio-label::before {
   background-color: #b9e4ff;
   box-shadow: inset 0 0 0 4px #fff;
+} */
+
+
+.container55 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+.list55 {
+  flex: 0 0 20rem;
+}
+.list__item55 {
+  position: relative;
+  width: fit-content;
+}
+.list__item55:hover > .label55 {
+  color: #002b71;
+}
+.list__item55:hover > .label55::before {
+  /* border: 3px solid black;
+  margin-right: 2rem; */
+}
+.radio-btn {
+  position: absolute;
+  opacity: 0;
+  visibility: hidden;
+}
+.radio-btn:checked + .label55 {
+  color: #002b71;
+}
+.radio-btn:checked + .label55::before {
+  /* margin-right: 2rem;
+  border: 0.2rem solid #009688; */
+  background: #b9e4ff;
+}
+.radio-btn + .label55::before {
+  background: #fff;
+}
+.label55 {
+  display: flex;
+  align-items: center;
+  padding: 7px 0;
+  cursor: pointer;
+  width: fit-content;
+  /*font-size: 1.25rem;
+  text-transform: uppercase;
+  transition: all 0.25s linear; */
+}
+.label55::before {
+  display: inline-block;
+  content: "";
+  height: 20px;
+  width: 20px;
+  margin-right: 0.625rem;
+  border: 3px solid #bfc6ca;
+  border-radius: 50%;
+  transition: all 0.25s linear;
 }
