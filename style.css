@@ -5626,13 +5626,15 @@ nav, aside {
     /* article.timeline {
       margin: 0 5px;
     }*/
-    .popular-block__search-form input {
+
+    /* .popular-block__search-form input {
       height: 40px;
     }
     .popular-block__search-form button {
       height: 40px;
       width: 40px;
-    }
+    } */
+
     /* .timeline__footer button {
       --height: 40px;
     }
@@ -8324,9 +8326,9 @@ html[data-theme="Black"] .burger-menu:not(.burger-menu_active) .burger-menu_line
 .form__radio-buttons label {
   color: black;
 }
-.radio__choice:first-of-type {
+/* .radio__choice:first-of-type {
   margin-bottom: 10px;
-}
+} */
 
 /* .form__radio-button input[type="radio"] {
   position: absolute;
@@ -8370,10 +8372,7 @@ html[data-theme="Black"] .burger-menu:not(.burger-menu_active) .burger-menu_line
 .form__radio-buttons_list-item:hover > .form__radio-buttons_label {
   color: #002b71 !important;
 }
-.form__radio-buttons_list-item:hover > .form__radio-buttons_label::before {
-  /* border: 3px solid black;
-  margin-right: 2rem; */
-}
+
 .form__radio-buttons_radio-btn {
   position: absolute !important;
   opacity: 0 !important;
