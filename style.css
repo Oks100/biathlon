@@ -8168,7 +8168,7 @@ html[data-theme="Black"] .burger-menu:not(.burger-menu_active) .burger-menu_line
   width: 100%;
   padding: 0px 35px 25px 35px;
 }
-.burger-menu__log-in_contant-form span, .burger-menu__sign-up_contant-form span {
+.string-optional {
   color: black;
   margin-bottom: 10px;
 }
@@ -8365,42 +8365,106 @@ html[data-theme="Black"] .burger-menu:not(.burger-menu_active) .burger-menu_line
 /* .list55 {
   flex: 0 0 20rem;
 } */
-.form__radio-buttons_list-item {
-  position: relative !important;
-  width: fit-content !important;
-}
-.form__radio-buttons_list-item:hover > .form__radio-buttons_label {
-  color: #002b71 !important;
-}
 
-.form__radio-buttons_radio-btn {
-  position: absolute !important;
-  opacity: 0 !important;
-  visibility: hidden !important;
+
+
+/* .form__radio-buttons_list-item {
+  position: relative;
+  width: fit-content;
 }
-.form__radio-buttons_radio-btn:checked + .form__radio-buttons_label {
-  color: #002b71 !important;
+.form__radio-buttons_radio-btn {
+  position: absolute;
+  opacity: 0;
+  visibility: hidden;
 }
 .form__radio-buttons_radio-btn:checked + .form__radio-buttons_label::before {
-  background: #b9e4ff !important;
+  background: #b9e4ff;
+  background-color: #fff;
 }
 .form__radio-buttons_radio-btn + .form__radio-buttons_label::before {
-  background: #fff !important;
+  background: #bfc6ca;
 }
 .form__radio-buttons_label {
-  display: flex !important;
-  align-items: center !important;
-  padding: 7px 0 !important;
-  cursor: pointer !important;
-  width: fit-content !important;
+  display: flex;
+  align-items: center;
+  padding: 7px 0;
+  cursor: pointer;
+  width: fit-content;
 }
 .form__radio-buttons_label::before {
-  display: inline-block !important;
-  content: "" !important;
-  height: 20px !important;
-  width: 20px !important;
-  margin-right: 0.625rem !important;
-  border: 3px solid #bfc6ca !important;
-  border-radius: 50% !important;
-  transition: all 0.25s linear !important;
+  display: inline-block;
+  content: "";
+  height: 17px;
+  width: 17px;
+  margin-right: 10px;
+  border: 3px solid #bfc6ca;
+  border-radius: 50%;
+  transition: all 0.25s linear;
+} */
+
+
+.wrapper1 {
+  display: flex;
+  flex-wrap: wrap;
+  /* background: #bfc6ca; */
+  height: fit-content;
+  width: 100%;
+  /* align-items: center;
+  justify-content: space-evenly;
+  border-radius: 5px;
+  padding: 20px 15px;
+  box-shadow: 5px 5px 30px rgba(0,0,0,0.2); */
+  gap: 10px;
+}
+.wrapper1 .option{
+  background: #fff;
+  height: 40px;
+  width: 130px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  border-radius: 33px;
+  cursor: pointer;
+  padding: 0 10px;
+  border: 1px solid lightgrey;
+  transition: all 0.3s ease;
+}
+.wrapper1 .option .dot{
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  position: relative;
+}
+.wrapper1 .option .dot::before{
+  position: absolute;
+  content: "";
+  top: -2px;
+  left: 4px;
+  width: 12px;
+  height: 12px;
+  font-family: 'icomoon';
+  color: rgba(47, 111, 200, 0.75);
+}
+.option.option-1 .dot::before{
+  content: "\e051";
+  font-size: 1.1em;
+}
+.option.option-2 .dot::before{
+  content: "\e052";
+  font-size: 1.2em;
+}
+input[type="radio"]{
+  display: none;
+}
+#option-1:checked ~ .option-1,
+#option-2:checked ~ .option-2{
+  border-color: #bfc6ca;
+  background: #bfc6ca;
+}
+.wrapper1 .option span{
+  color: black;
+}
+#option-1:checked ~ .option-1 span,
+#option-2:checked ~ .option-2 span{
+  color: #fff;
 }

@@ -9371,14 +9371,14 @@
     <div class="burger-menu__log-in_contant-form">
      <!-- <form action="" class="form login" method="post"> -->
         <div class="form__field">
-          <span>Почта:</span>
+          <span class="string-optional">Почта:</span>
           <div class="form__input">
           <input type="text" class="e-mail__login" name="email" required="required" placeholder="Введите почту">
           <label class="form__e-mail-icon" for="email"></label>
         </div>
       </div>
         <div class="form__field">
-          <span>Пароль:</span>
+          <span class="string-optional">Пароль:</span>
           <div class="form__input">
           <input type="password" class="login__password" name="password" required="required" placeholder="Введите пароль">
           <label class="form__password-icon" for="login__password"></label>
@@ -9394,28 +9394,28 @@
       </div>
       <div class="burger-menu__sign-up_contant-form">
         <div class="form__field">
-          <span>Логин:</span>
+          <span class="string-optional">Логин:</span>
           <div class="form__input">
           <input type="text" class="login__username" name="username" required="required" placeholder="Введите логин">
           <label class="form__user-icon" for="login__username"></label>
         </div>
       </div>
       <div class="form__field">
-        <span>Почта:</span>
+        <span class="string-optional">Почта:</span>
         <div class="form__input">
           <input type="text" class="e-mail__login" name="email" required="required" placeholder="Введите почту">
           <label class="form__e-mail-icon" for="email"></label>
       </div>
     </div>
         <div class="form__field">
-          <span>Пароль:</span>
+          <span class="string-optional">Пароль:</span>
           <div class="form__input">
           <input type="password" class="login__password" name="password" required="required" placeholder="Введите пароль">
           <label class="form__password-icon" for="login__password"></label>
         </div>
       </div>
       <div class="form__field">
-        <span>Повторите пароль:</span>
+        <span class="string-optional">Повторите пароль:</span>
         <div class="form__input">
         <input type="password" class="login__repeat_password" name="password" required="required" placeholder="Повторите пароль">
         <label class="form__password-icon" for="login__password"></label>
@@ -9433,8 +9433,8 @@
        name="choice" value="woman">
       <label class="radio-label" for="choice2">Женский</label>
     </div> -->
-      <span>Ваш пол (необязательно):</span>
-      <ul class="form__radio-buttons_list">
+      <span class="string-optional">Ваш пол (необязательно):</span>
+      <!-- <ul class="form__radio-buttons_list">
         <li class="form__radio-buttons_list-item">
           <input type="radio" class="form__radio-buttons_radio-btn" name="choice" id="a-opt" />
           <label for="a-opt" class="form__radio-buttons_label">Мужской</label>
@@ -9443,7 +9443,19 @@
           <input type="radio" class="form__radio-buttons_radio-btn" name="choice" id="b-opt" />
           <label for="b-opt" class="form__radio-buttons_label">Женский</label>
         </li>
-      </ul>
+      </ul> -->
+      <div class="wrapper1">
+        <input type="radio" name="select" id="option-1" checked>
+        <input type="radio" name="select" id="option-2">
+          <label for="option-1" class="option option-1">
+            <div class="dot"></div>
+             <span>Мужской</span>
+             </label>
+          <label for="option-2" class="option option-2">
+            <div class="dot"></div>
+             <span>Женский</span>
+          </label>
+       </div>
 
     </div>
     <div class="form__field">
