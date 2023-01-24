@@ -8432,8 +8432,10 @@ html[data-theme="Black"] .burger-menu:not(.burger-menu_active) .burger-menu_line
   background-color: #bfc6ca;
 }
 .wrapper1 .option span {
+  color: black;
   padding-left: 12px;
   z-index: 1;
+  transition: all .3s ease;
 }
 .wrapper1 .option .dot::before{
   display: flex;
@@ -8463,7 +8465,14 @@ html[data-theme="Black"] .burger-menu:not(.burger-menu_active) .burger-menu_line
 .wrapper1 #option-2:checked ~ .option-2::before {
   width: calc(100% + 0.5px);
 }
+/* .wrapper1 #option-1:checked ~ .option-1 span,
+.wrapper1 #option-2:checked ~ .option-2 span {
+  color: #fff;
+} */
 
+.wrapper1 #option-1:checked ~ .option-1 span {
+  color: #fff;
+}
 .option.option-1 .dot::before{
   content: "\e051";
   font-size: 1.1em;
@@ -8480,9 +8489,6 @@ input[type="radio"]{
   border-color: #bfc6ca;
   background: #bfc6ca;
 } */
-.wrapper1 .option span{
-  color: black;
-}
 /* #option-1:checked:checked ~ .option-1 span,
 #option-2:checked:checked ~ .option-2 span{
   mix-blend-mode: difference;
