@@ -212,6 +212,12 @@ $(document).ready(function(){
     });
 
 $(document).ready(function(){
+    $('.sign-up').click(function () {
+        $('.body').addClass('log-in-window sign-up-tab');
+        });
+    });
+
+$(document).ready(function(){
     $('.log-in').click(function () {
         $('.body').addClass('log-in-window');
         });
@@ -226,5 +232,11 @@ $(document).ready(function(){
 $(document).ready(function(){
     $('.burger-menu__tab_log-in').click(function () {
         $('.body').removeClass('sign-up-tab');
+        });
+    });
+
+$(document).ready(function(){
+    $('.burger-menu__log-in-menu_close').click(function () {
+        $('.body').removeClass('log-in-window sign-up-tab');
         });
     });
