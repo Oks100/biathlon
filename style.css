@@ -8115,6 +8115,37 @@ html[data-theme="Black"] .burger-menu:not(.burger-menu_active) .burger-menu_line
   z-index: 201;
   background-color: #e7f3fa;
 }
+
+.burger-menu__log-in-menu_head {
+  display: flex;
+  height: 60.4px;
+  position: relative;
+}
+.burger-menu__log-in-menu_close {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  top: 11px;
+  right: 10px;
+  cursor: pointer;
+}
+.burger-menu__log-in-menu_close::before, .burger-menu__log-in-menu_close::after {
+  position: absolute;
+  content: "";
+  height: 2px;
+  width: 25px;
+  right: 7px;
+  background-color: #1f73cc;
+}
+.burger-menu__log-in-menu_close::before {
+  transform: rotate(45deg);
+}
+.burger-menu__log-in-menu_close::after {
+  transform: rotate(-45deg);
+}
+
 .burger-menu__log-in_body {
   padding: 15px;
 }
@@ -8131,7 +8162,7 @@ html[data-theme="Black"] .burger-menu:not(.burger-menu_active) .burger-menu_line
   justify-content: center;
   color: black;
   padding: 12px 10px;
-  border-bottom: 1px solid #d0d9dd;
+  /* border-bottom: 1px solid #d0d9dd; */
 }
 .body.log-in-window .burger-menu__tab_log-in {
   border-bottom-color: transparent;
@@ -8180,7 +8211,7 @@ html[data-theme="Black"] .burger-menu:not(.burger-menu_active) .burger-menu_line
 }
 .body.sign-up-tab .burger-menu__tab_sign-up {
   background-color: #fff;
-  border-bottom: 1px solid transparent;
+  /* border-bottom: 1px solid transparent; */
 }
 /* .form.login {
   display: flex;
@@ -8230,6 +8261,9 @@ html[data-theme="Black"] .burger-menu:not(.burger-menu_active) .burger-menu_line
   top: -0.5px;
   position: absolute;
   transition: all 0.4s ease-in-out;
+  /* display: flex;
+  align-items: center;
+  justify-content: center; */
 }
 .login__username, .login__password {
 
