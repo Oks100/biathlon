@@ -8403,17 +8403,13 @@ html[data-theme="Black"] .burger-menu:not(.burger-menu_active) .burger-menu_line
 } */
 
 
+
+
 .wrapper1 {
   display: flex;
   flex-wrap: wrap;
-  /* background: #bfc6ca; */
   height: fit-content;
   width: 100%;
-  /* align-items: center;
-  justify-content: space-evenly;
-  border-radius: 5px;
-  padding: 20px 15px;
-  box-shadow: 5px 5px 30px rgba(0,0,0,0.2); */
   gap: 10px;
 }
 .wrapper1 .option{
@@ -8422,29 +8418,52 @@ html[data-theme="Black"] .burger-menu:not(.burger-menu_active) .burger-menu_line
   width: 130px;
   display: flex;
   align-items: center;
-  justify-content: space-evenly;
   border-radius: 33px;
   cursor: pointer;
-  padding: 0 10px;
-  border: 1px solid lightgrey;
-  transition: all 0.3s ease;
-}
-.wrapper1 .option .dot{
-  height: 20px;
-  width: 20px;
-  border-radius: 50%;
+  border: 1px solid #bfc6ca;
   position: relative;
 }
-.wrapper1 .option .dot::before{
-  position: absolute;
-  content: "";
-  top: -2px;
-  left: 4px;
-  width: 12px;
-  height: 12px;
-  font-family: 'icomoon';
-  color: rgba(47, 111, 200, 0.75);
+.wrapper1 .option .dot{
+  left: -0.5px;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  position: relative;
+  background-color: #bfc6ca;
 }
+.wrapper1 .option span {
+  padding-left: 12px;
+  z-index: 1;
+}
+.wrapper1 .option .dot::before{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  content: "";
+  top: 10px;
+  left: 12px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  font-family: 'icomoon';
+  color: #fff;
+}
+
+.option::before {
+  content: '';
+  position: absolute;
+  left: -0px;
+  width: 40px;
+  height: 40px;
+  background-color: #bfc6ca;
+  border-radius: 33px;
+  transition: all .4s ease;
+}
+.wrapper1 #option-1:checked ~ .option-1::before,
+.wrapper1 #option-2:checked ~ .option-2::before {
+  width: calc(100% + 0.5px);
+}
+
 .option.option-1 .dot::before{
   content: "\e051";
   font-size: 1.1em;
@@ -8456,15 +8475,15 @@ html[data-theme="Black"] .burger-menu:not(.burger-menu_active) .burger-menu_line
 input[type="radio"]{
   display: none;
 }
-#option-1:checked ~ .option-1,
+/* #option-1:checked ~ .option-1,
 #option-2:checked ~ .option-2{
   border-color: #bfc6ca;
   background: #bfc6ca;
-}
+} */
 .wrapper1 .option span{
   color: black;
 }
-#option-1:checked ~ .option-1 span,
-#option-2:checked ~ .option-2 span{
-  color: #fff;
-}
+/* #option-1:checked:checked ~ .option-1 span,
+#option-2:checked:checked ~ .option-2 span{
+  mix-blend-mode: difference;
+} */
