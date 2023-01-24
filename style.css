@@ -8147,7 +8147,7 @@ html[data-theme="Black"] .burger-menu:not(.burger-menu_active) .burger-menu_line
 }
 
 .burger-menu__log-in_body {
-  padding: 15px;
+  padding: 0px 15px 15px 15px;
 }
 .burger-menu__tabs {
   display: flex;
