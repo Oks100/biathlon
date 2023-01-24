@@ -8435,7 +8435,6 @@ html[data-theme="Black"] .burger-menu:not(.burger-menu_active) .burger-menu_line
   color: black;
   padding-left: 12px;
   z-index: 1;
-  transition: all .3s ease;
 }
 .wrapper1 .option .dot::before{
   display: flex;
@@ -8469,10 +8468,6 @@ html[data-theme="Black"] .burger-menu:not(.burger-menu_active) .burger-menu_line
 .wrapper1 #option-2:checked ~ .option-2 span {
   color: #fff;
 } */
-
-.wrapper1 #option-1:checked ~ .option-1 span {
-  color: #fff;
-}
 .option.option-1 .dot::before{
   content: "\e051";
   font-size: 1.1em;
