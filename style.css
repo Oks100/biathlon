@@ -6214,6 +6214,7 @@ nav, aside {
     /* border: 1px solid black; */
     background-color: #d1ebfb;
     color: #002b71;
+    cursor: pointer;
   }
   .exit-no {
     display: flex;
@@ -6224,6 +6225,7 @@ nav, aside {
     border-radius: 30px;
     color: #002b71;
     border: 2px solid #d1ebfb;
+    cursor: pointer;
   }
 
 
@@ -8090,6 +8092,8 @@ html[data-theme="Black"] .burger-menu:not(.burger-menu_active) .burger-menu_line
   width: calc(100% - 85px);
   /* max-width: 250px; */
   max-width: 225px;
+  min-width: 180px;
+  cursor: pointer;
 }
 .sign-up {
   border: 2px solid #b9e4ff;
@@ -8112,7 +8116,7 @@ html[data-theme="Black"] .burger-menu:not(.burger-menu_active) .burger-menu_line
   left: 0;
   width: 100%;
   height: 100%;
-  z-index: 201;
+  z-index: 20;
   background-color: #e7f3fa;
 }
 
@@ -8148,6 +8152,10 @@ html[data-theme="Black"] .burger-menu:not(.burger-menu_active) .burger-menu_line
 
 .burger-menu__log-in_body {
   padding: 0px 15px 15px 15px;
+  overflow: scroll;
+  /* height: calc(100vh - 85px);
+  height: 100vh; */
+  height: 89%;
 }
 .burger-menu__tabs {
   display: flex;
@@ -8185,6 +8193,8 @@ html[data-theme="Black"] .burger-menu:not(.burger-menu_active) .burger-menu_line
   padding: 1.2px 0.9px;
   background-color: #fff;
   border-radius: 3px;
+  /* height: 635.4px;
+  overflow: scroll; */
 }
 .burger-menu__log-in_contant-form {
   display: flex;
