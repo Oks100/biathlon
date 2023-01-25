@@ -208,6 +208,7 @@ $(document).ready(function(){
 $(document).ready(function(){
     $('.exit-yes').click(function () {
         $('.body').addClass('guest');
+        $('.body').removeClass('log-in-entered');
         });
     });
 
@@ -220,6 +221,7 @@ $(document).ready(function(){
 $(document).ready(function(){
     $('.log-in').click(function () {
         $('.body').addClass('log-in-window');
+        $('.body').removeClass('log-in-confirmed');
         });
     });
 
@@ -238,5 +240,25 @@ $(document).ready(function(){
 $(document).ready(function(){
     $('.burger-menu__log-in-menu_close').click(function () {
         $('.body').removeClass('log-in-window sign-up-tab');
+        });
+    });
+
+$(document).ready(function(){
+    $('.burger-menu__enter-button').click(function () {
+        $('.body').addClass('log-in-entered');
+        $('.body').removeClass('guest');
+        });
+    });
+
+$(document).ready(function(){
+    $('.burger-menu__log-in_button-exit').click(function () {
+        $('.body').removeClass('log-in-entered');
+        $('.body').addClass('guest');
+        });
+    });
+
+$(document).ready(function(){
+    $('.sign-up-button').click(function () {
+        $('.body').addClass('log-in-confirmed');
         });
     });
