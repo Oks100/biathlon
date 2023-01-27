@@ -4748,6 +4748,7 @@ footer.footer .footer__column a:hover, footer.footer .footer__bottom-text a:hove
   height: 100%;
   width: 3.5px;
   left: 0;
+  scale: 1;
 }
 .footer__column span, .footer__title span {
   font-size: 1.3em;
