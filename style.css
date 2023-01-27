@@ -2120,7 +2120,7 @@ body {
   } */
   .burger-menu__profile-messange span {
     position: absolute;
-    top: 4.2px;
+    top: 5px;
     right: 2px;
     display: flex;
     height: 15px;
@@ -5892,7 +5892,7 @@ nav, aside {
 
     .header__mobile-number-massage2 {
       position: absolute;
-      top: 1px;
+      top: 2px;
       right: -1.5px;
     }
     .header__mobile-number-massage2 span {
