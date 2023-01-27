@@ -1110,6 +1110,11 @@ body {
   justify-content: space-between;
   flex-wrap: wrap;
   gap: 5px 10px;
+}
+.timer__more-item .timer__more-information.last {
+  margin-top: 5px;
+}
+.mobile-timer__more-events-content .timer__more-information.last {
   line-height: 30.2px;
 }
 .timer__more-result, .timer__more-translation {
@@ -1393,7 +1398,7 @@ body {
   padding: 10px 10px 10px 6px !important;
 }
 .mobile-notification__item.user-item, .mobile-notification__item.admin-item {
-  padding: 10px 15px 10px 11px !important;
+  padding: 10px 15px 5px 11px !important;
 }
 .header__notifications_item.user-item:hover {
   background-color: #d8ebf7;
@@ -6469,9 +6474,15 @@ nav, aside {
     flex-direction: row;
     line-height: 23px;
     justify-content: space-between;
-    margin-top: 5px;
+    /* margin-top: 5px; */
     flex-wrap: wrap;
     gap: 0 15px;
+  }
+  .header__notifications_item .mobile-notification__time {
+    margin-top: 5px;
+  }
+  .mobile-notification__item .mobile-notification__time {
+    line-height: 31px;
   }
   .mobile-notification__time a, .mobile-notification__head-content a {
     color: #002b71 !important;
