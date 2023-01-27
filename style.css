@@ -4782,6 +4782,7 @@ footer.footer .footer__column a:hover, footer.footer .footer__bottom-text a:hove
   transition: all 0.3s ease;
   position: absolute;
   left: 0px;
+  scale: 1;
 }
 .footer__column ul li a {
   margin-left: 14px;
