@@ -1098,9 +1098,9 @@ body {
   display: flex;
   flex-direction: row;
 } */
-.mobile-timer__more-events-content .timer__more-item .timer__more-information:last-of-type, .mobile-timer__more-events-content .mobile-timer__more-events-content-group .timer__more-information:last-of-type {
+/* .timer__more_info .timer__more-information:last-of-type {
   margin-top: 5px;
-}
+} */
 .timer__more-information img {
   margin-right: 4px;
 }
@@ -1110,13 +1110,14 @@ body {
   justify-content: space-between;
   flex-wrap: wrap;
   gap: 5px 10px;
+  line-height: 30.2px;
 }
 .timer__more-result, .timer__more-translation {
   color: #002b71;
   position: relative;
 }
 .mobile-timer__more-events-content .timer__more-result, .mobile-timer__more-events-content .timer__more-translation {
-  padding: 5px 0;
+  /* padding: 5px 0; */
 }
 .timer__more-result:hover, .timer__more-translation:hover {
   color: #73b5e5;
@@ -1424,13 +1425,13 @@ body {
   top: 5px;
   right: 7px;
   content: '';
-  background-image: url(img/answ2.png);
+  background-image: url(img/answ4.svg);
   /* width: 18px;
   height: 19px; */
   width: 17.5px;
   height: 18px;
   background-size: cover;
-  -webkit-transform: translateZ(1px); /* Фикс отсутствия поддержки Хромом сглаживания через image-rendering */
+  /* -webkit-transform: translateZ(1px); */
   /* -webkit-filter: blur(0.4px); Фикс отсутствия поддержки Хромом сглаживания через image-rendering */
 }
 .notification__img.admin::after {
@@ -1438,11 +1439,11 @@ body {
   top: 5px;
   right: 7px;
   content: '';
-  background-image: url(img/exclamation-mark.png);
+  background-image: url(img/exclamation-mark.svg);
   width: 17.5px;
   height: 18px;
   background-size: cover;
-  -webkit-transform: translateZ(1px);
+  /* -webkit-transform: translateZ(1px); */
   /* -webkit-filter: blur(0.4px); Фикс отсутствия поддержки Хромом сглаживания через image-rendering */
 }
 .notification__img:before {
@@ -5869,7 +5870,7 @@ nav, aside {
     .header__mobile-link-massage2::before {
       content: "\e001";
       font-family: 'icomoon';
-      font-size: 1.48em;
+      font-size: 1.4em;
       color: #fff;
       /* animation: bell 2s ease-in 0.5s infinite alternate; */
     }
@@ -6435,7 +6436,7 @@ nav, aside {
     top: 8px;
     right: 8px;
     content: '';
-    background-image: url(img/answ2.png);
+    background-image: url(img/answ4.svg);
     width: 18px;
     height: 19px;
     background-size: cover;
@@ -6445,7 +6446,7 @@ nav, aside {
     top: 8px;
     right: 8px;
     content: '';
-    background-image: url(img/exclamation-mark.png);
+    background-image: url(img/exclamation-mark.svg);
     width: 18px;
     height: 19px;
     background-size: cover;
@@ -6655,7 +6656,7 @@ nav, aside {
     margin-top: 5px;
   } */
   .mobile-timer__more-events-content .timer__more-timer {
-    padding: 5px 0;
+    /* padding: 5px 0; */
   }
   .timer__more-result::before {
     content: "\e044";
@@ -7396,7 +7397,10 @@ html[data-theme="dark"] #back-to-top-button::after {
   transition: all .4s ease;
 }
 html[data-theme="dark"] .notification__img.woman-user::after, html[data-theme='dark'] html[data-theme="dark"] .notification__img.unknow-user::before, html[data-theme="dark"] .notification__img.male-user::after, html[data-theme="dark"] .mobile-notification__img.woman-user::after, html[data-theme="dark"] .mobile-notification__img.male-user::after {
-  background-image: url(img/answ2-dark.png);
+  background-image: url(img/answ4-dark.svg);
+}
+html[data-theme="dark"] .notification__img.admin::after, html[data-theme="dark"] .mobile-notification__img.admin::after {
+  background-image: url(img/exclamation-mark-dark.svg);
 }
 html[data-theme="dark"] .burger-menu__socials-facebook a::before, html[data-theme="dark"] .burger-menu__socials-twitter a::before, html[data-theme="dark"] .burger-menu__socials-instagram a::before, html[data-theme="dark"] .burger-menu__socials-telegram a::before, html[data-theme="dark"] .burger-menu__socials-youtube a::before {
   text-shadow: none;
@@ -8070,7 +8074,10 @@ html[data-theme="Black"] .burger-menu_active .burger-menu_lines, html[data-theme
   background-color: #1f73cc;
 }
 html[data-theme="Black"] .notification__img.woman-user::after, html[data-theme="Black"] .notification__img.unknow-user::after, html[data-theme="Black"] .notification__img.male-user::after, html[data-theme="Black"] .mobile-notification__img.woman-user::after, html[data-theme="Black"] .mobile-notification__img.unknow-user::after, html[data-theme="Black"] .mobile-notification__img.male-user::after {
-  background-image: url(img/answ2-black.png);
+  background-image: url(img/answ4-black.svg);
+}
+html[data-theme="Black"] .notification__img.admin::after, html[data-theme="Black"] .mobile-notification__img.admin::after {
+  background-image: url(img/exclamation-mark-black.svg);
 }
 html[data-theme="Black"] .burger-menu__socials-facebook a::before, html[data-theme="Black"] .burger-menu__socials-twitter a::before, html[data-theme="Black"] .burger-menu__socials-instagram a::before, html[data-theme="Black"] .burger-menu__socials-telegram a::before, html[data-theme="Black"] .burger-menu__socials-youtube a::before {
   text-shadow: none;
@@ -8235,20 +8242,20 @@ html[data-theme="Black"] .burger-menu:not(.burger-menu_active) .burger-menu_line
   flex-direction: column;
   justify-content: center;
   width: 100%;
-  padding: 0px 35px 25px 35px;
+  padding: 0px 30px 25px 30px;
 }
 .body.sign-up-tab .burger-menu__sign-up_contant-form {
   display: flex;
   flex-direction: column;
   justify-content: center;
   width: 100%;
-  padding: 0px 35px 25px 35px;
+  padding: 0px 30px 25px 30px;
 }
 .burger-menu__sign-up_confirmed {
   flex-direction: column;
   justify-content: center;
   width: 100%;
-  padding: 25px 35px 25px 35px;
+  padding: 25px 30px 25px 30px;
   display: none;
 }
 .body.log-in-confirmed .burger-menu__sign-up_confirmed {
@@ -8517,7 +8524,7 @@ html[data-theme="Black"] .burger-menu:not(.burger-menu_active) .burger-menu_line
 .wrapper1 .option{
   background: #fff;
   height: 40px;
-  width: 130px;
+  width: 140px;
   display: flex;
   align-items: center;
   border-radius: 33px;
@@ -8610,7 +8617,7 @@ input[type="radio"]{
   flex-direction: column;
   justify-content: center;
   width: 100%;
-  padding: 25px 35px 25px 35px;
+  padding: 25px 30px 25px 30px;
 }
 .burger-menu__log-in_contant-entered span {
   color: black;
