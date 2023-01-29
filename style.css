@@ -2170,9 +2170,8 @@ body {
   }
   .burger-menu_nav-menu a:not(.burger-menu__tabs) {
     display: flex;
-    padding: 12.1px 0;
+    height: 45px;
   }
-  
   .burger-menu_nav-more.more4, .urger-menu__new-slide.slide1 .burger-menu__new-slide_list li:last-of-type a {
     padding: 14.8px 0 !important;
   }
