@@ -2170,7 +2170,7 @@ body {
   }
   .burger-menu_nav-menu a:not(.burger-menu__tabs) {
     display: flex;
-    padding: 14.4px 0;
+    padding: 12.1px 0;
   }
   
   .burger-menu_nav-more.more4, .urger-menu__new-slide.slide1 .burger-menu__new-slide_list li:last-of-type a {
@@ -2195,7 +2195,6 @@ body {
   .burger-menu_nav-menu-list2 {
     display: none;
   }
-  
   .burger-menu_nav-menu-list2.active {
     display: block;
   }
@@ -8386,6 +8385,7 @@ html[data-theme="Black"] .burger-menu:not(.burger-menu_active) .burger-menu_line
   height: 100%;
   width: 100%;
   position: relative;
+  background-color: #f3f6f7;
 }
 .e-mail__login:focus::-moz-placeholder, .login__password:focus::-moz-placeholder { 
   color: transparent;
@@ -8549,7 +8549,7 @@ html[data-theme="Black"] .burger-menu:not(.burger-menu_active) .burger-menu_line
   gap: 10px;
 }
 .wrapper1 .option{
-  background: #fff;
+  background-color: #f3f6f7;
   height: 40px;
   width: 140px;
   display: flex;
