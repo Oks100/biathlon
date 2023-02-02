@@ -213,11 +213,11 @@ body {
   .header__logo {
     position: relative;
   }
-  .header__logo a img {
+  .header__logo_body img {
     display: block;
     width: 100%;
   }
-  .header__logo a {
+  .header__logo_body {
     display: block;
     width: 340.083px;
   }
@@ -226,6 +226,14 @@ body {
     top: 0;
     right: 0;
     cursor: crosshair;
+  }
+  .header__logo .socials a {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    cursor: crosshair;
+    justify-content: center;
+    align-items: center;
   }
   /*.header__logo .socials__body {
     display: flex;
@@ -404,6 +412,14 @@ body {
   }
 } 
 
+.header__logo .socials .facebook:hover a::before, 
+.header__logo .socials .twitter:hover a::before,
+.header__logo .socials .instagram:hover a::before,
+.header__logo .socials .telegram:hover a::before,
+.header__logo .socials .youtube:hover a::before {
+  scale: 1.1;
+}
+
   .header__logo .socials .facebook:hover, 
   .header__logo .socials .twitter:hover,
   .header__logo .socials .instagram:hover,
@@ -463,51 +479,47 @@ body {
     font-family: 'FontAwesome';
     /* font-size: 19px; */
     font-size: 17.5px;
-    padding: 6px;
+    /* padding: 6px; */
     justify-content: center;
     display: flex;
     color: #fff;
-    cursor: crosshair;
-    scale: 1;
+    /* cursor: crosshair; */
   }
   .header__logo .socials .twitter a::before {
     content: "\f099";
     font-family: 'FontAwesome';
     /* font-size: 19px; */
     font-size: 17.5px;
-    padding: 6px;
+    /* padding: 6px; */
     justify-content: center;
     display: flex;
     color: #fff;
-    cursor: crosshair;
-    scale: 1;
+    /* cursor: crosshair; */
   }
   .header__logo .socials .instagram a::before {
     content: "\f16d";
     font-family: 'FontAwesome';
     /* font-size: 19px; */
     font-size: 17.5px;
-    padding: 6px;
+    /* padding: 6px; */
     justify-content: center;
     display: flex;
     color: #fff;
-    cursor: crosshair;
-    scale: 1;
+    /* cursor: crosshair; */
   }
   .header__logo .socials .telegram a::before {
     display: flex;
     content: "\e917";
     /* font-size: 23px; */
     font-size: 21.5px;
-    padding: 6px;
+    /* padding: 6px; */
     justify-content: center;
     color: #fff;
     margin-left: -2px;
     margin-top: -1px;
-    cursor: crosshair;
+    /* cursor: crosshair; */
     content: "\f2c6";
     font-family: 'Line Awesome Brands';
-    scale: 1;
   }
   .header__logo .socials .youtube a::before {
     content: "\f167";
@@ -516,12 +528,11 @@ body {
     font-size: 17.5px;
     margin-top: -0.5px;
     /* margin-left: -1.5px; */
-    padding: 6px;
+    /* padding: 6px; */
     justify-content: center;
     display: flex;
     color: #fff;
-    cursor: crosshair;
-    scale: 1;
+    /* cursor: crosshair; */
   }
   .header__logo .socials .twitter {
     width: 33px;
@@ -888,7 +899,7 @@ body {
   color: white;
 }
 .timer__data {
-  line-height: 41px;
+  height: 45px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -1091,7 +1102,8 @@ body {
   border: none;
 }
 .timer__more-body {
-  height: 337px;
+  /* height: 337px; */
+  height: 322px;
   overflow: auto;
 }
 /* .timer__items {
@@ -1347,7 +1359,8 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 10px;
+  padding: 0 10px;
+  height: 45px;
   /* border-bottom: 1px solid #dce9f0; */
   /* box-shadow: 0 1px 6px 0 rgba(32, 33, 36, 0.28); */
   box-shadow: 0px 5px 8px 0px rgba(50, 50, 50, 0.15);
@@ -7020,7 +7033,7 @@ html[data-theme='dark'] .timeline__item, html[data-theme='dark'] .timeline__body
   background-color: #202124;
   color: #e1e1e1;
 }
-html[data-theme='dark'] .sign-up, html[data-theme='dark'] .burger-menu__log-in_contant, html[data-theme='dark'] .body.log-in-confirmed .burger-menu__sign-up_confirmed, html[data-theme='dark'] .body.log-in-entered .burger-menu__log-in_contant-entered, html[data-theme='dark'] .body.sign-up-tab .burger-menu__tab_sign-up, html[data-theme='dark'] .body.sign-up-tab .burger-menu__sign-up_contant-form, html[data-theme='dark'] .burger-menu__tab_log-in, html[data-theme='dark'] .burger-menu__log-in_contant-form, html[data-theme='dark'] .body.confirmation-menu .burger-menu__confirmation-menu_body, html[data-theme='dark'] .burger-menu__new-slide, html[data-theme='dark'] .burger-menu_nav-menu-list2 {
+html[data-theme='dark'] .sign-up, html[data-theme='dark'] .burger-menu__log-in_contant, html[data-theme='dark'] .body.log-in-confirmed .burger-menu__sign-up_confirmed, html[data-theme='dark'] .body.log-in-entered .burger-menu__log-in_contant-entered, html[data-theme='dark'] .body.sign-up-tab .burger-menu__tab_sign-up, html[data-theme='dark'] .body.sign-up-tab .burger-menu__sign-up_contant-form, html[data-theme='dark'] .burger-menu__tab_log-in, html[data-theme='dark'] .burger-menu__log-in_contant-form, html[data-theme='dark'] .burger-menu__confirmation-menu, html[data-theme='dark'] .burger-menu__new-slide, html[data-theme='dark'] .burger-menu_nav-menu-list2 {
   background-color: #202124;
 }
 html[data-theme='dark'] .burger-menu__tab.active {
@@ -7045,8 +7058,11 @@ html[data-theme='dark'] .form__input, html[data-theme='dark'] .wrapper1 .option 
   border-color: #444649;
 }
 html[data-theme='dark'] .wrapper1 .option, html[data-theme='dark'] .login__username, html[data-theme='dark'] .login__password, html[data-theme='dark'] .e-mail__login, html[data-theme='dark'] .login__repeat_password {
-  background-color: #242526;
+  /* background-color: #242526; */
   color: #e1e1e1;
+}
+html[data-theme='dark'] .form__input input:focus {
+  background-color: #242526;
 }
 html[data-theme='dark'] .forgot-password a, html[data-theme='dark'] .enter-button, html[data-theme='dark'] .log-in, html[data-theme='dark'] .sign-up, html[data-theme='dark'] .exit-no, html[data-theme='dark'] .exit-yes, html[data-theme='dark'] .burger-menu__content a, html[data-theme='dark'] main a, html[data-theme='dark'] .timeline__footer button {
   color: #abcbff;
@@ -7717,6 +7733,9 @@ html[data-theme="summer"] .option::before, html[data-theme="summer"] .wrapper1 .
 html[data-theme="summer"] .form__input input:focus {
   background-color: #fffbf3;
 }
+.form__input input {
+  transition: all .4s ease-in-out;
+}
 
 /* html[data-theme="summer"] .table__one, html[data-theme="summer"] .table__two {
   border-color: #bfbbb2;
@@ -7756,14 +7775,17 @@ html[data-theme="Black"] .body.log-in-window .burger-menu__log-in-menu, html[dat
   /* background-color: #000; */
   background-color: #0f0f0f;
 }
-html[data-theme='Black'] .body.confirmation-menu .burger-menu__confirmation-menu_body, html[data-theme='Black'] .timeline__item, html[data-theme='Black'] .important-news__news-spoiler {
+html[data-theme='Black'] .burger-menu__confirmation-menu, html[data-theme='Black'] .timeline__item, html[data-theme='Black'] .important-news__news-spoiler {
   background-color: #121212;
 }
 html[data-theme='Black'] .wrapper1 .option .dot::before, html[data-theme='Black'] .form__user-icon::before, html[data-theme='Black'] .form__password-icon::before, html[data-theme='Black'] .form__e-mail-icon::before, html[data-theme='Black'] .wrapper1 .option span, html[data-theme='Black'] .login__username, html[data-theme='Black'] .login__password, html[data-theme='Black'] .e-mail__login, html[data-theme='Black'] .login__repeat_password, html[data-theme='Black'] .burger-menu__log-in_contant-entered span, html[data-theme="Black"] .burger-menu__sign-up_confirmed span, html[data-theme="Black"] .string-optional, html[data-theme="Black"] .burger-menu__tabs span, html[data-theme="Black"] .burger-menu__confirmation-menu_text span, html[data-theme="Black"] .mobile-notification__head-content a p, html[data-theme="Black"] .burger-menu_nav-menu a, html[data-theme="Black"] .burger-menu__profile-messange span, html[data-theme="Black"] .burger-menu_nav-menu-content li .burger-menu_nav-more .list-number, html[data-theme="Black"] .mobile-timer__more-events-button, html[data-theme="Black"] .mobile-timer__more-events-window, html[data-theme="Black"] .mobile-timer__more-events_head-content span, html[data-theme="Black"] .mobile-notification__more-button, html[data-theme="Black"] .mobile-notification-window span, html[data-theme="Black"] .header__mobile-number-massage2 span, html[data-theme="Black"] .header__mobile-link-massage2::before, html[data-theme="Black"] .wrapper, html[data-theme="Black"] .mobile-timer__more-events, html[data-theme="Black"] .item__addition::before, html[data-theme="Black"] .select__list2, html[data-theme='Black'] .timeline-sponsors__head span, html[data-theme='Black'] .dropdown-content li, html[data-theme='Black'] .dropbtn, html[data-theme='Black'] .footer__column span, html[data-theme='Black'] .footer__title span, html[data-theme='Black'] .footer__column span, html[data-theme='Black'] .footer a, html[data-theme='Black'] .select__list, html[data-theme='Black'] .header-menu .header-menu__list a, html[data-theme='Black'] .dropdown__button::after, html[data-theme='Black'] .dropdown__button, html[data-theme='Black'] .header__massages span a, html[data-theme='Black'] .header__menu-body, html[data-theme='Black'] .tippy-content, html[data-theme='Black'] .timeline__comments span + span, html[data-theme='Black'] .timeline__head a, html[data-theme='Black'] .timeline, html[data-theme='Black'] nav, html[data-theme='Black'] aside, html[data-theme='Black'] .comment-block__rumor, html[data-theme='Black'] .popular-block__search-form input, html[data-theme='Black'] .footer__telegram::before {
   /* color: #bdc1c6; */
   color: #c9ccd0;
 }
-html[data-theme='Black'] .wrapper1 .option, html[data-theme='Black'] .login__username, html[data-theme='Black'] .login__password, html[data-theme='Black'] .e-mail__login, html[data-theme='Black'] .login__repeat_password {
+/* html[data-theme='Black'] .wrapper1 .option, html[data-theme='Black'] .login__username, html[data-theme='Black'] .login__password, html[data-theme='Black'] .e-mail__login, html[data-theme='Black'] .login__repeat_password {
+  background-color: #202122;
+} */
+html[data-theme='Black'] .form__input input:focus {
   background-color: #202122;
 }
 html[data-theme='Black'] .burger-menu .burger-menu_lines, html[data-theme='Black'] .burger-menu .burger-menu_lines::after, html[data-theme='Black'] .burger-menu .burger-menu_lines::before {
@@ -8581,7 +8603,8 @@ html[data-theme="Black"] .burger-menu:not(.burger-menu_active) .burger-menu_line
   justify-content: space-between;
 }
 .wrapper1 .option{
-  background-color: #f3f6f7;
+  /* background-color: #f3f6f7; */
+  background-color: transparent;
   height: 40px;
   width: 140px;
   display: flex;
