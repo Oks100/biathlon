@@ -7673,7 +7673,7 @@ html[data-theme="summer"] .table__two tbody .active-biathlete td:not(.table0_100
 html[data-theme="summer"] .footer__warning p, html[data-theme="summer"] .footer__address, html[data-theme="summer"] .footer__rights ,html[data-theme="summer"] .footer__copyright {
   color: #e7ffe6;
 }
-html[data-theme="summer"] .burger-menu__log-in_contant, html[data-theme="summer"] .sign-up, html[data-theme="summer"] .mobile-notification-active .mobile-notification-window, html[data-theme="summer"] .burger-menu__new-slide, html[data-theme="summer"] .burger-menu_nav-menu-list2, html[data-theme="summer"] .mobile-notification__all, html[data-theme="summer"] .mobile-notification__head, html[data-theme="summer"] .mobile-timer__more-events__all, html[data-theme="summer"] .mobile-timer__more-events__head, html[data-theme="summer"] .mobile-timer__more-events-active .mobile-timer__more-events-window, html[data-theme="summer"] .select__list2, html[data-theme="summer"] .popular-block__search-form input, html[data-theme="summer"] .comment-block .comment-block__rumor, html[data-theme="summer"] .select__list, html[data-theme="summer"] .dropdown__box, html[data-theme="summer"] .dropdown-content, html[data-theme="summer"] .tippy-content, html[data-theme="summer"] .timeline__item, html[data-theme="summer"] .timeline__body-important-news, html[data-theme="summer"] .vertical-menu-block__body .vertical-menu-block__list li, html[data-theme='Black'] .comment-block .comment-block__rumor, html[data-theme='Black'] .popular-block__search-form input {
+html[data-theme="summer"] .body.sign-up-tab .burger-menu__tab_sign-up, html[data-theme="summer"] .burger-menu__log-in_contant, html[data-theme="summer"] .sign-up, html[data-theme="summer"] .mobile-notification-active .mobile-notification-window, html[data-theme="summer"] .burger-menu__new-slide, html[data-theme="summer"] .burger-menu_nav-menu-list2, html[data-theme="summer"] .mobile-notification__all, html[data-theme="summer"] .mobile-notification__head, html[data-theme="summer"] .mobile-timer__more-events__all, html[data-theme="summer"] .mobile-timer__more-events__head, html[data-theme="summer"] .mobile-timer__more-events-active .mobile-timer__more-events-window, html[data-theme="summer"] .select__list2, html[data-theme="summer"] .popular-block__search-form input, html[data-theme="summer"] .comment-block .comment-block__rumor, html[data-theme="summer"] .select__list, html[data-theme="summer"] .dropdown__box, html[data-theme="summer"] .dropdown-content, html[data-theme="summer"] .tippy-content, html[data-theme="summer"] .timeline__item, html[data-theme="summer"] .timeline__body-important-news, html[data-theme="summer"] .vertical-menu-block__body .vertical-menu-block__list li, html[data-theme='Black'] .comment-block .comment-block__rumor, html[data-theme='Black'] .popular-block__search-form input {
   /* background-color: #fffcf4; */
   background-color: #fffdf8;
 }
@@ -7710,9 +7710,14 @@ html[data-theme="summer"] .burger-menu__log-in-menu_close::before, html[data-the
 html[data-theme="summer"] .option::before, html[data-theme="summer"] .wrapper1 .option .dot, html[data-theme="summer"] .form__e-mail-icon, html[data-theme="summer"] .form__password-icon, html[data-theme="summer"] .form__user-icon {
   background-color: #c3bfb6;
 }
-html[data-theme="summer"] .wrapper1 .option, html[data-theme="summer"] .login__username, html[data-theme="summer"] .login__password, html[data-theme="summer"] .e-mail__login, html[data-theme="summer"] .login__repeat_password {
+/* ! html[data-theme="summer"] .wrapper1 .option, html[data-theme="summer"] .login__username, html[data-theme="summer"] .login__password, html[data-theme="summer"] .e-mail__login, html[data-theme="summer"] .login__repeat_password {
+  background-color: #fffbf3;
+} */
+
+html[data-theme="summer"] .form__input input:focus {
   background-color: #fffbf3;
 }
+
 /* html[data-theme="summer"] .table__one, html[data-theme="summer"] .table__two {
   border-color: #bfbbb2;
 } */
@@ -8408,6 +8413,10 @@ html[data-theme="Black"] .burger-menu:not(.burger-menu_active) .burger-menu_line
   height: 100%;
   width: 100%;
   position: relative;
+  /* background-color: #f3f6f7; */
+  background-color: transparent;
+}
+.form__input input:focus {
   background-color: #f3f6f7;
 }
 .e-mail__login:focus::-moz-placeholder, .login__password:focus::-moz-placeholder { 
