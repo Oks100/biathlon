@@ -4884,6 +4884,9 @@ footer.footer .footer__column a:hover, footer.footer .footer__bottom-text a:hove
   border-color: #ffd700;
   transform: rotate(360deg) scale(1.09);
 }
+.footer__facebook:hover::before, .footer__twitter:hover::before, .footer__instagram:hover::before, .footer__telegram:hover::before, .footer__youtube:hover::before {
+  scale: 1.08;
+}
 .footer__facebook::before, .footer__twitter::before, .footer__instagram::before, .footer__telegram::before, .footer__youtube::before {
   transition: all .4s ease;
 }
@@ -5559,7 +5562,8 @@ footer.footer .footer__column a:hover, footer.footer .footer__bottom-text a:hove
 #back-to-top-button::after {
   content: "\e020";
   font-family: 'icomoon';
-  font-size: 1.5em;
+  /* font-size: 1.5em; */
+  font-size: 1.3em;
   line-height: 47px;
   color: #fff;
 }
