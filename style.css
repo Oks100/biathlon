@@ -6343,7 +6343,7 @@ nav, aside {
     flex-wrap: nowrap;
     gap: 20px;
     justify-content: space-between;
-    padding: 1.3em 15px 1.3em 15px;
+    padding: 1.3em 15px 0.9875em 15px;
     box-shadow: 0px 5px 8px 0px rgba(50, 50, 50, 0.15);
     position: sticky;
     top: 0;
@@ -6373,14 +6373,15 @@ nav, aside {
   .mobile-notification__head-content {
     display: flex;
     flex-direction: column;
-    gap: 15px 25px;
+    gap: 10px;
     position: relative;
     margin-right: 45px;
   }
   .mobile-notification__head-content a {
     display: flex;
     color: black;
-    margin-bottom: -2px;
+    /* margin-bottom: -2px; */
+    padding: 5px 0;
   }
   .mobile-notification__head-content a p {
     color: black;
