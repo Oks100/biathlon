@@ -6171,7 +6171,11 @@ nav, aside {
     height: 100%;
     width: 100%;
     overflow-y: auto;
-    justify-content: space-between;
+    /* justify-content: space-between; */
+  }
+  .burger-menu__container {
+    display: flex;
+    flex-direction: column;
   }
   .burger-menu_active .burger-menu_nav {
     z-index: 10;
