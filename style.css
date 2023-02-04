@@ -1502,9 +1502,11 @@ body {
   font-weight: 600;
 }
 .notification__text .viewed::before, .mobile-notification__time .viewed::before {
-  content: "\e003";
+  /* content: "\e003"; */
+  content: "\e059";
   font-family: 'icomoon';
-  font-size: 0.85em;
+  /* font-size: 0.85em; */
+  font-size: 1em;
   font-weight: normal;
   padding-right: 5px;
   font-style: normal;
