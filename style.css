@@ -6173,10 +6173,10 @@ nav, aside {
     overflow-y: auto;
     /* justify-content: space-between; */
   }
-  .burger-menu__container {
+  /* .burger-menu__container {
     display: flex;
     flex-direction: column;
-  }
+  } */
   .burger-menu_active .burger-menu_nav {
     z-index: 10;
   }
