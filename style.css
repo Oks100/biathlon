@@ -6172,6 +6172,7 @@ nav, aside {
     width: 100%;
     overflow-y: auto;
     /* justify-content: space-between; */
+    background-color: #e7f3fa;
   }
   /* .burger-menu__container {
     display: flex;
@@ -7408,7 +7409,7 @@ html[data-theme="dark"] .timeline__comments:hover {
   color: #abcbff !important;
   background-color: #184779;
 }
-html[data-theme='dark'] .body.log-in-window .burger-menu__log-in-menu, html[data-theme='dark'] .burger-menu__socials, html[data-theme='dark'] .burger-menu_nav-menuhtml, html[data-theme='dark'] .burger-menu_nav-menu {
+html[data-theme='dark'] .burger-menu_body, html[data-theme='dark'] .body.log-in-window .burger-menu__log-in-menu, html[data-theme='dark'] .burger-menu__socials, html[data-theme='dark'] .burger-menu_nav-menuhtml, html[data-theme='dark'] .burger-menu_nav-menu {
   background-color: #172230;
 }
 html[data-theme="dark"] .select__list-arrow, html[data-theme="dark"] .dropdown__box-arrow {
@@ -7513,7 +7514,7 @@ html[data-theme="Black"] .twitter-dark {
 
 
 
-html[data-theme='summer'] .body.log-in-window .burger-menu__log-in-menu, html[data-theme='summer'] .burger-menu__socials, html[data-theme='summer'] .burger-menu_nav-menu, html[data-theme='summer'] .burger-menu__profile, html[data-theme='summer'] .main-cup, html[data-theme='summer'] .sidebar-block, html[data-theme='summer'] .sidebar-block3, html[data-theme='summer'] .divTableRow:nth-child(2n+1), html[data-theme='summer'] .twitter-block {
+html[data-theme='summer'] .burger-menu_body, html[data-theme='summer'] .body.log-in-window .burger-menu__log-in-menu, html[data-theme='summer'] .burger-menu__socials, html[data-theme='summer'] .burger-menu_nav-menu, html[data-theme='summer'] .burger-menu__profile, html[data-theme='summer'] .main-cup, html[data-theme='summer'] .sidebar-block, html[data-theme='summer'] .sidebar-block3, html[data-theme='summer'] .divTableRow:nth-child(2n+1), html[data-theme='summer'] .twitter-block {
   /* background-color: #ffe7ae; */
   /* background-color: #ffeec6; */
   /* background-color: #fff3d7; */
@@ -7800,7 +7801,7 @@ html[data-theme='summer'] .twitter-block__body.twitter-light, html[data-theme="s
     content: url(img/logo-mobile3-black.png) !important;
 }
 }
-html[data-theme="Black"] .body.log-in-window .burger-menu__log-in-menu, html[data-theme="Black"] .burger-menu__socials, html[data-theme="Black"] .burger-menu_nav-menu, html[data-theme="Black"] .burger-menu__profile, html[data-theme="Black"] .twitter-block, html[data-theme='Black'] .main-cup, html[data-theme='Black'] .sidebar-block, html[data-theme='Black'] .sidebar-block3 {
+html[data-theme="Black"] .burger-menu_body, html[data-theme="Black"] .body.log-in-window .burger-menu__log-in-menu, html[data-theme="Black"] .burger-menu__socials, html[data-theme="Black"] .burger-menu_nav-menu, html[data-theme="Black"] .burger-menu__profile, html[data-theme="Black"] .twitter-block, html[data-theme='Black'] .main-cup, html[data-theme='Black'] .sidebar-block, html[data-theme='Black'] .sidebar-block3 {
   /* background-color: #000; */
   background-color: #0f0f0f;
 }
