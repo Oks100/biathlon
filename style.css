@@ -6176,6 +6176,7 @@ nav, aside {
   .burger-menu__container {
     display: flex;
     flex-direction: column;
+    background-color: red;
   }
   .burger-menu_active .burger-menu_nav {
     z-index: 10;
