@@ -2969,7 +2969,7 @@ body {
   .timeline-navigation__list {
     display: flex;
     flex-direction: row;
-    gap: 10px;
+    gap: 15px;
     flex-wrap: wrap;
   }
   .timeline-navigation__list a {
@@ -2984,7 +2984,7 @@ body {
   .timeline-navigation__page {
     display: flex;
     flex-direction: row;
-    gap: 10px;
+    gap: 15px;
   }
 
   .timeline-navigation a:hover {
