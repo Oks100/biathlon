@@ -5801,7 +5801,6 @@ nav, aside {
       overflow: auto;
       z-index: 9;
       transition: all 0.3s ease-in-out;
-      /* box-shadow: 0px 0px 18px 5px rgba(50, 50, 50, 0.15); */
     }
     .body.open-menu .right-sidebar {
       right: -0;
@@ -6083,7 +6082,7 @@ nav, aside {
     transition-property: opacity,filter;
     transition-property: opacity,filter,-webkit-filter;
   }
-  @media screen and (min-width: 992px) {
+  @media screen and (min-width: 993px) {
     .layer-toggle, .layer-background, .desktop-hidden, .burger-menu {
       display: none;
     }
@@ -7250,14 +7249,14 @@ html[data-theme="dark"] .timeline-sponsors .swiper-pagination-bullet-active, htm
 html[data-theme="dark"] .exit-yes, html[data-theme="dark"] .timeline-sponsors .swiper-pagination-bullet:hover:not(.swiper-pagination-bullet-active), html[data-theme="dark"] .dropbtn, html[data-theme="dark"] .statistics__button {
   background-color: #184779;
 }
-html[data-theme="dark"] footer.footer {
+/* html[data-theme="dark"] footer.footer {
   background-color: #18426f;
   border-top: 4px solid #e3c000;
-}
+} */
 /* html[data-theme="dark"] .footer__column span, html[data-theme="dark"] .footer__title span {
   border-left: 3.5px solid #e3c000;
 } */
-html[data-theme="dark"] .race-waiting::before, html[data-theme="dark"] .footer__column ul li a::before, html[data-theme="dark"] .footer__column span::before, html[data-theme="dark"] .footer__title span::before {
+html[data-theme="dark"] .footer::before, html[data-theme="dark"] .race-waiting::before, html[data-theme="dark"] .footer__column ul li a::before, html[data-theme="dark"] .footer__column span::before, html[data-theme="dark"] .footer__title span::before {
   background-color: #e3c000;
 }
 html[data-theme="dark"] .footer__column ul li a:hover::before {
@@ -8109,7 +8108,7 @@ html[data-theme="Black"] .table__two tbody .active-biathlete td:not(.table0_100 
 html[data-theme="Black"] .footer__warning p, html[data-theme="Black"] .footer__address, html[data-theme="Black"] .footer__copyright, html[data-theme="Black"] .footer__rights {
   color: #c1cddf;
 }
-html[data-theme="Black"] .footer__column ul li a::before, html[data-theme="Black"] .footer__column span::before, html[data-theme="Black"] .footer__title span::before {
+html[data-theme="Black"] .footer::before, html[data-theme="Black"] .footer__column ul li a::before, html[data-theme="Black"] .footer__column span::before, html[data-theme="Black"] .footer__title span::before {
   /* background-color: #e3c000; */
   background-color: #c8a900;
 }
