@@ -8194,6 +8194,9 @@ html[data-theme="Black"] .select__head2:hover::before, html[data-theme="Black"] 
 html[data-theme="Black"] .select__list2 .select__item2:hover {
   background-color: #19202b;
 }
+html[data-theme="Black"] .select__list, html[data-theme="Black"] .dropdown__box {
+  box-shadow: none;
+}
 html[data-theme="Black"] .table__one, html[data-theme="Black"] .table__two {
   border-color: #c9ccd0;
 }
