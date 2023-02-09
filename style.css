@@ -5663,29 +5663,17 @@ nav, aside {
     flex-wrap: wrap;
   }
 }
+/* @media screen and (min-width: 993px) {
+  article.timeline {
+    max-width: 56.84%;
+    padding: 0 5px 0 5px;
+  }
+} */
   @media screen and (min-width: 992px) {
-    /* body {
-      min-height: 100vh;
-      padding: 0;
-    } */
-    /* .timer__more-result:hover::after {
-      content: '';
-      position: absolute;
-      bottom: 1px;
-      left: 1%;
-      width: 99%;
-      height: 0.75px;
-      background-color: #73b5e5;
+    article.timeline {
+      max-width: 56.84%;
+      padding: 0 5px 0 5px;
     }
-    .timer__more-translation:hover::after {
-      content: '';
-      position: absolute;
-      bottom: 1px;
-      left: 19%;
-      width: 81%;
-      height: 0.75px;
-      background-color: #73b5e5;
-    } */
     .important-news__news-spoiler:hover {
       background-color: #e7f3fa;
     }
@@ -5697,10 +5685,6 @@ nav, aside {
       flex-direction: row;
       min-height: 100%;
       flex: 1 1 auto;
-    }
-    article.timeline {
-      max-width: 56.84%;
-      padding: 0 5px 0 5px;
     }
     nav, aside {
       max-width: 21.58%;
@@ -5715,46 +5699,28 @@ nav, aside {
       display: none;
     }
   }
+
+  /* @media screen and (min-width: 992px) {
+    .mobile-hidden {
+      display: none;
+    }
+    .left-sidebar {
+      display: none;
+    }
+  } */
   @media screen and (max-width: 992px) {
-    /* article.timeline {
-      margin: 0 5px;
-    }*/
-
-    /* .popular-block__search-form input {
-      height: 40px;
+    .left-sidebar {
+      display: none;
     }
-    .popular-block__search-form button {
-      height: 40px;
-      width: 40px;
-    } */
-
-    /* .timeline__footer button {
-      --height: 40px;
-    }
-    .timeline__footer button .icon-container {
-      --icon-size: 20px;
-      width: 35px;
-    }
-    .timeline__footer button:hover::after {
-      transform: translateX(73%);
-    }
-    .timeline__footer button:hover .icon-container .icon--left {
-      transform: translateX(39%);
-    } */
-
     .footer__body {
       margin: 30px 1em 10px;
     }
     .header__body {
       margin: 0 15px 0 15px;
     }
-
     .learn-more:hover .circle-element {
       width: 102.5%;
     }
-    /* .main-cup, .sidebar-block, .sidebar-block3, .twitter-block {
-      border-radius: 0;
-    } */
     .main-cup__controls {
       width: 153px;
     }
@@ -5918,12 +5884,6 @@ nav, aside {
         background-color: rgba(0, 0, 0, 0.65);
       }
       } */
-    .mobile-hidden {
-      display: none;
-    }
-    .left-sidebar {
-      display: none;
-    }
     .header__mobile-additional-menu {
       display: flex;
       flex-direction: column;
@@ -7063,7 +7023,7 @@ html[data-theme='dark'] body {
     content: url(img/logo-mobile3-dark.png) !important;
 }
 }
-html[data-theme='dark'] .header {
+html[data-theme='dark'] .header, html[data-theme="dark"] footer.footer {
   background-color: #18426f;
   /* border-bottom: 4px solid #e3c000; */
   color: #e1e1e1;
@@ -7088,7 +7048,8 @@ html[data-theme='dark'] .footer__facebook:hover::before, html[data-theme='dark']
   color: #e3c000;
 }
 html[data-theme='dark'] .header__logo .socials .facebook, html[data-theme='dark'] .header__logo .socials .twitter, html[data-theme='dark'] .header__logo .socials .instagram, html[data-theme='dark'] .header__logo .socials .telegram, html[data-theme='dark'] .header__logo .socials .youtube {
-  background-color: #0d3056;
+  /* background-color: #0d3056; */
+  background-color: #14365b;
 }
 html[data-theme='dark'] .timeline__item, html[data-theme='dark'] .sidebar-block, html[data-theme='dark'] .comment-block .comment-block__rumor, html[data-theme='dark'] .popular-block__search-form input, html[data-theme='dark'] .vertical-menu-block__body .vertical-menu-block__list li {
   background-color: #202124;
@@ -7271,7 +7232,8 @@ html[data-theme="dark"] .mobile-notification__head-content a p, html[data-theme=
   color: #e1e1e1;
 }
 html[data-theme="dark"] .footer__facebook, html[data-theme="dark"] .footer__twitter, html[data-theme="dark"] .footer__instagram, html[data-theme="dark"] .footer__telegram, html[data-theme="dark"] .footer__youtube {
-  background-color: #0d3056;
+  /* background-color: #0d3056; */
+  background-color: #15395f;
 }
 html[data-theme="Black"] .race-continues::before, html[data-theme="dark"] .race-continues::before, html[data-theme="dark"] .logged, html[data-theme="dark"] .comment-block__user-content .woman-user .logged {
   background-color: #20ba19;
@@ -8135,8 +8097,9 @@ html[data-theme="Black"] .statistics__button, html[data-theme="Black"] .dropbtn 
   background-color: #102442;
 }
 html[data-theme="Black"] .statistics__button:hover, html[data-theme="Black"] .dropbtn:hover, html[data-theme="Black"] .header__logo .socials .facebook, html[data-theme="Black"] .header__logo .socials .twitter, html[data-theme="Black"] .header__logo .socials .instagram, html[data-theme="Black"] .header__logo .socials .telegram, html[data-theme="Black"] .header__logo .socials .youtube, html[data-theme="Black"] .footer__facebook, html[data-theme="Black"] .footer__twitter, html[data-theme="Black"] .footer__instagram, html[data-theme="Black"] .footer__telegram, html[data-theme="Black"] .footer__youtube {
-  background-color: #173660;
-  background-color: #142d4e;
+  /* background-color: #173660; */
+  /* background-color: #142d4e; */
+  background-color: #192c45;
 }
 html[data-theme="Black"] .mobile-notification__all, html[data-theme="Black"] .mobile-notification__head, html[data-theme="Black"] .mobile-timer__more-events__all, html[data-theme="Black"] .mobile-timer__more-events__head, html[data-theme="Black"] .select__list2, html[data-theme="Black"] .header__notifications_head, html[data-theme="Black"] .header__notification_all, html[data-theme="Black"] .dropdown-content, html[data-theme='Black'] .important-news__list, html[data-theme='Black'] .vertical-menu-block__body .vertical-menu-block__list li {
   /* background-color: #191919; */
@@ -8182,6 +8145,9 @@ html[data-theme="Black"] .timeline__body-important-news {
 }
 html[data-theme="Black"] .tippy-box, html[data-theme="Black"] .tippy-arrow {
   box-shadow: none;
+}
+html[data-theme="Black"] .tippy-box, html[data-theme="Black"] .select__list, html[data-theme="Black"] .dropdown2.open .dropdown__box {
+  border: 1px solid #292a2c;
 }
 html[data-theme="Black"] .timeline__comments:hover {
   color: #6688c0 !important;
