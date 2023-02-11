@@ -5863,7 +5863,7 @@ article.timeline {
       margin: 0 auto !important;
     }
     .exit-yes, .exit-no {
-      width: 250px !important;
+      width: 200px !important;
     }
   }
   @media screen and (max-width: 992px) {
