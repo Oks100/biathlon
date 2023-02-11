@@ -3775,7 +3775,7 @@ body {
     width: 125px;
   }
   .stars-block__footer .learn-more {
-    width: 255px;
+    width: 257px;
   }
   .popular-block__footer .learn-more {
     width: 170px;
@@ -4402,6 +4402,9 @@ a.user:hover {
 }
 .comment-block__data span {
   display: flex;
+}
+.comment-block__data span + span {
+  align-items: center;
 }
 .comment-block .comment-block__rumor {
   /* display: flex; */
