@@ -3759,10 +3759,10 @@ body {
     height: auto;
   }
   .next-race-block__footer .learn-more {
-    width: 155px;
+    width: 158px;
   }
   .next-translation-block .learn-more, .slider-block__footer .learn-more {
-    width: 155px;
+    width: 158px;
   }
   .vote-block__footer .learn-more {
     width: 152px;
@@ -5825,6 +5825,18 @@ article.timeline {
     }
     .dropdown__box-arrow {
       left: 71px;
+    }
+  }
+  @media (min-width: 768px) and (max-width: 1300px) {
+    .burger-menu_nav-menu-content {
+      width: 500px;
+    }
+    .burger-menu_nav-menu {
+      align-items: center;
+    }
+    .burger-menu__profile-container {
+      margin: 10px auto 0 auto;
+      width: 500px;
     }
   }
   @media screen and (max-width: 992px) {
