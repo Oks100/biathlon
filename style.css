@@ -7623,6 +7623,9 @@ html[data-theme="dark"] .select__list, html[data-theme="dark"] .dropdown__box {
 html[data-theme="dark"] .timeline-sponsors .swiper-pagination-bullet {
   border-color: #45484a;
 }
+html[data-theme="dark"] .timeline-navigation__page a:hover {
+  color: #abcbff !important;
+}
 @media screen and (min-width: 992px) {
   [data-theme="dark"] .important-news__news-spoiler:hover {
     background-color: #172230 !important;
@@ -7793,7 +7796,7 @@ html[data-theme="summer"] .forgot-password a, html[data-theme="summer"] .enter-b
 html[data-theme='summer'] .burger-menu-back-tab span, html[data-theme='summer'] .burger-menu_nav-menu-tabs a {
   color: black !important;
 }
-html[data-theme="summer"] .mobile-notification__head-content a, html[data-theme='summer'] .mobile-notification__text a:last-child, html[data-theme='summer'] .mobile-timer__more-events-content-group a, html[data-theme='summer'] .learn-more__text2-href:hover, html[data-theme='summer'] .learn-more__text3-href:hover, html[data-theme='summer'] .learn-more__text2-href, html[data-theme="summer"] .learn-more__text3-href {
+html[data-theme="summer"] .timeline-navigation__page a:hover, html[data-theme="summer"] .mobile-notification__head-content a, html[data-theme='summer'] .mobile-notification__text a:last-child, html[data-theme='summer'] .mobile-timer__more-events-content-group a, html[data-theme='summer'] .learn-more__text2-href:hover, html[data-theme='summer'] .learn-more__text3-href:hover, html[data-theme='summer'] .learn-more__text2-href, html[data-theme="summer"] .learn-more__text3-href {
   color: #348232 !important;
 }
 html[data-theme="summer"] .timeline__footer button .icon-container .icon svg {
