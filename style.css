@@ -8438,7 +8438,7 @@ html[data-theme="grey"] .burger-menu__profile, html[data-theme="grey"] .main-cup
   background-color: #f5f5f5;
   /* color: #1e1e1e; */
 }
-html[data-theme="grey"] .table__one tbody tr:nth-child(2n+4) td {
+html[data-theme="grey"] .table__one tbody tr:nth-child(2n+4) td, html[data-theme="grey"] .table__two tbody tr:nth-child(2n+3) td {
   background-color: #f5f5f5 !important;
 }
 html[data-theme="grey"] .burger-menu__profile, html[data-theme="grey"] .main-cup, html[data-theme="grey"] .sidebar-block, html[data-theme="grey"] .sidebar-block3, html[data-theme="grey"] .twitter-block, html[data-theme="grey"] .timeline__item, html[data-theme="grey"] .sidebar-block, html[data-theme="grey"] .comment-block .comment-block__rumor, html[data-theme="grey"] .popular-block__search-form input, html[data-theme="grey"] .vertical-menu-block__body .vertical-menu-block__list li {
@@ -8579,6 +8579,9 @@ html[data-theme="grey"] .timeline__body.gallery .swiper-pagination-bullet:hover:
 /* html[data-theme="grey"] .table__two tbody .active-biathlete td:not(.table0_100 tr td) {
   background-color: #ffc4c4 !important;
 } */
+html[data-theme="grey"] .header__mobile-number-massage2 span, html[data-theme="grey"] .burger-menu__profile-messange span, html[data-theme="grey"] .race-ended::before, html[data-theme="grey"] .header__number-massage span, html[data-theme="grey"] .header__number-massage2 span {
+  background-color: #ee3232;
+}
 
 @media screen and (min-width: 992px) {
   [data-theme="grey"] .important-news__news-spoiler:hover {
