@@ -8632,13 +8632,11 @@ html[data-theme="grey"] .timeline__body .td_top10w td, html[data-theme="grey"] .
   /* background-color: #e1f4ff; */
   background-color: #eee;
 }
-html[data-theme="grey"] .exit-yes {
-  /* background-color: #e1e1e1; */
-  background-color: #eee;
+html[data-theme="grey"] .exit-yes, html[data-theme="grey"] .log-in {
+  background-color: #e1e1e1;
 }
-html[data-theme="grey"] .exit-no {
-  /* border-color: #e1e1e1; */
-  border-color: #eee;
+html[data-theme="grey"] .exit-no, html[data-theme="grey"] .sign-up {
+  border-color: #e1e1e1;
 }
 html[data-theme="grey"] .enter-button, html[data-theme="grey"] .timeline__footer button {
   /* background: #d3e5ef; */
