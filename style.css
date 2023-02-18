@@ -8703,7 +8703,8 @@ html[data-theme="grey"] .slider-block .swiper-container .swiper-pagination-progr
   background: #50759b !important;
 }
 html[data-theme="grey"] .burger-menu_new-slide-tab, html[data-theme="grey"] .burger-menu_nav-menu-title {
-  background-color: #efefef;
+  /* background-color: #efefef; */
+  background-color: #f2f2f2;
 }
 html[data-theme="grey"] .burger-menu__tab, html[data-theme="grey"] .burger-menu__tab_sign-up, html[data-theme="grey"] .body.sign-up-tab .burger-menu__tab_log-in {
   background-color: #e1e1e1;
