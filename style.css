@@ -8699,6 +8699,12 @@ html[data-theme="grey"] .burger-menu__tab, html[data-theme="grey"] .burger-menu_
 html[data-theme="grey"] .burger-menu:not(.burger-menu_active) .burger-menu_lines::before {
   animation: color-grey 2s ease-in 0.5s infinite alternate;
 }
+html[data-theme="grey"] .form__field_radio .option .dot, html[data-theme="grey"] .option::before, html[data-theme="grey"] .form__e-mail-icon, html[data-theme="grey"] .form__password-icon, html[data-theme="grey"] .form__user-icon {
+  background-color: #c8c9ca;
+}
+html[data-theme="grey"] .form__input, html[data-theme="grey"] .form__field_radio .option {
+  border-color: #c8c9ca;
+}
 @media screen and (min-width: 992px) {
   [data-theme="grey"] .important-news__news-spoiler:hover {
     /* background-color: #e8eff3 !important; */
