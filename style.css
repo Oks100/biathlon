@@ -8720,13 +8720,13 @@ html[data-theme="grey"] .form__input, html[data-theme="grey"] .form__field_radio
 }
 html[data-theme="grey"] .interview-block__items, html[data-theme="grey"] .mobile-timer__more-events-content, html[data-theme="grey"] .vertical-menu-block__categories span:not(.news_date), html[data-theme="grey"] .vertical-menu-block__body .vertical-menu-block__list li, html[data-theme="grey"] .timeline__head {
   border-color: #e1e1e1;
-  /* border-color: red; */
 }
-html[data-theme="grey"] .mobile-notification__item, html[data-theme="grey"] .timeline__body table td:not(.table0_100 tr td), html[data-theme="grey"] .burger-menu__tab.burger-menu__tab1, html[data-theme="grey"] .burger-menu__tab.burger-menu__tab1.active, html[data-theme="grey"] .burger-menu__tab.burger-menu__tab2, html[data-theme="grey"] .burger-menu-back-tab.slide4, html[data-theme="grey"] .burger-menu-back-tab.slide3, html[data-theme="grey"] .burger-menu-back-tab.slide2, html[data-theme="grey"] .burger-menu-back-tab.slide1, html[data-theme="grey"] .burger-menu__new-slide, html[data-theme="grey"] .burger-menu_nav-menu-title, html[data-theme="grey"] .burger-menu_nav-menu-list li:not(:last-of-type) a, html[data-theme="grey"] .burger-menu_nav-menu-list__default li:not(:last-of-type) a, html[data-theme="grey"] .timer__more_info div, html[data-theme="grey"] .header__notifications_item, html[data-theme="grey"] .statistics1, html[data-theme="grey"] .statistics2, html[data-theme="grey"] .statistics4 {
+html[data-theme="grey"] .timer__more-item, html[data-theme="grey"] .timeline__body table td:not(.table0_100 tr td), html[data-theme="grey"] .burger-menu__tab.burger-menu__tab1, html[data-theme="grey"] .burger-menu__tab.burger-menu__tab1.active, html[data-theme="grey"] .burger-menu__tab.burger-menu__tab2, html[data-theme="grey"] .burger-menu-back-tab.slide4, html[data-theme="grey"] .burger-menu-back-tab.slide3, html[data-theme="grey"] .burger-menu-back-tab.slide2, html[data-theme="grey"] .burger-menu-back-tab.slide1, html[data-theme="grey"] .burger-menu__new-slide, html[data-theme="grey"] .burger-menu_nav-menu-title, html[data-theme="grey"] .burger-menu_nav-menu-list li:not(:last-of-type) a, html[data-theme="grey"] .burger-menu_nav-menu-list__default li:not(:last-of-type) a, html[data-theme="grey"] .timer__more_info div, html[data-theme="grey"] .statistics1, html[data-theme="grey"] .statistics2, html[data-theme="grey"] .statistics4 {
   border-color: #e1e1e1;
-  /* border-color: red; */
 }
-
+html[data-theme="grey"] .mobile-notification__item, html[data-theme="grey"] .header__notifications_item {
+  border-bottom: 1px solid #e1e1e1;
+}
 @media screen and (min-width: 992px) {
   [data-theme="grey"] .important-news__news-spoiler:hover {
     /* background-color: #e8eff3 !important; */
