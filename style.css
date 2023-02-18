@@ -2434,6 +2434,15 @@ body {
     content: "";
     margin-right: 5px;
   }
+  .burger-menu_link[data-set-theme="grey"]::before {
+    background-image: url(img/grey-theme.png);
+    background-size: 20px 20px;
+    width: 20px;
+    height: 20px;
+    display: block;
+    content: "";
+    margin-right: 5px;
+  }
   
   
   .burger-menu__layer-background {
