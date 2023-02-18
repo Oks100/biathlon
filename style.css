@@ -2435,7 +2435,7 @@ body {
     margin-right: 5px;
   }
   .burger-menu_link[data-set-theme="grey"]::before {
-    background-image: url(img/grey-theme.png);
+    background-image: url(img/Grey-theme.png);
     background-size: 20px 20px;
     width: 20px;
     height: 20px;
@@ -8517,6 +8517,9 @@ html[data-theme="grey"] .mobile-timer__more-events-button, html[data-theme="grey
 }
 html[data-theme="grey"] .mobile-notification__text a {
   color: #1e1e1e !important;
+}
+html[data-theme="grey"] .table__one, html[data-theme="grey"] .table__two {
+  border-color: #1e1e1e;
 }
 html[data-theme="grey"] .statistics__button, html[data-theme="grey"] .select2, html[data-theme="grey"] .divTableRow:nth-child(2n+1), html[data-theme="grey"] table.main-cup__top10 tbody tr:nth-child(2n+1) {
   /* background-color: #ddeaf2; */
