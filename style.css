@@ -7085,7 +7085,91 @@ article.timeline {
       margin-top: -27px;
     }
   }
+  .footer__accordion-container {
+    display: none;
+  }
   @media screen and (max-width: 385px) {
+    .footer__column, .footer__column2 {
+      display: none;
+    }
+    .footer__accordion-container {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+    }
+    .footer__column-min{
+      position: relative;
+      width: 100%;
+    }
+    .footer__column-content{
+      position:relative;
+      width: 100%;
+      margin-top: 15px;
+    }
+    .footer__column-min {
+      margin: 15px 0;
+    }
+    .footer__column-content a {
+      display: inline-flex;
+      align-items: center;
+      flex-wrap: nowrap;
+      transition: all 0.3s ease;
+      margin-left: 14px;
+      margin-bottom: 7px;
+    }
+    .footer__column-content ul li:last-child a {
+      margin-bottom: 0;
+    }
+    .footer__column-content ul li a::before {
+      content: '';
+      display: block;
+      height: 5.5px;
+      width: 5.5px;
+      border-radius: 50%;
+      background-color: #ffd700;
+      margin-right: 8px;
+      transition: all 0.3s ease;
+      position: absolute;
+      left: 0px;
+      scale: 1;
+    }
+    .footer__column-content ul li a:hover::before {
+      box-shadow: 0 0 12px #ffd700;
+    }
+    .footer__column-content ul li a:hover {
+      color: #ffd700;
+    }
+    .footer__column-min:first-of-type {
+      margin: 0 0 15px 0;
+    }
+    .footer__column-min:last-of-type {
+      margin: 15px 0 0 0;
+    }
+    .footer__column-min_tittle {
+      font-size: 1.3em;
+      font-weight: 700;
+      display: flex;
+      position: relative;
+      padding-left: 14px;
+      cursor: pointer;
+    }
+    .footer__column-min_tittle::before, .footer__column-min_tittle::before {
+      background: #ffd700;
+      border-radius: 8px;
+      content: "";
+      position: absolute;
+      height: 100%;
+      width: 3.5px;
+      left: 0;
+      scale: 1;
+    }
+    .footer__icon {
+    }
+
+
+    .footer__logo img {
+      width: 100%;
+    }
     .footer__body {
       margin: 30px 35px 10px;
     }
