@@ -4540,12 +4540,10 @@ table.popular__table tbody tr {
 }
 .vote-block__bar {
   position: relative;
-  /* background-color: rgba(73, 167, 194, 0.12); */
-  background-color: rgba(187, 187, 187, 0.12);
+  background-color: rgba(73, 167, 194, 0.12);
   height: 1.2em;
   border-radius: 8px;
-  /* box-shadow: inset 0 0 7px 0px rgba(73, 167, 194, 0.12); */
-  box-shadow: inset 0 0 7px 0px rgba(115, 115, 115, 0.12);
+  box-shadow: inset 0 0 7px 0px rgba(73, 167, 194, 0.12);
 }
 .vote-block__votes {
   font-size: 0.9em;
@@ -8723,6 +8721,10 @@ html[data-theme="grey"] .slider-container3 .swiper-pagination-bullet, html[data-
 }
 html[data-theme="grey"] .mobile-notification__item, html[data-theme="grey"] .header__notifications_item {
   border-bottom: 1px solid #e1e1e1;
+}
+html[data-theme="grey"] .vote-block__bar {
+  background-color: rgba(187, 187, 187, 0.12);
+  box-shadow: inset 0 0 7px 0px rgba(115, 115, 115, 0.12);
 }
 @media screen and (min-width: 992px) {
   [data-theme="grey"] .important-news__news-spoiler:hover {
