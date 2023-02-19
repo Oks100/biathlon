@@ -5036,7 +5036,7 @@ footer.footer .footer__column a:hover, footer.footer .footer__bottom-text a:hove
 }
 .footer__bottom {
   display: flex;
-  margin-top: 20px;
+  margin-top: 30px;
   justify-content: space-between;
   width: 100%;
   flex-wrap: wrap;
@@ -9290,4 +9290,13 @@ input[type="radio"]{
   margin-top: 35px;
   background-color: #d1ebfb;
   border-radius: 33px;
+}
+
+
+
+
+.footer__columns {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 34px 35px 10px;
 }
