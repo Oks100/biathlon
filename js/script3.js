@@ -154,6 +154,9 @@ $(document).ready(function(){
 $(document).ready(function(){
     $('.layer-background').click(function () {
         $('.body').removeClass('open-menu');
+        $('.burger-menu').removeClass('burger-menu_active');
+        $('.body').removeClass('overflow');
+        $('.body').removeClass('log-in-window');
             });
     });
 
