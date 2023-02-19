@@ -1308,6 +1308,21 @@ btn.on('click', function(e) {
 /* Кнопка наверх */
 
 
+$(document).ready(function(){
+  $(".footer__column-min > span").on("click", function(){
+    if($(this).hasClass('active')){
+      $(this).removeClass("active");
+      $(this).siblings('.footer__column-content').slideUp(200);
+    }else{
+      $(".footer__column-min > span").removeClass("active");
+      $(this).addClass("active");
+      $('.footer__column-content').slideUp(200);
+      $(this).siblings('.footer__column-content').slideDown(200);
+    }    
+  });
+});
+
+
 /* Костыль к бургер кнопке*/
 // $(document).ready(function(){
 // 	$('.burger-menu_button').click(function () {
