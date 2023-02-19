@@ -7271,7 +7271,7 @@ html[data-theme='dark'] .vertical-menu-block__body .vertical-menu-block__list li
 html[data-theme='dark'] .timeline__head {
   border-bottom: 1px solid #45484a;
 }
-html[data-theme='dark'] .mobile-timer__more-events-content, html[data-theme='dark'] .vertical-menu-block__categories span:not(.news_date), html[data-theme='dark'] .vertical-menu-block__body .vertical-menu-block__list li {
+html[data-theme="dark"] .vertical-menu-block__body .vertical-menu-block__list li a, html[data-theme='dark']  .mobile-timer__more-events-content, html[data-theme='dark'] .vertical-menu-block__categories span:not(.news_date) {
   border-color: #45484a;
 }
 html[data-theme='dark'] .burger-menu__tab.burger-menu__tab1, html[data-theme='dark'] .burger-menu__tab.burger-menu__tab1.active, html[data-theme='dark'] .burger-menu__tab.burger-menu__tab2 {
@@ -7798,7 +7798,7 @@ html[data-theme="summer"] .admin-item {
 html[data-theme="summer"] .main-cup__top10 .red-color, html[data-theme="summer"] .timeline__item .red-color {
   color: red;
 }
-html[data-theme="summer"] .burger-menu-back-tab, html[data-theme="summer"] .burger-menu_nav-menu-tabs a, html[data-theme="summer"] .burger-menu_nav-menu-list__default li:not(:last-of-type) a, html[data-theme="summer"] .statistics1, html[data-theme="summer"] .statistics2, html[data-theme="summer"] .statistics4, html[data-theme="summer"] .timeline__head, html[data-theme="summer"] .timeline__body table td:not(.table0_100 tr td), html[data-theme="summer"] .timeline-sponsors .swiper-slide.card, html[data-theme="summer"] .vertical-menu-block__body .vertical-menu-block__list li, html[data-theme='summer'] .interview-block__items {
+html[data-theme="summer"] .burger-menu-back-tab, html[data-theme="summer"] .burger-menu_nav-menu-tabs a, html[data-theme="summer"] .burger-menu_nav-menu-list__default li:not(:last-of-type) a, html[data-theme="summer"] .statistics1, html[data-theme="summer"] .statistics2, html[data-theme="summer"] .statistics4, html[data-theme="summer"] .timeline__head, html[data-theme="summer"] .timeline__body table td:not(.table0_100 tr td), html[data-theme="summer"] .timeline-sponsors .swiper-slide.card, html[data-theme='summer'] .interview-block__items {
   border-color: #dbd6cc;
 }
 html[data-theme="summer"] .burger-menu_new-slide-tab, html[data-theme="summer"] .burger-menu_nav-menu-title {
@@ -7935,8 +7935,8 @@ html[data-theme="summer"] .tippy-arrow {
   /* color: #fffcf4; */
   color: #fffdf8;
 }
-html[data-theme="summer"] .header__notifications_item .logged, html[data-theme="summer"] .mobile-notification__img .logged {
-  border-color: #fffdf8;
+html[data-theme="summer"] .vertical-menu-block__categories span:not(.news_date), html[data-theme="summer"] .header__notifications_item .logged, html[data-theme="summer"] .mobile-notification__img .logged {
+  border-color: #dbd6cc;
 }
 html[data-theme="summer"] .timeline__comments:hover {
   /* background-color: #fff1d4; */
@@ -7970,6 +7970,9 @@ html[data-theme="summer"] .option::before, html[data-theme="summer"] .form__fiel
 }
 html[data-theme="summer"] .header__notifications_item {
   border-bottom: 1px solid #dbd6cc;
+}
+html[data-theme="summer"] .vertical-menu-block__body .vertical-menu-block__list li a {
+  border-color: #dbd6cc;
 }
 /* ! html[data-theme="summer"] .form__field_radio .option, html[data-theme="summer"] .login__username, html[data-theme="summer"] .login__password, html[data-theme="summer"] .e-mail__login, html[data-theme="summer"] .login__repeat_password {
   background-color: #fffbf3;
@@ -8178,7 +8181,7 @@ html[data-theme='Black'] .burger-menu__profile-messange span, html[data-theme='B
   /* background-color: rgb(227, 0, 0); */
   background-color: #d40000;
 }
-html[data-theme='Black'] .timer__more-item, html[data-theme='Black'] .burger-menu-back-tab, html[data-theme='Black'] .burger-menu_nav-menu-title, html[data-theme='Black'] .burger-menu_nav-menu-list li:not(:last-of-type) a, html[data-theme='Black'] .burger-menu_nav-menu-tabs a, html[data-theme='Black'] .burger-menu__new-slide, html[data-theme='Black'] .burger-menu_nav-menu-tabs a:first-of-type, html[data-theme='Black'] .burger-menu_nav-menu-list__default li:not(:last-of-type) a, html[data-theme='Black'] .mobile-timer__more-events-content, html[data-theme='Black'] .mobile-notification__item, html[data-theme='Black'] .header__notifications_conteiner.notif-more .header__notifications_item:nth-child(3), html[data-theme='Black'] .timeline-sponsors .swiper-slide.card, html[data-theme='Black'] .timeline__body table td:not(.table0_100 tr td), html[data-theme='Black'] .timeline__head, html[data-theme='Black'] .vertical-menu-block__body .vertical-menu-block__list li, html[data-theme='Black'] .vertical-menu-block__categories span:not(.news_date), html[data-theme='Black'] .interview-block__items {
+html[data-theme="Black"] .vertical-menu-block__body .vertical-menu-block__list li a, html[data-theme='Black'] .timer__more-item, html[data-theme='Black'] .burger-menu-back-tab, html[data-theme='Black'] .burger-menu_nav-menu-title, html[data-theme='Black'] .burger-menu_nav-menu-list li:not(:last-of-type) a, html[data-theme='Black'] .burger-menu_nav-menu-tabs a, html[data-theme='Black'] .burger-menu__new-slide, html[data-theme='Black'] .burger-menu_nav-menu-tabs a:first-of-type, html[data-theme='Black'] .burger-menu_nav-menu-list__default li:not(:last-of-type) a, html[data-theme='Black'] .mobile-timer__more-events-content, html[data-theme='Black'] .mobile-notification__item, html[data-theme='Black'] .header__notifications_conteiner.notif-more .header__notifications_item:nth-child(3), html[data-theme='Black'] .timeline-sponsors .swiper-slide.card, html[data-theme='Black'] .timeline__body table td:not(.table0_100 tr td), html[data-theme='Black'] .timeline__head, html[data-theme='Black'] .vertical-menu-block__categories span:not(.news_date), html[data-theme='Black'] .interview-block__items {
   /* border-color: #3a3d41; */
   /* border-color: #2f3133; */
   /* border-color: #242527; */
@@ -8712,7 +8715,7 @@ html[data-theme="grey"] .burger-menu_new-slide-tab, html[data-theme="grey"] .bur
   background-color: #f2f2f2;
 }
 html[data-theme="grey"] .burger-menu__tab, html[data-theme="grey"] .burger-menu__tab_sign-up, html[data-theme="grey"] .body.sign-up-tab .burger-menu__tab_log-in {
-  background-color: #e1e1e1;
+  background-color: #dfdfdf;
 }
 html[data-theme="grey"] .burger-menu:not(.burger-menu_active) .burger-menu_lines::before {
   animation: color-grey 2s ease-in 0.5s infinite alternate;
@@ -8723,11 +8726,11 @@ html[data-theme="grey"] .form__field_radio .option .dot, html[data-theme="grey"]
 html[data-theme="grey"] .form__input, html[data-theme="grey"] .form__field_radio .option {
   border-color: #c8c9ca;
 }
-html[data-theme="grey"] .slider-container3 .swiper-pagination-bullet, html[data-theme="grey"] .timeline-sponsors .swiper-pagination-bullet, html[data-theme="grey"] .timer__more-item, html[data-theme="grey"] .timeline__body table td:not(.table0_100 tr td), html[data-theme="grey"] .burger-menu__tab.burger-menu__tab1, html[data-theme="grey"] .burger-menu__tab.burger-menu__tab1.active, html[data-theme="grey"] .burger-menu__tab.burger-menu__tab2, html[data-theme="grey"] .burger-menu-back-tab.slide4, html[data-theme="grey"] .burger-menu-back-tab.slide3, html[data-theme="grey"] .burger-menu-back-tab.slide2, html[data-theme="grey"] .burger-menu-back-tab.slide1, html[data-theme="grey"] .burger-menu__new-slide, html[data-theme="grey"] .burger-menu_nav-menu-title, html[data-theme="grey"] .burger-menu_nav-menu-list li:not(:last-of-type) a, html[data-theme="grey"] .burger-menu_nav-menu-list__default li:not(:last-of-type) a, html[data-theme="grey"] .timer__more_info div, html[data-theme="grey"] .statistics1, html[data-theme="grey"] .statistics2, html[data-theme="grey"] .statistics4, html[data-theme="grey"] .interview-block__items, html[data-theme="grey"] .mobile-timer__more-events-content, html[data-theme="grey"] .vertical-menu-block__categories span:not(.news_date), html[data-theme="grey"] .vertical-menu-block__body .vertical-menu-block__list li, html[data-theme="grey"] .timeline__head {
-  border-color: #e1e1e1;
+html[data-theme="grey"] .vertical-menu-block__body .vertical-menu-block__list li a, html[data-theme="grey"] .slider-container3 .swiper-pagination-bullet, html[data-theme="grey"] .timeline-sponsors .swiper-pagination-bullet, html[data-theme="grey"] .timer__more-item, html[data-theme="grey"] .timeline__body table td:not(.table0_100 tr td), html[data-theme="grey"] .burger-menu__tab.burger-menu__tab1, html[data-theme="grey"] .burger-menu__tab.burger-menu__tab1.active, html[data-theme="grey"] .burger-menu__tab.burger-menu__tab2, html[data-theme="grey"] .burger-menu-back-tab.slide4, html[data-theme="grey"] .burger-menu-back-tab.slide3, html[data-theme="grey"] .burger-menu-back-tab.slide2, html[data-theme="grey"] .burger-menu-back-tab.slide1, html[data-theme="grey"] .burger-menu__new-slide, html[data-theme="grey"] .burger-menu_nav-menu-title, html[data-theme="grey"] .burger-menu_nav-menu-list li:not(:last-of-type) a, html[data-theme="grey"] .burger-menu_nav-menu-list__default li:not(:last-of-type) a, html[data-theme="grey"] .timer__more_info div, html[data-theme="grey"] .statistics1, html[data-theme="grey"] .statistics2, html[data-theme="grey"] .statistics4, html[data-theme="grey"] .interview-block__items, html[data-theme="grey"] .mobile-timer__more-events-content, html[data-theme="grey"] .vertical-menu-block__categories span:not(.news_date), html[data-theme="grey"] .timeline__head {
+  border-color: #dfdfdf;
 }
 html[data-theme="grey"] .mobile-notification__item, html[data-theme="grey"] .header__notifications_item {
-  border-bottom: 1px solid #e1e1e1;
+  border-bottom: 1px solid #dfdfdf;
 }
 html[data-theme="grey"] .vote-block__bar {
   background-color: rgba(187, 187, 187, 0.12);
