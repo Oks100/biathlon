@@ -144,93 +144,6 @@ window.addEventListener('resize', () => {
 });
 
 
-
-tippy('.olsby-roeideland-marte', {
-  content: document.querySelector('.olsby-roeideland-marte__profile'),
-  arrow: true,
-  interactive: true,
-  trigger: 'mouseenter',
-  delay: [1000, 350],
-  placement: 'auto',
-  duration: 350,
-  maxWidth: 400,
-  animation: 'perspective',
-  // followCursor: true,
-  // offset: [0, -98],
-});
-
-tippy('.oeverg-elvira-karin', {
-  content: document.querySelector('.oeverg-elvira-karin__profile'),
-  arrow: true,
-  interactive: true,
-  trigger: 'mouseenter',
-  delay: [1000, 350],
-  placement: 'auto',
-  duration: 350,
-  maxWidth: 400,
-  // animation: 'perspective',
-  animation: 'perspective',
-  // animation: 'perspective',
-  // followCursor: true,
-  // offset: [0, 0],
-});
-
-tippy('.hauser-lisa-theresa', {
-  content: document.querySelector('.hauser-lisa-theresa__profile'),
-  arrow: true,
-  interactive: true,
-  trigger: 'mouseenter',
-  delay: [1000, 350],
-  placement: 'auto',
-  duration: 350,
-  maxWidth: 400,
-  animation: 'perspective',
-  // followCursor: true,
-  // offset: [0, -98],
-});
-
-tippy('.oeberg-hanna', {
-  content: document.querySelector('.oeberg-hanna__profile'),
-  arrow: true,
-  interactive: true,
-  trigger: 'mouseenter',
-  delay: [1000, 350],
-  placement: 'auto',
-  duration: 350,
-  maxWidth: 400,
-  animation: 'perspective',
-  // followCursor: true,
-  // offset: [0, -98],
-});
-
-tippy('.chevailier-anais-bouchet', {
-  content: document.querySelector('.chevailier-anais-bouchet__profile'),
-  arrow: true,
-  interactive: true,
-  trigger: 'mouseenter',
-  delay: [1000, 350],
-  placement: 'auto',
-  duration: 350,
-  maxWidth: 400,
-  animation: 'perspective',
-  followCursor: true,
-  // offset: [0, -98],
-});
-
-tippy('.herrmann-denise', {
-  content: document.querySelector('.herrmann-denise__profile'),
-  arrow: true,
-  interactive: true,
-  trigger: 'mouseenter',
-  delay: [1000, 350],
-  placement: 'auto',
-  duration: 350,
-  maxWidth: 400,
-  animation: 'perspective',
-  // followCursor: true,
-  // offset: [0, -98],
-});
-
 tippy('.dzhima-yuliia', {
   content: document.querySelector('.dzhima-yuliia__profile'),
   arrow: true,
@@ -241,8 +154,6 @@ tippy('.dzhima-yuliia', {
   duration: 350,
   maxWidth: 400,
   animation: 'perspective',
-  // followCursor: true,
-  // offset: [0, -98],
 });
 
 tippy('.dzhima-yuliia2', {
@@ -255,8 +166,6 @@ tippy('.dzhima-yuliia2', {
   duration: 350,
   maxWidth: 400,
   animation: 'perspective',
-  // followCursor: true,
-  // offset: [0, -98],
 });
 
 tippy('.dzhima-yuliia3', {
@@ -269,50 +178,6 @@ tippy('.dzhima-yuliia3', {
   duration: 350,
   maxWidth: 400,
   animation: 'perspective',
-  // followCursor: true,
-  // offset: [0, -98],
-});
-
-tippy('.braisaz-bouchet-justine', {
-  content: document.querySelector('.braisaz-bouchet-justine__profile'),
-  arrow: true,
-  interactive: true,
-  trigger: 'mouseenter',
-  delay: [1000, 350],
-  placement: 'auto',
-  duration: 350,
-  maxWidth: 400,
-  animation: 'perspective',
-  // followCursor: true,
-  // offset: [0, -98],
-});
-
-tippy('.wierer-dorothea', {
-  content: document.querySelector('.wierer-dorothea__profile'),
-  arrow: true,
-  interactive: true,
-  trigger: 'mouseenter',
-  delay: [1000, 350],
-  placement: 'auto',
-  duration: 350,
-  maxWidth: 400,
-  animation: 'perspective',
-  // followCursor: true,
-  // offset: [0, -98],
-});
-
-tippy('.davidova-marketa', {
-  content: document.querySelector('.davidova-marketa__profile'),
-  arrow: true,
-  interactive: true,
-  trigger: 'mouseenter',
-  delay: [1000, 350],
-  placement: 'auto',
-  duration: 350,
-  maxWidth: 400,
-  animation: 'perspective',
-  // followCursor: true,
-  // offset: [0, -98],
 });
 
 tippy('.bilosyuk-olena', {
@@ -325,8 +190,6 @@ tippy('.bilosyuk-olena', {
   duration: 350,
   maxWidth: 400,
   animation: 'perspective',
-  // followCursor: true,
-  // offset: [0, -98],
 });
 
 tippy('.bilosyuk-olena2', {
@@ -339,8 +202,6 @@ tippy('.bilosyuk-olena2', {
   duration: 350,
   maxWidth: 400,
   animation: 'perspective',
-  // followCursor: true,
-  // offset: [0, -98],
 });
 
 tippy('.blashko-darya', {
@@ -353,8 +214,6 @@ tippy('.blashko-darya', {
   duration: 350,
   maxWidth: 400,
   animation: 'perspective',
-  // followCursor: true,
-  // offset: [0, -98],
 });
 
 tippy('.blashko-darya2', {
@@ -367,8 +226,6 @@ tippy('.blashko-darya2', {
   duration: 350,
   maxWidth: 400,
   animation: 'perspective',
-  // followCursor: true,
-  // offset: [0, -98],
 });
 
 tippy('.blashko-darya3', {
@@ -381,8 +238,6 @@ tippy('.blashko-darya3', {
   duration: 350,
   maxWidth: 400,
   animation: 'perspective',
-  // followCursor: true,
-  // offset: [0, -98],
 });
 
 tippy('.semerenko-valj', {
@@ -395,8 +250,6 @@ tippy('.semerenko-valj', {
   duration: 350,
   maxWidth: 400,
   animation: 'perspective',
-  // followCursor: true,
-  // offset: [0, -98],
 });
 
 tippy('.semerenko-valj2', {
@@ -409,8 +262,6 @@ tippy('.semerenko-valj2', {
   duration: 350,
   maxWidth: 400,
   animation: 'perspective',
-  // followCursor: true,
-  // offset: [0, -98],
 });
 
 tippy('.semerenko-vita', {
@@ -423,8 +274,6 @@ tippy('.semerenko-vita', {
   duration: 350,
   maxWidth: 400,
   animation: 'perspective',
-  // followCursor: true,
-  // offset: [0, -98],
 });
 
 tippy('.bekh-ekaterina', {
@@ -437,8 +286,6 @@ tippy('.bekh-ekaterina', {
   duration: 350,
   maxWidth: 400,
   animation: 'perspective',
-  // followCursor: true,
-  // offset: [0, -98],
 });
 
 tippy('.kryvonos-anna', {
@@ -451,8 +298,6 @@ tippy('.kryvonos-anna', {
   duration: 350,
   maxWidth: 400,
   animation: 'perspective',
-  // followCursor: true,
-  // offset: [0, -98],
 });
 
 tippy('.belkina-nadiia', {
@@ -465,8 +310,6 @@ tippy('.belkina-nadiia', {
   duration: 350,
   maxWidth: 400,
   animation: 'perspective',
-  // followCursor: true,
-  // offset: [0, -98],
 });
 
 tippy('.horodna-yulia', {
@@ -479,8 +322,6 @@ tippy('.horodna-yulia', {
   duration: 350,
   maxWidth: 400,
   animation: 'perspective',
-  // followCursor: true,
-  // offset: [0, -98],
 });
 
 tippy('.moskalenko-oksana', {
@@ -493,8 +334,6 @@ tippy('.moskalenko-oksana', {
   duration: 350,
   maxWidth: 400,
   animation: 'perspective',
-  // followCursor: true,
-  // offset: [0, -98],
 });
 
 tippy('.merkushyna-oleksandra', {
@@ -507,8 +346,6 @@ tippy('.merkushyna-oleksandra', {
   duration: 350,
   maxWidth: 400,
   animation: 'perspective',
-  // followCursor: true,
-  // offset: [0, -98],
 });
 
 tippy('.skrypko-hanna', {
@@ -521,8 +358,6 @@ tippy('.skrypko-hanna', {
   duration: 350,
   maxWidth: 400,
   animation: 'perspective',
-  // followCursor: true,
-  // offset: [0, -98],
 });
 
 tippy('.steblyna-liliia', {
@@ -535,8 +370,6 @@ tippy('.steblyna-liliia', {
   duration: 350,
   maxWidth: 400,
   animation: 'perspective',
-  // followCursor: true,
-  // offset: [0, -98],
 });
 
 tippy('.petrenko-iryna', {
@@ -549,8 +382,6 @@ tippy('.petrenko-iryna', {
   duration: 350,
   maxWidth: 400,
   animation: 'perspective',
-  // followCursor: true,
-  // offset: [0, -98],
 });
 
 tippy('.boe-johannes-thingnes', {
@@ -563,8 +394,6 @@ tippy('.boe-johannes-thingnes', {
   duration: 350,
   maxWidth: 400,
   animation: 'perspective',
-  // followCursor: true,
-  // offset: [0, -98],
 });
 
 tippy('.kinash-stepan', {
@@ -577,8 +406,6 @@ tippy('.kinash-stepan', {
   duration: 350,
   maxWidth: 400,
   animation: 'perspective',
-  // followCursor: true,
-  // offset: [0, -98],
 });
 
 tippy('.borovyk-roman', {
@@ -591,8 +418,6 @@ tippy('.borovyk-roman', {
   duration: 350,
   maxWidth: 400,
   animation: 'perspective',
-  // followCursor: true,
-  // offset: [0, -98],
 });
 
 tippy('.grushchak-dmytro', {
@@ -605,8 +430,6 @@ tippy('.grushchak-dmytro', {
   duration: 350,
   maxWidth: 400,
   animation: 'perspective',
-  // followCursor: true,
-  // offset: [0, -98],
 });
 
 tippy('.mandzyn-vitaliy', {
@@ -619,8 +442,6 @@ tippy('.mandzyn-vitaliy', {
   duration: 350,
   maxWidth: 400,
   animation: 'perspective',
-  // followCursor: true,
-  // offset: [0, -98],
 });
 
 tippy('.chihar-vladislav', {
@@ -633,8 +454,6 @@ tippy('.chihar-vladislav', {
   duration: 350,
   maxWidth: 400,
   animation: 'perspective',
-  // followCursor: true,
-  // offset: [0, -98],
 });
 
 tippy('.pryma-artem', {
@@ -647,8 +466,6 @@ tippy('.pryma-artem', {
   duration: 350,
   maxWidth: 400,
   animation: 'perspective',
-  // followCursor: true,
-  // offset: [0, -98],
 });
 
 tippy('.tsymbal-bogdan', {
@@ -661,8 +478,6 @@ tippy('.tsymbal-bogdan', {
   duration: 350,
   maxWidth: 400,
   animation: 'perspective',
-  // followCursor: true,
-  // offset: [0, -98],
 });
 
 tippy('.tsymbal-bogdan2', {
@@ -675,8 +490,6 @@ tippy('.tsymbal-bogdan2', {
   duration: 350,
   maxWidth: 400,
   animation: 'perspective',
-  // followCursor: true,
-  // offset: [0, -98],
 });
 
 tippy('.dudchenko-anton', {
@@ -689,8 +502,6 @@ tippy('.dudchenko-anton', {
   duration: 350,
   maxWidth: 400,
   animation: 'perspective',
-  // followCursor: true,
-  // offset: [0, -98],
 });
 
 tippy('.lesyuk-taras', {
@@ -703,8 +514,6 @@ tippy('.lesyuk-taras', {
   duration: 350,
   maxWidth: 400,
   animation: 'perspective',
-  // followCursor: true,
-  // offset: [0, -98],
 });
 
 tippy('.tishchenko-artem', {
@@ -717,92 +526,6 @@ tippy('.tishchenko-artem', {
   duration: 350,
   maxWidth: 400,
   animation: 'perspective',
-  // followCursor: true,
-  // offset: [0, -98],
-});
-
-tippy('.fillon-maillet-quentin', {
-  content: document.querySelector('.fillon-maillet-quentin__profile'),
-  arrow: true,
-  interactive: true,
-  trigger: 'mouseenter',
-  delay: [1000, 350],
-  placement: 'auto',
-  duration: 350,
-  maxWidth: 400,
-  animation: 'perspective',
-  // followCursor: true,
-  // offset: [0, -98],
-});
-
-tippy('.laegraid-sturla-holm', {
-  content: document.querySelector('.laegraid-sturla-holm__profile'),
-  arrow: true,
-  interactive: true,
-  trigger: 'mouseenter',
-  delay: [1000, 350],
-  placement: 'auto',
-  duration: 350,
-  maxWidth: 400,
-  animation: 'perspective',
-  // followCursor: true,
-  // offset: [0, -98],
-});
-
-tippy('.samuelsson-sebastian', {
-  content: document.querySelector('.samuelsson-sebastian__profile'),
-  arrow: true,
-  interactive: true,
-  trigger: 'mouseenter',
-  delay: [1000, 350],
-  placement: 'auto',
-  duration: 350,
-  maxWidth: 400,
-  animation: 'perspective',
-  // followCursor: true,
-  // offset: [0, -98],
-});
-
-tippy('.christiansen-vetle-sjastad', {
-  content: document.querySelector('.christiansen-vetle-sjastad__profile'),
-  arrow: true,
-  interactive: true,
-  trigger: 'mouseenter',
-  delay: [1000, 350],
-  placement: 'auto',
-  duration: 350,
-  maxWidth: 400,
-  animation: 'perspective',
-  // followCursor: true,
-  // offset: [0, -98],
-});
-
-tippy('.jacquelin-emilien', {
-  content: document.querySelector('.jacquelin-emilien__profile'),
-  arrow: true,
-  interactive: true,
-  trigger: 'mouseenter',
-  delay: [1000, 350],
-  placement: 'auto',
-  duration: 350,
-  maxWidth: 400,
-  animation: 'perspective',
-  // followCursor: true,
-  // offset: [0, -98],
-});
-
-tippy('.boe-tarjei', {
-  content: document.querySelector('.boe-tarjei__profile'),
-  arrow: true,
-  interactive: true,
-  trigger: 'mouseenter',
-  delay: [1000, 350],
-  placement: 'auto',
-  duration: 350,
-  maxWidth: 400,
-  animation: 'perspective',
-  // followCursor: true,
-  // offset: [0, -98],
 });
 
 tippy('.pidruchnuy-dmytro', {
@@ -815,8 +538,6 @@ tippy('.pidruchnuy-dmytro', {
   duration: 350,
   maxWidth: 400,
   animation: 'perspective',
-  // followCursor: true,
-  // offset: [0, -98],
 });
 
 tippy('.pidruchnuy-dmytro2', {
@@ -829,8 +550,6 @@ tippy('.pidruchnuy-dmytro2', {
   duration: 350,
   maxWidth: 400,
   animation: 'perspective',
-  // followCursor: true,
-  // offset: [0, -98],
 });
 
 tippy('.pidruchnuy-dmytro3', {
@@ -843,50 +562,6 @@ tippy('.pidruchnuy-dmytro3', {
   duration: 350,
   maxWidth: 400,
   animation: 'perspective',
-  // followCursor: true,
-  // offset: [0, -98],
-});
-
-tippy('.doll-benedikt', {
-  content: document.querySelector('.doll-benedikt__profile'),
-  arrow: true,
-  interactive: true,
-  trigger: 'mouseenter',
-  delay: [1000, 350],
-  placement: 'auto',
-  duration: 350,
-  maxWidth: 400,
-  animation: 'perspective',
-  // followCursor: true,
-  // offset: [0, -98],
-});
-
-tippy('.bakken-sivert-guttorm', {
-  content: document.querySelector('.bakken-sivert-guttorm__profile'),
-  arrow: true,
-  interactive: true,
-  trigger: 'mouseenter',
-  delay: [1000, 350],
-  placement: 'auto',
-  duration: 350,
-  maxWidth: 400,
-  animation: 'perspective',
-  // followCursor: true,
-  // offset: [0, -98],
-});
-
-tippy('.lesser-erik', {
-  content: document.querySelector('.lesser-erik__profile'),
-  arrow: true,
-  interactive: true,
-  trigger: 'mouseenter',
-  delay: [1000, 350],
-  placement: 'auto',
-  duration: 350,
-  maxWidth: 400,
-  animation: 'perspective',
-  // followCursor: true,
-  // offset: [0, -98],
 });
 
 tippy('.nasyko-denys', {
@@ -899,8 +574,6 @@ tippy('.nasyko-denys', {
   duration: 350,
   maxWidth: 400,
   animation: 'perspective',
-  // followCursor: true,
-  // offset: [0, -98],
 });
 
 tippy('.nasyko-denys2', {
@@ -913,8 +586,6 @@ tippy('.nasyko-denys2', {
   duration: 350,
   maxWidth: 400,
   animation: 'perspective',
-  // followCursor: true,
-  // offset: [0, -98],
 });
 
 tippy('.trush-vitaliy', {
@@ -927,8 +598,6 @@ tippy('.trush-vitaliy', {
   duration: 350,
   maxWidth: 400,
   animation: 'perspective',
-  // followCursor: true,
-  // offset: [0, -98],
 });
 
 tippy('.orlyk-andrіi', {
@@ -941,8 +610,6 @@ tippy('.orlyk-andrіi', {
   duration: 350,
   maxWidth: 400,
   animation: 'perspective',
-  // followCursor: true,
-  // offset: [0, -98],
 });
 
 tippy('.dotdenko-andriy', {
@@ -955,8 +622,6 @@ tippy('.dotdenko-andriy', {
   duration: 350,
   maxWidth: 400,
   animation: 'perspective',
-  // followCursor: true,
-  // offset: [0, -98],
 });
 
 tippy('.bryhadyr-ruslan', {
@@ -969,8 +634,6 @@ tippy('.bryhadyr-ruslan', {
   duration: 350,
   maxWidth: 400,
   animation: 'perspective',
-  // followCursor: true,
-  // offset: [0, -98],
 });
 
 tippy('.ponomarenko-oleksandr', {
@@ -983,8 +646,6 @@ tippy('.ponomarenko-oleksandr', {
   duration: 350,
   maxWidth: 400,
   animation: 'perspective',
-  // followCursor: true,
-  // offset: [0, -98],
 });
 
 tippy('.timer__more-events', {
@@ -1024,37 +685,6 @@ tippy('.header__notifications', {
 });
 
 
-
-// function myFunction() {
-//   document.getElementById("myDropdown").classList.toggle("show");
-// }
-
-// window.onclick = function(event) {
-//   if (!event.target.matches('.dropbtn')) {
-//     var dropdowns = document.getElementsByClassName("dropdown-content");
-//     var i;
-//     for (i = 0; i < dropdowns.length; i++) {
-//       var openDropdown = dropdowns[i];
-//       if (openDropdown.classList.contains('show')) {
-//         openDropdown.classList.remove('show');
-//       }
-//     }
-//   }
-// }
-
-// const toggleSwitch = document.querySelector('.theme-switch input[type="checkbox"]');
-
-// function switchTheme(e) {
-//     if (e.target.checked) {
-//         document.documentElement.setAttribute('data-theme', 'dark');
-//     }
-//     else {
-//         document.documentElement.setAttribute('data-theme', 'light');
-//     }    
-// }
-
-// toggleSwitch.addEventListener('change', switchTheme, false);
-
 const toggleSwitch = document.querySelector('.light-dark input[type="checkbox"]');
 
 function switchTheme(e) {
@@ -1067,36 +697,6 @@ function switchTheme(e) {
 }
 
 toggleSwitch.addEventListener('change', switchTheme, false);
-
-// document.querySelector('.header__notification_all').addEventListener('click', () => {
-//   document.querySelector('.notif-more').classList.toggle('three');
-// });
-
-// $('.oeverg-elvira-karin__profile_body').on('click', function(){
-//   $('.header__notifications_item').toggleClass('actuall');
-// });
-
-
-// if(document.getElementsByClassName('main-cup__term').length > 0) {
-//    document.getElementsByClassName('main-cup__lead')[0].classList.add('actual');
-//  }
-
-
-// $(document).ready(function(){
-//   if($('#myDropdown').hasClass("show")) 
-//      $("dropbtn").addClass("actual");
-// });
-
-
-// document.getElementById('more-button').onclick = function() {
-//   document.getElementById('notif').classList.add('notif-more');
-// }
-
-// $(document).ready(function(){
-// 	$(".main-cup__term term").click(function(){
-// 		$(".main-cup__lead lead").toggleClass("notif-more"); return false;
-// 	});
-// });
 
 /* Выбор языка */
 $(".js-dropdown").each(function(){
@@ -1307,55 +907,18 @@ btn.on('click', function(e) {
 });
 /* Кнопка наверх */
 
-
+/* Аккордеон для подвала*/
 $(document).ready(function(){
-  $(".footer__column-min > span").on("click", function(){
+  $(".footer__column-min").on("click", function(){
     if($(this).hasClass('active')){
       $(this).removeClass("active");
-      $(this).siblings('.footer__column-content').slideUp(200);
+      $(this).find('.footer__column-content').slideUp(200);
     }else{
-      $(".footer__column-min > span").removeClass("active");
+      $(".footer__column-min").removeClass("active");
       $(this).addClass("active");
       $('.footer__column-content').slideUp(200);
-      $(this).siblings('.footer__column-content').slideDown(200);
-    }    
+      $(this).find('.footer__column-content').slideDown(200);
+    }
   });
 });
-
-
-/* Костыль к бургер кнопке*/
-// $(document).ready(function(){
-// 	$('.burger-menu_button').click(function () {
-// 		$('.body').toggleClass('overflow');
-// 		});
-// 	});
-
-//   $(document).ready(function(){
-//     $('.burger-menu_link').click(function () {
-//       $('.body').toggleClass('overflow');
-//       });
-//     });
-/* Костыль к бургер кнопке*/
-
-
-
-/* Слайд меню для бургера*/
-// $(document).ready(function(){
-//   $('.burger-menu_nav-more').click(function () {
-//     $('.burger-menu_nav-menu-content').toggleClass('new-slide');
-//     });
-//   });
-
-
-// $(document).ready(function(){
-//   $('.burger-menu-back-tab').click(function () {
-//     $('.burger-menu_nav-menu-content').toggleClass('new-slide');
-//       });
-//   });
-
-// $(document).ready(function(){
-//   $('.burger-menu__layer-background').click(function () {
-//     $('.burger-menu_nav-menu-content').toggleClass('new-slide');
-//       });
-//   });
-/* Слайд меню для бургера*/
+/* Аккордеон для подвала*/

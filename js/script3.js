@@ -3,7 +3,6 @@
     let menu = $(selector);
     let button = menu.find('.burger-menu_button', '.burger-menu_lines');
     let links = menu.find('.burger-menu_link');
-    // let overlay = menu.find('.burger-menu_overlay');
     
     button.on('click', (e) => {
       e.preventDefault();
@@ -11,7 +10,6 @@
     });
     
     links.on('click', () => toggleMenu());
-    // overlay.on('click', () => toggleMenu());
     
   
     function toggleMenu(){
@@ -128,26 +126,11 @@ $(document).ready(function(){
         $('.burger-menu_nav-menu-content').removeClass('new-slide4');
             });
     });
-/*Закрытие по свайпу*/
-    // $(function() {
-    //     $(".burger-menu__layer-background").on("swiperight", swipeHandler);
-      
-    //     function swipeHandler(event) {
-    //     $(".burger-menu_nav-menu-content").removeClass("new-slide");
-    //     $(".burger-menu_nav-menu-content").removeClass("new-slide2");
-    //     $(".burger-menu_nav-menu-content").removeClass("new-slide3");
-    //     $(".burger-menu_nav-menu-content").removeClass("new-slide4");
-    //     }
-    //   });
-/*Закрытие по свайпу*/
-/*Навигация в бургер меню*/
-
 
 /*Кнопка сайдбара*/
 $(document).ready(function(){
     $('.layer-toggle').click(function () {
         $('.body').toggleClass('open-menu');
-        // $('.body').toggleClass('overflow');
             });
         });
 
@@ -166,20 +149,6 @@ $(document).ready(function(){
             });
     });
 /*Кнопка сайдбара*/
-
-/*Свайп сайдбара*/
-// $(function() {
-//     $(".swipe-area").on("swipeleft", swipeHandler);
-//     $(".swipe-area").on("swiperight", swipeHandler);
-//     $(".layer-toggle").on("swipeleft", swipeHandler);
-//     $(".layer-toggle").on("swiperight", swipeHandler);
-
-//     function swipeHandler(event) {
-//         $('.body').toggleClass('open-menu');
-//         $('.body').toggleClass('overflow');
-//     }
-//   });
-/*Свайп сайдбара*/
 
 /*Закрытие сайдбара по свайпу*/
 $(function() {
@@ -319,10 +288,3 @@ $(document).ready(function(){
         $('.body').addClass('log-in-confirmed');
         });
     });
-
-
-
-
-$(window).load(function() {
-    $(".twitter-timeline").contents().find('head').append( '.p-name { color:#f00 !important; } ' );
-});
