@@ -1537,12 +1537,30 @@ body {
     font-size: 0.95em !important;
   }
   .dropdown__box ul li a[href*="UA"]::before {
-    content: url('//www.biathlon.com.ua/uploads/0/53.gif');
+    /* content: url('//www.biathlon.com.ua/uploads/0/53.gif');
+    margin-right: 5px; */
+    content: '';
+    background-image: url(img/UA2.png);
     margin-right: 5px;
+    background-size: 18px 18px;
+    width: 18px;
+    height: 18px;
+    display: block;
+    background-repeat: no-repeat;
+    margin-top: 7px;
   }
   .dropdown__box ul li a[href*="EN"]::before {
-    content: url('//www.biathlon.com.ua/uploads/0/61.gif');
+    /* content: url('//www.biathlon.com.ua/uploads/0/61.gif');
+    margin-right: 5px; */
+    content: '';
+    background-image: url(img/GB2.png);
     margin-right: 5px;
+    background-size: 18px 18px;
+    width: 18px;
+    height: 18px;
+    display: block;
+    background-repeat: no-repeat;
+    margin-top: 7px;
   }
   .burger-menu_nav-menu-list li a[href*="UA"] .list-center2::before {
     content: '';
@@ -1570,7 +1588,7 @@ body {
   }
 
   .dropdown__box ul li a[href*="RU"]::before {
-    content: url('img/nullflag.png');
+    content: url('img/nullflag2.png');
     margin-right: 5px;
   }
   .burger-menu_nav-menu-list li a[href*="RU"] .list-center2::before {
