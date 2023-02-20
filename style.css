@@ -6422,7 +6422,7 @@ html[data-theme="summer"] .body.sign-up-tab .burger-menu__tab_sign-up, html[data
 html[data-theme="summer"] .tippy-arrow {
   color: #fffdf8;
 }
-html[data-theme="summer"] .vertical-menu-block__categories span:not(.news_date), html[data-theme="summer"] .header__notifications_item .logged, html[data-theme="summer"] .mobile-notification__img .logged {
+html[data-theme="summer"] .vertical-menu-block__categories span:not(.news_date), html[data-theme="summer"] .mobile-notification__img .logged {
   border-color: #dbd6cc;
 }
 html[data-theme="summer"] .timeline__comments:hover {
@@ -6876,10 +6876,10 @@ html[data-theme="grey"] .header__notifications_item.user-item, html[data-theme="
   background-color: #eee;
   border-left: 4px solid #b3b3b3;
 }
-html[data-theme="grey"] .header__notifications_item.user-item .logged, html[data-theme="grey"] .mobile-notification__item.user-item .mobile-notification__img .logged {
+html[data-theme="grey"] .header__notifications_item:hover .logged, html[data-theme="grey"] .header__notifications_item.user-item .logged, html[data-theme="grey"] .mobile-notification__item.user-item .mobile-notification__img .logged {
   border-color: #eee;
 }
-html[data-theme="grey"] .header__notifications_item:hover .logged {
+html[data-theme="grey"] .header__notifications_item.user-item:hover .logged {
   border-color: #e1e1e1;
 }
 html[data-theme="grey"] .header__notifications_item.user-item:hover {
@@ -6887,6 +6887,9 @@ html[data-theme="grey"] .header__notifications_item.user-item:hover {
 }
 html[data-theme="grey"] .table__one tbody tr:nth-child(2n+4) td, html[data-theme="grey"] .table__two tbody tr:nth-child(2n+3) td {
   background-color: #f5f5f5 !important;
+}
+html[data-theme="grey"] .comment-block__user-content .woman-user .logged, html[data-theme="grey"] .blogs-block .logged {
+  border-color: #f5f5f5;
 }
 html[data-theme="grey"] .select__list, html[data-theme="grey"] .tippy-content, html[data-theme="grey"] .timer__more-button a, html[data-theme="grey"] .burger-menu__profile, html[data-theme="grey"] .main-cup, html[data-theme="grey"] .sidebar-block, html[data-theme="grey"] .sidebar-block3, html[data-theme="grey"] .twitter-block, html[data-theme="grey"] .timeline__item, html[data-theme="grey"] .sidebar-block, html[data-theme="grey"] .comment-block .comment-block__rumor, html[data-theme="grey"] .popular-block__search-form input, html[data-theme="grey"] .vertical-menu-block__body .vertical-menu-block__list li {
   color: #1e1e1e;
