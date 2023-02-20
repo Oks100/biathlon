@@ -4671,7 +4671,7 @@ article.timeline {
       display: none;
     }
     .footer__body {
-      margin: 30px 1.5em 10px;
+      margin: 35px 1.5em 10px;
     }
     .header__body {
       margin: 0 15px 0 15px;
@@ -5696,9 +5696,6 @@ article.timeline {
     }
     .footer__column-min.active .footer__icon::before {
       transform: rotate(-43deg);
-    }
-    .footer__body {
-      margin: 30px 35px 10px;
     }
     .footer__about-site {
       margin-right: 0%;
