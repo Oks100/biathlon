@@ -3995,6 +3995,7 @@ footer.footer .footer__column a:hover, footer.footer .footer__bottom-text a:hove
   align-items: center;
   justify-content: center;
   scale: 1;
+  -webkit-tap-highlight-color: transparent;
 }
 .footer__facebook::before {
   content: "\f39e";
@@ -4715,6 +4716,7 @@ article.timeline {
       display: flex;
       align-items: center;
       justify-content: right;
+      -webkit-tap-highlight-color: transparent;
     }
     .layer-toggle-visible {
       display: flex;
@@ -5574,7 +5576,14 @@ article.timeline {
         content: url(img/logo-mobile3.png);
     }
     }
-
+    @media screen and (max-width: 409px) {
+      .footer__column2 {
+        width: 47.5%;
+        flex-direction: column;
+        align-items: center;
+        margin-top: -27px;
+      }
+      }
   @media screen and (max-width: 420px) {
     .timeline__body table td:not(.table0_100 tr td) {
       padding: 2px;
@@ -5588,7 +5597,7 @@ article.timeline {
   .footer__accordion-container {
     display: none;
   }
-  @media screen and (max-width: 385px) {
+  @media screen and (max-width: 390px) {
     .footer__column, .footer__column2 {
       display: none;
     }
@@ -7224,6 +7233,7 @@ html[data-theme="grey"] .vote-block__bar {
 }
 .body.log-in-confirmed .burger-menu__sign-up_confirmed {
   display: flex;
+  border-radius: 8px;
 }
 .burger-menu__sign-up_confirmed span {
   color: black;
@@ -7460,6 +7470,7 @@ input[type="radio"]{
 
 .body.log-in-entered .burger-menu__log-in_contant-entered {
   display: flex;
+  border-radius: 8px;
 }
 .burger-menu__log-in_contant-entered {
   flex-direction: column;
