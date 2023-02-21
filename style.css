@@ -159,10 +159,12 @@ body {
   }
   .header__logo {
     position: relative;
+    -webkit-tap-highlight-color: transparent;
   }
   .header__logo_body img {
     display: block;
     width: 100%;
+    -webkit-tap-highlight-color: transparent;
   }
   .header__logo_body {
     display: block;
@@ -745,6 +747,7 @@ body {
   transition: all 0.45s ease;
   position: relative;
   background-color: #d1ebfb;
+  -webkit-tap-highlight-color: transparent;
 }
 .timer__data-next-body {
   width: 45px;
@@ -792,6 +795,7 @@ body {
   background: transparent;
   border-radius: 33px;
   position: relative;
+  -webkit-tap-highlight-color: transparent;
 }
 .timer__data-prev {
   width: 33px;
@@ -1296,6 +1300,7 @@ body {
   width: 95px;
   background-color: #d1ebfb;
   border-radius: 8px;
+  -webkit-tap-highlight-color: transparent;
 }
 .select__head2:hover {
   background-color: #b9e4ff;
@@ -1310,6 +1315,7 @@ body {
   padding: 0 10px;
   border-radius: 8px;
   transition: 1s ease;
+  -webkit-tap-highlight-color: transparent;
 }
 .select__list2 {
   display: none;
@@ -1367,6 +1373,7 @@ body {
   cursor: pointer;
   list-style-type: none;
   white-space: nowrap;
+  -webkit-tap-highlight-color: transparent;
 }
 .select__list2 .select__item2:hover {
   background-color: #ecf5fb;
@@ -1731,6 +1738,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    -webkit-tap-highlight-color: transparent;
   }
   .burger-menu_nav-menu-list li:not(:last-of-type) a, .burger-menu_nav-menu-list__default li:not(:last-of-type) a {
     border-bottom: 1px solid #d0d9dd;
@@ -1790,6 +1798,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    -webkit-tap-highlight-color: transparent;
   }
   
   .burger-menu__socials-facebook {
@@ -2322,6 +2331,7 @@ body {
     justify-content: center;
     align-items: center;
     margin-right: 1em;
+    -webkit-tap-highlight-color: transparent;
   }
   .icon.icon--left::before, .icon.icon--right::before {
     position: absolute;
@@ -2455,6 +2465,7 @@ body {
     color: #002b71;
     text-decoration: none;
     scale: 1;
+    -webkit-tap-highlight-color: transparent;
   }
   .timeline-navigation__page a::before, .timeline-navigation_arrow-left::before, .timeline-navigation_arrow-right::before {
     position: absolute;
@@ -2511,6 +2522,7 @@ body {
     transition: all 0.4s ease;
     display: flex;
     align-items: center;
+    -webkit-tap-highlight-color: transparent;
   }
   .timeline__comments:hover {
     background-color: #d1ebfb;
@@ -2558,6 +2570,7 @@ body {
     opacity: 1;
     border: 1px solid #d0d9dd;
     scale: 1;
+    -webkit-tap-highlight-color: transparent;
   }
   
   .slider-container3 .swiper-pagination-bullet-active {
@@ -2720,10 +2733,11 @@ body {
     font-size: 12px;
     }
   .timeline-sponsors .swiper-button-next::after, .timeline-sponsors .swiper-button-prev::after {
-      font-size: 25px !important;
+    font-size: 25px !important;
   }
   .timeline-sponsors .swiper-button-next, .timeline-sponsors .swiper-button-prev {
     color: #4e79ad !important;
+    -webkit-tap-highlight-color: transparent;
   }
   .timeline-sponsors .swiper-button-prev {
     left: 0px !important;
@@ -2735,6 +2749,7 @@ body {
     background-color: transparent;
     border: 1px solid #d0d9dd;
     scale: 1.0;
+    -webkit-tap-highlight-color: transparent;
   }
   .timeline-sponsors .swiper-pagination-bullet:hover:not(.swiper-pagination-bullet-active) {
     background-color: #b9e4ff;
@@ -4276,6 +4291,7 @@ footer.footer .footer__column a:hover, footer.footer .footer__bottom-text a:hove
   .statistics__button a {
     width: 100%;
     text-align: center;
+    -webkit-tap-highlight-color: transparent;
   }
   .statistics__button {
     display: flex;
@@ -4817,6 +4833,7 @@ article.timeline {
       justify-content: center;
       background-color: transparent;
       padding-left: 1.5px;
+      -webkit-tap-highlight-color: transparent;
     }
     #back-to-top-button:hover {
       background-color: transparent;
@@ -4990,9 +5007,11 @@ article.timeline {
   }
   .burger-menu__profile a {
     color: #002b71;
+    -webkit-tap-highlight-color: transparent;
   }
   .burger-menu_nav-menu a {
     color: black;
+    -webkit-tap-highlight-color: transparent;
   }
   .burger-menu-back-tab span {
     font-weight: 600;
@@ -5063,6 +5082,7 @@ article.timeline {
     background-color: #d1ebfb;
     color: #002b71;
     cursor: pointer;
+    -webkit-tap-highlight-color: transparent;
   }
   .exit-no {
     display: flex;
@@ -5074,6 +5094,7 @@ article.timeline {
     color: #002b71;
     border: 2px solid #d1ebfb;
     cursor: pointer;
+    -webkit-tap-highlight-color: transparent;
   }
 
   .footer__logo img {
@@ -5180,6 +5201,7 @@ article.timeline {
     right: 7px;
     background-color: #1f73cc;
     transform: rotate(45deg);
+    -webkit-tap-highlight-color: transparent;
   }
   .mobile-notification__close::after {
     position: absolute;
@@ -5287,6 +5309,7 @@ article.timeline {
   }
   .mobile-notification__time a, .mobile-notification__head-content a {
     color: #002b71 !important;
+    -webkit-tap-highlight-color: transparent;
   }
   .burger-menu_nav-menu-tabs a {
     color: black;
@@ -5325,6 +5348,7 @@ article.timeline {
     align-items: center;
     justify-content: center;
     line-height: 45px;
+    -webkit-tap-highlight-color: transparent;
   }
   .mobile-notification__more-button::before {
     content: "\e005";
@@ -5356,6 +5380,7 @@ article.timeline {
   }
   .mobile-timer__more-events-content-group a {
     color: #002b71 !important;
+    -webkit-tap-highlight-color: transparent;
   }
   .mobile-timer__more-events__head {
     display: flex;
@@ -5394,6 +5419,7 @@ article.timeline {
     top: 11px;
     right: 10px;
     cursor: pointer;
+    -webkit-tap-highlight-color: transparent;
   }
   .mobile-timer__more-events_head-close::before {
     position: absolute;
@@ -5436,6 +5462,7 @@ article.timeline {
     width: 100%;
     line-height: 42.5px;
     color: black;
+    -webkit-tap-highlight-color: transparent;
   }
   .mobile-timer__more-events-button::before {
     content: "\e900";
@@ -5992,7 +6019,7 @@ html[data-theme="dark"] .tippy-content {
   color: #e1e1e1;
   background-color: #2a2b2d;
 }
-html[data-theme='dark'] .mobile-notification__time span, html[data-theme='dark'] .mobile-notification__text a, html[data-theme="dark"] .img__profile a {
+html[data-theme='dark'] .mobile-notification__time span, html[data-theme='dark'] .mobile-notification__text a, html[data-theme="dark"] .img__profile a:hover {
   color: #abcbff !important;
 }
 html[data-theme="dark"] .tippy-content a:hover {
@@ -7125,6 +7152,7 @@ html[data-theme="grey"] .vote-block__bar {
   max-width: 225px;
   min-width: 180px;
   cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
 }
 .sign-up {
   border: 2px solid #b9e4ff;
@@ -7166,6 +7194,7 @@ html[data-theme="grey"] .vote-block__bar {
   top: 11px;
   right: 10px;
   cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
 }
 .burger-menu__log-in-menu_close::before, .burger-menu__log-in-menu_close::after {
   position: absolute;
@@ -7199,6 +7228,7 @@ html[data-theme="grey"] .vote-block__bar {
   color: black;
   padding: 12px 10px;
   cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
 }
 .burger-menu__tab_log-in {
   border-top-left-radius: 8px;
@@ -7330,6 +7360,7 @@ html[data-theme="grey"] .vote-block__bar {
   width: 100%;
   position: relative;
   background-color: transparent;
+  -webkit-tap-highlight-color: transparent;
 }
 .form__input input:focus {
   background-color: #f3f6f7;
@@ -7352,6 +7383,7 @@ html[data-theme="grey"] .vote-block__bar {
   background-color: #d1ebfb;
   cursor: pointer;
   width: 100%;
+  -webkit-tap-highlight-color: transparent;
 }
 .forgot-password {
   margin-top: 25px;
@@ -7405,7 +7437,7 @@ html[data-theme="grey"] .vote-block__bar {
   gap: 15px 10px;
   justify-content: space-between;
 }
-.form__field_radio .option{
+.form__field_radio .option {
   background-color: transparent;
   height: 40px;
   width: 140px;
@@ -7415,8 +7447,9 @@ html[data-theme="grey"] .vote-block__bar {
   cursor: pointer;
   border: 1px solid #bfc6ca;
   position: relative;
+  -webkit-tap-highlight-color: transparent;
 }
-.form__field_radio .option .dot{
+.form__field_radio .option .dot {
   left: -0.5px;
   height: 40px;
   width: 40px;
