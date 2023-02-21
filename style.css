@@ -6079,6 +6079,7 @@ article.timeline {
       cursor: pointer;
       background-color: rgba(0, 0, 0, 0.13);
       border-radius: 15px;
+      -webkit-tap-highlight-color: transparent;
     }
     .footer__column-content a {
       display: inline-flex;
@@ -6122,6 +6123,7 @@ article.timeline {
       padding-left: 14px;
       justify-content: space-between;
       margin-left: 25px;
+      -webkit-tap-highlight-color: transparent;
     }
     .footer__column-min_tittle::before {
       background: #ffd700;
