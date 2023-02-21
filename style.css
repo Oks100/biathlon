@@ -1652,6 +1652,7 @@ body {
     padding-top: 6px;
     border-radius: 50%;
     box-shadow: 0px 0px 5px 2px rgba(50, 50, 50, 0.15);
+    -webkit-tap-highlight-color: transparent;
   }
   .burger-menu__profile-messange::before {
     content: "\e914";
@@ -1859,6 +1860,7 @@ body {
     text-transform: uppercase;
     color: black;
     font-weight: 600;
+    -webkit-tap-highlight-color: transparent;
   }
   .burger-menu__tab {
   }
@@ -2107,6 +2109,7 @@ body {
     border-radius: 8px;
     position: relative;
     z-index: 1;
+    -webkit-tap-highlight-color: transparent;
   }
   .timeline__body-important-news .spoiler::before {
     content: "\e901";
@@ -2835,6 +2838,7 @@ body {
     margin: 0;
     top: auto;
     left: 0px;
+    -webkit-tap-highlight-color: transparent;
   }
   .swiper-button-next:hover .swiper-button-next-icon {
     transform: translate(10px, 0);
@@ -2849,6 +2853,7 @@ body {
     margin: 0;
     top: auto;
     left: 12px;
+    -webkit-tap-highlight-color: transparent;
   }
   .main-cup__controls .swiper-button-next {
     right: 11px;
@@ -2983,6 +2988,7 @@ body {
     z-index: 1;
     display: inline-flex;
     padding: 0 7px 0 7px;
+    -webkit-tap-highlight-color: transparent;
   }
   .athletes-speed, .shooting-statistics, .shot-rate-statistics, .main-cup-slide {
     width: 100%;
@@ -3073,6 +3079,7 @@ body {
     cursor: pointer;
     width: 140px;
     height: auto;
+    -webkit-tap-highlight-color: transparent;
   }
   .next-race-block__footer .learn-more {
     width: 158px;
@@ -4558,6 +4565,7 @@ footer.footer .footer__column a:hover, footer.footer .footer__bottom-text a:hove
     display: flex;
     margin-left: 5px;
     padding: 5px;
+    -webkit-tap-highlight-color: transparent;
   }
   .header__mobile-link-massage2::before {
     content: "\e001";
@@ -4578,6 +4586,7 @@ footer.footer .footer__column a:hover, footer.footer .footer__bottom-text a:hove
     padding: 15px 0 10px 10px;
     cursor: pointer;
     color: #fff;
+    -webkit-tap-highlight-color: transparent;
   }
   .mobile-timer__more-events span::after {
     content: "\e036";
@@ -4592,6 +4601,7 @@ footer.footer .footer__column a:hover, footer.footer .footer__bottom-text a:hove
     display: flex;
     flex-wrap: nowrap;
     align-items: center;
+    -webkit-tap-highlight-color: transparent;
   }
 }
 
@@ -4844,6 +4854,7 @@ article.timeline {
     z-index: 2;
     display: flex;
     justify-self: end;
+    -webkit-tap-highlight-color: transparent;
   }
   
   .burger-menu-spin .burger-menu_lines {
