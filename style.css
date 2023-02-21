@@ -1972,6 +1972,7 @@ body {
     border-left: 1px solid #d0d9dd;
     z-index: 2;
     border-radius: 0 8px 8px 0;
+    -webkit-tap-highlight-color: transparent;
   }
   .burger-menu__new-slide-container {
     position: absolute;
@@ -1990,6 +1991,7 @@ body {
     top: 0;
     cursor: pointer;
     border-radius: 0 8px 0 0;
+    -webkit-tap-highlight-color: transparent;
   }
   .burger-menu-back-tab {
     justify-content: center;
@@ -6774,7 +6776,7 @@ html[data-theme="summer"] .burger-menu-back-tab, html[data-theme="summer"] .burg
   border-color: #dbd6cc;
 }
 html[data-theme="summer"] .burger-menu_new-slide-tab, html[data-theme="summer"] .burger-menu_nav-menu-title {
-  background-color: #fff9ed;
+  background-color: #f7f2e5;
 }
 .burger-menu__profile-notification {
   background-color: rgba(255, 253, 248, 0.85);
