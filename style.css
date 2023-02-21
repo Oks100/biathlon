@@ -1994,9 +1994,9 @@ body {
   .burger-menu-back-tab {
     justify-content: center;
     align-items: center;
-  
     height: 44.8px;
     border-bottom: 1px solid #d0d9dd;
+    -webkit-tap-highlight-color: transparent;
   }
   .burger-menu-back-tab::before, .burger-menu-back-tab::after {
     position: absolute;
@@ -4511,6 +4511,426 @@ footer.footer .footer__column a:hover, footer.footer .footer__bottom-text a:hove
   opacity: 1;
   background-color: rgba(0, 0, 0, 0.65);
 }
+.body.guest .burger-menu__profile-container {
+  display: none;
+}
+.burger-menu__guest-container {
+  display: none;
+}
+.body.guest .burger-menu__guest-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 100%;
+  padding-top: 0.8em;
+}
+.log-in {
+  background-color: #b9e4ff;
+}
+.log-in, .sign-up {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 40px;
+  border-radius: 30px;
+  color: #002b71;
+  width: calc(100% - 85px);
+  max-width: 225px;
+  min-width: 180px;
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+}
+.sign-up {
+  border: 2px solid #b9e4ff;
+  background-color: #fff;
+}
+.body.log-in-window {
+
+}
+.burger-menu__log-in-menu {
+}
+.burger-menu__log-in-menu {
+  display: none;
+}
+.body.log-in-window .burger-menu__log-in-menu {
+  display: block;
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 20;
+  background-color: #e7f3fa;
+}
+.burger-menu__log-in-menu_head {
+  display: flex;
+  height: 60.4px;
+  position: absolute;
+  top: 0;
+  z-index: 999;
+  left: 0;
+  width: 100%;
+}
+.burger-menu__log-in-menu_close {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  top: 11px;
+  right: 10px;
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+}
+.burger-menu__log-in-menu_close::before, .burger-menu__log-in-menu_close::after {
+  position: absolute;
+  content: "";
+  height: 2px;
+  width: 25px;
+  right: 7px;
+  background-color: #1f73cc;
+}
+.burger-menu__log-in-menu_close::before {
+  transform: rotate(45deg);
+}
+.burger-menu__log-in-menu_close::after {
+  transform: rotate(-45deg);
+}
+.burger-menu__log-in_body {
+  margin: 60.4px 15px 15px 15px;
+  overflow: auto;
+  height: calc(100vh - 85.4px);
+}
+.burger-menu__tabs {
+  display: flex;
+  flex-direction: row;
+  flex-basis: 50%;
+}
+.burger-menu__tab_log-in, .burger-menu__tab_sign-up  {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: black;
+  padding: 12px 10px;
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+}
+.burger-menu__tab_log-in {
+  border-top-left-radius: 8px;
+}
+.burger-menu__tab_sign-up {
+  border-top-right-radius: 8px;
+}
+.burger-menu__tab_log-in span, .burger-menu__tab_sign-up span {
+  word-wrap: break-word;
+  overflow-wrap: anywhere;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.burger-menu__tab_sign-up {
+  background-color: #d0d9dd;
+}
+.burger-menu__log-in_contant {
+  box-shadow: 0 1px 2px rgba(0,0,0,.5) inset, 0 -1px 0 rgba(0,0,0,.2) inset;
+  padding: 1.2px 0.9px;
+  background-color: #fff;
+  border-radius: 8px;
+}
+.burger-menu__log-in_contant-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  padding: 0px 30px 25px 30px;
+}
+.body.sign-up-tab .burger-menu__sign-up_contant-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  padding: 0px 30px 25px 30px;
+}
+.burger-menu__sign-up_confirmed {
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  padding: 25px 30px 25px 30px;
+  display: none;
+}
+.body.log-in-confirmed .burger-menu__sign-up_confirmed {
+  display: flex;
+  border-radius: 8px;
+}
+.burger-menu__sign-up_confirmed span {
+  color: black;
+}
+.burger-menu__log-in_button-confirmed {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  max-width: 200px;
+  margin: 0 auto;
+  flex-direction: column;
+  margin-top: 35px;
+}
+.string-optional {
+  color: black;
+  margin-bottom: 10px;
+}
+.body.sign-up-tab .burger-menu__log-in_contant-form {
+  display: none;
+}
+.body.sign-up-tab .burger-menu__tab_log-in {
+  background-color: #d0d9dd;
+}
+.body.sign-up-tab .burger-menu__tab_sign-up {
+  background-color: #fff;
+}
+.burger-menu__log-in_contant-form .form__field:not(:nth-child(3)), .burger-menu__sign-up_contant-form .form__field:not(:nth-child(6)) {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  max-width: 300px;
+  margin: 0 auto;
+  flex-direction: column;
+  margin-top: 25px;
+}
+.burger-menu__sign-up_contant-form .form__field:nth-child(6) {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  max-width: 200px;
+  margin: 0 auto;
+  flex-direction: column;
+  margin-top: 28px;
+}
+.burger-menu__log-in_contant-form .form__field:nth-child(3) {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  max-width: 200px;
+  margin: 0 auto;
+  flex-direction: column;
+  margin-top: 35px;
+}
+.form__e-mail-icon, .form__password-icon, .form__user-icon {
+  height: 39px;
+  width: 39px;
+  border-radius: 50%;
+  background-color: #bfc6ca;
+  left: -1px;
+  top: -0.5px;
+  position: absolute;
+  transition: all 0.4s ease-in-out;
+}
+.login__username, .login__password {
+
+}
+.enter-button {
+  
+}
+.login__username {
+
+}
+.form__input {
+  height: 40px;
+  border: 1px solid #bfc6ca;
+  border-radius: 33px;
+  position: relative;
+}
+.login__username, .login__password, .e-mail__login, .login__repeat_password {
+  padding: 0 20px 0 50px;
+  border-radius: 33px;
+  height: 100%;
+  width: 100%;
+  position: relative;
+  background-color: transparent;
+  -webkit-tap-highlight-color: transparent;
+}
+.form__input input:focus {
+  background-color: #f3f6f7;
+}
+.e-mail__login:focus::-moz-placeholder, .login__password:focus::-moz-placeholder { 
+  color: transparent;
+}
+.e-mail__login:focus::-webkit-input-placeholder, .login__password:focus::-webkit-input-placeholder {
+  color: transparent;
+}
+.e-mail__login:focus:-ms-input-placeholder, .login__password:focus:-ms-input-placeholder {
+  color: transparent;
+}
+.e-mail__login:focus ~ .form__e-mail-icon, .login__password:focus ~ .form__password-icon, .login__repeat_password:focus ~ .form__password-icon, .login__username:focus ~ .form__user-icon {
+  border-radius: 33px 0 0 33px;
+}
+.enter-button {
+  height: 40px;
+  border-radius: 33px;
+  background-color: #d1ebfb;
+  cursor: pointer;
+  width: 100%;
+  -webkit-tap-highlight-color: transparent;
+}
+.forgot-password {
+  margin-top: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.form.login span {
+  color: black;
+}
+.forgot-password a {
+  color: #002b71;
+}
+.form__e-mail-icon::before {
+  position: absolute;
+  content: "\e047";
+  font-family: 'icomoon';
+  font-size: 1.0em;
+  color: #fff;
+  left: 10px;
+  top: 10px;
+}
+.form__password-icon::before {
+  position: absolute;
+  content: "\e049";
+  font-family: 'icomoon';
+  font-size: 1.2em;
+  color: #fff;
+  left: 12px;
+  top: 6px;
+}
+.form__user-icon::before {
+  position: absolute;
+  content: "\e050";
+  font-family: 'icomoon';
+  font-size: 1.1em;
+  color: #fff;
+  left: 12px;
+  top: 7px;
+}
+.burger-menu__sign-up_contant-form, .body.log-in-confirmed .burger-menu__sign-up_contant-form {
+  display: none;
+}
+.form__radio-buttons label {
+  color: black;
+}
+.form__field_radio {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  gap: 15px 10px;
+  justify-content: space-between;
+}
+.form__field_radio .option {
+  background-color: transparent;
+  height: 40px;
+  width: 140px;
+  display: flex;
+  align-items: center;
+  border-radius: 33px;
+  cursor: pointer;
+  border: 1px solid #bfc6ca;
+  position: relative;
+  -webkit-tap-highlight-color: transparent;
+}
+.form__field_radio .option .dot {
+  left: -0.5px;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  position: relative;
+  background-color: #bfc6ca;
+}
+.form__field_radio .option span {
+  color: black;
+  padding-left: 12px;
+  z-index: 1;
+}
+.form__field_radio .option .dot::before{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  content: "";
+  top: 10px;
+  left: 12px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  font-family: 'icomoon';
+  color: #fff;
+}
+
+.option::before {
+  content: '';
+  position: absolute;
+  left: -0px;
+  width: 40px;
+  height: 40px;
+  background-color: #bfc6ca;
+  border-radius: 33px;
+  transition: all .4s ease;
+}
+.form__field_radio #option-1:checked ~ .option-1::before,
+.form__field_radio #option-2:checked ~ .option-2::before {
+  width: calc(100% + 0.8px);
+}
+.option.option-1 .dot::before{
+  content: "\e051";
+  font-size: 1.1em;
+}
+.option.option-2 .dot::before{
+  content: "\e052";
+  font-size: 1.2em;
+}
+input[type="radio"]{
+  display: none;
+}
+.body.log-in-entered .burger-menu__tabs, .body.log-in-confirmed .burger-menu__tabs {
+  display: none;
+}
+.body.log-in-entered .burger-menu__log-in_contant-form {
+  display: none;
+}
+
+.burger-menu__log-in_contant-entered {
+  display: none;
+}
+
+.body.log-in-entered .burger-menu__log-in_contant-entered {
+  display: flex;
+  border-radius: 8px;
+}
+.burger-menu__log-in_contant-entered {
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  padding: 25px 30px 25px 30px;
+}
+.burger-menu__log-in_contant-entered span {
+  color: black;
+}
+.burger-menu__log-in_contant-entered span:first-of-type {
+  margin-bottom: 10px;
+}
+.burger-menu__log-in_button-exit {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  max-width: 200px;
+  margin: 0 auto;
+  margin-top: 35px;
+  background-color: #d1ebfb;
+  border-radius: 33px;
+}
+.footer__columns {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 34px 35px 10px;
+}
+
 @media screen and (max-width: 1295px) {
   .footer__social-buttons {
     margin-top: 25px;
@@ -6941,7 +7361,7 @@ html[data-theme="grey"] .select__list, html[data-theme="grey"] .tippy-content, h
 html[data-theme="grey"] .dropdown__box a, html[data-theme="grey"] .header__notifications_conteiner a, html[data-theme="grey"] #tippy-42 ul li a {
   color: #1e1e1e !important;
 }
-html[data-theme="grey"] .no-data span + span::before, html[data-theme="grey"] .mobile-timer__more-events-button, html[data-theme="grey"] .mobile-notification__head-content a p, html[data-theme="grey"] .mobile-notification__more-button, html[data-theme="grey"] .mobile-notification__head span, html[data-theme="grey"] .mobile-timer__more-events_head-content span, html[data-theme="grey"] .mobile-timer__more-events-window, html[data-theme="grey"] nav, html[data-theme="grey"] aside, html[data-theme="grey"] .burger-menu_nav-menu a, html[data-theme="grey"] .burger-menu_nav-menu-tabs a, html[data-theme="grey"] .vertical-menu-block__body .vertical-menu-block__list li a, html[data-theme="grey"] .timeline, html[data-theme="grey"] .burger-menu__log-in_contant-entered span, html[data-theme="grey"] .burger-menu__sign-up_confirmed span, html[data-theme="grey"] .form__field span, html[data-theme="grey"] .burger-menu__tabs span, html[data-theme="grey"] .burger-menu__confirmation-menu_text span, html[data-theme="grey"] .burger-menu_nav-menu-content li .burger-menu_nav-more .list-number, html[data-theme="grey"] .timeline__head a {
+html[data-theme="grey"] .timeline__comments span + span, html[data-theme="grey"] .no-data span + span::before, html[data-theme="grey"] .mobile-timer__more-events-button, html[data-theme="grey"] .mobile-notification__head-content a p, html[data-theme="grey"] .mobile-notification__more-button, html[data-theme="grey"] .mobile-notification__head span, html[data-theme="grey"] .mobile-timer__more-events_head-content span, html[data-theme="grey"] .mobile-timer__more-events-window, html[data-theme="grey"] nav, html[data-theme="grey"] aside, html[data-theme="grey"] .burger-menu_nav-menu a, html[data-theme="grey"] .burger-menu_nav-menu-tabs a, html[data-theme="grey"] .vertical-menu-block__body .vertical-menu-block__list li a, html[data-theme="grey"] .timeline, html[data-theme="grey"] .burger-menu__log-in_contant-entered span, html[data-theme="grey"] .burger-menu__sign-up_confirmed span, html[data-theme="grey"] .form__field span, html[data-theme="grey"] .burger-menu__tabs span, html[data-theme="grey"] .burger-menu__confirmation-menu_text span, html[data-theme="grey"] .burger-menu_nav-menu-content li .burger-menu_nav-more .list-number, html[data-theme="grey"] .timeline__head a {
   color: #1e1e1e;
 }
 html[data-theme="grey"] .mobile-notification__text a {
@@ -7119,428 +7539,4 @@ html[data-theme="grey"] .vote-block__bar {
   [data-theme="grey"] .important-news__news-spoiler:hover {
     background-color: #f5f5f5 !important;
   }
-}
-
-
-
-
-.body.guest .burger-menu__profile-container {
-  display: none;
-}
-.burger-menu__guest-container {
-  display: none;
-}
-.body.guest .burger-menu__guest-container {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  height: 100%;
-  padding-top: 0.8em;
-}
-.log-in {
-  background-color: #b9e4ff;
-}
-.log-in, .sign-up {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  height: 40px;
-  border-radius: 30px;
-  color: #002b71;
-  width: calc(100% - 85px);
-  max-width: 225px;
-  min-width: 180px;
-  cursor: pointer;
-  -webkit-tap-highlight-color: transparent;
-}
-.sign-up {
-  border: 2px solid #b9e4ff;
-  background-color: #fff;
-}
-.body.log-in-window {
-
-}
-.burger-menu__log-in-menu {
-}
-.burger-menu__log-in-menu {
-  display: none;
-}
-.body.log-in-window .burger-menu__log-in-menu {
-  display: block;
-  position: fixed;
-  top: 0;
-  right: 0;
-  width: 100%;
-  height: 100%;
-  z-index: 20;
-  background-color: #e7f3fa;
-}
-.burger-menu__log-in-menu_head {
-  display: flex;
-  height: 60.4px;
-  position: absolute;
-  top: 0;
-  z-index: 999;
-  left: 0;
-  width: 100%;
-}
-.burger-menu__log-in-menu_close {
-  position: absolute;
-  display: flex;
-  align-items: center;
-  width: 40px;
-  height: 40px;
-  top: 11px;
-  right: 10px;
-  cursor: pointer;
-  -webkit-tap-highlight-color: transparent;
-}
-.burger-menu__log-in-menu_close::before, .burger-menu__log-in-menu_close::after {
-  position: absolute;
-  content: "";
-  height: 2px;
-  width: 25px;
-  right: 7px;
-  background-color: #1f73cc;
-}
-.burger-menu__log-in-menu_close::before {
-  transform: rotate(45deg);
-}
-.burger-menu__log-in-menu_close::after {
-  transform: rotate(-45deg);
-}
-.burger-menu__log-in_body {
-  margin: 60.4px 15px 15px 15px;
-  overflow: auto;
-  height: calc(100vh - 85.4px);
-}
-.burger-menu__tabs {
-  display: flex;
-  flex-direction: row;
-  flex-basis: 50%;
-}
-.burger-menu__tab_log-in, .burger-menu__tab_sign-up  {
-  width: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: black;
-  padding: 12px 10px;
-  cursor: pointer;
-  -webkit-tap-highlight-color: transparent;
-}
-.burger-menu__tab_log-in {
-  border-top-left-radius: 8px;
-}
-.burger-menu__tab_sign-up {
-  border-top-right-radius: 8px;
-}
-.burger-menu__tab_log-in span, .burger-menu__tab_sign-up span {
-  word-wrap: break-word;
-  overflow-wrap: anywhere;
-  font-weight: 600;
-  text-transform: uppercase;
-}
-.burger-menu__tab_sign-up {
-  background-color: #d0d9dd;
-}
-.burger-menu__log-in_contant {
-  box-shadow: 0 1px 2px rgba(0,0,0,.5) inset, 0 -1px 0 rgba(0,0,0,.2) inset;
-  padding: 1.2px 0.9px;
-  background-color: #fff;
-  border-radius: 8px;
-}
-.burger-menu__log-in_contant-form {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  width: 100%;
-  padding: 0px 30px 25px 30px;
-}
-.body.sign-up-tab .burger-menu__sign-up_contant-form {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  width: 100%;
-  padding: 0px 30px 25px 30px;
-}
-.burger-menu__sign-up_confirmed {
-  flex-direction: column;
-  justify-content: center;
-  width: 100%;
-  padding: 25px 30px 25px 30px;
-  display: none;
-}
-.body.log-in-confirmed .burger-menu__sign-up_confirmed {
-  display: flex;
-  border-radius: 8px;
-}
-.burger-menu__sign-up_confirmed span {
-  color: black;
-}
-.burger-menu__log-in_button-confirmed {
-  display: flex;
-  justify-content: center;
-  width: 100%;
-  max-width: 200px;
-  margin: 0 auto;
-  flex-direction: column;
-  margin-top: 35px;
-}
-.string-optional {
-  color: black;
-  margin-bottom: 10px;
-}
-.body.sign-up-tab .burger-menu__log-in_contant-form {
-  display: none;
-}
-.body.sign-up-tab .burger-menu__tab_log-in {
-  background-color: #d0d9dd;
-}
-.body.sign-up-tab .burger-menu__tab_sign-up {
-  background-color: #fff;
-}
-.burger-menu__log-in_contant-form .form__field:not(:nth-child(3)), .burger-menu__sign-up_contant-form .form__field:not(:nth-child(6)) {
-  display: flex;
-  justify-content: center;
-  width: 100%;
-  max-width: 300px;
-  margin: 0 auto;
-  flex-direction: column;
-  margin-top: 25px;
-}
-.burger-menu__sign-up_contant-form .form__field:nth-child(6) {
-  display: flex;
-  justify-content: center;
-  width: 100%;
-  max-width: 200px;
-  margin: 0 auto;
-  flex-direction: column;
-  margin-top: 28px;
-}
-.burger-menu__log-in_contant-form .form__field:nth-child(3) {
-  display: flex;
-  justify-content: center;
-  width: 100%;
-  max-width: 200px;
-  margin: 0 auto;
-  flex-direction: column;
-  margin-top: 35px;
-}
-.form__e-mail-icon, .form__password-icon, .form__user-icon {
-  height: 39px;
-  width: 39px;
-  border-radius: 50%;
-  background-color: #bfc6ca;
-  left: -1px;
-  top: -0.5px;
-  position: absolute;
-  transition: all 0.4s ease-in-out;
-}
-.login__username, .login__password {
-
-}
-.enter-button {
-  
-}
-.login__username {
-
-}
-.form__input {
-  height: 40px;
-  border: 1px solid #bfc6ca;
-  border-radius: 33px;
-  position: relative;
-}
-.login__username, .login__password, .e-mail__login, .login__repeat_password {
-  padding: 0 20px 0 50px;
-  border-radius: 33px;
-  height: 100%;
-  width: 100%;
-  position: relative;
-  background-color: transparent;
-  -webkit-tap-highlight-color: transparent;
-}
-.form__input input:focus {
-  background-color: #f3f6f7;
-}
-.e-mail__login:focus::-moz-placeholder, .login__password:focus::-moz-placeholder { 
-  color: transparent;
-}
-.e-mail__login:focus::-webkit-input-placeholder, .login__password:focus::-webkit-input-placeholder {
-  color: transparent;
-}
-.e-mail__login:focus:-ms-input-placeholder, .login__password:focus:-ms-input-placeholder {
-  color: transparent;
-}
-.e-mail__login:focus ~ .form__e-mail-icon, .login__password:focus ~ .form__password-icon, .login__repeat_password:focus ~ .form__password-icon, .login__username:focus ~ .form__user-icon {
-  border-radius: 33px 0 0 33px;
-}
-.enter-button {
-  height: 40px;
-  border-radius: 33px;
-  background-color: #d1ebfb;
-  cursor: pointer;
-  width: 100%;
-  -webkit-tap-highlight-color: transparent;
-}
-.forgot-password {
-  margin-top: 25px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.form.login span {
-  color: black;
-}
-.forgot-password a {
-  color: #002b71;
-}
-.form__e-mail-icon::before {
-  position: absolute;
-  content: "\e047";
-  font-family: 'icomoon';
-  font-size: 1.0em;
-  color: #fff;
-  left: 10px;
-  top: 10px;
-}
-.form__password-icon::before {
-  position: absolute;
-  content: "\e049";
-  font-family: 'icomoon';
-  font-size: 1.2em;
-  color: #fff;
-  left: 12px;
-  top: 6px;
-}
-.form__user-icon::before {
-  position: absolute;
-  content: "\e050";
-  font-family: 'icomoon';
-  font-size: 1.1em;
-  color: #fff;
-  left: 12px;
-  top: 7px;
-}
-.burger-menu__sign-up_contant-form, .body.log-in-confirmed .burger-menu__sign-up_contant-form {
-  display: none;
-}
-.form__radio-buttons label {
-  color: black;
-}
-.form__field_radio {
-  display: flex;
-  flex-wrap: wrap;
-  width: 100%;
-  gap: 15px 10px;
-  justify-content: space-between;
-}
-.form__field_radio .option {
-  background-color: transparent;
-  height: 40px;
-  width: 140px;
-  display: flex;
-  align-items: center;
-  border-radius: 33px;
-  cursor: pointer;
-  border: 1px solid #bfc6ca;
-  position: relative;
-  -webkit-tap-highlight-color: transparent;
-}
-.form__field_radio .option .dot {
-  left: -0.5px;
-  height: 40px;
-  width: 40px;
-  border-radius: 50%;
-  position: relative;
-  background-color: #bfc6ca;
-}
-.form__field_radio .option span {
-  color: black;
-  padding-left: 12px;
-  z-index: 1;
-}
-.form__field_radio .option .dot::before{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  content: "";
-  top: 10px;
-  left: 12px;
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
-  font-family: 'icomoon';
-  color: #fff;
-}
-
-.option::before {
-  content: '';
-  position: absolute;
-  left: -0px;
-  width: 40px;
-  height: 40px;
-  background-color: #bfc6ca;
-  border-radius: 33px;
-  transition: all .4s ease;
-}
-.form__field_radio #option-1:checked ~ .option-1::before,
-.form__field_radio #option-2:checked ~ .option-2::before {
-  width: calc(100% + 0.8px);
-}
-.option.option-1 .dot::before{
-  content: "\e051";
-  font-size: 1.1em;
-}
-.option.option-2 .dot::before{
-  content: "\e052";
-  font-size: 1.2em;
-}
-input[type="radio"]{
-  display: none;
-}
-.body.log-in-entered .burger-menu__tabs, .body.log-in-confirmed .burger-menu__tabs {
-  display: none;
-}
-.body.log-in-entered .burger-menu__log-in_contant-form {
-  display: none;
-}
-
-.burger-menu__log-in_contant-entered {
-  display: none;
-}
-
-.body.log-in-entered .burger-menu__log-in_contant-entered {
-  display: flex;
-  border-radius: 8px;
-}
-.burger-menu__log-in_contant-entered {
-  flex-direction: column;
-  justify-content: center;
-  width: 100%;
-  padding: 25px 30px 25px 30px;
-}
-.burger-menu__log-in_contant-entered span {
-  color: black;
-}
-.burger-menu__log-in_contant-entered span:first-of-type {
-  margin-bottom: 10px;
-}
-.burger-menu__log-in_button-exit {
-  display: flex;
-  justify-content: center;
-  width: 100%;
-  max-width: 200px;
-  margin: 0 auto;
-  margin-top: 35px;
-  background-color: #d1ebfb;
-  border-radius: 33px;
-}
-
-.footer__columns {
-  display: flex;
-  flex-wrap: wrap;
-  margin: 34px 35px 10px;
 }
