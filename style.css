@@ -87,11 +87,6 @@ body {
     width: 160px;
     font-size: 18px;
   }
-
-
-
-
-
   main {
     display: flex;
     flex-direction: column;
@@ -4345,6 +4340,9 @@ footer.footer .footer__column a:hover, footer.footer .footer__bottom-text a:hove
     font-family: 'icomoon';
     font-size: 13.5px;
     color: black;
+  }
+  .no-data- {
+    cursor: help;
   }
   #tippy-42 .tippy-content, #tippy-61 .tippy-content {
     padding: 7px;
