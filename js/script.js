@@ -521,7 +521,7 @@ tippy('.tishchenko-artem', {
   arrow: true,
   interactive: true,
   trigger: 'mouseenter',
-  delay: [1000, 3500000],
+  delay: [1000, 350],
   placement: 'auto',
   duration: 350,
   maxWidth: 400,
