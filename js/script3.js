@@ -288,3 +288,10 @@ $(document).ready(function(){
         $('.body').addClass('log-in-confirmed');
         });
     });
+
+$(document).ready(function(){
+    $('.banner__cookie_yes, .banner__cookie_no').click(function () {
+        $('.body').addClass('banner__cookie_close');
+        $('.body').addClass('banner__cookie_close');
+        });
+    });
