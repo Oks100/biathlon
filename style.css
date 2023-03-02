@@ -7649,7 +7649,7 @@ html[data-theme="dark"] .banner__cookie_no:hover, html[data-theme="dark"] .banne
 
 
 html[data-theme="summer"] .banner__cookie {
-  background-color: #fffdf8d6;
+  /* background-color: #fffdf8d6; */
 }
 html[data-theme="summer"] .banner__cookie_text a, html[data-theme="summer"] .banner__cookie_yes, html[data-theme="summer"] .banner__cookie_no {
   color: #348232;
