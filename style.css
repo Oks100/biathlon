@@ -4943,7 +4943,7 @@ input[type="radio"]{
   bottom: 10px;
   display: flex;
   max-width: 500px;
-  background-color: #ffffffd6;
+  background-color: #eff5f9d6;
   border-radius: 8px;
   color: black;
   backdrop-filter: blur(1px);
@@ -4985,7 +4985,7 @@ input[type="radio"]{
 .banner__cookie_no {
   border: 2px solid #d1ebfb;
   width: 35%;
-  background-color: #fff;
+  background-color: #eff5f9;
   max-width: 300px;
 }
 .banner__cookie_no:hover {
