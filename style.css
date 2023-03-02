@@ -4943,7 +4943,6 @@ input[type="radio"]{
   bottom: 10px;
   display: flex;
   max-width: 500px;
-  /* background-color: #eff5f9d6; */
   background-color: #f4f9fcd6;
   border-radius: 8px;
   color: black;
@@ -4986,7 +4985,6 @@ input[type="radio"]{
 .banner__cookie_no {
   border: 2px solid #d1ebfb;
   width: 35%;
-  /* background-color: #eff5f9; */
   background-color: #f4f9fc;
   max-width: 300px;
 }
@@ -7618,13 +7616,6 @@ html[data-theme="grey"] .vote-block__bar {
   }
 }
 
-/* .popular-block__search-form input {
-  transition: all 2s ease;
-}
-.popular-block__search-form input:focus {
-  box-shadow: 0 1px 2px rgba(0,0,0,0) inset, 0 -1px 0 rgba(0,0,0,0) inset;
-  border: 3px solid #b9e4ff;
-} */
 html[data-theme="dark"] .banner__cookie {
   background-color: #2a2b2dd6;
   box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.3);
@@ -7651,7 +7642,6 @@ html[data-theme="dark"] .banner__cookie_no:hover, html[data-theme="dark"] .banne
 
 
 html[data-theme="summer"] .banner__cookie {
-  /* background-color: #fffdf8d6; */
   background-color: #ffffffd6;
 }
 html[data-theme="summer"] .banner__cookie_text a, html[data-theme="summer"] .banner__cookie_yes, html[data-theme="summer"] .banner__cookie_no {
@@ -7666,7 +7656,6 @@ html[data-theme="summer"] .banner__cookie_yes {
 }
 html[data-theme="summer"] .banner__cookie_no {
   border-color: #fff2d4;
-  /* background-color: #fffdf8; */
   background-color: #ffffff;
 }
 html[data-theme="summer"] .banner__cookie_no:hover, html[data-theme="summer"] .banner__cookie_yes:hover {
