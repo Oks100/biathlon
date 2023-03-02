@@ -4943,7 +4943,8 @@ input[type="radio"]{
   bottom: 10px;
   display: flex;
   max-width: 500px;
-  background-color: #eff5f9d6;
+  /* background-color: #eff5f9d6; */
+  background-color: #f4f9fcd6;
   border-radius: 8px;
   color: black;
   backdrop-filter: blur(1px);
@@ -4985,7 +4986,8 @@ input[type="radio"]{
 .banner__cookie_no {
   border: 2px solid #d1ebfb;
   width: 35%;
-  background-color: #eff5f9;
+  /* background-color: #eff5f9; */
+  background-color: #f4f9fc;
   max-width: 300px;
 }
 .banner__cookie_no:hover {
@@ -7650,6 +7652,7 @@ html[data-theme="dark"] .banner__cookie_no:hover, html[data-theme="dark"] .banne
 
 html[data-theme="summer"] .banner__cookie {
   /* background-color: #fffdf8d6; */
+  background-color: #ffffffd6;
 }
 html[data-theme="summer"] .banner__cookie_text a, html[data-theme="summer"] .banner__cookie_yes, html[data-theme="summer"] .banner__cookie_no {
   color: #348232;
@@ -7663,7 +7666,8 @@ html[data-theme="summer"] .banner__cookie_yes {
 }
 html[data-theme="summer"] .banner__cookie_no {
   border-color: #fff2d4;
-  background-color: #fffdf8;
+  /* background-color: #fffdf8; */
+  background-color: #ffffff;
 }
 html[data-theme="summer"] .banner__cookie_no:hover, html[data-theme="summer"] .banner__cookie_yes:hover {
   background-color: #ffeab8;
