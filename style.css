@@ -7732,6 +7732,13 @@ html[data-theme="grey"] .banner__cookie_no:hover, html[data-theme="grey"] .banne
       bottom: 10px;
     }
   }
+  .timeline__body-important-news .spoiler {
+    height: 61.25px;
+    align-items: center;
+  }
+  .important-news__news-spoiler .arrow::after, .important-news__news-spoiler .arrow::before {
+    top: 0;
+  }
 }
 @media screen and (max-width: 992px) {
   .banner__cookie {
