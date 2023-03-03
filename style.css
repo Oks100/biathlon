@@ -2094,7 +2094,7 @@ body {
   .timeline__body-important-news .spoiler {
     display: flex;
     cursor: pointer;
-    padding: 1.1em 1.2em 1.1em 1.2em;
+    padding: 1.1em 1.5em;
     font-weight: 600;
     justify-content: center;
     transition-delay: 0.25s;
@@ -6089,6 +6089,9 @@ article.timeline {
     }
     .timeline__item {
       padding: 1.5em 1.06em;
+    }
+    .timeline__body-important-news .spoiler {
+      padding: 1.1em 1.06em;
     }
   }
   @media screen and (max-width: 450px) {
