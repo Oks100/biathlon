@@ -18,7 +18,7 @@ body {
   line-height: 1.5;
   padding: 0;
   margin: 0 auto;
-  font-family: Arial, tahoma, Helvetica, sans-serif;
+  font-family: 'Fira Sans', Arial, tahoma, Helvetica, sans-serif;
   max-width: 1300px;
 }
   #main-cup__slider {
@@ -1998,11 +1998,11 @@ body {
   .burger-menu-back-tab::before, .burger-menu-back-tab::after {
     position: absolute;
     content: "";
-    height: 2px;
+    height: 2.5px;
     width: 16px;
     right: 22px;
     background-color: #1f73cc;
-    border-radius: 1px;
+    border-radius: 5px;
   }
   .burger-menu-back-tab::before {
     transform: rotate(45deg);
@@ -4585,10 +4585,11 @@ footer.footer .footer__column a:hover, footer.footer .footer__bottom-text a:hove
 .burger-menu__log-in-menu_close::before, .burger-menu__log-in-menu_close::after {
   position: absolute;
   content: "";
-  height: 2px;
+  height: 2.5px;
   width: 25px;
   right: 7px;
   background-color: #1f73cc;
+  border-radius: 5px;
 }
 .burger-menu__log-in-menu_close::before {
   transform: rotate(45deg);
@@ -5689,21 +5690,23 @@ article.timeline {
   .mobile-notification__close::before {
     position: absolute;
     content: "";
-    height: 2px;
+    height: 2.5px;
     width: 25px;
     right: 7px;
     background-color: #1f73cc;
     transform: rotate(45deg);
     -webkit-tap-highlight-color: transparent;
+    border-radius: 5px;
   }
   .mobile-notification__close::after {
     position: absolute;
     content: "";
-    height: 2px;
+    height: 2.5px;
     width: 25px;
     right: 7px;
     background-color: #1f73cc;
     transform: rotate(-45deg);
+    border-radius: 5px;
   }
   .mobile-notification__close {
     position: absolute;
@@ -5917,20 +5920,22 @@ article.timeline {
   .mobile-timer__more-events_head-close::before {
     position: absolute;
     content: "";
-    height: 2px;
+    height: 2.5px;
     width: 25px;
     right: 7px;
     background-color: #1f73cc;
     transform: rotate(45deg);
+    border-radius: 5px;
   }
   .mobile-timer__more-events_head-close::after {
     position: absolute;
     content: "";
-    height: 2px;
+    height: 2.5px;
     width: 25px;
     right: 7px;
     background-color: #1f73cc;
     transform: rotate(-45deg);
+    border-radius: 5px;
   }
   .mobile-timer__more-events-content-group {
     padding-bottom: 41.5px;
