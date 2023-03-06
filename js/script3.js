@@ -296,56 +296,48 @@ $(document).ready(function(){
         });
     });
 
-/* Спойлер */
-    $(document).ready(function() {
-        $('.important-news__news-spoiler').click(function(event) {
-            $(this).toggleClass('active').next().slideToggle(300);
-        });
-    });
-/* Спойлер */
 
-/*Кнопка топ 10 */
+$(document).ready(function(){
+    $('.learn-more__text2-href').hover(
+    function() {
+        $('.swiper-button-prev-icon').addClass('rotate');
+        },
+    function() {
+        $('.swiper-button-prev-icon').removeClass('rotate');
+        },
+    );
+    });
+      
     $(document).ready(function(){
-        $('.learn-more__text2-href').hover(
-         function() {
-            $('.swiper-button-prev-icon').addClass('rotate');
-          },
-          function() {
-            $('.swiper-button-prev-icon').removeClass('rotate');
-          },
-        );
-      });
-    
-      $(document).ready(function(){
-        $('.learn-more__text2-href').hover(
-        function() {
-            $('.swiper-button-next-icon').addClass('rotate');
-            },
-            function() {
-            $('.swiper-button-next-icon').removeClass('rotate');
-            },
-        );
-      });
-    
-      $(document).ready(function(){
-        $('.learn-more__text3-href').hover(
-         function() {
-            $('.swiper-button-prev-icon').addClass('rotate2');
-          },
-          function() {
-            $('.swiper-button-prev-icon').removeClass('rotate2');
-          },
-        );
-      });
-    
-      $(document).ready(function(){
-        $('.learn-more__text3-href').hover(
-        function() {
-            $('.swiper-button-next-icon').addClass('rotate2');
-            },
-            function() {
-            $('.swiper-button-next-icon').removeClass('rotate2');
-            },
-        );
-      });
-/*Кнопка топ 10 */
+    $('.learn-more__text2-href').hover(
+    function() {
+        $('.swiper-button-next-icon').addClass('rotate');
+        },
+    function() {
+        $('.swiper-button-next-icon').removeClass('rotate');
+        },
+    );
+    });
+      
+    $(document).ready(function(){
+    $('.learn-more__text3-href').hover(
+    function() {
+        $('.swiper-button-prev-icon').addClass('rotate2');
+        },
+    function() {
+        $('.swiper-button-prev-icon').removeClass('rotate2');
+        },
+    );
+    });
+      
+    $(document).ready(function(){
+    $('.learn-more__text3-href').hover(
+    function() {
+        $('.swiper-button-next-icon').addClass('rotate2');
+        },
+    function() {
+        $('.swiper-button-next-icon').removeClass('rotate2');
+        },
+    );
+    });
+      
