@@ -3832,7 +3832,7 @@ table.popular__table tbody tr {
   background-repeat: no-repeat;
   background-position: 50% 50%;
   background-size: cover;
-  margin-right: 0.50em;
+  margin-right: 0.60em;
   -ms-flex-negative: 0;
   flex-shrink: 0;
 }
@@ -6392,7 +6392,10 @@ html[data-theme='dark'] .popular-block__search-form button:hover::before {
 html[data-theme='dark'] .main-cup__header, html[data-theme='dark'] .main-cup__header .main-cup__lead, html[data-theme='dark'] .head__all, html[data-theme='dark'] .comment-block__head, html[data-theme='dark'] .lead2 {
   color: #2b7ed7;
 }
-html[data-theme='dark'] .timer__more-translation::before, html[data-theme='dark'] .timer__more-result::before, html[data-theme='dark'] .notification__text .view::before, html[data-theme='dark'] .burger-menu__log-in-menu_close::before, html[data-theme='dark'] .burger-menu__log-in-menu_close::after, html[data-theme='dark'] .burger-menu__profile-icon::before, html[data-theme='dark'] .timer__more-information-time::before, html[data-theme='dark'] .mobile-notification__time span:first-child:before, html[data-theme='dark'] .mobile-notification__text .view::before, html[data-theme='dark'] .mobile-notification__head span::before, html[data-theme='dark'] .burger-menu__socials-youtube a::before, html[data-theme='dark'] .burger-menu__socials-telegram a::before, html[data-theme='dark'] .burger-menu__socials-instagram a::before, html[data-theme='dark'] .burger-menu__socials-twitter a::before, html[data-theme='dark'] .burger-menu__socials-facebook a::before, html[data-theme='dark'] .end-career::after, html[data-theme='dark'] .pause-career::after, html[data-theme='dark'] .continue-career::after, html[data-theme='dark'] .next-race-block__time span:first-child::before, html[data-theme='dark'] .next-translation-block__time span:first-child::before, html[data-theme='dark'] .blogs-block__item span::before, html[data-theme='dark'] .interview-block__gossip_date span:first-child::before, html[data-theme='dark'] .comment-block__data span:first-child::before, html[data-theme='dark'] .timeline__date span:first-child::before, html[data-theme='dark'] .next-race-block__time span + span::before, html[data-theme='dark'] .next-translation-block__time span + span::before, html[data-theme='dark'] .interview-block__gossip_date span + span::before, html[data-theme='dark'] .comment-block__data span + span::before, html[data-theme='dark'] .timeline__date span + span::before, html[data-theme='dark'] .timeline__comments-refer::before, html[data-theme='dark'] .woman-user::before, html[data-theme='dark'] .unknow-user::before, html[data-theme='dark'] .male-user::before, html[data-theme='dark'] .timeline__body-important-news .spoiler::before, html[data-theme='dark'] .important-news__link::before, html[data-theme='dark'] .header__notification_all a::before, html[data-theme='dark'] .notification__time span::before, html[data-theme='dark'] .admin::before, html[data-theme='dark'] .header__notifications_head span::before, html[data-theme='dark'] #tippy-42 ul li:first-of-type a::before, html[data-theme='dark'] #tippy-42 ul li:nth-child(2) a::before {
+html[data-theme="dark"] .burger-menu-back-tab::before, html[data-theme="dark"] .burger-menu-back-tab::after, html[data-theme='dark'] .burger-menu__log-in-menu_close::before, html[data-theme='dark'] .burger-menu__log-in-menu_close::after, html[data-theme='dark'] .burger-menu_active .burger-menu_lines::before, html[data-theme='dark'] .burger-menu_active .burger-menu_lines, html[data-theme='dark'] .burger-menu_active .burger-menu_lines::after, html[data-theme='dark'] .mobile-notification__close::before, html[data-theme='dark'] .mobile-notification__close::after, html[data-theme='dark'] .mobile-timer__more-events_head-close::before, html[data-theme='dark'] .mobile-timer__more-events_head-close::after {
+  background-color: #2b7ed7;
+}
+html[data-theme='dark'] .mobile-notification__more-button::before, html[data-theme='dark'] .mobile-timer__more-events-button::before, html[data-theme='dark'] .timer__more-translation::before, html[data-theme='dark'] .timer__more-result::before, html[data-theme='dark'] .notification__text .view::before, html[data-theme='dark'] .burger-menu__profile-icon::before, html[data-theme='dark'] .timer__more-information-time::before, html[data-theme='dark'] .mobile-notification__time span:first-child:before, html[data-theme='dark'] .mobile-notification__text .view::before, html[data-theme='dark'] .mobile-notification__head span::before, html[data-theme='dark'] .burger-menu__socials-youtube a::before, html[data-theme='dark'] .burger-menu__socials-telegram a::before, html[data-theme='dark'] .burger-menu__socials-instagram a::before, html[data-theme='dark'] .burger-menu__socials-twitter a::before, html[data-theme='dark'] .burger-menu__socials-facebook a::before, html[data-theme='dark'] .end-career::after, html[data-theme='dark'] .pause-career::after, html[data-theme='dark'] .continue-career::after, html[data-theme='dark'] .next-race-block__time span:first-child::before, html[data-theme='dark'] .next-translation-block__time span:first-child::before, html[data-theme='dark'] .blogs-block__item span::before, html[data-theme='dark'] .interview-block__gossip_date span:first-child::before, html[data-theme='dark'] .comment-block__data span:first-child::before, html[data-theme='dark'] .timeline__date span:first-child::before, html[data-theme='dark'] .next-race-block__time span + span::before, html[data-theme='dark'] .next-translation-block__time span + span::before, html[data-theme='dark'] .interview-block__gossip_date span + span::before, html[data-theme='dark'] .comment-block__data span + span::before, html[data-theme='dark'] .timeline__date span + span::before, html[data-theme='dark'] .timeline__comments-refer::before, html[data-theme='dark'] .woman-user::before, html[data-theme='dark'] .unknow-user::before, html[data-theme='dark'] .male-user::before, html[data-theme='dark'] .timeline__body-important-news .spoiler::before, html[data-theme='dark'] .important-news__link::before, html[data-theme='dark'] .header__notification_all a::before, html[data-theme='dark'] .notification__time span::before, html[data-theme='dark'] .admin::before, html[data-theme='dark'] .header__notifications_head span::before, html[data-theme='dark'] #tippy-42 ul li:first-of-type a::before, html[data-theme='dark'] #tippy-42 ul li:nth-child(2) a::before {
   color: rgba(47, 111, 200, 0.85);
 }
 html[data-theme='dark'] .burger-menu__profile-messange::before, html[data-theme='dark'] table.stars-table tbody tr td:nth-child(3)::before {
@@ -6401,12 +6404,12 @@ html[data-theme='dark'] .burger-menu__profile-messange::before, html[data-theme=
 html[data-theme='dark'] .burger-menu_nav-menu-content li .burger-menu_nav-more .list-number::after {
   border-color: #2b63b1;
 }
-html[data-theme='dark'] .mobile-timer__more-events_head-close::before, html[data-theme='dark'] .mobile-timer__more-events_head-close::after, html[data-theme='dark'] .mobile-notification__close::before, html[data-theme='dark'] .mobile-notification__close::after, html[data-theme='dark'] .burger-menu__log-in-menu_close::before, html[data-theme='dark'] .burger-menu__log-in-menu_close::after, html[data-theme='dark'] .footer__icon::before, html[data-theme='dark'] .footer__icon::after, html[data-theme='dark'] .important-news__news-spoiler .arrow::before, html[data-theme='dark'] .important-news__news-spoiler .arrow::after {
+html[data-theme='dark'] .footer__icon::before, html[data-theme='dark'] .footer__icon::after, html[data-theme='dark'] .important-news__news-spoiler .arrow::before, html[data-theme='dark'] .important-news__news-spoiler .arrow::after {
   background-color: rgba(47, 111, 200, 0.85);
 }
-html[data-theme='dark'] .burger-menu_active .burger-menu_lines::before, html[data-theme='dark'] .burger-menu_active .burger-menu_lines, html[data-theme='dark'] .burger-menu_active .burger-menu_lines::after, html[data-theme='dark'] .burger-menu_active .burger-menu_lines::before {
+/* html[data-theme='dark'] .burger-menu_active .burger-menu_lines::before {
   background-color: rgba(47, 111, 200, 0.85) !important;
-}
+} */
 html[data-theme='dark'] .burger-menu__log-in_contant-entered span, html[data-theme='dark'] .burger-menu__sign-up_confirmed span, html[data-theme='dark'] .form__field span, html[data-theme='dark'] .burger-menu__tabs span, html[data-theme='dark'] .burger-menu__confirmation-menu_text span, html[data-theme='dark'] .burger-menu_nav-menu-content li .burger-menu_nav-more .list-number, html[data-theme='dark'] .timeline__head a {
   color: #e1e1e1;
 }
@@ -6502,6 +6505,9 @@ html[data-theme="dark"] .footer__facebook:hover, html[data-theme="dark"] .footer
 html[data-theme="dark"] .mobile-notification__head-content a p, html[data-theme="dark"] .mobile-notification__more-button, html[data-theme="dark"] .mobile-notification-window span, html[data-theme="dark"] .mobile-timer__more-events-button, html[data-theme="dark"] .mobile-timer__more-events_head-content span, html[data-theme="dark"] .mobile-timer__more-events-window, html[data-theme="dark"] .wrapper, html[data-theme="dark"] footer.footer a, html[data-theme="dark"] .footer__facebook::before, html[data-theme="dark"] .footer__facebook::before, html[data-theme="dark"] .fa-moon {
   color: #e1e1e1;
 }
+html[data-theme='dark'] .mobile-notification__text a {
+  color: #e1e1e1 !important;
+}
 html[data-theme="dark"] .footer__facebook, html[data-theme="dark"] .footer__twitter, html[data-theme="dark"] .footer__instagram, html[data-theme="dark"] .footer__telegram, html[data-theme="dark"] .footer__youtube {
   background-color: #15395f;
 }
@@ -6521,7 +6527,7 @@ html[data-theme="dark"] .tippy-content {
   color: #e1e1e1;
   background-color: #2a2b2d;
 }
-html[data-theme='dark'] .mobile-notification__time span, html[data-theme='dark'] .mobile-notification__text a, html[data-theme="dark"] .img__profile a:hover {
+html[data-theme="dark"] .img__profile a:hover {
   color: #abcbff !important;
 }
 html[data-theme="dark"] .tippy-content a:hover {
@@ -6621,7 +6627,7 @@ html[data-theme='dark'] .mobile-notification__head-content a, html[data-theme='d
 html[data-theme='dark'] .statistics__button:hover {
   background-color: #235f9f;
 }
-html[data-theme='dark'] .statistics__button.button-style::after, html[data-theme='dark'] .burger-menu .burger-menu_lines, html[data-theme='dark'] .burger-menu .burger-menu_lines::after, html[data-theme='dark'] .burger-menu .burger-menu_lines::before {
+html[data-theme='dark'] .statistics__button.button-style::after {
   background: #e1e1e1;
 }
 html[data-theme='dark'] .statistics__button.button-style, html[data-theme='dark'] .dropdown-content li {
@@ -6689,7 +6695,7 @@ html[data-theme="dark"] .select2 {
 html[data-theme="dark"] .select__head2:hover {
   background-color: #235f9f;
 }
-html[data-theme="dark"] .burger-menu-back-tab::before, html[data-theme="dark"] .burger-menu-back-tab::after, html[data-theme="dark"] .select__head2::before, html[data-theme="dark"] .select__head2::after {
+html[data-theme="dark"] .select__head2::before, html[data-theme="dark"] .select__head2::after {
   background-color: rgba(47, 111, 200, 0.85);
 }
 html[data-theme="dark"] .select__head2:hover::before, html[data-theme="dark"] .select__head2:hover::after {
@@ -7130,6 +7136,8 @@ html[data-theme='Black'] .header__notifications_item .logged, html[data-theme='B
 html[data-theme='Black'] .main-cup__header, html[data-theme='Black'] .head__all, html[data-theme='Black'] .lead2 {
   color: #447cd8;
 }
+
+
 html[data-theme='Black'] .enter-button, html[data-theme='Black'] .log-in, html[data-theme='Black'] .exit-yes, html[data-theme='Black'] .timer__data-next, html[data-theme='Black'] .timer__data-prev, html[data-theme='Black'] .layer-toggle-visible, html[data-theme='Black'] .main-cup__controls .swiper-button-prev, html[data-theme='Black'] .main-cup__controls .swiper-button-next, html[data-theme='Black'] .vertical-menu-block__categories span:not(.news_date), html[data-theme='Black'] .learn-more .circle-element {
   background: #173660;
 }
@@ -7185,7 +7193,7 @@ html[data-theme='Black'] .header__notifications_item {
 html[data-theme='Black'] .blogs-block .logged, html[data-theme='Black'] .comment-block__user-content .woman-user .logged {
   border-color: #0f0f0f;
 }
-html[data-theme='Black'] .timer__more-information-time::before, html[data-theme='Black'] .next-race-block__time span + span::before, html[data-theme='Black'] .next-translation-block__time span + span::before, html[data-theme='Black'] .interview-block__gossip_date span + span::before, html[data-theme='Black'] .comment-block__data span + span::before, html[data-theme='Black'] .timeline__date span + span::before, html[data-theme="Black"] .timer__more-button a::before, html[data-theme="Black"] .timer__more-translation::before, html[data-theme="Black"] table.stars-table tbody tr td:nth-child(3)::before, html[data-theme="Black"] .comment-block__data span::before, html[data-theme="Black"] .interview-block__gossip_date span::before, html[data-theme="Black"] .timeline__comments-refer::before, html[data-theme="Black"] .unknow-user::before, html[data-theme="Black"] .burger-menu__profile-icon::before, html[data-theme="Black"] .mobile-timer__more-events-button::before, html[data-theme="Black"] .mobile-notification__more-button::before, html[data-theme="Black"] .mobile-notification__head span::before, html[data-theme="Black"] .mobile-notification__time span::before, html[data-theme="Black"] .mobile-notification__text .view::before, html[data-theme="Black"] .timer__more-information-time::before, html[data-theme="Black"] .timer__more-result::before, html[data-theme='Black'] .notification__text .view::before, html[data-theme='Black'] .admin::before, html[data-theme='Black'] .header__notification_all a::before, html[data-theme='Black'] .notification__time span::before, html[data-theme='Black'] .header__notifications_head span::before, html[data-theme='Black'] .end-career::after, html[data-theme='Black'] .continue-career::after, html[data-theme='Black'] .pause-career::after, html[data-theme='Black'] .important-news__link::before, html[data-theme='Black'] .male-user::before, html[data-theme='Black'] .woman-user::before, html[data-theme='Black'] .unknow-user::after, html[data-theme='Black'] .next-race-block__time span:first-child::before, html[data-theme='Black'] .next-translation-block__time span:first-child::before, html[data-theme='Black'] .blogs-block__item span::before, html[data-theme='Black'] .comment-block__data span:first-child::before, html[data-theme='Black'] .timeline__date span:first-child::before {
+html[data-theme='Black'] .timeline__body-important-news .spoiler::before, html[data-theme='Black'] .timer__more-information-time::before, html[data-theme='Black'] .next-race-block__time span + span::before, html[data-theme='Black'] .next-translation-block__time span + span::before, html[data-theme='Black'] .interview-block__gossip_date span + span::before, html[data-theme='Black'] .comment-block__data span + span::before, html[data-theme='Black'] .timeline__date span + span::before, html[data-theme="Black"] .timer__more-button a::before, html[data-theme="Black"] .timer__more-translation::before, html[data-theme="Black"] table.stars-table tbody tr td:nth-child(3)::before, html[data-theme="Black"] .comment-block__data span::before, html[data-theme="Black"] .interview-block__gossip_date span::before, html[data-theme="Black"] .timeline__comments-refer::before, html[data-theme="Black"] .unknow-user::before, html[data-theme="Black"] .burger-menu__profile-icon::before, html[data-theme="Black"] .mobile-timer__more-events-button::before, html[data-theme="Black"] .mobile-notification__more-button::before, html[data-theme="Black"] .mobile-notification__head span::before, html[data-theme="Black"] .mobile-notification__time span::before, html[data-theme="Black"] .mobile-notification__text .view::before, html[data-theme="Black"] .timer__more-information-time::before, html[data-theme="Black"] .timer__more-result::before, html[data-theme='Black'] .notification__text .view::before, html[data-theme='Black'] .admin::before, html[data-theme='Black'] .header__notification_all a::before, html[data-theme='Black'] .notification__time span::before, html[data-theme='Black'] .header__notifications_head span::before, html[data-theme='Black'] .end-career::after, html[data-theme='Black'] .continue-career::after, html[data-theme='Black'] .pause-career::after, html[data-theme='Black'] .important-news__link::before, html[data-theme='Black'] .male-user::before, html[data-theme='Black'] .woman-user::before, html[data-theme='Black'] .unknow-user::after, html[data-theme='Black'] .next-race-block__time span:first-child::before, html[data-theme='Black'] .next-translation-block__time span:first-child::before, html[data-theme='Black'] .blogs-block__item span::before, html[data-theme='Black'] .comment-block__data span:first-child::before, html[data-theme='Black'] .timeline__date span:first-child::before {
   color: rgba(47, 111, 200, 0.70);
 }
 html[data-theme='Black'] .timeline__body a[href*="gallery"]::before, html[data-theme='Black'] .timeline__body a[href*="http"]::before {
@@ -7344,7 +7352,8 @@ html[data-theme="Black"] #back-to-top-button::after {
   color: #b5b5b5;
 }
 html[data-theme="Black"] .mobile-timer__more-events_head-close::before, html[data-theme="Black"] .mobile-timer__more-events_head-close::after, html[data-theme="Black"] .mobile-notification__close::before, html[data-theme="Black"] .mobile-notification__close::after, html[data-theme="Black"] .burger-menu__log-in-menu_close::before, html[data-theme="Black"] .burger-menu__log-in-menu_close::after, html[data-theme="Black"] .burger-menu_active .burger-menu_lines, html[data-theme="Black"] .burger-menu_active .burger-menu_lines::after, html[data-theme="Black"] .burger-menu_active .burger-menu_lines::before {
-  background-color: #255290;
+  /* background-color: #447cd8; */
+  background-color: #245ca8;
 }
 html[data-theme="Black"] .burger-menu_nav-menu-content li .burger-menu_nav-more .list-number::after {
   border-color: #255290;
