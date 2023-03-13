@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'icomoon';
-  src:  url('fonts/icomoon.eot?jwhm3q');
-  src:  url('fonts/icomoon.eot?jwhm3q#iefix') format('embedded-opentype'),
-    url('fonts/icomoon.ttf?jwhm3q') format('truetype'),
-    url('fonts/icomoon.woff?jwhm3q') format('woff'),
-    url('fonts/icomoon.svg?jwhm3q#icomoon') format('svg');
+  src:  url('fonts/icomoon.eot?weegs7');
+  src:  url('fonts/icomoon.eot?weegs7#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?weegs7') format('truetype'),
+    url('fonts/icomoon.woff?weegs7') format('woff'),
+    url('fonts/icomoon.svg?weegs7#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -25,6 +25,27 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-arrow-right-4:before {
+  content: "\e036";
+}
+.icon-arrow-down-4:before {
+  content: "\e9c";
+}
+.icon-delate:before {
+  content: "\e064";
+}
+.icon-edit-3:before {
+  content: "\e063";
+}
+.icon-answer-2:before {
+  content: "\e061";
+}
+.icon-Target4:before {
+  content: "\e057";
+}
+.icon-answer:before {
+  content: "\e060";
+}
 .icon-viewed:before {
   content: "\e056";
 }
@@ -56,7 +77,7 @@
   content: "\e037";
 }
 .icon-arrow-right31:before {
-  content: "\e036";
+  content: "\e0366";
 }
 .icon-arrow-right2:before {
   content: "\e035";
@@ -121,6 +142,9 @@
 .icon-arrow-down1:before {
   content: "\e004";
 }
+.icon-arrow-down4:before {
+  content: "\e005";
+}
 .icon-Ok2:before {
   content: "\e018";
 }
@@ -139,11 +163,17 @@
 .icon-user-check4:before {
   content: "\e9a";
 }
+.icon-arrow-down2:before {
+  content: "\e99c";
+}
 .icon-arrow-down:before {
-  content: "\e9c";
+  content: "\e9c2";
 }
 .icon-ret3:before {
   content: "\e916";
+}
+.icon-total:before {
+  content: "\e067";
 }
 .icon-search-remove-icon2:before {
   content: "\e915";
@@ -177,6 +207,15 @@
 }
 .icon-clock2:before {
   content: "\e905";
+}
+.icon-arrow-quote:before {
+  content: "\e069";
+}
+.icon-plus:before {
+  content: "\e065";
+}
+.icon-minus:before {
+  content: "\e066";
 }
 .icon-live8:before {
   content: "\e046";
@@ -232,9 +271,6 @@
 .icon-to-top2-1:before {
   content: "\e020";
 }
-.icon-arrow-down3:before {
-  content: "\e005";
-}
-.icon-no_data:before {
-  content: "\e918";
+.icon-arrow-right-quote:before {
+  content: "\e068";
 }
