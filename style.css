@@ -129,7 +129,7 @@ body {
   .header {
     display: flex;
     flex-basis: 60px;
-    background-color: #005b90;
+    background-color: #136697;
     border-radius: 0 0 6px 6px;
     line-height: 1;
     font-size: 1.1em;
@@ -195,7 +195,7 @@ body {
     border: 1px solid white;
     border-radius: 50%;
     transition-duration: 0.4s;
-    background-color: #004269;
+    background-color: #06527e;
     top: -33px;
     left: 42px;
     animation: move 0.3s linear;
@@ -223,7 +223,7 @@ body {
   border: 1px solid white;
   border-radius: 50%;
   transition-duration: 0.4s;
-  background-color: #004269;
+  background-color: #06527e;
   top: -33px;
   left: 84px;
   animation: move1 0.3s linear;
@@ -250,7 +250,7 @@ body {
   border: 1px solid white;
   border-radius: 50%;
   transition-duration: 0.4s;
-  background-color: #004269;
+  background-color: #06527e;
   top: -33px;
   left: 126px;
   animation: move2 0.3s linear;
@@ -277,7 +277,7 @@ body {
   border: 1px solid white;
   border-radius: 50%;
   transition-duration: 0.4s;
-  background-color: #004269;
+  background-color: #06527e;
   top: -33px;
   left: 168px;
   animation: move3 0.3s linear;
@@ -304,7 +304,7 @@ body {
   border: 1px solid white;
   border-radius: 50%;
   transition-duration: 0.4s;
-  background-color: #004269;
+  background-color: #06527e;
   top: -33px;
   left: 210px;
   animation: move4 0.3s linear;
@@ -405,7 +405,7 @@ body {
     border: 1px solid white;
     border-radius: 50%;
     transition-duration: 0.4s;
-    background-color: #004269;
+    background-color: #06527e;
     align-items: center;
   }
   .header__logo .socials .instagram {
@@ -415,7 +415,7 @@ body {
     border: 1px solid white;
     border-radius: 50%;
     transition-duration: 0.4s;
-    background-color: #004269;
+    background-color: #06527e;
     align-items: center;
   }
   .header__logo .socials .telegram {
@@ -425,7 +425,7 @@ body {
     border: 1px solid white;
     border-radius: 50%;
     transition-duration: 0.4s;
-    background-color: #004269;
+    background-color: #06527e;
     align-items: center;
   }
   .header__logo .socials .youtube {
@@ -436,7 +436,7 @@ body {
     border: 1px solid white;
     border-radius: 50%;
     transition-duration: 0.4s;
-    background-color: #004269;
+    background-color: #06527e;
     align-items: center;
   }
   .header__menu-body {
@@ -3791,14 +3791,14 @@ table.popular__table tbody tr {
 }
 .popular-block__search-form button::before {
   content: "\f002";
-  font-family: FontAwesome;
+  font-family: "FontAwesome";
   font-size: 16px;
   color: rgba(0,0,0,.3);
   transition: 0.3s ease;
 }
 .popular-block__search-form button:hover::before {
   content: "\f002";
-  font-family: FontAwesome;
+  font-family: "FontAwesome";
   font-size: 16px;
   color: rgba(0,0,0,.5);
 }
@@ -3869,7 +3869,7 @@ table.popular__table tbody tr {
 }
 footer.footer {
   border-radius: 6px 6px 0 0;
-  background-color: #005b90;
+  background-color: #136697;
   box-shadow: 0px 5px 24px rgba(32,60,87,0.11);
   position: relative;
 }
@@ -4009,7 +4009,7 @@ footer.footer .footer__column a:hover, footer.footer .footer__bottom-text a:hove
   border: 2px solid white;
   border-radius: 50%;
   transition: all 0.4s ease;
-  background-color: #004269;
+  background-color: #06527e;
   align-items: center;
   justify-content: center;
   scale: 1;
