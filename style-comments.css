@@ -64,6 +64,9 @@
     border-radius: 15px;
     background-color: #f9fdff;
 }
+.timeline__item-comments-discussion:last-child {
+    margin-bottom: 0;
+}
 .timeline__item-comments-discussion-head {
     display: flex;
     flex-direction: row;
