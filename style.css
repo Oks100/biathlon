@@ -7209,10 +7209,10 @@ html[data-theme='Black'] .notification__text .viewed::before, html[data-theme='B
   color: rgba(47, 114, 200, 0.35);
 }
 html[data-theme='Black'] .footer__icon::after, html[data-theme='Black'] .footer__icon::before, html[data-theme='Black'] .dropbtn .arrow2::before, html[data-theme='Black'] .dropbtn .arrow2::after, html[data-theme='Black'] .important-news__news-spoiler .arrow::before, html[data-theme='Black'] .important-news__news-spoiler .arrow::after {
-  background-color: #214e8c;
+  background-color: #265591;
 }
 html[data-theme='Black'] #tippy-42 ul li:first-of-type a::before, html[data-theme='Black'] #tippy-42 ul li:nth-child(2) a::before {
-  color: #214e8c;
+  color: #265591;
 }
 html[data-theme='Black'] .vote-block__bar {
   background-color: rgba(47, 111, 200, 0.17);
@@ -7334,7 +7334,7 @@ html[data-theme="Black"] .burger-menu__log-in_button-exit, html[data-theme="Blac
   background-color: #173660;
 }
 html[data-theme="Black"] .select__head2::before, html[data-theme="Black"] .select__head2::after {
-  background-color: #214e8c;
+  background-color: #265591;
 }
 html[data-theme="Black"] .select__head2:hover::before, html[data-theme="Black"] .select__head2:hover::after {
   background-color: #2a64b3;
