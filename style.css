@@ -195,7 +195,7 @@ body {
     border: 1px solid white;
     border-radius: 50%;
     transition-duration: 0.4s;
-    background-color: #105282;
+    background-color: #064b7e;
     top: -33px;
     left: 42px;
     animation: move 0.3s linear;
@@ -223,7 +223,7 @@ body {
   border: 1px solid white;
   border-radius: 50%;
   transition-duration: 0.4s;
-  background-color: #105282;
+  background-color: #064b7e;
   top: -33px;
   left: 84px;
   animation: move1 0.3s linear;
@@ -250,7 +250,7 @@ body {
   border: 1px solid white;
   border-radius: 50%;
   transition-duration: 0.4s;
-  background-color: #105282;
+  background-color: #064b7e;
   top: -33px;
   left: 126px;
   animation: move2 0.3s linear;
@@ -277,7 +277,7 @@ body {
   border: 1px solid white;
   border-radius: 50%;
   transition-duration: 0.4s;
-  background-color: #105282;
+  background-color: #064b7e;
   top: -33px;
   left: 168px;
   animation: move3 0.3s linear;
@@ -304,7 +304,7 @@ body {
   border: 1px solid white;
   border-radius: 50%;
   transition-duration: 0.4s;
-  background-color: #105282;
+  background-color: #064b7e;
   top: -33px;
   left: 210px;
   animation: move4 0.3s linear;
@@ -405,7 +405,7 @@ body {
     border: 1px solid white;
     border-radius: 50%;
     transition-duration: 0.4s;
-    background-color: #105282;
+    background-color: #064b7e;
     align-items: center;
   }
   .header__logo .socials .instagram {
@@ -415,7 +415,7 @@ body {
     border: 1px solid white;
     border-radius: 50%;
     transition-duration: 0.4s;
-    background-color: #105282;
+    background-color: #064b7e;
     align-items: center;
   }
   .header__logo .socials .telegram {
@@ -425,7 +425,7 @@ body {
     border: 1px solid white;
     border-radius: 50%;
     transition-duration: 0.4s;
-    background-color: #105282;
+    background-color: #064b7e;
     align-items: center;
   }
   .header__logo .socials .youtube {
@@ -436,7 +436,7 @@ body {
     border: 1px solid white;
     border-radius: 50%;
     transition-duration: 0.4s;
-    background-color: #105282;
+    background-color: #064b7e;
     align-items: center;
   }
   .header__menu-body {
@@ -4009,7 +4009,7 @@ footer.footer .footer__column a:hover, footer.footer .footer__bottom-text a:hove
   border: 2px solid white;
   border-radius: 50%;
   transition: all 0.4s ease;
-  background-color: #105282;
+  background-color: #064b7e;
   align-items: center;
   justify-content: center;
   scale: 1;
