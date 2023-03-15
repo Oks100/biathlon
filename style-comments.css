@@ -164,6 +164,7 @@
     justify-content: center;
     transition: 0.4s ease;
     margin-top: -2px;
+    -webkit-tap-highlight-color: transparent;
 }
 .timeline__item-comments-quote-icon::before, .timeline__item-comments-edit::before, .timeline__item-comments-delete-icon::before {
     font-family: 'icomoon';
@@ -293,6 +294,7 @@
     color: #002b71;
     transition: all .4s ease;
     cursor: pointer;
+    -webkit-tap-highlight-color: transparent;
 }
 .timeline__item-comments-answer-button:active::after {
     background-size: 0% 0%;
@@ -348,6 +350,7 @@
     position: relative;
     z-index: 1;
     margin-right: -1px;
+    -webkit-tap-highlight-color: transparent;
 }
 /* .timeline__item-comments-target:hover .timeline__item-comments-target-shooting-plus {
     background-color: red;
@@ -388,6 +391,7 @@
     cursor: pointer;
     margin-left: 10px;
     transition: all .4s ease;
+    -webkit-tap-highlight-color: transparent;
 }
 .timeline__item-comments-target-shooting-minus {
     display: flex;
@@ -398,6 +402,7 @@
     cursor: pointer;
     border-radius: 0 33px 33px 0;
     transition: all .4s ease;
+    -webkit-tap-highlight-color: transparent;
 }
 .timeline__item-comments-target-shooting-plus-icon::before {
     content: "\e065";
