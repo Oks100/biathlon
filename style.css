@@ -1805,7 +1805,7 @@ body {
     font-family: 'FontAwesome';
     font-size: 33px;
     padding: 6px;
-    color: #679bcd;
+    color: #1f7ec4;
     text-shadow: 1px 1px 2px #b5b5b5;
   }
   .burger-menu__socials-twitter {
@@ -1815,7 +1815,7 @@ body {
     font-family: 'FontAwesome';
     font-size: 33px;
     padding: 6px;
-    color: #679bcd;
+    color: #1f7ec4;
     text-shadow: 1px 1px 2px #b5b5b5;
   }
   .burger-menu__socials-instagram {
@@ -1825,7 +1825,7 @@ body {
     font-family: 'FontAwesome';
     font-size: 33px;
     padding: 6px;
-    color: #679bcd;
+    color: #1f7ec4;
     text-shadow: 1px 1px 2px #b5b5b5;
   }
   .burger-menu__socials-telegram {
@@ -1833,7 +1833,7 @@ body {
   .burger-menu__socials-telegram a::before {
     font-size: 37px;
     padding: 6px;
-    color: #679bcd;
+    color: #1f7ec4;
     margin-left: -2px;
     margin-top: -1px;
     content: "\f2c6";
@@ -1849,7 +1849,7 @@ body {
     margin-top: -1px;
     margin-left: -1.5px;
     padding: 6px;
-    color: #679bcd;
+    color: #1f7ec4;
     text-shadow: 1px 1px 2px #b5b5b5;
   }
   .burger-menu_nav-menu-tabs {
