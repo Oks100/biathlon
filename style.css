@@ -156,6 +156,7 @@ body {
   .header__logo {
     position: relative;
     -webkit-tap-highlight-color: transparent;
+    width: 340.083px;
   }
   .header__logo_body img {
     display: block;
@@ -6101,13 +6102,16 @@ article.timeline {
       width: auto;
     }
     .header__logo {
-      width: 85%;
+      width: 280.517px;
     }
     .header__logo a img {
       content: url(img/logo-mobile2.png);
     }
     }
     @media screen and (max-width: 360px) {
+      .header__logo {
+        width: 239.85px;
+      }
       .header__logo a img {
         content: url(img/logo-mobile3.png);
     }
