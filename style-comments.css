@@ -60,7 +60,7 @@
     display: flex;
     flex-direction: column;
     border: 1px solid #dfedf4;
-    padding: 15px;
+    padding: 15px 10px;
     border-radius: 15px;
     background-color: #f9fdff;
 }
@@ -93,7 +93,7 @@
     position: absolute;
     height: 12px;
     width: 12px;
-    border: 2px solid #e7f3fa;
+    border: 2px solid #f9fdff;
     border-radius: 50%;
     background-color: #1bd212;
     right: 1px;
@@ -228,24 +228,35 @@
 .quote-user {
     color: #002b71;
     cursor: pointer;
+    display: inline-block;
+    width: fit-content;
 }
 .quote-user.me {
     background-color: #66FF99;
 }
-.quote-user:before {
+.quote-user-icon {
+    display: block;
+}
+.quote-user-icon::before {
     content: "\e069";
     font-family: 'icomoon';
     font-size: 0.9em;
     color: #81aad5;
     margin-right: 5px;
 }
+.quote-user:before {
+    /* content: "\e069";
+    font-family: 'icomoon';
+    font-size: 0.9em;
+    color: #81aad5;
+    margin-right: 5px; */
+}
 .quote-user:hover {
     color: #73b5e5;
 }
 .timeline__item-comments-comment span {
-    color: #5d5d5d;
-    display: inline-block;
-    width: 100%;
+    /* display: inline-block; */
+    /*width: 100%; */
 }
 .editor {
     
@@ -553,7 +564,7 @@
     .timeline__item-comments-controls {
         position: absolute;
         top: -35px;
-        right: -15.5px;
+        right: -10.5px;
         background-color: #f9fdff;
         border-radius: 15px 15px 0 0;
         border: 1px solid #dfedf4;
