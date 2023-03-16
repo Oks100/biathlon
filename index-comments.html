@@ -639,16 +639,12 @@
                     <span>#1</span>
                   </div>
                   <div class="timeline__item-comments-quote">
-                    <div class="timeline__item-comments-quote-icon">
-                    </div>
                   </div>
                   <div class="timeline__item-comments-edit">
-                    <div class="timeline__item-comments-edit-icon">
-                    </div>
+                  </div>
+                  <div class="timeline__item-comments-ip">
                   </div>
                   <div class="timeline__item-comments-delete">
-                    <div class="timeline__item-comments-delete-icon">
-                    </div>
                   </div>
                 </div>
               </div>
@@ -708,16 +704,12 @@
                     <span>#2</span>
                   </div>
                   <div class="timeline__item-comments-quote">
-                    <div class="timeline__item-comments-quote-icon">
-                    </div>
                   </div>
                   <div class="timeline__item-comments-edit">
-                    <div class="timeline__item-comments-edit-icon">
-                    </div>
+                  </div>
+                  <div class="timeline__item-comments-ip">
                   </div>
                   <div class="timeline__item-comments-delete">
-                    <div class="timeline__item-comments-delete-icon">
-                    </div>
                   </div>
                 </div>
               </div>
@@ -757,8 +749,9 @@
               <div class="timeline__item-comments-discussion-head">
                 <div class="timeline__item-comments-profile">
                   <div class="timeline__item-comments-avatar">
-                    <svg version="1.0" xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 50 50" class="discussion-male"><path d="M17.7 1.4C3.1 6.8-3.8 22.5 2.6 35.3c7.9 15.6 27.7 19.1 39.8 7.1 9.6-9.7 9.6-25.1 0-34.8-6.4-6.3-17.1-9-24.7-6.2zm13.8 3.7c2.3.7 5.7 2.8 8.1 5.3 7.8 7.8 8.5 19.3 1.6 27.6-2.8 3.2-3 3.3-6 2.1-3.9-1.6-3.9-2.5-.7-7.3 2.3-3.4 2.5-4.3 1.9-10.8-.5-4.7-1.3-7.7-2.5-9.2-1.1-1.1-1.9-2.7-1.9-3.5 0-1.8-7-1.7-11.5.1-4.6 1.9-6.2 4.9-6.9 12.9-.6 6.1-.4 7.1 1.9 10.4 3.2 4.8 3.2 5.8-.6 7.4-3 1.2-3.3 1.1-6-1.9-6.7-7.5-6.3-19.6.9-27.4 5.7-6 13.2-8 21.7-5.7zm.9 13.6c1.9 6.6 1.7 9.1-.8 13.1-4.2 6.8-9 6.8-13.2 0-2.2-3.5-2.5-4.7-1.9-8.7.4-2.5.9-4.9 1.2-5.4.2-.4 3.5-.7 7.3-.7 5.7 0 7 .3 7.4 1.7zm-2.4 23c0 1.6-.8 2.5-2.5 2.9-4 1-7.5-.3-7.5-2.9 0-2 .5-2.2 5-2.2s5 .2 5 2.2z"/></svg>
-               </svg>
+                    <!-- <svg class="discussion-unknown" version="1.0" xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 50 50"><path d="M17.7 1.4C2.9 6.9-3.9 22.5 2.9 35.8c7.8 15.2 27.5 18.5 39.5 6.6 9.6-9.7 9.6-25.1 0-34.8-6.4-6.3-17.1-9-24.7-6.2zm13.8 3.7c2.3.7 5.7 2.8 8.1 5.3 8.5 8.4 8.5 20.8 0 29.2-8.4 8.5-20.8 8.5-29.2 0-8.2-8.2-8.5-20.3-.6-28.8 5.7-6 13.2-8 21.7-5.7z"/><path d="M19.5 9.5C7.6 13.8 4.8 28.3 14.1 37.2c6.6 6.3 15.1 6.3 21.9.2 2.1-2 4.4-5.1 5.1-7.1 4.2-12.8-8.8-25.4-21.6-20.8z"/></svg> -->
+                    <svg class="discussion-unknown" version="1.0" xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 164 164"><path d="M73 1.2c-9.9 1.2-23.9 5.9-32.5 11-9.1 5.3-23 19.2-28.3 28.3C3.7 55.1-.7 74.6 1.2 90.3c1.2 10.6 5.8 24.3 11 33.2 5.3 9.1 19.2 23 28.3 28.3 14.6 8.5 34.1 12.9 49.8 11 10.6-1.2 24.3-5.8 33.2-11 9.1-5.3 23-19.2 28.3-28.3 8.5-14.6 12.9-34.1 11-49.7-1.2-10.7-5.8-24.4-11-33.2-5.4-9.1-16.4-20.6-25.6-26.6C111 4 90.3-1 73 1.2zm18.9 12.9c15.2 2.4 28 8.9 38.5 19.5 27 26.9 27 69.9 0 96.8-26.9 27-69.9 27-96.8 0-27-26.9-27-69.9 0-96.8C49.1 18 71 10.7 91.9 14.1z"/><path d="M74.2 28.1c-27.1 4.6-46.5 27.3-46.5 54.4 0 42.6 46.2 68.7 83 46.9 30.2-18 35.6-59.9 11-85.2C109.8 32 90.2 25.3 74.2 28.1z"/></svg>
+                  </svg>
                   </div>
                   <div class="timeline__item-comments-profile-all">
                       <div class="timeline__item-comments-username">
@@ -774,16 +767,12 @@
                     <span>#3</span>
                   </div>
                   <div class="timeline__item-comments-quote">
-                    <div class="timeline__item-comments-quote-icon">
-                    </div>
                   </div>
                   <div class="timeline__item-comments-edit">
-                    <div class="timeline__item-comments-edit-icon">
-                    </div>
+                  </div>
+                  <div class="timeline__item-comments-ip">
                   </div>
                   <div class="timeline__item-comments-delete">
-                    <div class="timeline__item-comments-delete-icon">
-                    </div>
                   </div>
                 </div>
               </div>
@@ -841,16 +830,12 @@
                     <span>#4</span>
                   </div>
                   <div class="timeline__item-comments-quote">
-                    <div class="timeline__item-comments-quote-icon">
-                    </div>
                   </div>
                   <div class="timeline__item-comments-edit">
-                    <div class="timeline__item-comments-edit-icon">
-                    </div>
+                  </div>
+                  <div class="timeline__item-comments-ip">
                   </div>
                   <div class="timeline__item-comments-delete">
-                    <div class="timeline__item-comments-delete-icon">
-                    </div>
                   </div>
                 </div>
               </div>
@@ -913,16 +898,12 @@
                     <span>#5</span>
                   </div>
                   <div class="timeline__item-comments-quote">
-                    <div class="timeline__item-comments-quote-icon">
-                    </div>
                   </div>
                   <div class="timeline__item-comments-edit">
-                    <div class="timeline__item-comments-edit-icon">
-                    </div>
+                  </div>
+                  <div class="timeline__item-comments-ip">
                   </div>
                   <div class="timeline__item-comments-delete">
-                    <div class="timeline__item-comments-delete-icon">
-                    </div>
                   </div>
                 </div>
               </div>
@@ -932,7 +913,9 @@
                 </div>
                 <div class="timeline__item-comments-comment">
                   <span class="quote-user-icon"><a href="#comment-1" class="quote-user me">Eugen #1</a></span>
-                  <span class="quote">Каждый отчет о гонке - творческий процесс. И я, как главный редактор, не вмешиваюсь в право авторов решать, какие факты или события достойны внимания.</span>
+                  <span class="quote">
+                    <span>Каждый отчет о гонке - творческий процесс. И я, как главный редактор, не вмешиваюсь в право авторов решать, какие факты или события достойны внимания.</span>
+                    </span>
                   Вопрос.
 Раньше в разделе спортивные достижения в профайлах указывались подиумы ЮКИБУ, а в этом сезоне нет, например, 2-е место мужской эстафеты и 3-е женской в Хаанья не стали включать?  
                 </div>
