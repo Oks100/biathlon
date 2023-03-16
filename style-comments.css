@@ -1,3 +1,24 @@
+    .edit-news {
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.4s ease;
+    margin-left: 1em;
+  }
+  .edit-news::before {
+    content: "\e063";
+    font-family: 'icomoon';
+    color: #81aad5;
+    font-size: 0.90em;
+  }
+  .edit-news:hover {
+    background-color: #e7f3fa;
+    cursor: pointer;
+  }
+
 .timeline__speedbar {
     padding: 1.4em 1.5em;
     background-color: white;
