@@ -206,7 +206,7 @@
 .timeline__item-comments-edit-icon {
 }
 .timeline__item-comments-ip::before {
-    content: "\e074";
+    content: "\e062";
 }
 .timeline__item-comments-ip-icon {
 }
