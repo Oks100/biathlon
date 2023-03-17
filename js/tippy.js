@@ -39,3 +39,34 @@ document.querySelector('.header__notification_all').addEventListener('click', ()
     }
   });
 /*Кнопка выбора зачета в мини-профайлах*/
+
+
+// $(document).ready(function(){
+//   $('.spoiler').click(function () {
+//       $('#tippy-41').addClass('calendar-open');
+//       });
+//   });
+  document.querySelector('.calendar-body').addEventListener('click', () => {
+    document.querySelector('.timer__more_info').classList.remove('calendar-open');
+  });
+
+  document.querySelector('.calendar-b').addEventListener('click', () => {
+    document.querySelector('.timer__more_info').classList.add('calendar-open');
+  });
+
+  $(document).click(function (e) {
+    if (!$(e.target).closest('.calendar-b').length) {
+        $('.timer__more_info').removeClass('calendar-open');
+    }
+  });
+
+
+
+
+  window.addEventListener('click', function(e){
+    target.removeClass('calendar-open');
+ });
+ var triggerJs = document.querySelector('.calendar');
+ triggerJs.addEventListener('click', function(e){
+    e.stopPropagation();
+ });
