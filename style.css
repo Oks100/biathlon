@@ -1726,7 +1726,7 @@ body {
 .timer__more-item {
   display: flex;
   flex-direction: column;
-  padding: 10px;
+  padding: 13px 10px;
   border-bottom: 1px solid #d0d9dd;
 }
 .timer__more-item:hover {
@@ -1736,7 +1736,7 @@ body {
   border: none;
 }
 .timer__more-body {
-  height: 322px;
+  height: 340px;
   overflow: auto;
 }
 .timer__more-information img {
@@ -1952,7 +1952,7 @@ body {
   color: #73b5e5 !important;
 }
 .header__notifications_item {
-  padding: 10px;
+  padding: 13px 10px;
   display: flex;
   flex-direction: row;
   border-bottom: 1px solid #d0d9dd;
@@ -1962,10 +1962,10 @@ body {
   background-color: #ecf5fb;
 }
 .header__notifications_item.user-item, .header__notifications_item.admin-item {
-  padding: 10px 10px 10px 6px !important;
+  padding: 13px 10px 13px 6px !important;
 }
 .mobile-notification__item.user-item, .mobile-notification__item.admin-item {
-  padding: 10px 15px 5px 11px !important;
+  padding: 13px 15px 8px 11px !important;
 }
 .header__notifications_item.user-item:hover {
   background-color: #d8ebf7;
@@ -2100,7 +2100,7 @@ body {
 .header__notifications_conteiner.notif-more .header__notifications_content {
   display: -webkit-box;
   -webkit-box-orient: vertical;
-  height: 367px;
+  height: 391px;
   overflow: auto;
 }
 .header__notifications_conteiner > .header__notifications_content > .header__notifications_content-hide {
@@ -6562,7 +6562,7 @@ article.timeline {
   .mobile-notification__content {
   }
   .mobile-notification__item {
-    padding: 10px 15px 5px 15px;
+    padding: 13px 15px 8px 15px;
     display: flex;
     flex-direction: row;
     border-bottom: 1px solid #d0d9dd;
@@ -6767,7 +6767,7 @@ article.timeline {
   .mobile-timer__more-events-content {
     display: flex;
     flex-direction: column;
-    padding: 10px 15px 5px 15px;
+    padding: 13px 15px 8px 15px;
     border-bottom: 1px solid #d0d9dd;
   }
   .mobile-timer__more-events__all {
