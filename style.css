@@ -748,6 +748,7 @@ body {
   padding: 0 17px;
   border-radius: 33px;
   transition: all .4s ease;
+  font-weight: 600;
 }
 .calendar-b::before {
   content: "\e074";
@@ -755,6 +756,7 @@ body {
   font-size: 0.95em;
   padding-right: 5px;
   color: #81aad5;
+  font-weight: 400;
 }
 
 .calendar-b:hover {
