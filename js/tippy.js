@@ -46,6 +46,10 @@ document.querySelector('.header__notification_all').addEventListener('click', ()
 //       $('#tippy-41').addClass('calendar-open');
 //       });
 //   });
+  document.querySelector('.calendar-close-crosshair').addEventListener('click', () => {
+    document.querySelector('.timer__more_info').classList.remove('calendar-open');
+  });
+
   document.querySelector('.calendar-body').addEventListener('click', () => {
     document.querySelector('.timer__more_info').classList.remove('calendar-open');
   });

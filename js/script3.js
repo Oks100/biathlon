@@ -435,15 +435,14 @@ $(document).ready(function(){
             document.querySelector(
               ".calendar"
             ).innerHTML += `<div class="calendar-inner">
-              <div class="calendar-close"></div>
               <div class="calendar-controls">
-              <div class="calendar-prev"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128"><path fill="#b9e4ff" d="M88.2 3.8L35.8 56.23 28 64l7.8 7.78 52.4 52.4 9.78-7.76L45.58 64l52.4-52.4z"/></svg></a></div>
+              <div class="calendar-prev"><a href="#"><span class="calendar-prev-icon"></span></a></div>
               <div class="calendar-year-month">
               <div class="calendar-month-label"></div>
-              <div></div>
               <div class="calendar-year-label"></div>
               </div>
-              <div class="calendar-next"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128"><path fill="#b9e4ff" d="M38.8 124.2l52.4-52.42L99 64l-7.77-7.78-52.4-52.4-9.8 7.77L81.44 64 29 116.42z"/></svg></a></div>
+              <div class="calendar-next"><a href="#"><span class="calendar-next-icon"></span></a></div>
+              <div class="calendar-close-crosshair"></div>
               </div>
               <div class="calendar-today-date">Сегодня: 
                 ${calendarControl.calWeekDays[calendarControl.localDate.getDay()]}, 
@@ -453,6 +452,7 @@ $(document).ready(function(){
               </div>
               <div class="calendar-body"></div>
               <div class="map-legend">
+              <span class="map-legend-legend">Легенда:</span>
               <span class="map-legend-1">Кубок Мира/ЧМ/ОИ</span>
               <span class="map-legend-2">Кубок IBU/ЧЕ</span>
               <span class="map-legend-3">Юниорский Кубок IBU/ЮЧЕ/ЮЧМ</span>
