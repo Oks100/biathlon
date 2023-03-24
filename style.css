@@ -5093,6 +5093,104 @@ table.popular__table tbody tr {
 }
 /*! Твиттер конец*/
 
+.birthday-foto {
+  border-radius: 8px;
+  margin: 0.75em 0 0.7em 0;
+  max-width: 100%;
+}
+.birthday-block__head {
+  color: #1f7ec4;
+  font-size: 0.95em;
+  margin-bottom: 0.75em;
+}
+
+.birthday-block__footer {
+}
+.birthday-block__text {
+  display: block;
+  text-align: left;
+}
+
+
+.birthday-block__congratulations {
+  display: inline-flex;
+  color: #002b71;
+  height: 33px;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  padding: 0 20px;
+  border-radius: 33px;
+  transition: all .4s ease;
+  margin-bottom: 0.4em;
+  /* animation: 1s linear heart forwards; */
+}
+.birthday-block__congratulations::before {
+  content: "\e075";
+  font-family: 'icomoon';
+  font-size: 1em;
+  font-weight: normal;
+  padding-right: 7px;
+  color: red;
+  scale: 1;
+}
+.birthday-block__congratulations.vote::before {
+  content: "\e076";
+  animation: heart .5s ease-in-out forwards;
+}
+.birthday-block__congratulations:hover {
+  background-color: #b9e4ff;
+}
+.birthday-block__congratulations span {
+  color: black;
+  padding-left: 5px;
+}
+.birthday-block__congratulations-vote2 {
+  display: none;
+}
+.birthday-block__congratulations.vote .birthday-block__congratulations-vote {
+  display: none;
+}
+.birthday-block__congratulations.vote .birthday-block__congratulations-vote2 {
+  display: block;
+}
+
+
+/* @keyframes slide-up {
+  0% { 
+    scale: 1; 
+  }
+  50% {
+    scale: 0;
+  }
+  75% {
+    scale: 1.3;
+  }
+  100% {
+    content: "\e076";
+    scale: 1;
+  }
+} */
+
+@keyframes heart {
+  0% { 
+    scale: 1; 
+  }
+  50% {
+    scale: 1.3;
+  }
+  100% {
+    scale: 1;
+  }
+}
+
+/* @keyframes slide-up { 
+  0%{ transform: translate3d(0, 100%, 0); }
+  50%{ transform: translate3d(0, 0, 0); }
+  100%{ transform: translate3d(0, 100%, 0); }
+} */
+
+
 
 
 .vote-block__footer {
@@ -6286,7 +6384,19 @@ input[type="radio"]{
 }
 /* Куки */
 .body.banner__cookie_close .banner__cookie {
-  display: none;
+  /* display: none; */
+  /* animation-duration: 1s;
+  animation-name: cookie-animation-close; */
+  animation: 1s ease cookie-animation-close forwards;
+  /* transition: all 1s ease;
+  bottom: -100%; */
+}
+@keyframes cookie-animation-close {
+  0% {
+  }
+  100% {
+    bottom: -100%;
+  }
 }
 .banner__cookie {
   position: fixed;
@@ -6303,9 +6413,10 @@ input[type="radio"]{
   transition-delay: 0.5s;
   animation-duration: 1s;
   animation-name: cookie-animation;
+  /* animation: 1s ease 0.5s cookie-animation forwards; */
+  /* animation: 1s ease cookie-animation; */
 }
 .banner__cookie_body {
-  flex-direction: column;
   padding: 1.5em;
 }
 .banner__cookie_text {
