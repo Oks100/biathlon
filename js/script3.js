@@ -846,3 +846,10 @@ $(document).ready(function(){
                 $('.mobile-timer__more-events-window').removeClass('calendar-open');
                 });
             });
+
+
+            $(document).ready(function(){
+              $('.birthday-block__congratulations').click(function () {
+                  $('.birthday-block__congratulations').addClass('vote');
+                  });
+              });
