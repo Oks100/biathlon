@@ -842,7 +842,7 @@ $(document).ready(function(){
           });
 
           $(document).ready(function(){
-            $('.number-item').click(function () {
+            $('.calendar-body').click(function () {
                 $('.mobile-timer__more-events-window').removeClass('calendar-open');
                 });
             });
