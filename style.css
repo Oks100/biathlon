@@ -1849,7 +1849,7 @@ display: block;
   -webkit-tap-highlight-color: transparent;
 }
 
-.calendar2 .calendar-inner .calendar-today-date:hover {
+.calendar2 .calendar-inner .calendar-today-date:active {
   background: #b9e4ff;
 }
 
