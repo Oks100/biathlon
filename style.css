@@ -6648,7 +6648,7 @@ article.timeline {
       position: fixed;
       top: 0;
       right: -300px;
-      width: 300px;
+      min-width: 300px;
       background-color: #eef3f7;
       height: 100%;
       overflow: auto;
@@ -6791,7 +6791,7 @@ article.timeline {
       display: none;
     }
   }
-  @media screen and (min-width: 992px) {
+  @media screen and (min-width: 993px) {
     .layer-toggle, .body.open-menu .layer-background, .desktop-hidden {
       display: none;
     }
