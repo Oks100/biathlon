@@ -1846,6 +1846,7 @@ display: block;
   margin: 20px auto;
   transition: all .4s ease;
   max-width: 250px;
+  -webkit-tap-highlight-color: transparent;
 }
 
 .calendar2 .calendar-inner .calendar-today-date:hover {
@@ -1912,6 +1913,7 @@ border-radius: 33px;
 transition: all 0.45s ease;
 position: absolute;
 left: 12px;
+-webkit-tap-highlight-color: transparent;
 }
 
 .calendar2 .calendar-inner .calendar-controls .calendar-next a:hover {
@@ -4361,6 +4363,7 @@ border-radius: 5px;
   .lead2 {
     text-transform: uppercase;
     font-weight: 800;
+    font-family: tahoma, Arial, Helvetica, sans-serif;
   }
 
   .head__all {
@@ -5100,7 +5103,6 @@ table.popular__table tbody tr {
 }
 .birthday-block__head {
   color: #1f7ec4;
-  font-size: 0.95em;
   margin-bottom: 0.75em;
 }
 
@@ -5110,7 +5112,6 @@ table.popular__table tbody tr {
   display: block;
   text-align: left;
 }
-
 
 .birthday-block__congratulations {
   display: inline-flex;
@@ -5123,7 +5124,7 @@ table.popular__table tbody tr {
   border-radius: 33px;
   transition: all .4s ease;
   margin-bottom: 0.4em;
-  /* animation: 1s linear heart forwards; */
+  -webkit-tap-highlight-color: transparent;
 }
 .birthday-block__congratulations::before {
   content: "\e075";
@@ -5155,23 +5156,6 @@ table.popular__table tbody tr {
   display: block;
 }
 
-
-/* @keyframes slide-up {
-  0% { 
-    scale: 1; 
-  }
-  50% {
-    scale: 0;
-  }
-  75% {
-    scale: 1.3;
-  }
-  100% {
-    content: "\e076";
-    scale: 1;
-  }
-} */
-
 @keyframes heart {
   0% { 
     scale: 1; 
@@ -5183,14 +5167,6 @@ table.popular__table tbody tr {
     scale: 1;
   }
 }
-
-/* @keyframes slide-up { 
-  0%{ transform: translate3d(0, 100%, 0); }
-  50%{ transform: translate3d(0, 0, 0); }
-  100%{ transform: translate3d(0, 100%, 0); }
-} */
-
-
 
 
 .vote-block__footer {
@@ -7184,7 +7160,7 @@ article.timeline {
   }
   .mobile-notification__content-body {
     position: absolute;
-    top: 94.4px;
+    top: 97.0333px;
     z-index: 10;
     display: flex;
     flex-direction: column;
@@ -7400,6 +7376,7 @@ article.timeline {
     font-weight: 600;
     font-size: 16px;
     cursor: pointer;
+    -webkit-tap-highlight-color: transparent;
   }
   .calendar-mobile::before {
     content: "\e074";
