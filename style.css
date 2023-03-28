@@ -1998,7 +1998,7 @@ transition: all 0.45s ease;
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 33px;
+  height: 40px;
 }
 
 .calendar2 .calendar-inner .calendar-body .prev-dates:hover,
@@ -8565,7 +8565,9 @@ html[data-theme="summer"] .timeline-sponsors .swiper-pagination-bullet-active, h
 html[data-theme='summer'] .calendar .calendar-inner .calendar-body div > a:hover, html[data-theme='summer'] .calendar2 .calendar-inner .calendar-body div > a:hover {
   outline-color: #fff2d5;
 }
-
+html[data-theme='summer'] .header__logo_body img {
+  content: url(img/logo-s.png);
+}
 @media screen and (min-width: 993px) {
   html[data-theme="summer"] .important-news__news-spoiler:hover {
     background-color: #fff9eb;
@@ -8583,10 +8585,16 @@ html[data-theme='summer'] .calendar .calendar-inner .calendar-body div > a:hover
   html[data-theme='Black'] .header__logo a img {
     content: url(img/logo-mobile2-black.png) !important;
   }
+  html[data-theme='summer'] .header__logo_body img {
+    content: url(img/logo-s-small2.png);
+  }
 }
 @media screen and (max-width: 360px) {
   html[data-theme='Black'] .header__logo a img {
     content: url(img/logo-mobile3-black.png) !important;
+}
+html[data-theme='summer'] .header__logo_body img {
+  content: url(img/logo-s-small3.png);
 }
 }
 html[data-theme="Black"] .burger-menu_body, html[data-theme="Black"] .body.log-in-window .burger-menu__log-in-menu, html[data-theme="Black"] .burger-menu__socials, html[data-theme="Black"] .burger-menu_nav-menu, html[data-theme="Black"] .burger-menu__profile, html[data-theme="Black"] .twitter-block, html[data-theme='Black'] .main-cup, html[data-theme='Black'] .sidebar-block, html[data-theme='Black'] .sidebar-block3 {
@@ -8598,7 +8606,7 @@ html[data-theme='Black'] .burger-menu__confirmation-menu, html[data-theme='Black
 html[data-theme='Black'] .calendar2 .calendar-inner .calendar-body div > a, html[data-theme='Black'] .calendar2, html[data-theme='Black'] .calendar .calendar-inner .calendar-body div > a, html[data-theme='Black'] .calendar, html[data-theme='Black'] .birthday-block__congratulations span, html[data-theme='Black'] .timer__more-button a, html[data-theme='Black'] .form__field_radio .option .dot::before, html[data-theme='Black'] .form__user-icon::before, html[data-theme='Black'] .form__password-icon::before, html[data-theme='Black'] .form__e-mail-icon::before, html[data-theme='Black'] .form__field_radio .option span, html[data-theme='Black'] .login__username, html[data-theme='Black'] .login__password, html[data-theme='Black'] .e-mail__login, html[data-theme='Black'] .login__repeat_password, html[data-theme='Black'] .burger-menu__log-in_contant-entered span, html[data-theme="Black"] .burger-menu__sign-up_confirmed span, html[data-theme="Black"] .string-optional, html[data-theme="Black"] .burger-menu__tabs span, html[data-theme="Black"] .burger-menu__confirmation-menu_text span, html[data-theme="Black"] .mobile-notification__head-content a p, html[data-theme="Black"] .burger-menu_nav-menu a, html[data-theme="Black"] .burger-menu__profile-messange span, html[data-theme="Black"] .burger-menu_nav-menu-content li .burger-menu_nav-more .list-number, html[data-theme="Black"] .mobile-timer__more-events-button, html[data-theme="Black"] .mobile-timer__more-events-window, html[data-theme="Black"] .mobile-timer__more-events_head-content span, html[data-theme="Black"] .mobile-notification__more-button, html[data-theme="Black"] .mobile-notification-window span, html[data-theme="Black"] .header__mobile-number-massage2 span, html[data-theme="Black"] .header__mobile-link-massage2::before, html[data-theme="Black"] .wrapper, html[data-theme="Black"] .mobile-timer__more-events, html[data-theme="Black"] .item__addition::before, html[data-theme="Black"] .select__list2, html[data-theme='Black'] .timeline-sponsors__head span, html[data-theme='Black'] .dropdown-content li, html[data-theme='Black'] .dropbtn, html[data-theme='Black'] .footer__column span, html[data-theme='Black'] .footer__title span, html[data-theme='Black'] .footer__column span, html[data-theme='Black'] .footer a, html[data-theme='Black'] .select__list, html[data-theme='Black'] .header-menu .header-menu__list a, html[data-theme='Black'] .dropdown__button::after, html[data-theme='Black'] .dropdown__button, html[data-theme='Black'] .header__massages span a, html[data-theme='Black'] .header__menu-body, html[data-theme='Black'] .tippy-content, html[data-theme='Black'] .timeline__comments span + span, html[data-theme='Black'] .timeline__head a, html[data-theme='Black'] .timeline, html[data-theme='Black'] nav, html[data-theme='Black'] aside, html[data-theme='Black'] .comment-block__rumor, html[data-theme='Black'] .popular-block__search-form input, html[data-theme='Black'] .footer__telegram::before {
   color: #c9ccd0;
 }
-html[data-theme='Black'] .calendar .calendar-inner .calendar-body .prev-dates, html[data-theme='Black'] .calendar .calendar-inner .calendar-body .next-dates {
+html[data-theme='Black'] .calendar2 .calendar-inner .calendar-body .prev-dates, html[data-theme='Black'] .calendar2 .calendar-inner .calendar-body .next-dates, html[data-theme='Black'] .calendar .calendar-inner .calendar-body .prev-dates, html[data-theme='Black'] .calendar .calendar-inner .calendar-body .next-dates {
   color: #6f6f6f;
 }
 html[data-theme='Black'] .form__input input:focus {
