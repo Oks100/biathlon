@@ -2272,7 +2272,8 @@ border-radius: 5px;
   color: #81aad5;
 }
 .timer__more-button:hover {
-  background-color: #e7f3fa;
+  /* background-color: #e7f3fa; */
+  background-color: #d1ebfb;
 }
 .timer__more-button a {
   line-height: 41px;
@@ -2591,7 +2592,8 @@ border-radius: 5px;
   color: #81aad5;
 }
 .header__notification_all a:hover {
-  background-color: #e7f3fa;
+  /* background-color: #e7f3fa; */
+  background-color: #d1ebfb;
   color: black !important;
 }
 .header__notifications_conteiner.notif-more .header__notifications_content {
@@ -3929,6 +3931,9 @@ border-radius: 5px;
     }
   }
   @media (max-width: 992px){
+    .important-news__link:not(:last-of-type) {
+      margin-bottom: 5px;
+    }
     .slider-container3 .card {
       width: 32.74%;
     }
@@ -5138,9 +5143,6 @@ table.popular__table tbody tr {
 .birthday-block__congratulations.vote::before {
   content: "\e076";
   animation: heart .5s ease-in-out forwards;
-}
-.birthday-block__congratulations:hover {
-  background-color: #b9e4ff;
 }
 .birthday-block__congratulations span {
   color: black;
@@ -6557,10 +6559,15 @@ article.timeline {
   max-width: 56.84%;
   padding: 0 5px 0 5px;
 }
+@media screen and (min-width: 993px) {
+  .birthday-block__congratulations:hover {
+    background-color: #b9e4ff;
+  }
+  .important-news__news-spoiler:hover {
+    background-color: #e7f3fa;
+  }
+}
   @media screen and (min-width: 992px) {
-    .important-news__news-spoiler:hover {
-      background-color: #e7f3fa;
-    }
     .wrapper {
       min-height: 100vh;
       padding: 0;
@@ -6622,6 +6629,9 @@ article.timeline {
     }
   }
   @media screen and (max-width: 992px) {
+    .birthday-block__congratulations:active {
+      background-color: #b9e4ff;
+    }
     article.timeline {
       max-width: 100%;
       padding: 0;
@@ -7796,6 +7806,9 @@ html[data-theme='dark'] body {
   html[data-theme='dark'] .right-sidebar {
     background-color: #333;
   }
+  html[data-theme='dark'] .birthday-block__congratulations:active {
+    background-color: #184779;
+  }
 }
 @media screen and (max-width: 450px) {
   html[data-theme='dark'] .header__logo a img {
@@ -7821,7 +7834,7 @@ html[data-theme='dark'] .header a, html[data-theme='dark'] .header__logo .social
 html[data-theme="dark"] .ball {
   background-color: #e1e1e1;
 }
-html[data-theme='dark'] .timeline__body-important-news .spoiler, html[data-theme='dark'] .form__field_radio .option .dot::before, html[data-theme='dark'] .form__password-icon::before, html[data-theme='dark'] .form__e-mail-icon::before, html[data-theme='dark'] .form__user-icon::before, html[data-theme='dark'] .form__field_radio .option span, html[data-theme='dark'] .burger-menu__profile-messange span, html[data-theme='dark'] .header__mobile-link-massage2::before, html[data-theme='dark'] .mobile-item__addition, html[data-theme='dark'] .burger-menu_nav-menu-title, html[data-theme='dark'] .mobile-notification__head-content span, html[data-theme='dark'] .select__list2, html[data-theme='dark'] .vertical-menu-block__body .vertical-menu-block__list li a, html[data-theme='dark'] .dropbtn, html[data-theme='dark'] .select__list {
+html[data-theme='dark'] .calendar2 .calendar-inner .calendar-body div > a, html[data-theme='dark'] .calendar .calendar-inner .calendar-body div > a, html[data-theme='dark'] .calendar, html[data-theme='dark'] .timeline__body-important-news .spoiler, html[data-theme='dark'] .form__field_radio .option .dot::before, html[data-theme='dark'] .form__password-icon::before, html[data-theme='dark'] .form__e-mail-icon::before, html[data-theme='dark'] .form__user-icon::before, html[data-theme='dark'] .form__field_radio .option span, html[data-theme='dark'] .burger-menu__profile-messange span, html[data-theme='dark'] .header__mobile-link-massage2::before, html[data-theme='dark'] .mobile-item__addition, html[data-theme='dark'] .burger-menu_nav-menu-title, html[data-theme='dark'] .mobile-notification__head-content span, html[data-theme='dark'] .select__list2, html[data-theme='dark'] .vertical-menu-block__body .vertical-menu-block__list li a, html[data-theme='dark'] .dropbtn, html[data-theme='dark'] .select__list {
   color: #e1e1e1;
 }
 html[data-theme='dark'] .burger-menu_new-slide-tab, html[data-theme='dark'] .burger-menu_nav-menu-title {
@@ -7837,7 +7850,7 @@ html[data-theme='dark'] .timeline__item, html[data-theme='dark'] .sidebar-block,
   background-color: #202124;
   color: #e1e1e1;
 }
-html[data-theme='dark'] .timeline__body-important-news {
+html[data-theme='dark'] .calendar, html[data-theme='dark'] .timeline__body-important-news {
   background-color: #2a2b2d;
 }
 html[data-theme='dark'] .important-news__news-spoiler, html[data-theme='dark'] .sign-up, html[data-theme='dark'] .burger-menu__log-in_contant, html[data-theme='dark'] .body.log-in-confirmed .burger-menu__sign-up_confirmed, html[data-theme='dark'] .body.log-in-entered .burger-menu__log-in_contant-entered, html[data-theme='dark'] .body.sign-up-tab .burger-menu__tab_sign-up, html[data-theme='dark'] .body.sign-up-tab .burger-menu__sign-up_contant-form, html[data-theme='dark'] .burger-menu__tab_log-in, html[data-theme='dark'] .burger-menu__log-in_contant-form, html[data-theme='dark'] .burger-menu__confirmation-menu, html[data-theme='dark'] .burger-menu__new-slide, html[data-theme='dark'] .burger-menu_nav-menu-list2 {
@@ -7871,7 +7884,7 @@ html[data-theme='dark'] .notification__text a:first-child, html[data-theme='dark
 html[data-theme='dark'] .form__input input:focus {
   background-color: #242526;
 }
-html[data-theme='dark'] .forgot-password a, html[data-theme='dark'] .enter-button, html[data-theme='dark'] .log-in, html[data-theme='dark'] .sign-up, html[data-theme='dark'] .exit-no, html[data-theme='dark'] .exit-yes, html[data-theme='dark'] .burger-menu__content a, html[data-theme='dark'] main a, html[data-theme='dark'] .timeline__footer button {
+html[data-theme='dark'] .birthday-block__congratulations, html[data-theme='dark'] .forgot-password a, html[data-theme='dark'] .enter-button, html[data-theme='dark'] .log-in, html[data-theme='dark'] .sign-up, html[data-theme='dark'] .exit-no, html[data-theme='dark'] .exit-yes, html[data-theme='dark'] .burger-menu__content a, html[data-theme='dark'] main a, html[data-theme='dark'] .timeline__footer button {
   color: #abcbff;
 }
 html[data-theme='dark'] .view {
@@ -7890,13 +7903,13 @@ html[data-theme='dark'] .popular-block__search-form button::before {
 html[data-theme='dark'] .popular-block__search-form button:hover::before {
   color: rgba(255, 255, 255, 0.4);
 }
-html[data-theme='dark'] .main-cup__header, html[data-theme='dark'] .main-cup__header .main-cup__lead, html[data-theme='dark'] .head__all, html[data-theme='dark'] .comment-block__head, html[data-theme='dark'] .lead2 {
+html[data-theme='dark'] .birthday-block__head, html[data-theme='dark'] .main-cup__header, html[data-theme='dark'] .main-cup__header .main-cup__lead, html[data-theme='dark'] .head__all, html[data-theme='dark'] .comment-block__head, html[data-theme='dark'] .lead2 {
   color: #2b7ed7;
 }
-html[data-theme="dark"] .burger-menu-back-tab::before, html[data-theme="dark"] .burger-menu-back-tab::after, html[data-theme='dark'] .burger-menu__log-in-menu_close::before, html[data-theme='dark'] .burger-menu__log-in-menu_close::after, html[data-theme='dark'] .burger-menu_active .burger-menu_lines::before, html[data-theme='dark'] .burger-menu_active .burger-menu_lines, html[data-theme='dark'] .burger-menu_active .burger-menu_lines::after, html[data-theme='dark'] .mobile-notification__close::before, html[data-theme='dark'] .mobile-notification__close::after, html[data-theme='dark'] .mobile-timer__more-events_head-close::before, html[data-theme='dark'] .mobile-timer__more-events_head-close::after {
+html[data-theme="dark"] .calendar-close-crosshair::before, html[data-theme="dark"] .calendar-close-crosshair::after, html[data-theme="dark"] .burger-menu-back-tab::before, html[data-theme="dark"] .burger-menu-back-tab::after, html[data-theme='dark'] .burger-menu__log-in-menu_close::before, html[data-theme='dark'] .burger-menu__log-in-menu_close::after, html[data-theme='dark'] .burger-menu_active .burger-menu_lines::before, html[data-theme='dark'] .burger-menu_active .burger-menu_lines, html[data-theme='dark'] .burger-menu_active .burger-menu_lines::after, html[data-theme='dark'] .mobile-notification__close::before, html[data-theme='dark'] .mobile-notification__close::after, html[data-theme='dark'] .mobile-timer__more-events_head-close::before, html[data-theme='dark'] .mobile-timer__more-events_head-close::after {
   background-color: #2b7ed7;
 }
-html[data-theme='dark'] .timer__more-button a::before, html[data-theme='dark'] .mobile-notification__more-button::before, html[data-theme='dark'] .mobile-timer__more-events-button::before, html[data-theme='dark'] .timer__more-translation::before, html[data-theme='dark'] .timer__more-result::before, html[data-theme='dark'] .notification__text .view::before, html[data-theme='dark'] .burger-menu__profile-icon::before, html[data-theme='dark'] .timer__more-information-time::before, html[data-theme='dark'] .mobile-notification__time span:first-child:before, html[data-theme='dark'] .mobile-notification__text .view::before, html[data-theme='dark'] .mobile-notification__head span::before, html[data-theme='dark'] .burger-menu__socials-youtube a::before, html[data-theme='dark'] .burger-menu__socials-telegram a::before, html[data-theme='dark'] .burger-menu__socials-instagram a::before, html[data-theme='dark'] .burger-menu__socials-twitter a::before, html[data-theme='dark'] .burger-menu__socials-facebook a::before, html[data-theme='dark'] .end-career::after, html[data-theme='dark'] .pause-career::after, html[data-theme='dark'] .continue-career::after, html[data-theme='dark'] .next-race-block__time span:first-child::before, html[data-theme='dark'] .next-translation-block__time span:first-child::before, html[data-theme='dark'] .blogs-block__item span::before, html[data-theme='dark'] .interview-block__gossip_date span:first-child::before, html[data-theme='dark'] .comment-block__data span:first-child::before, html[data-theme='dark'] .timeline__date span:first-child::before, html[data-theme='dark'] .next-race-block__time span + span::before, html[data-theme='dark'] .next-translation-block__time span + span::before, html[data-theme='dark'] .interview-block__gossip_date span + span::before, html[data-theme='dark'] .comment-block__data span + span::before, html[data-theme='dark'] .timeline__date span + span::before, html[data-theme='dark'] .timeline__comments-refer::before, html[data-theme='dark'] .woman-user::before, html[data-theme='dark'] .unknow-user::before, html[data-theme='dark'] .male-user::before, html[data-theme='dark'] .timeline__body-important-news .spoiler::before, html[data-theme='dark'] .important-news__link::before, html[data-theme='dark'] .header__notification_all a::before, html[data-theme='dark'] .notification__time span::before, html[data-theme='dark'] .admin::before, html[data-theme='dark'] .header__notifications_head span::before, html[data-theme='dark'] #tippy-42 ul li:first-of-type a::before, html[data-theme='dark'] #tippy-42 ul li:nth-child(2) a::before {
+html[data-theme='dark'] .calendar-mobile::before, html[data-theme='dark'] .calendar-b::before, html[data-theme='dark'] .timer__more-button a::before, html[data-theme='dark'] .mobile-notification__more-button::before, html[data-theme='dark'] .mobile-timer__more-events-button::before, html[data-theme='dark'] .timer__more-translation::before, html[data-theme='dark'] .timer__more-result::before, html[data-theme='dark'] .notification__text .view::before, html[data-theme='dark'] .burger-menu__profile-icon::before, html[data-theme='dark'] .timer__more-information-time::before, html[data-theme='dark'] .mobile-notification__time span:first-child:before, html[data-theme='dark'] .mobile-notification__text .view::before, html[data-theme='dark'] .mobile-notification__head span::before, html[data-theme='dark'] .burger-menu__socials-youtube a::before, html[data-theme='dark'] .burger-menu__socials-telegram a::before, html[data-theme='dark'] .burger-menu__socials-instagram a::before, html[data-theme='dark'] .burger-menu__socials-twitter a::before, html[data-theme='dark'] .burger-menu__socials-facebook a::before, html[data-theme='dark'] .end-career::after, html[data-theme='dark'] .pause-career::after, html[data-theme='dark'] .continue-career::after, html[data-theme='dark'] .next-race-block__time span:first-child::before, html[data-theme='dark'] .next-translation-block__time span:first-child::before, html[data-theme='dark'] .blogs-block__item span::before, html[data-theme='dark'] .interview-block__gossip_date span:first-child::before, html[data-theme='dark'] .comment-block__data span:first-child::before, html[data-theme='dark'] .timeline__date span:first-child::before, html[data-theme='dark'] .next-race-block__time span + span::before, html[data-theme='dark'] .next-translation-block__time span + span::before, html[data-theme='dark'] .interview-block__gossip_date span + span::before, html[data-theme='dark'] .comment-block__data span + span::before, html[data-theme='dark'] .timeline__date span + span::before, html[data-theme='dark'] .timeline__comments-refer::before, html[data-theme='dark'] .woman-user::before, html[data-theme='dark'] .unknow-user::before, html[data-theme='dark'] .male-user::before, html[data-theme='dark'] .timeline__body-important-news .spoiler::before, html[data-theme='dark'] .important-news__link::before, html[data-theme='dark'] .header__notification_all a::before, html[data-theme='dark'] .notification__time span::before, html[data-theme='dark'] .admin::before, html[data-theme='dark'] .header__notifications_head span::before, html[data-theme='dark'] #tippy-42 ul li:first-of-type a::before, html[data-theme='dark'] #tippy-42 ul li:nth-child(2) a::before {
   color: rgba(47, 111, 200, 0.85);
 }
 html[data-theme='dark'] .burger-menu__profile-messange::before, html[data-theme='dark'] table.stars-table tbody tr td:nth-child(3)::before {
@@ -7911,14 +7924,14 @@ html[data-theme='dark'] .footer__icon::before, html[data-theme='dark'] .footer__
 /* html[data-theme='dark'] .burger-menu_active .burger-menu_lines::before {
   background-color: rgba(47, 111, 200, 0.85) !important;
 } */
-html[data-theme='dark'] .burger-menu__log-in_contant-entered span, html[data-theme='dark'] .burger-menu__sign-up_confirmed span, html[data-theme='dark'] .form__field span, html[data-theme='dark'] .burger-menu__tabs span, html[data-theme='dark'] .burger-menu__confirmation-menu_text span, html[data-theme='dark'] .burger-menu_nav-menu-content li .burger-menu_nav-more .list-number, html[data-theme='dark'] .timeline__head a {
+html[data-theme='dark'] .birthday-block__congratulations span, html[data-theme='dark'] .burger-menu__log-in_contant-entered span, html[data-theme='dark'] .burger-menu__sign-up_confirmed span, html[data-theme='dark'] .form__field span, html[data-theme='dark'] .burger-menu__tabs span, html[data-theme='dark'] .burger-menu__confirmation-menu_text span, html[data-theme='dark'] .burger-menu_nav-menu-content li .burger-menu_nav-more .list-number, html[data-theme='dark'] .timeline__head a {
   color: #e1e1e1;
 }
-html[data-theme='dark'] .timer__data-next, html[data-theme='dark'] .timer__data-prev, html[data-theme='dark'] .layer-toggle-visible, html[data-theme='dark'] .vertical-menu-block__categories span:not(.news_date), html[data-theme='dark'] .main-cup__controls .swiper-button-prev, html[data-theme='dark'] .main-cup__controls .swiper-button-next {
+html[data-theme='dark'] .layer-toggle-visible, html[data-theme='dark'] .vertical-menu-block__categories span:not(.news_date), html[data-theme='dark'] .main-cup__controls .swiper-button-prev, html[data-theme='dark'] .main-cup__controls .swiper-button-next {
   background: #235f9f;
 }
-html[data-theme='dark'] .learn-more .circle-element {
-  background: #235f9f;
+html[data-theme='dark'] .calendar2 .calendar-inner .calendar-body .calendar-today, html[data-theme='dark'] .calendar2 .calendar-inner .calendar-today-date, html[data-theme='dark'] .calendar2 .calendar-inner .calendar-controls .calendar-prev a, html[data-theme='dark'] .calendar2 .calendar-inner .calendar-controls .calendar-next a, html[data-theme='dark'] .calendar .calendar-close-crosshair:hover, html[data-theme='dark'] .learn-more .circle-element {
+  background: #184779;
 }
 html[data-theme='dark'] .vertical-menu-block__body .vertical-menu-block__list li::before, html[data-theme='dark'] .learn-more__text2::before, html[data-theme='dark'] .learn-more__text2::after {
   background: #184779;
@@ -7935,17 +7948,19 @@ html[data-theme='dark'] .burger-menu__tab.burger-menu__tab1, html[data-theme='da
 html[data-theme='dark'] .vertical-menu-block__body {
 }
 html[data-theme='dark'] .learn-more .circle-element .circle-element__icon::before, html[data-theme='dark'] .swiper-button-prev-icon::before, html[data-theme='dark'] .swiper-button-next-icon::before {
-  border-top: 1.875px solid #abcbff;
-  border-right: 1.875px solid #abcbff;
+  /* border-top: 1.875px solid #abcbff;
+  border-right: 1.875px solid #abcbff; */
+  border-top: 1.875px solid #7bade3;
+  border-right: 1.875px solid #7bade3;
 }
-html[data-theme='dark'] .timer__data-next:hover .timer__data-next-icon, html[data-theme='dark'] .timer__data-prev:hover .timer__data-prev-icon, html[data-theme='dark'] .learn-more:hover .circle-element .circle-element__icon, html[data-theme='dark'] .swiper-button-next:hover .swiper-button-next-icon, html[data-theme='dark'] .swiper-button-prev:hover .swiper-button-prev-icon {
-  background: #abcbff;
+html[data-theme='dark'] .calendar2 .calendar-inner .calendar-controls .calendar-next a:hover .calendar-next-icon, html[data-theme='dark'] .calendar2 .calendar-inner .calendar-controls .calendar-prev a:hover .calendar-prev-icon, html[data-theme='dark'] .calendar .calendar-inner .calendar-controls .calendar-next a:hover .calendar-next-icon, html[data-theme='dark'] .calendar .calendar-inner .calendar-controls .calendar-prev a:hover .calendar-prev-icon, html[data-theme='dark'] .timer__data-next:hover .timer__data-next-icon, html[data-theme='dark'] .timer__data-prev:hover .timer__data-prev-icon, html[data-theme='dark'] .learn-more:hover .circle-element .circle-element__icon, html[data-theme='dark'] .swiper-button-next:hover .swiper-button-next-icon, html[data-theme='dark'] .swiper-button-prev:hover .swiper-button-prev-icon {
+  background: #7bade3;
 }
 html[data-theme='dark'] .learn-more:hover .learn-more__text, html[data-theme='dark'] {
   color: #abcbff;
 }
-html[data-theme='dark'] .timer__data-next-icon::before, html[data-theme='dark'] .timer__data-prev-icon::before, html[data-theme='dark'] .layer-toggle-visible::before, html[data-theme='dark'] .body.open-menu .layer-toggle-visible::before {
-  border-color: #abcbff;
+html[data-theme='dark'] .calendar-prev-icon::before, html[data-theme='dark'] .calendar-next-icon::before, html[data-theme='dark'] .timer__data-next-icon::before, html[data-theme='dark'] .timer__data-prev-icon::before, html[data-theme='dark'] .layer-toggle-visible::before, html[data-theme='dark'] .body.open-menu .layer-toggle-visible::before {
+  border-color: #7bade3;
 }
 html[data-theme='dark'] .timeline__footer button .icon-container .icon svg {
   fill: #abcbff;
@@ -7953,8 +7968,11 @@ html[data-theme='dark'] .timeline__footer button .icon-container .icon svg {
 html[data-theme='dark'] .btn-container {
   --btn-bg: #235f9f;
 }
-html[data-theme='dark'] .enter-button, html[data-theme='dark'] .timeline__footer button {
+html[data-theme='dark'] .calendar-b:hover, html[data-theme='dark'] .timer__data-next, html[data-theme='dark'] .timer__data-prev, html[data-theme='dark'] .enter-button, html[data-theme='dark'] .timeline__footer button {
   background: #184779;
+}
+html[data-theme='dark'] .calendar .calendar-inner .calendar-body div > a:hover, html[data-theme='dark'] .calendar2 .calendar-inner .calendar-body div > a:hover {
+  outline-color: #184779;
 }
 html[data-theme='dark'] .timeline-navigation__page a, html[data-theme='dark'] .timeline-navigation_arrow-left, html[data-theme='dark'] .timeline-navigation_arrow-right, html[data-theme='dark'] .divTableRow:nth-child(2n+1) {
   background-color: #1f2d40;
@@ -7968,18 +7986,21 @@ html[data-theme='dark'] .timeline-navigation__page a::before, html[data-theme='d
 html[data-theme='dark'] .timeline-navigation__page a:hover, html[data-theme='dark'] .timeline-navigation_arrow-left::after, html[data-theme='dark'] .timeline-navigation_arrow-right::after {
   color: #abcbff;
 }
-html[data-theme='dark'] .timeline-sponsors .swiper-button-prev, html[data-theme='dark'] .timeline-sponsors .swiper-button-next {
+html[data-theme='dark'] .calendar .calendar-inner .calendar-body .calendar-today, html[data-theme='dark'] .calendar .calendar-inner .calendar-today-date, html[data-theme='dark'] .calendar .calendar-inner .calendar-controls .calendar-prev a, html[data-theme='dark'] .calendar .calendar-inner .calendar-controls .calendar-next a, html[data-theme='dark'] .timeline-sponsors .swiper-button-prev, html[data-theme='dark'] .timeline-sponsors .swiper-button-next {
   background-color: #184779;
 }
 html[data-theme='dark'] .timeline-sponsors .swiper-button-prev:hover, html[data-theme='dark'] .timeline-sponsors .swiper-button-next:hover {
   background-color: #235f9f;
 }
 html[data-theme='dark'] .timeline-sponsors .swiper-button-next, html[data-theme='dark'] .timeline-sponsors .swiper-button-prev {
-  color: #abcbff !important;
+  color: #7bade3 !important;
 }
-html[data-theme="dark"] main a:hover, html[data-theme="dark"] .comment-block__rumor:hover, html[data-theme="dark"] .icon.icon--left::before, html[data-theme="dark"] .icon.icon--right::before {
+html[data-theme="dark"] main a:hover, html[data-theme="dark"] .comment-block__rumor:hover {
   color: #8ab4f8;
   border-color: #8ab4f8;
+}
+html[data-theme="dark"] .icon.icon--left::before, html[data-theme="dark"] .icon.icon--right::before  {
+  border-color: #7bade3;
 }
 html[data-theme="dark"] .timeline-sponsors .swiper-slide.card, html[data-theme="dark"] .timeline-sponsors .card:hover {
   border-color: #fff !important;
@@ -7992,7 +8013,7 @@ html[data-theme="dark"] .exit-yes, html[data-theme="dark"] .timeline-sponsors .s
   background-color: #184779;
   border-color: #184779;
 }
-html[data-theme="dark"] .footer__column-content ul li a::before, html[data-theme="dark"] .footer__column-min_tittle::before, html[data-theme="dark"] .footer__column-min_tittle::before, html[data-theme="dark"] .footer::before, html[data-theme="dark"] .race-waiting::before, html[data-theme="dark"] .footer__column ul li a::before, html[data-theme="dark"] .footer__column span::before, html[data-theme="dark"] .footer__title span::before {
+html[data-theme="dark"] .map-legend-2::before, html[data-theme="dark"] .number-item[data-num="26"]::before, html[data-theme="dark"] .number-item[data-num="23"]::after, html[data-theme="dark"] .number-item[data-num="22"]::after, html[data-theme="dark"] .number-item[data-num="20"]::before, html[data-theme="dark"] .number-item[data-num="18"]::after, html[data-theme="dark"] .number-item[data-num="17"]::after, html[data-theme="dark"] .number-item[data-num="13"]::before, html[data-theme="dark"] .number-item[data-num="9"]::after, html[data-theme="dark"] .number-item[data-num="8"]::after, html[data-theme="dark"] .footer__column-content ul li a::before, html[data-theme="dark"] .footer__column-min_tittle::before, html[data-theme="dark"] .footer__column-min_tittle::before, html[data-theme="dark"] .footer::before, html[data-theme="dark"] .race-waiting::before, html[data-theme="dark"] .footer__column ul li a::before, html[data-theme="dark"] .footer__column span::before, html[data-theme="dark"] .footer__title span::before {
   background-color: #e3c000;
 }
 html[data-theme="dark"] .footer__column ul li a:hover::before, html[data-theme="dark"] .footer__column-content ul li a:hover::before {
@@ -8006,14 +8027,17 @@ html[data-theme="dark"] .footer__facebook:hover, html[data-theme="dark"] .footer
 html[data-theme="dark"] .mobile-notification__head-content a p, html[data-theme="dark"] .mobile-notification__more-button, html[data-theme="dark"] .mobile-notification-window span, html[data-theme="dark"] .mobile-timer__more-events-button, html[data-theme="dark"] .mobile-timer__more-events_head-content span, html[data-theme="dark"] .mobile-timer__more-events-window, html[data-theme="dark"] .wrapper, html[data-theme="dark"] footer.footer a, html[data-theme="dark"] .footer__facebook::before, html[data-theme="dark"] .footer__facebook::before, html[data-theme="dark"] .fa-moon {
   color: #e1e1e1;
 }
-html[data-theme='dark'] .mobile-notification__text a {
+html[data-theme='dark'] .number-item:hover .dateNumber, html[data-theme='dark'] .mobile-notification__text a {
   color: #e1e1e1 !important;
 }
 html[data-theme="dark"] .footer__facebook, html[data-theme="dark"] .footer__twitter, html[data-theme="dark"] .footer__instagram, html[data-theme="dark"] .footer__telegram, html[data-theme="dark"] .footer__youtube {
   background-color: #15395f;
 }
-html[data-theme="Black"] .race-continues::before, html[data-theme="dark"] .race-continues::before, html[data-theme="dark"] .logged, html[data-theme="dark"] .comment-block__user-content .woman-user .logged {
+html[data-theme="dark"] .map-legend-3::before, html[data-theme="dark"] .number-item[data-num="29"]::before, html[data-theme="dark"] .number-item[data-num="26"]::after, html[data-theme="dark"] .number-legend[data-num="17"], html[data-theme="dark"] .number-legend[data-num="22"], html[data-theme="dark"] .number-item[data-num="13"]::after, html[data-theme="dark"] .number-legend[data-num="8"], html[data-theme="dark"] .number-item[data-num="2"]::before, html[data-theme="Black"] .race-continues::before, html[data-theme="dark"] .race-continues::before, html[data-theme="dark"] .logged, html[data-theme="dark"] .comment-block__user-content .woman-user .logged {
   background-color: #20ba19;
+}
+html[data-theme="dark"] .calendar2 .calendar-inner .calendar-body .prev-dates, html[data-theme="dark"] .calendar2 .calendar-inner .calendar-body .next-dates, html[data-theme="dark"] .calendar .calendar-inner .calendar-body .prev-dates, html[data-theme="dark"] .calendar .calendar-inner .calendar-body .next-dates {
+  color: #8f8f8f;
 }
 html[data-theme="dark"] .table__one tbody tr:nth-child(2n+3) td, html[data-theme="dark"] .table__two tbody tr:nth-child(2n+2) td {
   background-color: #172230 !important;
@@ -8024,7 +8048,7 @@ html[data-theme="dark"] .table__one tbody tr:nth-child(2n+4) td, html[data-theme
 html[data-theme="dark"] .mobile-notification__item, html[data-theme="dark"] .timeline__body table td:not(.table0_100 tr td) {
   border-color: #45484a;
 }
-html[data-theme="dark"] .tippy-content {
+html[data-theme="dark"] .tippy-content, html[data-theme="dark"] .calendar2 {
   color: #e1e1e1;
   background-color: #2a2b2d;
 }
@@ -8069,7 +8093,7 @@ html[data-theme="dark"] .header__notifications_item:hover .logged {
   border-color: #1f2d40;
 }
 html[data-theme="dark"] .timer__more-button:hover, html[data-theme="dark"] .header__notification_all a:hover {
-  background-color: #2b3744;
+  background-color: #1f2d40;
 }
 html[data-theme="dark"] .notification__text .viewed::before, html[data-theme="dark"] .mobile-notification__time .viewed::before {
   color: rgba(47, 111, 200, 0.45);
@@ -8086,13 +8110,13 @@ html[data-theme='dark'] .burger-menu__new-slide.slide3 .burger-menu__new-slide_l
 html[data-theme='dark'] .more-button, html[data-theme='dark'] .header__notification_all:hover a, html[data-theme='dark'] #tippy-42 ul li a, html[data-theme='dark'] .dropdown__box a, html[data-theme='dark'] .timer__more-button:hover a {
   color: #e1e1e1 !important;
 }
-html[data-theme='dark'] .header__mobile-number-massage2 span, html[data-theme='dark'] .burger-menu__profile-messange span, html[data-theme='dark'] .race-ended::before, html[data-theme='dark'] .header__number-massage span, html[data-theme='dark'] .header__number-massage2 span {
+html[data-theme='dark'] .map-legend-1::before, html[data-theme='dark'] .number-item[data-num="23"]::before, html[data-theme='dark'] .number-item[data-num="22"]::before, html[data-theme='dark'] .number-item[data-num="18"]::before, html[data-theme='dark'] .number-item[data-num="17"]::before, html[data-theme='dark'] .number-item[data-num="9"]::before, html[data-theme='dark'] .number-item[data-num="8"]::before, html[data-theme='dark'] .header__mobile-number-massage2 span, html[data-theme='dark'] .burger-menu__profile-messange span, html[data-theme='dark'] .race-ended::before, html[data-theme='dark'] .header__number-massage span, html[data-theme='dark'] .header__number-massage2 span {
   background-color: #d40000;
 }
 html[data-theme='dark'] #tippy-42 ul li:last-of-type a, html[data-theme='dark'] #tippy-42 ul li:last-of-type a::before, html[data-theme='dark'] .timeline__red-new, html[data-theme='dark'] .vertical-menu-block__link.red-color {
   color: #d40000 !important;
 }
-html[data-theme='dark'] .main-cup__top10 .red-color, html[data-theme='dark'] .timeline__item .red-color {
+html[data-theme='dark'] .birthday-block__congratulations::before, html[data-theme='dark'] .main-cup__top10 .red-color, html[data-theme='dark'] .timeline__item .red-color {
   color: #d40000;
 }
 html[data-theme='dark'] .mobile-timer__more-events-window, html[data-theme='dark'] .mobile-notification__item, html[data-theme='dark'] .select__list2, html[data-theme='dark'] .important-news__list, html[data-theme='dark'] .dropdown__box, html[data-theme='dark'] .select__list {
@@ -8193,7 +8217,7 @@ html[data-theme="dark"] .select__list-arrow, html[data-theme="dark"] .dropdown__
 html[data-theme="dark"] .select2 {
   background-color: #184779;
 }
-html[data-theme="dark"] .select__head2:hover {
+html[data-theme="dark"] .select__head2:hover, html[data-theme="dark"] .calendar .calendar-inner .calendar-today-date:hover {
   background-color: #235f9f;
 }
 html[data-theme="dark"] .select__head2::before, html[data-theme="dark"] .select__head2::after {
@@ -8262,7 +8286,7 @@ html[data-theme="dark"] .burger-menu_nav-menu-content.new-slide .burger-menu__ne
 html[data-theme="dark"] .sidebar-block3, html[data-theme="dark"] .sidebar-block, html[data-theme="dark"] .header, html[data-theme="dark"] footer.footer, html[data-theme="dark"] .main-cup, html[data-theme="dark"] .timeline__item, html[data-theme="dark"] .timeline__body-important-news {
   box-shadow: 0px 0px 12px rgba(65, 65, 65, 0.11);
 }
-html[data-theme="dark"] .select__list, html[data-theme="dark"] .dropdown__box {
+html[data-theme="dark"] .select__list, html[data-theme="dark"] .dropdown__box, html[data-theme="dark"] .calendar {
   box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.3);
 }
 html[data-theme="dark"] .timeline-sponsors .swiper-pagination-bullet {
@@ -8271,7 +8295,7 @@ html[data-theme="dark"] .timeline-sponsors .swiper-pagination-bullet {
 html[data-theme="dark"] .timeline-navigation__page a:hover {
   color: #abcbff !important;
 }
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 993px) {
   [data-theme="dark"] .important-news__news-spoiler:hover {
     background-color: #172230 !important;
   }
@@ -8287,6 +8311,9 @@ html[data-theme="dark"] .timeline-navigation__page a:hover {
   html[data-theme="dark"] #back-to-top-button:active {
     background-color: rgb(0, 0, 0, 8);
   }
+  html[data-theme='dark'] .birthday-block__congratulations:hover {
+    background-color: #184779;
+  }
 }
 
 
@@ -8295,7 +8322,7 @@ html[data-theme="dark"] .timeline-navigation__page a:hover {
 html[data-theme='summer'] .burger-menu_body, html[data-theme='summer'] .body.log-in-window .burger-menu__log-in-menu, html[data-theme='summer'] .burger-menu__socials, html[data-theme='summer'] .burger-menu_nav-menu, html[data-theme='summer'] .burger-menu__profile, html[data-theme='summer'] .main-cup, html[data-theme='summer'] .sidebar-block, html[data-theme='summer'] .sidebar-block3, html[data-theme='summer'] .divTableRow:nth-child(2n+1), html[data-theme='summer'] .twitter-block {
   background-color: #fff9eb;
 }
-html[data-theme='summer'] .timeline__body .td_top10w td, html[data-theme='summer'] table.main-cup__top10 tbody tr:nth-child(2n+1), html[data-theme='summer'] .dropbtn, html[data-theme='summer'] .statistics__button{
+html[data-theme='summer'] .calendar2 .calendar-inner .calendar-body .calendar-today, html[data-theme='summer'] .calendar2 .calendar-inner .calendar-today-date, html[data-theme='summer'] .calendar2 .calendar-inner .calendar-controls .calendar-next a, html[data-theme='summer'] .calendar2 .calendar-inner .calendar-controls .calendar-prev a, html[data-theme='summer'] .calendar .calendar-close-crosshair:hover, html[data-theme='summer'] .calendar .calendar-inner .calendar-body .calendar-today, html[data-theme='summer'] .calendar .calendar-inner .calendar-today-date, html[data-theme='summer'] .calendar .calendar-inner .calendar-controls .calendar-prev a, html[data-theme='summer'] .calendar .calendar-inner .calendar-controls .calendar-next a, html[data-theme="summer"] .timer__data-next, html[data-theme="summer"] .timer__data-prev, html[data-theme="summer"] .calendar-b:hover, html[data-theme="summer"] .header__notification_all a:hover, html[data-theme="summer"] .timer__more-button:hover, html[data-theme='summer'] .timeline__body .td_top10w td, html[data-theme='summer'] table.main-cup__top10 tbody tr:nth-child(2n+1), html[data-theme='summer'] .dropbtn, html[data-theme='summer'] .statistics__button{
   background-color: #fff2d5;
 }
 html[data-theme='summer'] .header, html[data-theme='summer'] footer.footer {
@@ -8305,25 +8332,25 @@ html[data-theme='summer'] .header, html[data-theme='summer'] footer.footer {
 html[data-theme='summer'] .header__logo .socials .facebook, html[data-theme='summer'] .header__logo .socials .twitter, html[data-theme='summer'] .header__logo .socials .instagram, html[data-theme='summer'] .header__logo .socials .telegram, html[data-theme='summer'] .header__logo .socials .youtube, html[data-theme='summer'] .footer__facebook, html[data-theme='summer'] .footer__twitter, html[data-theme='summer'] .footer__instagram, html[data-theme='summer'] .footer__telegram, html[data-theme='summer'] .footer__youtube {
   background-color: #316f2f;
 }
-html[data-theme="summer"] .unknow-user::before, html[data-theme="summer"] .timer__more-button a::before, html[data-theme="summer"] .burger-menu__socials-facebook a::before, html[data-theme="summer"] .burger-menu__socials-twitter a::before, html[data-theme="summer"] .burger-menu__socials-instagram a::before, html[data-theme="summer"] .burger-menu__socials-telegram a::before, html[data-theme="summer"] .burger-menu__socials-youtube a::before, html[data-theme="summer"] .burger-menu__profile-messange::before, html[data-theme="summer"] .burger-menu__profile-icon::before, html[data-theme="summer"] .mobile-timer__more-events-button::before, html[data-theme="summer"] .mobile-notification__more-button::before, html[data-theme="summer"] .mobile-notification__head span::before, html[data-theme="summer"] .mobile-notification__time span::before, html[data-theme="summer"] .mobile-notification__text .view::before, html[data-theme="summer"] .timer__more-information-time::before, html[data-theme="summer"] .timer__more-result::before, html[data-theme='summer'] .end-career::after, html[data-theme='summer'] .pause-career::after, html[data-theme='summer'] .continue-career::after, html[data-theme='summer'] .next-race-block__time span:first-child::before, html[data-theme='summer'] .next-translation-block__time span:first-child::before, html[data-theme='summer'] .blogs-block__item span::before, html[data-theme='summer'] .interview-block__gossip_date span:first-child::before, html[data-theme='summer'] .comment-block__data span:first-child::before, html[data-theme='summer'] .timeline__date span:first-child::before, html[data-theme='summer'] .next-race-block__time span + span::before, html[data-theme='summer'] .next-translation-block__time span + span::before, html[data-theme='summer'] .interview-block__gossip_date span + span::before, html[data-theme='summer'] .comment-block__data span + span::before, html[data-theme='summer'] .timeline__date span + span::before, html[data-theme='summer'] .woman-user::before, html[data-theme='summer'] .unknow-user::after, html[data-theme='summer'] .male-user::before, html[data-theme='summer'] .timeline__comments-refer::before, html[data-theme='summer'] table.stars-table tbody tr td:nth-child(3)::before, html[data-theme='summer'] .timeline__body-important-news .spoiler::before, html[data-theme='summer'] .admin::before, html[data-theme='summer'] .header__notification_all a::before, html[data-theme='summer'] .header__notifications_head span::before, html[data-theme='summer'] #tippy-42 ul li:first-of-type a::before, html[data-theme='summer'] #tippy-42 ul li:nth-child(2) a::before, html[data-theme='summer'] .important-news__link::before, html[data-theme='summer'] .notification__time span::before {
+html[data-theme="summer"] .calendar-mobile::before, html[data-theme="summer"] .calendar-b::before, html[data-theme="summer"] .unknow-user::before, html[data-theme="summer"] .timer__more-button a::before, html[data-theme="summer"] .burger-menu__socials-facebook a::before, html[data-theme="summer"] .burger-menu__socials-twitter a::before, html[data-theme="summer"] .burger-menu__socials-instagram a::before, html[data-theme="summer"] .burger-menu__socials-telegram a::before, html[data-theme="summer"] .burger-menu__socials-youtube a::before, html[data-theme="summer"] .burger-menu__profile-messange::before, html[data-theme="summer"] .burger-menu__profile-icon::before, html[data-theme="summer"] .mobile-timer__more-events-button::before, html[data-theme="summer"] .mobile-notification__more-button::before, html[data-theme="summer"] .mobile-notification__head span::before, html[data-theme="summer"] .mobile-notification__time span::before, html[data-theme="summer"] .mobile-notification__text .view::before, html[data-theme="summer"] .timer__more-information-time::before, html[data-theme="summer"] .timer__more-result::before, html[data-theme='summer'] .end-career::after, html[data-theme='summer'] .pause-career::after, html[data-theme='summer'] .continue-career::after, html[data-theme='summer'] .next-race-block__time span:first-child::before, html[data-theme='summer'] .next-translation-block__time span:first-child::before, html[data-theme='summer'] .blogs-block__item span::before, html[data-theme='summer'] .interview-block__gossip_date span:first-child::before, html[data-theme='summer'] .comment-block__data span:first-child::before, html[data-theme='summer'] .timeline__date span:first-child::before, html[data-theme='summer'] .next-race-block__time span + span::before, html[data-theme='summer'] .next-translation-block__time span + span::before, html[data-theme='summer'] .interview-block__gossip_date span + span::before, html[data-theme='summer'] .comment-block__data span + span::before, html[data-theme='summer'] .timeline__date span + span::before, html[data-theme='summer'] .woman-user::before, html[data-theme='summer'] .unknow-user::after, html[data-theme='summer'] .male-user::before, html[data-theme='summer'] .timeline__comments-refer::before, html[data-theme='summer'] table.stars-table tbody tr td:nth-child(3)::before, html[data-theme='summer'] .timeline__body-important-news .spoiler::before, html[data-theme='summer'] .admin::before, html[data-theme='summer'] .header__notification_all a::before, html[data-theme='summer'] .header__notifications_head span::before, html[data-theme='summer'] #tippy-42 ul li:first-of-type a::before, html[data-theme='summer'] #tippy-42 ul li:nth-child(2) a::before, html[data-theme='summer'] .important-news__link::before, html[data-theme='summer'] .notification__time span::before {
   color: rgb(101, 192, 99);
 }
 html[data-theme='summer'] .timer__more-translation::before, html[data-theme='summer'] .timeline__body a[href*="http"]::before, html[data-theme='summer'] .timeline__body a[href*="gallery"]::before {
   color: rgb(101, 192, 99) !important;
 }
-html[data-theme='summer'] .footer__icon::before, html[data-theme='summer'] .footer__icon::after, html[data-theme='summer'] .burger-menu_active .burger-menu_lines::before, html[data-theme='summer'] .mobile-notification__close::after, html[data-theme='summer'] .mobile-notification__close::before, html[data-theme='summer'] .mobile-timer__more-events_head-close::after, html[data-theme='summer'] .mobile-timer__more-events_head-close::before, html[data-theme="summer"] .burger-menu-back-tab::before, html[data-theme="summer"] .burger-menu-back-tab::after, html[data-theme="summer"] .burger-menu_active .burger-menu_lines::after, html[data-theme="summer"] .burger-menu_active .burger-menu_lines, html[data-theme='summer'] .vote-block__percent, html[data-theme='summer'] .important-news__news-spoiler .arrow::before, html[data-theme='summer'] .important-news__news-spoiler .arrow::after, html[data-theme='summer'] .dropbtn .arrow2::before, html[data-theme='summer'] .dropbtn .arrow2::after {
+html[data-theme="summer"] .calendar-close-crosshair::after, html[data-theme="summer"] .calendar-close-crosshair::before, html[data-theme='summer'] .footer__icon::before, html[data-theme='summer'] .footer__icon::after, html[data-theme='summer'] .burger-menu_active .burger-menu_lines::before, html[data-theme='summer'] .mobile-notification__close::after, html[data-theme='summer'] .mobile-notification__close::before, html[data-theme='summer'] .mobile-timer__more-events_head-close::after, html[data-theme='summer'] .mobile-timer__more-events_head-close::before, html[data-theme="summer"] .burger-menu-back-tab::before, html[data-theme="summer"] .burger-menu-back-tab::after, html[data-theme="summer"] .burger-menu_active .burger-menu_lines::after, html[data-theme="summer"] .burger-menu_active .burger-menu_lines, html[data-theme='summer'] .vote-block__percent, html[data-theme='summer'] .important-news__news-spoiler .arrow::before, html[data-theme='summer'] .important-news__news-spoiler .arrow::after, html[data-theme='summer'] .dropbtn .arrow2::before, html[data-theme='summer'] .dropbtn .arrow2::after {
   /* background-color: rgb(77, 176, 75); */
   /* background-color: rgb(117, 204, 115); */
   background-color: rgb(101, 192, 99);
 }
-html[data-theme='summer'] .mobile-notification__img .logged, html[data-theme='summer'] .comment-block__user-content .woman-user .logged, html[data-theme='summer'] .blogs-block .logged, html[data-theme='summer'] .header__notifications_item .logged {
-  background-color: #ff891f;
+html[data-theme="summer"] .map-legend-2::before, html[data-theme="summer"] .number-item[data-num="26"]::before, html[data-theme="summer"] .number-item[data-num="23"]::after, html[data-theme="summer"] .number-item[data-num="22"]::after, html[data-theme="summer"] .number-item[data-num="20"]::before, html[data-theme="summer"] .number-item[data-num="18"]::after, html[data-theme="summer"] .number-item[data-num="17"]::after, html[data-theme="summer"] .number-item[data-num="13"]::before, html[data-theme="summer"] .number-item[data-num="9"]::after, html[data-theme="summer"] .number-item[data-num="8"]::after, html[data-theme='summer'] .mobile-notification__img .logged, html[data-theme='summer'] .comment-block__user-content .woman-user .logged, html[data-theme='summer'] .blogs-block .logged, html[data-theme='summer'] .header__notifications_item .logged {
+  background-color: #ff9d1f;
 }
 html[data-theme='summer'] .vote-block__bar {
   background-color: rgba(176, 165, 75, 0.12);
   box-shadow: inset 0 0 7px 0px rgba(176, 165, 75, 0.12);
 }
-html[data-theme='summer'] .enter-button, html[data-theme='summer'] .log-in, html[data-theme='summer'] .exit-yes, html[data-theme="summer"] .timer__data-next, html[data-theme="summer"] .timer__data-prev, html[data-theme="summer"] .layer-toggle-visible, html[data-theme="summer"] .main-cup__controls .swiper-button-next, html[data-theme="summer"] .main-cup__controls .swiper-button-prev, html[data-theme='summer'] .learn-more .circle-element, html[data-theme='summer'] .vertical-menu-block__categories span:not(.news_date), html[data-theme='summer'] .timeline-sponsors .swiper-button-prev:hover, html[data-theme='summer'] .timeline-sponsors .swiper-button-next:hover, html[data-theme='summer'] .dropbtn:hover, html[data-theme='summer'] .dropbtn:focus {
+html[data-theme='summer'] .calendar .calendar-inner .calendar-today-date:hover, html[data-theme='summer'] .enter-button, html[data-theme='summer'] .log-in, html[data-theme='summer'] .exit-yes, html[data-theme="summer"] .layer-toggle-visible, html[data-theme="summer"] .main-cup__controls .swiper-button-next, html[data-theme="summer"] .main-cup__controls .swiper-button-prev, html[data-theme='summer'] .learn-more .circle-element, html[data-theme='summer'] .vertical-menu-block__categories span:not(.news_date), html[data-theme='summer'] .timeline-sponsors .swiper-button-prev:hover, html[data-theme='summer'] .timeline-sponsors .swiper-button-next:hover, html[data-theme='summer'] .dropbtn:hover, html[data-theme='summer'] .dropbtn:focus {
   background: #ffeab8;
 }
 html[data-theme='summer'] .exit-no, html[data-theme='summer'] .sign-up {
@@ -8350,8 +8377,11 @@ html[data-theme="summer"] .table__two tbody tr:nth-child(2n+3) td, html[data-the
 html[data-theme="summer"] .timeline-navigation__page a:hover::before, html[data-theme="summer"] .timeline-navigation_arrow-left:hover::before, html[data-theme="summer"] .timeline-navigation_arrow-right:hover::before, html[data-theme="summer"] .timeline-navigation__list a.active, html[data-theme='summer'] .timeline-navigation__page a::before, html[data-theme='summer'] .timeline-navigation__page a::before, html[data-theme='summer'] .timeline-navigation_arrow-left::before, html[data-theme='summer'] .timeline-navigation_arrow-right::before, html[data-theme="summer"] .timeline-sponsors .swiper-pagination-bullet-active, html[data-theme="summer"] .slider-container3 .swiper-pagination-bullet-active {
   background-color: #ffeab8;
 }
-html[data-theme="summer"] .burger-menu__profile-messange span, html[data-theme="summer"] .header__mobile-number-massage2 span, html[data-theme="summer"] .race-ended::before, html[data-theme="summer"] .header__number-massage span, html[data-theme="summer"] .header__number-massage2 span {
+html[data-theme='summer'] .map-legend-1::before, html[data-theme='summer'] .number-item[data-num="23"]::before, html[data-theme='summer'] .number-item[data-num="22"]::before, html[data-theme='summer'] .number-item[data-num="18"]::before, html[data-theme='summer'] .number-item[data-num="17"]::before, html[data-theme='summer'] .number-item[data-num="9"]::before, html[data-theme='summer'] .number-item[data-num="8"]::before, html[data-theme="summer"] .burger-menu__profile-messange span, html[data-theme="summer"] .header__mobile-number-massage2 span, html[data-theme="summer"] .race-ended::before, html[data-theme="summer"] .header__number-massage span, html[data-theme="summer"] .header__number-massage2 span {
   background-color: #ff4949;
+}
+html[data-theme="summer"] .birthday-block__congratulations::before {
+  color: #ff4949;
 }
 html[data-theme="summer"] .admin-item {
   border-left: 4px solid #ff4949;
@@ -8382,11 +8412,14 @@ html[data-theme="summer"] html, html[data-theme="summer"] body {
   html[data-theme="summer"] .right-sidebar {
     background-color: #ece6dc;
   }
+  html[data-theme='summer'] .birthday-block__congratulations:active {
+    background-color: #ffeab8;
+  }
 }
-html[data-theme="summer"] .main-cup__header, html[data-theme="summer"] .comment-block__head, html[data-theme="summer"] .lead2, html[data-theme="summer"] .head__all, html[data-theme="summer"] .twitter-block__head {
+html[data-theme="summer"] .birthday-block__head, html[data-theme="summer"] .main-cup__header, html[data-theme="summer"] .comment-block__head, html[data-theme="summer"] .lead2, html[data-theme="summer"] .head__all, html[data-theme="summer"] .twitter-block__head {
   color: #e99e00;
 }
-html[data-theme="summer"] .forgot-password a, html[data-theme="summer"] .enter-button, html[data-theme='summer'] .log-in, html[data-theme='summer'] .sign-up, html[data-theme='summer'] .exit-no, html[data-theme='summer'] .exit-yes, html[data-theme='summer'] .timer__more-result, html[data-theme='summer'] .timer__more-translation, html[data-theme='summer'] .burger-menu__profile a, html[data-theme='summer'] .mobile-notification__head-content a, html[data-theme="summer"] .timeline a:not(.timeline__head a), html[data-theme="summer"] .user, html[data-theme="summer"] .main-cup a, html[data-theme="summer"] .learn-more:hover .learn-more__text, html[data-theme="summer"] .learn-more__text, html[data-theme="summer"] .timeline__footer button, html[data-theme="summer"] .next-race-block a, html[data-theme="summer"] .next-translation-block a, html[data-theme="summer"] .popular-block a, html[data-theme="summer"] .interview-block a, html[data-theme="summer"] .blogs-block a, html[data-theme="summer"] .stars-block a {
+html[data-theme="summer"] .birthday-block__text a, html[data-theme="summer"] .birthday-block__congratulations, html[data-theme="summer"] .forgot-password a, html[data-theme="summer"] .enter-button, html[data-theme='summer'] .log-in, html[data-theme='summer'] .sign-up, html[data-theme='summer'] .exit-no, html[data-theme='summer'] .exit-yes, html[data-theme='summer'] .timer__more-result, html[data-theme='summer'] .timer__more-translation, html[data-theme='summer'] .burger-menu__profile a, html[data-theme='summer'] .mobile-notification__head-content a, html[data-theme="summer"] .timeline a:not(.timeline__head a), html[data-theme="summer"] .user, html[data-theme="summer"] .main-cup a, html[data-theme="summer"] .learn-more:hover .learn-more__text, html[data-theme="summer"] .learn-more__text, html[data-theme="summer"] .timeline__footer button, html[data-theme="summer"] .next-race-block a, html[data-theme="summer"] .next-translation-block a, html[data-theme="summer"] .popular-block a, html[data-theme="summer"] .interview-block a, html[data-theme="summer"] .blogs-block a, html[data-theme="summer"] .stars-block a {
   color: #348232;
 }
 html[data-theme='summer'] .burger-menu-back-tab span, html[data-theme='summer'] .burger-menu_nav-menu-tabs a {
@@ -8404,29 +8437,29 @@ html[data-theme="summer"] .timer__more-result:hover, html[data-theme="summer"] .
 html[data-theme="summer"] .main-cup a:hover {
   color: #63b961;
 }
-html[data-theme="summer"] .timeline__body a:hover, html[data-theme="summer"] .timeline__body-important-news a:hover, html[data-theme="summer"] .timeline__head a:hover, html[data-theme="summer"] .timeline__comments-refer:hover, html[data-theme="summer"] .comment-block__rumor:hover, html[data-theme="summer"] .user:hover, html[data-theme="summer"] .next-race-block a:hover, html[data-theme="summer"] .next-translation-block a:hover, html[data-theme="summer"] .popular-block a:hover, html[data-theme="summer"] .interview-block a:hover, html[data-theme="summer"] .blogs-block a:hover, html[data-theme="summer"] .header__notifications_conteiner a:hover:not(.more-button), html[data-theme="summer"] .stars-block a:hover {
+html[data-theme="summer"] .birthday-block__text a:hover, html[data-theme="summer"] .timeline__body a:hover, html[data-theme="summer"] .timeline__body-important-news a:hover, html[data-theme="summer"] .timeline__head a:hover, html[data-theme="summer"] .timeline__comments-refer:hover, html[data-theme="summer"] .comment-block__rumor:hover, html[data-theme="summer"] .user:hover, html[data-theme="summer"] .next-race-block a:hover, html[data-theme="summer"] .next-translation-block a:hover, html[data-theme="summer"] .popular-block a:hover, html[data-theme="summer"] .interview-block a:hover, html[data-theme="summer"] .blogs-block a:hover, html[data-theme="summer"] .header__notifications_conteiner a:hover:not(.more-button), html[data-theme="summer"] .stars-block a:hover {
   color: #63b961 !important;
   border-color: #63b961;
 }
 html[data-theme="summer"] .statistics__button a:hover {
   color: #3b9039 !important;
 }
-html[data-theme="summer"] .timer__data-next-icon::before, html[data-theme="summer"] .timer__data-prev-icon::before, html[data-theme="summer"] .body.open-menu .layer-toggle-visible::before, html[data-theme="summer"] .layer-toggle-visible::before, html[data-theme="summer"] .icon.icon--left::before, html[data-theme="summer"] .icon.icon--right::before, html[data-theme="summer"] .swiper-button-next-icon::before, html[data-theme="summer"] .swiper-button-prev-icon::before, html[data-theme="summer"] .learn-more .circle-element .circle-element__icon::before {
+html[data-theme="summer"] .calendar-prev-icon::before, html[data-theme="summer"] .calendar-next-icon::before, html[data-theme="summer"] .timer__data-next-icon::before, html[data-theme="summer"] .timer__data-prev-icon::before, html[data-theme="summer"] .body.open-menu .layer-toggle-visible::before, html[data-theme="summer"] .layer-toggle-visible::before, html[data-theme="summer"] .icon.icon--left::before, html[data-theme="summer"] .icon.icon--right::before, html[data-theme="summer"] .swiper-button-next-icon::before, html[data-theme="summer"] .swiper-button-prev-icon::before, html[data-theme="summer"] .learn-more .circle-element .circle-element__icon::before {
   border-color: #e0a11d;
 }
 html[data-theme="summer"] .burger-menu_nav-menu-content li .burger-menu_nav-more .list-number::after {
   border-color: rgb(101, 192, 99);
 }
-html[data-theme="summer"] .timer__data-next:hover .timer__data-next-icon, html[data-theme="summer"] .timer__data-prev:hover .timer__data-prev-icon {
+html[data-theme='summer'] .calendar2 .calendar-inner .calendar-controls .calendar-next a:hover .calendar-next-icon, html[data-theme='summer'] .calendar2 .calendar-inner .calendar-controls .calendar-prev a:hover .calendar-prev-icon, html[data-theme="summer"] .timer__data-next:hover .timer__data-next-icon, html[data-theme="summer"] .timer__data-prev:hover .timer__data-prev-icon {
   background-color: #e0a11d;
 }
-html[data-theme="summer"] .swiper-button-prev:hover .swiper-button-prev-icon, html[data-theme="summer"] .swiper-button-next:hover .swiper-button-next-icon, html[data-theme="summer"] .swiper-button-next:hover .swiper-button-next-icon, html[data-theme="summer"] .learn-more:hover .circle-element .circle-element__icon {
+html[data-theme='summer'] .calendar .calendar-inner .calendar-controls .calendar-next a:hover .calendar-next-icon, html[data-theme='summer'] .calendar .calendar-inner .calendar-controls .calendar-prev a:hover .calendar-prev-icon, html[data-theme="summer"] .swiper-button-prev:hover .swiper-button-prev-icon, html[data-theme="summer"] .swiper-button-next:hover .swiper-button-next-icon, html[data-theme="summer"] .swiper-button-next:hover .swiper-button-next-icon, html[data-theme="summer"] .learn-more:hover .circle-element .circle-element__icon {
   background: #e0a11d;
 }
 html[data-theme='summer'] .timeline-navigation_arrow-left::after, html[data-theme='summer'] .timeline-navigation_arrow-right::after {
   color: #e0a11d;
 }
-html[data-theme="summer"] .timer__more-button:hover, html[data-theme="summer"] .timer__more-item:hover, html[data-theme="summer"] .select__list2 .select__item2:hover, html[data-theme="summer"] .header__notification_all a:hover, html[data-theme="summer"] #tippy-42 ul li a:hover, html[data-theme="summer"] .dropdown li:hover, html[data-theme="summer"] .select__list .select__item:hover, html[data-theme="summer"] .header__notifications_item:hover, html[data-theme="summer"] .dropdown__box a:hover {
+html[data-theme="summer"] .timer__more-item:hover, html[data-theme="summer"] .select__list2 .select__item2:hover, html[data-theme="summer"] #tippy-42 ul li a:hover, html[data-theme="summer"] .dropdown li:hover, html[data-theme="summer"] .select__list .select__item:hover, html[data-theme="summer"] .header__notifications_item:hover, html[data-theme="summer"] .dropdown__box a:hover {
   background-color: #fdf8ed;
 }
 html[data-theme="summer"] .header__notifications_item.user-item:hover {
@@ -8458,7 +8491,8 @@ html[data-theme="summer"] .slider-block .swiper-container .swiper-button-next:ho
   color: #ffe19f !important;
 }
 html[data-theme="summer"] .slider-block .swiper-container .swiper-pagination-progressbar .swiper-pagination-progressbar-fill {
-  background: #e99e00 !important;
+  /* background: #e99e00 !important; */
+  background-color: #65c063 !important;
 }
 html[data-theme="summer"] .timeline-sponsors .swiper-button-next, html[data-theme="summer"] .timeline-sponsors .swiper-button-prev {
   color: #e0a11d !important;
@@ -8469,7 +8503,7 @@ html[data-theme="summer"] .table__two tbody .active-biathlete td:not(.table0_100
 html[data-theme="summer"] .footer__warning p, html[data-theme="summer"] .footer__address, html[data-theme="summer"] .footer__rights ,html[data-theme="summer"] .footer__copyright {
   color: #e7ffe6;
 }
-html[data-theme="summer"] .body.sign-up-tab .burger-menu__tab_sign-up, html[data-theme="summer"] .burger-menu__log-in_contant, html[data-theme="summer"] .sign-up, html[data-theme="summer"] .mobile-notification-active .mobile-notification-window, html[data-theme="summer"] .burger-menu__new-slide, html[data-theme="summer"] .burger-menu_nav-menu-list2, html[data-theme="summer"] .mobile-notification__all, html[data-theme="summer"] .mobile-notification__head, html[data-theme="summer"] .mobile-timer__more-events__all, html[data-theme="summer"] .mobile-timer__more-events_head, html[data-theme="summer"] .mobile-timer__more-events-active .mobile-timer__more-events-window, html[data-theme="summer"] .select__list2, html[data-theme="summer"] .popular-block__search-form input, html[data-theme="summer"] .comment-block .comment-block__rumor, html[data-theme="summer"] .select__list, html[data-theme="summer"] .dropdown__box, html[data-theme="summer"] .dropdown-content, html[data-theme="summer"] .tippy-content, html[data-theme="summer"] .timeline__item, html[data-theme="summer"] .timeline__body-important-news, html[data-theme="summer"] .vertical-menu-block__body .vertical-menu-block__list li, html[data-theme='Black'] .comment-block .comment-block__rumor, html[data-theme='Black'] .popular-block__search-form input {
+html[data-theme="summer"] .calendar, html[data-theme="summer"] .body.sign-up-tab .burger-menu__tab_sign-up, html[data-theme="summer"] .burger-menu__log-in_contant, html[data-theme="summer"] .sign-up, html[data-theme="summer"] .mobile-notification-active .mobile-notification-window, html[data-theme="summer"] .burger-menu__new-slide, html[data-theme="summer"] .burger-menu_nav-menu-list2, html[data-theme="summer"] .mobile-notification__all, html[data-theme="summer"] .mobile-notification__head, html[data-theme="summer"] .mobile-timer__more-events__all, html[data-theme="summer"] .mobile-timer__more-events_head, html[data-theme="summer"] .mobile-timer__more-events-active .mobile-timer__more-events-window, html[data-theme="summer"] .select__list2, html[data-theme="summer"] .popular-block__search-form input, html[data-theme="summer"] .comment-block .comment-block__rumor, html[data-theme="summer"] .select__list, html[data-theme="summer"] .dropdown__box, html[data-theme="summer"] .dropdown-content, html[data-theme="summer"] .tippy-content, html[data-theme="summer"] .timeline__item, html[data-theme="summer"] .timeline__body-important-news, html[data-theme="summer"] .vertical-menu-block__body .vertical-menu-block__list li, html[data-theme='Black'] .comment-block .comment-block__rumor, html[data-theme='Black'] .popular-block__search-form input {
   background-color: #fffdf8;
 }
 html[data-theme="summer"] .tippy-arrow {
@@ -8528,9 +8562,16 @@ html[data-theme='summer'] .timeline-sponsors .swiper-pagination-bullet {
 html[data-theme="summer"] .timeline-sponsors .swiper-pagination-bullet-active, html[data-theme="summer"] .slider-container3 .swiper-pagination-bullet-active {
   border-color: #ffeab8;
 }
-@media screen and (min-width: 992px) {
+html[data-theme='summer'] .calendar .calendar-inner .calendar-body div > a:hover, html[data-theme='summer'] .calendar2 .calendar-inner .calendar-body div > a:hover {
+  outline-color: #fff2d5;
+}
+
+@media screen and (min-width: 993px) {
   html[data-theme="summer"] .important-news__news-spoiler:hover {
     background-color: #fff9eb;
+  }
+  html[data-theme='summer'] .birthday-block__congratulations:hover {
+    background-color: #ffeab8;
   }
 }
 @media screen and (max-width: 992px) {
@@ -8554,8 +8595,11 @@ html[data-theme="Black"] .burger-menu_body, html[data-theme="Black"] .body.log-i
 html[data-theme='Black'] .burger-menu__confirmation-menu, html[data-theme='Black'] .timeline__item, html[data-theme='Black'] .important-news__news-spoiler {
   background-color: #121212;
 }
-html[data-theme='Black'] .timer__more-button a, html[data-theme='Black'] .form__field_radio .option .dot::before, html[data-theme='Black'] .form__user-icon::before, html[data-theme='Black'] .form__password-icon::before, html[data-theme='Black'] .form__e-mail-icon::before, html[data-theme='Black'] .form__field_radio .option span, html[data-theme='Black'] .login__username, html[data-theme='Black'] .login__password, html[data-theme='Black'] .e-mail__login, html[data-theme='Black'] .login__repeat_password, html[data-theme='Black'] .burger-menu__log-in_contant-entered span, html[data-theme="Black"] .burger-menu__sign-up_confirmed span, html[data-theme="Black"] .string-optional, html[data-theme="Black"] .burger-menu__tabs span, html[data-theme="Black"] .burger-menu__confirmation-menu_text span, html[data-theme="Black"] .mobile-notification__head-content a p, html[data-theme="Black"] .burger-menu_nav-menu a, html[data-theme="Black"] .burger-menu__profile-messange span, html[data-theme="Black"] .burger-menu_nav-menu-content li .burger-menu_nav-more .list-number, html[data-theme="Black"] .mobile-timer__more-events-button, html[data-theme="Black"] .mobile-timer__more-events-window, html[data-theme="Black"] .mobile-timer__more-events_head-content span, html[data-theme="Black"] .mobile-notification__more-button, html[data-theme="Black"] .mobile-notification-window span, html[data-theme="Black"] .header__mobile-number-massage2 span, html[data-theme="Black"] .header__mobile-link-massage2::before, html[data-theme="Black"] .wrapper, html[data-theme="Black"] .mobile-timer__more-events, html[data-theme="Black"] .item__addition::before, html[data-theme="Black"] .select__list2, html[data-theme='Black'] .timeline-sponsors__head span, html[data-theme='Black'] .dropdown-content li, html[data-theme='Black'] .dropbtn, html[data-theme='Black'] .footer__column span, html[data-theme='Black'] .footer__title span, html[data-theme='Black'] .footer__column span, html[data-theme='Black'] .footer a, html[data-theme='Black'] .select__list, html[data-theme='Black'] .header-menu .header-menu__list a, html[data-theme='Black'] .dropdown__button::after, html[data-theme='Black'] .dropdown__button, html[data-theme='Black'] .header__massages span a, html[data-theme='Black'] .header__menu-body, html[data-theme='Black'] .tippy-content, html[data-theme='Black'] .timeline__comments span + span, html[data-theme='Black'] .timeline__head a, html[data-theme='Black'] .timeline, html[data-theme='Black'] nav, html[data-theme='Black'] aside, html[data-theme='Black'] .comment-block__rumor, html[data-theme='Black'] .popular-block__search-form input, html[data-theme='Black'] .footer__telegram::before {
+html[data-theme='Black'] .calendar2 .calendar-inner .calendar-body div > a, html[data-theme='Black'] .calendar2, html[data-theme='Black'] .calendar .calendar-inner .calendar-body div > a, html[data-theme='Black'] .calendar, html[data-theme='Black'] .birthday-block__congratulations span, html[data-theme='Black'] .timer__more-button a, html[data-theme='Black'] .form__field_radio .option .dot::before, html[data-theme='Black'] .form__user-icon::before, html[data-theme='Black'] .form__password-icon::before, html[data-theme='Black'] .form__e-mail-icon::before, html[data-theme='Black'] .form__field_radio .option span, html[data-theme='Black'] .login__username, html[data-theme='Black'] .login__password, html[data-theme='Black'] .e-mail__login, html[data-theme='Black'] .login__repeat_password, html[data-theme='Black'] .burger-menu__log-in_contant-entered span, html[data-theme="Black"] .burger-menu__sign-up_confirmed span, html[data-theme="Black"] .string-optional, html[data-theme="Black"] .burger-menu__tabs span, html[data-theme="Black"] .burger-menu__confirmation-menu_text span, html[data-theme="Black"] .mobile-notification__head-content a p, html[data-theme="Black"] .burger-menu_nav-menu a, html[data-theme="Black"] .burger-menu__profile-messange span, html[data-theme="Black"] .burger-menu_nav-menu-content li .burger-menu_nav-more .list-number, html[data-theme="Black"] .mobile-timer__more-events-button, html[data-theme="Black"] .mobile-timer__more-events-window, html[data-theme="Black"] .mobile-timer__more-events_head-content span, html[data-theme="Black"] .mobile-notification__more-button, html[data-theme="Black"] .mobile-notification-window span, html[data-theme="Black"] .header__mobile-number-massage2 span, html[data-theme="Black"] .header__mobile-link-massage2::before, html[data-theme="Black"] .wrapper, html[data-theme="Black"] .mobile-timer__more-events, html[data-theme="Black"] .item__addition::before, html[data-theme="Black"] .select__list2, html[data-theme='Black'] .timeline-sponsors__head span, html[data-theme='Black'] .dropdown-content li, html[data-theme='Black'] .dropbtn, html[data-theme='Black'] .footer__column span, html[data-theme='Black'] .footer__title span, html[data-theme='Black'] .footer__column span, html[data-theme='Black'] .footer a, html[data-theme='Black'] .select__list, html[data-theme='Black'] .header-menu .header-menu__list a, html[data-theme='Black'] .dropdown__button::after, html[data-theme='Black'] .dropdown__button, html[data-theme='Black'] .header__massages span a, html[data-theme='Black'] .header__menu-body, html[data-theme='Black'] .tippy-content, html[data-theme='Black'] .timeline__comments span + span, html[data-theme='Black'] .timeline__head a, html[data-theme='Black'] .timeline, html[data-theme='Black'] nav, html[data-theme='Black'] aside, html[data-theme='Black'] .comment-block__rumor, html[data-theme='Black'] .popular-block__search-form input, html[data-theme='Black'] .footer__telegram::before {
   color: #c9ccd0;
+}
+html[data-theme='Black'] .calendar .calendar-inner .calendar-body .prev-dates, html[data-theme='Black'] .calendar .calendar-inner .calendar-body .next-dates {
+  color: #6f6f6f;
 }
 html[data-theme='Black'] .form__input input:focus {
   background-color: #202122;
@@ -8585,18 +8629,25 @@ html[data-theme='Black'] .header__logo .socials .facebook, html[data-theme='Blac
 html[data-theme='Black'] .divTableRow:nth-child(2n+1), html[data-theme='Black'] table.main-cup__top10 tbody tr:nth-child(2n+1), html[data-theme='Black'] .timeline__body .td_top10w td {
   background-color: #0e1721;
 }
+html[data-theme='Black'] .divTableRow:nth-child(2n+1) {
+  background-color: #131c26;
+}
 html[data-theme="Black"] .table__one tbody tr:nth-child(2n+3) td, html[data-theme="Black"] .table__two tbody tr:nth-child(2n+2) td {
   background-color: #0e1721 !important;
 }
 html[data-theme='Black'] html, html[data-theme='Black'] body {
   background-color: #101113;
 }
+
 @media screen and (max-width: 992px) {
   html[data-theme='Black'] .right-sidebar {
     background-color: #101113;
   }
+  html[data-theme='Black'] .birthday-block__congratulations:active {
+    background-color: #102442;
+  }
 }
-html[data-theme="Black"] .burger-menu__profile a, html[data-theme='Black'] .timeline a, html[data-theme='Black'] .left-sidebar a, html[data-theme='Black'] .right-sidebar a, html[data-theme='Black'] .timeline__footer button {
+html[data-theme="Black"] .birthday-block__congratulations, html[data-theme="Black"] .burger-menu__profile a, html[data-theme='Black'] .timeline a, html[data-theme='Black'] .left-sidebar a, html[data-theme='Black'] .right-sidebar a, html[data-theme='Black'] .timeline__footer button {
   color: #6688c0;
 }
 html[data-theme="Black"] .view, html[data-theme='Black'] .mobile-notification__head-content a, html[data-theme='Black'] .mobile-timer__more-events-content-group a, html[data-theme='Black'] .mobile-notification__time .view, html[data-theme='Black'] .learn-more__text2-href, html[data-theme='Black'] .learn-more__text3-href, html[data-theme='Black'] .learn-more__text2-href:hover, html[data-theme='Black'] .learn-more__text3-href:hover, html[data-theme='Black'] .timeline-navigation_arrow-left::after, html[data-theme='Black'] .timeline-navigation_arrow-right::after, html[data-theme='Black'] .timeline-navigation__page a:hover, html[data-theme='Black'] .statistics__button a:hover, html[data-theme='Black'] .timeline-sponsors .swiper-button-next, html[data-theme='Black'] .timeline-sponsors .swiper-button-prev {
@@ -8619,7 +8670,7 @@ html[data-theme="Black"] .timer__more_info .timer__more-translation:hover, html[
   color: #93bbff !important;
   border-color: #93bbff !important;
 }
-html[data-theme="Black"] .sign-up, html[data-theme="Black"] .burger-menu__log-in_contant, html[data-theme='Black'] .body.sign-up-tab .burger-menu__tab_sign-up, html[data-theme="Black"] .mobile-notification-window, html[data-theme="Black"] .burger-menu__new-slide, html[data-theme="Black"] .burger-menu_nav-menu-list2, html[data-theme="Black"] .mobile-timer__more-events_head, html[data-theme="Black"] .mobile-timer__more-events-window, html[data-theme="Black"] .select__list, html[data-theme="Black"] .dropdown__box, html[data-theme='Black'] .tippy-box, .tippy-arrow, html[data-theme='Black'] .tippy-content, html[data-theme='Black'] .comment-block .comment-block__rumor, html[data-theme='Black'] .popular-block__search-form input {
+html[data-theme="Black"] .calendar2, html[data-theme="Black"] .calendar, html[data-theme="Black"] .sign-up, html[data-theme="Black"] .burger-menu__log-in_contant, html[data-theme='Black'] .body.sign-up-tab .burger-menu__tab_sign-up, html[data-theme="Black"] .mobile-notification-window, html[data-theme="Black"] .burger-menu__new-slide, html[data-theme="Black"] .burger-menu_nav-menu-list2, html[data-theme="Black"] .mobile-timer__more-events_head, html[data-theme="Black"] .mobile-timer__more-events-window, html[data-theme="Black"] .select__list, html[data-theme="Black"] .dropdown__box, html[data-theme='Black'] .tippy-box, .tippy-arrow, html[data-theme='Black'] .tippy-content, html[data-theme='Black'] .comment-block .comment-block__rumor, html[data-theme='Black'] .popular-block__search-form input {
   background-color: #1d1d1d;
 }
 html[data-theme="Black"] .burger-menu__tab.active {
@@ -8634,12 +8685,13 @@ html[data-theme='Black'] .tippy-arrow {
 html[data-theme='Black'] .header__notifications_item .logged, html[data-theme='Black'] .mobile-notification__img .logged {
   border-color: #1d1d1d;
 }
-html[data-theme='Black'] .twitter-block__head, html[data-theme='Black'] .comment-block__head, html[data-theme='Black'] .main-cup__header, html[data-theme='Black'] .head__all, html[data-theme='Black'] .lead2 {
+html[data-theme='Black'] .birthday-block__head, html[data-theme='Black'] .twitter-block__head, html[data-theme='Black'] .comment-block__head, html[data-theme='Black'] .main-cup__header, html[data-theme='Black'] .head__all, html[data-theme='Black'] .lead2 {
   color: #326bb3;
 }
-
-
-html[data-theme='Black'] .enter-button, html[data-theme='Black'] .log-in, html[data-theme='Black'] .exit-yes, html[data-theme='Black'] .timer__data-next, html[data-theme='Black'] .timer__data-prev, html[data-theme='Black'] .layer-toggle-visible, html[data-theme='Black'] .main-cup__controls .swiper-button-prev, html[data-theme='Black'] .main-cup__controls .swiper-button-next, html[data-theme='Black'] .vertical-menu-block__categories span:not(.news_date), html[data-theme='Black'] .learn-more .circle-element {
+html[data-theme='Black'] .calendar2 .calendar-inner .calendar-body div > a:hover, html[data-theme='Black'] .calendar .calendar-inner .calendar-body div > a:hover {
+  outline-color: #102442;
+}
+html[data-theme='Black'] .enter-button, html[data-theme='Black'] .log-in, html[data-theme='Black'] .exit-yes, html[data-theme='Black'] .layer-toggle-visible, html[data-theme='Black'] .main-cup__controls .swiper-button-prev, html[data-theme='Black'] .main-cup__controls .swiper-button-next, html[data-theme='Black'] .vertical-menu-block__categories span:not(.news_date) {
   background: #173660;
 }
 html[data-theme='Black'] .exit-no, html[data-theme='Black'] .sign-up {
@@ -8648,7 +8700,7 @@ html[data-theme='Black'] .exit-no, html[data-theme='Black'] .sign-up {
 html[data-theme='Black'] .btn-container {
   --btn-bg: #173660;
 }
-html[data-theme='Black'] .learn-more__text2::before, html[data-theme='Black'] .learn-more__text2::after, html[data-theme='Black'] .timeline-sponsors .swiper-button-prev, html[data-theme='Black'] .timeline-sponsors .swiper-button-next, html[data-theme='Black'] .vertical-menu-block__body .vertical-menu-block__list li::before, html[data-theme='Black'] .timeline__footer button {
+html[data-theme='Black'] .calendar2 .calendar-inner .calendar-body .calendar-today, html[data-theme='Black'] .calendar2 .calendar-inner .calendar-today-date, html[data-theme='Black'] .calendar .calendar-inner .calendar-today-date, html[data-theme='Black'] .calendar2 .calendar-inner .calendar-controls .calendar-prev a, html[data-theme='Black'] .calendar2 .calendar-inner .calendar-controls .calendar-next a, html[data-theme='Black'] .calendar .calendar-close-crosshair:hover, html[data-theme='Black'] .calendar .calendar-inner .calendar-body .calendar-today, html[data-theme='Black'] .calendar .calendar-inner .calendar-today-date, html[data-theme='Black'] .calendar .calendar-inner .calendar-controls .calendar-prev a, html[data-theme='Black'] .calendar .calendar-inner .calendar-controls .calendar-next a, html[data-theme='Black'] .calendar-b:hover, html[data-theme='Black'] .timer__data-next, html[data-theme='Black'] .timer__data-prev, html[data-theme="Black"] .header__notification_all a:hover, html[data-theme='Black'] .learn-more .circle-element, html[data-theme="Black"] .timer__more-button:hover, html[data-theme='Black'] .learn-more__text2::before, html[data-theme='Black'] .learn-more__text2::after, html[data-theme='Black'] .timeline-sponsors .swiper-button-prev, html[data-theme='Black'] .timeline-sponsors .swiper-button-next, html[data-theme='Black'] .vertical-menu-block__body .vertical-menu-block__list li::before, html[data-theme='Black'] .timeline__footer button {
   background: #102442;
 }
 html[data-theme='Black'] .learn-more:hover .learn-more__text, html[data-theme="Black"] .timer__more-result, html[data-theme="Black"] .timer__more-translation {
@@ -8664,7 +8716,10 @@ html[data-theme='Black'] .main-cup__top10 .red-color:hover {
 html[data-theme='Black'] #tippy-42 ul li:last-of-type a, html[data-theme='Black'] #tippy-42 ul li:last-of-type a::before {
   color: #d40000 !important;
 }
-html[data-theme='Black'] .burger-menu__profile-messange span, html[data-theme='Black'] .header__mobile-number-massage2 span, html[data-theme='Black'] .race-ended::before, html[data-theme='Black'] .header__number-massage span, html[data-theme='Black'] .header__number-massage2 span {
+html[data-theme='Black'] .birthday-block__congratulations::before {
+  color: #d40000;
+}
+html[data-theme='Black'] .map-legend-1::before, html[data-theme='Black'] .number-item[data-num="23"]::before, html[data-theme='Black'] .number-item[data-num="22"]::before, html[data-theme='Black'] .number-item[data-num="18"]::before, html[data-theme='Black'] .number-item[data-num="17"]::before, html[data-theme='Black'] .number-item[data-num="9"]::before, html[data-theme='Black'] .number-item[data-num="8"]::before, html[data-theme='Black'] .burger-menu__profile-messange span, html[data-theme='Black'] .header__mobile-number-massage2 span, html[data-theme='Black'] .race-ended::before, html[data-theme='Black'] .header__number-massage span, html[data-theme='Black'] .header__number-massage2 span {
   background-color: #d40000;
 }
 html[data-theme="Black"] .vertical-menu-block__body .vertical-menu-block__list li a, html[data-theme='Black'] .timer__more-item, html[data-theme='Black'] .burger-menu-back-tab, html[data-theme='Black'] .burger-menu_nav-menu-title, html[data-theme='Black'] .burger-menu_nav-menu-list li:not(:last-of-type) a, html[data-theme='Black'] .burger-menu_nav-menu-tabs a, html[data-theme='Black'] .burger-menu__new-slide, html[data-theme='Black'] .burger-menu_nav-menu-tabs a:first-of-type, html[data-theme='Black'] .burger-menu_nav-menu-list__default li:not(:last-of-type) a, html[data-theme='Black'] .mobile-timer__more-events-content, html[data-theme='Black'] .mobile-notification__item, html[data-theme='Black'] .header__notifications_conteiner.notif-more .header__notifications_item:nth-child(3), html[data-theme='Black'] .timeline-sponsors .swiper-slide.card, html[data-theme='Black'] .timeline__body table td:not(.table0_100 tr td), html[data-theme='Black'] .timeline__head, html[data-theme='Black'] .vertical-menu-block__categories span:not(.news_date), html[data-theme='Black'] .interview-block__items {
@@ -8694,7 +8749,7 @@ html[data-theme='Black'] .header__notifications_item {
 html[data-theme='Black'] .blogs-block .logged, html[data-theme='Black'] .comment-block__user-content .woman-user .logged {
   border-color: #0f0f0f;
 }
-html[data-theme='Black'] .mobile-notification__time span:first-child::before, html[data-theme='Black'] .timeline__body-important-news .spoiler::before, html[data-theme='Black'] .timer__more-information-time::before, html[data-theme='Black'] .next-race-block__time span + span::before, html[data-theme='Black'] .next-translation-block__time span + span::before, html[data-theme='Black'] .interview-block__gossip_date span + span::before, html[data-theme='Black'] .comment-block__data span + span::before, html[data-theme='Black'] .timeline__date span + span::before, html[data-theme="Black"] .timer__more-button a::before, html[data-theme="Black"] .timer__more-translation::before, html[data-theme="Black"] table.stars-table tbody tr td:nth-child(3)::before, html[data-theme="Black"] .comment-block__data span::before, html[data-theme="Black"] .interview-block__gossip_date span::before, html[data-theme="Black"] .timeline__comments-refer::before, html[data-theme="Black"] .unknow-user::before, html[data-theme="Black"] .burger-menu__profile-icon::before, html[data-theme="Black"] .mobile-timer__more-events-button::before, html[data-theme="Black"] .mobile-notification__more-button::before, html[data-theme="Black"] .mobile-notification__head span::before, html[data-theme="Black"] .mobile-notification__text .view::before, html[data-theme="Black"] .timer__more-information-time::before, html[data-theme="Black"] .timer__more-result::before, html[data-theme='Black'] .notification__text .view::before, html[data-theme='Black'] .admin::before, html[data-theme='Black'] .header__notification_all a::before, html[data-theme='Black'] .notification__time span::before, html[data-theme='Black'] .header__notifications_head span::before, html[data-theme='Black'] .end-career::after, html[data-theme='Black'] .continue-career::after, html[data-theme='Black'] .pause-career::after, html[data-theme='Black'] .important-news__link::before, html[data-theme='Black'] .male-user::before, html[data-theme='Black'] .woman-user::before, html[data-theme='Black'] .unknow-user::after, html[data-theme='Black'] .next-race-block__time span:first-child::before, html[data-theme='Black'] .next-translation-block__time span:first-child::before, html[data-theme='Black'] .blogs-block__item span::before, html[data-theme='Black'] .comment-block__data span:first-child::before, html[data-theme='Black'] .timeline__date span:first-child::before {
+html[data-theme='Black'] .calendar-mobile::before, html[data-theme='Black'] .calendar-b::before, html[data-theme='Black'] .mobile-notification__time span:first-child::before, html[data-theme='Black'] .timeline__body-important-news .spoiler::before, html[data-theme='Black'] .timer__more-information-time::before, html[data-theme='Black'] .next-race-block__time span + span::before, html[data-theme='Black'] .next-translation-block__time span + span::before, html[data-theme='Black'] .interview-block__gossip_date span + span::before, html[data-theme='Black'] .comment-block__data span + span::before, html[data-theme='Black'] .timeline__date span + span::before, html[data-theme="Black"] .timer__more-button a::before, html[data-theme="Black"] .timer__more-translation::before, html[data-theme="Black"] table.stars-table tbody tr td:nth-child(3)::before, html[data-theme="Black"] .comment-block__data span::before, html[data-theme="Black"] .interview-block__gossip_date span::before, html[data-theme="Black"] .timeline__comments-refer::before, html[data-theme="Black"] .unknow-user::before, html[data-theme="Black"] .burger-menu__profile-icon::before, html[data-theme="Black"] .mobile-timer__more-events-button::before, html[data-theme="Black"] .mobile-notification__more-button::before, html[data-theme="Black"] .mobile-notification__head span::before, html[data-theme="Black"] .mobile-notification__text .view::before, html[data-theme="Black"] .timer__more-information-time::before, html[data-theme="Black"] .timer__more-result::before, html[data-theme='Black'] .notification__text .view::before, html[data-theme='Black'] .admin::before, html[data-theme='Black'] .header__notification_all a::before, html[data-theme='Black'] .notification__time span::before, html[data-theme='Black'] .header__notifications_head span::before, html[data-theme='Black'] .end-career::after, html[data-theme='Black'] .continue-career::after, html[data-theme='Black'] .pause-career::after, html[data-theme='Black'] .important-news__link::before, html[data-theme='Black'] .male-user::before, html[data-theme='Black'] .woman-user::before, html[data-theme='Black'] .unknow-user::after, html[data-theme='Black'] .next-race-block__time span:first-child::before, html[data-theme='Black'] .next-translation-block__time span:first-child::before, html[data-theme='Black'] .blogs-block__item span::before, html[data-theme='Black'] .comment-block__data span:first-child::before, html[data-theme='Black'] .timeline__date span:first-child::before {
   color: rgba(47, 114, 200, 0.7);
 }
 html[data-theme='Black'] .timeline__body a[href*="gallery"]::before, html[data-theme='Black'] .timeline__body a[href*="http"]::before {
@@ -8719,7 +8774,10 @@ html[data-theme='Black'] .vote-block__bar {
   background-color: rgba(47, 111, 200, 0.17);
   box-shadow: inset 0 0 7px 0px rgba(47, 111, 200, 0.17);
 }
-
+html[data-theme='Black'] .calendar {
+  border: 1px solid #292a2c;
+  box-shadow: none;
+}
 html[data-theme='Black'] .header, html[data-theme='Black'] footer.footer {
   background-color: #101e2d;
 }
@@ -8730,10 +8788,10 @@ html[data-theme='Black'] .timeline__body a[href*="gallery"]:hover::before, html[
 html[data-theme='Black'] .timeline-navigation__page a, html[data-theme='Black'] .timeline-navigation_arrow-left, html[data-theme='Black'] .timeline-navigation_arrow-right {
   background-color: #101c29;
 }
-html[data-theme="Black"] .header__notifications_item .logged, html[data-theme="Black"] .comment-block__user-content .woman-user .logged, html[data-theme="Black"] .blogs-block .logged {
+html[data-theme="Black"] .map-legend-3::before, html[data-theme="Black"] .number-item[data-num="29"]::before, html[data-theme="Black"] .number-item[data-num="26"]::after, html[data-theme="Black"] .number-legend[data-num="17"], html[data-theme="Black"] .number-legend[data-num="22"], html[data-theme="Black"] .number-item[data-num="13"]::after, html[data-theme="Black"] .number-legend[data-num="8"], html[data-theme="Black"] .number-item[data-num="2"]::before, html[data-theme="Black"] .header__notifications_item .logged, html[data-theme="Black"] .comment-block__user-content .woman-user .logged, html[data-theme="Black"] .blogs-block .logged {
   background-color: #20ba19;
 }
-html[data-theme="Black"] .timeline-sponsors .swiper-button-prev:hover, html[data-theme="Black"] .timeline-sponsors .swiper-button-next:hover, html[data-theme="Black"] .dropbtn:hover, html[data-theme="Black"] .dropbtn:focus, html[data-theme='Black'] .timeline-navigation__page a::before, html[data-theme='Black'] .timeline-navigation_arrow-left::before, html[data-theme='Black'] .timeline-navigation_arrow-right::before, html[data-theme='Black'] .timeline-navigation__list a.active {
+html[data-theme='Black'] .calendar .calendar-inner .calendar-today-date:hover, html[data-theme="Black"] .timeline-sponsors .swiper-button-prev:hover, html[data-theme="Black"] .timeline-sponsors .swiper-button-next:hover, html[data-theme="Black"] .dropbtn:hover, html[data-theme="Black"] .dropbtn:focus, html[data-theme='Black'] .timeline-navigation__page a::before, html[data-theme='Black'] .timeline-navigation_arrow-left::before, html[data-theme='Black'] .timeline-navigation_arrow-right::before, html[data-theme='Black'] .timeline-navigation__list a.active {
   background-color: #173660;
 }
 html[data-theme="Black"] .timeline-sponsors .swiper-slide.card, html[data-theme="Black"] .timeline-sponsors .card:hover {
@@ -8745,7 +8803,7 @@ html[data-theme="Black"] .table__two tbody .active-biathlete td:not(.table0_100 
 html[data-theme="Black"] .footer__warning p, html[data-theme="Black"] .footer__address, html[data-theme="Black"] .footer__copyright, html[data-theme="Black"] .footer__rights {
   color: #bfcfe0;
 }
-html[data-theme="Black"] .footer__column-min_tittle::before, html[data-theme="Black"] .footer::before, html[data-theme="Black"] .footer__column ul li a::before, html[data-theme="Black"] .footer__column span::before, html[data-theme="Black"] .footer__title span::before {
+html[data-theme="Black"] .map-legend-2::before, html[data-theme="Black"] .number-item[data-num="26"]::before, html[data-theme="Black"] .number-item[data-num="23"]::after, html[data-theme="Black"] .number-item[data-num="22"]::after, html[data-theme="Black"] .number-item[data-num="20"]::before, html[data-theme="Black"] .number-item[data-num="18"]::after, html[data-theme="Black"] .number-item[data-num="17"]::after, html[data-theme="Black"] .number-item[data-num="13"]::before, html[data-theme="Black"] .number-item[data-num="9"]::after, html[data-theme="Black"] .number-item[data-num="8"]::after, html[data-theme="Black"] .footer__column-min_tittle::before, html[data-theme="Black"] .footer::before, html[data-theme="Black"] .footer__column ul li a::before, html[data-theme="Black"] .footer__column span::before, html[data-theme="Black"] .footer__title span::before {
   background-color: #c8a900;
 }
 html[data-theme="Black"] .footer__facebook:hover, html[data-theme="Black"] .footer__twitter:hover, html[data-theme="Black"] .footer__instagram:hover, html[data-theme="Black"] .footer__telegram:hover, html[data-theme="Black"] .footer__youtube:hover, html[data-theme="Black"] .footer__facebook:hover, html[data-theme="Black"] .footer__twitter:hover, html[data-theme="Black"] .footer__instagram:hover, html[data-theme="Black"] .footer__telegram:hover, html[data-theme="Black"] .footer__youtube:hover {
@@ -8768,13 +8826,13 @@ html[data-theme="Black"] .statistics__button:hover, html[data-theme="Black"] .dr
 html[data-theme="Black"] .mobile-notification__all, html[data-theme="Black"] .mobile-notification__head, html[data-theme="Black"] .mobile-timer__more-events__all, html[data-theme="Black"] .mobile-timer__more-events_head, html[data-theme="Black"] .select__list2, html[data-theme="Black"] .header__notifications_head, html[data-theme="Black"] .header__notification_all, html[data-theme="Black"] .dropdown-content, html[data-theme='Black'] .important-news__list, html[data-theme='Black'] .vertical-menu-block__body .vertical-menu-block__list li {
   background-color: #181818;
 }
-html[data-theme="Black"] .timer__more-button:hover, html[data-theme="Black"] .timer__more-item:hover, html[data-theme="Black"] #tippy-42 ul li a:hover, html[data-theme="Black"] .select__list .select__item:hover, html[data-theme="Black"] .dropdown__box a:hover, html[data-theme="Black"] .dropdown li:hover {
+html[data-theme="Black"] .timer__more-item:hover, html[data-theme="Black"] #tippy-42 ul li a:hover, html[data-theme="Black"] .select__list .select__item:hover, html[data-theme="Black"] .dropdown__box a:hover, html[data-theme="Black"] .dropdown li:hover {
   background-color: #19202b;
 }
 html[data-theme="Black"] .header__notifications_item.user-item, html[data-theme="Black"] .header__notifications_item:hover {
   background-color: #19202b;
 }
-html[data-theme="Black"] .mobile-notification__item.user-item, html[data-theme="Black"] .header__notification_all a:hover {
+html[data-theme="Black"] .mobile-notification__item.user-item {
   background-color: #19202b;
 }
 html[data-theme="Black"] .mobile-notification__item.user-item .mobile-notification__img .logged, html[data-theme="Black"] .header__notifications_item.user-item .logged, html[data-theme="Black"] .header__notifications_item:hover .logged {
@@ -8852,7 +8910,7 @@ html[data-theme="Black"] .table__one, html[data-theme="Black"] .table__two {
 html[data-theme="Black"] #back-to-top-button::after {
   color: #b5b5b5;
 }
-html[data-theme="Black"] .burger-menu-back-tab::before, html[data-theme="Black"] .burger-menu-back-tab::after, html[data-theme="Black"] .mobile-timer__more-events_head-close::before, html[data-theme="Black"] .mobile-timer__more-events_head-close::after, html[data-theme="Black"] .mobile-notification__close::before, html[data-theme="Black"] .mobile-notification__close::after, html[data-theme="Black"] .burger-menu__log-in-menu_close::before, html[data-theme="Black"] .burger-menu__log-in-menu_close::after, html[data-theme="Black"] .burger-menu_active .burger-menu_lines, html[data-theme="Black"] .burger-menu_active .burger-menu_lines::after, html[data-theme="Black"] .burger-menu_active .burger-menu_lines::before {
+html[data-theme="Black"] .calendar-close-crosshair::after, html[data-theme="Black"] .calendar-close-crosshair::before, html[data-theme="Black"] .burger-menu-back-tab::before, html[data-theme="Black"] .burger-menu-back-tab::after, html[data-theme="Black"] .mobile-timer__more-events_head-close::before, html[data-theme="Black"] .mobile-timer__more-events_head-close::after, html[data-theme="Black"] .mobile-notification__close::before, html[data-theme="Black"] .mobile-notification__close::after, html[data-theme="Black"] .burger-menu__log-in-menu_close::before, html[data-theme="Black"] .burger-menu__log-in-menu_close::after, html[data-theme="Black"] .burger-menu_active .burger-menu_lines, html[data-theme="Black"] .burger-menu_active .burger-menu_lines::after, html[data-theme="Black"] .burger-menu_active .burger-menu_lines::before {
   /* background-color: #326bb3; */
   background-color: #245ca8;
 }
@@ -8891,7 +8949,10 @@ html[data-theme="Black"] .timeline__body.gallery .swiper-pagination-bullet:hover
   background-color: #112a49;
   border-color: #112a49;
 }
-@media screen and (min-width: 992px) {
+html[data-theme='Black'] .timer__more-button, html[data-theme='Black'] .header__notification_all, html[data-theme='Black'] .timer__data, html[data-theme='Black'] .header__notifications_head {
+  background-color: #181818;
+}
+@media screen and (min-width: 993px) {
   html[data-theme="Black"] #back-to-top-button {
     background-color: rgb(255, 255, 255, 0.05);
   }
@@ -8901,10 +8962,11 @@ html[data-theme="Black"] .timeline__body.gallery .swiper-pagination-bullet:hover
   html[data-theme="Black"] #back-to-top-button:active {
     background-color: rgb(255, 255, 255, 0.20);
   }
-}
-@media screen and (min-width: 992px) {
   html[data-theme="Black"] .important-news__news-spoiler:hover {
     background-color: #0e1721;
+  }
+  html[data-theme='Black'] .birthday-block__congratulations:hover {
+    background-color: #173660;
   }
 }
 
@@ -8916,13 +8978,13 @@ html[data-theme="grey"] main a:hover, html[data-theme="grey"] .comment-block__ru
   color: #73abd2;
   border-color: #73abd2;
 }
-html[data-theme="grey"] .footer__column-content ul li a::before, html[data-theme="grey"] .footer__column-min_tittle::before, html[data-theme="grey"] .footer::before, html[data-theme="grey"] .race-waiting::before, html[data-theme="grey"] .footer__column ul li a::before, html[data-theme="grey"] .footer__column span::before, html[data-theme="grey"] .footer__title span::before, html[data-theme="grey"] .header::before, html[data-theme="grey"] .footer::before {
+html[data-theme="grey"] .map-legend-2::before, html[data-theme="grey"] .number-item[data-num="26"]::before, html[data-theme="grey"] .number-item[data-num="23"]::after, html[data-theme="grey"] .number-item[data-num="22"]::after, html[data-theme="grey"] .number-item[data-num="20"]::before, html[data-theme="grey"] .number-item[data-num="18"]::after, html[data-theme="grey"] .number-item[data-num="17"]::after, html[data-theme="grey"] .number-item[data-num="13"]::before, html[data-theme="grey"] .number-item[data-num="9"]::after, html[data-theme="grey"] .number-item[data-num="8"]::after, html[data-theme="grey"] .footer__column-content ul li a::before, html[data-theme="grey"] .footer__column-min_tittle::before, html[data-theme="grey"] .footer::before, html[data-theme="grey"] .race-waiting::before, html[data-theme="grey"] .footer__column ul li a::before, html[data-theme="grey"] .footer__column span::before, html[data-theme="grey"] .footer__title span::before, html[data-theme="grey"] .header::before, html[data-theme="grey"] .footer::before {
   background-color: #f3cc00;
 }
 html[data-theme="grey"] .footer__column ul li a:hover::before, html[data-theme="grey"] .footer__column-content ul li a:hover::before {
   box-shadow: 0 0 12px #f3cc00;
 }
-html[data-theme="grey"] .footer__column-content ul li a:hover, html[data-theme="grey"] .header__link-massage2[aria-expanded="true"], html[data-theme="grey"] .select__head:hover, html[data-theme="grey"] .dropdown__button:hover, html[data-theme="grey"] .dropdown__button:hover::after, html[data-theme="grey"] .timer__more-events span:hover, html[data-theme="grey"] footer.footer .footer__column a:hover, html[data-theme="grey"] footer.footer .footer__bottom-text a:hover, html[data-theme="grey"] .footer__facebook:hover::before, html[data-theme="grey"] .footer__twitter:hover::before, html[data-theme="grey"] .footer__instagram:hover::before, html[data-theme="grey"] .footer__telegram:hover::before, html[data-theme="grey"] .footer__youtube:hover::before {
+html[data-theme="grey"] .header__massages span a:hover, html[data-theme="grey"] .footer__column-content ul li a:hover, html[data-theme="grey"] .header__link-massage2[aria-expanded="true"], html[data-theme="grey"] .select__head:hover, html[data-theme="grey"] .dropdown__button:hover, html[data-theme="grey"] .dropdown__button:hover::after, html[data-theme="grey"] .timer__more-events span:hover, html[data-theme="grey"] footer.footer .footer__column a:hover, html[data-theme="grey"] footer.footer .footer__bottom-text a:hover, html[data-theme="grey"] .footer__facebook:hover::before, html[data-theme="grey"] .footer__twitter:hover::before, html[data-theme="grey"] .footer__instagram:hover::before, html[data-theme="grey"] .footer__telegram:hover::before, html[data-theme="grey"] .footer__youtube:hover::before {
   color: #f3cc00;
 }
 html[data-theme="grey"] .footer__facebook, html[data-theme="grey"] .footer__twitter, html[data-theme="grey"] .footer__instagram, html[data-theme="grey"] .footer__telegram, html[data-theme="grey"] .footer__youtube, html[data-theme="grey"] .header__logo .socials .facebook, html[data-theme="grey"] .header__logo .socials .twitter, html[data-theme="grey"] .header__logo .socials .instagram, html[data-theme="grey"] .header__logo .socials .telegram, html[data-theme="grey"] .header__logo .socials .youtube {
@@ -8931,11 +8993,14 @@ html[data-theme="grey"] .footer__facebook, html[data-theme="grey"] .footer__twit
 html[data-theme="grey"] .body.log-in-window .burger-menu__log-in-menu, html[data-theme="grey"] .burger-menu__socials, html[data-theme="grey"] .burger-menu_nav-menu, html[data-theme="grey"] .burger-menu__profile, html[data-theme="grey"] .main-cup, html[data-theme="grey"] .sidebar-block, html[data-theme="grey"] .sidebar-block3, html[data-theme="grey"] .twitter-block {
   background-color: #f5f5f5;
 }
-html[data-theme="grey"] .timer__more-button:hover, html[data-theme="grey"] .timer__more-item:hover, html[data-theme="grey"] .select__list2 .select__item2:hover, html[data-theme="grey"] .header__notification_all a:hover, html[data-theme="grey"] #tippy-42 ul li a:hover, html[data-theme="grey"] .dropdown li:hover, html[data-theme="grey"] .select__list .select__item:hover, html[data-theme="grey"] .header__notifications_item:hover, html[data-theme="grey"] .dropdown__box a:hover {
+html[data-theme="grey"] .timer__more-item:hover, html[data-theme="grey"] .select__list2 .select__item2:hover, html[data-theme="grey"] #tippy-42 ul li a:hover, html[data-theme="grey"] .dropdown li:hover, html[data-theme="grey"] .select__list .select__item:hover, html[data-theme="grey"] .header__notifications_item:hover, html[data-theme="grey"] .dropdown__box a:hover {
+  background-color: #f5f5f5;
+}
+html[data-theme='grey'] .calendar2 .calendar-inner .calendar-body .calendar-today, html[data-theme='grey'] .calendar2 .calendar-inner .calendar-today-date, html[data-theme='grey'] .calendar .calendar-inner .calendar-today-date, html[data-theme='grey'] .calendar2 .calendar-inner .calendar-controls .calendar-prev a, html[data-theme='grey'] .calendar2 .calendar-inner .calendar-controls .calendar-next a, html[data-theme="grey"] .timer__data-next, html[data-theme="grey"] .timer__data-prev, html[data-theme="grey"] .calendar-b:hover {
   background-color: #eee;
 }
 html[data-theme="grey"] .header__notifications_item.user-item, html[data-theme="grey"] .mobile-notification__item.user-item {
-  background-color: #eee;
+  background-color: #f5f5f5;
   border-left: 4px solid #b3b3b3;
 }
 html[data-theme="grey"] .header__notifications_item:hover .logged, html[data-theme="grey"] .header__notifications_item.user-item .logged, html[data-theme="grey"] .mobile-notification__item.user-item .mobile-notification__img .logged {
@@ -8944,8 +9009,14 @@ html[data-theme="grey"] .header__notifications_item:hover .logged, html[data-the
 html[data-theme="grey"] .header__notifications_item.user-item:hover .logged {
   border-color: #e1e1e1;
 }
-html[data-theme="grey"] .header__notifications_item.user-item:hover {
+html[data-theme="grey"] .calendar .calendar-inner .calendar-today-date:hover {
   background-color: #e1e1e1;
+}
+html[data-theme="grey"] .header__notifications_item.user-item:hover {
+  background-color: #eee;
+}
+html[data-theme="grey"] .header__notification_all a:hover, html[data-theme="grey"] .timer__more-button:hover {
+  background-color: #eee;
 }
 html[data-theme="grey"] .table__one tbody tr:nth-child(2n+4) td, html[data-theme="grey"] .table__two tbody tr:nth-child(2n+3) td {
   background-color: #f5f5f5 !important;
@@ -8953,13 +9024,13 @@ html[data-theme="grey"] .table__one tbody tr:nth-child(2n+4) td, html[data-theme
 html[data-theme="grey"] .comment-block__user-content .woman-user .logged, html[data-theme="grey"] .blogs-block .logged {
   border-color: #f5f5f5;
 }
-html[data-theme="grey"] .select__list, html[data-theme="grey"] .tippy-content, html[data-theme="grey"] .timer__more-button a, html[data-theme="grey"] .burger-menu__profile, html[data-theme="grey"] .main-cup, html[data-theme="grey"] .sidebar-block, html[data-theme="grey"] .sidebar-block3, html[data-theme="grey"] .twitter-block, html[data-theme="grey"] .timeline__item, html[data-theme="grey"] .sidebar-block, html[data-theme="grey"] .comment-block .comment-block__rumor, html[data-theme="grey"] .popular-block__search-form input, html[data-theme="grey"] .vertical-menu-block__body .vertical-menu-block__list li {
+html[data-theme="grey"] .birthday-block__congratulations span, html[data-theme="grey"] .select__list, html[data-theme="grey"] .tippy-content, html[data-theme="grey"] .timer__more-button a, html[data-theme="grey"] .burger-menu__profile, html[data-theme="grey"] .main-cup, html[data-theme="grey"] .sidebar-block, html[data-theme="grey"] .sidebar-block3, html[data-theme="grey"] .twitter-block, html[data-theme="grey"] .timeline__item, html[data-theme="grey"] .sidebar-block, html[data-theme="grey"] .comment-block .comment-block__rumor, html[data-theme="grey"] .popular-block__search-form input, html[data-theme="grey"] .vertical-menu-block__body .vertical-menu-block__list li {
   color: #1e1e1e;
 }
 html[data-theme="grey"] .dropdown__box a, html[data-theme="grey"] .header__notifications_conteiner a, html[data-theme="grey"] #tippy-42 ul li a {
   color: #1e1e1e !important;
 }
-html[data-theme="grey"] .timeline__comments span + span, html[data-theme="grey"] .no-data span + span::before, html[data-theme="grey"] .mobile-timer__more-events-button, html[data-theme="grey"] .mobile-notification__head-content a p, html[data-theme="grey"] .mobile-notification__more-button, html[data-theme="grey"] .mobile-notification__head span, html[data-theme="grey"] .mobile-timer__more-events_head-content span, html[data-theme="grey"] .mobile-timer__more-events-window, html[data-theme="grey"] nav, html[data-theme="grey"] aside, html[data-theme="grey"] .burger-menu_nav-menu a, html[data-theme="grey"] .burger-menu_nav-menu-tabs a, html[data-theme="grey"] .vertical-menu-block__body .vertical-menu-block__list li a, html[data-theme="grey"] .timeline, html[data-theme="grey"] .burger-menu__log-in_contant-entered span, html[data-theme="grey"] .burger-menu__sign-up_confirmed span, html[data-theme="grey"] .form__field span, html[data-theme="grey"] .burger-menu__tabs span, html[data-theme="grey"] .burger-menu__confirmation-menu_text span, html[data-theme="grey"] .burger-menu_nav-menu-content li .burger-menu_nav-more .list-number, html[data-theme="grey"] .timeline__head a {
+html[data-theme="grey"] .calendar .calendar-inner .calendar-body div > a, html[data-theme="grey"] .calendar, html[data-theme="grey"] .calendar .calendar-inner .calendar-controls .calendar-year-month, html[data-theme="grey"] .timeline__comments span + span, html[data-theme="grey"] .no-data span + span::before, html[data-theme="grey"] .mobile-timer__more-events-button, html[data-theme="grey"] .mobile-notification__head-content a p, html[data-theme="grey"] .mobile-notification__more-button, html[data-theme="grey"] .mobile-notification__head span, html[data-theme="grey"] .mobile-timer__more-events_head-content span, html[data-theme="grey"] .mobile-timer__more-events-window, html[data-theme="grey"] nav, html[data-theme="grey"] aside, html[data-theme="grey"] .burger-menu_nav-menu a, html[data-theme="grey"] .burger-menu_nav-menu-tabs a, html[data-theme="grey"] .vertical-menu-block__body .vertical-menu-block__list li a, html[data-theme="grey"] .timeline, html[data-theme="grey"] .burger-menu__log-in_contant-entered span, html[data-theme="grey"] .burger-menu__sign-up_confirmed span, html[data-theme="grey"] .form__field span, html[data-theme="grey"] .burger-menu__tabs span, html[data-theme="grey"] .burger-menu__confirmation-menu_text span, html[data-theme="grey"] .burger-menu_nav-menu-content li .burger-menu_nav-more .list-number, html[data-theme="grey"] .timeline__head a {
   color: #1e1e1e;
 }
 html[data-theme="grey"] .mobile-notification__text a {
@@ -8977,13 +9048,13 @@ html[data-theme="grey"] .table__one tbody tr:nth-child(2n+3) td, html[data-theme
 html[data-theme="grey"] .select__head2::before, html[data-theme="grey"] .select__head2::after {
   background-color: rgba(98, 129, 157, 0.75);
 }
-html[data-theme="grey"] .mobile-notification__more-button::before, html[data-theme="grey"] .mobile-timer__more-events-button::before, html[data-theme="grey"] .timer__more-button a::before, html[data-theme="grey"] .notification__text .view::before, html[data-theme="grey"] .timer__more-translation::before, html[data-theme="grey"] .timer__more-result::before, html[data-theme="grey"] .timeline__body a[href*="http"]::before, html[data-theme="grey"] .timeline__body a[href*="gallery"]::before, html[data-theme="grey"] table.stars-table tbody tr td:nth-child(3)::before, html[data-theme="grey"] .burger-menu__log-in-menu_close::before, html[data-theme="grey"] .burger-menu__log-in-menu_close::after, html[data-theme="grey"] .burger-menu__profile-icon::before, html[data-theme="grey"] .timer__more-information-time::before, html[data-theme="grey"] .mobile-notification__time span:first-child::before, html[data-theme="grey"] .mobile-notification__text .view::before, html[data-theme="grey"] .mobile-notification__head span::before, html[data-theme="grey"] .burger-menu__socials-youtube a::before, html[data-theme="grey"] .burger-menu__socials-telegram a::before, html[data-theme="grey"] .burger-menu__socials-instagram a::before, html[data-theme="grey"] .burger-menu__socials-twitter a::before, html[data-theme="grey"] .burger-menu__socials-facebook a::before, html[data-theme="grey"] .end-career::after, html[data-theme="grey"] .pause-career::after, html[data-theme="grey"] .continue-career::after, html[data-theme="grey"] .next-race-block__time span:first-child::before, html[data-theme="grey"] .next-translation-block__time span:first-child::before, html[data-theme="grey"] .blogs-block__item span::before, html[data-theme="grey"] .interview-block__gossip_date span:first-child::before, html[data-theme="grey"] .comment-block__data span:first-child::before, html[data-theme="grey"] .timeline__date span:first-child::before, html[data-theme="grey"] .next-race-block__time span + span::before, html[data-theme="grey"] .next-translation-block__time span + span::before, html[data-theme="grey"] .interview-block__gossip_date span + span::before, html[data-theme="grey"] .comment-block__data span + span::before, html[data-theme="grey"] .timeline__date span + span::before, html[data-theme="grey"] .timeline__comments-refer::before, html[data-theme="grey"] .woman-user::before, html[data-theme="grey"] .unknow-user::before, html[data-theme="grey"] .male-user::before, html[data-theme="grey"] .timeline__body-important-news .spoiler::before, html[data-theme="grey"] .important-news__link::before, html[data-theme="grey"] .header__notification_all a::before, html[data-theme="grey"] .notification__time span::before, html[data-theme="grey"] .admin::before, html[data-theme="grey"] .header__notifications_head span::before, html[data-theme="grey"] #tippy-42 ul li:first-of-type a::before, html[data-theme="grey"] #tippy-42 ul li:nth-child(2) a::before {
+html[data-theme="grey"] .calendar-mobile::before, html[data-theme="grey"] .calendar-b::before, html[data-theme="grey"] .mobile-notification__more-button::before, html[data-theme="grey"] .mobile-timer__more-events-button::before, html[data-theme="grey"] .timer__more-button a::before, html[data-theme="grey"] .notification__text .view::before, html[data-theme="grey"] .timer__more-translation::before, html[data-theme="grey"] .timer__more-result::before, html[data-theme="grey"] .timeline__body a[href*="http"]::before, html[data-theme="grey"] .timeline__body a[href*="gallery"]::before, html[data-theme="grey"] table.stars-table tbody tr td:nth-child(3)::before, html[data-theme="grey"] .burger-menu__log-in-menu_close::before, html[data-theme="grey"] .burger-menu__log-in-menu_close::after, html[data-theme="grey"] .burger-menu__profile-icon::before, html[data-theme="grey"] .timer__more-information-time::before, html[data-theme="grey"] .mobile-notification__time span:first-child::before, html[data-theme="grey"] .mobile-notification__text .view::before, html[data-theme="grey"] .mobile-notification__head span::before, html[data-theme="grey"] .burger-menu__socials-youtube a::before, html[data-theme="grey"] .burger-menu__socials-telegram a::before, html[data-theme="grey"] .burger-menu__socials-instagram a::before, html[data-theme="grey"] .burger-menu__socials-twitter a::before, html[data-theme="grey"] .burger-menu__socials-facebook a::before, html[data-theme="grey"] .end-career::after, html[data-theme="grey"] .pause-career::after, html[data-theme="grey"] .continue-career::after, html[data-theme="grey"] .next-race-block__time span:first-child::before, html[data-theme="grey"] .next-translation-block__time span:first-child::before, html[data-theme="grey"] .blogs-block__item span::before, html[data-theme="grey"] .interview-block__gossip_date span:first-child::before, html[data-theme="grey"] .comment-block__data span:first-child::before, html[data-theme="grey"] .timeline__date span:first-child::before, html[data-theme="grey"] .next-race-block__time span + span::before, html[data-theme="grey"] .next-translation-block__time span + span::before, html[data-theme="grey"] .interview-block__gossip_date span + span::before, html[data-theme="grey"] .comment-block__data span + span::before, html[data-theme="grey"] .timeline__date span + span::before, html[data-theme="grey"] .timeline__comments-refer::before, html[data-theme="grey"] .woman-user::before, html[data-theme="grey"] .unknow-user::before, html[data-theme="grey"] .male-user::before, html[data-theme="grey"] .timeline__body-important-news .spoiler::before, html[data-theme="grey"] .important-news__link::before, html[data-theme="grey"] .header__notification_all a::before, html[data-theme="grey"] .notification__time span::before, html[data-theme="grey"] .admin::before, html[data-theme="grey"] .header__notifications_head span::before, html[data-theme="grey"] #tippy-42 ul li:first-of-type a::before, html[data-theme="grey"] #tippy-42 ul li:nth-child(2) a::before {
   color: rgba(98, 129, 157, 0.75);
 }
 html[data-theme="grey"] .burger-menu_nav-menu-content li .burger-menu_nav-more .list-number::after {
   border-color: rgba(98, 129, 157, 0.75);
 }
-html[data-theme="grey"] .burger-menu-back-tab::before, html[data-theme="grey"] .burger-menu-back-tab::after, html[data-theme="grey"] .burger-menu__log-in-menu_close::before, html[data-theme="grey"] .burger-menu__log-in-menu_close::after, html[data-theme="grey"] .mobile-timer__more-events_head-close::after, html[data-theme="grey"] .mobile-timer__more-events_head-close::before, html[data-theme="grey"] .mobile-notification__close::before, html[data-theme="grey"] .mobile-notification__close::after, html[data-theme="grey"] .burger-menu_active .burger-menu_lines, html[data-theme="grey"] .burger-menu_active .burger-menu_lines::after, html[data-theme="grey"] .burger-menu_active .burger-menu_lines::before {
+html[data-theme="grey"] .calendar-close-crosshair::after, html[data-theme="grey"] .calendar-close-crosshair::before, html[data-theme="grey"] .burger-menu-back-tab::before, html[data-theme="grey"] .burger-menu-back-tab::after, html[data-theme="grey"] .burger-menu__log-in-menu_close::before, html[data-theme="grey"] .burger-menu__log-in-menu_close::after, html[data-theme="grey"] .mobile-timer__more-events_head-close::after, html[data-theme="grey"] .mobile-timer__more-events_head-close::before, html[data-theme="grey"] .mobile-notification__close::before, html[data-theme="grey"] .mobile-notification__close::after, html[data-theme="grey"] .burger-menu_active .burger-menu_lines, html[data-theme="grey"] .burger-menu_active .burger-menu_lines::after, html[data-theme="grey"] .burger-menu_active .burger-menu_lines::before {
   background-color: rgba(98, 129, 157, 0.9);
 }
 html[data-theme="grey"] .burger-menu__profile-messange::before {
@@ -9007,16 +9078,16 @@ html[data-theme="grey"] .sidebar-block3, html[data-theme="grey"] .sidebar-block,
 html[data-theme="grey"] .footer__icon::before, html[data-theme="grey"] .footer__icon::after, html[data-theme="grey"] .vote-block__percent, html[data-theme="grey"] .important-news__news-spoiler .arrow::before, html[data-theme="grey"] .important-news__news-spoiler .arrow::after {
   background-color: rgba(98, 129, 157, 0.75);
 }
-html[data-theme="grey"] .timer__more-result, html[data-theme="grey"] .timer__more-translation, html[data-theme="grey"] .forgot-password a, html[data-theme="grey"] .enter-button, html[data-theme="grey"] .log-in, html[data-theme="grey"] .sign-up, html[data-theme="grey"] .exit-no, html[data-theme="grey"] .exit-yes, html[data-theme="grey"] .burger-menu__content a, html[data-theme="grey"] main a, html[data-theme="grey"] .timeline__footer button {
+html[data-theme="grey"] .birthday-block__congratulations, html[data-theme="grey"] .timer__more-result, html[data-theme="grey"] .timer__more-translation, html[data-theme="grey"] .forgot-password a, html[data-theme="grey"] .enter-button, html[data-theme="grey"] .log-in, html[data-theme="grey"] .sign-up, html[data-theme="grey"] .exit-no, html[data-theme="grey"] .exit-yes, html[data-theme="grey"] .burger-menu__content a, html[data-theme="grey"] main a, html[data-theme="grey"] .timeline__footer button {
   color: #2f5278;
 }
 html[data-theme="grey"] .mobile-notification__head-content a, html[data-theme="grey"] .timeline-navigation__page a:hover, html[data-theme="grey"] .mobile-timer__more-events-content-group a {
   color: #2f5278 !important;
 }
-html[data-theme="grey"] .twitter-block__head, html[data-theme="grey"] .main-cup__header, html[data-theme="grey"] .main-cup__header .main-cup__lead, html[data-theme="grey"] .head__all, html[data-theme="grey"] .comment-block__head, html[data-theme="grey"] .lead2 {
+html[data-theme="grey"] .birthday-block__head, html[data-theme="grey"] .twitter-block__head, html[data-theme="grey"] .main-cup__header, html[data-theme="grey"] .main-cup__header .main-cup__lead, html[data-theme="grey"] .head__all, html[data-theme="grey"] .comment-block__head, html[data-theme="grey"] .lead2 {
   color: #648099;
 }
-html[data-theme="grey"] .statistics__button:hover, html[data-theme="grey"] .select__head2:hover, html[data-theme="grey"] .timeline-navigation__page a::before, html[data-theme="grey"] .timeline-navigation_arrow-left::before, html[data-theme="grey"] .timeline-navigation_arrow-right::before, html[data-theme="grey"] .timeline-sponsors .swiper-button-prev:hover, html[data-theme="grey"] .timeline-sponsors .swiper-button-next:hover, html[data-theme="grey"] .learn-more .circle-element, html[data-theme="grey"] .timer__data-next, html[data-theme="grey"] .timer__data-prev, html[data-theme="grey"] .layer-toggle-visible, html[data-theme="grey"] .vertical-menu-block__categories span:not(.news_date), html[data-theme="grey"] .main-cup__controls .swiper-button-prev, html[data-theme="grey"] .main-cup__controls .swiper-button-next {
+html[data-theme="grey"] .statistics__button:hover, html[data-theme="grey"] .select__head2:hover, html[data-theme="grey"] .timeline-navigation__page a::before, html[data-theme="grey"] .timeline-navigation_arrow-left::before, html[data-theme="grey"] .timeline-navigation_arrow-right::before, html[data-theme="grey"] .timeline-sponsors .swiper-button-prev:hover, html[data-theme="grey"] .timeline-sponsors .swiper-button-next:hover, html[data-theme="grey"] .learn-more .circle-element, html[data-theme="grey"] .layer-toggle-visible, html[data-theme="grey"] .vertical-menu-block__categories span:not(.news_date), html[data-theme="grey"] .main-cup__controls .swiper-button-prev, html[data-theme="grey"] .main-cup__controls .swiper-button-next {
   background-color: #e1e1e1;
 }
 html[data-theme="grey"] .btn-container {
@@ -9032,7 +9103,7 @@ html[data-theme="grey"] .icon.icon--left::before, html[data-theme="grey"] .icon.
 html[data-theme="grey"] .timeline-sponsors .card:hover {
   border: 1px solid #a0acb3 !important;
 }
-html[data-theme="grey"] .body .layer-toggle-visible::before, html[data-theme="grey"] .timer__data-prev-icon::before, html[data-theme="grey"] .timer__data-next-icon::before {
+html[data-theme="grey"] .calendar-next-icon::after, html[data-theme="grey"] .calendar-next-icon::before, html[data-theme="grey"] .calendar-prev-icon::after, html[data-theme="grey"] .calendar-prev-icon::before, html[data-theme="grey"] .body .layer-toggle-visible::before, html[data-theme="grey"] .timer__data-prev-icon::before, html[data-theme="grey"] .timer__data-next-icon::before {
   border-color: #8d929c;
 }
 html[data-theme="grey"] .timeline-navigation_arrow-right::after, html[data-theme="grey"] .timeline-navigation_arrow-left::after {
@@ -9047,7 +9118,10 @@ html[data-theme="grey"] .slider-block .swiper-container .swiper-button-next:hove
 html[data-theme="grey"] .learn-more__text:hover {
   color: #2f5278 !important;
 }
-html[data-theme="grey"] .timer__data-next:hover .timer__data-next-icon, html[data-theme="grey"] .timer__data-prev:hover .timer__data-prev-icon, html[data-theme="grey"] .learn-more:hover .circle-element .circle-element__icon, html[data-theme="grey"] .swiper-button-next:hover .swiper-button-next-icon, html[data-theme="grey"] .swiper-button-prev:hover .swiper-button-prev-icon {
+html[data-theme='grey'] .calendar2 .calendar-inner .calendar-body div > a:hover, html[data-theme='grey'] .calendar .calendar-inner .calendar-body div > a:hover {
+  outline-color: #eee;
+}
+html[data-theme='grey'] .calendar2 .calendar-inner .calendar-controls .calendar-next a:hover .calendar-next-icon, html[data-theme='grey'] .calendar2 .calendar-inner .calendar-controls .calendar-prev a:hover .calendar-prev-icon, html[data-theme="grey"] .calendar .calendar-inner .calendar-controls .calendar-next a:hover .calendar-next-icon, html[data-theme="grey"] .calendar .calendar-inner .calendar-controls .calendar-prev a:hover .calendar-prev-icon, html[data-theme="grey"] .timer__data-next:hover .timer__data-next-icon, html[data-theme="grey"] .timer__data-prev:hover .timer__data-prev-icon, html[data-theme="grey"] .learn-more:hover .circle-element .circle-element__icon, html[data-theme="grey"] .swiper-button-next:hover .swiper-button-next-icon, html[data-theme="grey"] .swiper-button-prev:hover .swiper-button-prev-icon {
   background-color: #8d929c;
 }
 html[data-theme="grey"] .comment-block__rumor:hover, html[data-theme="grey"] .sidebar-block3 a:hover, html[data-theme="grey"] .timeline a:hover, html[data-theme="grey"] .timeline__body a:hover, html[data-theme="grey"] .timeline__body-important-news a:hover, html[data-theme="grey"] .comment-block__rumor:hover, html[data-theme="grey"] .icon.icon--left::before, html[data-theme="grey"] .icon.icon--right::before {
@@ -9063,7 +9137,7 @@ html[data-theme="grey"] .img__profile a:hover, html[data-theme="grey"] .notifica
 html[data-theme="grey"] .mobile-notification__time .view {
   color: #2f5278 !important;
 }
-html[data-theme="grey"] .enter-button, html[data-theme="grey"] .timeline__footer button, html[data-theme="grey"] .timeline__body .td_top10w td, html[data-theme="grey"] .timeline-navigation__page a, html[data-theme="grey"] .timeline-navigation_arrow-left, html[data-theme="grey"] .timeline-navigation_arrow-right, html[data-theme="grey"] .timeline-sponsors .swiper-button-prev, html[data-theme="grey"] .timeline-sponsors .swiper-button-next, html[data-theme="grey"] .timeline__comments:hover, html[data-theme="grey"] .vertical-menu-block__body .vertical-menu-block__list li::before, html[data-theme="grey"] .learn-more__text2::before, html[data-theme="grey"] .learn-more__text2::after {
+html[data-theme='grey'] .calendar .calendar-close-crosshair:hover, html[data-theme='grey'] .calendar .calendar-inner .calendar-body .calendar-today, html[data-theme='grey'] .calendar .calendar-inner .calendar-today-date, html[data-theme='grey'] .calendar .calendar-inner .calendar-controls .calendar-prev a, html[data-theme='grey'] .calendar .calendar-inner .calendar-controls .calendar-next a, html[data-theme="grey"] .enter-button, html[data-theme="grey"] .timeline__footer button, html[data-theme="grey"] .timeline__body .td_top10w td, html[data-theme="grey"] .timeline-navigation__page a, html[data-theme="grey"] .timeline-navigation_arrow-left, html[data-theme="grey"] .timeline-navigation_arrow-right, html[data-theme="grey"] .timeline-sponsors .swiper-button-prev, html[data-theme="grey"] .timeline-sponsors .swiper-button-next, html[data-theme="grey"] .timeline__comments:hover, html[data-theme="grey"] .vertical-menu-block__body .vertical-menu-block__list li::before, html[data-theme="grey"] .learn-more__text2::before, html[data-theme="grey"] .learn-more__text2::after {
   background-color: #eee;
 }
 html[data-theme="grey"] .exit-yes, html[data-theme="grey"] .log-in {
@@ -9089,10 +9163,10 @@ html[data-theme="grey"] .timeline__body.gallery .swiper-pagination-bullet:hover:
 html[data-theme="grey"] .table__two tbody .active-biathlete td:not(.table0_100 tr td) {
   background-color: #f7c0c0 !important;
 }
-html[data-theme="grey"] .header__mobile-number-massage2 span, html[data-theme="grey"] .burger-menu__profile-messange span, html[data-theme="grey"] .race-ended::before, html[data-theme="grey"] .header__number-massage span, html[data-theme="grey"] .header__number-massage2 span {
+html[data-theme='grey'] .map-legend-1::before, html[data-theme='grey'] .number-item[data-num="23"]::before, html[data-theme='grey'] .number-item[data-num="22"]::before, html[data-theme='grey'] .number-item[data-num="18"]::before, html[data-theme='grey'] .number-item[data-num="17"]::before, html[data-theme='grey'] .number-item[data-num="9"]::before, html[data-theme='grey'] .number-item[data-num="8"]::before, html[data-theme="grey"] .header__mobile-number-massage2 span, html[data-theme="grey"] .burger-menu__profile-messange span, html[data-theme="grey"] .race-ended::before, html[data-theme="grey"] .header__number-massage span, html[data-theme="grey"] .header__number-massage2 span {
   background-color: #ee3232;
 }
-html[data-theme="grey"] .main-cup__top10 .red-color, html[data-theme="grey"] .timeline__item .red-color {
+html[data-theme="grey"] .birthday-block__congratulations::before, html[data-theme="grey"] .main-cup__top10 .red-color, html[data-theme="grey"] .timeline__item .red-color {
   color: #ee3232;
 }
 html[data-theme="grey"] .vertical-menu-block__link.red-color, html[data-theme="grey"] #tippy-42 ul li:last-of-type a, html[data-theme="grey"] #tippy-42 ul li:last-of-type a::before {
@@ -9105,7 +9179,7 @@ html[data-theme="grey"] .main-cup__top10 .red-color:hover, html[data-theme="grey
 html[data-theme="grey"] .admin-item {
   border-left: 4px solid #ff3333b3;
 }
-html[data-theme="grey"] .race-continues::before, html[data-theme="grey"] .race-continues::before, html[data-theme="grey"] .logged, html[data-theme="grey"] .comment-block__user-content .woman-user .logged {
+html[data-theme="grey"] .map-legend-3::before, html[data-theme="grey"] .number-item[data-num="29"]::before, html[data-theme="grey"] .number-item[data-num="26"]::after, html[data-theme="grey"] .number-legend[data-num="17"], html[data-theme="grey"] .number-legend[data-num="22"], html[data-theme="grey"] .number-item[data-num="13"]::after, html[data-theme="grey"] .number-legend[data-num="8"], html[data-theme="grey"] .number-item[data-num="2"]::before, html[data-theme="grey"] .race-continues::before, html[data-theme="grey"] .race-continues::before, html[data-theme="grey"] .logged, html[data-theme="grey"] .comment-block__user-content .woman-user .logged {
   background-color: #20ba19;
 }
 html[data-theme="grey"] .slider-block .swiper-container .swiper-pagination-progressbar .swiper-pagination-progressbar-fill {
@@ -9136,9 +9210,20 @@ html[data-theme="grey"] .vote-block__bar {
   background-color: rgba(187, 187, 187, 0.12);
   box-shadow: inset 0 0 7px 0px rgba(115, 115, 115, 0.12);
 }
-@media screen and (min-width: 992px) {
+@media screen and (max-width: 992px) {
+  html[data-theme='grey'] .right-sidebar {
+    background-color: #f7f8f9;
+  }
+  html[data-theme='grey'] .birthday-block__congratulations:active {
+    background-color: #e1e1e1;
+  }
+}
+@media screen and (min-width: 993px) {
   [data-theme="grey"] .important-news__news-spoiler:hover {
     background-color: #f5f5f5 !important;
+  }
+  html[data-theme='grey'] .birthday-block__congratulations:hover {
+    background-color: #e1e1e1;
   }
 }
 
