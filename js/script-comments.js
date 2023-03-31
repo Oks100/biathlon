@@ -28,12 +28,14 @@ $(document).ready(function(){
   $('.target-plus-2, .percent-plus-2').click(function () {
       if($(".timeline__item-comments-target-percent").hasClass('percent-plus-2'))
       $('.target-2').addClass('hide-on-target');
+      $('.target-2').addClass('hide-on-plus');
       });
   });
   
 $(document).ready(function(){
   $('.target-minus-2').click(function () {
       $('.target-2').addClass('hide-miss');
+      $('.target-2').addClass('hide-on-minus');
       $('.timeline__item-comments-target-percent').removeClass('percent-plus-2');
       });
   });
