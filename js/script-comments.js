@@ -102,3 +102,56 @@ $(document).ready(function(){
       }
   );
   });
+
+
+  $(document).ready(function(){
+    $('.target-plus-6, .percent-plus-6').click(function () {
+        if($(".timeline__item-comments-target-percent").hasClass('percent-plus-6'))
+        $('.target-6').addClass('hide-on-target');
+        });
+    });
+        
+  $(document).ready(function(){
+    $('.target-minus-6').click(function () {
+        $('.target-6').addClass('hide-miss');
+        $('.timeline__item-comments-target-percent').removeClass('percent-plus-6');
+        });
+    });
+  
+  $(document).ready(function(){
+    $('.target-6 .timeline__item-comments-target-percent').hover(
+        function() {
+            $(".target-6").addClass('plus-hover-6');
+        }, function() {
+            $(".target-6").removeClass('plus-hover-6');
+        }
+    );
+    });
+
+
+
+
+
+    $(document).ready(function(){
+      $('.target-plus-7, .percent-plus-7').click(function () {
+          if($(".timeline__item-comments-target-percent").hasClass('percent-plus-7'))
+          $('.target-7').addClass('hide-on-target');
+          });
+      });
+          
+    $(document).ready(function(){
+      $('.target-minus-7').click(function () {
+          $('.target-7').addClass('hide-miss');
+          $('.timeline__item-comments-target-percent').removeClass('percent-plus-7');
+          });
+      });
+    
+    $(document).ready(function(){
+      $('.target-7 .timeline__item-comments-target-percent').hover(
+          function() {
+              $(".target-7").addClass('plus-hover-7');
+          }, function() {
+              $(".target-7").removeClass('plus-hover-7');
+          }
+      );
+      });
