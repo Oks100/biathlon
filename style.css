@@ -6386,12 +6386,7 @@ input[type="radio"]{
 }
 /* Куки */
 .body.banner__cookie_close .banner__cookie {
-  /* display: none; */
-  /* animation-duration: 1s;
-  animation-name: cookie-animation-close; */
   animation: 1s ease cookie-animation-close forwards;
-  /* transition: all 1s ease;
-  bottom: -100%; */
 }
 @keyframes cookie-animation-close {
   0% {

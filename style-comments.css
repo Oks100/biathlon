@@ -248,6 +248,10 @@
 .timeline__item-comments-comment {
     margin-left: 15px;
 }
+.timeline__item-comments-comment span {
+    display: inline-block;
+    width: 100%;
+}
 .quote {
     display: block;
     padding: 10px;
@@ -409,6 +413,14 @@
     -webkit-transform: scale(0);
     transform: scale(0);
 }
+
+.target-8.hide-on-target {
+    color: black;
+}
+.target-8.hide-on-target::before {
+    background-color: white;
+}
+
 .timeline__item-comments-target-shooting {
     position: absolute;
     display: flex;
@@ -459,7 +471,7 @@
 .timeline__item-comments-target-shooting-plus:hover, .timeline__item-comments-target-shooting-minus:hover {
     background-color: #b9e4ff;
 }
-.target-1.plus-hover-1 .timeline__item-comments-target-shooting-plus-icon::before, .target-2.plus-hover-2 .timeline__item-comments-target-shooting-plus-icon::before, .target-3.plus-hover-3 .timeline__item-comments-target-shooting-plus-icon::before, .target-5.plus-hover-5 .timeline__item-comments-target-shooting-plus-icon::before, .timeline__item-comments-target-shooting-plus:hover .timeline__item-comments-target-shooting-plus-icon::before {
+.target-1.plus-hover-1 .timeline__item-comments-target-shooting-plus-icon::before, .target-2.plus-hover-2 .timeline__item-comments-target-shooting-plus-icon::before, .target-3.plus-hover-3 .timeline__item-comments-target-shooting-plus-icon::before, .target-5.plus-hover-5 .timeline__item-comments-target-shooting-plus-icon::before, .target-6.plus-hover-6 .timeline__item-comments-target-shooting-plus-icon::before, .target-7.plus-hover-7 .timeline__item-comments-target-shooting-plus-icon::before, .timeline__item-comments-target-shooting-plus:hover .timeline__item-comments-target-shooting-plus-icon::before {
     color: rgba(0, 128, 0, 0.5);
 }
 .timeline__item-comments-target-shooting-minus:hover .timeline__item-comments-target-shooting-minus-icon::before {
@@ -489,7 +501,7 @@
     font-size: 0.80em;
     margin-right: 5px;
 }
-.target-total .timeline__item-comments-target-details, .target-1.hide-on-target .timeline__item-comments-target-details, .target-1.hide-miss .timeline__item-comments-target-details, .target-2.hide-on-target .timeline__item-comments-target-details, .target-2.hide-miss .timeline__item-comments-target-details, .target-3.hide-on-target .timeline__item-comments-target-details, .target-3.hide-miss .timeline__item-comments-target-details, .target-5.hide-on-target .timeline__item-comments-target-details, .target-5.hide-miss .timeline__item-comments-target-details {
+.target-total .timeline__item-comments-target-details, .target-1.hide-on-target .timeline__item-comments-target-details, .target-1.hide-miss .timeline__item-comments-target-details, .target-2.hide-on-target .timeline__item-comments-target-details, .target-2.hide-miss .timeline__item-comments-target-details, .target-3.hide-on-target .timeline__item-comments-target-details, .target-3.hide-miss .timeline__item-comments-target-details, .target-5.hide-on-target .timeline__item-comments-target-details, .target-5.hide-miss .timeline__item-comments-target-details, .target-6.hide-on-target .timeline__item-comments-target-details, .target-6.hide-miss .timeline__item-comments-target-details, .target-7.hide-on-target .timeline__item-comments-target-details, .target-7.hide-miss .timeline__item-comments-target-details {
     right: -61px;
 }
 .timeline__item-comments-target-total::before {
@@ -541,7 +553,7 @@
     display: none;
 }
 
-.target-total .timeline__item-comments-target-percent, .target-1.hide-on-target .timeline__item-comments-target-percent, .target-1.hide-miss .timeline__item-comments-target-percent, .target-2.hide-on-target .timeline__item-comments-target-percent, .target-2.hide-miss .timeline__item-comments-target-percent, .target-3.hide-on-target .timeline__item-comments-target-percent, .target-3.hide-miss .timeline__item-comments-target-percent, .target-5.hide-on-target .timeline__item-comments-target-percent, .target-5.hide-miss .timeline__item-comments-target-percent {
+.target-total .timeline__item-comments-target-percent, .target-1.hide-on-target .timeline__item-comments-target-percent, .target-1.hide-miss .timeline__item-comments-target-percent, .target-2.hide-on-target .timeline__item-comments-target-percent, .target-2.hide-miss .timeline__item-comments-target-percent, .target-3.hide-on-target .timeline__item-comments-target-percent, .target-3.hide-miss .timeline__item-comments-target-percent, .target-5.hide-on-target .timeline__item-comments-target-percent, .target-5.hide-miss .timeline__item-comments-target-percent, .target-6.hide-on-target .timeline__item-comments-target-percent, .target-6.hide-miss .timeline__item-comments-target-percent, .target-7.hide-on-target .timeline__item-comments-target-percent, .target-7.hide-miss .timeline__item-comments-target-percent {
     cursor: default;
 }
 
@@ -567,12 +579,40 @@
 }
 
 
-.percent-after {
+.target-6.hide-on-target .timeline__item-comments-target-shooting, .target-6.hide-miss .timeline__item-comments-target-shooting {
+    animation: .4s ease-in-out forwards target-shooting;
+}
+.target-6.hide-on-target.hide-on-target .timeline__item-comments-target-percent, .target-6.hide-miss .timeline__item-comments-target-percent {
+    background-color: none;
+}
+.target-6.hide-miss .timeline__item-comments-target-percent {
+    border-color: #ff6868;
+}
+
+
+.target-7.hide-on-target .timeline__item-comments-target-shooting, .target-7.hide-miss .timeline__item-comments-target-shooting {
+    animation: .4s ease-in-out forwards target-shooting;
+}
+.target-7.hide-on-target.hide-on-target .timeline__item-comments-target-percent, .target-7.hide-miss .timeline__item-comments-target-percent {
+    background-color: none;
+}
+.target-7.hide-miss .timeline__item-comments-target-percent {
+    border-color: #ff6868;
+}
+
+
+
+
+
+.target-3 .percent-after {
     display: none;
 }
 .target-3.hide-miss .percent-before, .target-3.hide-on-target .percent-before {
     display: none;
 }
+/* .target-3.hide-on-target .percent-before {
+    display: none;
+} */
 /* .target-3.hide-miss .percent-after, .target-3.hide-on-target .percent-after {
     display: block;
 } */
@@ -580,6 +620,20 @@
     opacity: 0;
 }
 
+.target-6.hide-on-target .percent-before, .target-6.hide-miss .percent-before, .target-7.hide-on-target .percent-before, .target-7.hide-miss .percent-before {
+    display: none;
+}
+
+
+.percent-plus-7 .percent-after {
+    display: none;
+}
+.target-7.hide-miss .percent-after {
+    display: block;
+}
+.target-7.hide-on-target .percent-after {
+    display: block;
+}
 
 @keyframes target-shooting {
     from {
