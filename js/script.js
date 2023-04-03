@@ -672,6 +672,767 @@ tippy('.header__profile', {
   animation: 'shift-away',
 });
 
+tippy('.comments-ip32', {
+  content: document.querySelector('.ip-info32'),
+  arrow: true,
+  interactive: true,
+  trigger: 'click',
+  delay: [0, 0],
+  placement: 'bottom',
+  duration: 350,
+  maxWidth: 400,
+  animation: 'shift-away',
+});
+
+tippy('.comments-ip31', {
+  content: document.querySelector('.ip-info31'),
+  arrow: true,
+  interactive: true,
+  trigger: 'click',
+  delay: [0, 0],
+  placement: 'bottom',
+  duration: 350,
+  maxWidth: 400,
+  animation: 'shift-away',
+});
+
+tippy('.comments-ip30', {
+  content: document.querySelector('.ip-info30'),
+  arrow: true,
+  interactive: true,
+  trigger: 'click',
+  delay: [0, 0],
+  placement: 'bottom',
+  duration: 350,
+  maxWidth: 400,
+  animation: 'shift-away',
+});
+tippy('.comments-ip29', {
+  content: document.querySelector('.ip-info29'),
+  arrow: true,
+  interactive: true,
+  trigger: 'click',
+  delay: [0, 0],
+  placement: 'bottom',
+  duration: 350,
+  maxWidth: 400,
+  animation: 'shift-away',
+});
+
+tippy('.comments-ip28', {
+  content: document.querySelector('.ip-info28'),
+  arrow: true,
+  interactive: true,
+  trigger: 'click',
+  delay: [0, 0],
+  placement: 'bottom',
+  duration: 350,
+  maxWidth: 400,
+  animation: 'shift-away',
+});
+tippy('.comments-ip27', {
+  content: document.querySelector('.ip-info27'),
+  arrow: true,
+  interactive: true,
+  trigger: 'click',
+  delay: [0, 0],
+  placement: 'bottom',
+  duration: 350,
+  maxWidth: 400,
+  animation: 'shift-away',
+});
+
+tippy('.comments-ip26', {
+  content: document.querySelector('.ip-info26'),
+  arrow: true,
+  interactive: true,
+  trigger: 'click',
+  delay: [0, 0],
+  placement: 'bottom',
+  duration: 350,
+  maxWidth: 400,
+  animation: 'shift-away',
+});
+tippy('.comments-ip25', {
+  content: document.querySelector('.ip-info25'),
+  arrow: true,
+  interactive: true,
+  trigger: 'click',
+  delay: [0, 0],
+  placement: 'bottom',
+  duration: 350,
+  maxWidth: 400,
+  animation: 'shift-away',
+});
+
+tippy('.comments-ip24', {
+  content: document.querySelector('.ip-info24'),
+  arrow: true,
+  interactive: true,
+  trigger: 'click',
+  delay: [0, 0],
+  placement: 'bottom',
+  duration: 350,
+  maxWidth: 400,
+  animation: 'shift-away',
+});
+tippy('.comments-ip23', {
+  content: document.querySelector('.ip-info23'),
+  arrow: true,
+  interactive: true,
+  trigger: 'click',
+  delay: [0, 0],
+  placement: 'bottom',
+  duration: 350,
+  maxWidth: 400,
+  animation: 'shift-away',
+});
+
+tippy('.comments-ip22', {
+  content: document.querySelector('.ip-info22'),
+  arrow: true,
+  interactive: true,
+  trigger: 'click',
+  delay: [0, 0],
+  placement: 'bottom',
+  duration: 350,
+  maxWidth: 400,
+  animation: 'shift-away',
+});
+
+tippy('.comments-ip21', {
+  content: document.querySelector('.ip-info21'),
+  arrow: true,
+  interactive: true,
+  trigger: 'click',
+  delay: [0, 0],
+  placement: 'bottom',
+  duration: 350,
+  maxWidth: 400,
+  animation: 'shift-away',
+});
+
+tippy('.comments-ip20', {
+  content: document.querySelector('.ip-info20'),
+  arrow: true,
+  interactive: true,
+  trigger: 'click',
+  delay: [0, 0],
+  placement: 'bottom',
+  duration: 350,
+  maxWidth: 400,
+  animation: 'shift-away',
+});
+
+tippy('.comments-ip19', {
+  content: document.querySelector('.ip-info19'),
+  arrow: true,
+  interactive: true,
+  trigger: 'click',
+  delay: [0, 0],
+  placement: 'bottom',
+  duration: 350,
+  maxWidth: 400,
+  animation: 'shift-away',
+});
+tippy('.comments-ip18', {
+  content: document.querySelector('.ip-info18'),
+  arrow: true,
+  interactive: true,
+  trigger: 'click',
+  delay: [0, 0],
+  placement: 'bottom',
+  duration: 350,
+  maxWidth: 400,
+  animation: 'shift-away',
+});
+
+tippy('.comments-ip17', {
+  content: document.querySelector('.ip-info17'),
+  arrow: true,
+  interactive: true,
+  trigger: 'click',
+  delay: [0, 0],
+  placement: 'bottom',
+  duration: 350,
+  maxWidth: 400,
+  animation: 'shift-away',
+});
+tippy('.comments-ip16', {
+  content: document.querySelector('.ip-info16'),
+  arrow: true,
+  interactive: true,
+  trigger: 'click',
+  delay: [0, 0],
+  placement: 'bottom',
+  duration: 350,
+  maxWidth: 400,
+  animation: 'shift-away',
+});
+
+tippy('.comments-ip15', {
+  content: document.querySelector('.ip-info15'),
+  arrow: true,
+  interactive: true,
+  trigger: 'click',
+  delay: [0, 0],
+  placement: 'bottom',
+  duration: 350,
+  maxWidth: 400,
+  animation: 'shift-away',
+});
+tippy('.comments-ip14', {
+  content: document.querySelector('.ip-info14'),
+  arrow: true,
+  interactive: true,
+  trigger: 'click',
+  delay: [0, 0],
+  placement: 'bottom',
+  duration: 350,
+  maxWidth: 400,
+  animation: 'shift-away',
+});
+
+tippy('.comments-ip13', {
+  content: document.querySelector('.ip-info13'),
+  arrow: true,
+  interactive: true,
+  trigger: 'click',
+  delay: [0, 0],
+  placement: 'bottom',
+  duration: 350,
+  maxWidth: 400,
+  animation: 'shift-away',
+});
+tippy('.comments-ip12', {
+  content: document.querySelector('.ip-info12'),
+  arrow: true,
+  interactive: true,
+  trigger: 'click',
+  delay: [0, 0],
+  placement: 'bottom',
+  duration: 350,
+  maxWidth: 400,
+  animation: 'shift-away',
+});
+tippy('.comments-ip11', {
+  content: document.querySelector('.ip-info11'),
+  arrow: true,
+  interactive: true,
+  trigger: 'click',
+  delay: [0, 0],
+  placement: 'bottom',
+  duration: 350,
+  maxWidth: 400,
+  animation: 'shift-away',
+});
+
+tippy('.comments-ip10', {
+  content: document.querySelector('.ip-info10'),
+  arrow: true,
+  interactive: true,
+  trigger: 'click',
+  delay: [0, 0],
+  placement: 'bottom',
+  duration: 350,
+  maxWidth: 400,
+  animation: 'shift-away',
+});
+
+tippy('.comments-ip9', {
+  content: document.querySelector('.ip-info9'),
+  arrow: true,
+  interactive: true,
+  trigger: 'click',
+  delay: [0, 0],
+  placement: 'bottom',
+  duration: 350,
+  maxWidth: 400,
+  animation: 'shift-away',
+});
+
+tippy('.comments-ip8', {
+  content: document.querySelector('.ip-info8'),
+  arrow: true,
+  interactive: true,
+  trigger: 'click',
+  delay: [0, 0],
+  placement: 'bottom',
+  duration: 350,
+  maxWidth: 400,
+  animation: 'shift-away',
+});
+tippy('.comments-ip7', {
+  content: document.querySelector('.ip-info7'),
+  arrow: true,
+  interactive: true,
+  trigger: 'click',
+  delay: [0, 0],
+  placement: 'bottom',
+  duration: 350,
+  maxWidth: 400,
+  animation: 'shift-away',
+});
+
+tippy('.comments-ip6', {
+  content: document.querySelector('.ip-info6'),
+  arrow: true,
+  interactive: true,
+  trigger: 'click',
+  delay: [0, 0],
+  placement: 'bottom',
+  duration: 350,
+  maxWidth: 400,
+  animation: 'shift-away',
+});
+tippy('.comments-ip5', {
+  content: document.querySelector('.ip-info5'),
+  arrow: true,
+  interactive: true,
+  trigger: 'click',
+  delay: [0, 0],
+  placement: 'bottom',
+  duration: 350,
+  maxWidth: 400,
+  animation: 'shift-away',
+});
+
+tippy('.comments-ip4', {
+  content: document.querySelector('.ip-info4'),
+  arrow: true,
+  interactive: true,
+  trigger: 'click',
+  delay: [0, 0],
+  placement: 'bottom',
+  duration: 350,
+  maxWidth: 400,
+  animation: 'shift-away',
+});
+tippy('.comments-ip3', {
+  content: document.querySelector('.ip-info3'),
+  arrow: true,
+  interactive: true,
+  trigger: 'click',
+  delay: [0, 0],
+  placement: 'bottom',
+  duration: 350,
+  maxWidth: 400,
+  animation: 'shift-away',
+});
+
+// tippy('.comments-ip2', {
+//   content: document.querySelector('.ip-info2'),
+//   arrow: true,
+//   interactive: true,
+//   trigger: 'click',
+//   delay: [0, 0],
+//   placement: 'bottom',
+//   duration: 350,
+//   maxWidth: 400,
+//   animation: 'shift-away',
+// });
+// tippy('.comments-ip1', {
+//   content: document.querySelector('.ip-info1'),
+//   arrow: true,
+//   interactive: true,
+//   trigger: 'click',
+//   delay: [0, 0],
+//   placement: 'bottom',
+//   duration: 350,
+//   maxWidth: 400,
+//   animation: 'shift-away',
+// });
+
+tippy('.comments-delete32', {
+  content: document.querySelector('.delete32'),
+  arrow: true,
+  interactive: true,
+  trigger: 'click',
+  delay: [0, 0],
+  placement: 'bottom',
+  duration: 350,
+  maxWidth: 400,
+  animation: 'shift-away',
+});
+
+tippy('.comments-delete31', {
+  content: document.querySelector('.delete31'),
+  arrow: true,
+  interactive: true,
+  trigger: 'click',
+  delay: [0, 0],
+  placement: 'bottom',
+  duration: 350,
+  maxWidth: 400,
+  animation: 'shift-away',
+});
+
+tippy('.comments-delete30', {
+  content: document.querySelector('.delete30'),
+  arrow: true,
+  interactive: true,
+  trigger: 'click',
+  delay: [0, 0],
+  placement: 'bottom',
+  duration: 350,
+  maxWidth: 400,
+  animation: 'shift-away',
+});
+
+tippy('.comments-delete29', {
+  content: document.querySelector('.delete29'),
+  arrow: true,
+  interactive: true,
+  trigger: 'click',
+  delay: [0, 0],
+  placement: 'bottom',
+  duration: 350,
+  maxWidth: 400,
+  animation: 'shift-away',
+});
+
+tippy('.comments-delete28', {
+  content: document.querySelector('.delete28'),
+  arrow: true,
+  interactive: true,
+  trigger: 'click',
+  delay: [0, 0],
+  placement: 'bottom',
+  duration: 350,
+  maxWidth: 400,
+  animation: 'shift-away',
+});
+
+tippy('.comments-delete27', {
+  content: document.querySelector('.delete27'),
+  arrow: true,
+  interactive: true,
+  trigger: 'click',
+  delay: [0, 0],
+  placement: 'bottom',
+  duration: 350,
+  maxWidth: 400,
+  animation: 'shift-away',
+});
+
+tippy('.comments-delete26', {
+  content: document.querySelector('.delete26'),
+  arrow: true,
+  interactive: true,
+  trigger: 'click',
+  delay: [0, 0],
+  placement: 'bottom',
+  duration: 350,
+  maxWidth: 400,
+  animation: 'shift-away',
+});
+
+tippy('.comments-delete25', {
+  content: document.querySelector('.delete25'),
+  arrow: true,
+  interactive: true,
+  trigger: 'click',
+  delay: [0, 0],
+  placement: 'bottom',
+  duration: 350,
+  maxWidth: 400,
+  animation: 'shift-away',
+});
+
+tippy('.comments-delete24', {
+  content: document.querySelector('.delete24'),
+  arrow: true,
+  interactive: true,
+  trigger: 'click',
+  delay: [0, 0],
+  placement: 'bottom',
+  duration: 350,
+  maxWidth: 400,
+  animation: 'shift-away',
+});
+
+tippy('.comments-delete23', {
+  content: document.querySelector('.delete23'),
+  arrow: true,
+  interactive: true,
+  trigger: 'click',
+  delay: [0, 0],
+  placement: 'bottom',
+  duration: 350,
+  maxWidth: 400,
+  animation: 'shift-away',
+});
+
+
+tippy('.comments-delete22', {
+  content: document.querySelector('.delete22'),
+  arrow: true,
+  interactive: true,
+  trigger: 'click',
+  delay: [0, 0],
+  placement: 'bottom',
+  duration: 350,
+  maxWidth: 400,
+  animation: 'shift-away',
+});
+
+tippy('.comments-delete21', {
+  content: document.querySelector('.delete21'),
+  arrow: true,
+  interactive: true,
+  trigger: 'click',
+  delay: [0, 0],
+  placement: 'bottom',
+  duration: 350,
+  maxWidth: 400,
+  animation: 'shift-away',
+});
+
+tippy('.comments-delete20', {
+  content: document.querySelector('.delete20'),
+  arrow: true,
+  interactive: true,
+  trigger: 'click',
+  delay: [0, 0],
+  placement: 'bottom',
+  duration: 350,
+  maxWidth: 400,
+  animation: 'shift-away',
+});
+
+tippy('.comments-delete19', {
+  content: document.querySelector('.delete19'),
+  arrow: true,
+  interactive: true,
+  trigger: 'click',
+  delay: [0, 0],
+  placement: 'bottom',
+  duration: 350,
+  maxWidth: 400,
+  animation: 'shift-away',
+});
+
+tippy('.comments-delete18', {
+  content: document.querySelector('.delete18'),
+  arrow: true,
+  interactive: true,
+  trigger: 'click',
+  delay: [0, 0],
+  placement: 'bottom',
+  duration: 350,
+  maxWidth: 400,
+  animation: 'shift-away',
+});
+
+tippy('.comments-delete17', {
+  content: document.querySelector('.delete17'),
+  arrow: true,
+  interactive: true,
+  trigger: 'click',
+  delay: [0, 0],
+  placement: 'bottom',
+  duration: 350,
+  maxWidth: 400,
+  animation: 'shift-away',
+});
+
+tippy('.comments-delete16', {
+  content: document.querySelector('.delete16'),
+  arrow: true,
+  interactive: true,
+  trigger: 'click',
+  delay: [0, 0],
+  placement: 'bottom',
+  duration: 350,
+  maxWidth: 400,
+  animation: 'shift-away',
+});
+
+
+tippy('.comments-delete15', {
+  content: document.querySelector('.delete15'),
+  arrow: true,
+  interactive: true,
+  trigger: 'click',
+  delay: [0, 0],
+  placement: 'bottom',
+  duration: 350,
+  maxWidth: 400,
+  animation: 'shift-away',
+});
+
+tippy('.comments-delete14', {
+  content: document.querySelector('.delete14'),
+  arrow: true,
+  interactive: true,
+  trigger: 'click',
+  delay: [0, 0],
+  placement: 'bottom',
+  duration: 350,
+  maxWidth: 400,
+  animation: 'shift-away',
+});
+
+
+tippy('.comments-delete13', {
+  content: document.querySelector('.delete13'),
+  arrow: true,
+  interactive: true,
+  trigger: 'click',
+  delay: [0, 0],
+  placement: 'bottom',
+  duration: 350,
+  maxWidth: 400,
+  animation: 'shift-away',
+});
+
+tippy('.comments-delete12', {
+  content: document.querySelector('.delete12'),
+  arrow: true,
+  interactive: true,
+  trigger: 'click',
+  delay: [0, 0],
+  placement: 'bottom',
+  duration: 350,
+  maxWidth: 400,
+  animation: 'shift-away',
+});
+
+tippy('.comments-delete11', {
+  content: document.querySelector('.delete11'),
+  arrow: true,
+  interactive: true,
+  trigger: 'click',
+  delay: [0, 0],
+  placement: 'bottom',
+  duration: 350,
+  maxWidth: 400,
+  animation: 'shift-away',
+});
+
+
+tippy('.comments-delete10', {
+  content: document.querySelector('.delete10'),
+  arrow: true,
+  interactive: true,
+  trigger: 'click',
+  delay: [0, 0],
+  placement: 'bottom',
+  duration: 350,
+  maxWidth: 400,
+  animation: 'shift-away',
+});
+
+tippy('.comments-delete9', {
+  content: document.querySelector('.delete9'),
+  arrow: true,
+  interactive: true,
+  trigger: 'click',
+  delay: [0, 0],
+  placement: 'bottom',
+  duration: 350,
+  maxWidth: 400,
+  animation: 'shift-away',
+});
+
+tippy('.comments-delete8', {
+  content: document.querySelector('.delete8'),
+  arrow: true,
+  interactive: true,
+  trigger: 'click',
+  delay: [0, 0],
+  placement: 'bottom',
+  duration: 350,
+  maxWidth: 400,
+  animation: 'shift-away',
+});
+
+tippy('.comments-delete7', {
+  content: document.querySelector('.delete7'),
+  arrow: true,
+  interactive: true,
+  trigger: 'click',
+  delay: [0, 0],
+  placement: 'bottom',
+  duration: 350,
+  maxWidth: 400,
+  animation: 'shift-away',
+});
+
+tippy('.comments-delete6', {
+  content: document.querySelector('.delete6'),
+  arrow: true,
+  interactive: true,
+  trigger: 'click',
+  delay: [0, 0],
+  placement: 'bottom',
+  duration: 350,
+  maxWidth: 400,
+  animation: 'shift-away',
+});
+
+tippy('.comments-delete5', {
+  content: document.querySelector('.delete5'),
+  arrow: true,
+  interactive: true,
+  trigger: 'click',
+  delay: [0, 0],
+  placement: 'bottom',
+  duration: 350,
+  maxWidth: 400,
+  animation: 'shift-away',
+});
+
+tippy('.comments-delete4', {
+  content: document.querySelector('.delete4'),
+  arrow: true,
+  interactive: true,
+  trigger: 'click',
+  delay: [0, 0],
+  placement: 'bottom',
+  duration: 350,
+  maxWidth: 400,
+  animation: 'shift-away',
+});
+
+tippy('.comments-delete3', {
+  content: document.querySelector('.delete3'),
+  arrow: true,
+  interactive: true,
+  trigger: 'click',
+  delay: [0, 0],
+  placement: 'bottom',
+  duration: 350,
+  maxWidth: 400,
+  animation: 'shift-away',
+});
+
+// tippy('.comments-delete2', {
+//   content: document.querySelector('.delete2'),
+//   arrow: true,
+//   interactive: true,
+//   trigger: 'click',
+//   delay: [0, 0],
+//   placement: 'bottom',
+//   duration: 350,
+//   maxWidth: 400,
+//   animation: 'shift-away',
+// });
+
+// tippy('.comments-delete1', {
+//   content: document.querySelector('.delete1'),
+//   arrow: true,
+//   interactive: true,
+//   trigger: 'click',
+//   delay: [0, 0],
+//   placement: 'bottom',
+//   duration: 350,
+//   maxWidth: 400,
+//   animation: 'shift-away',
+// });
+
+
+
 tippy('.header__notifications', {
   content: document.querySelector('.header__notifications_conteiner'),
   arrow: true,
