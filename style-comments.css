@@ -77,13 +77,16 @@
 }
 .timeline__item-comments-discussion {
     /* margin-bottom: 1.5em; */
-    margin-bottom: 1em;
+    /* margin-bottom: 1em; */
+    margin-bottom: 10px;
     display: flex;
     flex-direction: column;
     border: 1px solid #dfedf4;
     padding: 15px 10px;
     border-radius: 15px;
     background-color: #f9fdff;
+    /* box-shadow: 0px 1px 7px rgba(165, 165, 165, 0.50);
+    border-color: transparent; */
 }
 .timeline__item-comments-discussion:last-child {
     margin-bottom: 0;
