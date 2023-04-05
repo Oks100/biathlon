@@ -518,29 +518,29 @@ $(document).ready(function(){
         }, 2500);
       });
 
-      // let copyText2 = document.querySelector(".ip-info2");
-      // copyText2.querySelector("button").addEventListener("click", function () {
-      //   let input = copyText2.querySelector("input.text");
-      //   input.select();
-      //   document.execCommand("copy");
-      //   copyText2.classList.add("active");
-      //   window.getSelection().removeAllRanges();
-      //   setTimeout(function () {
-      //     copyText2.classList.remove("active");
-      //   }, 2500);
-      // });
+      let copyText2 = document.querySelector(".ip-info2");
+      copyText2.querySelector("button").addEventListener("click", function () {
+        let input = copyText2.querySelector("input.text");
+        input.select();
+        document.execCommand("copy");
+        copyText2.classList.add("active");
+        window.getSelection().removeAllRanges();
+        setTimeout(function () {
+          copyText2.classList.remove("active");
+        }, 2500);
+      });
 
-      // let copyText1 = document.querySelector(".ip-info1");
-      // copyText1.querySelector("button").addEventListener("click", function () {
-      //   let input = copyText1.querySelector("input.text");
-      //   input.select();
-      //   document.execCommand("copy");
-      //   copyText1.classList.add("active");
-      //   window.getSelection().removeAllRanges();
-      //   setTimeout(function () {
-      //     copyText1.classList.remove("active");
-      //   }, 2500);
-      // });
+      let copyText1 = document.querySelector(".ip-info1");
+      copyText1.querySelector("button").addEventListener("click", function () {
+        let input = copyText1.querySelector("input.text");
+        input.select();
+        document.execCommand("copy");
+        copyText1.classList.add("active");
+        window.getSelection().removeAllRanges();
+        setTimeout(function () {
+          copyText1.classList.remove("active");
+        }, 2500);
+      });
 
 
 
@@ -592,3 +592,11 @@ $(document).ready(function(){
       //     }
       //   }, 1000);
       // });
+
+
+      $(document).ready(function(){
+        $('.timeline__item-comments-more-comments').click(function () {
+            $('.timeline__item-comments-more-comments').addClass('hide');
+            $('.timeline__item-comments-discussion').removeClass('hide');
+            });
+        });

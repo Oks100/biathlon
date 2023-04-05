@@ -1020,28 +1020,28 @@ tippy('.comments-ip3', {
   animation: 'shift-away',
 });
 
-// tippy('.comments-ip2', {
-//   content: document.querySelector('.ip-info2'),
-//   arrow: true,
-//   interactive: true,
-//   trigger: 'click',
-//   delay: [0, 0],
-//   placement: 'bottom',
-//   duration: 350,
-//   maxWidth: 400,
-//   animation: 'shift-away',
-// });
-// tippy('.comments-ip1', {
-//   content: document.querySelector('.ip-info1'),
-//   arrow: true,
-//   interactive: true,
-//   trigger: 'click',
-//   delay: [0, 0],
-//   placement: 'bottom',
-//   duration: 350,
-//   maxWidth: 400,
-//   animation: 'shift-away',
-// });
+tippy('.comments-ip2', {
+  content: document.querySelector('.ip-info2'),
+  arrow: true,
+  interactive: true,
+  trigger: 'click',
+  delay: [0, 0],
+  placement: 'bottom',
+  duration: 350,
+  maxWidth: 400,
+  animation: 'shift-away',
+});
+tippy('.comments-ip1', {
+  content: document.querySelector('.ip-info1'),
+  arrow: true,
+  interactive: true,
+  trigger: 'click',
+  delay: [0, 0],
+  placement: 'bottom',
+  duration: 350,
+  maxWidth: 400,
+  animation: 'shift-away',
+});
 
 tippy('.comments-delete32', {
   content: document.querySelector('.delete32'),
@@ -1407,29 +1407,29 @@ tippy('.comments-delete3', {
   animation: 'shift-away',
 });
 
-// tippy('.comments-delete2', {
-//   content: document.querySelector('.delete2'),
-//   arrow: true,
-//   interactive: true,
-//   trigger: 'click',
-//   delay: [0, 0],
-//   placement: 'bottom',
-//   duration: 350,
-//   maxWidth: 400,
-//   animation: 'shift-away',
-// });
+tippy('.comments-delete2', {
+  content: document.querySelector('.delete2'),
+  arrow: true,
+  interactive: true,
+  trigger: 'click',
+  delay: [0, 0],
+  placement: 'bottom',
+  duration: 350,
+  maxWidth: 400,
+  animation: 'shift-away',
+});
 
-// tippy('.comments-delete1', {
-//   content: document.querySelector('.delete1'),
-//   arrow: true,
-//   interactive: true,
-//   trigger: 'click',
-//   delay: [0, 0],
-//   placement: 'bottom',
-//   duration: 350,
-//   maxWidth: 400,
-//   animation: 'shift-away',
-// });
+tippy('.comments-delete1', {
+  content: document.querySelector('.delete1'),
+  arrow: true,
+  interactive: true,
+  trigger: 'click',
+  delay: [0, 0],
+  placement: 'bottom',
+  duration: 350,
+  maxWidth: 400,
+  animation: 'shift-away',
+});
 
 
 
