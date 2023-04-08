@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'icomoon';
-  src:  url('fonts/icomoon.eot?jcqhrl');
-  src:  url('fonts/icomoon.eot?jcqhrl#iefix') format('embedded-opentype'),
-    url('fonts/icomoon.ttf?jcqhrl') format('truetype'),
-    url('fonts/icomoon.woff?jcqhrl') format('woff'),
-    url('fonts/icomoon.svg?jcqhrl#icomoon') format('svg');
+  src:  url('fonts/icomoon.eot?k85uh1');
+  src:  url('fonts/icomoon.eot?k85uh1#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?k85uh1') format('truetype'),
+    url('fonts/icomoon.woff?k85uh1') format('woff'),
+    url('fonts/icomoon.svg?k85uh1#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -25,6 +25,30 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-bb-link:before {
+  content: "\e087";
+}
+.icon-u2:before {
+  content: "\e086";
+}
+.icon-s2:before {
+  content: "\e085";
+}
+.icon-i2:before {
+  content: "\e084";
+}
+.icon-b2:before {
+  content: "\e083";
+}
+.icon-bb-eye:before {
+  content: "\e082";
+}
+.icon-arrow-down-triangle2:before {
+  content: "\e081";
+}
+.icon-arrow-down-triangle_1:before {
+  content: "\e080";
+}
 .icon-target:before {
   content: "\e077";
 }
