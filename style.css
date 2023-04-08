@@ -1434,7 +1434,7 @@ body {
 }
 .calendar-block__left {
 }
-.calendar-block__tittle {
+.calendar-block__title {
 }
 .calendar-block__month {
 }
@@ -7718,7 +7718,7 @@ article.timeline {
     .footer__column-content ul li {
       margin-left: 15px;
     }
-    .footer__column-min_tittle {
+    .footer__column-min_title {
       font-size: 1.3em;
       font-weight: 700;
       display: flex;
@@ -7728,7 +7728,7 @@ article.timeline {
       margin-left: 25px;
       -webkit-tap-highlight-color: transparent;
     }
-    .footer__column-min_tittle::before {
+    .footer__column-min_title::before {
       background: #ffd700;
       border-radius: 8px;
       content: "";
@@ -8039,7 +8039,7 @@ html[data-theme="dark"] .exit-yes, html[data-theme="dark"] .timeline-sponsors .s
   background-color: #184779;
   border-color: #184779;
 }
-html[data-theme="dark"] .map-legend-2::before, html[data-theme="dark"] .number-item[data-num="26"]::before, html[data-theme="dark"] .number-item[data-num="23"]::after, html[data-theme="dark"] .number-item[data-num="22"]::after, html[data-theme="dark"] .number-item[data-num="20"]::before, html[data-theme="dark"] .number-item[data-num="18"]::after, html[data-theme="dark"] .number-item[data-num="17"]::after, html[data-theme="dark"] .number-item[data-num="13"]::before, html[data-theme="dark"] .number-item[data-num="9"]::after, html[data-theme="dark"] .number-item[data-num="8"]::after, html[data-theme="dark"] .footer__column-content ul li a::before, html[data-theme="dark"] .footer__column-min_tittle::before, html[data-theme="dark"] .footer__column-min_tittle::before, html[data-theme="dark"] .footer::before, html[data-theme="dark"] .race-waiting::before, html[data-theme="dark"] .footer__column ul li a::before, html[data-theme="dark"] .footer__column span::before, html[data-theme="dark"] .footer__title span::before {
+html[data-theme="dark"] .map-legend-2::before, html[data-theme="dark"] .number-item[data-num="26"]::before, html[data-theme="dark"] .number-item[data-num="23"]::after, html[data-theme="dark"] .number-item[data-num="22"]::after, html[data-theme="dark"] .number-item[data-num="20"]::before, html[data-theme="dark"] .number-item[data-num="18"]::after, html[data-theme="dark"] .number-item[data-num="17"]::after, html[data-theme="dark"] .number-item[data-num="13"]::before, html[data-theme="dark"] .number-item[data-num="9"]::after, html[data-theme="dark"] .number-item[data-num="8"]::after, html[data-theme="dark"] .footer__column-content ul li a::before, html[data-theme="dark"] .footer__column-min_title::before, html[data-theme="dark"] .footer__column-min_title::before, html[data-theme="dark"] .footer::before, html[data-theme="dark"] .race-waiting::before, html[data-theme="dark"] .footer__column ul li a::before, html[data-theme="dark"] .footer__column span::before, html[data-theme="dark"] .footer__title span::before {
   background-color: #e3c000;
 }
 html[data-theme="dark"] .footer__column ul li a:hover::before, html[data-theme="dark"] .footer__column-content ul li a:hover::before {
@@ -8840,7 +8840,7 @@ html[data-theme="Black"] .table__two tbody .active-biathlete td:not(.table0_100 
 html[data-theme="Black"] .footer__warning p, html[data-theme="Black"] .footer__address, html[data-theme="Black"] .footer__copyright, html[data-theme="Black"] .footer__rights {
   color: #bfcfe0;
 }
-html[data-theme="Black"] .map-legend-2::before, html[data-theme="Black"] .number-item[data-num="26"]::before, html[data-theme="Black"] .number-item[data-num="23"]::after, html[data-theme="Black"] .number-item[data-num="22"]::after, html[data-theme="Black"] .number-item[data-num="20"]::before, html[data-theme="Black"] .number-item[data-num="18"]::after, html[data-theme="Black"] .number-item[data-num="17"]::after, html[data-theme="Black"] .number-item[data-num="13"]::before, html[data-theme="Black"] .number-item[data-num="9"]::after, html[data-theme="Black"] .number-item[data-num="8"]::after, html[data-theme="Black"] .footer__column-min_tittle::before, html[data-theme="Black"] .footer::before, html[data-theme="Black"] .footer__column ul li a::before, html[data-theme="Black"] .footer__column span::before, html[data-theme="Black"] .footer__title span::before {
+html[data-theme="Black"] .map-legend-2::before, html[data-theme="Black"] .number-item[data-num="26"]::before, html[data-theme="Black"] .number-item[data-num="23"]::after, html[data-theme="Black"] .number-item[data-num="22"]::after, html[data-theme="Black"] .number-item[data-num="20"]::before, html[data-theme="Black"] .number-item[data-num="18"]::after, html[data-theme="Black"] .number-item[data-num="17"]::after, html[data-theme="Black"] .number-item[data-num="13"]::before, html[data-theme="Black"] .number-item[data-num="9"]::after, html[data-theme="Black"] .number-item[data-num="8"]::after, html[data-theme="Black"] .footer__column-min_title::before, html[data-theme="Black"] .footer::before, html[data-theme="Black"] .footer__column ul li a::before, html[data-theme="Black"] .footer__column span::before, html[data-theme="Black"] .footer__title span::before {
   background-color: #c8a900;
 }
 html[data-theme="Black"] .footer__facebook:hover, html[data-theme="Black"] .footer__twitter:hover, html[data-theme="Black"] .footer__instagram:hover, html[data-theme="Black"] .footer__telegram:hover, html[data-theme="Black"] .footer__youtube:hover, html[data-theme="Black"] .footer__facebook:hover, html[data-theme="Black"] .footer__twitter:hover, html[data-theme="Black"] .footer__instagram:hover, html[data-theme="Black"] .footer__telegram:hover, html[data-theme="Black"] .footer__youtube:hover {
@@ -9015,7 +9015,7 @@ html[data-theme="grey"] main a:hover, html[data-theme="grey"] .comment-block__ru
   color: #73abd2;
   border-color: #73abd2;
 }
-html[data-theme="grey"] .map-legend-2::before, html[data-theme="grey"] .number-item[data-num="26"]::before, html[data-theme="grey"] .number-item[data-num="23"]::after, html[data-theme="grey"] .number-item[data-num="22"]::after, html[data-theme="grey"] .number-item[data-num="20"]::before, html[data-theme="grey"] .number-item[data-num="18"]::after, html[data-theme="grey"] .number-item[data-num="17"]::after, html[data-theme="grey"] .number-item[data-num="13"]::before, html[data-theme="grey"] .number-item[data-num="9"]::after, html[data-theme="grey"] .number-item[data-num="8"]::after, html[data-theme="grey"] .footer__column-content ul li a::before, html[data-theme="grey"] .footer__column-min_tittle::before, html[data-theme="grey"] .footer::before, html[data-theme="grey"] .race-waiting::before, html[data-theme="grey"] .footer__column ul li a::before, html[data-theme="grey"] .footer__column span::before, html[data-theme="grey"] .footer__title span::before, html[data-theme="grey"] .header::before, html[data-theme="grey"] .footer::before {
+html[data-theme="grey"] .map-legend-2::before, html[data-theme="grey"] .number-item[data-num="26"]::before, html[data-theme="grey"] .number-item[data-num="23"]::after, html[data-theme="grey"] .number-item[data-num="22"]::after, html[data-theme="grey"] .number-item[data-num="20"]::before, html[data-theme="grey"] .number-item[data-num="18"]::after, html[data-theme="grey"] .number-item[data-num="17"]::after, html[data-theme="grey"] .number-item[data-num="13"]::before, html[data-theme="grey"] .number-item[data-num="9"]::after, html[data-theme="grey"] .number-item[data-num="8"]::after, html[data-theme="grey"] .footer__column-content ul li a::before, html[data-theme="grey"] .footer__column-min_title::before, html[data-theme="grey"] .footer::before, html[data-theme="grey"] .race-waiting::before, html[data-theme="grey"] .footer__column ul li a::before, html[data-theme="grey"] .footer__column span::before, html[data-theme="grey"] .footer__title span::before, html[data-theme="grey"] .header::before, html[data-theme="grey"] .footer::before {
   background-color: #f3cc00;
 }
 html[data-theme="grey"] .footer__column ul li a:hover::before, html[data-theme="grey"] .footer__column-content ul li a:hover::before {

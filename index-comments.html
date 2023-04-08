@@ -320,7 +320,7 @@
           <span class="delimiter"></span>
           <a href="#">Новости</a>
           <span class="delimiter"></span>
-          <span href="#" class="timeline__speedbar-tittle">Стартовые составы субботних гонок</span>
+          <span href="#" class="timeline__speedbar-title">Стартовые составы субботних гонок</span>
       </div>
         <div class="timeline__item">
           <div class="timeline__head">
@@ -614,7 +614,7 @@
         </div>
         <div class="timeline__item-comments" id="timeline__item-comments">
           <div class="timeline__item-comments-head">
-            <span class="timeline__item-comments-tittle">Комментарии</span><span>32</span>
+            <span class="timeline__item-comments-title">Комментарии</span><span>32</span>
           </div>
           <div class="timeline__item-comments-body">
             <div class="timeline__item-comments-more-comments">
@@ -2731,25 +2731,36 @@
             </div>
             <div class="timeline__item-comments-write">
               <div class="timeline__item-comments-write-head">
-                <span class="timeline__item-comments-write-tittle">Добавить комментарий</span>
+                <span class="timeline__item-comments-write-title">Добавить комментарий</span>
                 <span class="timeline__item-comments-write-rules">Правила сайта</span>
               </div>
               <div class="timeline__item-comments-write-body">
                 <div class="timeline__item-comments-write-avatar timeline__item-comments-avatar">
+                  <div class="timeline__item-comments-avatar-body">
                   <svg class="discussion-male" version="1.0" xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 50 50"><path d="M17.7 1.4C3.1 6.8-3.8 22.5 2.6 35.3c7.9 15.6 27.7 19.1 39.8 7.1 9.6-9.7 9.6-25.1 0-34.8-6.4-6.3-17.1-9-24.7-6.2zm13.8 3.7c2.3.7 5.7 2.8 8.1 5.3 7.8 7.8 8.5 19.3 1.6 27.6-2.8 3.2-3 3.3-6 2.1-3.9-1.6-3.9-2.5-.7-7.3 2.3-3.4 2.5-4.3 1.9-10.8-.5-4.7-1.3-7.7-2.5-9.2-1.1-1.1-1.9-2.7-1.9-3.5 0-1.8-7-1.7-11.5.1-4.6 1.9-6.2 4.9-6.9 12.9-.6 6.1-.4 7.1 1.9 10.4 3.2 4.8 3.2 5.8-.6 7.4-3 1.2-3.3 1.1-6-1.9-6.7-7.5-6.3-19.6.9-27.4 5.7-6 13.2-8 21.7-5.7zm.9 13.6c1.9 6.6 1.7 9.1-.8 13.1-4.2 6.8-9 6.8-13.2 0-2.2-3.5-2.5-4.7-1.9-8.7.4-2.5.9-4.9 1.2-5.4.2-.4 3.5-.7 7.3-.7 5.7 0 7 .3 7.4 1.7zm-2.4 23c0 1.6-.8 2.5-2.5 2.9-4 1-7.5-.3-7.5-2.9 0-2 .5-2.2 5-2.2s5 .2 5 2.2z"/></svg>
                   <span class="logged"></span>
-                  <div class="timeline__item-total-accuracy">
-                    <span title="Общая меткость комментариев">94%</span>
                   </div>
-                </div>
-                <div class="timeline__item-comments-write-textarea-body">
                   <div class="timeline__item-comments-profile-all">
                     <div class="timeline__item-comments-username">
                       <a href="#">Eugen</a><div class="user-locality">(Харьков)</div>
                     </div>
                   </div>
-                <textarea class="timeline__item-comments-write-textarea" placeholder="Написать комментарий..." rows="20" name="comment[text]" id="comment_text" cols="40" class="ui-autocomplete-input" autocomplete="off" role="textbox" aria-autocomplete="list" aria-haspopup="true"></textarea>
                 </div>
+                <div class="timeline__item-comments-write-textarea-body">
+                  <div class="timeline__item-total-accuracy">
+                    <span title="Общая меткость комментариев">94%</span>
+                  </div>
+                  <div class="timeline__item-comments-write-textarea-content" tabindex="0">
+                    <div class="textarea">
+                    <textarea id="text-field" class="text-field" placeholder="Написать комментарий..."></textarea>
+                    <div class="toolbar-list">
+                      <div class="toolbar">
+                      </div>
+                      <button id="toolbar-message-button" type="submit">Отправить</button>
+                    </div>
+                    </div>
+                </div>
+              </div>
               </div>
             </div>
           </div>
@@ -7162,7 +7173,7 @@
       <div class="footer__body">
         <div class="footer__accordion-container">
           <div class="footer__column-min">
-            <span class="footer__column-min_tittle">
+            <span class="footer__column-min_title">
               Разное
               <span class="footer__icon"></span>
             </span>
@@ -7184,7 +7195,7 @@
             </div>
           </div>
           <div class="footer__column-min">
-            <span class="footer__column-min_tittle">
+            <span class="footer__column-min_title">
               Соревнования
               <span class="footer__icon"></span>
             </span>
@@ -7206,7 +7217,7 @@
             </div>
           </div>
           <div class="footer__column-min">
-            <span class="footer__column-min_tittle">
+            <span class="footer__column-min_title">
               Наша команда
               <span class="footer__icon"></span>
             </span>
@@ -7221,7 +7232,7 @@
             </div>
           </div>
           <div class="footer__column-min">
-            <span class="footer__column-min_tittle">
+            <span class="footer__column-min_title">
               Связаться с нами
               <span class="footer__icon"></span>
             </span>
