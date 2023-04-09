@@ -5110,7 +5110,8 @@ table.popular__table tbody tr {
 .birthday-foto {
   border-radius: 8px;
   margin: 0.75em 0 0.7em 0;
-  max-width: 100%;
+  /* max-width: 100%; */
+  max-width: 210px;
 }
 .birthday-block__head {
   color: #1f7ec4;
@@ -5185,13 +5186,15 @@ table.popular__table tbody tr {
   color: #1f7ec4;
   margin-bottom: 0.75em;
 }
-.history-block__body {
+.history-block__body span {
+  display: block;
   text-align: left;
 }
 .history-foto {
   border-radius: 8px;
   margin-top: 0.75em;
-  max-width: 100%;
+  /* max-width: 100%; */
+  max-width: 210px;
 }
 
 
