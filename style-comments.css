@@ -1370,6 +1370,9 @@
         scale: 1;
         margin-left: 20px;
     }
+}
+
+@media  (max-width: 379px) {
     .toolbar-list::before {
         position: absolute;
         content: "";
@@ -1384,7 +1387,8 @@
         z-index: -1;
     }
 }
-@media  (min-width: 430px) {
+
+@media  (max-width: 330px) {
     .timeline__item-comments-write-textarea-content .toolbar {
         gap: 8px;
         width: 200px;
