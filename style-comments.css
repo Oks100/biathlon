@@ -1211,7 +1211,7 @@
 }
 
 .text-field:focus {
-    background: #fafdff;
+    /* background: #fafdff; */
     border-color: #b0dbf1;
 }
 .text-field:focus ~ .toolbar-list {
@@ -1334,6 +1334,23 @@
     }
 }
 @media  (max-width: 370px) {
+    .timeline__item-comments-write-textarea-content .toolbar {
+        width: 105px;
+    }
+}
+@media  (max-width: 335px) {
+    .timeline__item-comments-write-textarea-content .toolbar {
+        width: 95px;
+        gap: 5px;
+    }
+} */
+
+@media  (max-width: 390px) {
+    .timeline__item-comments-write-textarea-content .toolbar {
+        width: fit-content;
+    }
+}
+/* @media  (max-width: 370px) {
     .timeline__item-comments-write-textarea-content .toolbar {
         width: 105px;
     }
