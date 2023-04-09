@@ -1316,7 +1316,19 @@
     transition: all 0s ease 0s;
 }
 
-@media  (max-width: 450px) {
+#toolbar-message-button p {
+    display: flex;
+    align-items: center;
+}
+#toolbar-message-button p::before {
+    content: "\e089";
+    font-family: 'icomoon';
+    color: #81aad5;
+    font-size: 1.30em;
+    margin-right: 5px;
+}
+
+/* @media  (max-width: 450px) {
     .timeline__item-comments-write-textarea-content .toolbar {
         width: 60%;
     }
@@ -1331,4 +1343,4 @@
         width: 95px;
         gap: 5px;
     }
-}
+} */
