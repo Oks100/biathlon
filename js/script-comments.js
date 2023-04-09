@@ -951,18 +951,52 @@ for(let i of textareas) {
 /* Продвинутое автоувеличение поля ввода*/
 
 
+/*Добавление/удаление класса при достижении конца скролла*/
+$('.toolbar-content').scroll(function() {
+  var width = $('.toolbar-content').scrollLeft();
+  if (this.scrollWidth - this.scrollLeft === this.clientWidth) {
+  $('.toolbar-list').addClass('hide');
+  } else{
+  $('.toolbar-list').removeClass('hide');
+  }
+  });
+/*Добавление/удаление класса при достижении конца скролла*/
 
 
 
+// const toolbar = document.querySelector('.toolbar');
+// const toolbarContent = document.querySelector('.toolbar');
+
+// window.addEventListener('scroll', () => {
+//   if (toolbarContent.scrollLeft >= 100) {
+//     toolbar.classList.add('hide');
+//   } else {
+//     toolbar.classList.remove('hide');
+//   }
+// });
 
 
+// window.addEventListener('scroll', function() {
+//   let toolbar = document.querySelector('.toolbar');
+//   if (toolbar.scrollLeft >= 100) {
+//     toolbar.classList.add('hide');
+//   } else {
+//     toolbar.classList.remove('hide');
+//   }
+// });
 
-
-
-
-
-
-
+/*Добавление/удаление класса при достижении пикселей*/
+// $('.toolbar-content').scroll(function() {
+//   var width = $('.toolbar-content').scrollLeft();
+//        /*Если сделали скролл на 100px задаём новый класс для header*/
+//   if(width > 1){
+//   $('.toolbar').addClass('.header-fixed');
+//   } else{
+//        /*Если меньше 100px удаляем класс для header*/
+//   $('.toolbar').removeClass('.header-fixed');
+//   }
+//   });
+/*Добавление/удаление класса при достижении пикселей*/
 
 
 
