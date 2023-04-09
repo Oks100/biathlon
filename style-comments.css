@@ -1384,7 +1384,7 @@
         z-index: -1;
     }
 }
-@media  (max-width: 430px) {
+@media  (min-width: 430px) {
     .timeline__item-comments-write-textarea-content .toolbar {
         gap: 8px;
         width: 200px;
