@@ -1177,6 +1177,10 @@ body {
   display: block;
 }
 
+.calendar .calendar-inner .calendar-body div:nth-child(6), .calendar .calendar-inner .calendar-body div:nth-child(7), .calendar2 .calendar-inner .calendar-body div:nth-child(6), .calendar2 .calendar-inner .calendar-body div:nth-child(7) {
+  color: red;
+}
+
 .calendar .calendar-inner .calendar-body div:nth-child(-n+7) {
     /* border: 1px solid transparent; */
     border-bottom: 1px solid var(--weekdays-border-bottom-color);
@@ -2049,7 +2053,9 @@ border-radius: 5px;
 
 
 
-
+img[src*="flags"] {
+  width: 18px;
+}
 
 
 
@@ -2884,6 +2890,7 @@ border-radius: 5px;
     display: block;
     background-repeat: no-repeat;
     margin-top: 7px;
+    scale: 1;
   }
   .dropdown__box ul li a[href*="EN"]::before {
     /* content: url('//www.biathlon.com.ua/uploads/0/61.gif');
@@ -2897,6 +2904,7 @@ border-radius: 5px;
     display: block;
     background-repeat: no-repeat;
     margin-top: 7px;
+    scale: 1;
   }
   .burger-menu_nav-menu-list li a[href*="UA"] .list-center2::before {
     content: '';
@@ -2907,6 +2915,7 @@ border-radius: 5px;
     height: 20px;
     display: block;
     background-repeat: no-repeat;
+    scale: 1;
   }
   .burger-menu_nav-menu-list li a[href*="EN"] .list-center2::before {
     content: '';
@@ -2917,6 +2926,7 @@ border-radius: 5px;
     height: 20px;
     display: block;
     background-repeat: no-repeat;
+    scale: 1;
   }
   .burger-menu_nav-menu-list li a .list-center2 {
     display: flex;
@@ -2926,6 +2936,7 @@ border-radius: 5px;
   .dropdown__box ul li a[href*="RU"]::before {
     content: url('img/nullflag2.png');
     margin-right: 5px;
+    scale: 1;
   }
   .burger-menu_nav-menu-list li a[href*="RU"] .list-center2::before {
     content: '';
@@ -2936,6 +2947,7 @@ border-radius: 5px;
     height: 20px;
     display: block;
     background-repeat: no-repeat;
+    scale: 1;
   }
   .burger-menu__profile {
     display: flex;
@@ -5223,6 +5235,11 @@ table.popular__table tbody tr {
   background: #fff;
   padding: 0 35px 0 17px;
   box-shadow: 0 1px 2px rgba(0,0,0,.5) inset, 0 -1px 0 rgba(0,0,0,.2) inset;
+}
+.popular-block__search-form input:focus {
+  box-shadow: none;
+  outline: 1px solid rgb(176, 219, 242);
+  border: 1px solid rgb(176, 219, 242);
 }
 .popular-block__search-form input:focus::-moz-placeholder { 
   color: transparent;
