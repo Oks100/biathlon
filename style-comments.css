@@ -834,7 +834,8 @@
     padding: 0 0 0 10px;
 }
 .timeline__item-comments-ip-info input {
-    width: 87.9px;
+    /* width: 87.9px; */
+    width: fit-content;
 }
 .timeline__item-comments-ip-info button {
     display: flex;
