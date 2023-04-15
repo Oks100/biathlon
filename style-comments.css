@@ -478,7 +478,8 @@
     position: relative;
     z-index: 1;
     justify-content: flex-end;
-    background-color: #f9fdff;
+    /* background-color: #f9fdff; */
+    background-color: #fff;
 }
 .timeline__item-comments-target-percent {
     display: flex;
@@ -834,8 +835,7 @@
     padding: 0 0 0 10px;
 }
 .timeline__item-comments-ip-info input {
-    /* width: 87.9px; */
-    width: fit-content;
+    width: 87.9px; /* Костыль для мобилок */
 }
 .timeline__item-comments-ip-info button {
     display: flex;
