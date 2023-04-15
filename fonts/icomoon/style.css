@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'icomoon';
-  src:  url('fonts/icomoon.eot?gk6cil');
-  src:  url('fonts/icomoon.eot?gk6cil#iefix') format('embedded-opentype'),
-    url('fonts/icomoon.ttf?gk6cil') format('truetype'),
-    url('fonts/icomoon.woff?gk6cil') format('woff'),
-    url('fonts/icomoon.svg?gk6cil#icomoon') format('svg');
+  src:  url('fonts/icomoon.eot?57liw9');
+  src:  url('fonts/icomoon.eot?57liw9#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?57liw9') format('truetype'),
+    url('fonts/icomoon.woff?57liw9') format('woff'),
+    url('fonts/icomoon.svg?57liw9#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -25,6 +25,15 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-copy-9:before {
+  content: "\e100";
+}
+.icon-copy-4:before {
+  content: "\e097";
+}
+.icon-copy-6:before {
+  content: "\e098";
+}
 .icon-arrow-down-comments-5:before {
   content: "\e096";
 }
@@ -273,6 +282,9 @@
 }
 .icon-clock2:before {
   content: "\e905";
+}
+.icon-copy-7:before {
+  content: "\e099";
 }
 .icon-copy:before {
   content: "\e078";
