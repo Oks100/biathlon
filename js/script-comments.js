@@ -952,6 +952,7 @@ for(let i of textareas) {
 
 
 /*Добавление/удаление класса при достижении конца скролла*/
+
 $('.toolbar-content').scroll(function() {
   var width = $('.toolbar-content').scrollLeft();
   if (this.scrollWidth - this.scrollLeft === this.clientWidth) {
@@ -960,6 +961,152 @@ $('.toolbar-content').scroll(function() {
   $('.toolbar-list').removeClass('hide');
   }
   });
+
+// const toolbarContent = document.querySelector('.toolbar-content');
+// const toolbarList = document.querySelector('.toolbar-list');
+// let currentPosition = toolbarContent.scrollLeft;
+
+// toolbarContent.addEventListener('scroll', () => {
+//   const new_position = toolbarContent.scrollLeft;
+//   if (new_position > currentPosition + 10) {
+//     toolbarList.classList.add('hide');
+//   } else if (new_position < currentPosition - 0) {
+//     toolbarList.classList.remove('hide');
+//   }
+//   currentPosition = new_position;
+// });
+
+
+
+// var toolbarContent = document.querySelector('.toolbar-content');
+// var toolbarList = document.querySelector('.toolbar-list');
+
+// toolbarContent.addEventListener('scroll', function() {
+//   var scrollLeft = toolbarContent.scrollLeft + toolbarContent.clientWidth >= toolbarContent.scrollWidth;
+//   if (scrollLeft) {
+//     toolbarList.classList.add('hide');
+//   } else {
+//     toolbarList.classList.remove('hide');
+//   }
+// });
+
+
+// !рабочий наоборот
+// const toolbarContent = document.querySelector('.toolbar-content');
+// const toolbarList = document.querySelector('.toolbar-list');
+
+// toolbarContent.addEventListener('scroll', () => {
+//   if (toolbarContent.scrollLeft === 0) {
+//     toolbarList.classList.add('hide'); 
+//   } else {
+//     toolbarList.classList.remove('hide');
+//   }
+// });
+
+
+// const toolbarContent = document.querySelector('.toolbar-content');
+// const toolbarList = document.querySelector('.toolbar-list');
+
+// toolbarContent.addEventListener('scroll', () => {
+//   if (toolbarContent.scrollLeft === 0) {
+//     toolbarList.classList.add('hide'); 
+//   } else if(toolbarContent.scrollLeft === (toolbarContent.scrollWidth - toolbarContent.clientWidth)) {
+//     toolbarList.classList.add('hide');
+//   } else {
+//     toolbarList.classList.remove('hide');
+//   }
+// });
+
+
+// const toolbarContent = document.querySelector('.toolbar-content');
+// const toolbarList = document.querySelector('.toolbar-list');
+
+// toolbarContent.addEventListener('scroll', () => {
+//   if (toolbarContent.scrollLeft + toolbarContent.clientWidth === toolbarContent.scrollWidth) {
+//     toolbarList.classList.add('hide');
+//   } else {
+//     toolbarList.classList.remove('hide');
+//   }
+// });
+
+
+// const toolbarContent = document.querySelector('.toolbar-content');
+// const toolbarList = document.querySelector('.toolbar-list');
+
+// toolbarContent.addEventListener('scroll', () => {
+//   if (toolbarContent.scrollLeft === 0) {
+//     toolbarList.classList.add('hide'); 
+//   } else {
+//     toolbarList.classList.remove('hide');
+//   }
+// });
+
+
+// const toolbarContent = document.querySelector('.toolbar-content');
+// const toolbarList = document.querySelector('.toolbar-list');
+
+// let prevScrollpos = toolbarContent.scrollLeft;
+
+// toolbarContent.addEventListener('scroll', function() {
+//   const currentScrollPos = toolbarContent.scrollLeft;
+//   // Check if user has scrolled to the right
+//   if (currentScrollPos > prevScrollpos) {
+//     const scrollRight = currentScrollPos + toolbarContent.clientWidth;
+//     if (scrollRight >= toolbarContent.scrollWidth) {
+//       toolbarList.classList.add('hide');
+//     } else {
+//       toolbarList.classList.remove('hide');
+//     }
+//   } else {
+//     toolbarList.classList.remove('hide');
+//   }
+//   prevScrollpos = currentScrollPos;
+// });
+
+
+// const toolbarContent = document.querySelector('.toolbar-content');
+// const toolbarList = document.querySelector('.toolbar-list');
+
+// toolbarContent.addEventListener('scroll', () => {
+//   if (toolbarContent.scrollLeft === 0) {
+//     toolbarList.classList.add('hide');
+//   } else if (toolbarContent.scrollLeft + toolbarContent.clientWidth >= toolbarContent.scrollWidth) {
+//     toolbarList.classList.add('hide');
+//   } else {
+//     toolbarList.classList.remove('hide');
+//   }
+// });
+
+
+// const toolbarContent = document.querySelector('.toolbar-content');
+// const toolbarList = document.querySelector('.toolbar-list');
+
+// toolbarContent.addEventListener('scroll', () => {
+//   if (toolbarContent.scrollLeft === toolbarContent.scrollWidth - toolbarContent.clientWidth) {
+//     toolbarList.classList.add('hide');
+//   } else {
+//     toolbarList.classList.remove('hide');
+//   }
+// });
+
+
+
+
+// let toolbarContent = document.querySelector('.toolbar-list');
+// let toolbarList = document.querySelector('.toolbar-content');
+
+// toolbarContent.addEventListener('scroll', function() {
+//   if (toolbarContent.scrollLeft === toolbarContent.scrollWidth - toolbarContent.clientWidth) {
+//     toolbarList.classList.add('hide');
+//   } else {
+//     toolbarList.classList.remove('hide');
+//   }
+// });
+
+// if (toolbarContent.scrollLeft === toolbarContent.scrollWidth - toolbarContent.clientWidth) {
+
+
+
 /*Добавление/удаление класса при достижении конца скролла*/
 
 
