@@ -614,7 +614,13 @@
         </div>
         <div class="timeline__item-comments" id="timeline__item-comments">
           <div class="timeline__item-comments-head">
-            <span class="timeline__item-comments-title">Комментарии</span><span>32</span>
+            <div class="timeline__item-comments-title">
+              <span>Комментарии</span>
+              <span class="timeline__item-comments-title-number">32</span>
+            </div>
+            <a href="#write-comment" class="timeline__item-comments-to-write-comments">
+              Прокомментировать
+            </a>
           </div>
           <div class="timeline__item-comments-body">
             <div class="timeline__item-comments-more-comments">
@@ -2731,10 +2737,14 @@
                 </div>
               </div>
             </div>
-            <div class="timeline__item-comments-write">
+            <div class="timeline__item-comments-write" id="write-comment">
               <div class="timeline__item-comments-write-head">
                 <span class="timeline__item-comments-write-title">Добавить комментарий</span>
-                <span class="timeline__item-comments-write-rules"><span class="timeline__item-comments-write-icon"></span>Правила сайта</span>
+                <div class="timeline__item-comments-write-rules">
+                  <span class="timeline__item-comments-write-rules-text">
+                    <i class="timeline__item-comments-write-rules-icon"></i>
+                    Правила сайта</span>
+                </div>
               </div>
               <div class="timeline__item-comments-write-body">
                 <div class="timeline__item-comments-write-avatar timeline__item-comments-avatar">
