@@ -795,17 +795,6 @@ window.onload = () => {
 /* Форма ввода комментария*/
 
 
-/* Автоувеличение поля ввода*/
-    // var textarea2 = document.querySelector('.text-field');
-
-    // textarea2.addEventListener('keyup', function(){
-    //   if(this.scrollTop > 0){
-    //     this.style.height = this.scrollHeight + "px";
-    //   }
-    // });
-/* Автоувеличение поля ввода*/
-
-
 
 /* Продвинутое автоувеличение поля ввода*/
 
@@ -878,6 +867,53 @@ for(let i of textareas) {
 /* Продвинутое автоувеличение поля ввода*/
 
 
+/* Продвинутое автоувеличение поля ввода*/
+
+// Targets all textareas with class "text-field"
+let textareass = document.querySelectorAll('.text-field2'),
+    hiddenDivv = document.createElement('div'),
+    contentt = null;
+
+for (let j of textareass) {
+  j.classList.add('txtstuff');
+}
+
+hiddenDivv.classList.add('text-field2');
+
+hiddenDivv.style.display = 'none';
+hiddenDivv.style.whiteSpace = 'pre-wrap';
+hiddenDivv.style.wordWrap = 'break-word';
+
+for(let i of textareass) {
+  (function(i) {
+    i.addEventListener('input', function() {
+      
+      i.parentNode.appendChild(hiddenDivv);
+      
+      i.style.resize = 'none';
+      
+      i.style.overflow = 'hidden';
+
+      contentt = i.value;
+
+      contentt = contentt.replace(/\n/g, '<br>');
+      
+      hiddenDivv.innerHTML = contentt + '<br style="line-height: 3px;">';
+
+      hiddenDivv.style.visibility = 'hidden';
+      hiddenDivv.style.display = 'block';
+      i.style.height = hiddenDivv.offsetHeight + 'px';
+
+      hiddenDivv.style.visibility = 'visible';
+      hiddenDivv.style.display = 'none';
+    });
+  })(i);
+}
+
+/* Продвинутое автоувеличение поля ввода*/
+
+
+
 /*Добавление/удаление класса при достижении конца скролла*/
 
 $('.toolbar-content').scroll(function() {
@@ -898,3 +934,24 @@ $(document).ready(function() {
   });
 });
 /* Спойлер кнопка в комментах */
+
+
+
+$(document).ready(function(){
+  $('.timeline__item-comments-edit.toggle').click(function () {
+      $('.discussion-newest').addClass('hide2');
+      });
+  });
+
+  $(document).ready(function(){
+    $('.toolbar-message-button-edit').click(function () {
+        $('.discussion-newest').removeClass('hide2');
+        });
+    });
+
+
+    $(document).ready(function(){
+      $('.timeline__item-comments-comment-more').click(function () {
+          $('.timeline__item-comments-discussion').removeClass('discussion-overflow');
+          });
+      });
