@@ -3423,7 +3423,7 @@ img[src*="flags"] {
   .timeline a {
     color: #002b71;
   }
-  .timeline a:hover {
+  .timeline a:hover:not(.timeline__item-comments-answer-button a) {
     color: #73b5e5;
   }
   .timeline__body a:hover, .timeline__body-important-news a:hover {
