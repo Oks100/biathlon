@@ -144,9 +144,6 @@
     top: 0;
 } */
 
-
-.timeline__item-comments-body {
-}
 .timeline__item-comments-more-comments {
     display: flex;
     justify-content: center;
@@ -322,6 +319,9 @@
 .timeline__item-comments-body {
     display: flex;
     flex-direction: column;
+}
+.timeline__item-comments-body.full {
+    margin-top: 3.37em;
 }
 .timeline__item-total-accuracy {
     /* min-width: 62.5px; */
