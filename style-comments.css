@@ -1536,6 +1536,13 @@
         border-top: 2px solid #d0d9dd;
         box-shadow: 0 0 20px #d0d9dd;
         cursor: pointer;
+        transition: all .4s ease;
+    }
+    .timeline__item-comments-comment-more:hover {
+        border-color: #9aa0a2;
+    }
+    .timeline__item-comments-comment-more:hover span {
+        color: #002b71;
     }
     .timeline__item-comments-comment-more span {
         display: flex;
