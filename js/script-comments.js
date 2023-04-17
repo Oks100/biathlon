@@ -955,3 +955,9 @@ $(document).ready(function(){
           $('.timeline__item-comments-discussion').removeClass('discussion-overflow');
           });
       });
+
+      $(document).ready(function(){
+        $('.timeline__item-comments-more-comments').click(function () {
+            $('.timeline__item-comments-body').addClass('full');
+            });
+        });
