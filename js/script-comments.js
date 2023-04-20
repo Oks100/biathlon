@@ -943,21 +943,38 @@ $(document).ready(function(){
       });
   });
 
+$(document).ready(function(){
+  $('.toolbar-message-button-edit').click(function () {
+      $('.discussion-newest').removeClass('hide2');
+      });
+  });
+
+$(document).ready(function(){
+  $('.timeline__item-comments-comment-more').click(function () {
+      $('.timeline__item-comments-discussion').removeClass('discussion-overflow');
+      });
+  });
+
+$(document).ready(function(){
+  $('.timeline__item-comments-more-comments').click(function () {
+      $('.timeline__item-comments-body').addClass('full');
+      });
+  });
+
+$(document).ready(function(){
+  $('.comments-guest').click(function () {
+      $('.timeline__item-comments-write').toggleClass('guest-user');
+      });
+  });
+
+$(document).ready(function(){
+  $('.timeline__item-comments-write-body-tab-registr').click(function () {
+      $('.timeline__item-comments-write').addClass('tab-password');
+      });
+  });
+
   $(document).ready(function(){
-    $('.toolbar-message-button-edit').click(function () {
-        $('.discussion-newest').removeClass('hide2');
+    $('.timeline__item-comments-write-body-tab-enter').click(function () {
+        $('.timeline__item-comments-write').removeClass('tab-password');
         });
     });
-
-
-    $(document).ready(function(){
-      $('.timeline__item-comments-comment-more').click(function () {
-          $('.timeline__item-comments-discussion').removeClass('discussion-overflow');
-          });
-      });
-
-      $(document).ready(function(){
-        $('.timeline__item-comments-more-comments').click(function () {
-            $('.timeline__item-comments-body').addClass('full');
-            });
-        });
