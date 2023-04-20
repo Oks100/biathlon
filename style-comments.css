@@ -1034,7 +1034,12 @@
 }
 .textarea {
     position: relative;
-    max-width: 670px;
+    /* max-width: 670px;
+    width: 100%;
+    margin: 0 auto; */
+}
+.timeline__item-comments-write.guest-user .textarea {
+    max-width: 600.317px;
     width: 100%;
     margin: 0 auto;
 }
@@ -1051,7 +1056,7 @@
     border: 1px solid #dfedf4;
     border-radius: 15px 0 15px 15px;
     padding: 25px 10px 15px 10px;
-    margin-top: 50px;
+    margin-top: 55px;
 }
 
 .timeline__item-comments-write-body-tabs, .timeline__item-comments-write-enter-form {
@@ -1063,9 +1068,9 @@
 .timeline__item-comments-write.guest-user .timeline__item-comments-write-body-tabs {
     display: flex;
     position: absolute;
-    top: -35px;
+    top: -40px;
     right: 0;
-    height: 35px;
+    height: 40px;
     align-items: center;
 }
 .timeline__item-comments-write.guest-user .timeline__item-comments-write-body-tab-enter {
@@ -1111,7 +1116,7 @@
     display: flex;
     width: 100%;
     justify-content: center;
-    max-width: 670px;
+    max-width: 600.317px;
     margin: 0 auto 20px auto;
 }
 .timeline__item-comments-write-enter-form input, .timeline__item-comments-write-registr-form .input-registr {
