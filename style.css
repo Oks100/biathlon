@@ -4225,7 +4225,7 @@ img[src*="flags"] {
   .main-cup__controls .swiper-button-next {
     width: 33px;
     height: 33px;
-    background: #b9e4ff;
+    background: #c0e5fb;
     border-radius: 33px;
     transition: all 0.45s ease;
     position: absolute;
@@ -4240,7 +4240,7 @@ img[src*="flags"] {
   .main-cup__controls .swiper-button-prev {
     width: 33px;
     height: 33px;
-    background: #b9e4ff;
+    background: #c0e5fb;
     border-radius: 33px;
     transition: all 0.45s ease;
     position: absolute;
@@ -4349,7 +4349,7 @@ img[src*="flags"] {
     left: -16px;
     transition: all 0.8s ease;
     width: 0;
-    background-color: #d1ebfb;
+    background-color: #d6edfb;
     border-radius: 0px 33px 33px 0;
   }
   .learn-more__text2::after {
@@ -4359,7 +4359,7 @@ img[src*="flags"] {
     right: -16px;
     transition: all 0.8s ease;
     width: 0;
-    background-color: #d1ebfb;
+    background-color: #d6edfb;
     border-radius: 33px 0 0 33px;
   }
   .learn-more__text2:hover::before, .learn-more__text2:focus::before {
