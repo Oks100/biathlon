@@ -261,8 +261,9 @@
     content: "\e026";
     font-family: 'icomoon';
     font-size: 0.70em;
-    margin-left: 5px;
-    color: #5d5d5d;
+    margin-left: 7px;
+    /* color: #5d5d5d; */
+    color: #8d8d8d;
     cursor: help;
 }
 .timeline__item-comments-controls {
@@ -1879,17 +1880,12 @@
         cursor: pointer;
         transition: all .4s ease;
     }
-    .discussion-overflow .timeline__item-comments-comment-more:hover {
-        border-color: #9aa0a2;
-    }
-    .discussion-overflow .timeline__item-comments-comment-more:hover span {
-        color: #002b71;
-    }
     .discussion-overflow .timeline__item-comments-comment-more span {
         display: flex;
         align-items: center;
         justify-content: center;
         color: #5d5d5d;
+        transition: all .4s ease;
     }
     .discussion-overflow .timeline__item-comments-comment-more span::before {
         content: "\e023";
@@ -1897,5 +1893,14 @@
         color: #5d5d5d;
         font-size: 1em;
         margin-right: 5px;
+    }
+    .discussion-overflow .timeline__item-comments-comment-more:hover {
+        border-color: #9aa0a2;
+    }
+    .discussion-overflow .timeline__item-comments-comment-more:hover span {
+        color: black;
+    }
+    .discussion-overflow .timeline__item-comments-comment-more:hover {
+        background-color: rgba(255, 255, 255, 0.9);
     }
 }
