@@ -978,3 +978,9 @@ $(document).ready(function(){
         $('.timeline__item-comments-write').removeClass('tab-password');
         });
     });
+
+  $(document).ready(function(){
+    $('.timeline__item-comments-write-enter-button').click(function () {
+        $('.timeline__item-comments-write').removeClass('guest-user');
+        });
+    });
