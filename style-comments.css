@@ -1128,11 +1128,17 @@
     background-color: #d1ebfb;
     /* border-color: #d1ebfb; */
 }
-.login-fieldset, .registr-fieldset {
+.login-fieldset {
     width: 100%;
     display: flex;
     flex-direction: column;
     margin-bottom: 25px;
+    gap: 20px;
+}
+.registr-fieldset {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
     gap: 20px;
 }
 .timeline__item-comments-write-enter-form legend, .timeline__item-comments-write-registr-form legend {
@@ -1142,7 +1148,7 @@
     max-width: 600.317px;
     margin: 0 auto 20px auto;
 }
-.timeline__item-comments-write-enter-form input, .timeline__item-comments-write-registr-form .input-registr {
+.timeline__item-comments-write-enter-form .input-login, .timeline__item-comments-write-registr-form .input-registr {
     height: 33px;
     width: 100%;
     /* border: 1px solid #bfc6ca; */
@@ -1152,7 +1158,7 @@
     padding: 0 10px 0 43px;
     transition: all .4s ease-in-out;
 }
-.timeline__item-comments-write-enter-form input:focus, .timeline__item-comments-write-registr-form .input-registr:focus {
+.timeline__item-comments-write-enter-form .input-login:focus, .timeline__item-comments-write-registr-form .input-registr:focus {
     border-color: #bfc6ca;
 }
 .timeline__item-comments-write-enter-form label, .timeline__item-comments-write-registr-form label {
@@ -1346,13 +1352,57 @@
 .forgot-login-password a:hover {
     border-bottom: 1px solid #73b5e5;
 }
+
+.timeline__item-comments-write-enter-button {
+    color: #002b71;
+    height: 33px;
+    cursor: pointer;
+    border-radius: 33px;
+    width: 100%;
+    max-width: 200px;
+    margin: 0 auto;
+    -webkit-tap-highlight-color: transparent;
+    transition: all .3s ease;
+    background-color: #e7f3fa;
+}
+.timeline__item-comments-write-enter-button:hover {
+    background-color: #d1ebfb;
+}
+.timeline__item-comments-write-registr-button {
+    color: #002b71;
+    height: 33px;
+    cursor: pointer;
+    border-radius: 33px;
+    width: 100%;
+    max-width: 200px;
+    margin: 0 auto;
+    -webkit-tap-highlight-color: transparent;
+    transition: all .3s ease;
+    background-color: #e7f3fa;
+}
+.timeline__item-comments-write-registr-button:hover {
+    background-color: #d1ebfb;
+}
 .registr-fieldset {
     display: none;
 }
 .guest-user.tab-password .registr-fieldset {
     display: flex;
 }
+.enter-form-and-text, .guest-user.tab-password .enter-form-and-text {
+    display: none;
+}
+.guest-user .enter-form-and-text {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    max-width: 600.317px;
+    margin: 0 auto 5px auto;
+}
 
+.guest-user.tab-password .timeline__item-comments-write-textarea-body {
+    display: none;
+}
 
 .timeline__item-comments-write-tittle {
 }
