@@ -360,44 +360,38 @@ body {
     content: "\f39e";
     font-family: 'FontAwesome';
     font-size: 17.5px;
-    justify-content: center;
-    display: flex;
     color: #fff;
   }
   .header__logo .socials .twitter a::before {
     content: "\f099";
     font-family: 'FontAwesome';
     font-size: 17.5px;
-    justify-content: center;
-    display: flex;
     color: #fff;
   }
   .header__logo .socials .instagram a::before {
     content: "\f16d";
     font-family: 'FontAwesome';
     font-size: 17.5px;
-    justify-content: center;
-    display: flex;
     color: #fff;
   }
   .header__logo .socials .telegram a::before {
-    display: flex;
-    content: "\e917";
-    font-size: 21.5px;
-    justify-content: center;
+    /* font-size: 21.5px;
     color: #fff;
     margin-left: -2px;
     margin-top: -1px;
     content: "\f2c6";
-    font-family: 'Line Awesome Brands';
+    font-family: 'Line Awesome Brands'; */
+    font-size: 19px;
+    color: #fff;
+    margin-left: -2px;
+    content: "\e041";
+    font-family: 'icomoon';
   }
   .header__logo .socials .youtube a::before {
     content: "\f167";
     font-family: 'FontAwesome';
     font-size: 17.5px;
     margin-top: -0.5px;
-    justify-content: center;
-    display: flex;
     color: #fff;
   }
   .header__logo .socials .twitter {
@@ -3557,6 +3551,7 @@ img[src*="flags"] {
     white-space: nowrap;
     display: flex;
     align-items: center;
+    position: relative;
   }
   .timeline__body {
     padding: 0.75em 0 0.75em 0;
@@ -5498,10 +5493,7 @@ footer.footer .footer__column a:hover, footer.footer .footer__bottom-text a:hove
   content: "\f39e";
   font-family: 'FontAwesome';
   font-size: 20px;
-  display: flex;
-  justify-content: center;
-  color: white;
-  line-height: 35px;
+  color: white;;
 }
 .footer__facebook:hover, .footer__twitter:hover, .footer__instagram:hover, .footer__telegram:hover, .footer__youtube:hover {
   box-shadow: 0 0 13px #ffd700;
@@ -5519,34 +5511,31 @@ footer.footer .footer__column a:hover, footer.footer .footer__bottom-text a:hove
   content: "\f099";
   font-family: 'FontAwesome';
   font-size: 20px;
-  justify-content: center;
   color: white;
-  display: flex;
 }
 .footer__instagram::before {
   content: "\f16d";
   font-family: 'FontAwesome';
   font-size: 20px;
-  justify-content: center;
   color: white;
-  align-items: center;
-  display: flex;
 }
 .footer__telegram::before {
-  content: "\e90e";
+  /* content: "\e90e";
   font-family: 'icomoon';
   font-size: 20px;
-  justify-content: center;
-  display: flex;
   color: white;
+  padding-right: 4px; */
+  font-size: 20px;
+  color: #fff;
+  /* margin-left: -2px; */
+  content: "\e041";
   padding-right: 4px;
+  font-family: 'icomoon';
 }
 .footer__youtube::before {
   content: "\f167";
   font-family: 'FontAwesome';
   font-size: 20px;
-  justify-content: center;
-  display: flex;
   color: white;
 }
 .footer__bottom {
@@ -7013,6 +7002,9 @@ article.timeline {
   .burger-menu__profile a {
     color: #002b71;
     -webkit-tap-highlight-color: transparent;
+  }
+  .burger-menu__profile .exit {
+    color: red;
   }
   .burger-menu_nav-menu a {
     color: black;

@@ -529,7 +529,7 @@
     background-color: #343434;
     border-radius: 50%;
     color: white;
-    font-size: 0.95em;
+    font-size: 0.9em;
     border: 3px solid grey;
     cursor: crosshair;
     scale: 1;
@@ -839,7 +839,7 @@
     .timeline__item-comments-controls {
         position: absolute;
         top: -35px;
-        right: -10.5px;
+        right: -10.8px;
         background-color: #fff;
         border-radius: 15px 15px 0 0;
         border: 1px solid #dfedf4;
@@ -853,7 +853,7 @@
         height: 17px;
         left: -1px;
         bottom: 0;
-        background-color: #f9fdff;
+        background-color: #fff;
         /* background-color: red; */
     }
     .timeline__item-comments-discussion {
@@ -1087,7 +1087,7 @@
     display: flex;
     position: absolute;
     top: -40px;
-    right: 0;
+    right: -0.5px;
     height: 40px;
     align-items: center;
     -webkit-touch-callout: none;
@@ -1109,6 +1109,7 @@
     font-weight: 600;
     border-right: none;
     transition: all .4s ease;
+    -webkit-tap-highlight-color: transparent;
 }
 .timeline__item-comments-write.guest-user .timeline__item-comments-write-body-tab-registr {
     display: flex;
@@ -1123,6 +1124,7 @@
     font-weight: 600;
     border-left: none;
     transition: all .4s ease;
+    -webkit-tap-highlight-color: transparent;
 }
 .timeline__item-comments-write.guest-user .timeline__item-comments-write-body-tab-registr:hover {
     background-color: #d1ebfb;
@@ -1379,6 +1381,7 @@
     -webkit-tap-highlight-color: transparent;
     transition: all .3s ease;
     background-color: #e7f3fa;
+    margin-top: 5px;
 }
 .timeline__item-comments-write-registr-button:hover {
     background-color: #d1ebfb;
@@ -1822,7 +1825,7 @@
     border: 1px solid #d0d9dd;
     border-radius: 50%;
     transition: all 0.3s ease;
-    scale: 1;
+    /* scale: 1; */
     background-color: #fff;
     -webkit-tap-highlight-color: transparent;
 }
@@ -1878,34 +1881,185 @@
 .timeline__item-comments-write-registr, .timeline__item-comments-write.guest-user .timeline__item-comments-avatar, .timeline__item-comments-write.guest-user .timeline__item-total-accuracy {
     display: none;
 }
-/* .timeline__item-comments-write.guest-user .timeline__item-comments-write-registr {
-    display: block;
-} */
+
 .timeline__item-comments-write.guest-user .timeline__item-comments-write-textarea-content {
     margin-left: 0;
 }
 
-/* .timeline__item-comments-write-registr {
-    margin-bottom: 15px;
-} */
-/* .timeline__item-comments-write-registr-text {
-    display: block;
-    border: 1px solid #dfedf4;
-    border-radius: 15px;
-    padding: 10px;
-    position: relative;
-    z-index: 1;
+
+
+.share__icon2 {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 3px;
+    /* background-color: #064b7e; */
+    /* background-color: #5a5a5a; */
+    background-color: #679bcd;
+    cursor: crosshair;
+    /* scale: 1; */
+    box-shadow: inset rgba(255,255,255,0.2) 8px  8px 18px 5px, inset rgba(0,0,0,0.5)      -8px -8px 18px 5px;
+}
+.share__icon2:last-of-type{
+   margin-right: 0px;
 }
 
-.timeline__item-comments-write-registr-svg {
-    fill: rgb(231, 243, 250, 0.9);
+.timeline__socials {
+    display: flex;
+    align-items: end;
+    margin-top: 0.75em;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.timeline__socials-frame {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    position: relative;
+    flex-wrap: wrap;
+}
+
+.timeline__socials-text {
+    color: #5d5d5d;
+}
+
+.btn__socials {
+    height: 33px;
+    width: 33px;
+    border-radius: 3px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    -webkit-tap-highlight-color: transparent;
+    box-shadow: 1px 2px 7px 0 rgba(0, 0, 0, 0.205);
+    transition: all .4s ease;
+}
+.timeline__socials-body {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.btn__socials {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+.btn__socials:active {
+    box-shadow: inset 1px 2px 5px 0 rgba(0, 0, 0, 0.205);
+}
+
+
+.timeline__socials-facebook::before {
+    content: "\f39e";
+    font-family: 'FontAwesome';
+    font-size: 17.5px;
+    color: #1773ea;
+    font-style: normal;
+    transition: all .4s ease;
+}
+.timeline__socials-twitter::before {
+    content: "\f099";
+    font-family: 'FontAwesome';
+    font-size: 17.5px;
+    color: #1d9bf0;
+    font-style: normal;
+    transition: all .4s ease;
+}
+
+.timeline__socials-instagram::before {
+    content: "\f16d";
+    font-family: 'FontAwesome';
+    font-size: 17.5px;
+    color: #fff;
+    font-style: normal;
+    background-color: #fd5949;
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: all .4s ease;
+}
+.timeline__socials-telegram::before {
+    font-size: 19px;
+    justify-content: center;
+    color: #01a3e5;
+    margin-left: -2px;
+    content: "\e041";
+    font-family: 'icomoon';
+    font-style: normal;
+    transition: all .4s ease;
+}
+.timeline__socials-youtube::before {
+    content: "\f167";
+    font-family: 'FontAwesome';
+    font-size: 17.5px;
+    margin-top: -0.5px;
+    color: #ff0000;
+    font-style: normal;
+    transition: all .4s ease;
+}
+
+.btn__socials:hover {
+    background-color: #e7f3fa;
+}
+
+.timeline__date span + span {
+    margin-right: 48px;
+}
+
+.timeline__date .timeline__date-edit {
+    margin: 0;
     position: absolute;
-    right: 10px;
-    bottom: 10px;
-    height: calc(100% - 20px);
-    max-height: 105px;
-    z-index: -1;
+    right: 0;
+    /* top: -6px; */
+    width: 33px;
+    height: 33px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* .timeline__date .timeline__date-edit:hover {
+    background-color: #e7f3fa;
+    cursor: pointer;
 } */
+.timeline__date .timeline__date-edit::before {
+    content: "\e063";
+    font-family: 'icomoon';
+    font-size: 0.9em;
+    font-weight: normal;
+    padding: 0;
+    color: #81aad5;
+    margin-bottom: 2px;
+    width: 33px;
+    height: 33px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    transition: all 0.4s ease;
+}
+
+.timeline__date .timeline__date-edit:hover::before {
+    background-color: #e7f3fa;
+    cursor: pointer;
+
+}
+
+
+
+
+
 
 
 @media  (max-width: 330px) {
