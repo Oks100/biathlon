@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'icomoon';
-  src:  url('fonts/icomoon.eot?t03hpa');
-  src:  url('fonts/icomoon.eot?t03hpa#iefix') format('embedded-opentype'),
-    url('fonts/icomoon.ttf?t03hpa') format('truetype'),
-    url('fonts/icomoon.woff?t03hpa') format('woff'),
-    url('fonts/icomoon.svg?t03hpa#icomoon') format('svg');
+  src:  url('fonts/icomoon.eot?vu0ire');
+  src:  url('fonts/icomoon.eot?vu0ire#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?vu0ire') format('truetype'),
+    url('fonts/icomoon.woff?vu0ire') format('woff'),
+    url('fonts/icomoon.svg?vu0ire#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -309,6 +309,12 @@
 }
 .icon-clock2:before {
   content: "\e905";
+}
+.icon-Telegram_logo-3:before {
+  content: "\e041";
+}
+.icon-Send-512:before {
+  content: "\e040";
 }
 .icon-copy-7:before {
   content: "\e099";
