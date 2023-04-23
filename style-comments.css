@@ -652,7 +652,8 @@
     right: -61px;
 }
 .timeline__item-comments-target-total::before {
-    content: "\e067";
+    /* content: "\e067"; */
+    content: "\e042";
     font-family: 'icomoon';
     color: #81aad5;
     font-size: 0.80em;
@@ -1908,7 +1909,7 @@
 
 .timeline__socials {
     display: flex;
-    align-items: end;
+    align-items: center;
     margin-top: 0.75em;
     flex-direction: column;
     gap: 30px;
@@ -1999,7 +2000,7 @@
     font-style: normal;
     transition: all .4s ease;
 }
-.timeline__socials-youtube::before {
+/* .timeline__socials-youtube::before {
     content: "\f167";
     font-family: 'FontAwesome';
     font-size: 17.5px;
@@ -2007,7 +2008,7 @@
     color: #ff0000;
     font-style: normal;
     transition: all .4s ease;
-}
+} */
 
 .btn__socials:hover {
     background-color: #e7f3fa;
@@ -2132,6 +2133,7 @@
         border-top: 2px solid #d0d9dd;
         cursor: pointer;
         transition: all .4s ease;
+        -webkit-tap-highlight-color: transparent;
     }
     .discussion-overflow .timeline__item-comments-comment-more span {
         display: flex;
