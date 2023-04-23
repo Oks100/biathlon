@@ -3083,7 +3083,7 @@ img[src*="flags"] {
     border-bottom: 1px solid #d0d9dd !important;
   }
   .burger-menu_nav-menu-title {
-    background-color: #eff4f7;
+    background-color: #ddeffa;
     border-bottom: 1px solid #d0d9dd;
     display: flex;
     padding: 14.4px 0;
@@ -3319,7 +3319,7 @@ img[src*="flags"] {
     overflow: auto;
   }
   .burger-menu_new-slide-tab {
-    background-color: #eff4f7;
+    background-color: #d1ebfb;
     height: 45px;
     position: fixed;
     left: 0;
