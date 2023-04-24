@@ -330,9 +330,9 @@
     display: flex;
     flex-direction: column;
 }
-.timeline__item-comments-body.full {
+/* .timeline__item-comments-body.full {
     margin-top: 3.37em;
-}
+} */
 .timeline__item-total-accuracy {
     /* min-width: 62.5px; */
     display: flex;
@@ -2085,6 +2085,7 @@
     height: 33px;
     display: flex;
     align-items: center;
+    -webkit-tap-highlight-color: transparent;
 }
 
 .last--comments-news-head a::before {
@@ -2202,6 +2203,7 @@
     transition: all 0.3s ease;
     height: 30px;
     margin-top: -3px;
+    -webkit-tap-highlight-color: transparent;
 }
 .last--comments-news-body-discription-comments-number:hover {
     background-color: #e7f3fa;
