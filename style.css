@@ -9454,3 +9454,25 @@ html[data-theme="grey"] .banner__cookie_no:hover, html[data-theme="grey"] .banne
   }
 }
 /* Куки */
+
+
+
+
+
+
+.timeline__item, .timeline__speedbar, .timeline__item-comments, .timeline__body-important-news {
+  background-image: url(img/noise.png);
+}
+.btn__socials {
+  background-color: #fff;
+}
+.timeline__item-comments-discussion {
+  background-color: #fff;
+}
+
+html[data-theme="dark"] .important-news__news-spoiler, html[data-theme='dark'] .timeline__item-comments-discussion, html[data-theme='dark'] .timeline__item, html[data-theme='dark'] .timeline__speedbar, html[data-theme='dark'] .timeline__item-comments, html[data-theme='dark'] .timeline__body-important-news {
+  background-image: url(img/noise-dark.png);
+}
+html[data-theme='dark'] .btn__socials {
+  background-color: #202124;
+}
