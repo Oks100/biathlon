@@ -9460,13 +9460,13 @@ html[data-theme="grey"] .banner__cookie_no:hover, html[data-theme="grey"] .banne
 
 
 
-.timeline__item, .timeline__speedbar, .timeline__item-comments, .timeline__body-important-news {
+.timeline__item-last-comments-news, .timeline__item-last-photos, .timeline__item, .timeline__speedbar, .timeline__item-comments, .timeline__body-important-news {
   background-image: url(img/noise.png);
 }
 .btn__socials {
   background-color: #fff;
 }
-.timeline__item-comments-discussion {
+.timeline__item-comments-more-comments span, .timeline__item-comments-write-spoiler, .last--comments-news-head a, .timeline__item-last-photos-head a, .timeline__item-comments-discussion {
   background-color: #fff;
 }
 
