@@ -2423,17 +2423,20 @@ img[src*="flags"] {
   box-shadow: 0px 5px 8px 0px rgba(50, 50, 50, 0.15);
   position: relative;
 }
-.header__notifications_head-body span {
+.header__notifications_head-body span:nth-child(1) {
   font-size: 15px;
   font-weight: 700;
   position: relative;
   margin-left: 22px;
   font-family: tahoma;
 }
-.header__notifications_head .header__notifications_head-body a, .header__notifications_head .header__notifications_head-admin-panel a {
+.header__notifications_head-body span:nth-child(2) {
   color: black;
 }
-.header__notifications_head-body span::before {
+.header__notifications_head .header__notifications_head-body a, .header__notifications_head .header__notifications_head-admin-panel a {
+  color: #002b71;
+}
+.header__notifications_head-body span:nth-child(1):before {
   position: absolute;
   content: "\e001";
   font-family: 'icomoon';
@@ -2853,6 +2856,10 @@ img[src*="flags"] {
     text-decoration: none;
     font-size: 13px;
     color: black !important;
+    align-items: center;
+  }
+  .dropdown__box a img {
+    margin-right: 5px;
   }
   .dropdown__box-arrow {
     position: absolute;
@@ -2889,9 +2896,7 @@ img[src*="flags"] {
     line-height: 33px;
     font-size: 0.95em !important;
   }
-  .dropdown__box ul li a[href*="UA"]::before {
-    /* content: url('//www.biathlon.com.ua/uploads/0/53.gif');
-    margin-right: 5px; */
+  /* .dropdown__box ul li a[href*="UA"]::before {
     content: '';
     background-image: url(img/UA2.png);
     margin-right: 5px;
@@ -2902,10 +2907,8 @@ img[src*="flags"] {
     background-repeat: no-repeat;
     margin-top: 7px;
     scale: 1;
-  }
-  .dropdown__box ul li a[href*="EN"]::before {
-    /* content: url('//www.biathlon.com.ua/uploads/0/61.gif');
-    margin-right: 5px; */
+  } */
+  /* .dropdown__box ul li a[href*="EN"]::before {
     content: '';
     background-image: url(img/GB2.png);
     margin-right: 5px;
@@ -2938,13 +2941,13 @@ img[src*="flags"] {
     display: block;
     background-repeat: no-repeat;
     scale: 1;
-  }
+  } */
   .burger-menu_nav-menu-list li a .list-center2 {
     display: flex;
     align-items: center;
   }
 
-  .dropdown__box ul li a[href*="RU"]::before {
+  /* .dropdown__box ul li a[href*="RU"]::before {
     content: url('img/nullflag2.png');
     margin-right: 5px;
     scale: 1;
@@ -2959,7 +2962,7 @@ img[src*="flags"] {
     display: block;
     background-repeat: no-repeat;
     scale: 1;
-  }
+  } */
   .burger-menu__profile {
     display: flex;
     flex-direction: column;
@@ -3240,8 +3243,11 @@ img[src*="flags"] {
     white-space: nowrap;
   }
   .list-center2 {
-    width: 107px;
+    width: 101px;
     display: flex;
+  }
+  .list-center2 img {
+    margin-right: 5px;
   }
   .list-center3 {
     width: 55px;
@@ -4946,7 +4952,7 @@ img[src*="flags"] {
   -webkit-box-align: center;
   -ms-flex-align: center;
   text-align: left;
-  margin: 3px 0 8px 0;
+  margin: 5px 0 8px 0;
 }
 .woman-user::before {
   content: "\e025";
@@ -7987,7 +7993,7 @@ html[data-theme='dark'] .important-news__news-spoiler, html[data-theme='dark'] .
 html[data-theme='dark'] .burger-menu__tab.active {
   background-color: #202124 !important;
 }
-html[data-theme='dark'] .comment-block__user-content .woman-user .logged, html[data-theme='dark'] .blogs-block .logged {
+html[data-theme='dark'] .comment-block-logged, html[data-theme='dark'] .comment-block__user-content .woman-user .logged, html[data-theme='dark'] .blogs-block .logged {
   border-color: #172230;
 }
 html[data-theme='dark'] .burger-menu__profile, html[data-theme='dark'] .main-cup, html[data-theme='dark'] .sidebar-block, html[data-theme='dark'] .sidebar-block3, html[data-theme='dark'] .twitter-block {
@@ -8055,7 +8061,7 @@ html[data-theme='dark'] .footer__icon::before, html[data-theme='dark'] .footer__
 /* html[data-theme='dark'] .burger-menu_active .burger-menu_lines::before {
   background-color: rgba(47, 111, 200, 0.85) !important;
 } */
-html[data-theme='dark'] .birthday-block__congratulations span, html[data-theme='dark'] .burger-menu__log-in_contant-entered span, html[data-theme='dark'] .burger-menu__sign-up_confirmed span, html[data-theme='dark'] .form__field span, html[data-theme='dark'] .burger-menu__tabs span, html[data-theme='dark'] .burger-menu__confirmation-menu_text span, html[data-theme='dark'] .burger-menu_nav-menu-content li .burger-menu_nav-more .list-number, html[data-theme='dark'] .timeline__head a {
+html[data-theme='dark'] .mobile-notification__head-admin-panel i, html[data-theme='dark'] .header__notifications_head-admin-panel a i, html[data-theme='dark'] .header__notifications_head-body a i, html[data-theme='dark'] .header__notifications_head-body a span, html[data-theme='dark'] .birthday-block__congratulations span, html[data-theme='dark'] .burger-menu__log-in_contant-entered span, html[data-theme='dark'] .burger-menu__sign-up_confirmed span, html[data-theme='dark'] .form__field span, html[data-theme='dark'] .burger-menu__tabs span, html[data-theme='dark'] .burger-menu__confirmation-menu_text span, html[data-theme='dark'] .burger-menu_nav-menu-content li .burger-menu_nav-more .list-number, html[data-theme='dark'] .timeline__head a {
   color: #e1e1e1;
 }
 html[data-theme='dark'] .layer-toggle-visible, html[data-theme='dark'] .vertical-menu-block__categories span:not(.news_date), html[data-theme='dark'] .main-cup__controls .swiper-button-prev, html[data-theme='dark'] .main-cup__controls .swiper-button-next {
@@ -8099,7 +8105,7 @@ html[data-theme='dark'] .timeline__footer button .icon-container .icon svg {
 html[data-theme='dark'] .btn-container {
   --btn-bg: #235f9f;
 }
-html[data-theme='dark'] .calendar-b:hover, html[data-theme='dark'] .timer__data-next, html[data-theme='dark'] .timer__data-prev, html[data-theme='dark'] .enter-button, html[data-theme='dark'] .timeline__footer button {
+html[data-theme='dark'] .header__notifications_head-body a:hover, html[data-theme='dark'] .header__notifications_head-admin-panel a:hover, html[data-theme='dark'] .calendar-b:hover, html[data-theme='dark'] .timer__data-next, html[data-theme='dark'] .timer__data-prev, html[data-theme='dark'] .enter-button, html[data-theme='dark'] .timeline__footer button {
   background: #184779;
 }
 html[data-theme='dark'] .calendar .calendar-inner .calendar-body div > a:hover, html[data-theme='dark'] .calendar2 .calendar-inner .calendar-body div > a:hover {
@@ -8126,7 +8132,7 @@ html[data-theme='dark'] .timeline-sponsors .swiper-button-prev:hover, html[data-
 html[data-theme='dark'] .timeline-sponsors .swiper-button-next, html[data-theme='dark'] .timeline-sponsors .swiper-button-prev {
   color: #7bade3 !important;
 }
-html[data-theme="dark"] main a:hover, html[data-theme="dark"] .comment-block__rumor:hover {
+html[data-theme="dark"] main a:hover, html[data-theme="dark"] .comment-block__rumor:hover, html[data-theme="dark"] .timeline__body a:hover {
   color: #8ab4f8;
   border-color: #8ab4f8;
 }
@@ -8183,10 +8189,10 @@ html[data-theme="dark"] .tippy-content, html[data-theme="dark"] .calendar2 {
   color: #e1e1e1;
   background-color: #2a2b2d;
 }
-html[data-theme="dark"] .img__profile a:hover {
+html[data-theme="dark"] .img__profile a:hover, html[data-theme='dark'] .mobile-notification__head-admin-panel a {
   color: #abcbff !important;
 }
-html[data-theme="dark"] .tippy-content a:hover {
+html[data-theme="dark"] .tippy-content a:hover:not(.header__notifications_head-body a, .header__notifications_head-admin-panel a, .more-button, .timer__more-button a, .statistics__button a) {
   color: #8ab4f8 !important;
 }
 html[data-theme="dark"] .tippy-box, html[data-theme="dark"] .tippy-arrow {
@@ -8241,14 +8247,23 @@ html[data-theme='dark'] .burger-menu__new-slide.slide3 .burger-menu__new-slide_l
 html[data-theme='dark'] .more-button, html[data-theme='dark'] .header__notification_all:hover a, html[data-theme='dark'] #tippy-42 ul li a, html[data-theme='dark'] .dropdown__box a, html[data-theme='dark'] .timer__more-button:hover a {
   color: #e1e1e1 !important;
 }
-html[data-theme='dark'] .map-legend-1::before, html[data-theme='dark'] .number-item[data-num="23"]::before, html[data-theme='dark'] .number-item[data-num="22"]::before, html[data-theme='dark'] .number-item[data-num="18"]::before, html[data-theme='dark'] .number-item[data-num="17"]::before, html[data-theme='dark'] .number-item[data-num="9"]::before, html[data-theme='dark'] .number-item[data-num="8"]::before, html[data-theme='dark'] .header__mobile-number-massage2 span, html[data-theme='dark'] .burger-menu__profile-messange span, html[data-theme='dark'] .race-ended::before, html[data-theme='dark'] .header__number-massage span, html[data-theme='dark'] .header__number-massage2 span {
+html[data-theme='dark'] .map-legend-1::before, html[data-theme='dark'] .number-item[data-num="23"]::before, html[data-theme='dark'] .number-item[data-num="22"]::before, html[data-theme='dark'] .number-item[data-num="18"]::before, html[data-theme='dark'] .number-item[data-num="17"]::before, html[data-theme='dark'] .number-item[data-num="9"]::before, html[data-theme='dark'] .number-item[data-num="8"]::before, html[data-theme='dark'] .header__mobile-number-massage2 span, html[data-theme='dark'] .burger-menu__profile-messange span, html[data-theme='dark'] .race-ended::before, html[data-theme='dark'] .header__number-massage span {
   background-color: #d40000;
+}
+html[data-theme='dark'] .comment-block__user-content svg {
+  fill: rgba(47, 111, 200, 0.85);
 }
 html[data-theme='dark'] #tippy-42 ul li:last-of-type a, html[data-theme='dark'] #tippy-42 ul li:last-of-type a::before, html[data-theme='dark'] .timeline__red-new, html[data-theme='dark'] .vertical-menu-block__link.red-color {
   color: #d40000 !important;
 }
-html[data-theme='dark'] .birthday-block__congratulations::before, html[data-theme='dark'] .main-cup__top10 .red-color, html[data-theme='dark'] .timeline__item .red-color {
+html[data-theme="dark"] .burger-menu__content a:nth-child(3), html[data-theme='dark'] .mobile-notification__head-admin-panel span, html[data-theme='dark'] .header__notifications_head-admin-comments span, html[data-theme='dark'] .header__notifications_head-admin-news span, html[data-theme='dark'] .birthday-block__congratulations::before, html[data-theme='dark'] .main-cup__top10 .red-color, html[data-theme='dark'] .timeline__item .red-color {
   color: #d40000;
+}
+html[data-theme="dark"] .popular-block__search-form input:focus {
+  border-color: #184779;
+}
+html[data-theme="dark"] .header__number-massage2 span {
+  background-color: #079600;
 }
 html[data-theme='dark'] .mobile-timer__more-events-window, html[data-theme='dark'] .mobile-notification__item, html[data-theme='dark'] .select__list2, html[data-theme='dark'] .important-news__list, html[data-theme='dark'] .dropdown__box, html[data-theme='dark'] .select__list {
   background-color: #2a2b2d;
@@ -8420,7 +8435,7 @@ html[data-theme="dark"] .sidebar-block3, html[data-theme="dark"] .sidebar-block,
 html[data-theme="dark"] .select__list, html[data-theme="dark"] .dropdown__box, html[data-theme="dark"] .calendar {
   box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.3);
 }
-html[data-theme="dark"] .timeline-sponsors .swiper-pagination-bullet {
+html[data-theme="dark"] .timeline-sponsors .swiper-pagination-bullet, html[data-theme="dark"] .header__notifications_head-admin-panel, html[data-theme="dark"] .mobile-notification__head-admin-panel {
   border-color: #45484a;
 }
 html[data-theme="dark"] .timeline-navigation__page a:hover {
@@ -9538,7 +9553,13 @@ html[data-theme="grey"] .banner__cookie_no:hover, html[data-theme="grey"] .banne
   align-items: center;
   flex-wrap: wrap;
 }
-
+.header__notifications_head i {
+  font-style: normal;
+  color: black;
+}
+.header__notifications_head i:first-of-type {
+  margin-left: 5px;
+}
 .header__notifications_head-admin-comments, .header__notifications_head-admin-news {
   padding: 5px 15px;
   display: flex;
@@ -9564,6 +9585,12 @@ html[data-theme="grey"] .banner__cookie_no:hover, html[data-theme="grey"] .banne
   border-top: 1px solid #d0d9dd;
   align-items: center;
   flex-wrap: wrap;
+}
+.mobile-notification__head-admin-panel i {
+  font-style: normal;
+}
+.mobile-notification__head-admin-panel i:nth-child(1) {
+  margin-left: 5px;
 }
 .mobile-notification__head-admin-comments span, .mobile-notification__head-admin-news span {
   color: red;
