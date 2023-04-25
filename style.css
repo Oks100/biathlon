@@ -2309,7 +2309,7 @@ img[src*="flags"] {
 .header__massages span a{
   color: white;
 }
-.header__massages span a:hover {
+.header__massages span a:hover:not(.header__notifications_head-admin-panel a, .header__notifications_head-body a) {
   color: #ffd700;
 }
 .header__link-massage2[aria-expanded="true"] {
@@ -2330,7 +2330,7 @@ img[src*="flags"] {
 .header__number-massage {
   position: absolute;
   top: -2.9px;
-  right: -10px;
+  right: -8.5px;
 } 
 .header__massages span .header__link-massage:hover .header__number-massage {
   top: -2.8px;
@@ -2383,7 +2383,8 @@ img[src*="flags"] {
   height: 15px;
   width: 15px;
   font-size: 11.5px;
-  background-color: red;
+  /* background-color: red; */
+  background-color: #08a400;
   border-radius: 50%;
   align-items: center;
   justify-content: center;
@@ -2414,21 +2415,25 @@ img[src*="flags"] {
 }
 .header__notifications_head {
   display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 0 10px;
-  height: 45px;
+  flex-direction: column;
+  /* align-items: center;
+  justify-content: space-between; */
+  padding: 10px 10px 0 10px;
+  /* height: 45px; */
   box-shadow: 0px 5px 8px 0px rgba(50, 50, 50, 0.15);
   position: relative;
 }
-.header__notifications_head span {
+.header__notifications_head-body span {
   font-size: 15px;
   font-weight: 700;
   position: relative;
   margin-left: 22px;
   font-family: tahoma;
 }
-.header__notifications_head span::before {
+.header__notifications_head .header__notifications_head-body a, .header__notifications_head .header__notifications_head-admin-panel a {
+  color: black;
+}
+.header__notifications_head-body span::before {
   position: absolute;
   content: "\e001";
   font-family: 'icomoon';
@@ -2437,7 +2442,18 @@ img[src*="flags"] {
   left: -22px;
   top: 0;
 }
-.header__notifications_conteiner a {
+.header__notifications_head-body a {
+  padding: 5px 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 33px;
+  transition: all .3s ease;
+}
+.header__notifications_head-body a:hover {
+  background-color: #e7f3fa;
+}
+.header__notifications_content a {
   color: black !important;
   display: -webkit-box;
   -webkit-line-clamp: 3;
@@ -2448,7 +2464,7 @@ img[src*="flags"] {
 .header__notifications_head a {
   margin-bottom: -2px;
 }
-.header__notifications_conteiner a:hover {
+.header__notifications_conteiner a:hover:not(.header__notifications_head-admin-panel a, .more-button, .header__notifications_head-body a) {
   color: #73b5e5 !important;
 }
 .header__notifications_item {
@@ -7157,9 +7173,10 @@ article.timeline {
   .mobile-notification__head {
     display: flex;
     flex-wrap: nowrap;
-    gap: 20px;
+    /* gap: 20px; */
     justify-content: space-between;
-    padding: 1.3em 15px 0.9875em 15px;
+    /* padding: 1.3em 15px 0.9875em 15px; */
+    padding: 1.3em 15px 13.5px 15px;
     box-shadow: 0px 5px 8px 0px rgba(50, 50, 50, 0.15);
     position: sticky;
     top: 0;
@@ -7167,6 +7184,7 @@ article.timeline {
     right: 0;
     z-index: 11;
     background-color: white;
+    flex-direction: column;
   }
   .mobile-notification__head span:not(a span) {
     font-weight: 600;
@@ -7174,7 +7192,7 @@ article.timeline {
     font-family: tahoma;
     margin-left: 22px;
   }
-  .mobile-notification__head span::before {
+  .mobile-notification__head-content span::before {
     position: absolute;
     content: "\e001";
     font-family: 'icomoon';
@@ -7192,11 +7210,13 @@ article.timeline {
     gap: 10px;
     position: relative;
     margin-right: 45px;
+    padding-bottom: 10px;
   }
   .mobile-notification__head-content a {
     display: flex;
     color: black;
     padding: 5px 0;
+    width: fit-content;
   }
   .mobile-notification__head-content a p {
     color: black;
@@ -7236,7 +7256,8 @@ article.timeline {
   }
   .mobile-notification__content-body {
     position: absolute;
-    top: 97.0333px;
+    /* top: 97.0333px; */
+    top: 148.5px;
     z-index: 10;
     display: flex;
     flex-direction: column;
@@ -9458,6 +9479,71 @@ html[data-theme="grey"] .banner__cookie_no:hover, html[data-theme="grey"] .banne
 
 
 
+
+.header__notifications_head-body {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding-bottom: 10px;
+}
+
+.header__notifications_head-admin-panel {
+  display: flex;
+  padding: 10px 0;
+  border-top: 1px solid #d0d9dd;
+  gap: 10px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.header__notifications_head-admin-comments, .header__notifications_head-admin-news {
+  padding: 5px 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 33px;
+  transition: all .3s ease;
+}
+.header__notifications_head-admin-comments span, .header__notifications_head-admin-news span {
+  color: red;
+}
+.header__notifications_head-admin-comments:hover, .header__notifications_head-admin-news:hover {
+  background-color: #e7f3fa;
+}
+.header__notifications_head-admin-panel-news {
+}
+
+.mobile-notification__head-admin-panel {
+  display: flex;
+  flex-direction: row;
+  gap: 5px 25px;
+  padding-top: 10px;
+  border-top: 1px solid #d0d9dd;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.mobile-notification__head-admin-comments span, .mobile-notification__head-admin-news span {
+  color: red;
+}
+
+.mobile-notification__head-admin-comments, .mobile-notification__head-admin-news {
+  padding: 5px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 33px;
+  color: #002b71 !important;
+  -webkit-tap-highlight-color: transparent;
+}
+/* .mobile-notification__head-admin-comments:active, .mobile-notification__head-admin-news:active {
+  background-color: #e7f3fa;
+} */
+.mobile-notification__head-admin-comments {
+
+}
+.mobile-notification__head-admin-news {
+}
 
 
 .timeline__item-last-comments-news, .timeline__item-last-photos, .timeline__item, .timeline__speedbar, .timeline__item-comments, .timeline__body-important-news {
