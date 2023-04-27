@@ -3443,7 +3443,7 @@ img[src*="flags"] {
   .timeline__item-comments-to-write-comments:hover, .timeline a:hover:not(.timeline__item-comments-answer-button a, .timeline-navigation__page a, .last--comments-news-body-discription-comments-number, .last--comments-news-head a, .last--comments-news-body-discription-head a, .user-link, .quote-user, .timeline__item-comments-username a, .timeline__item-last-photos-head a, .last--comments-news-head a, .timeline__item-comments-to-write-comments) {
     color: #73b5e5;
   }
-  .last--comments-news-body-discription-head a:hover, .timeline__item-comments-username a:hover, .user-link:hover {
+  .last--comments-news-body-discription-head h2 a:hover, .timeline__item-comments-username a:hover, .user-link:hover {
     color: #73b5e5;
     border-color: #73b5e5;
   }
@@ -8665,7 +8665,7 @@ html[data-theme="summer"] .timeline__item-comments-answer-button::before, html[d
 html[data-theme='summer'] .map-legend-1::before, html[data-theme='summer'] .number-item[data-num="23"]::before, html[data-theme='summer'] .number-item[data-num="22"]::before, html[data-theme='summer'] .number-item[data-num="18"]::before, html[data-theme='summer'] .number-item[data-num="17"]::before, html[data-theme='summer'] .number-item[data-num="9"]::before, html[data-theme='summer'] .number-item[data-num="8"]::before, html[data-theme="summer"] .burger-menu__profile-messange span, html[data-theme="summer"] .header__mobile-number-massage2 span, html[data-theme="summer"] .race-ended::before, html[data-theme="summer"] .header__number-massage span, html[data-theme="summer"] .header__number-massage2 span {
   background-color: #ff4949;
 }
-html[data-theme='summer'] .delete-yes, html[data-theme='summer'] .calendar .calendar-inner .calendar-body div:nth-child(6), html[data-theme='summer'] .calendar .calendar-inner .calendar-body div:nth-child(7), html[data-theme='summer'] .calendar2 .calendar-inner .calendar-body div:nth-child(6), html[data-theme='summer'] .calendar2 .calendar-inner .calendar-body div:nth-child(7), html[data-theme="summer"] .timeline__item-comments-write-rules::before, html[data-theme="summer"] .timeline__item-comments-write-rules, html[data-theme="summer"] .burger-menu__content .exit, html[data-theme="summer"] .header__notifications_head-admin-comments span, html[data-theme="summer"] .header__notifications_head-admin-news span, html[data-theme="summer"] .birthday-block__congratulations::before {
+html[data-theme='summer'] .calendar .calendar-inner .calendar-body div:nth-child(6), html[data-theme='summer'] .calendar .calendar-inner .calendar-body div:nth-child(7), html[data-theme='summer'] .calendar2 .calendar-inner .calendar-body div:nth-child(6), html[data-theme='summer'] .calendar2 .calendar-inner .calendar-body div:nth-child(7), html[data-theme="summer"] .timeline__item-comments-write-rules::before, html[data-theme="summer"] .timeline__item-comments-write-rules, html[data-theme="summer"] .burger-menu__content .exit, html[data-theme="summer"] .header__notifications_head-admin-comments span, html[data-theme="summer"] .header__notifications_head-admin-news span, html[data-theme="summer"] .birthday-block__congratulations::before {
   color: #ff4949;
 }
 html[data-theme="summer"] .admin-item {
