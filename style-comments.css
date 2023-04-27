@@ -885,7 +885,7 @@
     align-items: center;
     justify-content: center;
     background-color: white;
-    transition: all .3 ease;
+    transition: all .3s ease;
     border-radius: 0 8px 8px 0;
 }
 .timeline__item-comments-ip-info button:hover {
@@ -1089,7 +1089,7 @@
     display: flex;
     position: absolute;
     top: -40px;
-    right: -0.5px;
+    right: -0.6px;
     height: 40px;
     align-items: center;
     -webkit-touch-callout: none;
