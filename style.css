@@ -3252,9 +3252,16 @@ img[src*="flags"] {
     margin-right: 5px;
   }
   .list-center3 {
-    width: 55px;
+    /* width: 55px; */
+    width: 77px;
+    display: flex;
+    align-items: center;
   }
-  .burger-menu_link[data-set-theme="winter"]::before {
+  .list-center3 img {
+    width: 18px;
+    margin-right: 5px;
+  }
+  /* .burger-menu_link[data-set-theme="winter"]::before {
     background-image: url(img/Winter-theme.png);
     background-size: 20px 20px;
     width: 20px;
@@ -3298,7 +3305,7 @@ img[src*="flags"] {
     display: block;
     content: "";
     margin-right: 5px;
-  }
+  } */
   .burger-menu__layer-background {
     position: absolute;
     top: 0;
