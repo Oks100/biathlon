@@ -456,11 +456,14 @@
     height: 33px;
     align-items: center;
     color: #002b71;
-    transition: all .4s ease;
+    transition: all .3s ease;
     cursor: pointer;
     -webkit-tap-highlight-color: transparent;
 }
-.timeline__item-comments-answer-button {
+.timeline__item-comments-answer-button:hover {
+    background-color: #d1ebfb;
+}
+/* .timeline__item-comments-answer-button {
     overflow: hidden;
     background: linear-gradient( to right, #d1ebfb 5%, #c8e7fa 95%);
 }
@@ -474,10 +477,10 @@
     opacity: 1;
     transition: all .3s ease;
     z-index: 1;
-}
-.timeline__item-comments-answer-button:hover::before {
+} */
+/* .timeline__item-comments-answer-button:hover::before {
     opacity: 0;
-}
+} */
 .timeline__item-comments-answer-button a {
     display: flex;
     height: 100%;
@@ -486,12 +489,12 @@
     padding: 0px 15px;
     z-index: 1;
 }
-.timeline__item-comments-answer-button:active::after {
+/* .timeline__item-comments-answer-button:active::after {
     background-size: 0% 0%;
     opacity: 0.2;
     transition: all 0s ease 0s;
-  }
-  .timeline__item-comments-answer-button::after {
+  } */
+  /* .timeline__item-comments-answer-button::after {
     content: "";
     display: block;
     position: absolute;
@@ -506,7 +509,7 @@
     opacity: 0;
     pointer-events: none;
     transition: background 0.4s ease 0s, opacity 1s ease 0s;
-  }
+  } */
 /* .timeline__item-comments-answer-button:hover {
     background-color: #d1ebfb;
 } */
@@ -519,7 +522,6 @@
     position: relative;
     z-index: 1;
     justify-content: flex-end;
-    /* background-color: #f9fdff; */
     background-color: #fff;
 }
 .timeline__item-comments-target-percent {
@@ -549,7 +551,6 @@
 
 .timeline__item-comments-target-percent::before {
     content: "";
-    /* background-color: #343434; */
     background-color: #5a5a5a;
     height: 100%;
     width: 100%;
@@ -812,9 +813,16 @@
 
 
 
-
-
-
+  @media  (min-width: 992px) {
+    .timeline__item-comments-write-rules:hover {
+        background-color: #e7f3fa;
+    }
+  }
+  @media  (max-width: 991px) {
+    .timeline__item-comments-write-rules:active {
+        background-color: #e7f3fa;
+    }
+    }
 @media  (max-width: 992px) {
     .timeline__item-comments-quote, .timeline__item-comments-edit, .timeline__item-comments-delete, .timeline__item-comments-ip {
         width: 33px;
@@ -992,10 +1000,9 @@
     user-select: none;
     -webkit-tap-highlight-color: transparent;
 }
-.timeline__item-comments-write-rules:hover {
-    /* color: rgb(227, 0, 0); */
+/* .timeline__item-comments-write-rules:hover {
     background-color: #e7f3fa;
-}
+} */
 .timeline__item-comments-write-rules::before {
     display: block;
     content: "\e081";
@@ -1722,12 +1729,15 @@ html[data-theme='dark'] .guest-user.tab-password .timeline__item-comments-write-
     height: 33px;
     transition: background .3s ease;
     color: #002b71;
-    /* background-color: #e7f3fa; */
     -webkit-tap-highlight-color: transparent;
     overflow: hidden;
-    background: linear-gradient( to right, #d1ebfb 5%, #c8e7fa 95%);
+    /* background: linear-gradient( to right, #d1ebfb 5%, #c8e7fa 95%); */
+    background: #e7f3fa;
 }
-#toolbar-message-button::before {
+#toolbar-message-button:hover {
+    background: #d1ebfb;
+}
+/* #toolbar-message-button::before {
     content: '';
     position: absolute;
     left: 0;
@@ -1740,7 +1750,7 @@ html[data-theme='dark'] .guest-user.tab-password .timeline__item-comments-write-
 }
 #toolbar-message-button:hover::before {
     opacity: 0;
-}
+} */
 /* #toolbar-message-button:hover::before {
     opacity: 0;
 } */
@@ -1763,7 +1773,7 @@ html[data-theme='dark'] .guest-user.tab-password .timeline__item-comments-write-
 /* #toolbar-message-button:hover  {
     background-color: #d1ebfb;
 } */
-#toolbar-message-button::after {
+/* #toolbar-message-button::after {
     content: "";
     display: block;
     position: absolute;
@@ -1783,7 +1793,7 @@ html[data-theme='dark'] .guest-user.tab-password .timeline__item-comments-write-
     background-size: 0% 0%;
     opacity: 0.2;
     transition: all 0s ease 0s;
-}
+} */
 
 #toolbar-message-button p {
     display: flex;

@@ -8098,7 +8098,7 @@ html[data-theme='dark'] .timeline__item-last-photos-head h1, html[data-theme='da
 html[data-theme='dark'] .layer-toggle-visible, html[data-theme='dark'] .vertical-menu-block__categories span:not(.news_date), html[data-theme='dark'] .main-cup__controls .swiper-button-prev, html[data-theme='dark'] .main-cup__controls .swiper-button-next {
   background: #235f9f;
 }
-html[data-theme='dark'] .popup input[type="submit"], html[data-theme='dark'] .calendar2 .calendar-inner .calendar-body .calendar-today, html[data-theme='dark'] .calendar2 .calendar-inner .calendar-today-date, html[data-theme='dark'] .calendar2 .calendar-inner .calendar-controls .calendar-prev a, html[data-theme='dark'] .calendar2 .calendar-inner .calendar-controls .calendar-next a, html[data-theme='dark'] .calendar .calendar-close-crosshair:hover, html[data-theme='dark'] .learn-more .circle-element {
+html[data-theme='dark'] .popup input[type="submit"], html[data-theme='dark'] .calendar2 .calendar-inner .calendar-body .calendar-today, html[data-theme='dark'] .calendar2 .calendar-inner .calendar-today-date, html[data-theme='dark'] .calendar2 .calendar-inner .calendar-controls .calendar-prev a, html[data-theme='dark'] .calendar2 .calendar-inner .calendar-controls .calendar-next a, html[data-theme='dark'] .learn-more .circle-element {
   background: #184779;
 }
 html[data-theme='dark'] .vertical-menu-block__body .vertical-menu-block__list li::before, html[data-theme='dark'] .learn-more__text2::before, html[data-theme='dark'] .learn-more__text2::after {
@@ -8142,7 +8142,7 @@ html[data-theme='dark'] .header__notifications_head-body a:hover, html[data-them
 html[data-theme='dark'] .calendar .calendar-inner .calendar-body div > a:hover, html[data-theme='dark'] .calendar2 .calendar-inner .calendar-body div > a:hover {
   outline-color: #184779;
 }
-html[data-theme="dark"] .timeline__item-comments-write-textarea-content .title span:hover, html[data-theme="dark"] .timeline__date .timeline__date-edit:hover::before, html[data-theme='dark'] .timeline__item-comments-quote:hover, html[data-theme='dark'] .timeline__item-comments-edit:hover, html[data-theme='dark'] .timeline__item-comments-delete:hover, html[data-theme='dark'] .timeline__item-comments-ip:hover, html[data-theme='dark'] .timeline__item-comments-delete[aria-expanded="true"], html[data-theme='dark'] .timeline__item-comments-ip[aria-expanded="true"], html[data-theme='dark'] .timeline-navigation__page a, html[data-theme='dark'] .timeline-navigation_arrow-left, html[data-theme='dark'] .timeline-navigation_arrow-right, html[data-theme='dark'] .divTableRow:nth-child(2n+1) {
+html[data-theme="dark"] .timeline__date .timeline__date-edit:hover::before, html[data-theme='dark'] .timeline__item-comments-quote:hover, html[data-theme='dark'] .timeline__item-comments-edit:hover, html[data-theme='dark'] .timeline__item-comments-delete:hover, html[data-theme='dark'] .timeline__item-comments-ip:hover, html[data-theme='dark'] .timeline__item-comments-delete[aria-expanded="true"], html[data-theme='dark'] .timeline__item-comments-ip[aria-expanded="true"], html[data-theme='dark'] .timeline-navigation__page a, html[data-theme='dark'] .timeline-navigation_arrow-left, html[data-theme='dark'] .timeline-navigation_arrow-right, html[data-theme='dark'] .divTableRow:nth-child(2n+1) {
   background-color: #1f2d40;
 }
 html[data-theme='dark'] .timeline-navigation__list a.active {
@@ -8154,7 +8154,7 @@ html[data-theme='dark'] .timeline-navigation__page a::before, html[data-theme='d
 html[data-theme='dark'] .timeline-navigation__page a:hover, html[data-theme='dark'] .timeline-navigation_arrow-left::after, html[data-theme='dark'] .timeline-navigation_arrow-right::after {
   color: #abcbff;
 }
-html[data-theme="dark"] .timeline__item-comments-write-enter-button, html[data-theme="dark"] .timeline__item-comments-write-registr-button, html[data-theme="dark"] .timeline__item-comments-write-rules:hover, html[data-theme="dark"] .timeline__item-comments-more-comments span:hover, html[data-theme='dark'] .calendar .calendar-inner .calendar-body .calendar-today, html[data-theme='dark'] .calendar .calendar-inner .calendar-today-date, html[data-theme='dark'] .calendar .calendar-inner .calendar-controls .calendar-prev a, html[data-theme='dark'] .calendar .calendar-inner .calendar-controls .calendar-next a, html[data-theme='dark'] .timeline-sponsors .swiper-button-prev, html[data-theme='dark'] .timeline-sponsors .swiper-button-next {
+html[data-theme="dark"] .timeline__item-comments-write-enter-button, html[data-theme="dark"] .timeline__item-comments-write-registr-button, html[data-theme="dark"] .timeline__item-comments-more-comments span:hover, html[data-theme='dark'] .calendar .calendar-inner .calendar-body .calendar-today, html[data-theme='dark'] .calendar .calendar-inner .calendar-today-date, html[data-theme='dark'] .calendar .calendar-inner .calendar-controls .calendar-prev a, html[data-theme='dark'] .calendar .calendar-inner .calendar-controls .calendar-next a, html[data-theme='dark'] .timeline-sponsors .swiper-button-prev, html[data-theme='dark'] .timeline-sponsors .swiper-button-next {
   background-color: #184779;
 }
 html[data-theme="dark"] .timeline__item-comments-answer-button, html[data-theme="dark"] #toolbar-message-button {
@@ -8166,9 +8166,9 @@ html[data-theme="dark"] .timeline__item-comments-answer-button:hover, html[data-
 html[data-theme="dark"] .timeline__item-comments-write-enter-button:hover, html[data-theme="dark"] .timeline__item-comments-write-registr-button:hover, html[data-theme="dark"] .popup input[type="submit"]:hover, html[data-theme='dark'] .timeline-sponsors .swiper-button-prev:hover, html[data-theme='dark'] .timeline-sponsors .swiper-button-next:hover {
   background-color: #235f9f;
 }
-html[data-theme="dark"] .timeline__item-comments-answer-button::before, html[data-theme="dark"] #toolbar-message-button::before {
+/* html[data-theme="dark"] .timeline__item-comments-answer-button::before, html[data-theme="dark"] #toolbar-message-button::before {
   background: none;
-}
+} */
 html[data-theme='dark'] .timeline-sponsors .swiper-button-next, html[data-theme='dark'] .timeline-sponsors .swiper-button-prev {
   color: #7bade3 !important;
 }
@@ -8512,7 +8512,7 @@ html[data-theme="dark"] .timeline__item-comments-write.guest-user .timeline__ite
 html[data-theme="dark"] .timeline-navigation__page a:hover {
   color: #abcbff !important;
 }
-html[data-theme="dark"] .timeline__item-comments-target-shooting-plus:hover, html[data-theme="dark"] .timeline__item-comments-target-shooting-minus:hover {
+html[data-theme="dark"] .timeline__item-comments-write-textarea-content .title span:hover, html[data-theme="dark"] .calendar .calendar-close-crosshair:hover, html[data-theme="dark"] .timeline__item-comments-target-shooting-plus:hover, html[data-theme="dark"] .timeline__item-comments-target-shooting-minus:hover {
   background-color: #1e3658;
 }
 html[data-theme="dark"] .rules-list {
@@ -8583,8 +8583,15 @@ html[data-theme='dark'] .guest-user.tab-password .timeline__item-comments-write-
   html[data-theme='dark'] .birthday-block__congratulations:hover {
     background-color: #184779;
   }
+  html[data-theme="dark"] .timeline__item-comments-write-rules:hover {
+    background-color: #184779;
+  }
 }
-
+@media screen and (max-width: 992px) {
+  html[data-theme="dark"] .timeline__item-comments-write-rules:active {
+    background-color: #184779;
+  }
+}
 
 
 
@@ -8594,7 +8601,7 @@ html[data-theme='summer'] .burger-menu_body, html[data-theme='summer'] .body.log
 html[data-theme='summer'] .comment-block-logged {
   border-color: #fff9eb;
 }
-html[data-theme='summer'] .calendar2 .calendar-inner .calendar-body .calendar-today, html[data-theme='summer'] .calendar2 .calendar-inner .calendar-today-date, html[data-theme='summer'] .calendar2 .calendar-inner .calendar-controls .calendar-next a, html[data-theme='summer'] .calendar2 .calendar-inner .calendar-controls .calendar-prev a, html[data-theme='summer'] .calendar .calendar-close-crosshair:hover, html[data-theme='summer'] .calendar .calendar-inner .calendar-body .calendar-today, html[data-theme='summer'] .calendar .calendar-inner .calendar-today-date, html[data-theme='summer'] .calendar .calendar-inner .calendar-controls .calendar-prev a, html[data-theme='summer'] .calendar .calendar-inner .calendar-controls .calendar-next a, html[data-theme="summer"] .timer__data-next, html[data-theme="summer"] .timer__data-prev, html[data-theme="summer"] .calendar-b:hover, html[data-theme="summer"] .header__notification_all a:hover, html[data-theme="summer"] .timer__more-button:hover, html[data-theme='summer'] .timeline__body .td_top10w td, html[data-theme='summer'] table.main-cup__top10 tbody tr:nth-child(2n+1), html[data-theme='summer'] .dropbtn, html[data-theme='summer'] .statistics__button{
+html[data-theme='summer'] .timeline__item-comments-write-textarea-content .title span:hover, html[data-theme='summer'] .calendar2 .calendar-inner .calendar-body .calendar-today, html[data-theme='summer'] .calendar2 .calendar-inner .calendar-today-date, html[data-theme='summer'] .calendar2 .calendar-inner .calendar-controls .calendar-next a, html[data-theme='summer'] .calendar2 .calendar-inner .calendar-controls .calendar-prev a, html[data-theme='summer'] .calendar .calendar-close-crosshair:hover, html[data-theme='summer'] .calendar .calendar-inner .calendar-body .calendar-today, html[data-theme='summer'] .calendar .calendar-inner .calendar-today-date, html[data-theme='summer'] .calendar .calendar-inner .calendar-controls .calendar-prev a, html[data-theme='summer'] .calendar .calendar-inner .calendar-controls .calendar-next a, html[data-theme="summer"] .timer__data-next, html[data-theme="summer"] .timer__data-prev, html[data-theme="summer"] .calendar-b:hover, html[data-theme="summer"] .header__notification_all a:hover, html[data-theme="summer"] .timer__more-button:hover, html[data-theme='summer'] .timeline__body .td_top10w td, html[data-theme='summer'] table.main-cup__top10 tbody tr:nth-child(2n+1), html[data-theme='summer'] .dropbtn, html[data-theme='summer'] .statistics__button{
   background-color: #fff2d5;
 }
 html[data-theme='summer'] .header, html[data-theme='summer'] footer.footer {
@@ -8622,7 +8629,7 @@ html[data-theme='summer'] .discussion-male, html[data-theme='summer'] .discussio
 html[data-theme='summer'] .timer__more-translation::before, html[data-theme='summer'] .timeline__body a[href*="http"]::before, html[data-theme='summer'] .timeline__body a[href*="gallery"]::before {
   color: rgb(101, 192, 99) !important;
 }
-html[data-theme="summer"] .calendar-close-crosshair::after, html[data-theme="summer"] .calendar-close-crosshair::before, html[data-theme='summer'] .footer__icon::before, html[data-theme='summer'] .footer__icon::after, html[data-theme='summer'] .burger-menu_active .burger-menu_lines::before, html[data-theme='summer'] .mobile-notification__close::after, html[data-theme='summer'] .mobile-notification__close::before, html[data-theme='summer'] .mobile-timer__more-events_head-close::after, html[data-theme='summer'] .mobile-timer__more-events_head-close::before, html[data-theme="summer"] .burger-menu-back-tab::before, html[data-theme="summer"] .burger-menu-back-tab::after, html[data-theme="summer"] .burger-menu_active .burger-menu_lines::after, html[data-theme="summer"] .burger-menu_active .burger-menu_lines, html[data-theme='summer'] .vote-block__percent, html[data-theme='summer'] .important-news__news-spoiler .arrow::before, html[data-theme='summer'] .important-news__news-spoiler .arrow::after, html[data-theme='summer'] .dropbtn .arrow2::before, html[data-theme='summer'] .dropbtn .arrow2::after {
+html[data-theme='summer'] .timeline__item-comments-write-textarea-content .title span::after, html[data-theme='summer'] .timeline__item-comments-write-textarea-content .title span::before, html[data-theme="summer"] .calendar-close-crosshair::after, html[data-theme="summer"] .calendar-close-crosshair::before, html[data-theme='summer'] .footer__icon::before, html[data-theme='summer'] .footer__icon::after, html[data-theme='summer'] .burger-menu_active .burger-menu_lines::before, html[data-theme='summer'] .mobile-notification__close::after, html[data-theme='summer'] .mobile-notification__close::before, html[data-theme='summer'] .mobile-timer__more-events_head-close::after, html[data-theme='summer'] .mobile-timer__more-events_head-close::before, html[data-theme="summer"] .burger-menu-back-tab::before, html[data-theme="summer"] .burger-menu-back-tab::after, html[data-theme="summer"] .burger-menu_active .burger-menu_lines::after, html[data-theme="summer"] .burger-menu_active .burger-menu_lines, html[data-theme='summer'] .vote-block__percent, html[data-theme='summer'] .important-news__news-spoiler .arrow::before, html[data-theme='summer'] .important-news__news-spoiler .arrow::after, html[data-theme='summer'] .dropbtn .arrow2::before, html[data-theme='summer'] .dropbtn .arrow2::after {
   background-color: rgb(101, 192, 99);
 }
 html[data-theme="summer"] .comment-block__user-avatar svg {
@@ -8653,7 +8660,7 @@ html[data-theme='summer'] .btn-container {
 html[data-theme="summer"] .timeline__item-comments-answer-button, html[data-theme="summer"] #toolbar-message-button, html[data-theme='summer'] .timeline__footer button, html[data-theme='summer'] .timeline-navigation__page a, html[data-theme='summer'] .timeline-navigation_arrow-left, html[data-theme='summer'] .timeline-navigation_arrow-right {
   background: #fff2d4;
 }
-html[data-theme='summer'] .timeline__item-comments-write-rules:hover, html[data-theme='summer'] .timeline__item-comments-write-registr-button, html[data-theme='summer'] .timeline__item-comments-write-enter-button, html[data-theme='summer'] .timeline__item-comments-target-shooting, html[data-theme='summer'] .timeline__item-comments-target-details, html[data-theme='summer'] .timeline__item-comments-ip-info button:hover, html[data-theme='summer'] .delete-yes:hover, html[data-theme='summer'] .delete-no:hover, html[data-theme='summer'] .timeline__item-comments-title-number, html[data-theme='summer'] .btn__socials:hover, html[data-theme='summer'] .last--comments-news-body-discription-comments-number:hover, html[data-theme='summer'] .timeline__date .timeline__date-edit:hover::before, html[data-theme='summer'] .timeline__item-comments-quote:hover, html[data-theme='summer'] .timeline__item-comments-edit:hover, html[data-theme='summer'] .timeline__item-comments-delete:hover, html[data-theme='summer'] .timeline__item-comments-ip:hover, html[data-theme='summer'] .timeline__item-comments-delete[aria-expanded="true"], html[data-theme='summer'] .timeline__item-comments-ip[aria-expanded="true"] {
+html[data-theme='summer'] .popup input[type="submit"], html[data-theme='summer'] .timeline__item-comments-write-registr-button, html[data-theme='summer'] .timeline__item-comments-write-enter-button, html[data-theme='summer'] .timeline__item-comments-target-shooting, html[data-theme='summer'] .timeline__item-comments-target-details, html[data-theme='summer'] .timeline__item-comments-ip-info button:hover, html[data-theme='summer'] .delete-yes:hover, html[data-theme='summer'] .delete-no:hover, html[data-theme='summer'] .timeline__item-comments-title-number, html[data-theme='summer'] .btn__socials:hover, html[data-theme='summer'] .last--comments-news-body-discription-comments-number:hover, html[data-theme='summer'] .timeline__date .timeline__date-edit:hover::before, html[data-theme='summer'] .timeline__item-comments-quote:hover, html[data-theme='summer'] .timeline__item-comments-edit:hover, html[data-theme='summer'] .timeline__item-comments-delete:hover, html[data-theme='summer'] .timeline__item-comments-ip:hover, html[data-theme='summer'] .timeline__item-comments-delete[aria-expanded="true"], html[data-theme='summer'] .timeline__item-comments-ip[aria-expanded="true"] {
   background-color: #fff2d4;
 }
 html[data-theme='summer'] .quote {
@@ -8671,9 +8678,9 @@ html[data-theme="summer"] .timeline__item-comments-more-comments span, html[data
 html[data-theme="summer"] .timeline__item-comments-target-shooting-plus:hover, html[data-theme="summer"] .timeline__item-comments-target-shooting-minus:hover, html[data-theme="summer"] .timeline-navigation__page a:hover::before, html[data-theme="summer"] .timeline-navigation_arrow-left:hover::before, html[data-theme="summer"] .timeline-navigation_arrow-right:hover::before, html[data-theme="summer"] .timeline-navigation__list a.active, html[data-theme='summer'] .timeline-navigation__page a::before, html[data-theme='summer'] .timeline-navigation__page a::before, html[data-theme='summer'] .timeline-navigation_arrow-left::before, html[data-theme='summer'] .timeline-navigation_arrow-right::before, html[data-theme="summer"] .timeline-sponsors .swiper-pagination-bullet-active, html[data-theme="summer"] .slider-container3 .swiper-pagination-bullet-active {
   background-color: #ffeab8;
 }
-html[data-theme="summer"] .timeline__item-comments-answer-button::before, html[data-theme="summer"] #toolbar-message-button::before {
+/* html[data-theme="summer"] .timeline__item-comments-answer-button::before, html[data-theme="summer"] #toolbar-message-button::before {
   background: none;
-}
+} */
 html[data-theme='summer'] .map-legend-1::before, html[data-theme='summer'] .number-item[data-num="23"]::before, html[data-theme='summer'] .number-item[data-num="22"]::before, html[data-theme='summer'] .number-item[data-num="18"]::before, html[data-theme='summer'] .number-item[data-num="17"]::before, html[data-theme='summer'] .number-item[data-num="9"]::before, html[data-theme='summer'] .number-item[data-num="8"]::before, html[data-theme="summer"] .burger-menu__profile-messange span, html[data-theme="summer"] .header__mobile-number-massage2 span, html[data-theme="summer"] .race-ended::before, html[data-theme="summer"] .header__number-massage span, html[data-theme="summer"] .header__number-massage2 span {
   background-color: #ff4949;
 }
@@ -8692,7 +8699,7 @@ html[data-theme="summer"] .timeline__item-comments-target-percent::before {
 html[data-theme="summer"] .timeline__item-comments-target-percent {
   border-color: #807d76;
 }
-html[data-theme="summer"] .timeline__item-comments-controls, html[data-theme="summer"] .timeline__item-comments-comment-more, html[data-theme="summer"] .timeline__item-total-accuracy span, html[data-theme="summer"] .toolbar-list, html[data-theme="summer"] .text-field, html[data-theme="summer"] .timeline__item-comments-discussion, html[data-theme="summer"] .burger-menu-back-tab, html[data-theme="summer"] .burger-menu_nav-menu-tabs a, html[data-theme="summer"] .burger-menu_nav-menu-list__default li:not(:last-of-type) a, html[data-theme="summer"] .statistics1, html[data-theme="summer"] .statistics2, html[data-theme="summer"] .statistics4, html[data-theme="summer"] .timeline__head, html[data-theme="summer"] .timeline__body table td:not(.table0_100 tr td), html[data-theme="summer"] .timeline-sponsors .swiper-slide.card, html[data-theme='summer'] .interview-block__items {
+html[data-theme="summer"] .popup input[type="text"], html[data-theme="summer"] .timeline__item-comments-controls, html[data-theme="summer"] .timeline__item-comments-comment-more, html[data-theme="summer"] .timeline__item-total-accuracy span, html[data-theme="summer"] .toolbar-list, html[data-theme="summer"] .text-field, html[data-theme="summer"] .timeline__item-comments-discussion, html[data-theme="summer"] .burger-menu-back-tab, html[data-theme="summer"] .burger-menu_nav-menu-tabs a, html[data-theme="summer"] .burger-menu_nav-menu-list__default li:not(:last-of-type) a, html[data-theme="summer"] .statistics1, html[data-theme="summer"] .statistics2, html[data-theme="summer"] .statistics4, html[data-theme="summer"] .timeline__head, html[data-theme="summer"] .timeline__body table td:not(.table0_100 tr td), html[data-theme="summer"] .timeline-sponsors .swiper-slide.card, html[data-theme='summer'] .interview-block__items {
   border-color: #dbd6cc;
 }
 html[data-theme="summer"] .burger-menu_new-slide-tab, html[data-theme="summer"] .burger-menu_nav-menu-title {
@@ -8711,11 +8718,9 @@ html[data-theme="summer"] .timeline-sponsors .card:hover {
 html[data-theme="summer"] html, html[data-theme="summer"] body {
   background: #ece6dc;
 }
-html[data-theme="summer"] .text-field:focus {
-  box-shadow: rgb(239, 228, 207) 0px 0px 3px 2px;
-}
-html[data-theme="summer"] .text-field:focus {
+html[data-theme="summer"] .text-field:focus, html[data-theme="summer"] .popup input[type="text"]:focus {
   border-color: rgb(239, 228, 207);
+  box-shadow: rgb(239, 228, 207) 0px 0px 3px 2px;
 }
 html[data-theme="summer"] .text-field:focus ~ .toolbar-list {
   border-left-color: rgb(239, 228, 207);
@@ -8819,7 +8824,7 @@ html[data-theme="summer"] .table__two tbody .active-biathlete td:not(.table0_100
 html[data-theme="summer"] .footer__warning p, html[data-theme="summer"] .footer__address, html[data-theme="summer"] .footer__rights ,html[data-theme="summer"] .footer__copyright {
   color: #e7ffe6;
 }
-html[data-theme="summer"] .timeline__item-comments-target-circle, html[data-theme="summer"] .discussion-overflow .timeline__item-comments-comment-more, html[data-theme="summer"] .timeline__item-last-photos, html[data-theme="summer"] .timeline__item-comments-target.hide-on-target .timeline__item-comments-target-percent, html[data-theme="summer"] .timeline__item-comments-controls, html[data-theme="summer"] .timeline__item-comments-controls::before, html[data-theme="summer"] .toolbar-button, html[data-theme="summer"] .toolbar-button2, html[data-theme="summer"] .timeline__item-comments-write-enter-form .input-login, html[data-theme="summer"] .timeline__item-comments-write-registr-form .input-registr, html[data-theme="summer"] .timeline__item-last-comments-news, html[data-theme="summer"] .text-field, html[data-theme="summer"] .timeline__item-comments-ip-info input, html[data-theme="summer"] .timeline__item-comments-ip-info button, html[data-theme="summer"] .timeline__item-comments, html[data-theme="summer"] .timeline__speedbar, html[data-theme="summer"] .calendar, html[data-theme="summer"] .body.sign-up-tab .burger-menu__tab_sign-up, html[data-theme="summer"] .burger-menu__log-in_contant, html[data-theme="summer"] .sign-up, html[data-theme="summer"] .mobile-notification-active .mobile-notification-window, html[data-theme="summer"] .burger-menu__new-slide, html[data-theme="summer"] .burger-menu_nav-menu-list2, html[data-theme="summer"] .mobile-notification__all, html[data-theme="summer"] .mobile-notification__head, html[data-theme="summer"] .mobile-timer__more-events__all, html[data-theme="summer"] .mobile-timer__more-events_head, html[data-theme="summer"] .mobile-timer__more-events-active .mobile-timer__more-events-window, html[data-theme="summer"] .select__list2, html[data-theme="summer"] .popular-block__search-form input, html[data-theme="summer"] .comment-block .comment-block__rumor, html[data-theme="summer"] .select__list, html[data-theme="summer"] .dropdown__box, html[data-theme="summer"] .dropdown-content, html[data-theme="summer"] .tippy-content, html[data-theme="summer"] .timeline__item, html[data-theme="summer"] .timeline__body-important-news, html[data-theme="summer"] .vertical-menu-block__body .vertical-menu-block__list li, html[data-theme='Black'] .comment-block .comment-block__rumor, html[data-theme='Black'] .popular-block__search-form input {
+html[data-theme="summer"] .timeline__item-comments-write-textarea-content input[type="text"], html[data-theme="summer"] .timeline__item-comments-write-textarea-content .popup, html[data-theme="summer"] .timeline__item-comments-target-circle, html[data-theme="summer"] .discussion-overflow .timeline__item-comments-comment-more, html[data-theme="summer"] .timeline__item-last-photos, html[data-theme="summer"] .timeline__item-comments-target.hide-on-target .timeline__item-comments-target-percent, html[data-theme="summer"] .timeline__item-comments-controls, html[data-theme="summer"] .timeline__item-comments-controls::before, html[data-theme="summer"] .toolbar-button, html[data-theme="summer"] .toolbar-button2, html[data-theme="summer"] .timeline__item-comments-write-enter-form .input-login, html[data-theme="summer"] .timeline__item-comments-write-registr-form .input-registr, html[data-theme="summer"] .timeline__item-last-comments-news, html[data-theme="summer"] .text-field, html[data-theme="summer"] .timeline__item-comments-ip-info input, html[data-theme="summer"] .timeline__item-comments-ip-info button, html[data-theme="summer"] .timeline__item-comments, html[data-theme="summer"] .timeline__speedbar, html[data-theme="summer"] .calendar, html[data-theme="summer"] .body.sign-up-tab .burger-menu__tab_sign-up, html[data-theme="summer"] .burger-menu__log-in_contant, html[data-theme="summer"] .sign-up, html[data-theme="summer"] .mobile-notification-active .mobile-notification-window, html[data-theme="summer"] .burger-menu__new-slide, html[data-theme="summer"] .burger-menu_nav-menu-list2, html[data-theme="summer"] .mobile-notification__all, html[data-theme="summer"] .mobile-notification__head, html[data-theme="summer"] .mobile-timer__more-events__all, html[data-theme="summer"] .mobile-timer__more-events_head, html[data-theme="summer"] .mobile-timer__more-events-active .mobile-timer__more-events-window, html[data-theme="summer"] .select__list2, html[data-theme="summer"] .popular-block__search-form input, html[data-theme="summer"] .comment-block .comment-block__rumor, html[data-theme="summer"] .select__list, html[data-theme="summer"] .dropdown__box, html[data-theme="summer"] .dropdown-content, html[data-theme="summer"] .tippy-content, html[data-theme="summer"] .timeline__item, html[data-theme="summer"] .timeline__body-important-news, html[data-theme="summer"] .vertical-menu-block__body .vertical-menu-block__list li, html[data-theme='Black'] .comment-block .comment-block__rumor, html[data-theme='Black'] .popular-block__search-form input {
   background-color: #fffdf8;
 }
 html[data-theme="summer"] .timeline__item-comments-comment-more:hover {
@@ -8845,7 +8850,7 @@ html[data-theme="summer"] .timeline__comments-refer:hover {
 html[data-theme="summer"] .select__head2 {
   background-color: #fff2d5;
 }
-html[data-theme="summer"] .timeline__item-comments-write-registr-button:hover, html[data-theme="summer"] .timeline__item-comments-write-enter-button:hover, html[data-theme="summer"] .select__head2:hover {
+html[data-theme="summer"] .popup input[type="submit"]:hover, html[data-theme="summer"] .timeline__item-comments-write-registr-button:hover, html[data-theme="summer"] .timeline__item-comments-write-enter-button:hover, html[data-theme="summer"] .select__head2:hover {
   background-color: #ffeab8;
 }
 html[data-theme="summer"] .body.sign-up-tab .burger-menu__tab_log-in, html[data-theme="summer"] .burger-menu__tab_sign-up, html[data-theme="summer"] .burger-menu__tab {
@@ -8942,10 +8947,16 @@ background-color: #ffeab8;
   html[data-theme='summer'] .birthday-block__congratulations:hover {
     background-color: #ffeab8;
   }
+  html[data-theme='summer'] .timeline__item-comments-write-rules:hover {
+    background-color: #fff2d4;
+  }
 }
 @media screen and (max-width: 992px) {
   html[data-theme='summer'] #back-to-top-button::after {
     color: #5a5a5a;
+  }
+  html[data-theme='summer'] .timeline__item-comments-write-rules:active {
+    background-color: #fff2d4;
   }
 }
 @media screen and (max-width: 450px) {
@@ -9240,7 +9251,7 @@ html[data-theme='Black'] .footer__column-content a:hover, html[data-theme='Black
 html[data-theme='Black'] .footer__column ul li a:hover::before {
   box-shadow: 0 0 12px #c8a900;
 }
-html[data-theme="Black"] .timeline__item-comments-write-textarea-content .title span:hover, html[data-theme="Black"] .timeline__item-comments-write-rules:hover, html[data-theme="Black"] .timeline__item-comments-write-registr-button, html[data-theme="Black"] .timeline__item-comments-write-enter-button, html[data-theme="Black"] .timeline__item-comments-target-details, html[data-theme="Black"] .timeline__item-comments-target-shooting, html[data-theme="Black"] .btn__socials:hover, html[data-theme="Black"] .timeline__item-comments-title-number, html[data-theme="Black"] .delete-yes:hover, html[data-theme="Black"] .delete-no:hover, html[data-theme="Black"] .timeline__item-comments-ip-info button:hover, html[data-theme="Black"] .last--comments-news-body-discription-comments-number:hover, html[data-theme="Black"] .timeline__date .timeline__date-edit:hover::before, html[data-theme="Black"] .timeline__item-comments-quote:hover, html[data-theme="Black"] .timeline__item-comments-edit:hover, html[data-theme="Black"] .timeline__item-comments-delete:hover, html[data-theme="Black"] .timeline__item-comments-ip:hover, html[data-theme="Black"] .timeline__item-comments-delete[aria-expanded="true"], html[data-theme="Black"] .timeline__item-comments-ip[aria-expanded="true"], html[data-theme="Black"] .statistics__button, html[data-theme="Black"] .dropbtn {
+html[data-theme="Black"] .timeline__item-comments-write-textarea-content .title span:hover, html[data-theme="Black"] .timeline__item-comments-write-registr-button, html[data-theme="Black"] .timeline__item-comments-write-enter-button, html[data-theme="Black"] .timeline__item-comments-target-details, html[data-theme="Black"] .timeline__item-comments-target-shooting, html[data-theme="Black"] .btn__socials:hover, html[data-theme="Black"] .timeline__item-comments-title-number, html[data-theme="Black"] .delete-yes:hover, html[data-theme="Black"] .delete-no:hover, html[data-theme="Black"] .timeline__item-comments-ip-info button:hover, html[data-theme="Black"] .last--comments-news-body-discription-comments-number:hover, html[data-theme="Black"] .timeline__date .timeline__date-edit:hover::before, html[data-theme="Black"] .timeline__item-comments-quote:hover, html[data-theme="Black"] .timeline__item-comments-edit:hover, html[data-theme="Black"] .timeline__item-comments-delete:hover, html[data-theme="Black"] .timeline__item-comments-ip:hover, html[data-theme="Black"] .timeline__item-comments-delete[aria-expanded="true"], html[data-theme="Black"] .timeline__item-comments-ip[aria-expanded="true"], html[data-theme="Black"] .statistics__button, html[data-theme="Black"] .dropbtn {
   background-color: #102442;
 }
 html[data-theme="Black"] .timeline__item-comments-answer-button, html[data-theme="Black"] #toolbar-message-button {
@@ -9249,9 +9260,9 @@ html[data-theme="Black"] .timeline__item-comments-answer-button, html[data-theme
 html[data-theme="Black"] .dropbtn:hover, html[data-theme="Black"] .header__logo .socials .facebook, html[data-theme="Black"] .header__logo .socials .twitter, html[data-theme="Black"] .header__logo .socials .instagram, html[data-theme="Black"] .header__logo .socials .telegram, html[data-theme="Black"] .header__logo .socials .youtube, html[data-theme="Black"] .footer__facebook, html[data-theme="Black"] .footer__twitter, html[data-theme="Black"] .footer__instagram, html[data-theme="Black"] .footer__telegram, html[data-theme="Black"] .footer__youtube {
   background-color: #192e45;
 }
-html[data-theme="Black"] .timeline__item-comments-answer-button::before, html[data-theme="Black"] #toolbar-message-button::before {
+/* html[data-theme="Black"] .timeline__item-comments-answer-button::before, html[data-theme="Black"] #toolbar-message-button::before {
   background: none;
-}
+} */
 html[data-theme="Black"] .timeline__item-comments-answer-button:hover, html[data-theme="Black"] #toolbar-message-button:hover {
   background: #173660;
 }
@@ -9448,8 +9459,15 @@ html[data-theme="Black"] .guest-user.tab-password .timeline__item-comments-write
   html[data-theme='Black'] .birthday-block__congratulations:hover {
     background-color: #173660;
   }
+  html[data-theme="Black"] .timeline__item-comments-write-rules:hover {
+    background-color: #102442;
+  }
 }
-
+@media screen and (max-width: 992px) {
+  html[data-theme="Black"] .timeline__item-comments-write-rules:active {
+    background-color: #102442;
+  }
+}
 
 html[data-theme="grey"] .header, html[data-theme="grey"] footer.footer {
   background-color: #4d6577;
@@ -9476,7 +9494,7 @@ html[data-theme="grey"] .body.log-in-window .burger-menu__log-in-menu, html[data
 html[data-theme="grey"] .timer__more-item:hover, html[data-theme="grey"] .select__list2 .select__item2:hover, html[data-theme="grey"] #tippy-42 ul li a:hover, html[data-theme="grey"] .dropdown li:hover, html[data-theme="grey"] .select__list .select__item:hover, html[data-theme="grey"] .header__notifications_item:hover, html[data-theme="grey"] .dropdown__box a:hover {
   background-color: #f5f5f5;
 }
-html[data-theme='grey'] .calendar2 .calendar-inner .calendar-body .calendar-today, html[data-theme='grey'] .calendar2 .calendar-inner .calendar-today-date, html[data-theme='grey'] .calendar .calendar-inner .calendar-today-date, html[data-theme='grey'] .calendar2 .calendar-inner .calendar-controls .calendar-prev a, html[data-theme='grey'] .calendar2 .calendar-inner .calendar-controls .calendar-next a, html[data-theme="grey"] .timer__data-next, html[data-theme="grey"] .timer__data-prev, html[data-theme="grey"] .calendar-b:hover {
+html[data-theme='grey'] .timeline__item-comments-write-textarea-content .title span:hover, html[data-theme='grey'] .calendar2 .calendar-inner .calendar-body .calendar-today, html[data-theme='grey'] .calendar2 .calendar-inner .calendar-today-date, html[data-theme='grey'] .calendar .calendar-inner .calendar-today-date, html[data-theme='grey'] .calendar2 .calendar-inner .calendar-controls .calendar-prev a, html[data-theme='grey'] .calendar2 .calendar-inner .calendar-controls .calendar-next a, html[data-theme="grey"] .timer__data-next, html[data-theme="grey"] .timer__data-prev, html[data-theme="grey"] .calendar-b:hover {
   background-color: #eee;
 }
 html[data-theme="grey"] .header__notifications_item.user-item, html[data-theme="grey"] .mobile-notification__item.user-item {
@@ -9499,7 +9517,7 @@ html[data-theme="grey"] .timeline__item-comments-target-shooting-plus:hover, htm
 html[data-theme="grey"] .timeline__item-comments-answer-button:hover, html[data-theme="grey"] #toolbar-message-button:hover {
   background: #e1e1e1;
 }
-html[data-theme="grey"] .timeline__item-comments-write-rules:hover, html[data-theme="grey"] .timeline__item-comments-write-registr-button, html[data-theme="grey"] .timeline__item-comments-write-enter-button, html[data-theme="grey"] .timeline__item-comments-target-details, html[data-theme="grey"] .timeline__item-comments-target-shooting, html[data-theme="grey"] .btn__socials:hover, html[data-theme="grey"] .timeline__item-comments-title-number, html[data-theme="grey"] .delete-yes:hover, html[data-theme="grey"] .delete-no:hover, html[data-theme="grey"] .timeline__item-comments-ip-info button:hover, html[data-theme="grey"] .last--comments-news-body-discription-comments-number:hover, html[data-theme="grey"] .timeline__date .timeline__date-edit:hover::before, html[data-theme="grey"] .timeline__item-comments-quote:hover, html[data-theme="grey"] .timeline__item-comments-edit:hover, html[data-theme="grey"] .timeline__item-comments-delete:hover, html[data-theme="grey"] .timeline__item-comments-ip:hover, html[data-theme="grey"] .timeline__item-comments-delete[aria-expanded="true"], html[data-theme="grey"] .timeline__item-comments-ip[aria-expanded="true"], html[data-theme="grey"] .header__notifications_item.user-item:hover {
+html[data-theme="grey"] .timeline__item-comments-write-registr-button, html[data-theme="grey"] .timeline__item-comments-write-enter-button, html[data-theme="grey"] .timeline__item-comments-target-details, html[data-theme="grey"] .timeline__item-comments-target-shooting, html[data-theme="grey"] .btn__socials:hover, html[data-theme="grey"] .timeline__item-comments-title-number, html[data-theme="grey"] .delete-yes:hover, html[data-theme="grey"] .delete-no:hover, html[data-theme="grey"] .timeline__item-comments-ip-info button:hover, html[data-theme="grey"] .last--comments-news-body-discription-comments-number:hover, html[data-theme="grey"] .timeline__date .timeline__date-edit:hover::before, html[data-theme="grey"] .timeline__item-comments-quote:hover, html[data-theme="grey"] .timeline__item-comments-edit:hover, html[data-theme="grey"] .timeline__item-comments-delete:hover, html[data-theme="grey"] .timeline__item-comments-ip:hover, html[data-theme="grey"] .timeline__item-comments-delete[aria-expanded="true"], html[data-theme="grey"] .timeline__item-comments-ip[aria-expanded="true"], html[data-theme="grey"] .header__notifications_item.user-item:hover {
   background-color: #eee;
 }
 html[data-theme="grey"] .header__notification_all a:hover, html[data-theme="grey"] .timer__more-button:hover {
@@ -9508,9 +9526,9 @@ html[data-theme="grey"] .header__notification_all a:hover, html[data-theme="grey
 html[data-theme="grey"] .timeline__item-comments-answer-button, html[data-theme="grey"] #toolbar-message-button {
   background: #eee;
 }
-html[data-theme="grey"] .timeline__item-comments-answer-button::before, html[data-theme="grey"] #toolbar-message-button::before {
+/* html[data-theme="grey"] .timeline__item-comments-answer-button::before, html[data-theme="grey"] #toolbar-message-button::before {
   background: none;
-}
+} */
 html[data-theme="grey"] .table__one tbody tr:nth-child(2n+4) td, html[data-theme="grey"] .table__two tbody tr:nth-child(2n+3) td {
   background-color: #f5f5f5 !important;
 }
@@ -9550,13 +9568,13 @@ html[data-theme="grey"] .timeline__item-comments-target-shooting-plus-icon::befo
 html[data-theme="grey"] .quote {
   background-color: #edf1f4;
 }
-html[data-theme="grey"] .text-field:focus {
+html[data-theme="grey"] .text-field:focus, html[data-theme="grey"] .popup input[type="text"]:focus {
   box-shadow: rgb(223, 223, 223) 0px 0px 3px 2px;
 }
 html[data-theme="grey"] .delimiter::before, html[data-theme="grey"] .delimiter::after, html[data-theme="grey"] .last--comments-news-head a::before, html[data-theme="grey"] .timeline__item-last-photos-head a::before, html[data-theme="grey"] .burger-menu_nav-menu-content li .burger-menu_nav-more .list-number::after {
   border-color: rgba(98, 129, 157, 0.75);
 }
-html[data-theme="grey"] .calendar-close-crosshair::after, html[data-theme="grey"] .calendar-close-crosshair::before, html[data-theme="grey"] .burger-menu-back-tab::before, html[data-theme="grey"] .burger-menu-back-tab::after, html[data-theme="grey"] .burger-menu__log-in-menu_close::before, html[data-theme="grey"] .burger-menu__log-in-menu_close::after, html[data-theme="grey"] .mobile-timer__more-events_head-close::after, html[data-theme="grey"] .mobile-timer__more-events_head-close::before, html[data-theme="grey"] .mobile-notification__close::before, html[data-theme="grey"] .mobile-notification__close::after, html[data-theme="grey"] .burger-menu_active .burger-menu_lines, html[data-theme="grey"] .burger-menu_active .burger-menu_lines::after, html[data-theme="grey"] .burger-menu_active .burger-menu_lines::before {
+html[data-theme="grey"] .timeline__item-comments-write-textarea-content .title span::before, html[data-theme="grey"] .timeline__item-comments-write-textarea-content .title span::after, html[data-theme="grey"] .calendar-close-crosshair::after, html[data-theme="grey"] .calendar-close-crosshair::before, html[data-theme="grey"] .burger-menu-back-tab::before, html[data-theme="grey"] .burger-menu-back-tab::after, html[data-theme="grey"] .burger-menu__log-in-menu_close::before, html[data-theme="grey"] .burger-menu__log-in-menu_close::after, html[data-theme="grey"] .mobile-timer__more-events_head-close::after, html[data-theme="grey"] .mobile-timer__more-events_head-close::before, html[data-theme="grey"] .mobile-notification__close::before, html[data-theme="grey"] .mobile-notification__close::after, html[data-theme="grey"] .burger-menu_active .burger-menu_lines, html[data-theme="grey"] .burger-menu_active .burger-menu_lines::after, html[data-theme="grey"] .burger-menu_active .burger-menu_lines::before {
   background-color: rgba(98, 129, 157, 0.9);
 }
 html[data-theme="grey"] .burger-menu__profile-messange::before {
@@ -9595,7 +9613,7 @@ html[data-theme="grey"] .mobile-notification__head-content a, html[data-theme="g
 html[data-theme="grey"] .history-block__head, html[data-theme="grey"] .birthday-block__head, html[data-theme="grey"] .twitter-block__head, html[data-theme="grey"] .main-cup__header, html[data-theme="grey"] .main-cup__header .main-cup__lead, html[data-theme="grey"] .head__all, html[data-theme="grey"] .comment-block__head, html[data-theme="grey"] .lead2 {
   color: #648099;
 }
-html[data-theme="grey"] .timeline__item-comments-write-registr-button:hover, html[data-theme="grey"] .timeline__item-comments-write-enter-button:hover, html[data-theme="grey"] .statistics__button:hover, html[data-theme="grey"] .select__head2:hover, html[data-theme="grey"] .timeline-navigation__page a::before, html[data-theme="grey"] .timeline-navigation_arrow-left::before, html[data-theme="grey"] .timeline-navigation_arrow-right::before, html[data-theme="grey"] .timeline-sponsors .swiper-button-prev:hover, html[data-theme="grey"] .timeline-sponsors .swiper-button-next:hover, html[data-theme="grey"] .learn-more .circle-element, html[data-theme="grey"] .layer-toggle-visible, html[data-theme="grey"] .vertical-menu-block__categories span:not(.news_date), html[data-theme="grey"] .main-cup__controls .swiper-button-prev, html[data-theme="grey"] .main-cup__controls .swiper-button-next {
+html[data-theme="grey"] .popup input[type="submit"]:hover, html[data-theme="grey"] .timeline__item-comments-write-registr-button:hover, html[data-theme="grey"] .timeline__item-comments-write-enter-button:hover, html[data-theme="grey"] .statistics__button:hover, html[data-theme="grey"] .select__head2:hover, html[data-theme="grey"] .timeline-navigation__page a::before, html[data-theme="grey"] .timeline-navigation_arrow-left::before, html[data-theme="grey"] .timeline-navigation_arrow-right::before, html[data-theme="grey"] .timeline-sponsors .swiper-button-prev:hover, html[data-theme="grey"] .timeline-sponsors .swiper-button-next:hover, html[data-theme="grey"] .learn-more .circle-element, html[data-theme="grey"] .layer-toggle-visible, html[data-theme="grey"] .vertical-menu-block__categories span:not(.news_date), html[data-theme="grey"] .main-cup__controls .swiper-button-prev, html[data-theme="grey"] .main-cup__controls .swiper-button-next {
   background-color: #e1e1e1;
 }
 html[data-theme="grey"] .btn-container {
@@ -9645,7 +9663,7 @@ html[data-theme="grey"] .img__profile a:hover, html[data-theme="grey"] .notifica
 html[data-theme="grey"] .mobile-notification__time .view {
   color: #2f5278 !important;
 }
-html[data-theme='grey'] .header__notifications_head a:hover, html[data-theme='grey'] .calendar .calendar-close-crosshair:hover, html[data-theme='grey'] .calendar .calendar-inner .calendar-body .calendar-today, html[data-theme='grey'] .calendar .calendar-inner .calendar-today-date, html[data-theme='grey'] .calendar .calendar-inner .calendar-controls .calendar-prev a, html[data-theme='grey'] .calendar .calendar-inner .calendar-controls .calendar-next a, html[data-theme="grey"] .enter-button, html[data-theme="grey"] .timeline__footer button, html[data-theme="grey"] .timeline__body .td_top10w td, html[data-theme="grey"] .timeline-navigation__page a, html[data-theme="grey"] .timeline-navigation_arrow-left, html[data-theme="grey"] .timeline-navigation_arrow-right, html[data-theme="grey"] .timeline-sponsors .swiper-button-prev, html[data-theme="grey"] .timeline-sponsors .swiper-button-next, html[data-theme="grey"] .timeline__comments:hover, html[data-theme="grey"] .vertical-menu-block__body .vertical-menu-block__list li::before, html[data-theme="grey"] .learn-more__text2::before, html[data-theme="grey"] .learn-more__text2::after {
+html[data-theme='grey'] .popup input[type="submit"], html[data-theme='grey'] .header__notifications_head a:hover, html[data-theme='grey'] .calendar .calendar-close-crosshair:hover, html[data-theme='grey'] .calendar .calendar-inner .calendar-body .calendar-today, html[data-theme='grey'] .calendar .calendar-inner .calendar-today-date, html[data-theme='grey'] .calendar .calendar-inner .calendar-controls .calendar-prev a, html[data-theme='grey'] .calendar .calendar-inner .calendar-controls .calendar-next a, html[data-theme="grey"] .enter-button, html[data-theme="grey"] .timeline__footer button, html[data-theme="grey"] .timeline__body .td_top10w td, html[data-theme="grey"] .timeline-navigation__page a, html[data-theme="grey"] .timeline-navigation_arrow-left, html[data-theme="grey"] .timeline-navigation_arrow-right, html[data-theme="grey"] .timeline-sponsors .swiper-button-prev, html[data-theme="grey"] .timeline-sponsors .swiper-button-next, html[data-theme="grey"] .timeline__comments:hover, html[data-theme="grey"] .vertical-menu-block__body .vertical-menu-block__list li::before, html[data-theme="grey"] .learn-more__text2::before, html[data-theme="grey"] .learn-more__text2::after {
   background-color: #eee;
 }
 html[data-theme="grey"] .exit-yes, html[data-theme="grey"] .log-in {
@@ -9708,7 +9726,7 @@ html[data-theme="grey"] .password-registr-form-icon, html[data-theme="grey"] .ni
 /* html[data-theme="grey"] .form__input, html[data-theme="grey"] .form__field_radio .option {
   border-color: #c8c9ca;
 } */
-html[data-theme="grey"] .timeline__item-comments-write.guest-user .timeline__item-comments-write-body-tab-registr, html[data-theme="grey"] .timeline__item-comments-comment-more, html[data-theme="grey"] .timeline__item-comments-controls, html[data-theme="grey"] .toolbar-button2, html[data-theme="grey"] .toolbar-button, html[data-theme="grey"] .last--comments-news-body-item:not(:first-of-type), html[data-theme="grey"] .timeline__item-comments-write.guest-user .timeline__item-comments-write-body-tab-enter, html[data-theme="grey"] .timeline__item-comments-write.guest-user .timeline__item-comments-write-body, html[data-theme="grey"] .timeline__item-comments-write-spoiler, html[data-theme="grey"] .timeline__item-total-accuracy span, html[data-theme="grey"] .text-field:focus ~ .toolbar-list, html[data-theme="grey"] .toolbar-list, html[data-theme="grey"] .text-field, html[data-theme="grey"] .timeline__item-comments-discussion, html[data-theme="grey"] .vertical-menu-block__body .vertical-menu-block__list li a, html[data-theme="grey"] .slider-container3 .swiper-pagination-bullet, html[data-theme="grey"] .timeline-sponsors .swiper-pagination-bullet, html[data-theme="grey"] .timer__more-item, html[data-theme="grey"] .timeline__body table td:not(.table0_100 tr td), html[data-theme="grey"] .burger-menu__tab.burger-menu__tab1, html[data-theme="grey"] .burger-menu__tab.burger-menu__tab1.active, html[data-theme="grey"] .burger-menu__tab.burger-menu__tab2, html[data-theme="grey"] .burger-menu-back-tab.slide4, html[data-theme="grey"] .burger-menu-back-tab.slide3, html[data-theme="grey"] .burger-menu-back-tab.slide2, html[data-theme="grey"] .burger-menu-back-tab.slide1, html[data-theme="grey"] .burger-menu__new-slide, html[data-theme="grey"] .burger-menu_nav-menu-title, html[data-theme="grey"] .burger-menu_nav-menu-list li:not(:last-of-type) a, html[data-theme="grey"] .burger-menu_nav-menu-list__default li:not(:last-of-type) a, html[data-theme="grey"] .timer__more_info div, html[data-theme="grey"] .statistics1, html[data-theme="grey"] .statistics2, html[data-theme="grey"] .statistics4, html[data-theme="grey"] .interview-block__items, html[data-theme="grey"] .mobile-timer__more-events-content, html[data-theme="grey"] .vertical-menu-block__categories span:not(.news_date), html[data-theme="grey"] .timeline__head {
+html[data-theme="grey"] .popup input[type="text"], html[data-theme="grey"] .popup input[type="text"]:focus, html[data-theme="grey"] .timeline__item-comments-write.guest-user .timeline__item-comments-write-body-tab-registr, html[data-theme="grey"] .timeline__item-comments-comment-more, html[data-theme="grey"] .timeline__item-comments-controls, html[data-theme="grey"] .toolbar-button2, html[data-theme="grey"] .toolbar-button, html[data-theme="grey"] .last--comments-news-body-item:not(:first-of-type), html[data-theme="grey"] .timeline__item-comments-write.guest-user .timeline__item-comments-write-body-tab-enter, html[data-theme="grey"] .timeline__item-comments-write.guest-user .timeline__item-comments-write-body, html[data-theme="grey"] .timeline__item-comments-write-spoiler, html[data-theme="grey"] .timeline__item-total-accuracy span, html[data-theme="grey"] .text-field:focus ~ .toolbar-list, html[data-theme="grey"] .toolbar-list, html[data-theme="grey"] .text-field, html[data-theme="grey"] .timeline__item-comments-discussion, html[data-theme="grey"] .vertical-menu-block__body .vertical-menu-block__list li a, html[data-theme="grey"] .slider-container3 .swiper-pagination-bullet, html[data-theme="grey"] .timeline-sponsors .swiper-pagination-bullet, html[data-theme="grey"] .timer__more-item, html[data-theme="grey"] .timeline__body table td:not(.table0_100 tr td), html[data-theme="grey"] .burger-menu__tab.burger-menu__tab1, html[data-theme="grey"] .burger-menu__tab.burger-menu__tab1.active, html[data-theme="grey"] .burger-menu__tab.burger-menu__tab2, html[data-theme="grey"] .burger-menu-back-tab.slide4, html[data-theme="grey"] .burger-menu-back-tab.slide3, html[data-theme="grey"] .burger-menu-back-tab.slide2, html[data-theme="grey"] .burger-menu-back-tab.slide1, html[data-theme="grey"] .burger-menu__new-slide, html[data-theme="grey"] .burger-menu_nav-menu-title, html[data-theme="grey"] .burger-menu_nav-menu-list li:not(:last-of-type) a, html[data-theme="grey"] .burger-menu_nav-menu-list__default li:not(:last-of-type) a, html[data-theme="grey"] .timer__more_info div, html[data-theme="grey"] .statistics1, html[data-theme="grey"] .statistics2, html[data-theme="grey"] .statistics4, html[data-theme="grey"] .interview-block__items, html[data-theme="grey"] .mobile-timer__more-events-content, html[data-theme="grey"] .vertical-menu-block__categories span:not(.news_date), html[data-theme="grey"] .timeline__head {
   border-color: #dfdfdf;
 }
 html[data-theme="grey"] .mobile-notification__item, html[data-theme="grey"] .header__notifications_item {
@@ -9763,6 +9781,9 @@ background-color: #e1e1e1;
   html[data-theme='grey'] .birthday-block__congratulations:active {
     background-color: #e1e1e1;
   }
+  html[data-theme="grey"] .timeline__item-comments-write-rules:active {
+    background-color: #eee;
+  }
 }
 @media screen and (min-width: 993px) {
   [data-theme="grey"] .important-news__news-spoiler:hover {
@@ -9770,6 +9791,9 @@ background-color: #e1e1e1;
   }
   html[data-theme='grey'] .birthday-block__congratulations:hover {
     background-color: #e1e1e1;
+  }
+  html[data-theme="grey"] .timeline__item-comments-write-rules:hover {
+    background-color: #eee;
   }
 }
 @media screen and (max-width: 450px) {
@@ -9815,7 +9839,7 @@ html[data-theme="dark"] .banner__cookie_no:hover, html[data-theme="dark"] .banne
 html[data-theme="summer"] .banner__cookie {
   background-color: #ffffffd6;
 }
-html[data-theme="summer"] .banner__cookie_text a, html[data-theme="summer"] .banner__cookie_yes, html[data-theme="summer"] .banner__cookie_no {
+html[data-theme="summer"] .popup input[type="submit"], html[data-theme="summer"] .banner__cookie_text a, html[data-theme="summer"] .banner__cookie_yes, html[data-theme="summer"] .banner__cookie_no {
   color: #348232;
 }
 html[data-theme="summer"] .banner__cookie_text a:hover {
@@ -9873,7 +9897,7 @@ html[data-theme="grey"] .banner__cookie {
   background-color: #f5f9fdd6;
   box-shadow: 0px 0px 16px 0px rgba(0,0,0,0.2);
 }
-html[data-theme="grey"] .banner__cookie_text a, html[data-theme="grey"] .banner__cookie_yes, html[data-theme="grey"] .banner__cookie_no {
+html[data-theme="grey"] .popup input[type="submit"], html[data-theme="grey"] .banner__cookie_text a, html[data-theme="grey"] .banner__cookie_yes, html[data-theme="grey"] .banner__cookie_no {
   color: #2f5278;
 }
 html[data-theme="grey"] .banner__cookie_text a:hover {
