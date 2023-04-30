@@ -9060,7 +9060,7 @@ html[data-theme='Black'] .timeline__footer button .icon-container .icon svg {
 html[data-theme="Black"] .icon.icon--left::before, html[data-theme="Black"] .icon.icon--right::before {
   border-color: #6688c0;
 }
-html[data-theme="Black"] .user-link:hover, html[data-theme="Black"] .forgot-login-password a:hover, html[data-theme="Black"] .timeline__item-comments-username a:hover, html[data-theme="Black"] .timeline__item-comments-to-write-comments:hover, html[data-theme="Black"] .main-cup a:hover, html[data-theme='Black'] .timeline a:hover:not(.timeline__item-comments-answer-button a, .last--comments-news-head a, .timeline__item-last-photos-head a, .last--comments-news-body-discription-comments-number), html[data-theme='Black'] .left-sidebar a:hover, html[data-theme='Black'] .right-sidebar a:hover {
+html[data-theme="Black"] .user-link:hover, html[data-theme="Black"] .forgot-login-password a:hover, html[data-theme="Black"] .timeline__item-comments-username a:hover, html[data-theme="Black"] .timeline__item-comments-to-write-comments:hover, html[data-theme="Black"] .main-cup a:hover, html[data-theme='Black'] .timeline a:hover:not(.timeline__item-comments-answer-button a, .last--comments-news-head a, .timeline__item-last-photos-head a, .last--comments-news-body-discription-comments-number, .btn__socials), html[data-theme='Black'] .left-sidebar a:hover, html[data-theme='Black'] .right-sidebar a:hover {
   color: #93bbff;
   border-color: #93bbff;
 }
@@ -9151,10 +9151,11 @@ html[data-theme='Black'] .popular-block__search-form input:focus {
   border-color: #292a2c;
 }
 html[data-theme='Black'] .btn__socials {
-  box-shadow: 1px 1.5px 7px 0 rgb(65, 65, 65);
+  box-shadow: none;
+  border: 1px solid #292a2c;
 }
 html[data-theme='Black'] .btn__socials:active {
-  box-shadow: inset 1px 1.5px 5px 0 rgb(65, 65, 65);
+  box-shadow: none;
 }
 html[data-theme='Black'] .timeline__item-comments-write-enter-form .input-login:focus, html[data-theme='Black'] .timeline__item-comments-write-registr-form .input-registr:focus, html[data-theme='Black'] .login__username:focus, html[data-theme='Black'] .login__password:focus, html[data-theme='Black'] .e-mail__login:focus, html[data-theme='Black'] .login__repeat_password:focus {
   border-color: #353739;
