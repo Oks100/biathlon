@@ -8239,7 +8239,7 @@ html[data-theme="dark"] .tippy-content, html[data-theme="dark"] .calendar2 {
 html[data-theme="dark"] .img__profile a:hover, html[data-theme='dark'] .mobile-notification__head-admin-panel a {
   color: #abcbff !important;
 }
-html[data-theme="dark"] .tippy-content a:hover:not(.header__notifications_head-body a, .header__notifications_head-admin-panel a, .more-button, .timer__more-button a, .statistics__button a) {
+html[data-theme="dark"] .tippy-content a:hover:not(.dateNumber, .header__notifications_head-body a, .header__notifications_head-admin-panel a, .more-button, .timer__more-button a, .statistics__button a) {
   color: #8ab4f8 !important;
 }
 html[data-theme="dark"] .tippy-box, html[data-theme="dark"] .tippy-arrow {
