@@ -2405,6 +2405,15 @@ html[data-theme='dark'] .guest-user.tab-password .timeline__item-comments-write-
     }
 }
 
+@media screen and (max-width: 550px) {
+    .timeline__item-last-comments-news {
+      padding: 1.5em 1.06em;
+    }
+    .timeline__item-last-photos {
+        padding: 2em 1.06em 3.5em 1.06em;
+    }
+  }
+
 @media  (max-width: 700px) {
     .discussion-overflow .timeline__item-comments-comment {
         max-height: 1000px;

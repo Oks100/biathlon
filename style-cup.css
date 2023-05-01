@@ -1,0 +1,190 @@
+#tippy-16 li::before, #tippy-16 li::after {
+    display: none;
+}
+#tippy-16 ul li:first-of-type a::before {
+    content: "\e016";
+    font-family: 'icomoon';
+    margin-right: 7px;
+    font-size: 13px;
+    color: #81aad5;
+}
+#tippy-16 ul li:nth-child(2) a::before {
+    content: "\e015";
+    font-family: 'icomoon';
+    margin-right: 7px;
+    font-size: 13px;
+    color: #81aad5;
+  }
+#tippy-16 ul li a {
+    color: black !important;
+    font-size: 13.5px !important;
+    text-transform: none !important;
+    padding: 0px 10px 0px 10px !important;
+    transition: 0s !important;
+    text-shadow: none !important;
+    width: 100%;
+    display: flex;
+}
+#tippy-16 ul li:last-of-type a::before {
+    content: "\e9b";
+    font-family: 'icomoon';
+    margin-right: 7px;
+    font-size: 13px;
+    color: #81aad5;
+}
+#tippy-16 ul li:last-of-type a, #tippy-16 ul li:last-of-type a::before {
+    color: red !important;
+}
+#tippy-16 ul li {
+    white-space: nowrap;
+    line-height: 33px;
+}
+#tippy-16 ul li a:hover {
+    background-color: #ecf5fb;
+}
+#tippy-16 .tippy-content {
+    overflow: hidden;
+}
+
+html[data-theme="dark"] #tippy-16 ul li a {
+    color: #e1e1e1 !important;
+}
+html[data-theme="dark"] #tippy-16 ul li a:hover {
+    background-color: #293139;
+}
+html[data-theme="dark"] #tippy-16 ul li:first-of-type a::before, html[data-theme="dark"] #tippy-16 ul li:nth-child(2) a::before {
+    color: rgba(47, 111, 200, 0.85);
+}
+html[data-theme="dark"] #tippy-16 ul li:last-of-type a, html[data-theme="dark"] #tippy-16 ul li:last-of-type a::before {
+    color: #d40000 !important;
+}
+html[data-theme="summer"] #tippy-16 ul li:first-of-type a::before, html[data-theme="summer"] #tippy-16 ul li:nth-child(2) a::before {
+    color: rgb(101, 192, 99);
+}
+html[data-theme="summer"] #tippy-16 ul li a:hover {
+    background-color: #fdf8ed
+}
+html[data-theme="Black"] #tippy-16 ul li a {
+    color: #c9ccd0 !important;
+}
+html[data-theme="Black"] #tippy-16 ul li:first-of-type a::before, html[data-theme="Black"] #tippy-16 ul li:nth-child(2) a::before {
+    color: #265591;
+}
+html[data-theme="Black"] #tippy-16 ul li:last-of-type a, html[data-theme="Black"] #tippy-16 ul li:last-of-type a:before {
+    color: #d40000 !important;
+}
+html[data-theme="Black"] #tippy-16 ul li a:hover {
+    background-color: #19202b;
+}
+html[data-theme="grey"] #tippy-16 ul li a {
+    color: #1e1e1e !important;
+}
+html[data-theme="grey"] #tippy-16 ul li:first-of-type a::before, html[data-theme="grey"] #tippy-16 ul li:nth-child(2) a::before {
+    color: rgba(98, 129, 157, 0.75);
+}
+html[data-theme="grey"] #tippy-16 ul li:last-of-type a, html[data-theme="grey"] #tippy-16 ul li:last-of-type a:before {
+    color: #ee3232 !important;
+}
+html[data-theme="grey"] #tippy-16 ul li a:hover {
+    background-color: #f5f5f5;
+}
+
+
+.timeline-cup {
+    padding: 2em 1.5em 1.39em 1.5em;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0px 5px 24px rgba(32,60,87,0.11);
+    overflow-x: hidden;
+}
+.timeline-cup__head {
+    padding-bottom: 0.75em;
+}
+.timeline-cup__head span {
+    font-size: 1.3em;
+    color: black;
+    font-weight: 700;
+}
+.timeline-cup__body {
+}
+.timeline-cup__navbar {
+    /* margin-top: 0.75em; */
+    margin-top: 0.75em;
+    background-color: white;
+    padding-bottom: 0.75em;
+}
+
+.timeline-cup__list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.timeline-cup__list li {
+    padding: 6px 10px;
+    background-color: #e7f3fa;
+    cursor: pointer;
+    outline: 1px solid #d0d9dd;
+    flex: 1 1 auto;
+    text-align: center;
+    color: #002b71;
+    transition: all .3s ease;
+}
+.timeline-cup__list li:hover {
+    background-color: #d1ebfb;
+}
+.timeline-cup__list-short {
+    display: none;
+}
+
+
+.timeline-cup__select-body {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 1.5em;
+}
+.timeline-cup__flag {
+    display: flex;
+    align-items: center;
+}
+.timeline-cup__select-flag {
+    margin-left: 7px;
+    padding: 5px;
+    width: 100px;
+}
+.timeline-cup__select-season {
+    margin-left: 7px;
+    padding: 5px;
+}
+.timeline-cup__select-menu {
+    display: flex;
+    align-items: center;
+}
+.timeline-cup__footer {
+}
+
+.hide-profile {
+    display: none;
+}
+
+
+@media screen and (max-width: 550px) {
+.timeline-cup {
+    padding: 1.5em 1.06em;
+}
+}
+@media screen and (max-width: 992px) {
+    .timeline-cup__navbar {
+        position: fixed;
+        top: 0;
+        z-index: 100;
+        left: 0;
+        width: 100%;
+        margin-top: 0;
+    }
+    .timeline-cup__list-long {
+        display: none;
+    }
+    .timeline-cup__list-short {
+        display: block;
+    }
+}
