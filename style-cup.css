@@ -218,7 +218,7 @@ html[data-theme="grey"] #tippy-16 ul li a:hover {
     .timeline-cup.fixed .timeline-cup__select-body.smart {
         display: none;
     }
-    .timeline-cup__bottom-navbar-compere, .timeline-cup__bottom-navbar-male {
+    .timeline-cup__bottom-navbar form, .timeline-cup__bottom-navbar-compere, .timeline-cup__bottom-navbar-male {
         border-right: 1px solid #d0d9dd;
     }
     .timeline-cup__bottom-navbar-compere
@@ -226,7 +226,7 @@ html[data-theme="grey"] #tippy-16 ul li a:hover {
         display: none;
     }
     .timeline-cup__bottom-navbar .timeline-cup__select-flag {
-        width: 97px;
+        width: 102px;
     }
     .timeline-cup__list-long {
         display: none;
@@ -244,11 +244,11 @@ html[data-theme="grey"] #tippy-16 ul li a:hover {
         bottom: 0;
         background-color: white;
         width: 100%;
-        line-height: 32.2px;
+        line-height: 37.2px;
         align-items: center;
     }
     .timeline-cup.fixed .timeline-cup__bottom-navbar select {
-        padding: 9.5px 5px;
+        padding: 12px 5px;
     }
     .season::before {
         content: "\e900";
@@ -261,7 +261,7 @@ html[data-theme="grey"] #tippy-16 ul li a:hover {
         margin-left: 7px;
     }
     .timeline-cup__bottom-navbar .timeline-cup__select-season {
-        width: 60px;
+        width: 64px;
     }
     .timeline-cup__bottom-navbar-gender {
         display: flex;
@@ -270,7 +270,6 @@ html[data-theme="grey"] #tippy-16 ul li a:hover {
     .timeline-cup__bottom-navbar-male, .timeline-cup__bottom-navbar-female, .timeline-cup__bottom-navbar-compere {
         display: flex;
         height: 100%;
-        /* width: 35px; */
         align-items: center;
         justify-content: center;
     }
@@ -278,7 +277,7 @@ html[data-theme="grey"] #tippy-16 ul li a:hover {
         flex: 1;
     }
     .timeline-cup__bottom-navbar-compere {
-        flex: 0 0 35px;
+        flex: 0 0 40px;
         padding: 0 7px;
     }
     .timeline-cup__bottom-navbar-male-icon::before {
@@ -303,14 +302,6 @@ html[data-theme="grey"] #tippy-16 ul li a:hover {
         padding-left: 7px;
     }
 }
-@media screen and (max-width: 520px) {
-    .timeline-cup__bottom-navbar-male-title-short, .timeline-cup__bottom-navbar-female-title-short {
-        display: block;
-    }
-    .timeline-cup__bottom-navbar-compere-title, .timeline-cup__bottom-navbar-male-title, .timeline-cup__bottom-navbar-female-title {
-        display: none;
-    }
-}
 @media screen and (max-width: 400px) {
     .timeline-cup__bottom-navbar-compere {
         margin-left: 0px;
@@ -319,5 +310,23 @@ html[data-theme="grey"] #tippy-16 ul li a:hover {
 @media screen and (max-width: 380px) {
     .timeline-cup__bottom-navbar-male-title-short, .timeline-cup__bottom-navbar-female-title-short {
         display: none;
+    }
+}
+@media screen and (max-width: 520px) {
+    .timeline-cup__bottom-navbar-male-title-short, .timeline-cup__bottom-navbar-female-title-short {
+        display: block;
+    }
+    .timeline-cup__bottom-navbar-compere-title, .timeline-cup__bottom-navbar-male-title, .timeline-cup__bottom-navbar-female-title {
+        display: none;
+    }
+}
+@media screen and (max-width: 415px) {
+    .timeline-cup__bottom-navbar-male-title-short, .timeline-cup__bottom-navbar-female-title-short {
+        display: none !important;
+    }
+}
+@media screen and (max-width: 346px) {
+    .timeline-cup__bottom-navbar .timeline-cup__select-flag {
+        width: 76px;
     }
 }
