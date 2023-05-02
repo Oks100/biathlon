@@ -6908,7 +6908,7 @@ article.timeline {
     #back-to-top-button {
       width: 25px;
       height: 60px;
-      bottom: 30px;
+      bottom: 40px;
       right: -2px;
       display: flex;
       align-items: center;
@@ -9123,7 +9123,7 @@ html[data-theme='Black'] .delete-yes, html[data-theme='Black'] .timeline__item-c
 html[data-theme='Black'] .map-legend-1::before, html[data-theme='Black'] .number-item[data-num="23"]::before, html[data-theme='Black'] .number-item[data-num="22"]::before, html[data-theme='Black'] .number-item[data-num="18"]::before, html[data-theme='Black'] .number-item[data-num="17"]::before, html[data-theme='Black'] .number-item[data-num="9"]::before, html[data-theme='Black'] .number-item[data-num="8"]::before, html[data-theme='Black'] .burger-menu__profile-messange span, html[data-theme='Black'] .header__mobile-number-massage2 span, html[data-theme='Black'] .race-ended::before, html[data-theme='Black'] .header__number-massage span, html[data-theme='Black'] .header__number-massage2 span {
   background-color: #d40000;
 }
-html[data-theme='Black'] .discussion-overflow .timeline__item-comments-comment-more, html[data-theme='Black'] .last--comments-news-body-item:not(:first-of-type), html[data-theme='Black'] .timeline__item-comments-write.guest-user .timeline__item-comments-write-body-tab-registr, html[data-theme='Black'] .toolbar-button2, html[data-theme='Black'] .toolbar-button, html[data-theme='Black'] .timeline__item-comments-controls, html[data-theme='Black'] .timeline__item-comments-write.guest-user .timeline__item-comments-write-body-tab-enter, html[data-theme='Black'] .timeline__item-comments-write.guest-user .timeline__item-comments-write-body, html[data-theme='Black'] .timeline__item-comments-write-spoiler, html[data-theme='Black'] .timeline__item-total-accuracy span, html[data-theme='Black'] .text-field:focus ~ .toolbar-list, html[data-theme='Black'] .toolbar-list, html[data-theme='Black'] .text-field, html[data-theme='Black'] .timeline__item-comments-discussion, html[data-theme="Black"] .vertical-menu-block__body .vertical-menu-block__list li a, html[data-theme='Black'] .timer__more-item, html[data-theme='Black'] .burger-menu-back-tab, html[data-theme='Black'] .burger-menu_nav-menu-title, html[data-theme='Black'] .burger-menu_nav-menu-list li:not(:last-of-type) a, html[data-theme='Black'] .burger-menu_nav-menu-tabs a, html[data-theme='Black'] .burger-menu__new-slide, html[data-theme='Black'] .burger-menu_nav-menu-tabs a:first-of-type, html[data-theme='Black'] .burger-menu_nav-menu-list__default li:not(:last-of-type) a, html[data-theme='Black'] .mobile-timer__more-events-content, html[data-theme='Black'] .mobile-notification__item, html[data-theme='Black'] .header__notifications_conteiner.notif-more .header__notifications_item:nth-child(3), html[data-theme='Black'] .timeline-sponsors .swiper-slide.card, html[data-theme='Black'] .timeline__body table td:not(.table0_100 tr td), html[data-theme='Black'] .timeline__head, html[data-theme='Black'] .vertical-menu-block__categories span:not(.news_date), html[data-theme='Black'] .interview-block__items {
+html[data-theme='Black'] .mobile-notification__head-admin-panel, html[data-theme='Black'] .discussion-overflow .timeline__item-comments-comment-more, html[data-theme='Black'] .last--comments-news-body-item:not(:first-of-type), html[data-theme='Black'] .timeline__item-comments-write.guest-user .timeline__item-comments-write-body-tab-registr, html[data-theme='Black'] .toolbar-button2, html[data-theme='Black'] .toolbar-button, html[data-theme='Black'] .timeline__item-comments-controls, html[data-theme='Black'] .timeline__item-comments-write.guest-user .timeline__item-comments-write-body-tab-enter, html[data-theme='Black'] .timeline__item-comments-write.guest-user .timeline__item-comments-write-body, html[data-theme='Black'] .timeline__item-comments-write-spoiler, html[data-theme='Black'] .timeline__item-total-accuracy span, html[data-theme='Black'] .text-field:focus ~ .toolbar-list, html[data-theme='Black'] .toolbar-list, html[data-theme='Black'] .text-field, html[data-theme='Black'] .timeline__item-comments-discussion, html[data-theme="Black"] .vertical-menu-block__body .vertical-menu-block__list li a, html[data-theme='Black'] .timer__more-item, html[data-theme='Black'] .burger-menu-back-tab, html[data-theme='Black'] .burger-menu_nav-menu-title, html[data-theme='Black'] .burger-menu_nav-menu-list li:not(:last-of-type) a, html[data-theme='Black'] .burger-menu_nav-menu-tabs a, html[data-theme='Black'] .burger-menu__new-slide, html[data-theme='Black'] .burger-menu_nav-menu-tabs a:first-of-type, html[data-theme='Black'] .burger-menu_nav-menu-list__default li:not(:last-of-type) a, html[data-theme='Black'] .mobile-timer__more-events-content, html[data-theme='Black'] .mobile-notification__item, html[data-theme='Black'] .header__notifications_conteiner.notif-more .header__notifications_item:nth-child(3), html[data-theme='Black'] .timeline-sponsors .swiper-slide.card, html[data-theme='Black'] .timeline__body table td:not(.table0_100 tr td), html[data-theme='Black'] .timeline__head, html[data-theme='Black'] .vertical-menu-block__categories span:not(.news_date), html[data-theme='Black'] .interview-block__items {
   border-color: #292a2c;
 }
 html[data-theme='Black'] .timeline__item-comments-comment-more:hover {
@@ -10027,8 +10027,11 @@ html[data-theme="grey"] .banner__cookie_no:hover, html[data-theme="grey"] .banne
   align-items: center;
   justify-content: center;
   border-radius: 33px;
-  color: #002b71 !important;
   -webkit-tap-highlight-color: transparent;
+  color: #002b71 !important;
+}
+.mobile-notification__head-admin-panel i {
+  color: black;
 }
 /* .mobile-notification__head-admin-comments:active, .mobile-notification__head-admin-news:active {
   background-color: #e7f3fa;

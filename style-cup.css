@@ -183,24 +183,25 @@ html[data-theme="grey"] #tippy-16 ul li a:hover {
 }
 .timeline-cup__bottom-navbar-female {
 }
-
-
-
-
 .timeline-cup__select-body.smart {
     display: none;
 }
-
+.timeline-cup__select-body select {
+    outline: 1px solid #d0d9dd;
+}
+.body.fixed .footer {
+    margin-bottom: 40px;
+}
 @media screen and (max-width: 550px) {
 .timeline-cup {
     padding: 1.5em 1.06em;
 }
 }
 @media screen and (max-width: 992px) {
-    .timeline-cup.fixed .timeline-cup__navbar {
+    .body.fixed .timeline-cup__navbar {
         position: fixed;
         top: 0;
-        z-index: 100;
+        z-index: 2;
         left: 0;
         width: 100%;
         margin-top: 0;
@@ -215,14 +216,13 @@ html[data-theme="grey"] #tippy-16 ul li a:hover {
         flex-wrap: wrap;
         gap: 10px 5px;
     }
-    .timeline-cup.fixed .timeline-cup__select-body.smart {
+    .body.fixed .timeline-cup__select-body.smart {
         display: none;
     }
     .timeline-cup__bottom-navbar form, .timeline-cup__bottom-navbar-compere, .timeline-cup__bottom-navbar-male {
         border-right: 1px solid #d0d9dd;
     }
-    .timeline-cup__bottom-navbar-compere
-    .timeline-cup.fixed .timeline-cup__select-body.smart {
+    .body.fixed .timeline-cup__select-body.smart {
         display: none;
     }
     .timeline-cup__bottom-navbar .timeline-cup__select-flag {
@@ -237,7 +237,7 @@ html[data-theme="grey"] #tippy-16 ul li a:hover {
     .timeline-cup__select-body {
         display: none;
     }
-    .timeline-cup.fixed .timeline-cup__bottom-navbar {
+    .body.fixed .timeline-cup__bottom-navbar {
         display: flex;
         position: fixed;
         left: 0;
@@ -246,14 +246,15 @@ html[data-theme="grey"] #tippy-16 ul li a:hover {
         width: 100%;
         line-height: 37.2px;
         align-items: center;
+        z-index: 2;
     }
-    .timeline-cup.fixed .timeline-cup__bottom-navbar select {
+    .body.fixed .timeline-cup__bottom-navbar select {
         padding: 12px 5px;
     }
     .season::before {
         content: "\e900";
         font-family: 'icomoon';
-        font-size: 0.95em;
+        font-size: 1em;
         font-weight: normal;
         color: #81aad5;
     }
@@ -274,7 +275,8 @@ html[data-theme="grey"] #tippy-16 ul li a:hover {
         justify-content: center;
     }
     .timeline-cup__bottom-navbar-male, .timeline-cup__bottom-navbar-female {
-        flex: 1;
+        /* flex: 1; */
+        flex: 1 0 40px;
     }
     .timeline-cup__bottom-navbar-compere {
         flex: 0 0 40px;
