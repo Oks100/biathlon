@@ -107,7 +107,7 @@ function handleResize() {
   function handleScroll() {
 	const timelineCupHeadPosition = timelineCupHead.getBoundingClientRect().bottom + window.pageYOffset - timelineCupHead.offsetHeight;
 	
-	if (window.pageYOffset >= timelineCupHeadPosition + 150) {
+	if (window.pageYOffset >= timelineCupHeadPosition + 50) {
 	  timelineCup.classList.add('fixed');
 	} else {
 	  timelineCup.classList.remove('fixed');
