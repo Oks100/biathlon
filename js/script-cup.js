@@ -114,7 +114,7 @@ function handleResize() {
 	}
   }
   
-  let timelineCup = document.querySelector('.timeline-cup');
+  let timelineCup = document.querySelector('.body');
   let timelineCupHead = document.querySelector('.timeline-cup__head');
   
   handleResize();
