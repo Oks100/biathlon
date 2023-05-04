@@ -218,11 +218,13 @@ html[data-theme="grey"] #tippy-16 ul li a:hover {
 }
 .timeline-cup-table tbody tr td:nth-child(2) {
     width: 25px;
+    text-align: center;
 }
 .timeline-cup-table tbody tr:not(:first-child) td:nth-child(2) {
     font-weight: 600;
     font-size: 0.9em;
     padding-bottom: 4px;
+    text-align: center;
 }
 .timeline-cup-table tbody tr td:first-child {
     font-size: 0.75em;
