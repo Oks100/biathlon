@@ -191,9 +191,9 @@ html[data-theme="grey"] #tippy-16 ul li a:hover {
 .timeline-cup__select-body select {
     outline: 1px solid #d0d9dd;
 }
-.body.fixed .footer {
+/* .body.fixed .footer {
     margin-bottom: 40px;
-}
+} */
 
 .timeline-cup-tables {
     display: flex;
@@ -219,10 +219,20 @@ html[data-theme="grey"] #tippy-16 ul li a:hover {
 .timeline-cup-table tbody tr td:nth-child(2) {
     width: 25px;
 }
-.timeline-cup-table tbody tr:not(:first-child) td:first-child {
+.timeline-cup-table tbody tr:not(:first-child) td:nth-child(2) {
     font-weight: 600;
     font-size: 0.9em;
     padding-bottom: 4px;
+}
+.timeline-cup-table tbody tr td:first-child {
+    font-size: 0.75em;
+    padding-bottom: 4px;
+}
+.timeline-cup-table .red {
+    color: red;
+}
+.timeline-cup-table .green {
+    color: #1bd212;
 }
 .timeline-cup-table tbody tr:nth-child(1) {
     background-color: white;
@@ -255,9 +265,22 @@ html[data-theme="grey"] #tippy-16 ul li a:hover {
     color: #1f7ec4;
     font-family: tahoma, Arial, Helvetica, sans-serif;
 }
-
+/* 
 td[img*="Ukraine"] {
     background-color: red;
+} */
+.timeline-cup__flag span {
+    display: flex;
+    gap: 0 5px;
+    flex-wrap: wrap;
+    width: min-content;
+    white-space: nowrap;
+}
+.timeline-cup__flag i {
+    font-style: normal;
+}
+.timeline-cup__flag i:nth-child(2) {
+    font-size: 0.9em;
 }
 @media (hover: hover) {
     .timeline-cup-table tbody tr:not(:first-child):hover td {
@@ -299,15 +322,15 @@ td[img*="Ukraine"] {
         flex-wrap: wrap;
         gap: 15px;
     }
-    .body.fixed .timeline-cup__select-body.smart {
+    /* .body.fixed .timeline-cup__select-body.smart {
         display: none;
-    }
+    } */
     /* .timeline-cup__bottom-navbar form, .timeline-cup__bottom-navbar-compere, .timeline-cup__bottom-navbar-male {
         border-right: 1px solid #d0d9dd;
     } */
-    .body.fixed .timeline-cup__select-body.smart {
+    /* .body.fixed .timeline-cup__select-body.smart {
         display: none;
-    }
+    } */
     /* .timeline-cup__bottom-navbar .timeline-cup__select-flag {
         width: 102px;
     } */
@@ -390,7 +413,11 @@ td[img*="Ukraine"] {
         padding-left: 7px;
     } */
 }
-
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+    .timeline-cup-tables {
+        justify-content: left;
+    }
+}
 @media screen and (max-width: 650px) {
     .timeline-cup-tables {
         justify-content: left;
