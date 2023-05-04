@@ -282,11 +282,21 @@ td[img*="Ukraine"] {
 .timeline-cup__flag i:nth-child(2) {
     font-size: 0.9em;
 }
+
+
+/* .timeline-cup.norway .norway-string {
+    background-color: #ffcae5;
+} */
+.chosen-string.active {
+    background-color: #ffcae5 !important;
+}
+
+
 @media (hover: hover) {
-    .timeline-cup-table tbody tr:not(:first-child):hover td {
-        background-color: #d1ebfb;
+    .timeline-cup-table tbody tr:not(:first-child, .active):hover td {
+/*         background-color: #d1ebfb;
         background-color: #fffce5;
-        background-color: #c8eaff;
+        background-color: #c8eaff; */
         background-color: #ffd5d5;
     }
   }
