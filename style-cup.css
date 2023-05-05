@@ -168,7 +168,7 @@ html[data-theme="grey"] #tippy-16 ul li a:hover {
 
 
 .timeline-cup__list li.active {
-    background-color: #d1ebfb;
+    background-color: #c0e5fb;
 }
 /* .timeline-cup__bottom-navbar {
     display: none;
@@ -227,7 +227,8 @@ html[data-theme="grey"] #tippy-16 ul li a:hover {
     text-align: center;
 }
 .timeline-cup-table tbody tr td:first-child {
-    font-size: 0.75em;
+    /* font-size: 0.75em; */
+    font-size: 0.8em;
     padding-bottom: 4px;
 }
 .timeline-cup-table .red {
@@ -235,6 +236,9 @@ html[data-theme="grey"] #tippy-16 ul li a:hover {
 }
 .timeline-cup-table .green {
     color: #1bd212;
+}
+.timeline-cup-table .new-result {
+    color: #fcd401;
 }
 .timeline-cup-table tbody tr:nth-child(1) {
     background-color: white;

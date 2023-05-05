@@ -8838,8 +8838,11 @@ html[data-theme="summer"] .toolbar-list {
 html[data-theme="summer"] .tippy-arrow {
   color: #fffdf8;
 }
-html[data-theme="summer"] .timeline__item-comments-write.guest-user .timeline__item-comments-write-body-tab-registr, html[data-theme="summer"] .timeline__item-comments-write.guest-user .timeline__item-comments-write-body-tab-enter, html[data-theme="summer"] .timeline__item-comments-write.guest-user .timeline__item-comments-write-body, html[data-theme="summer"] .timeline__item-comments-write-spoiler, html[data-theme="summer"] .vertical-menu-block__categories span:not(.news_date), html[data-theme="summer"] .mobile-notification__img .logged {
+html[data-theme="summer"] .timeline__item-comments-write.guest-user .timeline__item-comments-write-body-tab-registr, html[data-theme="summer"] .timeline__item-comments-write.guest-user .timeline__item-comments-write-body-tab-enter, html[data-theme="summer"] .timeline__item-comments-write.guest-user .timeline__item-comments-write-body, html[data-theme="summer"] .timeline__item-comments-write-spoiler, html[data-theme="summer"] .mobile-notification__img .logged {
   border-color: #dbd6cc;
+}
+html[data-theme="summer"] .vertical-menu-block__categories span:not(.news_date) {
+  background: #ffedc3;
 }
 html[data-theme="summer"] .timeline__comments:hover {
   background-color: #fff2d4;
@@ -9841,7 +9844,7 @@ html[data-theme="dark"] .banner__cookie_no:hover, html[data-theme="dark"] .banne
 html[data-theme="summer"] .banner__cookie {
   background-color: #ffffffd6;
 }
-html[data-theme="summer"] .popup input[type="submit"], html[data-theme="summer"] .banner__cookie_text a, html[data-theme="summer"] .banner__cookie_yes, html[data-theme="summer"] .banner__cookie_no {
+html[data-theme="summer"] .timeline-navigation__page a, html[data-theme="summer"] .timeline__comments-refer span, html[data-theme="summer"] .popup input[type="submit"], html[data-theme="summer"] .banner__cookie_text a, html[data-theme="summer"] .banner__cookie_yes, html[data-theme="summer"] .banner__cookie_no {
   color: #348232;
 }
 html[data-theme="summer"] .banner__cookie_text a:hover {
