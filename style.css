@@ -8096,8 +8096,9 @@ html[data-theme='dark'] .footer__icon::before, html[data-theme='dark'] .footer__
 html[data-theme='dark'] .timeline__item-last-photos-head h1, html[data-theme='dark'] .last--comments-news-body-text, html[data-theme='dark'] .last--comments-news-head h1, html[data-theme='dark'] .text-field, html[data-theme='dark'] .timeline__item-total-accuracy, html[data-theme='dark'] .timeline__item-comments-write-title, html[data-theme='dark'] .timeline__item-comments-comment, html[data-theme='dark'] .user-locality, html[data-theme='dark'] .timeline__item-comments-title span:first-child, html[data-theme='dark'] .timeline__speedbar-title, html[data-theme='dark'] .mobile-notification__head-admin-panel i, html[data-theme='dark'] .header__notifications_head-admin-panel a i, html[data-theme='dark'] .header__notifications_head-body a i, html[data-theme='dark'] .header__notifications_head-body a span, html[data-theme='dark'] .birthday-block__congratulations span, html[data-theme='dark'] .burger-menu__log-in_contant-entered span, html[data-theme='dark'] .burger-menu__sign-up_confirmed span, html[data-theme='dark'] .form__field span, html[data-theme='dark'] .burger-menu__tabs span, html[data-theme='dark'] .burger-menu__confirmation-menu_text span, html[data-theme='dark'] .burger-menu_nav-menu-content li .burger-menu_nav-more .list-number, html[data-theme='dark'] .timeline__head a {
   color: #e1e1e1;
 }
-html[data-theme='dark'] .layer-toggle-visible, html[data-theme='dark'] .vertical-menu-block__categories span:not(.news_date), html[data-theme='dark'] .main-cup__controls .swiper-button-prev, html[data-theme='dark'] .main-cup__controls .swiper-button-next {
-  background: #235f9f;
+html[data-theme='dark'] .vertical-menu-block__categories span:not(.news_date), html[data-theme='dark'] .layer-toggle-visible, html[data-theme='dark'] .main-cup__controls .swiper-button-prev, html[data-theme='dark'] .main-cup__controls .swiper-button-next {
+  /* background: #235f9f; */
+  background: #215994;
 }
 html[data-theme='dark'] .popup input[type="submit"], html[data-theme='dark'] .calendar2 .calendar-inner .calendar-body .calendar-today, html[data-theme='dark'] .calendar2 .calendar-inner .calendar-today-date, html[data-theme='dark'] .calendar2 .calendar-inner .calendar-controls .calendar-prev a, html[data-theme='dark'] .calendar2 .calendar-inner .calendar-controls .calendar-next a, html[data-theme='dark'] .learn-more .circle-element {
   background: #184779;
@@ -8135,7 +8136,7 @@ html[data-theme='dark'] .timeline__footer button .icon-container .icon svg {
   fill: #abcbff;
 }
 html[data-theme='dark'] .btn-container {
-  --btn-bg: #235f9f;
+  --btn-bg: #215994;
 }
 html[data-theme='dark'] .header__notifications_head-body a:hover, html[data-theme='dark'] .header__notifications_head-admin-panel a:hover, html[data-theme='dark'] .calendar-b:hover, html[data-theme='dark'] .timer__data-next, html[data-theme='dark'] .timer__data-prev, html[data-theme='dark'] .enter-button, html[data-theme='dark'] .timeline__footer button {
   background: #184779;
