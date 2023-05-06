@@ -870,7 +870,10 @@
     .timeline__item-comments-discussion {
         border-radius: 15px 0 15px 15px;
         margin-bottom: 2.0em;
-    };
+    }
+    .timeline__item-comments-body.full {
+        margin-top: calc(2em + 12px);
+    }
 }
 @media  (max-width: 550px) {
     .timeline__speedbar {
