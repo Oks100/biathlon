@@ -141,6 +141,8 @@ html[data-theme="grey"] #tippy-16 ul li a:hover {
     display: flex;
     justify-content: space-around;
     margin-top: 1.5em;
+    flex-wrap: wrap;
+    gap: 1.5em 16px;
 }
 .timeline-cup__flag {
     display: flex;
@@ -148,12 +150,14 @@ html[data-theme="grey"] #tippy-16 ul li a:hover {
 }
 .timeline-cup__select-flag {
     margin-left: 7px;
-    padding: 5px;
-    width: 102px;
+    /* padding: 5px;
+    width: 102px; */
+    padding: 5px 0 5px 5px;
+    width: 98px;
 }
 .timeline-cup__select-season {
     margin-left: 7px;
-    padding: 5px;
+    padding: 5px 0 5px 5px;
 }
 .timeline-cup__select-menu {
     display: flex;
@@ -165,7 +169,13 @@ html[data-theme="grey"] #tippy-16 ul li a:hover {
 .hide-profile {
     display: none;
 }
-
+.compare-icon:before {
+    /* content: "\e91b"; */
+    content: "\e91c";
+    font-family: 'icomoon';
+    color: #8d8d8d;
+    font-size: 0.85em;
+}
 
 .timeline-cup__list li.active {
     background-color: #c0e5fb;
@@ -347,6 +357,13 @@ td[img*="Ukraine"] {
     padding-right: 5px;
 }
 
+.timeline__more-tables-body li:first-child::before {
+    color: #8d8d8d;
+}
+.timeline__more-tables-body li:first-child {
+    color: #5d5d5d;
+}
+
 @media (hover: hover) {
     .timeline-cup-table tbody tr:not(:first-child, .active):hover td {
 /*         background-color: #d1ebfb;
@@ -367,8 +384,11 @@ td[img*="Ukraine"] {
 }
 
 @media screen and (max-width: 992px) {
-    .timeline__more-tables-body ul li:not(:last-of-type) {
+    /* .timeline__more-tables-body ul li:not(:last-of-type) {
         margin-bottom: 7px;
+    } */
+    .timeline__more-tables-body ul {
+        gap: 8px 0;
     }
     .timeline__more-tables-body ul {
         height: 172px;
