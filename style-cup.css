@@ -111,7 +111,8 @@ html[data-theme="grey"] #tippy-16 ul li a:hover {
     /* margin-top: 0.75em; */
     margin-top: 0.75em;
     background-color: white;
-    padding-bottom: 0.75em;
+    /* padding-bottom: 0.75em; */
+    padding-bottom: 1em;
 }
 
 .timeline-cup__list {
@@ -218,6 +219,7 @@ html[data-theme="grey"] #tippy-16 ul li a:hover {
     /* background-color: #e7f3fa; */
     /* font-size: 0.95em; */
     border-collapse: collapse;
+    margin-top: 10px;
 }
 .timeline-cup-table tr {
     /* height: 25.35px; */
@@ -232,14 +234,15 @@ html[data-theme="grey"] #tippy-16 ul li a:hover {
 }
 .timeline-cup-table tbody tr:not(:first-child) td:nth-child(2) {
     font-weight: 600;
-    font-size: 0.9em;
+    font-size: 0.85em;
     padding-bottom: 4px;
     text-align: center;
 }
+
 .timeline-cup-table tbody tr td:first-child {
-    /* font-size: 0.75em; */
-    font-size: 0.8em;
+    /* font-size: 0.8em; */
     padding-bottom: 4px;
+    font-size: 11.5px; 
 }
 .timeline-cup-table .red {
     color: red;
@@ -271,9 +274,9 @@ html[data-theme="grey"] #tippy-16 ul li a:hover {
     color: #73b5e5;
     border-bottom: 1px solid #73b5e5;
 }
-.timeline-cup-table-title tr td {
+.timeline-cup-table-title tr:first-child td {
     text-align: center;
-    height: 50px;
+    /* height: 50px; */
     font-weight: 600;
     /* font-size: 1.1em; */
     background-color: white;
@@ -364,6 +367,143 @@ td[img*="Ukraine"] {
     color: #5d5d5d;
 }
 
+.table-compare {
+    display: none;
+}
+
+.timeline-cup.another-table .timeline-cup-table {
+    display: none;
+}
+.timeline-cup.another-table .table-compare {
+    display: block;
+}
+
+
+.table-title-body {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 12px;
+    position: relative;
+    /* margin: 5px 0 15px 0; */
+    margin: 10px 0 20px 0;
+}
+
+.table-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    z-index: 2;
+    width: 42px;
+    height: 42px;
+    cursor: default;
+    background-color: white;
+    font-weight: 600;
+    color: #464646;
+    /* border: 1px solid #dfedf4; */
+    border: 1px solid #ddeffa;
+    font-family: tahoma;
+}
+
+.table-button {
+    color: #002b71;
+    transition: all .3s ease;
+}
+.table-button-now-1.active::before, .table-button-earlier-1.active::before, .table-button-now-2.active::before, .table-button-earlier-2.active::before {
+    width: calc(100% + 1px);
+}
+.table-button-now-1, .table-button-now-2 {
+    border-radius: 33px 0 0 33px;
+    position: relative;
+    z-index: 1;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    padding: 0px 32px 0px 15px;
+    height: 33px;
+}
+.table-button-earlier-1, .table-button-earlier-2 {
+    border-radius: 0 33px 33px 0;
+    position: relative;
+    z-index: 1;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    padding: 0px 15px 0px 32px;
+    height: 33px;
+}
+.table-button::before {
+    content: '';
+    position: absolute;
+    top: 0px;
+    height: 100%;
+    width: 0;
+    background-color: #ddeffa;
+    z-index: -1;
+    transition: all 0.4s ease;
+}
+.table-button-now-1::before, .table-button-now-2::before {
+    right: 0;
+    border-radius: 33px 0 0 33px;
+}
+
+.table-button-now-1:hover, .table-button-now-2:hover, .table-button-earlier-1:hover, .table-button-earlier-2:hover {
+    box-shadow: inset 0px 0px 0px 1px #ddeffa;
+}
+
+.table-button-earlier-1::before, .table-button-earlier-2::before {
+    left: 0;
+    border-radius: 0 33px 33px 0;
+}
+
+.table-title-body:before {
+
+}
+.another-table .timeline-cup-table-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+/* .table-compare-exemple-2 tr td:nth-child(4) {
+    width: 202.6px;
+} */
+.table-compare-exemple-2 .compare-icon-2::before, .table-compare-exemple-4 .compare-icon-2::before {
+        content: "\e91d";
+        font-family: 'icomoon';
+        color: #8d8d8d;
+        font-size: 1.05em;
+}
+.timeline-cup-table-male tbody td:nth-child(4) {
+    width: 203.383px;
+}
+.table-compare-exemple-2 tr td:nth-child(1), .table-compare-exemple-4 tr td:nth-child(1) {
+    width: 28.8px;
+}
+.table-compare-exemple-2 tr td:nth-child(3), .table-compare-exemple-4 tr td:nth-child(3) {
+    width: 22.8px;
+}
+.table-compare-exemple-4 tr td:nth-child(4) {
+    width: 212.767px;
+}
+
+.table-compare-exemple-2, .table-compare-exemple-4 {
+    display: none;
+}
+.timeline-cup.another-table-2 .table-compare-exemple-1, .timeline-cup.another-table-3 .table-compare-exemple-3 {
+    display: none;
+}
+.timeline-cup.another-table-2 .table-compare-exemple-2, .timeline-cup.another-table-3 .table-compare-exemple-4 {
+    display: block;
+}
+
 @media (hover: hover) {
     .timeline-cup-table tbody tr:not(:first-child, .active):hover td {
 /*         background-color: #d1ebfb;
@@ -397,7 +537,7 @@ td[img*="Ukraine"] {
     .timeline-cup__select-body.smart {
         display: flex;
         flex-wrap: wrap;
-        gap: 15px;
+        gap: 23px 15px;
     }
     .timeline-cup__list-long {
         display: none;
