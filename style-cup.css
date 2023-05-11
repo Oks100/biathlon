@@ -284,10 +284,21 @@ html[data-theme="grey"] #tippy-16 ul li a:hover {
     color: #1f7ec4;
     font-family: tahoma, Arial, Helvetica, sans-serif;
 }
-/* 
-td[img*="Ukraine"] {
-    background-color: red;
+
+.timeline-cup-table tbody {
+    margin-top: 20px;
+    display: block;
+}
+
+/* .timeline-cup-table-title tr:first-child td::after {
+    content: "\e91e";
+    font-family: 'icomoon';
+    color: #81aad5;
+    font-size: 1em;
+    padding-left: 5px;
+    font-weight: normal;
 } */
+
 .timeline-cup__flag span {
     display: flex;
     gap: 0 5px;
@@ -384,10 +395,9 @@ td[img*="Ukraine"] {
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    margin-bottom: 12px;
     position: relative;
     /* margin: 5px 0 15px 0; */
-    margin: 10px 0 20px 0;
+    margin-top: 10px;
 }
 
 .table-title {
@@ -503,6 +513,8 @@ td[img*="Ukraine"] {
 .timeline-cup.another-table-2 .table-compare-exemple-2, .timeline-cup.another-table-3 .table-compare-exemple-4 {
     display: block;
 }
+
+
 
 @media (hover: hover) {
     .timeline-cup-table tbody tr:not(:first-child, .active):hover td {
