@@ -1,148 +1,3 @@
-// const menu = document.getElementById('timeline-cup__navbar');
-// const menuTopOffset = menu.offsetTop;
-
-// function fixMenu() {
-//   if (window.pageYOffset >= menuTopOffset) {
-//     menu.classList.add('fixed-menu');
-//   } else {
-//     menu.classList.remove('fixed-menu');
-//   }
-// }
-
-// window.addEventListener('scroll', fixMenu);
-
-
-/*Прилипающая шапка*/
-// var h_hght = 250; // высота шапки
-// var h_mrg = 0;	  // отступ когда шапка уже не видна
-				
-// $(function(){
-
-// 	var elem = $('#timeline-cup__navbar');
-// 	var top = $(this).scrollTop();
-	
-// 	if(top > h_hght){
-// 		elem.css('top', h_mrg);
-// 	}			
-	
-// 	$(window).scroll(function(){
-// 		top = $(this).scrollTop();
-		
-// 		if (top+h_mrg < h_hght) {
-// 			elem.css('top', (h_hght-top));
-// 		} else {
-// 			elem.css('top', h_mrg);
-// 		}
-// 	});
-
-// });
-/*Прилипающая шапка*/
-
-// const timelineCup = document.querySelector('.timeline-cup');
-// const timelineCupHead = document.querySelector('.timeline-cup__head');
-
-// window.addEventListener('scroll', () => {
-//   if (window.scrollY >= 10) {
-//     timelineCup.classList.add('fixed');
-//   } else {
-//     timelineCup.classList.remove('fixed');
-//   }
-// });
-
-
-// const timelineCup = document.querySelector('.timeline-cup');
-// const timelineCupHead = document.querySelector('.timeline-cup__head');
-// const timelineCupHeadPosition = timelineCupHead.getBoundingClientRect().top + window.pageYOffset;
-
-// window.addEventListener('scroll', () => {
-//   if (window.pageYOffset >= timelineCupHeadPosition + 100) {
-//     timelineCup.classList.add('fixed');
-//   } else {
-//     timelineCup.classList.remove('fixed');
-//   }
-// });
-
-// const timelineCup = document.querySelector('.timeline-cup');
-// const timelineCupHead = document.querySelector('.timeline-cup__head');
-// const timelineCupHeadPosition = timelineCupHead.getBoundingClientRect().bottom + window.pageYOffset - timelineCupHead.offsetHeight;
-
-// function handleScroll() {
-//   if (window.pageYOffset >= timelineCupHeadPosition + 100) {
-//     timelineCup.classList.add('fixed');
-//   } else {
-//     timelineCup.classList.remove('fixed');
-//   }
-// }
-
-// if (window.innerWidth <= 992) {
-//   window.addEventListener('scroll', handleScroll);
-// }
-
-// const timelineCup = document.querySelector('.timeline-cup');
-// const timelineCupHead = document.querySelector('.timeline-cup__head');
-// const timelineCupHeadPosition = timelineCupHead.getBoundingClientRect().bottom + window.pageYOffset - timelineCupHead.offsetHeight;
-
-// function handleScroll() {
-//   if (window.pageYOffset >= timelineCupHeadPosition + 100) {
-//     timelineCup.classList.add('fixed');
-//   } else {
-//     timelineCup.classList.remove('fixed');
-//   }
-// }
-
-// if (window.innerWidth <= 992) {
-//   window.addEventListener('scroll', handleScroll);
-// }
-
-/* Скрит, который добавляет класс при скролле */
-
-// function handleResize() {
-// 	if (window.innerWidth <= 992) {
-// 	  window.addEventListener('scroll', handleScroll);
-// 	} else {
-// 	  window.removeEventListener('scroll', handleScroll);
-// 	  timelineCup.classList.remove('fixed');
-// 	}
-//   }
-  
-//   function handleScroll() {
-// 	const timelineCupHeadPosition = timelineCupHead.getBoundingClientRect().bottom + window.pageYOffset - timelineCupHead.offsetHeight;
-	
-// 	if (window.pageYOffset >= timelineCupHeadPosition + 50) {
-// 	  timelineCup.classList.add('fixed');
-// 	} else {
-// 	  timelineCup.classList.remove('fixed');
-// 	}
-//   }
-  
-//   let timelineCup = document.querySelector('.body');
-//   let timelineCupHead = document.querySelector('.timeline-cup__head');
-  
-//   handleResize();
-//   window.addEventListener('resize', handleResize);
-
-/* Скрит, который добавляет класс при скролле */
-
-
-
-
-//   document.querySelectorAll('.norway-string img').forEach(img => {
-// 	img.addEventListener('click', () => {
-// 	  document.querySelector('.timeline-cup').classList.remove('class1', 'class2', 'class3');
-// 	  document.querySelector('.timeline-cup').classList.add('norway'); 
-// 	});
-//   });
-
-
-// document.querySelectorAll('.norway-string img').forEach(img => {
-// 	img.addEventListener('click', () => {
-// 	  let norwayStrings = document.querySelectorAll('.norway-string');
-// 	  norwayStrings.forEach(norwayString => {
-// 		norwayString.classList.add('active');
-// 	  });
-// 	});
-//   });
-
 document.querySelectorAll('.norway-string img').forEach(img => {
 	img.addEventListener('click', () => {
 	  let chosenStrings = document.querySelectorAll('.chosen-string');
@@ -545,3 +400,113 @@ document.querySelectorAll('.norway-string img').forEach(img => {
 	  });
 	});
   });
+
+
+
+
+//   const selectSeason = document.querySelector('.timeline-cup__select-season');
+//   const timelineCup = document.querySelector('.timeline-cup');
+  
+//   selectSeason.addEventListener('change', function() {
+// 	if (this.value === '2020/2021') {
+// 	  timelineCup.classList.add('another-table');
+// 	} else {
+// 	  timelineCup.classList.remove('another-table');
+// 	}
+//   });
+
+// $('#timeline-cup__select-season').on('change', function() {
+// 	if ($(this).val() == '2020/2021') {
+// 	  $('.timeline-cup').addClass('another-table');
+// 	} else {
+// 	  $('.timeline-cup').removeClass('another-table');
+// 	}
+//   });
+
+
+$('#timeline-cup__select-season').on('change', function() {
+	if ($(this).val() == '2020/2021') {
+	  $('.timeline-cup').addClass('another-table');
+	} else {
+	  $('.timeline-cup').removeClass('another-table');
+	}
+  });
+
+  $('#timeline-cup__select-season2').on('change', function() {
+	if ($(this).val() == '2020/2021') {
+	  $('.timeline-cup').addClass('another-table');
+	} else {
+	  $('.timeline-cup').removeClass('another-table');
+	}
+  });
+
+//   $(document).ready(function () {
+// 	$('#close-compare').change(function () {
+// 	  if ($(this).val() === 'close') {
+// 		$('.timeline-cup').removeClass('another-table');
+// 	  }
+// 	});
+//   });
+
+//   $(document).ready(function () {
+// 	$('#close-compare2').change(function () {
+// 	  if ($(this).val() === 'close') {
+// 		$('.timeline-cup').removeClass('another-table');
+// 	  }
+// 	});
+//   });
+
+$(document).ready(function () {
+	$('#close-compare').change(function () {
+	  if ($(this).val() === 'close') {
+		$('.timeline-cup').removeClass('another-table');
+		$('#timeline-cup__select-season').val('selected');
+	  }
+	});
+  });
+
+$(document).ready(function () {
+	$('#close-compare').change(function () {
+	  if ($(this).val() === 'close') {
+		$('.timeline-cup').removeClass('another-table');
+		$('#timeline-cup__select-season2').val('selected');
+	  }
+	});
+  });
+  
+
+
+  
+$(document).ready(function(){
+	$('.table-button-earlier-1').click(function () {
+		$('.timeline-cup').addClass('another-table-2');
+		$('.table-button-earlier-1').addClass('active');
+		$('.table-button-now-1').removeClass('active');
+		});
+	});
+
+
+$(document).ready(function(){
+	$('.table-button-now-1').click(function () {
+		$('.timeline-cup').removeClass('another-table-2');
+		$('.table-button-now-1').addClass('active');
+		$('.table-button-earlier-1').removeClass('active');
+		});
+	});
+
+$(document).ready(function(){
+	$('.table-button-earlier-2').click(function () {
+		$('.timeline-cup').addClass('another-table-3');
+		$('.table-button-earlier-2').addClass('active');
+		$('.table-button-now-2').removeClass('active');
+		});
+	});
+
+
+$(document).ready(function(){
+	$('.table-button-now-2').click(function () {
+		$('.timeline-cup').removeClass('another-table-3');
+		$('.table-button-now-2').addClass('active');
+		$('.table-button-earlier-2').removeClass('active');
+		});
+	});
