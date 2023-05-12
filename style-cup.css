@@ -285,10 +285,10 @@ html[data-theme="grey"] #tippy-16 ul li a:hover {
     font-family: tahoma, Arial, Helvetica, sans-serif;
 }
 
-.timeline-cup-table tbody {
+/* .timeline-cup-table tbody {
     margin-top: 20px;
     display: block;
-}
+} */
 
 /* .timeline-cup-table-title tr:first-child td::after {
     content: "\e91e";
@@ -510,9 +510,19 @@ html[data-theme="grey"] #tippy-16 ul li a:hover {
 .timeline-cup.another-table-2 .table-compare-exemple-1, .timeline-cup.another-table-3 .table-compare-exemple-3 {
     display: none;
 }
-.timeline-cup.another-table-2 .table-compare-exemple-2, .timeline-cup.another-table-3 .table-compare-exemple-4 {
+.based-table, .table-compare-exemple-3, .table-compare-exemple-1, .timeline-cup.another-table-2 .table-compare-exemple-2, .timeline-cup.another-table-3 .table-compare-exemple-4 {
+    margin-top: 20px;
     display: block;
 }
+
+.timeline-cup-table .table-compare-exemple-1{
+
+}
+
+/* .timeline-cup-table .timeline-cup.another-table-1,  {
+    margin-top: 20px;
+    display: block;
+} */
 
 
 
