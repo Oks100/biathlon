@@ -98,13 +98,114 @@ html[data-theme="grey"] #tippy-16 ul li a:hover {
     overflow-x: hidden;
 }
 .timeline-cup__head {
-    padding-bottom: 0.75em;
+    /* padding-bottom: 0.75em; */
+    margin-bottom: 1.5em;
+    position: relative;
+    /* display: flex;
+    justify-content: space-between; */
 }
-.timeline-cup__head span {
+.timeline-cup__head span:nth-child(1) {
     font-size: 1.3em;
     color: black;
     font-weight: 700;
+    padding-right: 50px;
 }
+
+.age-button {
+    display: flex;
+    width: 35px;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+}
+.age-button-svg {
+    cursor: pointer;
+}
+.age-button-svg path {
+    fill: #84acd4;
+    transition: all .3s ease;
+}
+.timeline-cup.profiles-color .age-button-svg path:nth-child(1) {
+    fill: #1bd212;
+}
+.timeline-cup.profiles-color .age-button-svg path:nth-child(3) {
+    fill: #ff0000;
+}
+.timeline-cup.profiles-color .age-button-svg path:nth-child(4) {
+    fill: #fcd401;
+}
+.timeline-cup .age-button-svg:hover path:nth-child(1) {
+    fill: #1bd212;
+}
+.timeline-cup .age-button-svg:hover path:nth-child(3) {
+    fill: #ff0000;
+}
+.timeline-cup .age-button-svg:hover path:nth-child(4) {
+    fill: #fcd401;
+}
+.age-color-1, .age-color-2, .age-color-3, .age-color-4, .age-color-5, .age-color-6 {
+    transition: background-color .3s ease;
+}
+.timeline-cup.profiles-color .age-color-2 {
+    background-color: #5bff5b;
+}
+.timeline-cup.profiles-color .age-color-3 {
+    background-color: rgb(255, 255, 164);
+}
+.timeline-cup.profiles-color .age-color-4 {
+    background-color: #ffff3c;
+}
+.timeline-cup.profiles-color .age-color-5 {
+    background-color: #ffc1c1;
+}
+.timeline-cup.profiles-color .age-color-6 {
+    background-color: #ff5151;
+}
+
+/* .age-button {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translatey(-50%);
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+}
+.age-button-icon {
+    background-image: url(img/Age-5.png);
+    background-size: cover;
+    transition: all 0.4s ease;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+
+.age-button-icon:hover {
+    transform: rotate(360deg);
+}
+.age-button-icon:hover ~ .age-button-title {
+    color: red;
+}
+.age-button-title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+    font-size: 12px;
+    transition: all 0.4s ease;
+    color: #002b71;
+} */
+
+/* .age-button::before {
+    content: "\e91f";
+    font-family: 'icomoon';
+    font-size: 1.5em;
+    font-weight: normal;
+    padding-left: 5px;
+    color: #81aad5;
+} */
 .timeline-cup__body {
 }
 .timeline-cup__navbar {
@@ -513,10 +614,6 @@ html[data-theme="grey"] #tippy-16 ul li a:hover {
 .based-table, .table-compare-exemple-3, .table-compare-exemple-1, .timeline-cup.another-table-2 .table-compare-exemple-2, .timeline-cup.another-table-3 .table-compare-exemple-4 {
     margin-top: 20px;
     display: block;
-}
-
-.timeline-cup-table .table-compare-exemple-1{
-
 }
 
 /* .timeline-cup-table .timeline-cup.another-table-1,  {
