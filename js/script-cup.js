@@ -510,3 +510,9 @@ $(document).ready(function(){
 		$('.table-button-earlier-2').removeClass('active');
 		});
 	});
+
+$(document).ready(function(){
+	$('.age-button-svg').click(function () {
+		$('.timeline-cup').toggleClass('profiles-color');
+		});
+	});
