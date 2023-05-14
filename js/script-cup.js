@@ -466,7 +466,7 @@ $(document).ready(function () {
   });
 
 $(document).ready(function () {
-	$('#close-compare').change(function () {
+	$('#close-compare2').change(function () {
 	  if ($(this).val() === 'close') {
 		$('.timeline-cup').removeClass('another-table');
 		$('#timeline-cup__select-season2').val('selected');
