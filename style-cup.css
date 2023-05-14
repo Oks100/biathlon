@@ -147,6 +147,9 @@ html[data-theme="grey"] #tippy-16 ul li a:hover {
 .age-color-1, .age-color-2, .age-color-3, .age-color-4, .age-color-5, .age-color-6 {
     transition: background-color .3s ease;
 }
+.timeline-cup.profiles-color .age-color-1 {
+    background-color: #bcffbc;
+}
 .timeline-cup.profiles-color .age-color-2 {
     background-color: #5bff5b;
 }
@@ -160,7 +163,7 @@ html[data-theme="grey"] #tippy-16 ul li a:hover {
     background-color: #ffc1c1;
 }
 .timeline-cup.profiles-color .age-color-6 {
-    background-color: #ff5151;
+    background-color: #ff7b7b;
 }
 
 /* .age-button {
