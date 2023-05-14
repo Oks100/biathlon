@@ -233,6 +233,7 @@ html[data-theme="grey"] #tippy-16 ul li a:hover {
     text-align: center;
     color: #002b71;
     transition: all .3s ease;
+    -webkit-tap-highlight-color: transparent;
 }
 .timeline-cup__list li:hover {
     background-color: #d1ebfb;
@@ -569,10 +570,6 @@ html[data-theme="grey"] #tippy-16 ul li a:hover {
     border-radius: 33px 0 0 33px;
 }
 
-.table-button-now-1:hover, .table-button-now-2:hover, .table-button-earlier-1:hover, .table-button-earlier-2:hover {
-    box-shadow: inset 0px 0px 0px 1px #ddeffa;
-}
-
 .table-button-earlier-1::before, .table-button-earlier-2::before {
     left: 0;
     border-radius: 0 33px 33px 0;
@@ -628,6 +625,10 @@ html[data-theme="grey"] #tippy-16 ul li a:hover {
 } */
 
 
+.table-button-now-1:focus, .table-button-now-2:focus, .table-button-earlier-1:focus, .table-button-earlier-2:focus {
+    box-shadow: inset 0px 0px 0px 1px #ddeffa;
+    -webkit-tap-highlight-color: transparent;
+}
 
 @media (hover: hover) {
     .timeline-cup-table tbody tr:not(:first-child, .active):hover td {
@@ -639,6 +640,9 @@ html[data-theme="grey"] #tippy-16 ul li a:hover {
     .timeline__more-tables-body ul li a:hover {
         color: #73b5e5;
         border-bottom: 1px solid #73b5e5;
+    }
+    .table-button-now-1:hover, .table-button-now-2:hover, .table-button-earlier-1:hover, .table-button-earlier-2:hover {
+        box-shadow: inset 0px 0px 0px 1px #ddeffa;
     }
   }
 
