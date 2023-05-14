@@ -113,7 +113,7 @@ html[data-theme="grey"] #tippy-16 ul li a:hover {
 
 .age-button {
     display: flex;
-    width: 35px;
+    /* width: 35px; */
     position: absolute;
     top: 50%;
     right: 0;
