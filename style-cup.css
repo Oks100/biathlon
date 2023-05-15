@@ -684,10 +684,8 @@ html[data-theme="grey"] #tippy-16 ul li a:hover {
         color: #73b5e5;
     }
     .timeline-cup-table tbody tr:not(:first-child, .active):hover td {
-/*         background-color: #d1ebfb;
-        background-color: #fffce5;
-        background-color: #c8eaff; */
         background-color: #ffd5d5;
+        background-color: #d6ecf9;
     }
     .timeline__more-tables-body ul li a:hover {
         color: #73b5e5;
