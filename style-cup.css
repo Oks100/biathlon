@@ -376,6 +376,7 @@ html[data-theme="grey"] #tippy-16 ul li a:hover {
 }
 .timeline-cup-table tbody tr td:last-child {
     width: 40.4667px;
+    padding: 0;
 }
 .timeline-cup-table a:hover {
     color: #73b5e5;
@@ -630,7 +631,52 @@ html[data-theme="grey"] #tippy-16 ul li a:hover {
     -webkit-tap-highlight-color: transparent;
 }
 
+.timeline-cup-table tbody tr td.points-button-td, .timeline-cup-table tbody tr td.points-button-td-2 {
+    padding: 0;
+    cursor: pointer;
+    -webkit-tap-highlight-color: transparent;
+}
+.points-button, .points-button-2 {
+    display: flex;
+    justify-content: center;
+    color: #002b71;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.timeline-cup.points-table-1 .points-1, .timeline-cup.points-table-2 .points-2 {
+    display: none;
+}
+
+.points-1-2, .points-2-2 {
+    display: none;
+}
+.points-button-stars, .points-button-stars-2 {
+    display: none;
+}
+.timeline-cup.points-table-1 .points-1-2, .timeline-cup.points-table-1 .points-button-stars, .timeline-cup.points-table-2 .points-2-2, .timeline-cup.points-table-2 .points-button-stars-2 {
+    display: block;
+    -webkit-tap-highlight-color: transparent;
+}
+.timeline-cup.points-table-1 .points-button, .timeline-cup.points-table-2 .points-button-2 {
+    display: none;
+}
+
+.points-button-stars::before, .points-button-stars-2::before {
+    content: "\e920";
+    font-family: 'icomoon';
+    font-size: 0.80em;
+    color: #8d8d8d;
+    transition: .3s ease;
+}
+.points-button-td:hover .points-button-stars::before, .points-button-td-2:hover .points-button-stars-2::before {
+    color: #81aad5;
+}
+
 @media (hover: hover) {
+    .points-button:hover, .points-button-2:hover {
+        color: #73b5e5;
+    }
     .timeline-cup-table tbody tr:not(:first-child, .active):hover td {
 /*         background-color: #d1ebfb;
         background-color: #fffce5;
