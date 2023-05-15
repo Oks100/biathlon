@@ -516,3 +516,16 @@ $(document).ready(function(){
 		$('.timeline-cup').toggleClass('profiles-color');
 		});
 	});
+
+
+$(document).ready(function(){
+	$('.points-button-td').click(function () {
+		$('.timeline-cup').toggleClass('points-table-1');
+		});
+	});
+
+$(document).ready(function(){
+	$('.points-button-td-2').click(function () {
+		$('.timeline-cup').toggleClass('points-table-2');
+		});
+	});
