@@ -600,7 +600,8 @@ html[data-theme="grey"] #tippy-16 ul li a:hover {
     display: block;
 }
 .timeline-cup-table-female tbody td:nth-child(4) {
-    min-width: 212.767px;
+    /* min-width: 212.767px; */
+    min-width: 212.8px;
     display: block;
 }
 .table-compare-exemple-2 tr td:nth-child(3), .table-compare-exemple-4 tr td:nth-child(3) {
@@ -681,7 +682,7 @@ html[data-theme="grey"] #tippy-16 ul li a:hover {
     position: absolute;
     top: 50%;
     left: 0;
-    width: 1px;
+    width: 0.5px;
     height: 50%;
     transform: translate(0, -50%);
     background-color: #d0d9dd;
