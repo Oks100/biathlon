@@ -344,10 +344,11 @@ html[data-theme="grey"] #tippy-16 ul li a:hover {
 }
 
 .timeline-cup-table tbody tr td:first-child {
-    /* font-size: 0.8em; */
-    padding-bottom: 4px;
     font-size: 11.5px; 
     min-width: 28.8px;
+}
+.timeline-cup-table tbody tr:not(:first-child) td:first-child {
+    padding-bottom: 4px;
 }
 .timeline-cup-table .red {
     color: red;
@@ -636,6 +637,7 @@ html[data-theme="grey"] #tippy-16 ul li a:hover {
     padding: 0;
     cursor: pointer;
     -webkit-tap-highlight-color: transparent;
+    position: relative;
 }
 .points-button, .points-button-2 {
     display: flex;
@@ -674,7 +676,52 @@ html[data-theme="grey"] #tippy-16 ul li a:hover {
     color: #81aad5;
 }
 
+.based-table tr:not(:first-child) .points-button-td:before, .based-table tr:not(:first-child) .points-button-td-2:before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 1px;
+    height: 50%;
+    transform: translate(0, -50%);
+    background-color: #d0d9dd;
+    opacity: 0;
+}
+.triangle::before {
+    content: "\e921";
+    font-family: 'icomoon';
+    font-size: 0.7em;
+    color: #1bd212;
+    padding-right: 2px;
+}
+.triangle-down::before {
+    content: "\e924";
+    font-family: 'icomoon';
+    font-size: 0.7em;
+    color: red;
+    padding-right: 2px;
+}
+.table-circle::before {
+    content: "\e923";
+    font-family: 'icomoon';
+    font-size: 0.55em;
+    color: #fcd401;
+}
+.square::before {
+    content: "\e922";
+    font-family: 'icomoon';
+    font-size: 0.55em;
+}
+.red.square {
+    color: red;
+}
+.green.square {
+    color: #1bd212;
+}
 @media (hover: hover) {
+    .based-table tr:not(:first-child) .points-button-td:hover::before, .based-table tr:not(:first-child) .points-button-td-2:hover::before {
+        opacity: 1;
+    }
     .timeline-cup .age-button-svg:hover path:nth-child(1) {
         fill: #1bd212;
     }
