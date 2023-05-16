@@ -378,8 +378,12 @@ html[data-theme="grey"] #tippy-16 ul li a:hover {
     min-width: 41.5px;
     padding: 0;
 }
-.table-compare-exemple-3 tr td:last-child {
-    min-width: 41.5px !important;
+/* .table-compare-exemple-3 tr:not(:first-child) {
+    display: flex;
+    width: 330.9px;
+} */
+.timeline-cup-table tbody tr td:nth-child(3) {
+    width: 22.8px;
 }
 .timeline-cup-table a:hover {
     color: #73b5e5;
