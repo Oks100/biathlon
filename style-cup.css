@@ -605,10 +605,10 @@ html[data-theme="grey"] #tippy-16 ul li a:hover {
 .table-compare-exemple-2 tr td:nth-child(3), .table-compare-exemple-4 tr td:nth-child(3) {
     width: 22.8px;
 }
-.table-compare-exemple-4 tr td:nth-child(4) {
+/* .table-compare-exemple-4 tr td:nth-child(4) {
     min-width: 212.767px;
     display: block;
-}
+} */
 
 .table-compare-exemple-2, .table-compare-exemple-4 {
     display: none;
