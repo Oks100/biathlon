@@ -544,6 +544,7 @@ html[data-theme="grey"] #tippy-16 ul li a:hover {
     align-items: center;
     padding: 0px 32px 0px 15px;
     height: 33px;
+    -webkit-tap-highlight-color: transparent;
 }
 .table-button-earlier-1, .table-button-earlier-2 {
     border-radius: 0 33px 33px 0;
@@ -597,15 +598,15 @@ html[data-theme="grey"] #tippy-16 ul li a:hover {
     width: 202.6px;
     display: block;
 }
-/* .table-compare-exemple-2 tr td:nth-child(1), .table-compare-exemple-4 tr td:nth-child(1) {
+.timeline-cup-table-female tbody td:nth-child(4) {
+    min-width: 212.767px;
     display: block;
-    width: 28.8px;
-} */
+}
 .table-compare-exemple-2 tr td:nth-child(3), .table-compare-exemple-4 tr td:nth-child(3) {
     width: 22.8px;
 }
 .table-compare-exemple-4 tr td:nth-child(4) {
-    width: 212.767px;
+    min-width: 212.767px;
     display: block;
 }
 
