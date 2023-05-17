@@ -489,10 +489,10 @@ html[data-theme="grey"] #tippy-16 ul li a:hover {
     padding-right: 5px;
 }
 
-.timeline__more-tables-body li:first-child::before {
+.timeline__more-tables-body li.active::before {
     color: #8d8d8d;
 }
-.timeline__more-tables-body li:first-child {
+.timeline__more-tables-body li.active {
     color: #5d5d5d;
 }
 
