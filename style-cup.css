@@ -127,6 +127,12 @@ html[data-theme="grey"] #tippy-16 ul li a:hover {
     fill: #84acd4;
     transition: all .3s ease;
 }
+/* .timeline-cup.profiles-color .age-button-svg path {
+    fill: #1bd212;
+} */
+/* .timeline-cup .age-button-svg:hover path {
+    fill: #1bd212;
+} */
 .timeline-cup.profiles-color .age-button-svg path:nth-child(1) {
     fill: #1bd212;
 }
@@ -141,7 +147,8 @@ html[data-theme="grey"] #tippy-16 ul li a:hover {
 }
 .timeline-cup.profiles-color .age-color-1 {
     /* background-color: #bcffbc; */
-    background-color: #c1ffc1;
+    /* background-color: #c1ffc1; */
+    background-color: #cfffcf;
 }
 .timeline-cup.profiles-color .age-color-2 {
     /* background-color: #5bff5b; */
@@ -149,7 +156,8 @@ html[data-theme="grey"] #tippy-16 ul li a:hover {
 }
 .timeline-cup.profiles-color .age-color-3 {
     /* background-color: rgb(255, 255, 164); */
-    background-color: #ffffba;
+    /* background-color: #ffffba; */
+    background-color: #ffc;
 }
 .timeline-cup.profiles-color .age-color-4 {
     /* background-color: #ffff3c; */
@@ -157,7 +165,8 @@ html[data-theme="grey"] #tippy-16 ul li a:hover {
 }
 .timeline-cup.profiles-color .age-color-5 {
     /* background-color: #ffc1c1; */
-    background-color: #ffd0d0;
+    /* background-color: #ffd0d0; */
+    background-color: #ffd4d4;
 }
 .timeline-cup.profiles-color .age-color-6 {
     /* background-color: #ff7b7b; */
