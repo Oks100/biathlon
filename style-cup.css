@@ -127,12 +127,6 @@ html[data-theme="grey"] #tippy-16 ul li a:hover {
     fill: #84acd4;
     transition: all .3s ease;
 }
-/* .timeline-cup.profiles-color .age-button-svg path {
-    fill: #1bd212;
-} */
-/* .timeline-cup .age-button-svg:hover path {
-    fill: #1bd212;
-} */
 .timeline-cup.profiles-color .age-button-svg path:nth-child(1) {
     fill: #1bd212;
 }
@@ -729,12 +723,28 @@ html[data-theme="grey"] #tippy-16 ul li a:hover {
     font-family: 'icomoon';
     font-size: 0.55em;
 }
-.red.square {
+.red.square::before {
     color: red;
 }
-.green.square {
+.green.square::before {
     color: #1bd212;
 }
+.timeline-cup__footer-legend {
+    margin-top: 1.5em;
+}
+.timeline-cup__footer-legend-title {
+    font-size: 1.3em;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.timeline-cup__footer-legend-content {
+    margin-top: 1em;
+}
+.timeline-cup__footer-legend-content ul li::before {
+    display: inline-block;
+    width: 10px;
+}
+
 @media (hover: hover) {
     .based-table tr:not(:first-child) .points-button-td:hover::before, .based-table tr:not(:first-child) .points-button-td-2:hover::before {
         opacity: 1;
