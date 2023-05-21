@@ -447,9 +447,6 @@ html[data-theme="grey"] #tippy-16 ul li a:hover {
     background-color: #d0d9dd;
     opacity: 0;
 }
-.table-compare-exemple-1 tr:not(:first-child) .points-button-td:hover::before, .table-compare-exemple-3 tr:not(:first-child) .points-button-td-2:hover::before {
-    opacity: 1;
-}
 
 .timeline-cup__flag span {
     display: flex;
@@ -786,7 +783,7 @@ html[data-theme="grey"] #tippy-16 ul li a:hover {
 }
 
 @media (hover: hover) {
-    .based-table tr:not(:first-child) .points-button-td:hover::before, .based-table tr:not(:first-child) .points-button-td-2:hover::before {
+    .table-compare-exemple-1 tr:not(:first-child) .points-button-td:hover::before, .table-compare-exemple-3 tr:not(:first-child) .points-button-td-2:hover::before, .based-table tr:not(:first-child) .points-button-td:hover::before, .based-table tr:not(:first-child) .points-button-td-2:hover::before {
         opacity: 1;
     }
     .timeline-cup .age-button-svg:hover path:nth-child(1) {
