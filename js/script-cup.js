@@ -401,7 +401,96 @@ document.querySelectorAll('.norway-string img').forEach(img => {
 	});
   });
 
+  document.querySelectorAll('.australia-string img').forEach(img => {
+	img.addEventListener('click', () => {
+	  let chosenStrings = document.querySelectorAll('.chosen-string');
+	  chosenStrings.forEach(chosenString => {
+		chosenString.classList.remove('active');
+	  });
+	  let norwayStrings = document.querySelectorAll('.australia-string');
+	  norwayStrings.forEach(norwayString => {
+		norwayString.classList.add('active');
+	  });
+	});
+  });
 
+  document.querySelectorAll('.mongilia-string img').forEach(img => {
+	img.addEventListener('click', () => {
+	  let chosenStrings = document.querySelectorAll('.chosen-string');
+	  chosenStrings.forEach(chosenString => {
+		chosenString.classList.remove('active');
+	  });
+	  let norwayStrings = document.querySelectorAll('.mongilia-string');
+	  norwayStrings.forEach(norwayString => {
+		norwayString.classList.add('active');
+	  });
+	});
+  });
+
+  document.querySelectorAll('.greece-string img').forEach(img => {
+	img.addEventListener('click', () => {
+	  let chosenStrings = document.querySelectorAll('.chosen-string');
+	  chosenStrings.forEach(chosenString => {
+		chosenString.classList.remove('active');
+	  });
+	  let norwayStrings = document.querySelectorAll('.greece-string');
+	  norwayStrings.forEach(norwayString => {
+		norwayString.classList.add('active');
+	  });
+	});
+  });
+
+  document.querySelectorAll('.greenland-string img').forEach(img => {
+	img.addEventListener('click', () => {
+	  let chosenStrings = document.querySelectorAll('.chosen-string');
+	  chosenStrings.forEach(chosenString => {
+		chosenString.classList.remove('active');
+	  });
+	  let norwayStrings = document.querySelectorAll('.greenland-string');
+	  norwayStrings.forEach(norwayString => {
+		norwayString.classList.add('active');
+	  });
+	});
+  });
+
+  document.querySelectorAll('.serbia-string img').forEach(img => {
+	img.addEventListener('click', () => {
+	  let chosenStrings = document.querySelectorAll('.chosen-string');
+	  chosenStrings.forEach(chosenString => {
+		chosenString.classList.remove('active');
+	  });
+	  let norwayStrings = document.querySelectorAll('.serbia-string');
+	  norwayStrings.forEach(norwayString => {
+		norwayString.classList.add('active');
+	  });
+	});
+  });
+
+  document.querySelectorAll('.spain-string img').forEach(img => {
+	img.addEventListener('click', () => {
+	  let chosenStrings = document.querySelectorAll('.chosen-string');
+	  chosenStrings.forEach(chosenString => {
+		chosenString.classList.remove('active');
+	  });
+	  let norwayStrings = document.querySelectorAll('.spain-string');
+	  norwayStrings.forEach(norwayString => {
+		norwayString.classList.add('active');
+	  });
+	});
+  });
+
+  document.querySelectorAll('.mongolia-string img').forEach(img => {
+	img.addEventListener('click', () => {
+	  let chosenStrings = document.querySelectorAll('.chosen-string');
+	  chosenStrings.forEach(chosenString => {
+		chosenString.classList.remove('active');
+	  });
+	  let norwayStrings = document.querySelectorAll('.mongolia-string');
+	  norwayStrings.forEach(norwayString => {
+		norwayString.classList.add('active');
+	  });
+	});
+  });
 
 
 //   const selectSeason = document.querySelector('.timeline-cup__select-season');
