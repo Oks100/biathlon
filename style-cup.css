@@ -688,9 +688,6 @@ html[data-theme="grey"] #tippy-16 ul li a:hover {
     color: #8d8d8d;
     transition: .3s ease;
 }
-.points-button-td:hover .points-button-stars::before, .points-button-td-2:hover .points-button-stars-2::before {
-    color: #81aad5;
-}
 
 .based-table tr:not(:first-child) .points-button-td:before, .based-table tr:not(:first-child) .points-button-td-2:before {
     content: '';
@@ -790,6 +787,9 @@ html[data-theme="grey"] #tippy-16 ul li a:hover {
 }
 
 @media (hover: hover) {
+    .points-button-td:hover .points-button-stars::before, .points-button-td-2:hover .points-button-stars-2::before {
+        color: #81aad5;
+    }
     .based-table tr:not(:first-child) .points-button-td:hover::before, .based-table tr:not(:first-child) .points-button-td-2:hover::before {
         opacity: 1;
     }
