@@ -5772,7 +5772,7 @@ footer.footer .footer__column a:hover, footer.footer .footer__bottom-text a:hove
     flex-direction: row;
     height: 214.267px;
   }
-  .divTableCell.help, .divTableCell.help2, .divTableCell.help3, .foto-and-text__statistics .help4, .foto-and-text__statistics .help5, .foto-and-text__statistics .help6, .no-data, .end-career::after {
+  .divTableCell.help, .divTableCell.help2, .divTableCell.help3, .foto-and-text__statistics .help4 span, .foto-and-text__statistics .help5 span, .foto-and-text__statistics .help6 span, .no-data, .end-career::after {
     cursor: help;
   }
   .img__profile {
@@ -5814,13 +5814,12 @@ footer.footer .footer__column a:hover, footer.footer .footer__bottom-text a:hove
     margin-top: 7px;
   }
   
-  .statistics1, .statistics2, .statistics3, .statistics4, .statistics5, .statistics__button {
+  .statistics4, .statistics5, .statistics__button {
     display: flex;
     flex-direction: column;
   }
-  .statistics2 {
+  .statistics1 span, .statistics2 span, .statistics3 span {
     display: flex;
-    justify-content: center;
   }
   .statistics1, .statistics2, .statistics4 {
     border-right: 1px solid #d0d9dd;
@@ -5837,8 +5836,6 @@ footer.footer .footer__column a:hover, footer.footer .footer__bottom-text a:hove
   }
   .statistics3 {
     width: 39.11%;
-  }
-  .statistics3 span {
     padding-left: 15px;
   }
   .statistics__button {

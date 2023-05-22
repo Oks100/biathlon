@@ -91,7 +91,7 @@ html[data-theme="grey"] #tippy-16 ul li a:hover {
 
 
 .timeline-cup {
-    padding: 2em 1.5em 1.39em 1.5em;
+    padding: 2em 1.5em 1.75em 1.5em;
     background-color: #fff;
     border-radius: 8px;
     box-shadow: 0px 5px 24px rgba(32,60,87,0.11);
@@ -226,7 +226,6 @@ html[data-theme="grey"] #tippy-16 ul li a:hover {
     justify-content: center;
 }
 .timeline-cup__list li {
-    padding: 7px 10px;
     background-color: #e7f3fa;
     cursor: pointer;
     outline: 1px solid #d0d9dd;
@@ -242,7 +241,12 @@ html[data-theme="grey"] #tippy-16 ul li a:hover {
 .timeline-cup__list-short {
     display: none;
 }
-
+.timeline-cup__list li a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 7px 10px;
+}
 
 .timeline-cup__select-body {
     display: flex;
@@ -443,7 +447,7 @@ html[data-theme="grey"] #tippy-16 ul li a:hover {
 
 
 .timeline__more-tables {
-    padding: 2em 1.5em 1.39em 1.5em;
+    padding: 2em 1.5em 1.75em 1.5em;
     background-color: #fff;
     border-radius: 8px;
     box-shadow: 0px 5px 24px rgba(32,60,87,0.11);
