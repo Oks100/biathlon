@@ -319,10 +319,11 @@ html[data-theme="grey"] #tippy-16 ul li a:hover {
 
 .timeline-cup-tables {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     flex-wrap: nowrap;
     align-items: flex-start;
     overflow-x: auto;
+    gap: 20px;
 }
 .no-change-legend::before {
     content: '=';
@@ -843,12 +844,6 @@ html[data-theme="grey"] #tippy-16 ul li a:hover {
         box-shadow: inset 0px 0px 0px 1px #ddeffa;
     }
   }
-
-@media screen and (max-width: 1300px) {
-    .timeline-cup-tables {
-        gap: 20px;
-    }
-}
 
 @media screen and (max-width: 992px) {
     /* .timeline__more-tables-body ul li:not(:last-of-type) {
