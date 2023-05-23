@@ -319,7 +319,7 @@ html[data-theme="grey"] #tippy-16 ul li a:hover {
 .timeline-cup-tables {
     display: flex;
     justify-content: center;
-    gap: 20px;
+    gap: 18px;
     flex-wrap: nowrap;
     align-items: flex-start;
     overflow-x: auto;
@@ -746,12 +746,16 @@ html[data-theme="grey"] #tippy-16 ul li a:hover {
     display: inline-block;
     width: 10px;
 }
-.legend-endless {
+/* .legend-endless {
     width: 12px;
     height: 12px;
     padding-left: 1px;
     fill: black;
     vertical-align: middle;
+} */
+.timeline-cup__footer-legend-remark {
+    font-size: 0.9em;
+    color: #5d5d5d;
 }
 .timeline-cup__footer-legend-list {
     margin-top: 1em;
