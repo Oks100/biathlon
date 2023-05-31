@@ -1132,8 +1132,43 @@ html[data-theme="grey"] #tippy-16 ul li a:hover {
     color: #1f7ec4;
     font-family: tahoma, Arial, Helvetica, sans-serif;
 }
-
-
+.timeline-cup__table-comments {
+}
+.timeline-cup__table-comments-title {
+    display: flex;
+    font-size: 1.3em;
+    font-weight: 600;
+    margin-top: .8em;
+    margin-bottom: .9em;
+}
+.timeline-cup__table-comments-list {
+    width: fit-content;
+    margin: 0 auto;
+    text-align: center;
+}
+/* .timeline-cup__table-comments-tables-body {
+    display: flex;
+    flex-direction: column;
+} */
+.timeline-cup__table-comments-title-wrapper {
+    display: flex;
+    gap: 18px;
+}
+.timeline-cup__table-comments-tables-wrapper {
+    display: flex;
+    gap: 18px;
+}
+.timeline-cup__table-comments-tables-1, .timeline-cup__table-comments-tables-2 {
+    display: flex;
+    gap: 18px;
+    flex-direction: column;
+}
+.timeline-cup__table-comments-table-1-title, .timeline-cup__table-comments-table-2-title, .timeline-cup__table-comments-table-1-content, .timeline-cup__table-comments-table-2-content {
+    width: 50%;
+}
+.timeline-cup__table-comments-tables-list {
+    text-align: center;
+}
 @media (hover: hover) {
     .timeline-cup__any-tables-all-result-table tbody tr.table-zebra:hover {
         background-color: #fffce5;
