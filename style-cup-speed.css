@@ -768,9 +768,13 @@ html[data-theme="grey"] #tippy-16 ul li a:hover {
     margin-top: 2.5em;
 }
 .timeline-cup__footer-legend-title, .timeline-cup__footer-legend-title-2 {
+    /* font-size: 1.3em;
+    font-weight: 700;
+    margin-bottom: 20px; */
     font-size: 1.3em;
     font-weight: 700;
-    margin-bottom: 20px;
+    display: flex;
+    background-color: #d1ebfb;
 }
 .timeline-cup__footer-legend-content:not(:last-child) {
     margin: 1em 0 2em 0;

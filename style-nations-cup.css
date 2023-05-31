@@ -788,7 +788,8 @@ html[data-theme="grey"] #tippy-16 ul li a:hover {
 .timeline-cup__footer-legend-title, .timeline-cup__footer-legend-title-2 {
     font-size: 1.3em;
     font-weight: 700;
-    margin-bottom: 20px;
+    display: flex;
+    background-color: #d1ebfb;
 }
 .timeline-cup__footer-legend-content:not(:last-child) {
     margin: 1em 0 2em 0;
@@ -841,6 +842,7 @@ html[data-theme="grey"] #tippy-16 ul li a:hover {
 }
 .timeline-cup__any-tables-races-title, .timeline-cup__any-tables-races-scores-title {
     margin-bottom: 10px;
+    background-color: #d1ebfb;
 }
 .timeline-cup__any-tables-races-title span, .timeline-cup__any-tables-races-scores-title span, .timeline-cup__any-tables-all-result-title span {
     font-size: 1.3em;
@@ -1041,6 +1043,7 @@ html[data-theme="grey"] #tippy-16 ul li a:hover {
 .timeline-cup__any-tables-all-result-title {
     margin-top: 2em;
     margin-bottom: .9em;
+    background-color: #d1ebfb;
 }
 .timeline-cup__any-tables-all-result-nation {
 }
@@ -1140,6 +1143,7 @@ html[data-theme="grey"] #tippy-16 ul li a:hover {
     font-weight: 600;
     margin-top: .8em;
     margin-bottom: .9em;
+    background-color: #d1ebfb;
 }
 .timeline-cup__table-comments-list {
     width: fit-content;
