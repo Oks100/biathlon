@@ -167,6 +167,13 @@ html[data-theme="grey"] #tippy-16 ul li a:hover {
     background-color: #ff9f9f;
 }
 
+.timeline-cup.points-table-1 .points-button-td, .timeline-cup.points-table-2 .points-button-td-2 {
+    min-width: 51px;
+}
+.timeline-cup.points-table-1 .timeline-cup-table-male tbody td:nth-child(4), .timeline-cup.points-table-2 .timeline-cup-table-female tbody td:nth-child(4) {
+    width: 161px;
+}
+
 /* .age-button {
     position: absolute;
     right: 0;
@@ -319,10 +326,10 @@ html[data-theme="grey"] #tippy-16 ul li a:hover {
 .timeline-cup-tables {
     display: flex;
     justify-content: center;
-    gap: 18px;
     flex-wrap: nowrap;
     align-items: flex-start;
     overflow-x: auto;
+    gap: 20px;
 }
 .timeline-cup-table {
     /* background-color: #e7f3fa; */
@@ -381,13 +388,14 @@ html[data-theme="grey"] #tippy-16 ul li a:hover {
 }
 .timeline-cup-table tbody tr td:last-child {
     /* width: 40.4667px; */
-    min-width: 41.5px;
+    /* min-width: 41.5px; */
+    min-width: 62px;
     padding: 0;
 }
-.table-compare-exemple-3 tr:not(:first-child), .table-compare-exemple-4 tr:not(:first-child) {
+/* .table-compare-exemple-3 tr:not(:first-child), .table-compare-exemple-4 tr:not(:first-child) {
     display: flex;
     width: 330.9px;
-}
+} */
 .timeline-cup-table tbody tr td:nth-child(3) {
     width: 22.8px;
 }
@@ -400,7 +408,6 @@ html[data-theme="grey"] #tippy-16 ul li a:hover {
     /* height: 50px; */
     font-weight: 600;
     /* font-size: 1.1em; */
-    background-color: white;
     text-transform: uppercase;
     color: #1f7ec4;
     font-family: tahoma, Arial, Helvetica, sans-serif;
@@ -611,12 +618,13 @@ html[data-theme="grey"] #tippy-16 ul li a:hover {
 }
 .timeline-cup-table-male tbody td:nth-child(4) {
     /* width: 203.383px; */
-    width: 202.6px;
+    /* width: 202.6px; */
+    width: 150px;
     display: block;
 }
 .timeline-cup-table-female tbody td:nth-child(4) {
     /* min-width: 212.767px; */
-    min-width: 212.8px;
+    min-width: 150px;
     display: block;
 }
 .table-compare-exemple-2 tr td:nth-child(3), .table-compare-exemple-4 tr td:nth-child(3) {
@@ -654,6 +662,49 @@ html[data-theme="grey"] #tippy-16 ul li a:hover {
     cursor: pointer;
     -webkit-tap-highlight-color: transparent;
     position: relative;
+}
+.timeline-cup-table tbody tr:nth-child(7) td, .timeline-cup-table tbody tr:nth-child(8) td, .timeline-cup-table tbody tr:nth-child(9) td, .timeline-cup-table tbody tr:nth-child(10) td, .timeline-cup-table tbody tr:nth-child(11) td, .timeline-cup-table tbody tr:nth-child(19) td, .timeline-cup-table tbody tr:nth-child(20) td, .timeline-cup-table tbody tr:nth-child(21) td, .timeline-cup-table tbody tr:nth-child(22) td, .timeline-cup-table tbody tr:nth-child(23) td, .timeline-cup-table tbody tr:nth-child(24) td, .timeline-cup-table tbody tr:nth-child(27) td, .timeline-cup-table tbody tr:nth-child(28) td, .timeline-cup-table tbody tr:nth-child(29) td, .timeline-cup-table tbody tr:nth-child(30) td, .timeline-cup-table tbody tr:nth-child(31) td {
+    position: relative;
+}
+.timeline-cup-table tbody tr:nth-child(7) td:first-child::after, .timeline-cup-table tbody tr:nth-child(8) td:first-child::after, .timeline-cup-table tbody tr:nth-child(9) td:first-child::after, .timeline-cup-table tbody tr:nth-child(10) td:first-child::after, .timeline-cup-table tbody tr:nth-child(11) td:first-child::after, .timeline-cup-table tbody tr:nth-child(19) td:first-child::after, .timeline-cup-table tbody tr:nth-child(20) td:first-child::after, .timeline-cup-table tbody tr:nth-child(21) td:first-child::after, .timeline-cup-table tbody tr:nth-child(22) td:first-child::after, .timeline-cup-table tbody tr:nth-child(23) td:first-child::after, .timeline-cup-table tbody tr:nth-child(24) td:first-child::after, .timeline-cup-table tbody tr:nth-child(27) td:first-child::after, .timeline-cup-table tbody tr:nth-child(28) td:first-child::after, .timeline-cup-table tbody tr:nth-child(29) td:first-child::after, .timeline-cup-table tbody tr:nth-child(30) td:first-child::after, .timeline-cup-table tbody tr:nth-child(31) td:first-child::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-left: 1px solid #1f7ec4;
+}
+.timeline-cup-table tbody tr:nth-child(7) td:last-child::after, .timeline-cup-table tbody tr:nth-child(8) td:last-child::after, .timeline-cup-table tbody tr:nth-child(9) td:last-child::after, .timeline-cup-table tbody tr:nth-child(10) td:last-child::after, .timeline-cup-table tbody tr:nth-child(11) td:last-child::after, .timeline-cup-table tbody tr:nth-child(19) td:last-child::after, .timeline-cup-table tbody tr:nth-child(20) td:last-child::after, .timeline-cup-table tbody tr:nth-child(21) td:last-child::after, .timeline-cup-table tbody tr:nth-child(22) td:last-child::after, .timeline-cup-table tbody tr:nth-child(23) td:last-child::after, .timeline-cup-table tbody tr:nth-child(24) td:last-child::after, .timeline-cup-table tbody tr:nth-child(27) td:last-child::after, .timeline-cup-table tbody tr:nth-child(28) td:last-child::after, .timeline-cup-table tbody tr:nth-child(29) td:last-child::after, .timeline-cup-table tbody tr:nth-child(30) td:last-child::after, .timeline-cup-table tbody tr:nth-child(31) td:last-child::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-right: 1px solid #1f7ec4;
+}
+.timeline-cup-table tbody tr:nth-child(7) td::after, .timeline-cup-table tbody tr:nth-child(19) td::after, .timeline-cup-table tbody tr:nth-child(27) td::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-top: 1px solid #1f7ec4;
+}
+.timeline-cup-table tbody tr:nth-child(11) td::after, .timeline-cup-table tbody tr:nth-child(24) td::after, .timeline-cup-table tbody tr:nth-child(31) td::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-bottom: 1px solid #1f7ec4;
+}
+.timeline-cup-table tbody tr td img, .timeline-cup-table tbody tr td a {
+    position: relative;
+    z-index: 1;
 }
 .points-button, .points-button-2 {
     display: flex;
@@ -749,17 +800,10 @@ html[data-theme="grey"] #tippy-16 ul li a:hover {
     display: inline-block;
     width: 10px;
 }
-/* .legend-endless {
-    width: 12px;
-    height: 12px;
-    padding-left: 1px;
-    fill: black;
-    vertical-align: middle;
-} */
 .timeline-cup__footer-legend-remark {
     font-size: 0.9em;
     color: #5d5d5d;
-}
+  }
 .timeline-cup__footer-legend-list {
     margin-top: 1em;
 }
@@ -792,8 +836,308 @@ html[data-theme="grey"] #tippy-16 ul li a:hover {
     height: 12px;
     fill: black;
 }
+.timeline-cup__any-tables {
+    margin-top: 2em;
+}
+.timeline-cup__any-tables-races-title, .timeline-cup__any-tables-races-scores-title {
+    margin-bottom: 10px;
+}
+.timeline-cup__any-tables-races-title span, .timeline-cup__any-tables-races-scores-title span, .timeline-cup__any-tables-all-result-title span {
+    font-size: 1.3em;
+    font-weight: 600;
+}
+
+.timeline-cup__any-tables-races {
+    border-collapse: collapse;
+    width: 100%;
+    overflow: hidden;
+}
+.timeline-cup__any-tables-races tr td:first-of-type {
+    font-weight: 600;
+    font-size: .9em;
+}
+.timeline-cup__any-tables-races tbody tr:nth-child(2n+1) {
+    background-color: #e7f3fa;
+}
+.timeline-cup__any-tables-races tbody tr td:first-child, .timeline-cup__any-tables-races tbody tr td:last-child  {
+    text-align: center;
+}
+/* .timeline-cup__any-tables-races tbody tr td:not(:nth-child(1), :nth-child(2), :nth-child(3)) {
+    padding: 2.4px 6px;
+} */
+.timeline-cup__any-tables-races tbody tr td:nth-child(4), .timeline-cup__any-tables-races tbody tr td:nth-child(5) {
+    padding: 2.4px 6px;
+}
+.timeline-cup__any-tables-races tbody tr td:nth-child(3) {
+    padding: 2.4px 6px 2.4px 3px;
+}
+.timeline-cup__any-tables-races tbody tr td:nth-child(1), .timeline-cup__any-tables-races tbody tr td:nth-child(2) {
+    padding: 2.4px 3px;
+}
+.timeline-cup__any-tables-races thead tr td {
+    padding-bottom: 15px;
+}
+.timeline-cup__any-tables-overflow-wrapper {
+    margin-top: 2em;
+}
+.timeline-cup__any-tables-races a:hover {
+    border-bottom: 1px solid #73b5e5;
+}
+.timeline-cup__any-tables-races tbody tr td {
+    white-space: nowrap;
+}
+.timeline-cup__any-tables-races thead {
+    font-weight: 600;
+    font-size: 1.3em;
+    /* margin-bottom: 20px; */
+}
+.timeline-cup__any-tables-overflow-wrapper {
+    overflow-x: auto;
+}
+/* .strong {
+    font-weight: 600;
+} */
+.grey, .grey2 {
+    color: #5d5d5d;
+}
+
+
+
+.timeline-cup__any-tables-races-scores {
+    border-spacing: 0;
+    border-collapse: collapse;
+    overflow: hidden;
+}
+.timeline-cup__any-tables-races-scores tbody tr td, .timeline-cup__any-tables-races-scores tbody tr th {
+    white-space: nowrap;
+}
+.timeline-cup__any-tables-races-scores span:not(.grey span) {
+    position: relative;
+    z-index: 2;
+    display: block;
+    width: 100%;
+}
+.timeline-cup__any-tables-races-scores tr th:not(:first-child, :last-child) span:not(.grey span) {
+    padding: 0px 6px;
+}
+.timeline-cup__any-tables-races-scores tr th:first-child span {
+    padding: 0 3px 0 6px;
+}
+.timeline-cup__any-tables-races-scores tr th:last-child span {
+    padding: 0 6px 0 3px;
+}
+.timeline-cup__any-tables-races-scores tr .score span {
+    text-align: center;
+}
+.timeline-cup__any-tables-races-scores tr td span:not(.grey span) {
+    position: relative;
+    z-index: 2;
+    padding: 2.4px 7px;
+    width: 100%;
+    height: 25.8px;
+}
+.timeline-cup__any-tables-races-scores tr:first-of-type span {
+    font-weight: 400;
+}
+.timeline-cup__any-tables-races-scores tr:not(:first-child) td:nth-child(3) span, .timeline-cup__any-tables-races-scores tr:not(:first-child) td:nth-last-child(3) span {
+    font-weight: 600;
+    text-align: center;
+}
+
+.timeline-cup__any-tables-races-scores tr:not(:first-child) th:first-child span, .timeline-cup__any-tables-races-scores tr:not(:first-child) th:last-child span {
+    display: block;
+}
+.timeline-cup__any-tables-races-scores tr .col:not(:nth-child(3), :nth-child(24), :nth-child(25), :nth-child(26)) span {
+    font-weight: 600;
+}
+.timeline-cup__any-tables-races-scores tr:first-child th:nth-child(2), .timeline-cup__any-tables-races-scores tr:first-child th:nth-last-child(2) {
+    text-align: left;
+    padding: 0 7px;
+}
+.timeline-cup__any-tables-races-scores tr:not(:first-child) th span, .strong.col span {
+    font-size: 0.9em;
+}
+.timeline-cup__any-tables-races-scores a, .timeline-cup__any-tables-races-scores img, .timeline-cup__any-tables-races-scores .col {
+    position: relative;
+    z-index: 2;
+}
+.timeline-cup__any-tables-races-scores tr:nth-child(2n) {
+    background-color: #e7f3fa;
+}
+.timeline-cup__any-tables-races-scores a:hover, .timeline-cup__any-tables-all-result-table a:hover {
+    border-bottom: 1px solid #73b5e5;
+}
+.timeline-cup__any-tables-races-scores tr td, .timeline-cup__any-tables-races-scores tr th {
+    height: 25.8px;
+}
+
+.timeline-cup__any-tables-races-scores td, .timeline-cup__any-tables-races-scores th, .timeline-cup__any-tables-races-scores .row, .timeline-cup__any-tables-races-scores .col {
+    position: relative;
+}
+
+.timeline-cup__any-tables-races-scores tr:not(.nations-string.active) td:hover::before, .timeline-cup__any-tables-races-scores tr:not(.nations-string.active) .row:hover::before { 
+    /* background-color: #d6ecf9; */
+    background-color: #fffce5;
+    content: '';  
+    height: 100%;
+    left: -5000px;
+    position: absolute;  
+    top: 0;
+    width: 10000px;   
+    z-index: 1;
+    /* border-top: 1px solid #d0d9dd;
+    border-bottom: 1px solid #d0d9dd; */
+}
+
+.timeline-cup__any-tables-races-scores tr td:not(:nth-child(2), :nth-child(3), :nth-child(24), :nth-child(25), :nth-child(26)):hover::after, .timeline-cup__any-tables-races-scores .col:not(:nth-child(3), :nth-child(24)):hover::after, .timeline-cup__any-tables-races-scores .col.active::after { 
+    /* background-color: #d6ecf9; */
+    background-color: #fffce5;
+    content: '';  
+    height: 10000px;    
+    left: 0;
+    position: absolute;  
+    top: -5000px;
+    width: 100%;
+    z-index: 1;   
+    /* border-left: 1px solid #d0d9dd;
+    border-right: 1px solid #d0d9dd; */
+}
+.nations-string.active {
+    background-color: #ffcae5 !important;
+}
+.nations-string img, .timeline-cup__any-tables-races-scores .col {
+    cursor: pointer;
+}
+
+/* .timeline-cup__any-tables-all-result span {
+    display: block;
+} */
+/* .position {
+    border-radius: 50%;
+    border: 1px solid #d0d9dd;
+    padding: 2px 7px;
+    background-color: #e7f3fa;
+} */
+
+.timeline-cup__any-tables-all-result-table .table-nations td:first-child {
+    /* min-width: 24px;
+    padding-bottom: 1.8px; */
+    min-width: 25.8px;
+}
+.timeline-cup__any-tables-all-result-table .table-nations td:last-child {
+    /* padding: 2.4px 7px 2.4px 3px; */
+    padding: 2.4px 7px 2.4px 7px;
+}
+.position {
+    display: flex;
+    height: 100%;
+    border: 2px solid #dfedf4;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    font-size: .9em;
+    font-weight: 600;
+}
+.timeline-cup__any-tables-all-result-title {
+    margin-top: 2em;
+    margin-bottom: .9em;
+}
+.timeline-cup__any-tables-all-result-nation {
+}
+.timeline-cup__any-tables-all-result-table tbody tr td {
+    height: 25.8px;
+    white-space: nowrap;
+}
+.timeline-cup__any-tables-all-result-table tbody {
+    margin-top: 20px;
+}
+.timeline-cup__any-tables-all-result-table tbody tr:not(.table-nations) td:first-child {
+    /* padding: 0 3px 0 7px; */
+    padding: 0 3px 0 3px;
+}
+.timeline-cup__any-tables-all-result-table tbody tr td:nth-child(3) {
+    /* padding: 2.4px 7px 2.4px 3px; */
+    padding: 2.4px 7px 2.4px 2.4px;
+}
+.timeline-cup__any-tables-all-result-table tbody tr:not(.table-nations, .table-column-description) td:nth-child(2) {
+    padding: 2.4px;
+}
+.timeline-cup__any-tables-all-result-table tbody tr:not(.table-nations, .table-column-description) td:first-child {
+    font-weight: 600;
+    font-size: .9em;
+    min-width: 24px;
+}
+.timeline-cup__any-tables-all-result-table tbody tr td:nth-child(4), .timeline-cup__any-tables-all-result-table tbody tr td:nth-child(5), .timeline-cup__any-tables-all-result-table tbody tr td:nth-child(6) {
+    padding: 2.4px 7px;
+    text-align: center;
+}
+.timeline-cup__any-tables-all-result-table tbody .table-column-description td {
+    color: #5d5d5d;
+}
+.timeline-cup__any-tables-all-result-table {
+    display: flex;
+    flex-direction: column;
+    border-collapse: collapse;
+    width: fit-content;
+    margin: 0 auto;
+}
+.timeline-cup__any-tables-all-result-table tbody tr td:first-child {
+    text-align: center;
+}
+.timeline-cup__any-tables-all-result-table tbody tr.table-zebra-33:nth-child(2n+1), .timeline-cup__any-tables-all-result-table tbody tr.table-zebra-32:nth-child(2n+1), .timeline-cup__any-tables-all-result-table tbody tr.table-zebra-31:nth-child(2n+1), .timeline-cup__any-tables-all-result-table tbody tr.table-zebra-30:nth-child(2n+1), .timeline-cup__any-tables-all-result-table tbody tr.table-zebra-29:nth-child(2n+1), .timeline-cup__any-tables-all-result-table tbody tr.table-zebra-28:nth-child(2n), .timeline-cup__any-tables-all-result-table tbody tr.table-zebra-27:nth-child(2n), .timeline-cup__any-tables-all-result-table tbody tr.table-zebra-26:nth-child(2n+1), .timeline-cup__any-tables-all-result-table tbody tr.table-zebra-25:nth-child(2n), .timeline-cup__any-tables-all-result-table tbody tr.table-zebra-24:nth-child(2n), .timeline-cup__any-tables-all-result-table tbody tr.table-zebra-23:nth-child(2n+1), .timeline-cup__any-tables-all-result-table tbody tr.table-zebra-22:nth-child(2n), .timeline-cup__any-tables-all-result-table tbody tr.table-zebra-21:nth-child(2n), .timeline-cup__any-tables-all-result-table tbody tr.table-zebra-20:nth-child(2n), .timeline-cup__any-tables-all-result-table tbody tr.table-zebra-19:nth-child(2n+1), .timeline-cup__any-tables-all-result-table tbody tr.table-zebra-18:nth-child(2n+1), .timeline-cup__any-tables-all-result-table tbody tr.table-zebra-17:nth-child(2n), .timeline-cup__any-tables-all-result-table tbody tr.table-zebra-16:nth-child(2n), .timeline-cup__any-tables-all-result-table tbody tr.table-zebra-15:nth-child(2n+1), .timeline-cup__any-tables-all-result-table tbody tr.table-zebra-14:nth-child(2n), .timeline-cup__any-tables-all-result-table tbody tr.table-zebra-13:nth-child(2n+1), .timeline-cup__any-tables-all-result-table tbody tr.table-zebra-12:nth-child(2n+1), .timeline-cup__any-tables-all-result-table tbody tr.table-zebra-11:nth-child(2n+1), .timeline-cup__any-tables-all-result-table tbody tr.table-zebra-10:nth-child(2n+1), .timeline-cup__any-tables-all-result-table tbody tr.table-zebra-9:nth-child(2n), .timeline-cup__any-tables-all-result-table tbody tr.table-zebra-8:nth-child(2n+1), .timeline-cup__any-tables-all-result-table tbody tr.table-zebra-7:nth-child(2n+1), .timeline-cup__any-tables-all-result-table tbody tr.table-zebra-1:nth-child(2n+1), .timeline-cup__any-tables-all-result-table tbody tr.table-zebra-3:nth-child(2n+1), .timeline-cup__any-tables-all-result-table tbody tr.table-zebra-4:nth-child(2n+1), .timeline-cup__any-tables-all-result-table tbody tr.table-zebra-2:nth-child(2n), .timeline-cup__any-tables-all-result-table tbody tr.table-zebra-5:nth-child(2n), .timeline-cup__any-tables-all-result-table tbody tr.table-zebra-6:nth-child(2n) {
+    background-color: #e7f3fa;
+}
+.timeline-cup__any-tables-all-result-table-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    overflow-x: auto;
+}
+.birthday-icon {
+    height: 15px;
+    width: 15px;
+    fill: #8d8d8d;
+    display: block;
+}
+
+.timeline-cup__any-tables-all-result-table .table-column-description td:nth-child(4), .timeline-cup__any-tables-all-result-table .table-column-description td:nth-child(5) {
+    position: relative;
+}
+
+.timeline-cup__any-tables-all-result-table .table-column-description td:nth-child(4) svg, .timeline-cup__any-tables-all-result-table .table-column-description td:nth-child(5) svg {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.race-icon {
+    height: 12px;
+    width: 12px;
+    fill: #8d8d8d;
+    display: block;
+}
+.timeline-cup__any-tables-all-result-table thead tr {
+    display: flex;
+    width: 100%;
+    height: 25.8px;
+}
+.timeline-cup__any-tables-all-result-table thead tr td {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #1f7ec4;
+    font-family: tahoma, Arial, Helvetica, sans-serif;
+}
+
 
 @media (hover: hover) {
+    .timeline-cup__any-tables-all-result-table tbody tr.table-zebra:hover {
+        background-color: #fffce5;
+    }
     .points-button-td:hover .points-button-stars::before, .points-button-td-2:hover .points-button-stars-2::before {
         color: #81aad5;
     }
@@ -812,9 +1156,9 @@ html[data-theme="grey"] #tippy-16 ul li a:hover {
     .points-button:hover, .points-button-2:hover {
         color: #73b5e5;
     }
-    .timeline-cup-table tbody tr:not(:first-child, .active):hover td {
-        background-color: #ffd5d5;
-        background-color: #d6ecf9;
+    .timeline-cup-table tbody tr:not(:first-child, .active):hover td, .timeline-cup__any-tables-races tbody tr:hover td {
+        /* background-color: #d6ecf9; */
+        background-color: #fffce5;
     }
     .timeline__more-tables-body ul li a:hover {
         color: #73b5e5;
@@ -864,7 +1208,7 @@ html[data-theme="grey"] #tippy-16 ul li a:hover {
     }
 }
 
-@media screen and (max-width: 730px) {
+@media screen and (max-width: 650px) {
     .timeline-cup-tables {
         justify-content: left;
     }
