@@ -4789,9 +4789,11 @@ img[src*="flags"] {
 .next-race-block__time {
   display: flex;
   align-items: center;
+  flex-wrap: wrap;
+  gap: 7px 0;
 }
 .next-race-block__time span{
-  font-weight: 600;
+  /* font-weight: 600; */
   margin-right: 5px;
 }
 .next-race-block__time span:first-child::before, .next-translation-block__time span:first-child::before, .blogs-block__item span::before, .interview-block__gossip_date span:first-child::before, .comment-block__data span:first-child::before, .timeline__date span:first-child::before {
@@ -4853,9 +4855,11 @@ img[src*="flags"] {
 .next-translation-block__time {
   display: flex;
   align-items: center;
+  flex-wrap: wrap;
+  gap: 7px 0;
 }
 .next-translation-block__time span {
-  font-weight: 600;
+  /* font-weight: 600; */
   margin-right: 5px;
 }
 .next-translation-block__type {
@@ -6639,7 +6643,7 @@ input[type="radio"]{
     height: 15px;
     width: 15px;
     font-size: 11.5px;
-    background-color: red;
+    background-color: #08a400;
     border-radius: 50%;
     align-items: center;
     justify-content: center;

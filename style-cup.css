@@ -742,6 +742,7 @@ html[data-theme="grey"] #tippy-16 ul li a:hover {
     font-weight: 700;
     display: flex;
     background-color: #d1ebfb;
+    padding-left: 8px;
 }
 .timeline-cup__footer-legend-content:not(:last-child) {
     margin: 1em 0 2em 0;
@@ -817,8 +818,9 @@ html[data-theme="grey"] #tippy-16 ul li a:hover {
         color: #73b5e5;
     }
     .timeline-cup-table tbody tr:not(:first-child, .active):hover td {
-        background-color: #ffd5d5;
-        background-color: #d6ecf9;
+        /* background-color: #ffd5d5;
+        background-color: #d6ecf9; */
+        background-color: #fffce5;
     }
     .timeline__more-tables-body ul li a:hover {
         color: #73b5e5;

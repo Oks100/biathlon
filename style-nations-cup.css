@@ -790,6 +790,7 @@ html[data-theme="grey"] #tippy-16 ul li a:hover {
     font-weight: 700;
     display: flex;
     background-color: #d1ebfb;
+    padding-left: 8px;
 }
 .timeline-cup__footer-legend-content:not(:last-child) {
     margin: 1em 0 2em 0;
@@ -841,8 +842,10 @@ html[data-theme="grey"] #tippy-16 ul li a:hover {
     margin-top: 2em;
 }
 .timeline-cup__any-tables-races-title, .timeline-cup__any-tables-races-scores-title {
+    margin-top: 2em;
     margin-bottom: 10px;
     background-color: #d1ebfb;
+    padding-left: 8px;
 }
 .timeline-cup__any-tables-races-title span, .timeline-cup__any-tables-races-scores-title span, .timeline-cup__any-tables-all-result-title span {
     font-size: 1.3em;
@@ -880,7 +883,7 @@ html[data-theme="grey"] #tippy-16 ul li a:hover {
     padding-bottom: 15px;
 }
 .timeline-cup__any-tables-overflow-wrapper {
-    margin-top: 2em;
+    /* margin-top: 2em; */
 }
 .timeline-cup__any-tables-races a:hover {
     border-bottom: 1px solid #73b5e5;
@@ -976,34 +979,6 @@ html[data-theme="grey"] #tippy-16 ul li a:hover {
 .timeline-cup__any-tables-races-scores td, .timeline-cup__any-tables-races-scores th, .timeline-cup__any-tables-races-scores .row, .timeline-cup__any-tables-races-scores .col {
     position: relative;
 }
-
-.timeline-cup__any-tables-races-scores tr:not(.nations-string.active) td:hover::before, .timeline-cup__any-tables-races-scores tr:not(.nations-string.active) .row:hover::before { 
-    /* background-color: #d6ecf9; */
-    background-color: #fffce5;
-    content: '';  
-    height: 100%;
-    left: -5000px;
-    position: absolute;  
-    top: 0;
-    width: 10000px;   
-    z-index: 1;
-    /* border-top: 1px solid #d0d9dd;
-    border-bottom: 1px solid #d0d9dd; */
-}
-
-.timeline-cup__any-tables-races-scores tr td:not(:nth-child(2), :nth-child(3), :nth-child(24), :nth-child(25), :nth-child(26)):hover::after, .timeline-cup__any-tables-races-scores .col:not(:nth-child(3), :nth-child(24)):hover::after, .timeline-cup__any-tables-races-scores .col.active::after { 
-    /* background-color: #d6ecf9; */
-    background-color: #fffce5;
-    content: '';  
-    height: 10000px;    
-    left: 0;
-    position: absolute;  
-    top: -5000px;
-    width: 100%;
-    z-index: 1;   
-    /* border-left: 1px solid #d0d9dd;
-    border-right: 1px solid #d0d9dd; */
-}
 .nations-string.active {
     background-color: #ffcae5 !important;
 }
@@ -1044,6 +1019,93 @@ html[data-theme="grey"] #tippy-16 ul li a:hover {
     margin-top: 2em;
     margin-bottom: 1.4em;
     background-color: #d1ebfb;
+    padding: 0 60px 0 8px;
+    position: relative;
+}
+.timeline-cup__any-tables-go-to-male-table, .timeline-cup__any-tables-go-to-female-table {
+    position: absolute;
+    top: 3px;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 8px;
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    border-radius: 50%;
+    border: 2px solid #d1ebfb;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    cursor: pointer;
+}
+.timeline-cup__any-tables-go-to-female-table::before {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%) rotate(180deg);
+    content: "\e093";
+    font-family: 'icomoon';
+    font-size: 1.2em;
+    color: #81aad5;
+    transition: all .4s ease;
+    scale: 1;
+}
+
+.timeline-cup__any-tables-go-to-male-table::before {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    content: "\e093";
+    font-family: 'icomoon';
+    font-size: 1.2em;
+    color: #81aad5;
+    transition: all .4s ease;
+    scale: 1;
+}
+.timeline-cup__any-tables-go-to-male-table::after {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, calc(-50% - 28px));
+    content: "\e093";
+    font-family: 'icomoon';
+    font-size: 1.2em;
+    color: #81aad5;
+    transition: all .4s ease;
+    opacity: 0;
+    scale: 1;
+}
+.timeline-cup__any-tables-go-to-female-table::after {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, calc(-50% + 28px)) rotate(180deg);
+    content: "\e093";
+    font-family: 'icomoon';
+    font-size: 1.2em;
+    color: #81aad5;
+    transition: all .4s ease;
+    opacity: 0;
+    scale: 1;
+}
+
+.timeline-cup__any-tables-go-to-male-table:hover::before {
+    transform: translate(-50%, calc(-50% + 28px));
+    opacity: 0;
+}
+.timeline-cup__any-tables-go-to-female-table:hover::before {
+    transform: translate(-50%, calc(-50% - 28px)) rotate(180deg);
+    opacity: 0;
+}
+.timeline-cup__any-tables-go-to-male-table:hover::after {
+    transform: translate(-50%, calc(-50%));
+    opacity: 1;
+}
+.timeline-cup__any-tables-go-to-female-table:hover::after {
+    transform: translate(-50%, calc(-50%)) rotate(180deg);
+    opacity: 1;
 }
 .timeline-cup__any-tables-all-result-nation {
 }
@@ -1052,7 +1114,7 @@ html[data-theme="grey"] #tippy-16 ul li a:hover {
     white-space: nowrap;
 }
 .timeline-cup__any-tables-all-result-table tbody {
-    margin-top: 10px;
+    /* margin-top: 10px; */
 }
 .timeline-cup__any-tables-all-result-table tbody tr:not(.table-nations) td:first-child {
     /* padding: 0 3px 0 7px; */
@@ -1087,7 +1149,7 @@ html[data-theme="grey"] #tippy-16 ul li a:hover {
 .timeline-cup__any-tables-all-result-table tbody tr td:first-child {
     text-align: center;
 }
-.timeline-cup__any-tables-all-result-table tbody tr.table-zebra-5-2:nth-child(2n), .timeline-cup__any-tables-all-result-table tbody tr.table-zebra-4-2:nth-child(2n), .timeline-cup__any-tables-all-result-table tbody tr.table-zebra-3-2:nth-child(2n), .timeline-cup__any-tables-all-result-table tbody tr.table-zebra-2-2:nth-child(2n), .timeline-cup__any-tables-all-result-table tbody tr.table-zebra-1-2:nth-child(2n+1), .timeline-cup__any-tables-all-result-table tbody tr.table-zebra-33:nth-child(2n+1), .timeline-cup__any-tables-all-result-table tbody tr.table-zebra-32:nth-child(2n+1), .timeline-cup__any-tables-all-result-table tbody tr.table-zebra-31:nth-child(2n+1), .timeline-cup__any-tables-all-result-table tbody tr.table-zebra-30:nth-child(2n+1), .timeline-cup__any-tables-all-result-table tbody tr.table-zebra-29:nth-child(2n+1), .timeline-cup__any-tables-all-result-table tbody tr.table-zebra-28:nth-child(2n), .timeline-cup__any-tables-all-result-table tbody tr.table-zebra-27:nth-child(2n), .timeline-cup__any-tables-all-result-table tbody tr.table-zebra-26:nth-child(2n+1), .timeline-cup__any-tables-all-result-table tbody tr.table-zebra-25:nth-child(2n), .timeline-cup__any-tables-all-result-table tbody tr.table-zebra-24:nth-child(2n), .timeline-cup__any-tables-all-result-table tbody tr.table-zebra-23:nth-child(2n+1), .timeline-cup__any-tables-all-result-table tbody tr.table-zebra-22:nth-child(2n), .timeline-cup__any-tables-all-result-table tbody tr.table-zebra-21:nth-child(2n), .timeline-cup__any-tables-all-result-table tbody tr.table-zebra-20:nth-child(2n), .timeline-cup__any-tables-all-result-table tbody tr.table-zebra-19:nth-child(2n+1), .timeline-cup__any-tables-all-result-table tbody tr.table-zebra-18:nth-child(2n+1), .timeline-cup__any-tables-all-result-table tbody tr.table-zebra-17:nth-child(2n), .timeline-cup__any-tables-all-result-table tbody tr.table-zebra-16:nth-child(2n), .timeline-cup__any-tables-all-result-table tbody tr.table-zebra-15:nth-child(2n+1), .timeline-cup__any-tables-all-result-table tbody tr.table-zebra-14:nth-child(2n), .timeline-cup__any-tables-all-result-table tbody tr.table-zebra-13:nth-child(2n+1), .timeline-cup__any-tables-all-result-table tbody tr.table-zebra-12:nth-child(2n+1), .timeline-cup__any-tables-all-result-table tbody tr.table-zebra-11:nth-child(2n+1), .timeline-cup__any-tables-all-result-table tbody tr.table-zebra-10:nth-child(2n+1), .timeline-cup__any-tables-all-result-table tbody tr.table-zebra-9:nth-child(2n), .timeline-cup__any-tables-all-result-table tbody tr.table-zebra-8:nth-child(2n+1), .timeline-cup__any-tables-all-result-table tbody tr.table-zebra-7:nth-child(2n+1), .timeline-cup__any-tables-all-result-table tbody tr.table-zebra-1:nth-child(2n+1), .timeline-cup__any-tables-all-result-table tbody tr.table-zebra-3:nth-child(2n+1), .timeline-cup__any-tables-all-result-table tbody tr.table-zebra-4:nth-child(2n+1), .timeline-cup__any-tables-all-result-table tbody tr.table-zebra-2:nth-child(2n), .timeline-cup__any-tables-all-result-table tbody tr.table-zebra-5:nth-child(2n), .timeline-cup__any-tables-all-result-table tbody tr.table-zebra-6:nth-child(2n) {
+.timeline-cup__any-tables-all-result-table tbody tr.table-zebra-32-2:nth-child(2n), .timeline-cup__any-tables-all-result-table tbody tr.table-zebra-31-2:nth-child(2n), .timeline-cup__any-tables-all-result-table tbody tr.table-zebra-30-2:nth-child(2n+1), .timeline-cup__any-tables-all-result-table tbody tr.table-zebra-29-2:nth-child(2n+1), .timeline-cup__any-tables-all-result-table tbody tr.table-zebra-28-2:nth-child(2n), .timeline-cup__any-tables-all-result-table tbody tr.table-zebra-27-2:nth-child(2n+1), .timeline-cup__any-tables-all-result-table tbody tr.table-zebra-26-2:nth-child(2n), .timeline-cup__any-tables-all-result-table tbody tr.table-zebra-25-2:nth-child(2n+1), .timeline-cup__any-tables-all-result-table tbody tr.table-zebra-24-2:nth-child(2n), .timeline-cup__any-tables-all-result-table tbody tr.table-zebra-23-2:nth-child(2n+1), .timeline-cup__any-tables-all-result-table tbody tr.table-zebra-22-2:nth-child(2n+1), .timeline-cup__any-tables-all-result-table tbody tr.table-zebra-21-2:nth-child(2n+1), .timeline-cup__any-tables-all-result-table tbody tr.table-zebra-20-2:nth-child(2n+1), .timeline-cup__any-tables-all-result-table tbody tr.table-zebra-19-2:nth-child(2n), .timeline-cup__any-tables-all-result-table tbody tr.table-zebra-18-2:nth-child(2n+1), .timeline-cup__any-tables-all-result-table tbody tr.table-zebra-17-2:nth-child(2n+1), .timeline-cup__any-tables-all-result-table tbody tr.table-zebra-16-2:nth-child(2n+1), .timeline-cup__any-tables-all-result-table tbody tr.table-zebra-15-2:nth-child(2n), .timeline-cup__any-tables-all-result-table tbody tr.table-zebra-14-2:nth-child(2n), .timeline-cup__any-tables-all-result-table tbody tr.table-zebra-13-2:nth-child(2n), .timeline-cup__any-tables-all-result-table tbody tr.table-zebra-12-2:nth-child(2n), .timeline-cup__any-tables-all-result-table tbody tr.table-zebra-11-2:nth-child(2n), .timeline-cup__any-tables-all-result-table tbody tr.table-zebra-10-2:nth-child(2n+1), .timeline-cup__any-tables-all-result-table tbody tr.table-zebra-9-2:nth-child(2n), .timeline-cup__any-tables-all-result-table tbody tr.table-zebra-8-2:nth-child(2n), .timeline-cup__any-tables-all-result-table tbody tr.table-zebra-7-2:nth-child(2n+1), .timeline-cup__any-tables-all-result-table tbody tr.table-zebra-6-2:nth-child(2n+1), .timeline-cup__any-tables-all-result-table tbody tr.table-zebra-5-2:nth-child(2n+1), .timeline-cup__any-tables-all-result-table tbody tr.table-zebra-4-2:nth-child(2n), .timeline-cup__any-tables-all-result-table tbody tr.table-zebra-3-2:nth-child(2n), .timeline-cup__any-tables-all-result-table tbody tr.table-zebra-2-2:nth-child(2n), .timeline-cup__any-tables-all-result-table tbody tr.table-zebra-1-2:nth-child(2n+1), .timeline-cup__any-tables-all-result-table tbody tr.table-zebra-33:nth-child(2n+1), .timeline-cup__any-tables-all-result-table tbody tr.table-zebra-32:nth-child(2n+1), .timeline-cup__any-tables-all-result-table tbody tr.table-zebra-31:nth-child(2n+1), .timeline-cup__any-tables-all-result-table tbody tr.table-zebra-30:nth-child(2n+1), .timeline-cup__any-tables-all-result-table tbody tr.table-zebra-29:nth-child(2n+1), .timeline-cup__any-tables-all-result-table tbody tr.table-zebra-28:nth-child(2n), .timeline-cup__any-tables-all-result-table tbody tr.table-zebra-27:nth-child(2n), .timeline-cup__any-tables-all-result-table tbody tr.table-zebra-26:nth-child(2n+1), .timeline-cup__any-tables-all-result-table tbody tr.table-zebra-25:nth-child(2n), .timeline-cup__any-tables-all-result-table tbody tr.table-zebra-24:nth-child(2n), .timeline-cup__any-tables-all-result-table tbody tr.table-zebra-23:nth-child(2n+1), .timeline-cup__any-tables-all-result-table tbody tr.table-zebra-22:nth-child(2n), .timeline-cup__any-tables-all-result-table tbody tr.table-zebra-21:nth-child(2n), .timeline-cup__any-tables-all-result-table tbody tr.table-zebra-20:nth-child(2n), .timeline-cup__any-tables-all-result-table tbody tr.table-zebra-19:nth-child(2n+1), .timeline-cup__any-tables-all-result-table tbody tr.table-zebra-18:nth-child(2n+1), .timeline-cup__any-tables-all-result-table tbody tr.table-zebra-17:nth-child(2n), .timeline-cup__any-tables-all-result-table tbody tr.table-zebra-16:nth-child(2n), .timeline-cup__any-tables-all-result-table tbody tr.table-zebra-15:nth-child(2n+1), .timeline-cup__any-tables-all-result-table tbody tr.table-zebra-14:nth-child(2n), .timeline-cup__any-tables-all-result-table tbody tr.table-zebra-13:nth-child(2n+1), .timeline-cup__any-tables-all-result-table tbody tr.table-zebra-12:nth-child(2n+1), .timeline-cup__any-tables-all-result-table tbody tr.table-zebra-11:nth-child(2n+1), .timeline-cup__any-tables-all-result-table tbody tr.table-zebra-10:nth-child(2n+1), .timeline-cup__any-tables-all-result-table tbody tr.table-zebra-9:nth-child(2n), .timeline-cup__any-tables-all-result-table tbody tr.table-zebra-8:nth-child(2n+1), .timeline-cup__any-tables-all-result-table tbody tr.table-zebra-7:nth-child(2n+1), .timeline-cup__any-tables-all-result-table tbody tr.table-zebra-1:nth-child(2n+1), .timeline-cup__any-tables-all-result-table tbody tr.table-zebra-3:nth-child(2n+1), .timeline-cup__any-tables-all-result-table tbody tr.table-zebra-4:nth-child(2n+1), .timeline-cup__any-tables-all-result-table tbody tr.table-zebra-2:nth-child(2n), .timeline-cup__any-tables-all-result-table tbody tr.table-zebra-5:nth-child(2n), .timeline-cup__any-tables-all-result-table tbody tr.table-zebra-6:nth-child(2n) {
     background-color: #e7f3fa;
 }
 .timeline-cup__any-tables-all-result-table-wrapper {
@@ -1174,6 +1236,26 @@ html[data-theme="grey"] #tippy-16 ul li a:hover {
     text-align: center;
 }
 @media (hover: hover) {
+    .timeline-cup__any-tables-races-scores tr:not(.nations-string.active) td:hover::before, .timeline-cup__any-tables-races-scores tr:not(.nations-string.active) .row:hover::before { 
+        background-color: #fffce5;
+        content: '';  
+        height: 100%;
+        left: -5000px;
+        position: absolute;  
+        top: 0;
+        width: 10000px;   
+        z-index: 1;
+    }
+    .timeline-cup__any-tables-races-scores tr td:not(:nth-child(2), :nth-child(3), :nth-child(24), :nth-child(25), :nth-child(26)):hover::after, .timeline-cup__any-tables-races-scores .col:not(:nth-child(3), :nth-child(24)):hover::after, .timeline-cup__any-tables-races-scores .col.active::after { 
+        background-color: #fffce5;
+        content: '';  
+        height: 10000px;    
+        left: 0;
+        position: absolute;  
+        top: -5000px;
+        width: 100%;
+        z-index: 1;   
+    }
     .timeline-cup__any-tables-all-result-table tbody tr.table-zebra:hover {
         background-color: #fffce5;
     }
