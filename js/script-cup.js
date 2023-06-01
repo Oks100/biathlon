@@ -1274,15 +1274,7 @@ document.querySelectorAll('.norway-string img').forEach(img => {
 	  });
 	});
   });
-//   const col = document.querySelector('.col');
 
-//   document.addEventListener('click', function(event) {
-// 	const isClickInside = col.contains(event.target);
-	
-// 	if (!isClickInside) {
-// 	  col.classList.remove('active');
-// 	}
-//   });
 
 $(document).on('click', function(event) {
 	if (!$(event.target).closest('.col').length) {
@@ -1395,4 +1387,12 @@ $(document).ready(function(){
 	$('.points-button-td-2').click(function () {
 		$('.timeline-cup').toggleClass('points-table-2');
 		});
+	});
+
+document.querySelector('.timeline-cup__any-tables-go-to-male-table').addEventListener('click', function() {
+	document.querySelector('.timeline-cup__any-tables-all-result-title.female').scrollIntoView({behavior: 'smooth'});
+	});
+
+document.querySelector('.timeline-cup__any-tables-go-to-female-table').addEventListener('click', function() {
+	document.querySelector('.timeline-cup__any-tables-all-result-title.male').scrollIntoView({behavior: 'smooth'});
 	});
