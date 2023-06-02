@@ -984,3 +984,358 @@ $(document).ready(function(){
         $('.timeline__item-comments-write').removeClass('guest-user');
         });
     });
+
+
+    // $(document).ready(function() {
+    //   $('.timeline__item-comments-to-write-comments').click(function() {
+    //     $('html, body').animate({
+    //     scrollTop: $('#write-comment').offset().top - 100
+    //     }, {
+    //     duration: 0,
+    //     easing: 'swing',
+    //     behavior: 'smooth'
+    //     });
+    //   });
+    //   });
+
+    $(document).ready(function() {
+      $('.timeline__item-comments-to-write-comments').click(function() {
+        var offset = $(window).height() * 0.4; // 40% высоты экрана
+        $('html, body').animate({
+          scrollTop: $('#write-comment').offset().top - offset
+        }, {
+          duration: 0,
+          easing: 'swing',
+          behavior: 'smooth'
+        });
+      });
+    });
+
+    // $(document).ready(function() {
+    //   $('.quote-user-3').click(function() {
+    //     var windowHeight = $(window).height();
+    //     var elementHeight = $('.quote-comment-3').outerHeight();
+    //     var offset = (windowHeight - elementHeight) / 2;
+    //     $('html, body').animate({
+    //       scrollTop: $('.quote-comment-3').offset().top - offset
+    //     }, {
+    //       duration: 0,
+    //       easing: 'swing',
+    //       behavior: 'smooth'
+    //     });
+    //   });
+    // });
+
+    $(document).ready(function() {
+      $('.quote-user-3').click(function() {
+        var windowHeight = $(window).height();
+        var elementHeight = $('.quote-comment-3').outerHeight();
+        var offset = (windowHeight - elementHeight) / 2;
+        $('html, body').animate({
+          scrollTop: $('.quote-comment-3').offset().top - offset
+        }, {
+          duration: 0,
+          easing: 'swing',
+          behavior: 'smooth'
+        });
+        $('.quote-comment-3').addClass('hover').delay(3000).queue(function(){
+            $(this).removeClass('hover');
+            $(this).dequeue();
+        });
+      });
+    });
+
+    // $(document).ready(function() {
+    //   $('.quote-user-5').click(function() {
+    //     var windowHeight = $(window).height();
+    //     var elementHeight = $('.quote-comment-5').outerHeight();
+    //     var offset = (windowHeight - elementHeight) / 2;
+    //     $('html, body').animate({
+    //       scrollTop: $('.quote-comment-5').offset().top - offset
+    //     }, {
+    //       duration: 0,
+    //       easing: 'swing',
+    //       behavior: 'smooth'
+    //     });
+    //   });
+    // });
+
+    $(document).ready(function() {
+      $('.quote-user-1').click(function() {
+        var windowHeight = $(window).height();
+        var elementHeight = $('.quote-comment-1').outerHeight();
+        var offset = (windowHeight - elementHeight) / 2;
+        $('html, body').animate({
+          scrollTop: $('.quote-comment-1').offset().top - offset
+        }, {
+          duration: 0,
+          easing: 'swing',
+          behavior: 'smooth'
+        });
+        $('.quote-comment-1').addClass('hover').delay(3000).queue(function(){
+            $(this).removeClass('hover');
+            $(this).dequeue();
+        });
+      });
+    });
+
+    $(document).ready(function() {
+      $('.quote-user-4').click(function() {
+        var windowHeight = $(window).height();
+        var elementHeight = $('.quote-comment-4').outerHeight();
+        var offset = (windowHeight - elementHeight) / 2;
+        $('html, body').animate({
+          scrollTop: $('.quote-comment-4').offset().top - offset
+        }, {
+          duration: 0,
+          easing: 'swing',
+          behavior: 'smooth'
+        });
+        $('.quote-comment-4').addClass('hover').delay(3000).queue(function(){
+            $(this).removeClass('hover');
+            $(this).dequeue();
+        });
+      });
+    });
+
+    $(document).ready(function() {
+      $('.quote-user-5').click(function() {
+        var windowHeight = $(window).height();
+        var elementHeight = $('.quote-comment-5').outerHeight();
+        var offset = (windowHeight - elementHeight) / 2;
+        $('html, body').animate({
+          scrollTop: $('.quote-comment-5').offset().top - offset
+        }, {
+          duration: 0,
+          easing: 'swing',
+          behavior: 'smooth'
+        });
+        $('.quote-comment-5').addClass('hover').delay(3000).queue(function(){
+            $(this).removeClass('hover');
+            $(this).dequeue();
+        });
+      });
+    });
+
+    $(document).ready(function() {
+      $('.quote-user-8').click(function() {
+        var windowHeight = $(window).height();
+        var elementHeight = $('.quote-comment-8').outerHeight();
+        var offset = (windowHeight - elementHeight) / 2;
+        $('html, body').animate({
+          scrollTop: $('.quote-comment-8').offset().top - offset
+        }, {
+          duration: 0,
+          easing: 'swing',
+          behavior: 'smooth'
+        });
+        $('.quote-comment-8').addClass('hover').delay(3000).queue(function(){
+            $(this).removeClass('hover');
+            $(this).dequeue();
+        });
+      });
+    });
+
+    $(document).ready(function() {
+      $('.quote-user-9').click(function() {
+        var windowHeight = $(window).height();
+        var elementHeight = $('.quote-comment-9').outerHeight();
+        var offset = (windowHeight - elementHeight) / 2;
+        $('html, body').animate({
+          scrollTop: $('.quote-comment-9').offset().top - offset
+        }, {
+          duration: 0,
+          easing: 'swing',
+          behavior: 'smooth'
+        });
+        $('.quote-comment-9').addClass('hover').delay(3000).queue(function(){
+            $(this).removeClass('hover');
+            $(this).dequeue();
+        });
+      });
+    });
+
+    $(document).ready(function() {
+      $('.quote-user-20').click(function() {
+        var windowHeight = $(window).height();
+        var elementHeight = $('.quote-comment-20').outerHeight();
+        var offset = (windowHeight - elementHeight) / 2;
+        $('html, body').animate({
+          scrollTop: $('.quote-comment-20').offset().top - offset
+        }, {
+          duration: 0,
+          easing: 'swing',
+          behavior: 'smooth'
+        });
+        $('.quote-comment-20').addClass('hover').delay(3000).queue(function(){
+            $(this).removeClass('hover');
+            $(this).dequeue();
+        });
+      });
+    });
+
+    $(document).ready(function() {
+      $('.quote-user-17').click(function() {
+        var windowHeight = $(window).height();
+        var elementHeight = $('.quote-comment-17').outerHeight();
+        var offset = (windowHeight - elementHeight) / 2;
+        $('html, body').animate({
+          scrollTop: $('.quote-comment-17').offset().top - offset
+        }, {
+          duration: 0,
+          easing: 'swing',
+          behavior: 'smooth'
+        });
+        $('.quote-comment-17').addClass('hover').delay(3000).queue(function(){
+            $(this).removeClass('hover');
+            $(this).dequeue();
+        });
+      });
+    });
+
+    $(document).ready(function() {
+      $('.quote-user-22').click(function() {
+        var windowHeight = $(window).height();
+        var elementHeight = $('.quote-comment-22').outerHeight();
+        var offset = (windowHeight - elementHeight) / 2;
+        $('html, body').animate({
+          scrollTop: $('.quote-comment-22').offset().top - offset
+        }, {
+          duration: 0,
+          easing: 'swing',
+          behavior: 'smooth'
+        });
+        $('.quote-comment-22').addClass('hover').delay(3000).queue(function(){
+            $(this).removeClass('hover');
+            $(this).dequeue();
+        });
+      });
+    });
+
+    $(document).ready(function() {
+      $('.quote-user-23').click(function() {
+        var windowHeight = $(window).height();
+        var elementHeight = $('.quote-comment-23').outerHeight();
+        var offset = (windowHeight - elementHeight) / 2;
+        $('html, body').animate({
+          scrollTop: $('.quote-comment-23').offset().top - offset
+        }, {
+          duration: 0,
+          easing: 'swing',
+          behavior: 'smooth'
+        });
+        $('.quote-comment-23').addClass('hover').delay(3000).queue(function(){
+            $(this).removeClass('hover');
+            $(this).dequeue();
+        });
+      });
+    });
+
+    $(document).ready(function() {
+      $('.quote-user-24').click(function() {
+        var windowHeight = $(window).height();
+        var elementHeight = $('.quote-comment-24').outerHeight();
+        var offset = (windowHeight - elementHeight) / 2;
+        $('html, body').animate({
+          scrollTop: $('.quote-comment-24').offset().top - offset
+        }, {
+          duration: 0,
+          easing: 'swing',
+          behavior: 'smooth'
+        });
+        $('.quote-comment-24').addClass('hover').delay(3000).queue(function(){
+            $(this).removeClass('hover');
+            $(this).dequeue();
+        });
+      });
+    });
+
+    $(document).ready(function() {
+      $('.quote-user-25').click(function() {
+        var windowHeight = $(window).height();
+        var elementHeight = $('.quote-comment-25').outerHeight();
+        var offset = (windowHeight - elementHeight) / 2;
+        $('html, body').animate({
+          scrollTop: $('.quote-comment-25').offset().top - offset
+        }, {
+          duration: 0,
+          easing: 'swing',
+          behavior: 'smooth'
+        });
+        $('.quote-comment-25').addClass('hover').delay(3000).queue(function(){
+            $(this).removeClass('hover');
+            $(this).dequeue();
+        });
+      });
+    });
+
+    $(document).ready(function() {
+      $('.quote-user-28').click(function() {
+        var windowHeight = $(window).height();
+        var elementHeight = $('.quote-comment-28').outerHeight();
+        var offset = (windowHeight - elementHeight) / 2;
+        $('html, body').animate({
+          scrollTop: $('.quote-comment-28').offset().top - offset
+        }, {
+          duration: 0,
+          easing: 'swing',
+          behavior: 'smooth'
+        });
+        $('.quote-comment-28').addClass('hover').delay(3000).queue(function(){
+            $(this).removeClass('hover');
+            $(this).dequeue();
+        });
+      });
+    });
+
+    $(document).ready(function() {
+      $('.quote-user-29').click(function() {
+        var windowHeight = $(window).height();
+        var elementHeight = $('.quote-comment-29').outerHeight();
+        var offset = (windowHeight - elementHeight) / 2;
+        $('html, body').animate({
+          scrollTop: $('.quote-comment-29').offset().top - offset
+        }, {
+          duration: 0,
+          easing: 'swing',
+          behavior: 'smooth'
+        });
+        $('.quote-comment-29').addClass('hover').delay(3000).queue(function(){
+            $(this).removeClass('hover');
+            $(this).dequeue();
+        });
+      });
+    });
+
+    $(document).ready(function() {
+      $('.quote-user-18').click(function() {
+        var windowHeight = $(window).height();
+        var elementHeight = $('.quote-comment-18').outerHeight();
+        var offset = (windowHeight - elementHeight) / 2;
+        $('html, body').animate({
+          scrollTop: $('.quote-comment-18').offset().top - offset
+        }, {
+          duration: 0,
+          easing: 'swing',
+          behavior: 'smooth'
+        });
+        $('.quote-comment-18').addClass('hover').delay(3000).queue(function(){
+            $(this).removeClass('hover');
+            $(this).dequeue();
+        });
+      });
+    });
+
+    $(document).ready(function() {
+      $('.timeline__item-comments-answer-button span').click(function() {
+        var offset = $(window).height() * 0.4; // 40% высоты экрана
+        $('html, body').animate({
+          scrollTop: $('#write-comment').offset().top - offset
+        }, {
+          duration: 0,
+          easing: 'swing',
+          behavior: 'smooth'
+        });
+      });
+    });
+    

@@ -1249,31 +1249,31 @@ document.querySelectorAll('.norway-string img').forEach(img => {
 	});
   });
 
-  document.querySelectorAll('.col-11').forEach(img => {
-	img.addEventListener('click', () => {
-	  let chosenStrings = document.querySelectorAll('.col');
-	  chosenStrings.forEach(chosenString => {
-		chosenString.classList.remove('active');
-	  });
-	  let norwayStrings = document.querySelectorAll('.col-11');
-	  norwayStrings.forEach(norwayString => {
-		norwayString.classList.add('active');
-	  });
-	});
-  });
+//   document.querySelectorAll('.col-11').forEach(img => {
+// 	img.addEventListener('click', () => {
+// 	  let chosenStrings = document.querySelectorAll('.col');
+// 	  chosenStrings.forEach(chosenString => {
+// 		chosenString.classList.remove('active');
+// 	  });
+// 	  let norwayStrings = document.querySelectorAll('.col-11');
+// 	  norwayStrings.forEach(norwayString => {
+// 		norwayString.classList.add('active');
+// 	  });
+// 	});
+//   });
 
-  document.querySelectorAll('.col-12').forEach(img => {
-	img.addEventListener('click', () => {
-	  let chosenStrings = document.querySelectorAll('.col');
-	  chosenStrings.forEach(chosenString => {
-		chosenString.classList.remove('active');
-	  });
-	  let norwayStrings = document.querySelectorAll('.col-12');
-	  norwayStrings.forEach(norwayString => {
-		norwayString.classList.add('active');
-	  });
-	});
-  });
+//   document.querySelectorAll('.col-12').forEach(img => {
+// 	img.addEventListener('click', () => {
+// 	  let chosenStrings = document.querySelectorAll('.col');
+// 	  chosenStrings.forEach(chosenString => {
+// 		chosenString.classList.remove('active');
+// 	  });
+// 	  let norwayStrings = document.querySelectorAll('.col-12');
+// 	  norwayStrings.forEach(norwayString => {
+// 		norwayString.classList.add('active');
+// 	  });
+// 	});
+//   });
 
 
 $(document).on('click', function(event) {
@@ -1389,10 +1389,35 @@ $(document).ready(function(){
 		});
 	});
 
-document.querySelector('.timeline-cup__any-tables-go-to-male-table').addEventListener('click', function() {
-	document.querySelector('.timeline-cup__any-tables-all-result-title.female').scrollIntoView({behavior: 'smooth'});
-	});
+// document.querySelector('.timeline-cup__any-tables-go-to-male-table').addEventListener('click', function() {
+// 	document.querySelector('.timeline-cup__any-tables-all-result-title.female').scrollIntoView({behavior: 'smooth'});
+// 	});
 
-document.querySelector('.timeline-cup__any-tables-go-to-female-table').addEventListener('click', function() {
-	document.querySelector('.timeline-cup__any-tables-all-result-title.male').scrollIntoView({behavior: 'smooth'});
+$(document).ready(function() {
+	$('.timeline-cup__any-tables-go-to-male-table').click(function() {
+	  $('html, body').animate({
+		scrollTop: $('.timeline-cup__any-tables-all-result-title.female').offset().top - 100
+	  }, {
+		duration: 0,
+		easing: 'swing',
+		behavior: 'smooth'
+	  });
 	});
+  });
+  
+
+// document.querySelector('.timeline-cup__any-tables-go-to-female-table').addEventListener('click', function() {
+// 	document.querySelector('.timeline-cup__any-tables-all-result-title.male').scrollIntoView({behavior: 'smooth'});
+// 	});
+
+$(document).ready(function() {
+	$('.timeline-cup__any-tables-go-to-female-table').click(function() {
+	  $('html, body').animate({
+		scrollTop: $('.timeline-cup__any-tables-all-result-title.male').offset().top - 100
+	  }, {
+		duration: 0,
+		easing: 'swing',
+		behavior: 'smooth'
+	  });
+	});
+  });
