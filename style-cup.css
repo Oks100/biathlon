@@ -241,11 +241,12 @@ html[data-theme="grey"] #tippy-16 ul li a:hover {
 .timeline-cup__list-short {
     display: none;
 }
-.timeline-cup__list li a {
+.timeline-cup__list li span {
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 7px 10px;
+    cursor: pointer;
 }
 
 .timeline-cup__select-body {
@@ -291,30 +292,12 @@ html[data-theme="grey"] #tippy-16 ul li a:hover {
 .timeline-cup__list li.active {
     background-color: #c0e5fb;
 }
-/* .timeline-cup__bottom-navbar {
-    display: none;
-} */
-/* .timeline-cup__bottom-navbar-flag {
-}
-.timeline-cup__bottom-navbar-season {
-}
-.timeline-cup__bottom-navbar-compare {
-}
-.timeline-cup__bottom-navbar-gender {
-}
-.timeline-cup__bottom-navbar-male {
-}
-.timeline-cup__bottom-navbar-female {
-} */
 .timeline-cup__select-body.smart {
     display: none;
 }
 .timeline-cup__select-body select {
     outline: 1px solid #d0d9dd;
 }
-/* .body.fixed .footer {
-    margin-bottom: 40px;
-} */
 
 .timeline-cup-tables {
     display: flex;
@@ -395,7 +378,7 @@ html[data-theme="grey"] #tippy-16 ul li a:hover {
     color: #73b5e5;
     border-bottom: 1px solid #73b5e5;
 }
-.timeline-cup-table-title tr:first-child td {
+.timeline-cup .timeline-cup-table-title:not(.timeline-cup-table-title.mix) tr:first-child td {
     text-align: center;
     /* height: 50px; */
     font-weight: 600;
@@ -405,20 +388,6 @@ html[data-theme="grey"] #tippy-16 ul li a:hover {
     color: #1f7ec4;
     font-family: tahoma, Arial, Helvetica, sans-serif;
 }
-
-/* .timeline-cup-table tbody {
-    margin-top: 20px;
-    display: block;
-} */
-
-/* .timeline-cup-table-title tr:first-child td::after {
-    content: "\e91e";
-    font-family: 'icomoon';
-    color: #81aad5;
-    font-size: 1em;
-    padding-left: 5px;
-    font-weight: normal;
-} */
 
 .timeline-cup__flag span {
     display: flex;
@@ -437,9 +406,6 @@ html[data-theme="grey"] #tippy-16 ul li a:hover {
     content: '=';
 }
 
-/* .timeline-cup.norway .norway-string {
-    background-color: #ffcae5;
-} */
 .chosen-string.active {
     background-color: #ffcae5 !important;
 }
@@ -461,9 +427,6 @@ html[data-theme="grey"] #tippy-16 ul li a:hover {
 
 .timeline__more-tables-body {
     margin-top: 0.75em;
-    /* border: 1px solid #d0d9dd;
-    padding: 15px;
-    border-radius: 15px; */
 }
 .timeline__more-tables-body svg {
     position: absolute;
@@ -610,22 +573,25 @@ html[data-theme="grey"] #tippy-16 ul li a:hover {
         font-size: 1.05em;
 }
 .timeline-cup-table-male tbody td:nth-child(4) {
-    /* width: 203.383px; */
     width: 202.6px;
     display: block;
 }
+.timeline-cup-tables.mix .timeline-cup-table tbody td:nth-child(4) {
+    width: 150px;
+}
 .timeline-cup-table-female tbody td:nth-child(4) {
-    /* min-width: 212.767px; */
     min-width: 212.8px;
     display: block;
+}
+.timeline-cup-tables.mix {
+    justify-content: unset;
+}
+.timeline-cup-tables.mix .timeline-cup-table {
+    margin: 0 auto;
 }
 .table-compare-exemple-2 tr td:nth-child(3), .table-compare-exemple-4 tr td:nth-child(3) {
     width: 22.8px;
 }
-/* .table-compare-exemple-4 tr td:nth-child(4) {
-    min-width: 212.767px;
-    display: block;
-} */
 
 .table-compare-exemple-2, .table-compare-exemple-4 {
     display: none;
@@ -637,12 +603,6 @@ html[data-theme="grey"] #tippy-16 ul li a:hover {
     margin-top: 20px;
     display: block;
 }
-
-/* .timeline-cup-table .timeline-cup.another-table-1,  {
-    margin-top: 20px;
-    display: block;
-} */
-
 
 .table-button-now-1:focus, .table-button-now-2:focus, .table-button-earlier-1:focus, .table-button-earlier-2:focus {
     box-shadow: inset 0px 0px 0px 1px #ddeffa;
@@ -754,13 +714,6 @@ html[data-theme="grey"] #tippy-16 ul li a:hover {
     display: inline-block;
     width: 10px;
 }
-/* .legend-endless {
-    width: 12px;
-    height: 12px;
-    padding-left: 1px;
-    fill: black;
-    vertical-align: middle;
-} */
 .timeline-cup__footer-legend-remark {
     font-size: 0.9em;
     color: #5d5d5d;
@@ -796,6 +749,16 @@ html[data-theme="grey"] #tippy-16 ul li a:hover {
     width: 12px;
     height: 12px;
     fill: black;
+}
+
+.timeline-cup.mix .timeline-cup-tables {
+    display: none;
+}
+.timeline-cup .timeline-cup-tables.mix {
+    display: none;
+}
+.timeline-cup.mix .timeline-cup-tables.mix {
+    display: flex;
 }
 
 @media (hover: hover) {

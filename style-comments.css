@@ -2209,7 +2209,6 @@ html[data-theme='dark'] .guest-user.tab-password .timeline__item-comments-write-
     align-items: center;
     gap: 15px;
 }
-
 .btn__socials {
     display: flex;
     justify-content: center;
@@ -2546,7 +2545,11 @@ html[data-theme='dark'] .guest-user.tab-password .timeline__item-comments-write-
 
 
 
-
+@media (hover: hover) {
+    .timeline__socials-body a:hover {
+        transform: translateY(-3px) translateZ(1px);
+    }
+}
 
 @media  (max-width: 330px) {
     .toolbar2 {
