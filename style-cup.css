@@ -229,6 +229,7 @@ html[data-theme="grey"] #tippy-16 ul li a:hover {
     background-color: #e7f3fa;
     cursor: pointer;
     outline: 1px solid #d0d9dd;
+    /* outline: 1px solid #c0e5fb; */
     flex: 1 1 auto;
     text-align: center;
     color: #002b71;
@@ -804,6 +805,63 @@ html[data-theme="grey"] #tippy-16 ul li a:hover {
     position: relative;
     margin-left: 12px;
 }
+
+.timeline-cup__another-competitions {
+    display: flex;
+    gap: 8px 15px;
+    margin-bottom: 1.5em;
+    flex-wrap: wrap;
+}
+.timeline-cup__another-competitions span {
+    display: flex;
+    align-items: center;
+    border: 1px solid #c0e5fb;
+    border-radius: 33px;
+    overflow: hidden;
+    position: relative;
+    z-index: 2;
+}
+.timeline-cup__another-competitions a {
+    padding: 2.9px 25px;
+}
+.timeline-cup__another-competitions .world-cup {
+    border: 1px solid #d1ebfb;
+}
+
+.timeline-cup__another-competitions .world-cup {
+    background-color: #c0e5fb;
+}
+
+.timeline-cup__another-competitions .ibu-cup::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 50%;
+    right: 0;
+    height: 0;
+    width: 105%;
+    background-color: #d1ebfb;
+    transition: all .4s ease;
+    z-index: -1;
+    transform: translateY(-50%);
+}
+.timeline-cup__another-competitions .ibu-cup::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 50%;
+    right: 0;
+    height: 0;
+    width: 105%;
+    background-color: #d1ebfb;
+    transition: all .4s ease;
+    z-index: -1;
+    transform: translateY(-50%);
+}
+.timeline-cup__another-competitions .ibu-cup:hover::before, .timeline-cup__another-competitions .ibu-cup:hover::after {
+    height: 100%;
+}
+
 @media (hover: hover) {
     .timeline-cup__table-comments-tables-recommend-list a:hover::before {
         background-color: #81aad5;
