@@ -1421,3 +1421,23 @@ $(document).ready(function() {
 	  });
 	});
   });
+
+
+  $(document).ready(function(){
+    $('.mix-table, .other-table').click(function () {
+        $('.timeline-cup').addClass('mix');
+		$('.mix-table').addClass('active');
+		$('.general').removeClass('active');
+		$('.timeline-cup').removeClass('another-table');
+        });
+    });
+
+$(document).ready(function(){
+	$('.general').click(function () {
+		$('.timeline-cup').removeClass('mix');
+		$('.general').addClass('active');
+		$('.mix-table').removeClass('active');
+		$('.timeline-cup').removeClass('another-table');
+		});
+	});
+
