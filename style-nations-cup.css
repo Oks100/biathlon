@@ -99,7 +99,7 @@ html[data-theme="grey"] #tippy-16 ul li a:hover {
 }
 .timeline-cup__head {
     /* padding-bottom: 0.75em; */
-    margin-bottom: 1.5em;
+    margin-bottom: 2em;
     position: relative;
     /* display: flex;
     justify-content: space-between; */
@@ -235,7 +235,8 @@ html[data-theme="grey"] #tippy-16 ul li a:hover {
 .timeline-cup__list li {
     background-color: #e7f3fa;
     cursor: pointer;
-    outline: 1px solid #d0d9dd;
+    /* outline: 1px solid #d0d9dd; */
+    outline: 1px solid #c0e5fb;
     flex: 1 1 auto;
     text-align: center;
     color: #002b71;
@@ -1280,7 +1281,8 @@ html[data-theme="grey"] #tippy-16 ul li a:hover {
     height: 5.6px;
     width: 5.6px;
     border-radius: 50%;
-    border: 1px solid #d0d9dd;
+    /* border: 1px solid #d0d9dd; */
+    border: 1px solid #81aad5;
     display: block;
     position: absolute;
     left: -12px;
@@ -1288,9 +1290,12 @@ html[data-theme="grey"] #tippy-16 ul li a:hover {
     transform: translateY(-50%);
     transition: all .3s ease;
 }
+.timeline-cup__table-comments-tables-recommend-list {
+    margin-left: 12px;
+}
 .timeline-cup__table-comments-tables-recommend-list a {
     position: relative;
-    margin-left: 12px;
+    /* margin-left: 12px; */
 }
 
 @media (hover: hover) {

@@ -99,7 +99,7 @@ html[data-theme="grey"] #tippy-16 ul li a:hover {
 }
 .timeline-cup__head {
     /* padding-bottom: 0.75em; */
-    margin-bottom: 1.5em;
+    margin-bottom: 2em;
     position: relative;
     /* display: flex;
     justify-content: space-between; */
@@ -228,7 +228,8 @@ html[data-theme="grey"] #tippy-16 ul li a:hover {
 .timeline-cup__list li {
     background-color: #e7f3fa;
     cursor: pointer;
-    outline: 1px solid #d0d9dd;
+    /* outline: 1px solid #d0d9dd; */
+    outline: 1px solid #c0e5fb;
     flex: 1 1 auto;
     text-align: center;
     color: #002b71;
@@ -844,7 +845,8 @@ html[data-theme="grey"] #tippy-16 ul li a:hover {
     height: 5.6px;
     width: 5.6px;
     border-radius: 50%;
-    border: 1px solid #d0d9dd;
+    /* border: 1px solid #d0d9dd; */
+    border: 1px solid #81aad5;
     display: block;
     position: absolute;
     left: -12px;
@@ -852,9 +854,54 @@ html[data-theme="grey"] #tippy-16 ul li a:hover {
     transform: translateY(-50%);
     transition: all .3s ease;
 }
+.timeline-cup__table-comments-tables-recommend-list {
+    margin-left: 12px;
+}
 .timeline-cup__table-comments-tables-recommend-list a {
     position: relative;
-    margin-left: 12px;
+}
+
+.timeline-cup__another-competitions {
+    display: flex;
+    gap: 8px 15px;
+    margin-bottom: 1.5em;
+    flex-wrap: wrap;
+}
+.timeline-cup__another-competitions span {
+    display: flex;
+    align-items: center;
+    border: 1px solid #c0e5fb;
+    border-radius: 33px;
+    overflow: hidden;
+    position: relative;
+    z-index: 2;
+}
+.timeline-cup__another-competitions a {
+    padding: 2.9px 25px;
+}
+.timeline-cup__another-competitions .world-cup {
+    border: 1px solid #d1ebfb;
+}
+
+.timeline-cup__another-competitions .world-cup {
+    background-color: #c0e5fb;
+}
+
+.timeline-cup__another-competitions .ibu-cup::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 50%;
+    right: 0;
+    height: 0;
+    width: 100.3%;
+    background-color: #d1ebfb;
+    transition: all .4s ease;
+    z-index: -1;
+    transform: translateY(-50%);
+}
+.timeline-cup__another-competitions .ibu-cup:hover::before {
+    height: 100%;
 }
 
 
