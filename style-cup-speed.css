@@ -839,6 +839,7 @@ html[data-theme="grey"] #tippy-16 ul li a:hover {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
+    height: 63px;
 }
 .timeline-cup__table-comments-tables-recommend-list a::before {
     content: '';
@@ -943,9 +944,9 @@ html[data-theme="grey"] #tippy-16 ul li a:hover {
   }
 
 @media screen and (max-width: 992px) {
-    /* .timeline__more-tables-body ul li:not(:last-of-type) {
-        margin-bottom: 7px;
-    } */
+    .timeline-cup__table-comments-tables-recommend-list {
+        height: auto;
+    }
     .timeline__more-tables-body ul, .timeline-cup__table-comments-tables-recommend-list {
         gap: 8px 0;
     }
