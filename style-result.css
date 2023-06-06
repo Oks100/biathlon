@@ -13,7 +13,8 @@
     font-size: 1.3em;
     color: black;
     font-weight: 700;
-    padding-right: 58px;
+    /* padding-right: 58px; */
+    padding-right: 110px;
 }
 .age-button {
     display: flex;
@@ -200,9 +201,27 @@
     display: flex;
     transition: all .3s ease;
 }
-.timeline-cup-result__analysis-button a:hover {
+/* .timeline-cup-result__analysis-button a:hover, .timeline-cup-result__history:hover {
     background-color: #d1ebfb;
+} */
+
+.timeline-cup-result__history {
+    display: flex;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+    width: 30px;
+    height: 30px;
+    margin-right: 55px;
+    padding: 2px;
 }
+.history-icon {
+    width: 100%;
+    height: 100%;
+    fill: #81aad5;
+}
+
 
 @media (hover: hover) {
     .timeline-cup-result-table tbody tr:not(:first-child, .active):hover td {
