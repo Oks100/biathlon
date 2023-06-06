@@ -909,7 +909,6 @@ html[data-theme="grey"] #tippy-16 ul li a:hover {
 @media (hover: hover) {
     .timeline-cup__table-comments-tables-recommend-list a:hover::before {
         background-color: #81aad5;
-        border-color: #81aad5;
     }
     .points-button-td:hover .points-button-stars::before, .points-button-td-2:hover .points-button-stars-2::before {
         color: #81aad5;

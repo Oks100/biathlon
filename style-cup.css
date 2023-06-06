@@ -140,30 +140,21 @@ html[data-theme="grey"] #tippy-16 ul li a:hover {
     transition: background-color .3s ease;
 }
 .timeline-cup.profiles-color .age-color-1 {
-    /* background-color: #bcffbc; */
-    /* background-color: #c1ffc1; */
     background-color: #cfffcf;
 }
 .timeline-cup.profiles-color .age-color-2 {
-    /* background-color: #5bff5b; */
     background-color: #95ff95;
 }
 .timeline-cup.profiles-color .age-color-3 {
-    /* background-color: rgb(255, 255, 164); */
-    /* background-color: #ffffba; */
     background-color: #ffc;
 }
 .timeline-cup.profiles-color .age-color-4 {
-    /* background-color: #ffff3c; */
     background-color: #ff7;
 }
 .timeline-cup.profiles-color .age-color-5 {
-    /* background-color: #ffc1c1; */
-    /* background-color: #ffd0d0; */
     background-color: #ffd4d4;
 }
 .timeline-cup.profiles-color .age-color-6 {
-    /* background-color: #ff7b7b; */
     background-color: #ff9f9f;
 }
 
@@ -855,7 +846,6 @@ html[data-theme="grey"] #tippy-16 ul li a:hover {
 @media (hover: hover) {
     .timeline-cup__table-comments-tables-recommend-list a:hover::before {
         background-color: #81aad5;
-        border-color: #81aad5;
     }
     .points-button-td:hover .points-button-stars::before, .points-button-td-2:hover .points-button-stars-2::before {
         color: #81aad5;

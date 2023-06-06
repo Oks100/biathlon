@@ -1301,7 +1301,6 @@ html[data-theme="grey"] #tippy-16 ul li a:hover {
 @media (hover: hover) {
     .timeline-cup__table-comments-tables-recommend-list a:hover::before {
         background-color: #81aad5;
-        border-color: #81aad5;
     }
     .timeline-cup__any-tables-races-scores tr:not(.nations-string.active) td:hover::before, .timeline-cup__any-tables-races-scores tr:not(.nations-string.active) .row:hover::before { 
         background-color: #fffce5;
