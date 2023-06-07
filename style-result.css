@@ -78,7 +78,6 @@
     background-color: #75c3fd !important;
     cursor: help;
 }
-
 .timeline-cup-result-wrapper {
     overflow-x: auto;
 }
@@ -88,14 +87,20 @@
 .timeline-cup-result-table tbody tr td {
     white-space: nowrap;
 }
-.timeline-cup-result-table tbody tr td:nth-child(1), .timeline-cup-result-table tbody tr td:nth-child(2) {
+/* .timeline-cup-result-table tbody tr td:nth-child(1), .timeline-cup-result-table tbody tr td:nth-child(2) {
     padding: 2.4px;
-}
+} */
 .timeline-cup-result-table tbody tr td:nth-child(3) {
     padding: 2.4px 7px 2.4px 2.4px;
 }
 .timeline-cup-result-table tbody tr td:nth-child(4), .timeline-cup-result-table tbody tr td:nth-child(5), .timeline-cup-result-table tbody tr td:nth-child(6), .timeline-cup-result-table tbody tr td:nth-child(7), .timeline-cup-result-table tbody tr td:nth-child(8), .timeline-cup-result-table tbody tr td:nth-child(9) {
     padding: 2.4px 7px 2.4px 7px;
+}
+.timeline-cup-result-table tbody tr td:first-child {
+    padding: 2.4px 0 !important;
+}
+.timeline-cup-result-table tbody tr td:nth-child(2) {
+    padding: 2.4px 2.4px 2.4px 4.8px !important;
 }
 .timeline-cup-result-table tbody tr td:not(:nth-child(3), :last-child) {
     text-align: center;
