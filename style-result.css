@@ -66,6 +66,19 @@
 .timeline-cup-result-table {
     width: 100%;
 }
+.yellow-jersey {
+    background-color: #ffe559 !important;
+    cursor: help;
+}
+.red-jersey {
+    background-color: #ff8f8f !important;
+    cursor: help;
+}
+.blue-jersey {
+    background-color: #75c3fd !important;
+    cursor: help;
+}
+
 .timeline-cup-result-wrapper {
     overflow-x: auto;
 }
@@ -206,28 +219,19 @@
     flex-wrap: wrap;
     gap: 15px 10px;
 }
-.timeline-cup-result-discription-icons {
+.timeline-cup-result-discription-links {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+/* .timeline-cup-result-discription-icons {
     position: relative;
     display: flex;
     height: 21px;
     width: 135px;
-}
-/* .timeline-cup-result__history {
-    display: flex;
-    position: absolute;
-    top: 50%;
-    right: -30px;
-    transform: translateY(-50%);
-    width: 25px;
-    height: 25px;
-    border-radius: 50%;
-}
-.history-icon {
-    width: 16px;
-    height: 16px;
-    fill: #81aad5;
-}  */
-.timeline-cup-result__history, .timeline-cup-result__photogallery, .timeline-cup-result__videogallery {
+} */
+
+/* .timeline-cup-result__history, .timeline-cup-result__photogallery, .timeline-cup-result__videogallery {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
@@ -279,7 +283,7 @@
     font-family: 'icomoon';
     font-size: 0.9em;
     color: #81aad5;
-}
+} */
 
 
 @media (hover: hover) {
