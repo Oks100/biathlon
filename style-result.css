@@ -201,23 +201,85 @@
     display: flex;
     transition: all .3s ease;
 }
-
+.timeline-cup-result-discription {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px 10px;
+}
+.timeline-cup-result-discription-icons {
+    position: relative;
+    display: flex;
+    height: 21px;
+    width: 135px;
+}
 /* .timeline-cup-result__history {
     display: flex;
     position: absolute;
     top: 50%;
-    right: 0;
+    right: -30px;
     transform: translateY(-50%);
-    width: 30px;
-    height: 30px;
-    margin-right: 55px;
-    padding: 2px;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
 }
 .history-icon {
-    width: 100%;
-    height: 100%;
+    width: 16px;
+    height: 16px;
     fill: #81aad5;
-} */
+}  */
+.timeline-cup-result__history, .timeline-cup-result__photogallery, .timeline-cup-result__videogallery {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 5px;
+    border-radius: 50%;
+    transition: all .3s ease;
+    width: 30px;
+    height: 30px;
+}
+.timeline-cup-result__history {
+    left: 5px;
+}
+.timeline-cup-result__photogallery {
+    left: 45px;
+}
+.timeline-cup-result__videogallery {
+    left: 90px;
+}
+.timeline-cup-result__history:hover, .timeline-cup-result__photogallery:hover, .timeline-cup-result__videogallery:hover {
+    background-color: #e7f3fa;
+}
+.timeline-cup-result__history::before {
+    position: absolute;
+    content: "\e929";
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'icomoon';
+    font-size: 1em;
+    color: #81aad5;
+}
+.timeline-cup-result__photogallery::before {
+    position: absolute;
+    content: "\e90c";
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'icomoon';
+    font-size: 0.9em;
+    color: #81aad5;
+}
+
+.timeline-cup-result__videogallery::before {
+    position: absolute;
+    content: "\e92a";
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'icomoon';
+    font-size: 0.9em;
+    color: #81aad5;
+}
 
 
 @media (hover: hover) {
