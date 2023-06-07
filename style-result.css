@@ -244,7 +244,7 @@
     left: 45px;
 }
 .timeline-cup-result__videogallery {
-    left: 90px;
+    left: 85px;
 }
 .timeline-cup-result__history:hover, .timeline-cup-result__photogallery:hover, .timeline-cup-result__videogallery:hover {
     background-color: #e7f3fa;
@@ -256,7 +256,7 @@
     left: 50%;
     transform: translate(-50%, -50%);
     font-family: 'icomoon';
-    font-size: 1em;
+    font-size: .9em;
     color: #81aad5;
 }
 .timeline-cup-result__photogallery::before {
