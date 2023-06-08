@@ -13,7 +13,6 @@
     font-size: 1.3em;
     color: black;
     font-weight: 700;
-    /* padding-right: 58px; */
     padding-right: 110px;
 }
 .age-button {
@@ -87,13 +86,10 @@
 .timeline-cup-result-table tbody tr td {
     white-space: nowrap;
 }
-/* .timeline-cup-result-table tbody tr td:nth-child(1), .timeline-cup-result-table tbody tr td:nth-child(2) {
-    padding: 2.4px;
-} */
 .timeline-cup-result-table tbody tr td:nth-child(3) {
     padding: 2.4px 7px 2.4px 2.4px;
 }
-.timeline-cup-result-table tbody tr td:nth-child(4), .timeline-cup-result-table tbody tr td:nth-child(5), .timeline-cup-result-table tbody tr td:nth-child(6), .timeline-cup-result-table tbody tr td:nth-child(7), .timeline-cup-result-table tbody tr td:nth-child(8), .timeline-cup-result-table tbody tr td:nth-child(9) {
+.timeline-cup-result-table tbody tr td:nth-child(4), .timeline-cup-result-table tbody tr td:nth-child(5), .timeline-cup-result-table tbody tr td:nth-child(6), .timeline-cup-result-table tbody tr td:nth-child(7), .timeline-cup-result-table tbody tr td:nth-child(8) {
     padding: 2.4px 7px 2.4px 7px;
 }
 .timeline-cup-result-table tbody tr td:first-child {
@@ -102,7 +98,7 @@
 .timeline-cup-result-table tbody tr td:nth-child(2) {
     padding: 2.4px 2.4px 2.4px 4.8px !important;
 }
-.timeline-cup-result-table tbody tr td:not(:nth-child(3), :last-child) {
+.timeline-cup-result-table tbody tr td:not(:nth-child(3)) {
     text-align: center;
 }
 .timeline-cup-result-table tbody tr td:last-child {
@@ -111,7 +107,6 @@
 .timeline-cup-result-table tbody tr:not(:first-child) td:nth-child(1) {
     font-weight: 600;
     font-size: 0.85em;
-    /* padding-bottom: 4px; */
     text-align: center;
 }
 .timeline-cup-result-table tbody tr:nth-child(2n) {
@@ -138,6 +133,7 @@
 }
 .chosen-string.active {
     background-color: #ffcae5 !important;
+    box-shadow: 0 0 0 1px white;
 }
 .bib-icon::before {
     content: "\e927";
@@ -150,10 +146,10 @@
     left: 50%;
     transform: translate(-50%, -50%);
 }
-.bib-icon, .shooting-icon, .lag-time-icon {
+.bib-icon, .shooting-icon, .timeline-cup-result-table tr td:nth-child(8), .timeline-cup-result-table tr td:nth-child(7) {
     position: relative;
 }
-.lag-time-icon::before {
+.timeline-cup-result-table tr:first-child td:nth-child(8)::before {
     content: "\e925";
     font-family: 'icomoon';
     font-size: 0.80em;
@@ -176,7 +172,7 @@
     left: 50%;
     transform: translate(-50%, -50%);
 }
-.shooting-icon::before, .bib-icon::before, .timeline-cup-result-table tbody tr td:nth-child(9), .timeline-cup-result-select-body-text.short {
+.shooting-icon::before, .bib-icon::before, .timeline-cup-result-select-body-text.short {
     display: none;
 }
 
@@ -229,66 +225,7 @@
     gap: 10px;
     flex-wrap: wrap;
 }
-/* .timeline-cup-result-discription-icons {
-    position: relative;
-    display: flex;
-    height: 21px;
-    width: 135px;
-} */
 
-/* .timeline-cup-result__history, .timeline-cup-result__photogallery, .timeline-cup-result__videogallery {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    padding: 5px;
-    border-radius: 50%;
-    transition: all .3s ease;
-    width: 30px;
-    height: 30px;
-}
-.timeline-cup-result__history {
-    left: 5px;
-}
-.timeline-cup-result__photogallery {
-    left: 45px;
-}
-.timeline-cup-result__videogallery {
-    left: 85px;
-}
-.timeline-cup-result__history:hover, .timeline-cup-result__photogallery:hover, .timeline-cup-result__videogallery:hover {
-    background-color: #e7f3fa;
-}
-.timeline-cup-result__history::before {
-    position: absolute;
-    content: "\e929";
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-family: 'icomoon';
-    font-size: .9em;
-    color: #81aad5;
-}
-.timeline-cup-result__photogallery::before {
-    position: absolute;
-    content: "\e90c";
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-family: 'icomoon';
-    font-size: 0.9em;
-    color: #81aad5;
-}
-
-.timeline-cup-result__videogallery::before {
-    position: absolute;
-    content: "\e92a";
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-family: 'icomoon';
-    font-size: 0.9em;
-    color: #81aad5;
-} */
 .toggle-style-table {
     display: flex;
 }
@@ -305,21 +242,18 @@
 .timeline-cup-result.modern .photo-profile {
     display: block;
     background-color: white;
-    /* width: 2.886em;
-    height: 2.886em; */
     width: 3em;
     height: 3em;
     border-radius: 50%;
     background-repeat: no-repeat;
     background-position: 50% 50%;
     background-size: cover;
-    -ms-flex-negative: 0;
-    flex-shrink: 0;
     box-shadow: 0 1px 2px rgba(0,0,0,.3) inset, 0 -1px 0 rgba(0,0,0,.2) inset;
-    transition: all .3s ease;
+    transition: all 0.3s ease;
+    overflow: hidden;
 }
 .timeline-cup-result.modern .photo-profile:hover {
-    scale: 1.1;
+    box-shadow: 0 1px 2px rgb(129, 170, 213, .4) inset, 0 -1px 0 rgb(129, 170, 213, .3) inset;
 }
 .timeline-cup-result.modern .photo-profile.wierer {
     background-image: url(https://ibu.blob.core.windows.net/docs/athletes/BTITA20304199001.png);
@@ -417,13 +351,211 @@
 .timeline-cup-result.modern .photo-profile.bilosyuk {
     background-image: url(https://ibu.blob.core.windows.net/docs/athletes/BTUKR20901198701.png);
 }
+.timeline-cup-result.modern .photo-profile.halvarsson {
+    background-image: url();
+}
+.timeline-cup-result.modern .photo-profile.a-gasparin {
+    background-image: url(https://ibu.blob.core.windows.net/docs/athletes/BTSUI20902199401.png);
+}
+.timeline-cup-result.modern .photo-profile.avvakumova {
+    background-image: url(https://ibu.blob.core.windows.net/docs/athletes/BTRUS22610199002.png);
+}
+.timeline-cup-result.modern .photo-profile.yuppe {
+    background-image: url(https://ibu.blob.core.windows.net/docs/athletes/BTAUT21409199901.png);
+}
+.timeline-cup-result.modern .photo-profile.dzhima {
+    background-image: url(https://ibu.blob.core.windows.net/docs/athletes/BTUKR21909199001.png);
+}
+.timeline-cup-result.modern .photo-profile.merkushina {
+    background-image: url(https://ibu.blob.core.windows.net/docs/athletes/BTUKR21401199501.png);
+}
+.timeline-cup-result.modern .photo-profile.komola {
+    background-image: url(https://ibu.blob.core.windows.net/docs/athletes/BTITA23004199801.png);
+}
+.timeline-cup-result.modern .photo-profile.brursson {
+    background-image: url(https://ibu.blob.core.windows.net/docs/athletes/BTSWE22803199001.png);
+}
+.timeline-cup-result.modern .photo-profile.vobornikova {
+    background-image: url(https://ibu.blob.core.windows.net/docs/athletes/BTCZE23105200001.png);
+}
+.timeline-cup-result.modern .photo-profile.rid {
+    background-image: url(https://ibu.blob.core.windows.net/docs/athletes/BTUSA22806199201.png);
+}
+.timeline-cup-result.modern .photo-profile.vaydely {
+    background-image: url(https://ibu.blob.core.windows.net/docs/athletes/BTGER22505199601.png);
+}
+.timeline-cup-result.modern .photo-profile.li {
+    background-image: url(https://ibu.blob.core.windows.net/docs/athletes/BTNOR20609199501.png);
+}
+.timeline-cup-result.modern .photo-profile.persson {
+    background-image: url(https://ibu.blob.core.windows.net/docs/athletes/BTSWE22706199401.png);
+}
+.timeline-cup-result.modern .photo-profile.hauzer {
+    background-image: url(https://ibu.blob.core.windows.net/docs/athletes/BTAUT21612199301.png);
+}
+.timeline-cup-result.modern .photo-profile.tomashevska {
+    background-image: url(https://ibu.blob.core.windows.net/docs/athletes/BTPOL20909199801.png);
+}
+.timeline-cup-result.modern .photo-profile.irvin {
+    background-image: url(https://ibu.blob.core.windows.net/docs/athletes/BTUSA22705199201.png);
+}
+.timeline-cup-result.modern .photo-profile.p-fialkova {
+    background-image: url(https://ibu.blob.core.windows.net/docs/athletes/BTSVK22510199201.png);
+}
+.timeline-cup-result.modern .photo-profile.ermits {
+    background-image: url(https://ibu.blob.core.windows.net/docs/athletes/BTEST23101199601.png);
+}
+.timeline-cup-result.modern .photo-profile.yislova {
+    background-image: url(https://ibu.blob.core.windows.net/docs/athletes/BTCZE22807199401.png);
+}
+.timeline-cup-result.modern .photo-profile.lien {
+    background-image: url(https://ibu.blob.core.windows.net/docs/athletes/BTNOR20504199701.png);
+}
+.timeline-cup-result.modern .photo-profile.minkkinen {
+    background-image: url(https://ibu.blob.core.windows.net/docs/athletes/BTFIN20812199401.png);
+}
+
+.timeline-cup-result.modern .photo-profile.blashko {
+    background-image: url(https://ibu.blob.core.windows.net/docs/athletes/BTBLR22801199601.png);
+}
+.timeline-cup-result.modern .photo-profile.royseland {
+    background-image: url(https://ibu.blob.core.windows.net/docs/athletes/BTNOR20712199001.png);
+}
+.timeline-cup-result.modern .photo-profile.yankya {
+    background-image: url(https://ibu.blob.core.windows.net/docs/athletes/BTFIN22311199501.png);
+}
+.timeline-cup-result.modern .photo-profile.kyuelym {
+    background-image: url(https://ibu.blob.core.windows.net/docs/athletes/BTEST21308199601.png);
+}
+.timeline-cup-result.modern .photo-profile.el-gasparin {
+    background-image: url(https://ibu.blob.core.windows.net/docs/athletes/BTSUI20212199101.png);
+}
+.timeline-cup-result.modern .photo-profile.gandler {
+    background-image: url(https://ibu.blob.core.windows.net/docs/athletes/BTAUT20501200101.png);
+}
+.timeline-cup-result.modern .photo-profile.maka {
+    background-image: url(https://ibu.blob.core.windows.net/docs/athletes/BTPOL22205199201.png);
+}
+.timeline-cup-result.modern .photo-profile.lampich {
+    background-image: url(https://ibu.blob.core.windows.net/docs/athletes/BTSLO21706199501.png);
+}
+.timeline-cup-result.modern .photo-profile.kadeva {
+    background-image: url(https://ibu.blob.core.windows.net/docs/athletes/BTBUL20101199401.png);
+}
+.timeline-cup-result.modern .photo-profile.tolmacheva {
+    background-image: url();
+}
+.timeline-cup-result.modern .photo-profile.shovo {
+    background-image: url(https://ibu.blob.core.windows.net/docs/athletes/BTFRA21206199901.png);
+}
+.timeline-cup-result.modern .photo-profile.femshteynevik {
+    background-image: url(https://ibu.blob.core.windows.net/docs/athletes/BTNOR22708199501.png);
+}
+.timeline-cup-result.modern .photo-profile.kondratyeva {
+    background-image: url(https://ibu.blob.core.windows.net/docs/athletes/BTKAZ21701199401.png);
+}
+.timeline-cup-result.modern .photo-profile.levins {
+    background-image: url(https://ibu.blob.core.windows.net/docs/athletes/BTUSA22404199801.png);
+}
+.timeline-cup-result.modern .photo-profile.kochergina {
+    background-image: url(https://ibu.blob.core.windows.net/docs/athletes/BTLTU21704198501.png);
+}
+.timeline-cup-result.modern .photo-profile.yakela {
+    background-image: url(https://ibu.blob.core.windows.net/docs/athletes/BTPOL20203199901.png);
+}
+.timeline-cup-result.modern .photo-profile.talihyarm {
+    background-image: url(https://ibu.blob.core.windows.net/docs/athletes/BTEST22706199301.png);
+}
+.timeline-cup-result.modern .photo-profile.payffer {
+    background-image: url(https://ibu.blob.core.windows.net/docs/athletes/BTCAN22909200001.png);
+}
+.timeline-cup-result.modern .photo-profile.kipyachenkova {
+    background-image: url(https://ibu.blob.core.windows.net/docs/athletes/BTUKR20305199901.png);
+}
+.timeline-cup-result.modern .photo-profile.lestsinskayte {
+    background-image: url(https://ibu.blob.core.windows.net/docs/athletes/BTLTU22503199601.png);
+}
+.timeline-cup-result.modern .photo-profile.sato {
+    background-image: url(https://ibu.blob.core.windows.net/docs/athletes/BTJPN23007199701.png);
+}
+.timeline-cup-result.modern .photo-profile.bendika {
+    background-image: url(https://ibu.blob.core.windows.net/docs/athletes/BTLAT22706199101.png);
+}
+.timeline-cup-result.modern .photo-profile.chon {
+    background-image: url(https://ibu.blob.core.windows.net/docs/athletes/BTKOR20506199601.png);
+}
+.timeline-cup-result.modern .photo-profile.dikinson {
+    background-image: url(https://ibu.blob.core.windows.net/docs/athletes/BTUSA23007199301.png);
+}
+.timeline-cup-result.modern .photo-profile.mayer {
+    background-image: url(https://ibu.blob.core.windows.net/docs/athletes/BTGER20602199201.png);
+}
+.timeline-cup-result.modern .photo-profile.kinnunen {
+    background-image: url(https://ibu.blob.core.windows.net/docs/athletes/BTBLR21403198501.png);
+}
+.timeline-cup-result.modern .photo-profile.chirkova {
+    background-image: url(https://ibu.blob.core.windows.net/docs/athletes/BTROU20612199401.png);
+}
+.timeline-cup-result.modern .photo-profile.meny {
+    background-image: url(https://ibu.blob.core.windows.net/docs/athletes/BTCHN22111199901.png);
+}
+.timeline-cup-result.modern .photo-profile.dikson {
+    background-image: url(https://ibu.blob.core.windows.net/docs/athletes/BTCAN22305199701.png);
+}
+.timeline-cup-result.modern .photo-profile.stremous {
+    background-image: url(https://ibu.blob.core.windows.net/docs/athletes/BTMDA21107199501.png);
+}
+.timeline-cup-result.modern .photo-profile.ahatova {
+    background-image: url(https://ibu.blob.core.windows.net/docs/athletes/BTKAZ22403199701.png);
+}
+.timeline-cup-result.modern .photo-profile.z-remenova {
+    background-image: url(https://ibu.blob.core.windows.net/docs/athletes/BTGER22505199601.png);
+}
+.timeline-cup-result.modern .photo-profile.hirnikely {
+    background-image: url(https://ibu.blob.core.windows.net/docs/athletes/BTNOR20609199501.png);
+}
+.timeline-cup-result.modern .photo-profile.remenova {
+    background-image: url(https://ibu.blob.core.windows.net/docs/athletes/BTSVK22707200002.png);
+}
+.timeline-cup-result.modern .photo-profile.fukuda {
+    background-image: url(https://ibu.blob.core.windows.net/docs/athletes/BTJPN20402199901.png);
+}
+.timeline-cup-result.modern .photo-profile.sabule {
+    background-image: url(https://ibu.blob.core.windows.net/docs/athletes/BTLAT22004199701.png);
+}
+.timeline-cup-result.modern .photo-profile.gilenko {
+    background-image: url(https://ibu.blob.core.windows.net/docs/athletes/BTUKR21206199201.png);
+}
+.timeline-cup-result.modern .photo-profile.vinklarkova {
+    background-image: url(https://ibu.blob.core.windows.net/docs/athletes/BTCZE20312199801.png);
+}
+.timeline-cup-result.modern .photo-profile.zdravkova {
+    background-image: url(https://ibu.blob.core.windows.net/docs/athletes/BTBUL23007199801.png);
+}
+.timeline-cup-result.modern .photo-profile.zhuk {
+    background-image: url(https://ibu.blob.core.windows.net/docs/athletes/BTPOL21811199701.png);
+}
+.timeline-cup-result.modern .photo-profile.todorova {
+    background-image: url(https://ibu.blob.core.windows.net/docs/athletes/BTBUL21801199801.png);
+}
+.timeline-cup-result.modern .photo-profile.kuuttinen {
+    background-image: url();
+}
+.timeline-cup-result.modern .photo-profile.shnayder {
+    background-image: url(https://ibu.blob.core.windows.net/docs/athletes/BTGER21209199701.png);
+}
+.timeline-cup-result.modern .photo-profile.yiny {
+    background-image: url(https://ibu.blob.core.windows.net/docs/athletes/BTCHN22807199501.png);
+}
+
+
 .timeline-cup-result.modern .timeline-cup-result-table tbody tr td:nth-child(3) {
     padding: 2.4px 7px 2.4px 4.8px;
 }
 .timeline-cup-result.modern .timeline-cup-result-table tbody tr td:nth-child(2) {
     padding: 4.8px 2.4px 4.8px 3.5px !important;
 }
-.timeline-cup-result.modern .timeline-cup-result-table tbody tr td:nth-child(4), .timeline-cup-result.modern .timeline-cup-result-table tbody tr td:nth-child(5), .timeline-cup-result.modern .timeline-cup-result-table tbody tr td:nth-child(6), .timeline-cup-result.modern .timeline-cup-result-table tbody tr td:nth-child(7), .timeline-cup-result.modern .timeline-cup-result-table tbody tr td:nth-child(8), .timeline-cup-result.modern .timeline-cup-result-table tbody tr td:nth-child(9) {
+.timeline-cup-result.modern .timeline-cup-result-table tbody tr td:nth-child(4), .timeline-cup-result.modern .timeline-cup-result-table tbody tr td:nth-child(5), .timeline-cup-result.modern .timeline-cup-result-table tbody tr td:nth-child(6), .timeline-cup-result.modern .timeline-cup-result-table tbody tr td:nth-child(7), .timeline-cup-result.modern .timeline-cup-result-table tbody tr td:nth-child(8) {
     padding: 4.8px 7px 4.8px 7px;
 }
 .nation {
@@ -435,6 +567,9 @@
 .cell-container-name-nat {
     display: inline-flex;
     flex-direction: column;
+}
+.text-2 {
+    display: none;
 }
 @media (hover: hover) {
     .timeline-cup-result__analysis-button a:hover {
@@ -461,11 +596,34 @@
 }
 
 @media screen and (max-width: 580px) {
-    .timeline-cup-result-table tbody tr td:nth-child(7), .timeline-cup-result-select-body-text, .timeline-cup-result-table tbody tr td a.long-name, .shooting-icon span, .bib-icon span {
+    .timeline-cup-result-select-body-text, .timeline-cup-result-table tbody tr td a.long-name, .shooting-icon span, .bib-icon span {
         display: none;
     }
-    .timeline-cup-result-select-body-text.short, .timeline-cup-result-table tbody tr td a.short-name, .shooting-icon::before, .bib-icon::before, .timeline-cup-result-table tbody tr td:nth-child(9) {
+    .timeline-cup-result-select-body-text.short, .timeline-cup-result-table tbody tr td a.short-name, .shooting-icon::before, .bib-icon::before {
         display: initial;
+    }
+    .text-1 {
+        display: none;
+    }
+    .text-2 {
+        display: initial;
+    }
+    /* .timeline-cup-result-table tbody tr td:nth-child(7) {
+        text-align: left;
+    } */
+    .timeline-cup-result-table tr:first-child td:nth-child(8)::before {
+        content: "";
+    }
+    .timeline-cup-result-table tr:first-child td:nth-child(7)::before {
+        content: "\e925";
+        font-family: 'icomoon';
+        font-size: 0.80em;
+        font-weight: normal;
+        color: #8d8d8d;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
     }
 }
 @media screen and (max-width: 550px) {
