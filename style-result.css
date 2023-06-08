@@ -127,7 +127,7 @@
 .timeline-cup-result-table tbody tr td:nth-child(2) {
     width: 22.8px;
 }
-.timeline-cup-result-table tbody tr td:nth-child(3) a:last-child {
+.timeline-cup-result-table tbody tr td a.short-name {
     display: none;
 }
 .timeline-cup-result-table tbody tr td:nth-child(4), .timeline-cup-result-table tbody tr td:nth-child(5), .timeline-cup-result-table tbody tr td:nth-child(7) {
@@ -289,8 +289,153 @@
     font-size: 0.9em;
     color: #81aad5;
 } */
-
-
+.toggle-style-table {
+    display: flex;
+}
+.cell-container, .photo-profile {
+    display: none;
+}
+.timeline-cup-result.modern tbody tr td:nth-child(2) img {
+    display: none;
+}
+.timeline-cup-result.modern .cell-container {
+    display: flex;
+    flex-direction: column;
+}
+.timeline-cup-result.modern .photo-profile {
+    display: block;
+    background-color: white;
+    /* width: 2.886em;
+    height: 2.886em; */
+    width: 3em;
+    height: 3em;
+    border-radius: 50%;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+    box-shadow: 0 1px 2px rgba(0,0,0,.3) inset, 0 -1px 0 rgba(0,0,0,.2) inset;
+    transition: all .3s ease;
+}
+.timeline-cup-result.modern .photo-profile:hover {
+    scale: 1.1;
+}
+.timeline-cup-result.modern .photo-profile.wierer {
+    background-image: url(https://ibu.blob.core.windows.net/docs/athletes/BTITA20304199001.png);
+}
+.timeline-cup-result.modern .photo-profile.vittozzi {
+    background-image: url(https://ibu.blob.core.windows.net/docs/athletes/BTITA20402199501.png);
+}
+.timeline-cup-result.modern .photo-profile.herrmann {
+    background-image: url(https://ibu.blob.core.windows.net/docs/athletes/BTGER22010198801.png);
+}
+.timeline-cup-result.modern .photo-profile.simon {
+    background-image: url(https://ibu.blob.core.windows.net/docs/athletes/BTFRA20910199601.png);
+}
+.timeline-cup-result.modern .photo-profile.lander {
+    background-image: url(https://ibu.blob.core.windows.net/docs/athletes/BTCAN20209199101.png);
+}
+.timeline-cup-result.modern .photo-profile.fogt {
+    background-image: url(https://ibu.blob.core.windows.net/docs/athletes/BTGER20710199701.png);
+}
+.timeline-cup-result.modern .photo-profile.tandrevold {
+    background-image: url(https://ibu.blob.core.windows.net/docs/athletes/BTNOR22309199601.png);
+}
+.timeline-cup-result.modern .photo-profile.h-shevalye {
+    background-image: url(https://ibu.blob.core.windows.net/docs/athletes/BTFRA20211199501.png);
+}
+.timeline-cup-result.modern .photo-profile.knotten {
+    background-image: url(https://ibu.blob.core.windows.net/docs/athletes/BTNOR20601199501.png);
+}
+.timeline-cup-result.modern .photo-profile.p-klemenchich {
+    background-image: url(https://ibu.blob.core.windows.net/docs/athletes/BTSLO21604199701.png);
+}
+.timeline-cup-result.modern .photo-profile.kebinger {
+    background-image: url(https://ibu.blob.core.windows.net/docs/athletes/BTGER22611199701.png);
+}
+.timeline-cup-result.modern .photo-profile.s-bushe {
+    background-image: url(https://ibu.blob.core.windows.net/docs/athletes/BTFRA21202199301.png);
+}
+.timeline-cup-result.modern .photo-profile.davidova {
+    background-image: url(https://ibu.blob.core.windows.net/docs/athletes/BTCZE20301199701.png);
+}
+.timeline-cup-result.modern .photo-profile.arnekleyv {
+    background-image: url();
+}
+.timeline-cup-result.modern .photo-profile.tomingas {
+    background-image: url(https://ibu.blob.core.windows.net/docs/athletes/BTEST20401199501.png);
+}
+.timeline-cup-result.modern .photo-profile.zhanmonno {
+    background-image: url(https://ibu.blob.core.windows.net/docs/athletes/BTFRA22810199801.png);
+}
+.timeline-cup-result.modern .photo-profile.auhentaller {
+    background-image: url(https://ibu.blob.core.windows.net/docs/athletes/BTITA22803200101.png);
+}
+.timeline-cup-result.modern .photo-profile.zduch {
+    background-image: url(https://ibu.blob.core.windows.net/docs/athletes/BTAUT20301199401.png);
+}
+.timeline-cup-result.modern .photo-profile.baserga {
+    background-image: url(https://ibu.blob.core.windows.net/docs/athletes/BTSUI22909200001.png);
+}
+.timeline-cup-result.modern .photo-profile.e-oeberg {
+    background-image: url(https://ibu.blob.core.windows.net/docs/athletes/BTSWE22602199901.png);
+}
+.timeline-cup-result.modern .photo-profile.shtayner {
+    background-image: url(https://ibu.blob.core.windows.net/docs/athletes/BTAUT22505199701.png);
+}
+.timeline-cup-result.modern .photo-profile.hekki {
+    background-image: url(https://ibu.blob.core.windows.net/docs/athletes/BTSUI20107199501.png);
+}
+.timeline-cup-result.modern .photo-profile.h-oeberg {
+    background-image: url(https://ibu.blob.core.windows.net/docs/athletes/BTSWE20211199501.png);
+}
+.timeline-cup-result.modern .photo-profile.hettih {
+    background-image: url(https://ibu.blob.core.windows.net/docs/athletes/BTGER21606199601.png);
+}
+.timeline-cup-result.modern .photo-profile.magnusson {
+    background-image: url(https://ibu.blob.core.windows.net/docs/athletes/BTSWE23103199501.png);
+}
+.timeline-cup-result.modern .photo-profile.harvatova {
+    background-image: url(https://ibu.blob.core.windows.net/docs/athletes/BTCZE20102199301.png);
+}
+.timeline-cup-result.modern .photo-profile.kolombo {
+    background-image: url(https://ibu.blob.core.windows.net/docs/athletes/BTFRA21604199601.png);
+}
+.timeline-cup-result.modern .photo-profile.mozer {
+    background-image: url(https://ibu.blob.core.windows.net/docs/athletes/BTCAN21607199701.png);
+}
+.timeline-cup-result.modern .photo-profile.passler {
+    background-image: url(https://ibu.blob.core.windows.net/docs/athletes/BTITA23108200101.png);
+}
+.timeline-cup-result.modern .photo-profile.tachizaki {
+    background-image: url(https://ibu.blob.core.windows.net/docs/athletes/BTJPN21301198901.png);
+}
+.timeline-cup-result.modern .photo-profile.i-fialkova {
+    background-image: url(https://ibu.blob.core.windows.net/docs/athletes/BTSVK22211199401.png);
+}
+.timeline-cup-result.modern .photo-profile.bilosyuk {
+    background-image: url(https://ibu.blob.core.windows.net/docs/athletes/BTUKR20901198701.png);
+}
+.timeline-cup-result.modern .timeline-cup-result-table tbody tr td:nth-child(3) {
+    padding: 2.4px 7px 2.4px 4.8px;
+}
+.timeline-cup-result.modern .timeline-cup-result-table tbody tr td:nth-child(2) {
+    padding: 4.8px 2.4px 4.8px 3.5px !important;
+}
+.timeline-cup-result.modern .timeline-cup-result-table tbody tr td:nth-child(4), .timeline-cup-result.modern .timeline-cup-result-table tbody tr td:nth-child(5), .timeline-cup-result.modern .timeline-cup-result-table tbody tr td:nth-child(6), .timeline-cup-result.modern .timeline-cup-result-table tbody tr td:nth-child(7), .timeline-cup-result.modern .timeline-cup-result-table tbody tr td:nth-child(8), .timeline-cup-result.modern .timeline-cup-result-table tbody tr td:nth-child(9) {
+    padding: 4.8px 7px 4.8px 7px;
+}
+.nation {
+    display: none;
+}
+.timeline-cup-result.modern .nation {
+    display: initial;
+}
+.cell-container-name-nat {
+    display: inline-flex;
+    flex-direction: column;
+}
 @media (hover: hover) {
     .timeline-cup-result__analysis-button a:hover {
         background-color: #d1ebfb;
@@ -316,10 +461,10 @@
 }
 
 @media screen and (max-width: 580px) {
-    .timeline-cup-result-table tbody tr td:nth-child(7), .timeline-cup-result-select-body-text, .timeline-cup-result-table tbody tr td:nth-child(3) a:first-child, .shooting-icon span, .bib-icon span {
+    .timeline-cup-result-table tbody tr td:nth-child(7), .timeline-cup-result-select-body-text, .timeline-cup-result-table tbody tr td a.long-name, .shooting-icon span, .bib-icon span {
         display: none;
     }
-    .timeline-cup-result-select-body-text.short, .timeline-cup-result-table tbody tr td:nth-child(3) a:last-child, .shooting-icon::before, .bib-icon::before, .timeline-cup-result-table tbody tr td:nth-child(9) {
+    .timeline-cup-result-select-body-text.short, .timeline-cup-result-table tbody tr td a.short-name, .shooting-icon::before, .bib-icon::before, .timeline-cup-result-table tbody tr td:nth-child(9) {
         display: initial;
     }
 }
