@@ -1423,7 +1423,7 @@ $(document).ready(function() {
   });
 
 
-  $(document).ready(function(){
+$(document).ready(function(){
     $('.mix-table, .other-table').click(function () {
         $('.timeline-cup').addClass('mix');
 		$('.mix-table').addClass('active');
@@ -1441,3 +1441,17 @@ $(document).ready(function(){
 		});
 	});
 
+
+	$(document).ready(function(){
+		$('.new-b').click(function () {
+			$('.timeline-cup-result').removeClass('old');
+			$('.timeline-cup-result').addClass('modern');
+			});
+		});
+
+$(document).ready(function(){
+		$('.old-b').click(function () {
+			$('.timeline-cup-result').removeClass('modern');
+			$('.timeline-cup-result').addClass('old');
+			});
+		});
