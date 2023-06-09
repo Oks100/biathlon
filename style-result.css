@@ -224,6 +224,7 @@
     z-index: 2;
     display: flex;
     transition: all .3s ease;
+    -webkit-tap-highlight-color: transparent;
 }
 .timeline-cup-result-discription {
     display: flex;
@@ -249,9 +250,6 @@
     background-color: #e7f3fa;
     border-radius: 33px;
     -webkit-tap-highlight-color: transparent;
-}
-.toggle-style-table:hover .toggle-style-table__icon {
-    box-shadow: 0 0 0 2px rgba(192, 229, 251,.35);
 }
 .toggle-style-table__text {
     display: flex;
@@ -627,6 +625,9 @@
     display: none;
 }
 @media (hover: hover) {
+    .toggle-style-table:hover .toggle-style-table__icon {
+        box-shadow: 0 0 0 2px rgba(192, 229, 251,.35);
+    }
     .timeline-cup-result__analysis-button a:hover {
         background-color: #d1ebfb;
     }
