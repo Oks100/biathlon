@@ -929,11 +929,8 @@ html[data-theme="grey"] #tippy-16 ul li a:hover {
 }
 
 @media screen and (max-width: 550px) {
-.timeline-cup {
-    padding: 1.5em 1.06em;
-}
-.timeline__more-tables {
-    padding: 1.5em 1.06em;
+.timeline-cup, .timeline__more-tables {
+    padding: 2em 1.06em 1.75em 1.06em;
 }
 .timeline__more-tables-body ul {
     height: auto;

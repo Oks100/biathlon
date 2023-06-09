@@ -940,7 +940,7 @@
         padding: 1em 1.5em;
     }
     .timeline__item-comments {
-        padding: 1.5em 1.06em;
+        padding: 2em 1.06em 1.75em 1.06em;
       }
     .timeline__item-comments-head {
         margin-bottom: 2.0em;
@@ -2622,7 +2622,7 @@ html[data-theme='dark'] .guest-user.tab-password .timeline__item-comments-write-
 
 @media screen and (max-width: 550px) {
     .timeline__item-last-comments-news {
-      padding: 1.5em 1.06em;
+        padding: 2em 1.06em 1.75em 1.06em;
     }
     .timeline__item-last-photos {
         padding: 2em 1.06em 3.5em 1.06em;
