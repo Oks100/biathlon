@@ -1442,16 +1442,23 @@ $(document).ready(function(){
 	});
 
 
-	$(document).ready(function(){
-		$('.new-b').click(function () {
-			$('.timeline-cup-result').removeClass('old');
-			$('.timeline-cup-result').addClass('modern');
-			});
-		});
+// 	$(document).ready(function(){
+// 		$('.new-b').click(function () {
+// 			$('.timeline-cup-result').removeClass('old');
+// 			$('.timeline-cup-result').addClass('modern');
+// 			});
+// 		});
+
+// $(document).ready(function(){
+// 		$('.old-b').click(function () {
+// 			$('.timeline-cup-result').removeClass('modern');
+// 			$('.timeline-cup-result').addClass('old');
+// 			});
+// 		});
 
 $(document).ready(function(){
-		$('.old-b').click(function () {
-			$('.timeline-cup-result').removeClass('modern');
-			$('.timeline-cup-result').addClass('old');
+		$('.toggle-style-table').click(function () {
+			$('.timeline-cup-result').toggleClass('modern');
+			$('.timeline-cup-result').toggleClass('old');
 			});
 		});
