@@ -8,7 +8,7 @@
   <title>Биатлон</title>
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="style-comments.css">
-  <link rel="stylesheet" href="style-result.css">
+  <link rel="stylesheet" href="style-result-analysis.css">
   <link rel="stylesheet" href="fonts/icomoon/style.css">
   <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
@@ -341,9 +341,7 @@
         <div class="timeline__speedbar">
           <a href="/biathlon">Главная</a>
           <span class="delimiter"></span>
-          <a href="#"">Результаты</a>
-          <span class=" delimiter"></span>
-            <span class="timeline__speedbar-title">09.03.2023 Остерсунд 2022/2023, Индивидуальная гонка 15 км, Женщины</span>
+            <span class="timeline__speedbar-title">Статистика</span>
         </div>
         <div class="timeline-cup-result timeline-cup modern">
           <div class="timeline-cup-result__head">
@@ -380,11 +378,7 @@
             <span>
               09.03.2023 Индивидуальная гонка 15 км, Женщины.
             </span>
-            <div class="timeline-cup-result-discription-links">
-              <span><a href="#">Текстовое описание гонки</a>.</span>
-              <span><a href="#">Фото</a>.</span>
-              <span><a href="#">Видео</a>.</span>
-            </div>
+            <span>Здесь представлена полная статистика по гонке. Данные изменяются автоматически при выборе нужных параметров из списков.</span>
           </div>
           <div class="timeline-cup-result__select-body">
             <form action="cup" method="get" class="timeline-cup__flag">
@@ -393,7 +387,7 @@
                 <span class="timeline-cup-result-select-body-text">(нажмите на флаг):</span>
                 <span class="timeline-cup-result-select-body-text short">Флаг:</span>
               </div>
-              <select name="" id="" class="timeline-cup__select-flag">
+              <select name="" id="" class="timeline-cup__select-flag one">
                 <option value="">Украина</option>
                 <option value="">Австрия</option>
                 <option value="">Беларусь</option>
@@ -424,9 +418,27 @@
                 <option value="">Полный список...</option>
               </select>
             </form>
-            <div class="timeline-cup-result__analysis-button">
-              <a href="/biathlon/index-result-analysis.html">Перейти к анализу гонки</a>
-            </div>
+            <form action="cup" method="get" class="timeline-cup__flag">
+              <select name="" id="" class="timeline-cup__select-flag auto">
+                <option value="">Общее время</option>
+                <option value="">Время круга</option>
+                <option value="">Время в гонке</option>
+                <option value="">Стрельба</option>
+                <option value="">Время на рубеже</option>
+                <option value="" selected>Время на лыжне</option>
+                <option value="">Штрафное время</option>
+              </select>
+            </form>
+            <form action="cup" method="get" class="timeline-cup__flag">
+              <select name="" id="" class="timeline-cup__select-flag">
+                <option value="">Вся гонка</option>
+                <option value="">Круг 1</option>
+                <option value="">Круг 2</option>
+                <option value="">Круг 3</option>
+                <option value="">Круг 4</option>
+                <option value="">Круг 5</option>
+              </select>
+            </form>
           </div>
           <div class="timeline-cup-result__body">
             <div class="timeline-cup-result-wrapper">

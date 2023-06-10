@@ -69,6 +69,9 @@
 .timeline-cup-result-table {
     width: 100%;
 }
+.timeline-cup-result-table tbody tr td:nth-child(4), .timeline-cup-result-table tbody tr td:nth-child(5), .timeline-cup-result-table tbody tr td:nth-child(6) {
+    display: none;
+}
 .yellow-jersey {
     background-color: #ffe559 !important;
     cursor: help;
@@ -182,7 +185,7 @@
 
 .timeline-cup-result__select-body {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     margin-top: 1.5em;
     flex-wrap: wrap;
     gap: 1.5em 16px;
@@ -205,30 +208,17 @@
 .timeline-cup__select-flag {
     margin-left: 10px;
     padding: 5px 0 5px 5px;
+}
+.timeline-cup__flag .timeline-cup__select-flag.one {
     width: 98px;
 }
 .timeline-cup__flag span:nth-child(2) {
     font-size: 0.9em;
 }
-.timeline-cup-result__analysis-button a {
-    padding: 6px 20px;
-    background-color: #e7f3fa;
-    position: relative;
-    border-radius: 33px;
-    z-index: 2;
-    display: flex;
-    transition: all .3s ease;
-    -webkit-tap-highlight-color: transparent;
-}
 .timeline-cup-result-discription {
     display: flex;
     flex-wrap: wrap;
     gap: 15px 10px;
-}
-.timeline-cup-result-discription-links {
-    display: flex;
-    gap: 10px;
-    flex-wrap: wrap;
 }
 
 .toggle-style-table {
@@ -620,9 +610,6 @@
 @media (hover: hover) {
     .toggle-style-table:hover .toggle-style-table__icon {
         box-shadow: 0 0 0 2px rgba(192, 229, 251,.35);
-    }
-    .timeline-cup-result__analysis-button a:hover {
-        background-color: #d1ebfb;
     }
     .timeline-cup-result-table tbody tr:not(:first-child, .active):hover td {
         background-color: #fffce5;
