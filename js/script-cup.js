@@ -989,300 +989,19 @@ document.querySelectorAll('.norway-string img').forEach(img => {
 	});
   });
 
-  document.querySelectorAll('.col-1').forEach(img => {
-	img.addEventListener('click', () => {
-	  let chosenStrings = document.querySelectorAll('.col');
-	  chosenStrings.forEach(chosenString => {
-		chosenString.classList.remove('active');
-	  });
-	  let norwayStrings = document.querySelectorAll('.col-1');
-	  norwayStrings.forEach(norwayString => {
-		norwayString.classList.add('active');
-	  });
-	});
+const cols = document.querySelectorAll('.col');
+
+cols.forEach(col => {
+  col.addEventListener('click', () => {
+    cols.forEach(c => {
+      if (c !== col) {
+        c.classList.remove('active');
+      }
+    });
+    col.classList.toggle('active');
   });
-
-  document.querySelectorAll('.col-2').forEach(img => {
-	img.addEventListener('click', () => {
-	  let chosenStrings = document.querySelectorAll('.col');
-	  chosenStrings.forEach(chosenString => {
-		chosenString.classList.remove('active');
-	  });
-	  let norwayStrings = document.querySelectorAll('.col-2');
-	  norwayStrings.forEach(norwayString => {
-		norwayString.classList.add('active');
-	  });
-	});
-  });
-
-  document.querySelectorAll('.col-3').forEach(img => {
-	img.addEventListener('click', () => {
-	  let chosenStrings = document.querySelectorAll('.col');
-	  chosenStrings.forEach(chosenString => {
-		chosenString.classList.remove('active');
-	  });
-	  let norwayStrings = document.querySelectorAll('.col-3');
-	  norwayStrings.forEach(norwayString => {
-		norwayString.classList.add('active');
-	  });
-	});
-  });
-
-  document.querySelectorAll('.col-4').forEach(img => {
-	img.addEventListener('click', () => {
-	  let chosenStrings = document.querySelectorAll('.col');
-	  chosenStrings.forEach(chosenString => {
-		chosenString.classList.remove('active');
-	  });
-	  let norwayStrings = document.querySelectorAll('.col-4');
-	  norwayStrings.forEach(norwayString => {
-		norwayString.classList.add('active');
-	  });
-	});
-  });
-
-  document.querySelectorAll('.col-5').forEach(img => {
-	img.addEventListener('click', () => {
-	  let chosenStrings = document.querySelectorAll('.col');
-	  chosenStrings.forEach(chosenString => {
-		chosenString.classList.remove('active');
-	  });
-	  let norwayStrings = document.querySelectorAll('.col-5');
-	  norwayStrings.forEach(norwayString => {
-		norwayString.classList.add('active');
-	  });
-	});
-  });
-
-  document.querySelectorAll('.col-6').forEach(img => {
-	img.addEventListener('click', () => {
-	  let chosenStrings = document.querySelectorAll('.col');
-	  chosenStrings.forEach(chosenString => {
-		chosenString.classList.remove('active');
-	  });
-	  let norwayStrings = document.querySelectorAll('.col-6');
-	  norwayStrings.forEach(norwayString => {
-		norwayString.classList.add('active');
-	  });
-	});
-  });
-
-  document.querySelectorAll('.col-7').forEach(img => {
-	img.addEventListener('click', () => {
-	  let chosenStrings = document.querySelectorAll('.col');
-	  chosenStrings.forEach(chosenString => {
-		chosenString.classList.remove('active');
-	  });
-	  let norwayStrings = document.querySelectorAll('.col-7');
-	  norwayStrings.forEach(norwayString => {
-		norwayString.classList.add('active');
-	  });
-	});
-  });
-
-  document.querySelectorAll('.col-8').forEach(img => {
-	img.addEventListener('click', () => {
-	  let chosenStrings = document.querySelectorAll('.col');
-	  chosenStrings.forEach(chosenString => {
-		chosenString.classList.remove('active');
-	  });
-	  let norwayStrings = document.querySelectorAll('.col-8');
-	  norwayStrings.forEach(norwayString => {
-		norwayString.classList.add('active');
-	  });
-	});
-  });
-
-  document.querySelectorAll('.col-9').forEach(img => {
-	img.addEventListener('click', () => {
-	  let chosenStrings = document.querySelectorAll('.col');
-	  chosenStrings.forEach(chosenString => {
-		chosenString.classList.remove('active');
-	  });
-	  let norwayStrings = document.querySelectorAll('.col-9');
-	  norwayStrings.forEach(norwayString => {
-		norwayString.classList.add('active');
-	  });
-	});
-  });
-
-  document.querySelectorAll('.col-10').forEach(img => {
-	img.addEventListener('click', () => {
-	  let chosenStrings = document.querySelectorAll('.col');
-	  chosenStrings.forEach(chosenString => {
-		chosenString.classList.remove('active');
-	  });
-	  let norwayStrings = document.querySelectorAll('.col-10');
-	  norwayStrings.forEach(norwayString => {
-		norwayString.classList.add('active');
-	  });
-	});
-  });
-
-  document.querySelectorAll('.col-11').forEach(img => {
-	img.addEventListener('click', () => {
-	  let chosenStrings = document.querySelectorAll('.col');
-	  chosenStrings.forEach(chosenString => {
-		chosenString.classList.remove('active');
-	  });
-	  let norwayStrings = document.querySelectorAll('.col-11');
-	  norwayStrings.forEach(norwayString => {
-		norwayString.classList.add('active');
-	  });
-	});
-  });
-
-  document.querySelectorAll('.col-12').forEach(img => {
-	img.addEventListener('click', () => {
-	  let chosenStrings = document.querySelectorAll('.col');
-	  chosenStrings.forEach(chosenString => {
-		chosenString.classList.remove('active');
-	  });
-	  let norwayStrings = document.querySelectorAll('.col-12');
-	  norwayStrings.forEach(norwayString => {
-		norwayString.classList.add('active');
-	  });
-	});
-  });
-
-  document.querySelectorAll('.col-13').forEach(img => {
-	img.addEventListener('click', () => {
-	  let chosenStrings = document.querySelectorAll('.col');
-	  chosenStrings.forEach(chosenString => {
-		chosenString.classList.remove('active');
-	  });
-	  let norwayStrings = document.querySelectorAll('.col-13');
-	  norwayStrings.forEach(norwayString => {
-		norwayString.classList.add('active');
-	  });
-	});
-  });
-
-  document.querySelectorAll('.col-14').forEach(img => {
-	img.addEventListener('click', () => {
-	  let chosenStrings = document.querySelectorAll('.col');
-	  chosenStrings.forEach(chosenString => {
-		chosenString.classList.remove('active');
-	  });
-	  let norwayStrings = document.querySelectorAll('.col-14');
-	  norwayStrings.forEach(norwayString => {
-		norwayString.classList.add('active');
-	  });
-	});
-  });
-
-  document.querySelectorAll('.col-15').forEach(img => {
-	img.addEventListener('click', () => {
-	  let chosenStrings = document.querySelectorAll('.col');
-	  chosenStrings.forEach(chosenString => {
-		chosenString.classList.remove('active');
-	  });
-	  let norwayStrings = document.querySelectorAll('.col-15');
-	  norwayStrings.forEach(norwayString => {
-		norwayString.classList.add('active');
-	  });
-	});
-  });
-
-  document.querySelectorAll('.col-16').forEach(img => {
-	img.addEventListener('click', () => {
-	  let chosenStrings = document.querySelectorAll('.col');
-	  chosenStrings.forEach(chosenString => {
-		chosenString.classList.remove('active');
-	  });
-	  let norwayStrings = document.querySelectorAll('.col-16');
-	  norwayStrings.forEach(norwayString => {
-		norwayString.classList.add('active');
-	  });
-	});
-  });
-
-  document.querySelectorAll('.col-17').forEach(img => {
-	img.addEventListener('click', () => {
-	  let chosenStrings = document.querySelectorAll('.col');
-	  chosenStrings.forEach(chosenString => {
-		chosenString.classList.remove('active');
-	  });
-	  let norwayStrings = document.querySelectorAll('.col-17');
-	  norwayStrings.forEach(norwayString => {
-		norwayString.classList.add('active');
-	  });
-	});
-  });
-
-  document.querySelectorAll('.col-18').forEach(img => {
-	img.addEventListener('click', () => {
-	  let chosenStrings = document.querySelectorAll('.col');
-	  chosenStrings.forEach(chosenString => {
-		chosenString.classList.remove('active');
-	  });
-	  let norwayStrings = document.querySelectorAll('.col-18');
-	  norwayStrings.forEach(norwayString => {
-		norwayString.classList.add('active');
-	  });
-	});
-  });
-
-  document.querySelectorAll('.col-19').forEach(img => {
-	img.addEventListener('click', () => {
-	  let chosenStrings = document.querySelectorAll('.col');
-	  chosenStrings.forEach(chosenString => {
-		chosenString.classList.remove('active');
-	  });
-	  let norwayStrings = document.querySelectorAll('.col-19');
-	  norwayStrings.forEach(norwayString => {
-		norwayString.classList.add('active');
-	  });
-	});
-  });
-
-  document.querySelectorAll('.col-20').forEach(img => {
-	img.addEventListener('click', () => {
-	  let chosenStrings = document.querySelectorAll('.col');
-	  chosenStrings.forEach(chosenString => {
-		chosenString.classList.remove('active');
-	  });
-	  let norwayStrings = document.querySelectorAll('.col-20');
-	  norwayStrings.forEach(norwayString => {
-		norwayString.classList.add('active');
-	  });
-	});
-  });
-
-//   document.querySelectorAll('.col-11').forEach(img => {
-// 	img.addEventListener('click', () => {
-// 	  let chosenStrings = document.querySelectorAll('.col');
-// 	  chosenStrings.forEach(chosenString => {
-// 		chosenString.classList.remove('active');
-// 	  });
-// 	  let norwayStrings = document.querySelectorAll('.col-11');
-// 	  norwayStrings.forEach(norwayString => {
-// 		norwayString.classList.add('active');
-// 	  });
-// 	});
-//   });
-
-//   document.querySelectorAll('.col-12').forEach(img => {
-// 	img.addEventListener('click', () => {
-// 	  let chosenStrings = document.querySelectorAll('.col');
-// 	  chosenStrings.forEach(chosenString => {
-// 		chosenString.classList.remove('active');
-// 	  });
-// 	  let norwayStrings = document.querySelectorAll('.col-12');
-// 	  norwayStrings.forEach(norwayString => {
-// 		norwayString.classList.add('active');
-// 	  });
-// 	});
-//   });
-
-
-$(document).on('click', function(event) {
-	if (!$(event.target).closest('.col').length) {
-	   $('.col').removeClass('active');
-	}
- });
-
-
+});
+  
 $('#timeline-cup__select-season').on('change', function() {
 	if ($(this).val() == '2020/2021') {
 	  $('.timeline-cup').addClass('another-table');
@@ -1299,21 +1018,6 @@ $('#timeline-cup__select-season').on('change', function() {
 	}
   });
 
-//   $(document).ready(function () {
-// 	$('#close-compare').change(function () {
-// 	  if ($(this).val() === 'close') {
-// 		$('.timeline-cup').removeClass('another-table');
-// 	  }
-// 	});
-//   });
-
-//   $(document).ready(function () {
-// 	$('#close-compare2').change(function () {
-// 	  if ($(this).val() === 'close') {
-// 		$('.timeline-cup').removeClass('another-table');
-// 	  }
-// 	});
-//   });
 
 $(document).ready(function () {
 	$('#close-compare').change(function () {
@@ -1389,10 +1093,6 @@ $(document).ready(function(){
 		});
 	});
 
-// document.querySelector('.timeline-cup__any-tables-go-to-male-table').addEventListener('click', function() {
-// 	document.querySelector('.timeline-cup__any-tables-all-result-title.female').scrollIntoView({behavior: 'smooth'});
-// 	});
-
 $(document).ready(function() {
 	$('.timeline-cup__any-tables-go-to-male-table').click(function() {
 	  $('html, body').animate({
@@ -1404,11 +1104,7 @@ $(document).ready(function() {
 	  });
 	});
   });
-  
 
-// document.querySelector('.timeline-cup__any-tables-go-to-female-table').addEventListener('click', function() {
-// 	document.querySelector('.timeline-cup__any-tables-all-result-title.male').scrollIntoView({behavior: 'smooth'});
-// 	});
 
 $(document).ready(function() {
 	$('.timeline-cup__any-tables-go-to-female-table').click(function() {
@@ -1441,24 +1137,15 @@ $(document).ready(function(){
 		});
 	});
 
-
-// 	$(document).ready(function(){
-// 		$('.new-b').click(function () {
-// 			$('.timeline-cup-result').removeClass('old');
-// 			$('.timeline-cup-result').addClass('modern');
-// 			});
-// 		});
-
-// $(document).ready(function(){
-// 		$('.old-b').click(function () {
-// 			$('.timeline-cup-result').removeClass('modern');
-// 			$('.timeline-cup-result').addClass('old');
-// 			});
-// 		});
+$(document).ready(function(){
+	$('.toggle-style-table').click(function () {
+		$('.timeline-cup-result').toggleClass('modern');
+		$('.timeline-cup-result').toggleClass('old');
+		});
+	});
 
 $(document).ready(function(){
-		$('.toggle-style-table').click(function () {
-			$('.timeline-cup-result').toggleClass('modern');
-			$('.timeline-cup-result').toggleClass('old');
-			});
+	$('.timeline-cup-result__analysis-button').click(function () {
+		$('.timeline-cup-result').toggleClass('analysis');
 		});
+	});
