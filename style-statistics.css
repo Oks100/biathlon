@@ -19,6 +19,7 @@
     background-color: #d1ebfb;
     /* margin-bottom: 0.75em; */
     margin-bottom: 0.5em;
+    position: relative;
 }
 .timeline-cup-statistics-title:not(:first-child) {
     margin-top: 2em;
@@ -26,8 +27,42 @@
 .timeline-cup-statistics-title span {
     font-size: 1.05em;
     font-weight: 600;
-    /* padding-left: 7px; */
-    padding: 3px 0 3px 7px;
+    /* padding: 3px 0 3px 7px; */
+    padding: 3px 0 3px 47px;
+}
+.timeline-cup-statistics-title-icon {
+    position: absolute;
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    background-color: white;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 7px;
+    border: 2px solid #d1ebfb;
+}
+.timeline-cup-statistics-title-icon svg {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    fill: #81aad5;
+}
+.medals-icon {
+    width: 21px;
+    height: 21px;
+}
+.strong-old-icon {
+    width: 22px;
+    height: 23px;
+}
+.one-medal-icon {
+    width: 22px;
+    height: 22px;
+}
+.series-icon {
+    width: 22px;
+    height: 22px;
 }
 .timeline-cup-statistics-table-wrapper {
     /* width: 100%;
@@ -37,7 +72,7 @@
 .timeline-cup-statistics-table {
     border-collapse: collapse;
     width: 100%;
-    min-width: 360px;
+    min-width: 345px;
 }
 .timeline-cup-statistics-table tr td:first-child {
     width: 100%;
@@ -109,6 +144,7 @@
     width: 130px;
     z-index: -1;
 }
+
 @media (hover: hover) {
     .timeline-cup-statistics-table tbody tr:hover {
         background-color: #fffce5;
