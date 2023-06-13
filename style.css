@@ -3448,7 +3448,7 @@ img[src*="flags"] {
   .timeline a {
     color: #002b71;
   }
-  .timeline__item-comments-to-write-comments:hover, .timeline a:hover:not(.timeline-cup-result__analysis-button a, .timeline-cup__another-competitions a, .timeline-cup__navbar a, .timeline-navigation__page a, .last--comments-news-body-discription-comments-number, .last--comments-news-head a, .last--comments-news-body-discription-head a, .user-link, .quote-user, .timeline__item-comments-username a, .timeline__item-last-photos-head a, .last--comments-news-head a, .timeline__item-comments-to-write-comments) {
+  .timeline__item-comments-to-write-comments:hover, .timeline a:hover:not(.timeline-cup__head-back-button, .timeline-cup-result__analysis-button a, .timeline-cup__another-competitions a, .timeline-cup__navbar a, .timeline-navigation__page a, .last--comments-news-body-discription-comments-number, .last--comments-news-head a, .last--comments-news-body-discription-head a, .user-link, .quote-user, .timeline__item-comments-username a, .timeline__item-last-photos-head a, .last--comments-news-head a, .timeline__item-comments-to-write-comments) {
     color: #73b5e5;
   }
   .last--comments-news-body-discription-head h2 a:hover, .timeline__item-comments-username a:hover, .user-link:hover {
