@@ -1019,7 +1019,7 @@ html[data-theme="grey"] #tippy-16 ul li a:hover {
     margin-top: 2em;
     margin-bottom: 1.4em;
     background-color: #d1ebfb;
-    padding: 0 60px 0 8px;
+    padding: 0 60px 0 48px;
     position: relative;
 }
 .timeline-cup__any-tables-go-to-male-table, .timeline-cup__any-tables-go-to-female-table {
@@ -1040,6 +1040,37 @@ html[data-theme="grey"] #tippy-16 ul li a:hover {
     cursor: pointer;
     -webkit-tap-highlight-color: transparent;
 }
+
+.timeline-cup__any-tables-all-result-title-male-icon, .timeline-cup__any-tables-all-result-title-female-icon {
+    position: absolute;
+    top: 3px;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 8px;
+    width: 35px;
+    height: 35px;
+    background-color: white;
+    border-radius: 50%;
+    border: 2px solid #d1ebfb;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.timeline-cup__any-tables-all-result-title-male-icon::before, .timeline-cup__any-tables-all-result-title-female-icon::before {
+    font-family: 'icomoon';
+    color: #81aad5;
+    scale: 1;
+}
+.timeline-cup__any-tables-all-result-title-male-icon::before {
+    content: "\e051";
+    font-size: 1.1em;
+}
+.timeline-cup__any-tables-all-result-title-female-icon::before {
+    content: "\e052";
+    font-size: 1.2em;
+}
+
 .timeline-cup__any-tables-go-to-female-table::before {
     position: absolute;
     left: 50%;
