@@ -447,6 +447,25 @@
     }
 }
 
+.color-0 {
+    background-color: #dedede;
+}
+.color-1 {
+    background-color: #f7c0c0;
+}
+.color-2 {
+    background-color: #ffdbb8;
+}
+.color-3 {
+    background-color: #ffffba;
+}
+.color-4 {
+    background-color: #c6e9c6;
+}
+.color-5 {
+    background-color: #80ca80;
+}
+
 @media screen and (max-width: 992px) {
     .timeline__more-tables-body ul, .timeline-cup__table-comments-tables-recommend-list {
         gap: 8px 0;
