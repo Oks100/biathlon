@@ -791,7 +791,8 @@ html[data-theme="grey"] #tippy-16 ul li a:hover {
     font-weight: 700;
     display: flex;
     background-color: #d1ebfb;
-    padding-left: 8px;
+    padding-left: 51px;
+    position: relative;
 }
 .timeline-cup__footer-legend-content:not(:last-child) {
     margin: 1em 0 2em 0;
@@ -845,7 +846,8 @@ html[data-theme="grey"] #tippy-16 ul li a:hover {
 .timeline-cup__any-tables-races-title, .timeline-cup__any-tables-races-scores-title {
     margin: 2em 0 1em 0;
     background-color: #d1ebfb;
-    padding-left: 8px;
+    padding-left: 51px;
+    position: relative;
 }
 .timeline-cup__any-tables-races-title span, .timeline-cup__any-tables-races-scores-title span, .timeline-cup__any-tables-all-result-title span {
     font-size: 1.3em;
@@ -1019,7 +1021,7 @@ html[data-theme="grey"] #tippy-16 ul li a:hover {
     margin-top: 2em;
     margin-bottom: 1.4em;
     background-color: #d1ebfb;
-    padding: 0 60px 0 48px;
+    padding: 0 60px 0 53px;
     position: relative;
 }
 .timeline-cup__any-tables-go-to-male-table, .timeline-cup__any-tables-go-to-female-table {
@@ -1041,7 +1043,7 @@ html[data-theme="grey"] #tippy-16 ul li a:hover {
     -webkit-tap-highlight-color: transparent;
 }
 
-.timeline-cup__any-tables-all-result-title-male-icon, .timeline-cup__any-tables-all-result-title-female-icon {
+.circle-element-for-cup {
     position: absolute;
     top: 3px;
     top: 50%;
@@ -1057,18 +1059,25 @@ html[data-theme="grey"] #tippy-16 ul li a:hover {
     justify-content: center;
 }
 
-.timeline-cup__any-tables-all-result-title-male-icon::before, .timeline-cup__any-tables-all-result-title-female-icon::before {
-    font-family: 'icomoon';
-    color: #81aad5;
+.female-icon, .male-icon, .legend-icon, .people-group, .recommend-icon, .footnote-icon {
+    fill: #81aad5;
     scale: 1;
 }
-.timeline-cup__any-tables-all-result-title-male-icon::before {
-    content: "\e051";
-    font-size: 1.1em;
+.recommend-icon, .footnote-icon {
+    width: 17px;
+    height: 17px;
 }
-.timeline-cup__any-tables-all-result-title-female-icon::before {
-    content: "\e052";
-    font-size: 1.2em;
+.legend-icon {
+    width: 20px;
+    height: 20px;
+}
+.people-group {
+    width: 21px;
+    height: 21px;
+}
+.female-icon, .male-icon {
+    width: 23px;
+    height: 23px;
 }
 
 .timeline-cup__any-tables-go-to-female-table::before {
@@ -1145,15 +1154,10 @@ html[data-theme="grey"] #tippy-16 ul li a:hover {
     height: 25.8px;
     white-space: nowrap;
 }
-.timeline-cup__any-tables-all-result-table tbody {
-    /* margin-top: 10px; */
-}
 .timeline-cup__any-tables-all-result-table tbody tr:not(.table-nations) td:first-child {
-    /* padding: 0 3px 0 7px; */
     padding: 0 3px 0 3px;
 }
 .timeline-cup__any-tables-all-result-table tbody tr td:nth-child(3) {
-    /* padding: 2.4px 7px 2.4px 3px; */
     padding: 2.4px 7px 2.4px 2.4px;
 }
 .timeline-cup__any-tables-all-result-table tbody tr:not(.table-nations, .table-column-description) td:nth-child(2) {
@@ -1238,17 +1242,14 @@ html[data-theme="grey"] #tippy-16 ul li a:hover {
     margin-top: .9em;
     margin-bottom: 1em;
     background-color: #d1ebfb;
-    padding-left: 8px;
+    padding-left: 51px;
+    position: relative;
 }
 .timeline-cup__table-comments-list {
     width: fit-content;
     margin: 0 auto;
     text-align: center;
 }
-/* .timeline-cup__table-comments-tables-body {
-    display: flex;
-    flex-direction: column;
-} */
 .timeline-cup__table-comments-title-wrapper {
     display: flex;
     gap: 18px;
@@ -1290,8 +1291,9 @@ html[data-theme="grey"] #tippy-16 ul li a:hover {
     font-weight: 700;
     display: flex;
     background-color: #d1ebfb;
-    padding-left: 8px;
+    padding-left: 51px;
     margin: 2em 0 1em 0;
+    position: relative;
 }
 .timeline-cup__table-comments-tables-recommend a {
     display: flex;

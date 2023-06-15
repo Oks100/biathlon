@@ -769,14 +769,12 @@ html[data-theme="grey"] #tippy-16 ul li a:hover {
     margin-top: 2.5em;
 }
 .timeline-cup__footer-legend-title, .timeline-cup__footer-legend-title-2 {
-    /* font-size: 1.3em;
-    font-weight: 700;
-    margin-bottom: 20px; */
     font-size: 1.3em;
     font-weight: 700;
     display: flex;
     background-color: #d1ebfb;
-    padding-left: 8px;
+    padding-left: 51px;
+    position: relative;
 }
 .timeline-cup__footer-legend-content:not(:last-child) {
     margin: 1em 0 2em 0;
@@ -824,13 +822,50 @@ html[data-theme="grey"] #tippy-16 ul li a:hover {
     background-color: #ff9f9f;
 }
 
+.female-icon, .male-icon, .legend-icon, .people-group, .recommend-icon, .footnote-icon {
+    fill: #81aad5;
+    scale: 1;
+}
+.recommend-icon, .footnote-icon {
+    width: 17px;
+    height: 17px;
+}
+.legend-icon {
+    width: 20px;
+    height: 20px;
+}
+.people-group {
+    width: 21px;
+    height: 21px;
+}
+.female-icon, .male-icon {
+    width: 23px;
+    height: 23px;
+}
+
+.circle-element-for-cup {
+    position: absolute;
+    top: 3px;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 8px;
+    width: 35px;
+    height: 35px;
+    background-color: white;
+    border-radius: 50%;
+    border: 2px solid #d1ebfb;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 .timeline-cup__table-comments-tables-recommend {
     font-size: 1.3em;
     font-weight: 700;
     display: flex;
     background-color: #d1ebfb;
-    padding-left: 8px;
+    padding-left: 51px;
     margin: 2em 0 1em 0;
+    position: relative;
 }
 .timeline-cup__table-comments-tables-recommend a {
     display: flex;

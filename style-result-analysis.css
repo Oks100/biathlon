@@ -226,7 +226,7 @@
     border-radius: 33px 0 0 33px;
     height: 28px;
     position: relative;
-    width: 60px;
+    width: 65px;
     cursor: pointer;
     justify-content: space-between;
     height: 22px;
@@ -257,7 +257,7 @@
     border-radius: 50%;
 }
 .timeline-cup-result.old .toggle-style-table__icon {
-    transform: translateX(33px) rotate(360deg);
+    transform: translateX(38px) rotate(360deg);
     border-radius: 0;
 }
 .toggle-style-table__text {
