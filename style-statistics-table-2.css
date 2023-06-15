@@ -182,10 +182,6 @@
 .timeline-cup-statistics-table tbody tr:nth-child(2n) {
     background-color: #e7f3fa;
 }
-.timeline-cup-statistics-table tbody tr td:nth-child(6), .timeline-cup-statistics-table tbody tr td:nth-child(10) {
-    border-left: 2px solid #adb4b7;
-    border-right: 2px solid #adb4b7;
-}
 .timeline-cup-statistics-table tbody tr td:nth-child(6)::before, .timeline-cup-statistics-table tbody tr td:nth-child(10)::before {
     content: '';
     position: absolute;
@@ -193,7 +189,7 @@
     top: 0;
     width: 100%;
     height: 100%;
-    background: radial-gradient(circle, rgba(0,0,0,0) 0%, rgba(0,0,0,0.03) 100%); 
+    background: radial-gradient(circle, rgba(0, 0, 0, 0.03) 0%, rgba(0, 0, 0, 0.07) 100%);
     z-index: 1;
 }
 .timeline-cup-statistics-table tbody tr td:nth-child(11)::before {
@@ -203,7 +199,7 @@
     top: 0;
     width: 100%;
     height: 100%;
-    background: radial-gradient(circle, rgba(0,0,0,0) 0%, rgba(0,0,0,0.03) 100%); 
+    background: radial-gradient(circle, rgba(0, 0, 0, 0.03) 0%, rgba(0, 0, 0, 0.07) 100%);
     z-index: 1;
 }
 .timeline-cup-statistics-table thead tr td:nth-child(4) {
@@ -216,14 +212,6 @@
     position: relative;
     z-index: 1;
 }
-
-/* .timeline-cup-statistics-table tbody tr td:first-child, .timeline-cup-statistics-table thead tr th:first-child {
-    position: sticky;
-    left: 0;
-    max-width: 30px;
-    z-index: 1;
-} */
-
 .timeline-cup-statistics-table thead tr th {
     position: relative;
     color: #5d5d5d;
@@ -234,28 +222,6 @@
     box-shadow: 0 0 2px 0px #d0d9dd;
     border: 1px solid #d0d9dd;
     padding: 3px 7px;
-}
-.border-table:before {
-    content: '';
-    position: absolute;
-    left: -1.1px;
-    top: 0;
-    height: calc(100% + 2px);
-    width: 1.5px;
-    background-color: #adb4b7;
-    z-index: 1;
-    scale: 1;
-}
-.border-table:after {
-    content: '';
-    position: absolute;
-    right: -1.3px;
-    top: 0;
-    height: calc(100% + 2px);
-    width: 1.5px;
-    background-color: #adb4b7;
-    z-index: 1;
-    scale: 1;
 }
 
 .timeline-cup-statistics-table thead {
@@ -273,7 +239,7 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: #ffcece;
+    background-color: #ffdfdf;
 }
 .timeline-cup-statistics-table tbody tr td a {
     position: relative;
@@ -338,6 +304,9 @@
 }
 .timeline-cup-statistics-table-wrapper-4 {
     margin-top: 2em;
+}
+.timeline-cup-statistics-table-3 tr td {
+    min-width: 30.3667px;
 }
 .timeline-cup-statistics-table-2, .timeline-cup-statistics-table-3, .timeline-cup-statistics-table-4 {
     border-collapse: collapse;
