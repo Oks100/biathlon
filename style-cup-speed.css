@@ -775,6 +775,7 @@ html[data-theme="grey"] #tippy-16 ul li a:hover {
     background-color: #d1ebfb;
     padding-left: 51px;
     position: relative;
+    padding-right: 10px;
 }
 .timeline-cup__footer-legend-content:not(:last-child) {
     margin: 1em 0 2em 0;
@@ -866,6 +867,7 @@ html[data-theme="grey"] #tippy-16 ul li a:hover {
     padding-left: 51px;
     margin: 2em 0 1em 0;
     position: relative;
+    padding-right: 10px;
 }
 .timeline-cup__table-comments-tables-recommend a {
     display: flex;

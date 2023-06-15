@@ -793,6 +793,7 @@ html[data-theme="grey"] #tippy-16 ul li a:hover {
     background-color: #d1ebfb;
     padding-left: 51px;
     position: relative;
+    padding-right: 10px;
 }
 .timeline-cup__footer-legend-content:not(:last-child) {
     margin: 1em 0 2em 0;
@@ -848,6 +849,7 @@ html[data-theme="grey"] #tippy-16 ul li a:hover {
     background-color: #d1ebfb;
     padding-left: 51px;
     position: relative;
+    padding-right: 10px;
 }
 .timeline-cup__any-tables-races-title span, .timeline-cup__any-tables-races-scores-title span, .timeline-cup__any-tables-all-result-title span {
     font-size: 1.3em;
@@ -1131,23 +1133,6 @@ html[data-theme="grey"] #tippy-16 ul li a:hover {
     opacity: 0;
     scale: 1;
 }
-
-.timeline-cup__any-tables-go-to-male-table:hover::before {
-    transform: translate(-50%, calc(-50% + 28px));
-    opacity: 0;
-}
-.timeline-cup__any-tables-go-to-female-table:hover::before {
-    transform: translate(-50%, calc(-50% - 28px)) rotate(180deg);
-    opacity: 0;
-}
-.timeline-cup__any-tables-go-to-male-table:hover::after {
-    transform: translate(-50%, calc(-50%));
-    opacity: 1;
-}
-.timeline-cup__any-tables-go-to-female-table:hover::after {
-    transform: translate(-50%, calc(-50%)) rotate(180deg);
-    opacity: 1;
-}
 .timeline-cup__any-tables-all-result-nation {
 }
 .timeline-cup__any-tables-all-result-table tbody tr td {
@@ -1243,6 +1228,7 @@ html[data-theme="grey"] #tippy-16 ul li a:hover {
     margin-bottom: 1em;
     background-color: #d1ebfb;
     padding-left: 51px;
+    padding-right: 10px;
     position: relative;
 }
 .timeline-cup__table-comments-list {
@@ -1272,9 +1258,6 @@ html[data-theme="grey"] #tippy-16 ul li a:hover {
 .timeline-cup__table-comments-tables-list {
     text-align: center;
 }
-.timeline-cup__table-comments-tables-recommend {
-    margin-top: 2em;
-}
 .timeline-cup__any-tables-races-scores .col.active::after {
     background-color: #fffce5;
     content: '';  
@@ -1292,6 +1275,7 @@ html[data-theme="grey"] #tippy-16 ul li a:hover {
     display: flex;
     background-color: #d1ebfb;
     padding-left: 51px;
+    padding-right: 10px;
     margin: 2em 0 1em 0;
     position: relative;
 }
@@ -1332,6 +1316,22 @@ html[data-theme="grey"] #tippy-16 ul li a:hover {
 }
 
 @media (hover: hover) {
+    .timeline-cup__any-tables-go-to-male-table:hover::before {
+        transform: translate(-50%, calc(-50% + 28px));
+        opacity: 0;
+    }
+    .timeline-cup__any-tables-go-to-female-table:hover::before {
+        transform: translate(-50%, calc(-50% - 28px)) rotate(180deg);
+        opacity: 0;
+    }
+    .timeline-cup__any-tables-go-to-male-table:hover::after {
+        transform: translate(-50%, calc(-50%));
+        opacity: 1;
+    }
+    .timeline-cup__any-tables-go-to-female-table:hover::after {
+        transform: translate(-50%, calc(-50%)) rotate(180deg);
+        opacity: 1;
+    }
     .timeline-cup__table-comments-tables-recommend-list a:hover::before {
         background-color: #81aad5;
     }
