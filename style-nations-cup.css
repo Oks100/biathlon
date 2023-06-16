@@ -917,6 +917,7 @@ html[data-theme="grey"] #tippy-16 ul li a:hover {
     border-collapse: collapse;
     overflow: hidden;
 }
+
 .timeline-cup__any-tables-races-scores tbody tr td, .timeline-cup__any-tables-races-scores tbody tr th {
     white-space: nowrap;
 }
@@ -1396,6 +1397,25 @@ html[data-theme="grey"] #tippy-16 ul li a:hover {
 }
 
 @media screen and (max-width: 992px) {
+    .timeline-cup__any-tables-races-scores tr th:first-child {
+        position: sticky;
+        left: 0;
+        z-index: 3;
+    }
+    .timeline-cup__any-tables-races-scores tr td:nth-child(2), .timeline-cup__any-tables-races-scores tr th:nth-child(2) {
+        position: sticky;
+        left: 23px;
+        z-index: 3;
+    }
+    .timeline-cup__any-tables-races-scores tr:nth-child(2n) th:first-child, .timeline-cup__any-tables-races-scores tr:nth-child(2n) td:nth-child(2) {
+        background-color: #e7f3fa;
+    }
+    .timeline-cup__any-tables-races-scores tr th:nth-child(2), .timeline-cup__any-tables-races-scores tr:nth-child(2n+1) th:first-child, .timeline-cup__any-tables-races-scores tr:nth-child(2n+1) td:nth-child(2) {
+        background-color: white;
+    }
+    .nations-string.active th, .nations-string.active td {
+        background-color: #ffcae5 !important;
+    }
     .timeline-cup__table-comments-tables-recommend-list {
         height: auto;
       }

@@ -105,6 +105,7 @@
     left: 50%;
     transform: translate(-50%, -50%);
     fill: #81aad5;
+    scale: 1;
 }
 .medals-icon {
     width: 21px;

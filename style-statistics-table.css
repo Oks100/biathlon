@@ -88,6 +88,8 @@
     display: flex;
     background-color: #d1ebfb;
     margin-bottom: 0.5em;
+    padding-left: 51px;
+    padding-right: 10px;
     position: relative;
 }
 .timeline-cup-statistics-title:not(:first-child) {
@@ -99,10 +101,37 @@
 .timeline-cup-statistics-title span {
     font-size: 1.05em;
     font-weight: 600;
-    padding: 3px 7px 3px 7px;
+    padding: 3px 0;
 }
 
+.circle-element-for-cup {
+    position: absolute;
+    top: 3px;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 8px;
+    width: 35px;
+    height: 35px;
+    background-color: white;
+    border-radius: 50%;
+    border: 2px solid #d1ebfb;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
+.female-icon, .male-icon, .medals-icon {
+    fill: #81aad5;
+    scale: 1;
+}
+.female-icon, .male-icon {
+    width: 23px;
+    height: 23px;
+}
+.medals-icon {
+    width: 21px;
+    height: 21px;
+}
 
 .timeline__more-tables {
     padding: 2em 1.5em 1.39em 1.5em;
