@@ -79,6 +79,7 @@
     background-color: #d1ebfb;
     margin-bottom: 0.5em;
     position: relative;
+    padding-right: 10px;
 }
 .timeline-cup-statistics-title:not(:first-child) {
     margin-top: 2em;

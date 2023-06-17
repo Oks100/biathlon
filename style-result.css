@@ -1,3 +1,63 @@
+#tippy-16 {
+    width: auto;
+}
+   #tippy-16 .tippy-content {
+    overflow: hidden;
+}
+#tippy-16 ul li a {
+    color: black !important;
+    font-size: 13.5px !important;
+    text-transform: none !important;
+    padding: 0px 10px 0px 10px !important;
+    transition: 0s !important;
+    text-shadow: none !important;
+    width: 100%;
+    display: flex;
+}
+#tippy-16 ul li:last-of-type a {
+    border-bottom: none !important;
+}
+  
+#tippy-16 ul li::before, #tippy-16 ul li::after {
+    display: none !important;
+}
+  
+#tippy-16 ul li a:hover {
+    background-color: #ecf5fb;
+}
+#tippy-16 ul li {
+    white-space: nowrap;
+    line-height: 33px;
+}
+#tippy-16 ul li:last-of-type {
+    white-space: nowrap;
+    line-height: 33px;
+}
+#tippy-16 ul li:last-of-type a, #tippy-16 ul li:last-of-type a::before {
+    color: red !important;
+   }
+#tippy-16 ul li:first-of-type a::before {
+    content: "\e016";
+    font-family: 'icomoon';
+    margin-right: 7px;
+    font-size: 13px;
+    color: #81aad5;
+}
+#tippy-16 ul li:nth-child(2) a::before {
+    content: "\e015";
+    font-family: 'icomoon';
+    margin-right: 7px;
+    font-size: 13px;
+    color: #81aad5;
+}
+#tippy-16 ul li:last-of-type a::before {
+    content: "\e9b";
+    font-family: 'icomoon';
+    margin-right: 7px;
+    font-size: 13px;
+    color: #81aad5;
+}
+
 .timeline-cup-result {
     padding: 2em 1.5em 1.75em 1.5em;
     background-color: #fff;
@@ -70,15 +130,15 @@
     width: 100%;
 }
 .yellow-jersey {
-    background-color: #ffe559 !important;
+    background: radial-gradient(circle, rgba(255, 231, 100, 0.7) 0%, rgb(255, 231, 100) 100%) !important;
     cursor: help;
 }
 .red-jersey {
-    background-color: #ff8f8f !important;
+    background: radial-gradient(circle, rgba(255, 163, 163, 0.7) 0%, rgb(255, 163, 163) 100%) !important;
     cursor: help;
 }
 .blue-jersey {
-    background-color: #75c3fd !important;
+    background: radial-gradient(circle, rgba(136, 204, 255, 0.7) 0%, rgb(136, 204, 255) 100%) !important;
     cursor: help;
 }
 .timeline-cup-result-wrapper {
@@ -636,6 +696,11 @@
     .timeline-cup .age-button-svg:hover path:nth-child(4) {
         fill: #fcd401;
     }
+}
+
+.personal-best {
+    color: #08a400;
+    cursor: help;
 }
 
 @media screen and (max-width: 992px) {

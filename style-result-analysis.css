@@ -73,15 +73,15 @@
     display: none;
 }
 .yellow-jersey {
-    background-color: #ffe559 !important;
+    background: radial-gradient(circle, rgba(255, 231, 100, 0.7) 0%, rgb(255, 231, 100) 100%) !important;
     cursor: help;
 }
 .red-jersey {
-    background-color: #ff8f8f !important;
+    background: radial-gradient(circle, rgba(255, 163, 163, 0.7) 0%, rgb(255, 163, 163) 100%) !important;
     cursor: help;
 }
 .blue-jersey {
-    background-color: #75c3fd !important;
+    background: radial-gradient(circle, rgba(136, 204, 255, 0.7) 0%, rgb(136, 204, 255) 100%) !important;
     cursor: help;
 }
 .timeline-cup-result-wrapper {
