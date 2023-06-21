@@ -1149,3 +1149,37 @@ $(document).ready(function(){
 		$('.timeline-cup-result').toggleClass('analysis');
 		});
 	});
+
+
+	// $(document).ready(function(){
+	// 	$(".timeline-results__discription > .result-button").on("click", function(){
+	// 	  if($(this).hasClass('active')){
+	// 		$(this).removeClass("active");
+	// 		$(this).siblings('.timeline-results__table-wrapper').slideUp(200);
+	// 	  }else{
+	// 		$(".timeline-results__discription > .result-button").removeClass("active");
+	// 		$(this).addClass("active");
+	// 		$('.timeline-results__table-wrapper').slideUp(200);
+	// 		$(this).siblings('.timeline-results__table-wrapper').slideDown(200);
+	// 	  }    
+	// 	});
+	//   });
+
+	$(document).ready(function() {
+		$(".timeline-results__discription").each(function() {
+		  var button = $(this).find('.result-button'), // Find button inside current .timeline-results__discription block
+			  wrapper = $(this).find('.timeline-results__table-wrapper'); // Find wrapper inside current .timeline-results__discription block
+	  
+		  button.on("click", function() {
+			if (button.hasClass('active')) {
+			  button.removeClass("active");
+			  wrapper.slideUp(200);
+			} else {
+			  $(".timeline-results__discription .result-button").removeClass("active");
+			  $(".timeline-results__discription .timeline-results__table-wrapper").slideUp(200);
+			  button.addClass("active");
+			  wrapper.slideDown(200);
+			}    
+		  });
+		});
+	  });
