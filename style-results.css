@@ -73,7 +73,10 @@
 }
 .timeline-results__table tbody tr:nth-child(2n+1) {
     background-color: #e7f3fa;
-} 
+}
+.timeline-results__table tr td:first-child {
+    white-space: nowrap;
+}
 .timeline-results__discription {
     display: flex;
     justify-content: space-between;
@@ -116,6 +119,7 @@
     transition: all .3s ease;
     user-select: none;
     margin: 0 auto;
+    -webkit-tap-highlight-color: transparent;
 }
 .timeline-results__discription-title {
     display: flex;
