@@ -787,13 +787,12 @@ html[data-theme="grey"] #tippy-16 ul li a:hover {
     margin-top: 2.5em;
 }
 .timeline-cup__footer-legend-title, .timeline-cup__footer-legend-title-2 {
-    font-size: 1.3em;
+    font-size: 1.2em;
     font-weight: 700;
     display: flex;
     background-color: #d1ebfb;
-    padding-left: 51px;
+    padding: 1.1px 10px 1.1px 51px;
     position: relative;
-    padding-right: 10px;
 }
 .timeline-cup__footer-legend-content:not(:last-child) {
     margin: 1em 0 2em 0;
@@ -847,12 +846,11 @@ html[data-theme="grey"] #tippy-16 ul li a:hover {
 .timeline-cup__any-tables-races-title, .timeline-cup__any-tables-races-scores-title {
     margin: 2em 0 1em 0;
     background-color: #d1ebfb;
-    padding-left: 51px;
     position: relative;
-    padding-right: 10px;
+    padding: 1.1px 10px 1.1px 51px;
 }
 .timeline-cup__any-tables-races-title span, .timeline-cup__any-tables-races-scores-title span, .timeline-cup__any-tables-all-result-title span {
-    font-size: 1.3em;
+    font-size: 1.2em;
     font-weight: 600;
 }
 
@@ -1024,8 +1022,8 @@ html[data-theme="grey"] #tippy-16 ul li a:hover {
     margin-top: 2em;
     margin-bottom: 1.4em;
     background-color: #d1ebfb;
-    padding: 0 60px 0 53px;
     position: relative;
+    padding: 1.1px 53px 1.1px 60px;
 }
 .timeline-cup__any-tables-go-to-male-table, .timeline-cup__any-tables-go-to-female-table {
     position: absolute;
@@ -1223,13 +1221,12 @@ html[data-theme="grey"] #tippy-16 ul li a:hover {
 }
 .timeline-cup__table-comments-title {
     display: flex;
-    font-size: 1.3em;
+    font-size: 1.2em;
     font-weight: 600;
     margin-top: .9em;
     margin-bottom: 1em;
     background-color: #d1ebfb;
-    padding-left: 51px;
-    padding-right: 10px;
+    padding: 1.1px 10px 1.1px 51px;
     position: relative;
 }
 .timeline-cup__table-comments-list {
@@ -1271,12 +1268,11 @@ html[data-theme="grey"] #tippy-16 ul li a:hover {
 }
 
 .timeline-cup__table-comments-tables-recommend {
-    font-size: 1.3em;
+    font-size: 1.2em;
     font-weight: 700;
     display: flex;
     background-color: #d1ebfb;
-    padding-left: 51px;
-    padding-right: 10px;
+    padding: 1.1px 10px 1.1px 51px;
     margin: 2em 0 1em 0;
     position: relative;
 }

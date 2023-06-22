@@ -20,14 +20,13 @@
     font-weight: 700;
 }
 .timeline-results__stages {
-    font-size: 1.3em;
+    font-size: 1.2em;
     font-weight: 700;
     display: flex;
     background-color: #d1ebfb;
-    padding-left: 51px;
     margin: 2em 0 0.75em 0;
     position: relative;
-    padding-right: 10px;
+    padding: 1.3px 10px 1.3px 51px;
 }
 .circle-element-for-stages {
     position: absolute;
