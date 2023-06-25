@@ -117,7 +117,13 @@
     outline: 1px solid #d0d9dd;
 }
 
-.race-icon {
+.olympic-games-icon {
+    width: 24px;
+    height: 24px;
+    fill: #81aad5;
+    scale: 1;
+}
+.local-championship-icon {
     width: 22px;
     height: 22px;
     fill: #81aad5;
@@ -153,7 +159,6 @@
     justify-content: center;
     width: fit-content;
     margin-left: auto;
-    cursor: crosshair;
     padding: 3px 6px;
     border: 1px solid #c4c4c4;
     background: white;
@@ -166,13 +171,10 @@
     width: 14px;
     height: 14px;
     border-radius: 50%;
-    background-color: white;
-    /* border: 1px solid #8e8e8e; */
-    /* border: 1px solid black; */
+    /* background-color: white; */
     position: relative;
     overflow: hidden;
     scale: 1;
-    /* transition: all .3s ease-in-out; */
 }
 .target-block__circle::before {
     content: '';
@@ -185,6 +187,9 @@
     right: 0;
     bottom: 0;
     border-radius: 50%;
+}
+.targets-block.current .target-block__circle::before {
+    transition: all .3s ease;
 }
 .targets-block.current .target-block__circle:nth-child(2n):before {
     background-color: white;
@@ -200,6 +205,9 @@
     border: 1px solid #8e8e8e;
     /* border-color: #8e8e8e; */
 }
+.targets-block.current {
+    cursor: crosshair;
+}
 a.targets-block.done {
     cursor: pointer;
 }
@@ -211,15 +219,32 @@ a.targets-block.done {
 .timeline-calendar__location a {
     font-weight: 600;
 }
-
+.timeline-calendar__table tbody tr td:nth-child(2) {
+    width: 102.6px;
+}
+.timeline-calendar__table tbody tr td:nth-child(3) {
+    width: 58.75px;
+}
 @media (hover: hover) {
     .timeline-calendar__table tr:hover td {
         background-color: #fffce5;
+    }
+    .targets-block.current .target-block__circle:nth-child(2n+1):hover::before {
+        background-color: #5a5a5a;
+    }
+    .targets-block.done:hover .target-block__circle::before {
+        background-color: #5a5a5a;
+    }
+    .targets-block.done:hover .target-block__circle {
+        border: none;
     }
 }
 
 @media screen and (max-width: 550px) {
     .timeline-calendar {
         padding: 2em 1.06em 1.75em 1.06em;
+    }
+    .timeline-calendar__table tbody tr td:nth-child(2), .timeline-calendar__table tbody tr td:nth-child(3) {
+        width: auto;
     }
 }
