@@ -221,6 +221,7 @@ a.targets-block.done {
 }
 .timeline-calendar__table tbody tr td:nth-child(2) {
     width: 102.6px;
+    white-space: nowrap;
 }
 .timeline-calendar__table tbody tr td:nth-child(3) {
     width: 58.75px;
