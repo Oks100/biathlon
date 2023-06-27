@@ -84,6 +84,7 @@
     padding: 3.4px 0 3.4px 3.5px;
     display: flex;
     margin-top: 1.5em;
+    font-weight: 600;
 }
 .timeline-broadcast-tv__table-wrapper {
     overflow-x: auto;
