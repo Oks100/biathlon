@@ -2205,6 +2205,9 @@ img[src*="flags"] {
 .race-continues, .race-ended, .race-waiting {
   position: relative;
 }
+.timer__more-information a {
+  color: #002b71;
+}
 @keyframes rotate {
   0% {
     transform: scale(0);
@@ -3448,14 +3451,14 @@ img[src*="flags"] {
   .timeline a {
     color: #002b71;
   }
-  .timeline__item-comments-to-write-comments:hover, .timeline a:hover:not(.timeline-cup__head-back-button, .timeline-cup-result__analysis-button a, .timeline-cup__another-competitions a, .timeline-cup__navbar a, .timeline-navigation__page a, .last--comments-news-body-discription-comments-number, .last--comments-news-head a, .last--comments-news-body-discription-head a, .user-link, .quote-user, .timeline__item-comments-username a, .timeline__item-last-photos-head a, .last--comments-news-head a, .timeline__item-comments-to-write-comments) {
+  .timer__more-information a:hover, .timeline__item-comments-to-write-comments:hover, .timeline a:hover:not(.timeline-cup__head-back-button, .timeline-cup-result__analysis-button a, .timeline-cup__another-competitions a, .timeline-cup__navbar a, .timeline-navigation__page a, .last--comments-news-body-discription-comments-number, .last--comments-news-head a, .last--comments-news-body-discription-head a, .user-link, .quote-user, .timeline__item-comments-username a, .timeline__item-last-photos-head a, .last--comments-news-head a, .timeline__item-comments-to-write-comments) {
     color: #73b5e5;
   }
   .last--comments-news-body-discription-head h2 a:hover, .timeline__item-comments-username a:hover, .user-link:hover {
     color: #73b5e5;
     border-color: #73b5e5;
   }
-  .timeline-broadcast-tv__title a:hover, .timeline-broadcast-tv .timeline-broadcast-tv-legend.last a:hover, .timeline-calendar a:not(.targets-block):hover, .timeline-results a:hover, .timeline-cup-statistics-table-maga-wrapper a:hover, .timeline__more-tables a:hover, .timeline-cup-statistics-table a:hover, .timeline-cup-result-discription a:hover, .timeline__body a:hover, .timeline__body-important-news a:hover, .timeline__speedbar a:hover, .timeline-cup-result__body tbody tr td:nth-child(3) a:hover {
+  .timer__more-information:not(.timer__more-information.last) a:hover, .timeline-broadcast-tv__title a:hover, .timeline-broadcast-tv .timeline-broadcast-tv-legend.last a:hover, .timeline-calendar a:not(.targets-block):hover, .timeline-results a:hover, .timeline-cup-statistics-table-maga-wrapper a:hover, .timeline__more-tables a:hover, .timeline-cup-statistics-table a:hover, .timeline-cup-result-discription a:hover, .timeline__body a:hover, .timeline__body-important-news a:hover, .timeline__speedbar a:hover, .timeline-cup-result__body tbody tr td:nth-child(3) a:hover {
     border-bottom: 1px solid #73b5e5;
   }
   .timeline__body-important-news {
@@ -3620,9 +3623,9 @@ img[src*="flags"] {
   .timeline__body .td_top10w td {
     background-color: #e7f3fa;
   }
-  .timeline__body .table0_100 .td_top10w td, .timeline__body .news_text:not(.table0_100) .td_top10w strong {
+  /* .timeline__body .table0_100 .td_top10w td, .timeline__body .news_text:not(.table0_100) .td_top10w strong {
     padding-left: 3.5px;
-  }
+  } */
   .timeline__body .table0_100 .td_top10w td {
     display: flex;
     width: 100%;
@@ -3630,7 +3633,8 @@ img[src*="flags"] {
   .timeline__body .news_text tr td:not(.table0_100 tr td) {
     width: 50% !important;
     border: none !important;
-    padding: 0 !important;
+    /* padding: 0 !important; */
+    padding: 3.4px 0 3.4px 3.5px !important;
   }
   .news_text.table0_100 tr td a:hover {
     border: none;
@@ -8049,7 +8053,7 @@ html[data-theme='dark'] .notification__text a:first-child, html[data-theme='dark
 /* html[data-theme='dark'] .form__input input:focus {
   background-color: #242526;
 } */
-html[data-theme="dark"] .quote-user, html[data-theme="dark"] .timeline__item-comments-answer-button span, html[data-theme="dark"] .timeline__item-comments-to-write-comments, html[data-theme="dark"] .popup input[type="submit"], html[data-theme="dark"] .timeline__item-comments-title-number, html[data-theme='dark'] .birthday-block__congratulations, html[data-theme='dark'] .forgot-password a, html[data-theme='dark'] .enter-button, html[data-theme='dark'] .log-in, html[data-theme='dark'] .sign-up, html[data-theme='dark'] .exit-no, html[data-theme='dark'] .exit-yes, html[data-theme='dark'] .burger-menu__content a, html[data-theme='dark'] main a, html[data-theme='dark'] .timeline__footer button {
+html[data-theme="dark"] .timer__more-information a, html[data-theme="dark"] .quote-user, html[data-theme="dark"] .timeline__item-comments-answer-button span, html[data-theme="dark"] .timeline__item-comments-to-write-comments, html[data-theme="dark"] .popup input[type="submit"], html[data-theme="dark"] .timeline__item-comments-title-number, html[data-theme='dark'] .birthday-block__congratulations, html[data-theme='dark'] .forgot-password a, html[data-theme='dark'] .enter-button, html[data-theme='dark'] .log-in, html[data-theme='dark'] .sign-up, html[data-theme='dark'] .exit-no, html[data-theme='dark'] .exit-yes, html[data-theme='dark'] .burger-menu__content a, html[data-theme='dark'] main a, html[data-theme='dark'] .timeline__footer button {
   color: #abcbff;
 }
 html[data-theme='dark'] .view {
@@ -8176,7 +8180,7 @@ html[data-theme="dark"] .timeline__item-comments-write-enter-button:hover, html[
 html[data-theme='dark'] .timeline-sponsors .swiper-button-next, html[data-theme='dark'] .timeline-sponsors .swiper-button-prev {
   color: #7bade3 !important;
 }
-html[data-theme="dark"] .timeline__speedbar a:hover, html[data-theme="dark"] .forgot-login-password a:hover, html[data-theme="dark"] main a:hover:not(.red-color, .timeline__item-last-photos-head a, .last--comments-news-head a, .vertical-menu-block__link), html[data-theme="dark"] .comment-block__rumor:hover, html[data-theme="dark"] .timeline__body a:hover {
+html[data-theme="dark"] .timer__more-information:not(.timer__more-information.last) a:hover, html[data-theme="dark"] .timeline__speedbar a:hover, html[data-theme="dark"] .forgot-login-password a:hover, html[data-theme="dark"] main a:hover:not(.red-color, .timeline__item-last-photos-head a, .last--comments-news-head a, .vertical-menu-block__link), html[data-theme="dark"] .comment-block__rumor:hover, html[data-theme="dark"] .timeline__body a:hover {
   color: #8ab4f8;
   border-color: #8ab4f8;
 }
@@ -8747,7 +8751,7 @@ html[data-theme="summer"] .text-field:focus ~ .toolbar-list {
 html[data-theme="summer"] .history-block__head, html[data-theme="summer"] .birthday-block__head, html[data-theme="summer"] .main-cup__header, html[data-theme="summer"] .comment-block__head, html[data-theme="summer"] .lead2, html[data-theme="summer"] .head__all, html[data-theme="summer"] .twitter-block__head {
   color: #e99e00;
 }
-html[data-theme="summer"] .quote-user, html[data-theme="summer"] .timeline__item-comments-answer-button span, html[data-theme="summer"] .timeline__item-comments-to-write-comments, html[data-theme='summer'] .important-news__link a, html[data-theme='summer'] .user-link, html[data-theme='summer'] .timeline__item-last-photos-head a, html[data-theme='summer'] .last--comments-news-body-discription-comments-number, html[data-theme='summer'] .last--comments-news-body-discription-head h2 a, html[data-theme='summer'] .last--comments-news-head a, html[data-theme='summer'] .timeline__item-comments-write-registr-button, html[data-theme='summer'] #toolbar-message-button, html[data-theme='summer'] .timeline__item-comments-write-enter-button, html[data-theme='summer'] .forgot-login-password a, html[data-theme='summer'] .quote-user, html[data-theme='summer'] .timeline__item-comments-username a, html[data-theme='summer'] .timeline__item-comments-more-comments span, html[data-theme="summer"] .timeline__item-comments-to-write-comments, html[data-theme="summer"] .timeline__item-comments-title-number, html[data-theme="summer"] .timeline__body a, html[data-theme="summer"] .timeline__speedbar a, html[data-theme="summer"] .comment-block__body-title a, html[data-theme="summer"] .header__notifications_head .header__notifications_head-body a, html[data-theme="summer"] .header__notifications_head .header__notifications_head-admin-panel a, html[data-theme="summer"] .history-block__body a, html[data-theme="summer"] .birthday-block__text a, html[data-theme="summer"] .birthday-block__congratulations, html[data-theme="summer"] .forgot-password a, html[data-theme="summer"] .enter-button, html[data-theme='summer'] .log-in, html[data-theme='summer'] .sign-up, html[data-theme='summer'] .exit-no, html[data-theme='summer'] .exit-yes, html[data-theme='summer'] .timer__more-result, html[data-theme='summer'] .timer__more-translation, html[data-theme='summer'] .burger-menu__profile a, html[data-theme='summer'] .mobile-notification__head-content a, html[data-theme="summer"] .user, html[data-theme="summer"] .main-cup a, html[data-theme="summer"] .learn-more:hover .learn-more__text, html[data-theme="summer"] .learn-more__text, html[data-theme="summer"] .timeline__footer button, html[data-theme="summer"] .next-race-block a, html[data-theme="summer"] .next-translation-block a, html[data-theme="summer"] .popular-block a, html[data-theme="summer"] .interview-block a, html[data-theme="summer"] .blogs-block a, html[data-theme="summer"] .stars-block a {
+html[data-theme="summer"] .timer__more-information a, html[data-theme="summer"] .quote-user, html[data-theme="summer"] .timeline__item-comments-answer-button span, html[data-theme="summer"] .timeline__item-comments-to-write-comments, html[data-theme='summer'] .important-news__link a, html[data-theme='summer'] .user-link, html[data-theme='summer'] .timeline__item-last-photos-head a, html[data-theme='summer'] .last--comments-news-body-discription-comments-number, html[data-theme='summer'] .last--comments-news-body-discription-head h2 a, html[data-theme='summer'] .last--comments-news-head a, html[data-theme='summer'] .timeline__item-comments-write-registr-button, html[data-theme='summer'] #toolbar-message-button, html[data-theme='summer'] .timeline__item-comments-write-enter-button, html[data-theme='summer'] .forgot-login-password a, html[data-theme='summer'] .quote-user, html[data-theme='summer'] .timeline__item-comments-username a, html[data-theme='summer'] .timeline__item-comments-more-comments span, html[data-theme="summer"] .timeline__item-comments-to-write-comments, html[data-theme="summer"] .timeline__item-comments-title-number, html[data-theme="summer"] .timeline__body a, html[data-theme="summer"] .timeline__speedbar a, html[data-theme="summer"] .comment-block__body-title a, html[data-theme="summer"] .header__notifications_head .header__notifications_head-body a, html[data-theme="summer"] .header__notifications_head .header__notifications_head-admin-panel a, html[data-theme="summer"] .history-block__body a, html[data-theme="summer"] .birthday-block__text a, html[data-theme="summer"] .birthday-block__congratulations, html[data-theme="summer"] .forgot-password a, html[data-theme="summer"] .enter-button, html[data-theme='summer'] .log-in, html[data-theme='summer'] .sign-up, html[data-theme='summer'] .exit-no, html[data-theme='summer'] .exit-yes, html[data-theme='summer'] .timer__more-result, html[data-theme='summer'] .timer__more-translation, html[data-theme='summer'] .burger-menu__profile a, html[data-theme='summer'] .mobile-notification__head-content a, html[data-theme="summer"] .user, html[data-theme="summer"] .main-cup a, html[data-theme="summer"] .learn-more:hover .learn-more__text, html[data-theme="summer"] .learn-more__text, html[data-theme="summer"] .timeline__footer button, html[data-theme="summer"] .next-race-block a, html[data-theme="summer"] .next-translation-block a, html[data-theme="summer"] .popular-block a, html[data-theme="summer"] .interview-block a, html[data-theme="summer"] .blogs-block a, html[data-theme="summer"] .stars-block a {
   color: #348232;
 }
 html[data-theme='summer'] .burger-menu-back-tab span, html[data-theme='summer'] .burger-menu_nav-menu-tabs a, html[data-theme='summer'] .mobile-notification__head-admin-panel a i {
@@ -8762,7 +8766,7 @@ html[data-theme="summer"] .timeline__footer button .icon-container .icon svg {
 html[data-theme='summer'] .last--comments-news-body-discription-head h2 a:hover, html[data-theme='summer'] .quote-user:hover, html[data-theme="summer"] .timeline__item-comments-to-write-comments:hover, html[data-theme="summer"] .timeline__speedbar a:hover, html[data-theme="summer"] .timer__more-result:hover, html[data-theme="summer"] .timer__more-translation:hover, html[data-theme="summer"] .vertical-menu-block__link .news_date {
   color: #63b961;
 }
-html[data-theme='summer'] .timeline__speedbar a:hover, html[data-theme='summer'] .user-link:hover, html[data-theme='summer'] .forgot-login-password a:hover, html[data-theme='summer'] .timeline__item-comments-username a:hover, html[data-theme="summer"] .main-cup a:hover {
+html[data-theme='summer'] .timer__more-information:not(.timer__more-information.last) a:hover, html[data-theme='summer'] .timeline__speedbar a:hover, html[data-theme='summer'] .user-link:hover, html[data-theme='summer'] .forgot-login-password a:hover, html[data-theme='summer'] .timeline__item-comments-username a:hover, html[data-theme="summer"] .main-cup a:hover {
   color: #63b961;
   border-color: #63b961;
 }
@@ -9061,7 +9065,7 @@ html[data-theme='Black'] html, html[data-theme='Black'] body {
     background-color: #102442;
   }
 }
-html[data-theme="Black"] .quote-user, html[data-theme="Black"] .timeline__item-comments-answer-button span, html[data-theme="Black"] .timeline__item-comments-to-write-comments, html[data-theme='Black'] .user-link, html[data-theme='Black'] .timeline__item-last-photos-head a, html[data-theme='Black'] .last--comments-news-body-discription-comments-number, html[data-theme='Black'] .last--comments-news-body-discription-head h2 a, html[data-theme='Black'] .last--comments-news-head a, html[data-theme='Black'] .timeline__item-comments-write-registr-button, html[data-theme='Black'] #toolbar-message-button, html[data-theme='Black'] .timeline__item-comments-write-enter-button, html[data-theme='Black'] .forgot-login-password a, html[data-theme='Black'] .timeline__item-comments-username a, html[data-theme='Black'] .timeline__item-comments-more-comments span, html[data-theme='Black'] .timeline__item-comments-to-write-comments, html[data-theme='Black'] .timeline__item-comments-title-number, html[data-theme='Black'] .timeline__body a, html[data-theme='Black'] .timeline__speedbar a, html[data-theme="Black"] .birthday-block__congratulations, html[data-theme="Black"] .burger-menu__profile a, html[data-theme='Black'] .timeline a, html[data-theme='Black'] .left-sidebar a, html[data-theme='Black'] .right-sidebar a, html[data-theme='Black'] .timeline__footer button {
+html[data-theme="Black"] .timer__more-information a, html[data-theme="Black"] .quote-user, html[data-theme="Black"] .timeline__item-comments-answer-button span, html[data-theme="Black"] .timeline__item-comments-to-write-comments, html[data-theme='Black'] .user-link, html[data-theme='Black'] .timeline__item-last-photos-head a, html[data-theme='Black'] .last--comments-news-body-discription-comments-number, html[data-theme='Black'] .last--comments-news-body-discription-head h2 a, html[data-theme='Black'] .last--comments-news-head a, html[data-theme='Black'] .timeline__item-comments-write-registr-button, html[data-theme='Black'] #toolbar-message-button, html[data-theme='Black'] .timeline__item-comments-write-enter-button, html[data-theme='Black'] .forgot-login-password a, html[data-theme='Black'] .timeline__item-comments-username a, html[data-theme='Black'] .timeline__item-comments-more-comments span, html[data-theme='Black'] .timeline__item-comments-to-write-comments, html[data-theme='Black'] .timeline__item-comments-title-number, html[data-theme='Black'] .timeline__body a, html[data-theme='Black'] .timeline__speedbar a, html[data-theme="Black"] .birthday-block__congratulations, html[data-theme="Black"] .burger-menu__profile a, html[data-theme='Black'] .timeline a, html[data-theme='Black'] .left-sidebar a, html[data-theme='Black'] .right-sidebar a, html[data-theme='Black'] .timeline__footer button {
   color: #6688c0;
 }
 html[data-theme="Black"] .mobile-notification__head-admin-panel a, html[data-theme="Black"] .view, html[data-theme='Black'] .mobile-notification__head-content a, html[data-theme='Black'] .mobile-timer__more-events-content-group a, html[data-theme='Black'] .mobile-notification__time .view, html[data-theme='Black'] .learn-more__text2-href, html[data-theme='Black'] .learn-more__text3-href, html[data-theme='Black'] .learn-more__text2-href:hover, html[data-theme='Black'] .learn-more__text3-href:hover, html[data-theme='Black'] .timeline-navigation_arrow-left::after, html[data-theme='Black'] .timeline-navigation_arrow-right::after, html[data-theme='Black'] .timeline-navigation__page a:hover, html[data-theme='Black'] .statistics__button a:hover, html[data-theme='Black'] .timeline-sponsors .swiper-button-next, html[data-theme='Black'] .timeline-sponsors .swiper-button-prev {
@@ -9073,7 +9077,7 @@ html[data-theme='Black'] .timeline__footer button .icon-container .icon svg {
 html[data-theme="Black"] .icon.icon--left::before, html[data-theme="Black"] .icon.icon--right::before {
   border-color: #6688c0;
 }
-html[data-theme="Black"] .user-link:hover, html[data-theme="Black"] .forgot-login-password a:hover, html[data-theme="Black"] .timeline__item-comments-username a:hover, html[data-theme="Black"] .timeline__item-comments-to-write-comments:hover, html[data-theme="Black"] .main-cup a:hover, html[data-theme='Black'] .timeline a:hover:not(.last--comments-news-head a, .timeline__item-last-photos-head a, .last--comments-news-body-discription-comments-number, .btn__socials), html[data-theme='Black'] .left-sidebar a:hover, html[data-theme='Black'] .right-sidebar a:hover {
+html[data-theme="Black"] .timer__more-information:not(.timer__more-information.last) a:hover, html[data-theme="Black"] .user-link:hover, html[data-theme="Black"] .forgot-login-password a:hover, html[data-theme="Black"] .timeline__item-comments-username a:hover, html[data-theme="Black"] .timeline__item-comments-to-write-comments:hover, html[data-theme="Black"] .main-cup a:hover, html[data-theme='Black'] .timeline a:hover:not(.last--comments-news-head a, .timeline__item-last-photos-head a, .last--comments-news-body-discription-comments-number, .btn__socials), html[data-theme='Black'] .left-sidebar a:hover, html[data-theme='Black'] .right-sidebar a:hover {
   color: #93bbff;
   border-color: #93bbff;
 }
@@ -9489,7 +9493,7 @@ html[data-theme="Black"] .guest-user.tab-password .timeline__item-comments-write
 html[data-theme="grey"] .header, html[data-theme="grey"] footer.footer {
   background-color: #4d6577;
 }
-html[data-theme="grey"] main a:hover:not(.vertical-menu-block__link, .timeline__item-last-photos-head a, .last--comments-news-head a, .last--comments-news-body-discription-comments-number), html[data-theme="grey"] .comment-block__rumor:hover, html[data-theme="grey"] .icon.icon--left::before, html[data-theme="grey"] .icon.icon--right::before {
+html[data-theme="grey"] .timer__more-information:not(.last) a:hover, html[data-theme="grey"] main a:hover:not(.vertical-menu-block__link, .timeline__item-last-photos-head a, .last--comments-news-head a, .last--comments-news-body-discription-comments-number), html[data-theme="grey"] .comment-block__rumor:hover, html[data-theme="grey"] .icon.icon--left::before, html[data-theme="grey"] .icon.icon--right::before {
   color: #73abd2;
   border-color: #73abd2;
 }
@@ -9621,7 +9625,7 @@ html[data-theme="grey"] .footer__icon::before, html[data-theme="grey"] .footer__
 html[data-theme="grey"] .discussion-male, html[data-theme="grey"] .discussion-female, html[data-theme="grey"] .discussion-unknown, html[data-theme="grey"] .comment-block__user-avatar svg {
   fill: rgba(98, 129, 157, 0.75);
 }
-html[data-theme="grey"] .quote-user, html[data-theme="grey"] .timeline__item-comments-answer-button span, html[data-theme="grey"] .timeline__item-comments-to-write-comments, html[data-theme="grey"] .user-link, html[data-theme="grey"] .timeline__item-last-photos-head a, html[data-theme="grey"] .last--comments-news-body-discription-comments-number, html[data-theme="grey"] .last--comments-news-body-discription-head h2 a, html[data-theme="grey"] .last--comments-news-head a, html[data-theme="grey"] .timeline__item-comments-write-registr-button, html[data-theme="grey"] #toolbar-message-button, html[data-theme="grey"] .timeline__item-comments-write-enter-button, html[data-theme="grey"] .forgot-login-password a, html[data-theme="grey"] .timeline__item-comments-username a, html[data-theme="grey"] .timeline__item-comments-more-comments span, html[data-theme="grey"] .timeline__item-comments-to-write-comments, html[data-theme="grey"] .timeline__item-comments-title-number, html[data-theme="grey"] .timeline__body a, html[data-theme="grey"] .timeline__speedbar a, html[data-theme="grey"] .birthday-block__congratulations, html[data-theme="grey"] .timer__more-result, html[data-theme="grey"] .timer__more-translation, html[data-theme="grey"] .forgot-password a, html[data-theme="grey"] .enter-button, html[data-theme="grey"] .log-in, html[data-theme="grey"] .sign-up, html[data-theme="grey"] .exit-no, html[data-theme="grey"] .exit-yes, html[data-theme="grey"] .burger-menu__content a, html[data-theme="grey"] main a, html[data-theme="grey"] .timeline__footer button {
+html[data-theme="grey"] .timer__more-information a, html[data-theme="grey"] .quote-user, html[data-theme="grey"] .timeline__item-comments-answer-button span, html[data-theme="grey"] .timeline__item-comments-to-write-comments, html[data-theme="grey"] .user-link, html[data-theme="grey"] .timeline__item-last-photos-head a, html[data-theme="grey"] .last--comments-news-body-discription-comments-number, html[data-theme="grey"] .last--comments-news-body-discription-head h2 a, html[data-theme="grey"] .last--comments-news-head a, html[data-theme="grey"] .timeline__item-comments-write-registr-button, html[data-theme="grey"] #toolbar-message-button, html[data-theme="grey"] .timeline__item-comments-write-enter-button, html[data-theme="grey"] .forgot-login-password a, html[data-theme="grey"] .timeline__item-comments-username a, html[data-theme="grey"] .timeline__item-comments-more-comments span, html[data-theme="grey"] .timeline__item-comments-to-write-comments, html[data-theme="grey"] .timeline__item-comments-title-number, html[data-theme="grey"] .timeline__body a, html[data-theme="grey"] .timeline__speedbar a, html[data-theme="grey"] .birthday-block__congratulations, html[data-theme="grey"] .timer__more-result, html[data-theme="grey"] .timer__more-translation, html[data-theme="grey"] .forgot-password a, html[data-theme="grey"] .enter-button, html[data-theme="grey"] .log-in, html[data-theme="grey"] .sign-up, html[data-theme="grey"] .exit-no, html[data-theme="grey"] .exit-yes, html[data-theme="grey"] .burger-menu__content a, html[data-theme="grey"] main a, html[data-theme="grey"] .timeline__footer button {
   color: #2f5278;
 }
 html[data-theme="grey"] .mobile-notification__head-content a, html[data-theme="grey"] .timeline-navigation__page a:hover, html[data-theme="grey"] .mobile-timer__more-events-content-group a {
