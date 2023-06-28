@@ -2371,6 +2371,7 @@ html[data-theme='dark'] .guest-user.tab-password .timeline__item-comments-write-
     display: -webkit-box;
     -webkit-line-clamp: 3;
     -webkit-box-orient: vertical;
+    color: black;
 }
 .last--comments-news-body {
 }
@@ -2450,7 +2451,7 @@ html[data-theme='dark'] .guest-user.tab-password .timeline__item-comments-write-
     /* line-height: 30px; */
 }
 .last--comments-news-body-discription-head h2 {
-    font-size: 1.05em;
+    font-size: 1.1em;
     font-weight: 600;
 }
 .last--comments-news-body-discription-comments-number {
