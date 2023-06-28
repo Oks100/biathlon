@@ -469,6 +469,7 @@ html[data-theme="grey"] #tippy-16 ul li a:hover {
     background-color: #ffcae5;
 } */
 .chosen-string.active {
+    box-shadow: 0 0 0 1px white;
     background-color: #ffcae5 !important;
 }
 

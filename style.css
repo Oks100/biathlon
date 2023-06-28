@@ -2260,8 +2260,9 @@ img[src*="flags"] {
   color: #002b71;
   position: relative;
 }
-.timer__more-result:hover, .timer__more-translation:hover {
+.timer__more-result a:hover, .timer__more-translation a:hover {
   color: #73b5e5;
+  border-bottom: 1px solid #73b5e5;
 }
 .timer__more-button {
   box-shadow: 0px -5px 8px 0px rgba(50, 50, 50, 0.15);
