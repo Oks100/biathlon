@@ -3630,12 +3630,13 @@ img[src*="flags"] {
   .timeline__body .table0_100 .td_top10w td {
     display: flex;
     width: 100%;
+    padding: 0 0 0 3.5px;
   }
   .timeline__body .news_text tr td:not(.table0_100 tr td) {
     width: 50% !important;
     border: none !important;
     /* padding: 0 !important; */
-    padding: 3.4px 0 3.4px 3.5px !important;
+    padding: 0 0 0 3.5px;
   }
   .news_text.table0_100 tr td a:hover {
     border: none;
