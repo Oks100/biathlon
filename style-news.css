@@ -114,7 +114,7 @@
 }
 
 .timeline-news__select-month, .timeline-news__select-season {
-    padding: 5px 0 5px 5px;
+    padding: 5px 0 5px 8px;
     outline: 1px solid #d0d9dd;
 }
 .timeline-news__select-season {
