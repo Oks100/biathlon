@@ -90,6 +90,7 @@
 }
   .timeline-calendar__select-season {
     outline: 1px solid #d0d9dd;
+    border-radius: 3px;
 }
 .timeline-calendar__stages {
     font-size: 1.2em;

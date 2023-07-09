@@ -289,7 +289,6 @@ html[data-theme="grey"] #tippy-16 ul li a:hover {
     display: none;
 }
 .compare-icon:before {
-    /* content: "\e91b"; */
     content: "\e91c";
     font-family: 'icomoon';
     color: #8d8d8d;
@@ -299,30 +298,13 @@ html[data-theme="grey"] #tippy-16 ul li a:hover {
 .timeline-cup__list li.active {
     background-color: #c0e5fb;
 }
-/* .timeline-cup__bottom-navbar {
-    display: none;
-} */
-/* .timeline-cup__bottom-navbar-flag {
-}
-.timeline-cup__bottom-navbar-season {
-}
-.timeline-cup__bottom-navbar-compare {
-}
-.timeline-cup__bottom-navbar-gender {
-}
-.timeline-cup__bottom-navbar-male {
-}
-.timeline-cup__bottom-navbar-female {
-} */
 .timeline-cup__select-body.smart {
     display: none;
 }
 .timeline-cup__select-body select {
     outline: 1px solid #d0d9dd;
+    border-radius: 3px;
 }
-/* .body.fixed .footer {
-    margin-bottom: 40px;
-} */
 
 .timeline-cup-tables {
     display: flex;
@@ -333,17 +315,10 @@ html[data-theme="grey"] #tippy-16 ul li a:hover {
     gap: 20px;
 }
 .timeline-cup-table {
-    /* background-color: #e7f3fa; */
-    /* font-size: 0.95em; */
     border-collapse: collapse;
     margin-top: 10px;
 }
-.timeline-cup-table tr {
-    /* height: 25.35px; */
-    /* display: flex; */
-}
 .timeline-cup-table tbody tr:nth-child(2n) {
-    /* background-color: #d6ecf9; */
     background-color: #e7f3fa;
 }
 .timeline-cup-table tbody tr td:nth-child(2) {

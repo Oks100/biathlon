@@ -160,6 +160,7 @@
 }
 .form-group select, .timeline-my-profile__body-my-favourite-select-group select {
     padding: 5px 8px 5px 8px;
+    border-radius: 3px;
 }
 .form-group input, .input-text-2 {
     border-radius: 33px;
@@ -225,6 +226,7 @@ input:focus::placeholder, .input-text-2:focus::placeholder {
 .checkbox-group .label-for-allow-messages {
     position: relative;
     cursor: pointer;
+    -webkit-tap-highlight-color: transparent;
 }
 
 .checkbox-group .label-for-allow-messages::before {
@@ -252,8 +254,8 @@ input:focus::placeholder, .input-text-2:focus::placeholder {
     position: absolute;
     /* top: 3.5px;
     left: 8.5px; */
-    top: 6px;
-    left: 10px;
+    top: 5px;
+    left: 11px;
     transform: translate(-50%, -50%);
     width: 6px;
     height: 14px;
@@ -327,6 +329,7 @@ input:focus::placeholder, .input-text-2:focus::placeholder {
     transition: all .3s ease;
     border: 2px solid transparent;
     scale: 1;
+    -webkit-tap-highlight-color: transparent;
 }
 .timeline-my-profile__body-my-favourite-select-group button::before {
     content: '';
@@ -383,6 +386,7 @@ input:focus::placeholder, .input-text-2:focus::placeholder {
     cursor: pointer;
     transition: all .3s ease;
     background-color: #e7f3fa;
+    -webkit-tap-highlight-color: transparent;
 }
 
 .timeline-my-profile__body-my-favourite-remove::before {
@@ -433,20 +437,6 @@ input:focus::placeholder, .input-text-2:focus::placeholder {
     flex-direction: column;
     gap: 10px;
 }
-
-/* .total-comments-numbers {
-    padding: 6px 8px;
-    background-color: #d1ebfb;
-    border-radius: 33px;
-    margin-left: 7px;
-    color: #002b71;
-    font-weight: 400;
-    height: 30px;
-    display: inline-flex;
-    align-items: center;
-    min-width: 30px;
-    justify-content: center;
-} */
 
 @media (hover: hover) {
     .timeline-my-profile__body-avatar-upload:hover {

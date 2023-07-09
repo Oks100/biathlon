@@ -261,6 +261,7 @@
 }
 .timeline-cup__flag select {
     outline: 1px solid #d0d9dd;
+    border-radius: 3px;
 }
 .timeline-cup__select-flag {
     margin-left: 10px;

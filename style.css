@@ -5361,6 +5361,7 @@ table.popular__table tbody tr {
   right: 1.22px;
   cursor: pointer;
   background: none;
+  -webkit-tap-highlight-color: transparent;
 }
 .popular-block__search-form button::before {
   content: "\f002";

@@ -115,6 +115,7 @@
 }
   .timeline-calendar__select-season {
     outline: 1px solid #d0d9dd;
+    border-radius: 3px;
 }
 
 .olympic-games-icon {
