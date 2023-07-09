@@ -1,0 +1,243 @@
+#tippy-16 {
+    width: auto;
+}
+#tippy-16 .tippy-content {
+    overflow: hidden;
+}
+#tippy-16 ul li a {
+    color: black !important;
+    font-size: 13.5px !important;
+    text-transform: none !important;
+    padding: 0px 10px 0px 10px !important;
+    transition: 0s !important;
+    text-shadow: none !important;
+    width: 100%;
+    display: flex;
+}
+#tippy-16 ul li:last-of-type a {
+    border-bottom: none !important;
+}
+  
+#tippy-16 ul li::before, #tippy-16 ul li::after {
+    display: none !important;
+}
+  
+#tippy-16 ul li a:hover {
+    background-color: #ecf5fb;
+}
+#tippy-16 ul li {
+    white-space: nowrap;
+    line-height: 33px;
+}
+#tippy-16 ul li:last-of-type {
+    white-space: nowrap;
+    line-height: 33px;
+}
+#tippy-16 ul li:last-of-type a, #tippy-16 ul li:last-of-type a::before {
+    color: red !important;
+   }
+#tippy-16 ul li:first-of-type a::before {
+    content: "\e016";
+    font-family: 'icomoon';
+    margin-right: 7px;
+    font-size: 13px;
+    color: #81aad5;
+}
+#tippy-16 ul li:nth-child(2) a::before {
+    content: "\e015";
+    font-family: 'icomoon';
+    margin-right: 7px;
+    font-size: 13px;
+    color: #81aad5;
+}
+#tippy-16 ul li:last-of-type a::before {
+    content: "\e9b";
+    font-family: 'icomoon';
+    margin-right: 7px;
+    font-size: 13px;
+    color: #81aad5;
+}
+
+.timeline-my-profile {
+    padding: 2em 1.5em 1.75em 1.5em;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0px 5px 24px rgba(32,60,87,0.11);
+    overflow-x: hidden;
+}
+.timeline-my-profile__head {
+    display: flex;
+    justify-content: space-between;
+    /* margin-bottom: 1.5em; */
+    margin-bottom: 2em;
+    position: relative;
+    gap: 20px 25px;
+    /* align-items: center; */
+    flex-wrap: wrap;
+}
+.timeline-my-profile__head > span:first-child {
+    font-size: 1.3em;
+    color: black;
+    font-weight: 700;
+}
+.timeline-my-profile__head span span {
+    color: #1f7ec4;
+}
+.timeline-my-profile__title {
+    background-color: #e7f3fa;
+    padding: 3.4px 0 3.4px 3.5px;
+    display: flex;
+    margin-top: 1.5em;
+    font-weight: 600;
+}
+
+.timeline-my-profile__body {
+}
+.timeline-my-profile__body-avatar-wrapper {
+    display: flex;
+    flex-direction: row;
+    gap: 20px 30px;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.timeline-my-profile__body-avatar-image {
+}
+.discussion-male {
+    width: 100px;
+    height: 100px;
+}
+.timeline-my-profile__body-avatar-upload {
+    display: flex;
+    height: fit-content;
+    padding: 10px 17px;
+    justify-items: center;
+    border-radius: 15px;
+    background-color: #e7f3fa;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+.timeline-my-profile__body-avatar-upload-wrapper {
+    overflow-x: auto;
+}
+.timeline-my-profile__body-avatar-table {
+    border-collapse: collapse;
+    overflow: hidden;
+    min-width: 350px;
+}
+.timeline-my-profile__predictor-tournament {
+    border-collapse: collapse;
+    overflow: hidden;
+}
+.timeline-my-profile__predictor-tournament-wrapper {
+    border-collapse: collapse;
+    overflow: hidden;
+    width: fit-content;
+}
+.timeline-my-profile__body-avatar-table tr:nth-child(2n+1), .timeline-my-profile__predictor-tournament tbody tr:nth-child(2n+1) {
+  background-color: #e7f3fa;
+}
+.timeline-my-profile__body-avatar-table tbody tr td, .timeline-my-profile__predictor-tournament tr td {
+    padding: 2.4px 7px 2.4px 7px;
+}
+.timeline-my-profile__predictor-tournament thead tr td {
+    color: #5d5d5d;
+}
+.timeline-my-profile__body-form-group {
+    display: flex;
+    flex-direction: row;
+}
+.data-group {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 0 10px;
+}
+.timeline-my-profile__body-form-group-1, .timeline-my-profile__body-form-group-2 {
+    width: 50%;
+}
+.timeline-my-profile__body-form-group span:not(.radio-buttons-body span) {
+    display: flex;
+    width: 100%;
+    margin: 2em 0 5px 0;
+}
+.registr-option span {
+    display: flex;
+    align-items: center;
+}
+.timeline-my-profile__body-form-group-wrapper button {
+    display: flex;
+    padding: 8.5px 20px;
+    background-color: #e7f3fa;
+    border-radius: 33px;
+    margin-top: 15px;
+    transition: all .3s ease;
+    -webkit-tap-highlight-color: transparent;
+    color: #002b71;
+}
+.timeline-my-profile__predictor-tournament {
+    text-align: center;
+}
+
+
+.timeline-my-profile__body-my-favourite-title {
+    margin: 2em 0 .9em 0;
+    color: #1f7ec4;
+    font-size: 1.2em;
+}
+
+.timeline-my-profile__body-my-favourite-list {
+    margin-top: 15px;
+    display: flex;
+    gap: 7px;
+    flex-direction: column;
+}
+.timeline-my-profile__body-my-favourite-list li {
+    display: flex;
+    align-items: center;
+}
+.timeline-my-profile__body-my-favourite-list li a {
+    margin: 0 10px 0 4px;
+}
+
+@media (hover: hover) {
+    .timeline-my-profile__body-avatar-table tr:hover, .timeline-my-profile__predictor-tournament tbody tr:hover {
+        background-color: #fffce5;
+    }
+    .timeline-my-profile__body-form-group-wrapper button:hover {
+        background-color: #d1ebfb;
+    }
+    .checkbox-group .label-for-allow-messages:hover::before {
+        border-color: #c0e5fb;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .timeline-my-profile {
+        padding: 2em 1.06em 1.75em 1.06em;
+    }
+    .timeline-my-profile__body-form-group {
+        flex-wrap: wrap;
+    }
+    .timeline-my-profile__body-form-group-1, .timeline-my-profile__body-form-group-2 {
+        width: 100%;
+    }
+    .timeline-my-profile__body-avatar-wrapper {
+        gap: 20px;
+        justify-content: center;
+    }
+    .timeline-my-profile__body-form-group-wrapper button {
+        margin: 25px auto 0 auto;
+    }
+    .timeline-my-profile__body-my-favourite-list {
+        width: fit-content;
+        margin: 15px auto 0 auto;
+    }
+    .timeline-my-profile__body-my-favourite-title {
+        text-align: center;
+    }
+    .timeline-my-profile__predictor-tournament-wrapper {
+        margin: 0 auto;
+    }
+}
+@media screen and (max-width: 380px) {
+}
