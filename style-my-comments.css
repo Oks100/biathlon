@@ -72,7 +72,7 @@
     margin-bottom: 2em;
     position: relative;
     gap: 20px 25px;
-    align-items: center;
+    /* align-items: center; */
     flex-wrap: wrap;
 }
 .timeline-my-comments__head > span:nth-child(1) {

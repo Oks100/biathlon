@@ -3459,7 +3459,7 @@ img[src*="flags"] {
     color: #73b5e5;
     border-color: #73b5e5;
   }
-  .timeline-team__body-table a:hover, .timeline-news__filters_type2 a:hover, .timeline-my-comments__body-name-user a:hover, .timer__more-information:not(.timer__more-information.last) a:hover, .timeline-broadcast-tv__title a:hover, .timeline-broadcast-tv .timeline-broadcast-tv-legend.last a:hover, .timeline-calendar a:not(.targets-block):hover, .timeline-results a:hover, .timeline-cup-statistics-table-maga-wrapper a:hover, .timeline__more-tables a:hover, .timeline-cup-statistics-table a:hover, .timeline-cup-result-discription a:hover, .timeline__body a:hover, .timeline__body-important-news a:hover, .timeline__speedbar a:hover, .timeline-cup-result__body tbody tr td:nth-child(3) a:hover {
+  .timeline-my-profile__body-my-favourite a:hover, .timeline-team__body-table a:hover, .timeline-news__filters_type2 a:hover, .timeline-my-comments__body-name-user a:hover, .timer__more-information:not(.timer__more-information.last) a:hover, .timeline-broadcast-tv__title a:hover, .timeline-broadcast-tv .timeline-broadcast-tv-legend.last a:hover, .timeline-calendar a:not(.targets-block):hover, .timeline-results a:hover, .timeline-cup-statistics-table-maga-wrapper a:hover, .timeline__more-tables a:hover, .timeline-cup-statistics-table a:hover, .timeline-cup-result-discription a:hover, .timeline__body a:hover, .timeline__body-important-news a:hover, .timeline__speedbar a:hover, .timeline-cup-result__body tbody tr td:nth-child(3) a:hover {
     border-bottom: 1px solid #73b5e5;
   }
   .timeline__body-important-news {
