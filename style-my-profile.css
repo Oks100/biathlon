@@ -434,7 +434,7 @@ input:focus::placeholder, .input-text-2:focus::placeholder {
     gap: 10px;
 }
 
-.total-comments-numbers {
+/* .total-comments-numbers {
     padding: 6px 8px;
     background-color: #d1ebfb;
     border-radius: 33px;
@@ -446,7 +446,7 @@ input:focus::placeholder, .input-text-2:focus::placeholder {
     align-items: center;
     min-width: 30px;
     justify-content: center;
-}
+} */
 
 @media (hover: hover) {
     .timeline-my-profile__body-avatar-upload:hover {
