@@ -166,13 +166,14 @@
 }
 .timeline-my-profile__body-form-group-wrapper button {
     display: flex;
-    padding: 8.5px 20px;
+    padding: 8.5px 15px;
     background-color: #e7f3fa;
     border-radius: 33px;
     margin-top: 15px;
     transition: all .3s ease;
     -webkit-tap-highlight-color: transparent;
     color: #002b71;
+    font-size: 1em;
 }
 .timeline-my-profile__predictor-tournament {
     text-align: center;
@@ -210,7 +211,6 @@
         border-color: #c0e5fb;
     }
 }
-
 @media screen and (max-width: 600px) {
     .timeline-my-profile {
         padding: 2em 1.06em 1.75em 1.06em;
