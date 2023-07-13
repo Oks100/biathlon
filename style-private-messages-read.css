@@ -1,0 +1,174 @@
+#tippy-16 {
+    width: auto;
+}
+#tippy-16 .tippy-content {
+    overflow: hidden;
+}
+#tippy-16 ul li a {
+    color: black !important;
+    font-size: 13.5px !important;
+    text-transform: none !important;
+    padding: 0px 10px 0px 10px !important;
+    transition: 0s !important;
+    text-shadow: none !important;
+    width: 100%;
+    display: flex;
+}
+#tippy-16 ul li:last-of-type a {
+    border-bottom: none !important;
+}
+  
+#tippy-16 ul li::before, #tippy-16 ul li::after {
+    display: none !important;
+}
+  
+#tippy-16 ul li a:hover {
+    background-color: #ecf5fb;
+}
+#tippy-16 ul li {
+    white-space: nowrap;
+    line-height: 33px;
+}
+#tippy-16 ul li:last-of-type {
+    white-space: nowrap;
+    line-height: 33px;
+}
+#tippy-16 ul li:last-of-type a, #tippy-16 ul li:last-of-type a::before {
+    color: red !important;
+   }
+#tippy-16 ul li:first-of-type a::before {
+    content: "\e016";
+    font-family: 'icomoon';
+    margin-right: 7px;
+    font-size: 13px;
+    color: #81aad5;
+}
+#tippy-16 ul li:nth-child(2) a::before {
+    content: "\e015";
+    font-family: 'icomoon';
+    margin-right: 7px;
+    font-size: 13px;
+    color: #81aad5;
+}
+#tippy-16 ul li:last-of-type a::before {
+    content: "\e9b";
+    font-family: 'icomoon';
+    margin-right: 7px;
+    font-size: 13px;
+    color: #81aad5;
+}
+
+.timeline-private-messages {
+    padding: 2em 1.5em 1.75em 1.5em;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0px 5px 24px rgba(32,60,87,0.11);
+    overflow-x: hidden;
+}
+.timeline-private-messages__head {
+    display: flex;
+    justify-content: space-between;
+    /* margin-bottom: 1.5em; */
+    margin-bottom: 2em;
+    position: relative;
+    gap: 20px;
+    align-items: center;
+}
+.timeline-private-messages__head > span:nth-child(1) {
+    font-size: 1.3em;
+    color: black;
+    font-weight: 700;
+}
+
+.timeline-private-messages-title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px 25px;
+}
+.timeline-private-messages-ava-nick-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 9px;
+}
+.timeline-private-messages-avatar {
+    height: 50px;
+    position: relative;
+}
+.timeline-private-messages-avatar .logged {
+    position: absolute;
+    height: 12px;
+    width: 12px;
+    border: 2px solid #f9fdff;
+    border-radius: 50%;
+    background-color: #1bd212;
+    right: 1px;
+    top: 35px;
+    scale: 1;
+}
+.timeline-private-messages-username {
+    display: flex;
+    gap: 0 5px;
+    flex-wrap: wrap;
+}
+.timeline-private-messages-username a {
+    font-weight: 600;
+}
+.timeline-private-messages-controls {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.timeline-private-messages__remove-messages, .timeline-private-messages__my-contacts {
+    padding: 6px 15px;
+    background-color: #e7f3fa;
+    border-radius: 33px;
+    color: #002b71;
+    cursor: pointer;
+    transition: all .3s ease;
+}
+.timeline-private-messages__my-contacts {
+
+}
+.timeline-private-messages-table-wrapper {
+    display: flex;
+    max-height: 500px;
+    overflow: auto;
+    gap: 2em;
+    margin: 1em 0 2em 0;
+    flex-direction: column;
+}
+.timeline-private-messages-table {
+    padding: 0 3px;
+}
+.timeline-private-messages-table.question {
+    background-color: #e7f3fa;
+}
+.timeline-private-messages-table-date {
+    color: #1f7ec4;
+    font-weight: 600;
+}
+.timeline-private-messages-table-date span{
+    color: black;
+}
+
+.text-field {
+    /* padding: 10px 10px 75.8px 10px; */
+}
+
+@media (hover: hover) {
+    .timeline-private-messages__remove-messages:hover, .timeline-private-messages__my-contacts:hover {
+        background-color: #d1ebfb;
+      }
+}
+
+@media screen and (max-width: 550px) {
+    .timeline-private-messages {
+        padding: 2em 1.06em 1.75em 1.06em;
+    }
+}
+@media screen and (max-width: 380px) {
+}

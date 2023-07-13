@@ -277,6 +277,17 @@
     position: relative;
     height: 50px;
 }
+.timeline-private-messages__item-avatar .logged {
+    position: absolute;
+    height: 12px;
+    width: 12px;
+    border: 2px solid #f9fdff;
+    border-radius: 50%;
+    background-color: #1bd212;
+    right: 1px;
+    top: 35px;
+    scale: 1;
+}
 .timeline-private-messages__item-username {
     
 }

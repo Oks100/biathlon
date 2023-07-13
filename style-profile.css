@@ -73,7 +73,8 @@
     position: relative;
     gap: 20px 25px;
     /* align-items: center; */
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
+    align-items: center;
 }
 .timeline-my-profile__head > span:first-child {
     font-size: 1.3em;
@@ -89,6 +90,20 @@
     display: flex;
     margin-top: 1.5em;
     font-weight: 600;
+}
+
+
+.logged-block {
+    display: flex;
+    height: 8px;
+    width: 8px;
+    background-color: #1bd212;
+    border-radius: 50%;
+    cursor: help;
+    flex-shrink: 0;
+    align-self: flex-start;
+    /* margin-top: 10.65px; */
+    margin-top: 11.5px;
 }
 
 .timeline-my-profile__body {

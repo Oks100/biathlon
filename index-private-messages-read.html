@@ -8,7 +8,7 @@
   <title>Биатлон</title>
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="style-comments.css">
-  <link rel="stylesheet" href="style-profile.css">
+  <link rel="stylesheet" href="style-private-messages-read.css">
   <link rel="stylesheet" href="fonts/icomoon/style.css">
   <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
@@ -201,7 +201,7 @@
                               <li><a href="#"><span class="list-center">Интервью</span></a></li>
                               <li><a href="#"><span class="list-center">Пресса</span></a></li>
                               <li><a href="#"><span class="list-center">Голосования</span></a></li>
-                              <li><a href="/biathlon/index-broadcast-tv.html"><span class="list-center">Трансляции на ТВ</span></a></li>
+                              <li><a href="/biathlon/index-private-messages.html"><span class="list-center">Трансляции на ТВ</span></a></li>
                               <li><a href="#"><span class="list-center">Сайты о биатлоне</span></a></li>
                               <li><a href="#"><span class="list-center">Контакты</span></a></li>
                             </ul>
@@ -298,7 +298,7 @@
                             <li><a href="#"><span class="list-center">Интервью</span></a></li>
                             <li><a href="#"><span class="list-center">Пресса</span></a></li>
                             <li><a href="#"><span class="list-center">Голосования</span></a></li>
-                            <li><a href="/biathlon/index-broadcast-tv.html"><span class="list-center">Трансляции на ТВ</span></a></li>
+                            <li><a href="/biathlon/index-private-messages.html"><span class="list-center">Трансляции на ТВ</span></a></li>
                             <li><a href="#"><span class="list-center">Сайты о биатлоне</span></a></li>
                             <li><a href="#"><span class="list-center">Контакты</span></a></li>
                           </ul>
@@ -335,222 +335,138 @@
         <div class="timeline__speedbar">
           <a href="/biathlon">Главная</a>
           <span class="delimiter"></span>
-          <span class="timeline__speedbar-title">Профайл пользователя</span>
+          <span class="timeline__speedbar-title">Личные сообщения</span>
         </div>
-        <div class="timeline-my-profile">
-          <div class="timeline-my-profile__head">
-            <span>Профайл пользователя <span>Eugen</span>
+        <div class="timeline-private-messages">
+          <div class="timeline-private-messages__head">
+            <span>Личные сообщения 
             </span>
-            <span class="logged-block" title="Онлайн"></span>
           </div>
-          <div class="timeline-my-profile__body">
-            <div class="timeline-my-profile__body-avatar-wrapper">
-              <div class="timeline-my-profile__body-avatar-image">
-                <svg class="discussion-male" version="1.0" xmlns="http://www.w3.org/2000/svg" width="50" height="50"
-                viewBox="0 0 50 50">
-                <path
-                  d="M17.7 1.4C3.1 6.8-3.8 22.5 2.6 35.3c7.9 15.6 27.7 19.1 39.8 7.1 9.6-9.7 9.6-25.1 0-34.8-6.4-6.3-17.1-9-24.7-6.2zm13.8 3.7c2.3.7 5.7 2.8 8.1 5.3 7.8 7.8 8.5 19.3 1.6 27.6-2.8 3.2-3 3.3-6 2.1-3.9-1.6-3.9-2.5-.7-7.3 2.3-3.4 2.5-4.3 1.9-10.8-.5-4.7-1.3-7.7-2.5-9.2-1.1-1.1-1.9-2.7-1.9-3.5 0-1.8-7-1.7-11.5.1-4.6 1.9-6.2 4.9-6.9 12.9-.6 6.1-.4 7.1 1.9 10.4 3.2 4.8 3.2 5.8-.6 7.4-3 1.2-3.3 1.1-6-1.9-6.7-7.5-6.3-19.6.9-27.4 5.7-6 13.2-8 21.7-5.7zm.9 13.6c1.9 6.6 1.7 9.1-.8 13.1-4.2 6.8-9 6.8-13.2 0-2.2-3.5-2.5-4.7-1.9-8.7.4-2.5.9-4.9 1.2-5.4.2-.4 3.5-.7 7.3-.7 5.7 0 7 .3 7.4 1.7zm-2.4 23c0 1.6-.8 2.5-2.5 2.9-4 1-7.5-.3-7.5-2.9 0-2 .5-2.2 5-2.2s5 .2 5 2.2z" />
-              </svg>
+          <div class="timeline-private-messages__body">
+            <div class="timeline-private-messages-title">
+              <div class="timeline-private-messages-ava-nick-container">
+                <div class="timeline-private-messages-avatar">
+                  <svg class="discussion-female" version="1.0" xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 50 50"><path d="M17.7 1.4C3.1 6.8-3.8 22.5 2.6 35.3c7.9 15.6 27.7 19.1 39.8 7.1 9.6-9.7 9.6-25.1 0-34.8-6.4-6.3-17.1-9-24.7-6.2zm13.8 3.7c2.3.7 5.7 2.8 8.1 5.3 7.9 7.9 8.5 19.9 1.3 28.1-2.7 3.1-3.3 3.3-5.9 2.3-1.7-.5-3.2-1.4-3.5-1.9-.3-.5 1.5-2.8 4-5.2 5.4-5.2 5.8-8.4 2-16.4C34.7 11.2 30.3 8 24.8 8c-5.2 0-8.9 3.6-12.7 12.4-3.2 7.1-3.2 7.5-1.6 10 .9 1.4 3.2 3.5 5.1 4.7 4.2 2.6 4.3 3.6.2 5.4-3.2 1.4-3.4 1.3-6.5-1.9-7.1-7.6-6.9-19.8.5-27.8 5.7-6 13.2-8 21.7-5.7zM30 17.8c.8-.2 1.7 1.7 2.4 4.7 1.2 4.9 1.1 5.2-1.9 9.5-4.2 6-6.8 6-11 0-3.9-5.6-3.6-8.3 1.5-11.5 2.1-1.3 4.1-2.9 4.5-3.5.5-.8 1-.8 2 0 .7.6 1.8.9 2.5.8zM28.8 42c-.3 2.1-.8 2.5-3.8 2.5s-3.5-.4-3.8-2.5c-.3-2.4 0-2.5 3.8-2.5s4.1.1 3.8 2.5z"/></svg>
+                  <div class="logged"></div>
+                </div>
+                <div class="timeline-private-messages-username">
+                  <span><a href="/biathlon/index-profile.html">АнастасияЮ</a></span><span class="user-locality">(Одесса)</span>
+                </div>
               </div>
-              <div class="timeline-my-profile__body-avatar-upload-wrapper">
-                <table class="timeline-my-profile__body-avatar-table">
+              <div class="timeline-private-messages-controls">
+                <div class="timeline-private-messages__remove-messages">
+                  Очистить сообщения
+                </div>
+                <a href="/biathlon/index-private-messages.html" class="timeline-private-messages__my-contacts">
+                  Мои контакты
+                </a>
+              </div>
+            </div>
+            <div class="timeline-private-messages-table-wrapper" id="messages">
+              <div class="timeline-private-messages-table-item">
+                <table class="timeline-private-messages-table question">
                   <tbody>
-                  <tr>
-                  <td>Настоящее имя:</td>
-                  <td>Евгений</td>
+                    <tr class="timeline-private-messages-table-date">
+                      <td>АнастасияЮ <span>11.03.19 18:51</span></td>
+                      </tr>
+                      <tr>
+                      <td>Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов. 
+                        <br>
+                        <br>
+                        Lorem Ipsum не только успешно пережил без заметных изменений пять веков, но и перешагнул в электронный дизайн. Его популяризации в новое время послужили публикация листов Letraset с образцами Lorem Ipsum в 60-х годах и, в более недавнее время, программы электронной вёрстки типа Aldus PageMaker, в шаблонах которых используется Lorem Ipsum.</td>
+                      </tr>
+                  </tbody>
+                </table>
+              </div>
+              <div class="timeline-private-messages-table-item">
+                <table class="timeline-private-messages-table question">
+                  <tbody>
+                    <tr class="timeline-private-messages-table-date">
+                      <td>АнастасияЮ <span>11.03.19 18:53</span></td>
+                      </tr>
+                      <tr>
+                        <td>
+                          В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов. 
+                        </td>
+                      </tr>
+                  </tbody>
+                </table>
+              </div>
+              <div class="timeline-private-messages-table-item">
+                <table class="timeline-private-messages-table">
+                  <tbody>
+                    <tr class="timeline-private-messages-table-date">
+                      <td>Eugen <span>12.03.19 10:25</span></td>
+                      </tr>
+                      <tr>
+                      <td>Многие думают, что Lorem Ipsum - взятый с потолка псевдо-латинский набор слов, но это не совсем так. Его корни уходят в один фрагмент классической латыни 45 года н.э., то есть более двух тысячелетий назад. Ричард МакКлинток, профессор латыни из колледжа Hampden-Sydney, штат Вирджиния, взял одно из самых странных слов в Lorem Ipsum, "consectetur", и занялся его поисками в классической латинской литературе. 
+                        <br>
+                        <br>
+                        В результате он нашёл неоспоримый первоисточник Lorem Ipsum в разделах 1.10.32 и 1.10.33 книги "de Finibus Bonorum et Malorum" ("О пределах добра и зла"), написанной Цицероном в 45 году н.э. Этот трактат по теории этики был очень популярен в эпоху Возрождения. Первая строка Lorem Ipsum, "Lorem ipsum dolor sit amet..", происходит от одной из строк в разделе 1.10.32</td>
+                      </tr>
+                  </tbody>
+                </table>
+              </div>
+              <div class="timeline-private-messages-table-item">
+                <table class="timeline-private-messages-table question">
+                  <tbody>
+                    <tr class="timeline-private-messages-table-date">
+                      <td>АнастасияЮ <span>12.03.19 11:42</span></td>
+                    </tr>
                   </tr>
-                  <tr>
-                  <td>Пол:</td>
-                  <td>Мужской</td>
-                  </tr>
-                  <tr>
-                  <td>Возраст:</td>
-                  <td>45</td>
-                  </tr>
-                  <tr>
-                  <td>Место жительства:</td>
-                  <td>Украина, Харків</td>
-                  </tr>
-                  <tr>
-                  <td>Страница в соцсетях:</td>
-                  <td></td>
-                  </tr>
-                  <tr>
-                  <td>Первый год увлечения биатлоном:</td>
-                  <td>1988</td>
-                  </tr>
-                  <tr>
-                  <td>Всего комментариев:</td>
-                  <td><span class="total-comments-numbers">1368</span></td>
-                  </tr>
-                  <tr>
-                  <td>Общая меткость:</td>
-                  <td>94%</td>
-                  </tr>
-                  <tr>
-                  <td>Дата регистрации:</td>
-                  <td>10.02.2006</td>
+                  <td>Давно выяснено, что при оценке дизайна и композиции читаемый текст мешает сосредоточиться. Lorem Ipsum используют потому, что тот обеспечивает более или менее стандартное заполнение шаблона, а также реальное распределение букв и пробелов в абзацах, которое не получается при простой дубликации "Здесь ваш текст.. Здесь ваш текст.. Здесь ваш текст.." Многие программы электронной вёрстки и редакторы HTML используют Lorem Ipsum в качестве текста по умолчанию, так что поиск по ключевым словам "lorem ipsum" сразу показывает, как много веб-страниц всё ещё дожидаются своего настоящего рождения. За прошедшие годы текст Lorem Ipsum получил много версий. Некоторые версии появились по ошибке, некоторые - намеренно (например, юмористические варианты).</td>
                   </tr>
                   </tbody>
-                  </table>
-            </div>
-            </div>
-            <div class="timeline-my-profile__body-form-group-wrapper">
-              <div class="timeline-my-profile__body-form-group">
-                <div class="timeline-my-profile__body-form-group-1">
-                  <div class="timeline-my-profile__body-my-favourite-title">
-                    Болеет за такие нации:
-                  </div>
-                  <ul class="timeline-my-profile__body-my-favourite-list">
-                    <li><img src="img/flags2/Greenland.png" alt=""> 
-                      <p><a href="#">Гренландия</a></p>
-                    </li>
-                    <li><img src="img/flags2/Ukraine.png" alt=""> 
-                      <p><a href="#">Украина</a></p>
-                    </li>
-                  </ul>
-                </div>
-                <div class="timeline-my-profile__body-form-group-2">
-                  <div class="timeline-my-profile__body-my-favourite-title">
-                    Личные сообщения:
-                  </div>
-                  <button class="send-personal-message">Отправить личное сообщение</button>
-                </div>
-                <div>
+                </table>
               </div>
-            </div>
-            <div class="timeline-my-profile__body-form-group">
-              <div class="timeline-my-profile__body-form-group-1">
-                <div class="timeline-my-profile__body-my-favourite-title">
-                  Болеет за таких спортсменов:
-                </div>
-                <ul class="timeline-my-profile__body-my-favourite-list">
-                  <li><img src="img/flags2/Ukraine.png" alt=""> 
-                    <p><a href="#">Анна Кривонос</a></p>
-                  </li>
-                  <li><img src="img/flags2/Ukraine.png" alt=""> 
-                    <p><a href="#">Артем Прима</a></p>
-                  </li>
-                  <li><img src="img/flags2/Ukraine.png" alt=""> 
-                    <p><a href="#">Богдан Цымбал</a></p>
-                  </li>
-                  <li><img src="img/flags2/Ukraine.png" alt=""> 
-                    <p><a href="#">Валя Семеренко</a></p>
-                  </li>
-                  <li><img src="img/flags2/Ukraine.png" alt=""> 
-                    <p><a href="#">Вита Семеренко</a></p>
-                  </li>
-                  <li><img src="img/flags2/Ukraine.png" alt=""> 
-                    <p><a href="#">Дарья Блашко</a></p>
-                  </li>
-                  <li><img src="img/flags2/Ukraine.png" alt=""> 
-                    <p><a href="#">Дмитрий Пидручный</a></p>
-                  </li>
-                  <li><img src="img/flags2/Ukraine.png" alt=""> 
-                    <p><a href="#">Елена Билосюк</a></p>
-                  </li>
-                  <li><img src="img/flags2/Ukraine.png" alt=""> 
-                    <p><a href="#">Степан Кинаш</a></p>
-                  </li>
-                  <li><img src="img/flags2/Ukraine.png" alt=""> 
-                    <p><a href="#">Юлия Журавок</a></p>
-                  </li>
-                </ul>
-              </div>
-              <div class="timeline-my-profile__body-form-group-2">
-                <div class="timeline-my-profile__body-my-favourite-title">
-                  Участие в турнире прогнозистов:
-                </div>
-                <div class="timeline-my-profile__predictor-tournament-wrapper">
-                  <table class="timeline-my-profile__predictor-tournament">
-                    <thead>
+              <div class="timeline-private-messages-table-item">
+                <table class="timeline-private-messages-table">
+                  <tbody>
+                    <tr>
+                      <td class="timeline-private-messages-table-date">
+                        Eugen <span>12.03.19 20:09</span></td>
+                      </tr>
                       <tr>
-                        <td>Сезон</td>
-                        <td>Место</td>
-                        <td>Очки</td>
-                        </tr>
-                    </thead>
-                    <tbody>
-                    <tr>
-                    <td><a href="#">2009/2010</a></td>
-                    <td>23</td>
-                    <td><a href="#">619</a></td>
-                    </tr>
-                    <tr>
-                    <td><a href="#">2010/2011</a></td>
-                    <td>6</td>
-                    <td><a href="#">747</a></td>
-                    </tr>
-                    <tr>
-                    <td><a href="#">2011/2012</a></td>
-                    <td>171</td>
-                    <td><a href="#">746</a></td>
-                    </tr>
-                    <tr>
-                    <td><a href="#">2012/2013</a></td>
-                    <td>28</td>
-                    <td><a href="#">1257</a></td>
-                    </tr>
-                    <tr>
-                    <td><a href="#">2013/2014</a></td>
-                    <td>147</td>
-                    <td><a href="#">1022</a></td>
-                    </tr>
-                    <tr>
-                    <td><a href="#">2014/2015</a></td>
-                    <td>25</td>
-                    <td><a href="#">1296</a></td>
-                    </tr>
-                    <tr>
-                    <td><a href="#">2015/2016</a></td>
-                    <td>131</td>
-                    <td><a href="#">1274</a></td>
-                    </tr>
-                    <tr>
-                    <td><a href="#">2016/2017</a></td>
-                    <td>235</td>
-                    <td><a href="#">1312</a></td>
-                    </tr>
-                    <tr>
-                    <td><a href="#">2017/2018</a></td>
-                    <td>172</td>
-                    <td><a href="#">968</a></td>
-                    </tr>
-                    <tr>
-                    <td><a href="#">2018/2019</a></td>
-                    <td>81</td>
-                    <td><a href="#">1325</a></td>
-                    </tr>
-                    <tr>
-                    <td><a href="#">2019/2020</a></td>
-                    <td>142</td>
-                    <td><a href="#">1199</a></td>
-                    </tr>
-                    <tr>
-                    <td><a href="#">2020/2021</a></td>
-                    <td>137</td>
-                    <td><a href="#">1400</a></td>
-                    </tr>
-                    <tr>
-                    <td><a href="#">2021/2022</a></td>
-                    <td>164</td>
-                    <td><a href="#">945</a></td>
-                    </tr>
-                    <tr>
-                    <td><a href="#">2022/2023</a></td>
-                    <td>60</td>
-                    <td><a href="#">1434</a></td>
-                    </tr>
-                    </tbody>
-                    </table>
-                </div>
+                      <td>Есть много вариантов Lorem Ipsum, но большинство из них имеет не всегда приемлемые модификации, например, юмористические вставки или слова, которые даже отдалённо не напоминают латынь. Если вам нужен Lorem Ipsum для серьёзного проекта, вы наверняка не хотите какой-нибудь шутки, скрытой в середине абзаца. 
+                        <br>
+                        <br>
+                        Также все другие известные генераторы Lorem Ipsum используют один и тот же текст, который они просто повторяют, пока не достигнут нужный объём. Это делает предлагаемый здесь генератор единственным настоящим Lorem Ipsum генератором. Он использует словарь из более чем 200 латинских слов, а также набор моделей предложений. В результате сгенерированный Lorem Ipsum выглядит правдоподобно, не имеет повторяющихся абзацей или "невозможных" слов.</td>
+                      </tr>
+                  </tbody>
+                </table>
               </div>
-              <div>
+              <div class="timeline-private-messages-table-item">
+                <table class="timeline-private-messages-table question">
+                  <tbody>
+                    <tr>
+                      <td class="timeline-private-messages-table-date">
+                        АнастасияЮ <span>02.03.23 18:57</span></td>
+                      </tr>
+                      <tr>
+                      <td>Классический текст Lorem Ipsum, используемый с XVI века, приведён ниже. Также даны разделы "de Finibus Bonorum et Malorum" Цицерона и их английский перевод, сделанный H. Rackham, 1914 год.</td>
+                      </tr>
+                  </tbody>
+                </table>
+              </div>
             </div>
+            <div class="textarea">
+              <textarea id="text-field3" class="text-field text-field3" placeholder="Написать комментарий..."></textarea>
+              <div class="toolbar-list">
+                <div class="toolbar-content">
+                  <div class="toolbar2">
+                    <div class="toolbar-button2" title="Жирный"></div>
+                    <div class="toolbar-button2" title="Курсив"></div>
+                    <div class="toolbar-button2" title="Подчеркнутый"></div>
+                    <div class="toolbar-button2" title="Зачеркнутый"></div>
+                    <div class="toolbar-button2" title="Ссылка"></div>
+                    <div class="toolbar-button2" title="Цитата"></div>
+                  </div>
+                </div>
+                <button id="toolbar-message-button" class="toolbar-message-button-edit" type="submit"><p class="button-text">Отправить</p><p class="button-icon-edit-i"></p></button>
+              </div>                   
+              </div>
           </div>
-            </div>
-            </div>
-      </div>
+        </div>
         <div class="timeline__item hide">
           <div class="timeline__head">
             <a href="#">День народження Богдана Цимбала!</a>
@@ -2420,7 +2336,7 @@
                 <li><a href="#" class="vertical-menu-block__link">Интервью</a></li>
                 <li><a href="#" class="vertical-menu-block__link">Пресса</a></li>
                 <li><a href="#" class="vertical-menu-block__link">Голосования</a></li>
-                <li><a href="/biathlon/index-broadcast-tv.html" class="vertical-menu-block__link">Трансляции на ТВ</a></li>
+                <li><a href="/biathlon/index-private-messages.html" class="vertical-menu-block__link">Трансляции на ТВ</a></li>
                 <li><a href="#" class="vertical-menu-block__link">Сайты о биатлоне</a></li>
                 <li><a href="#" class="vertical-menu-block__link">Контакты</a></li>
               </ul>
@@ -2541,7 +2457,7 @@
             </div>
           </div>
           <div class="next-translation-block__footer footer__all">
-            <a href="/biathlon/index-broadcast-tv.html" class="learn-more">
+            <a href="/biathlon/index-private-messages.html" class="learn-more">
               <span class="circle-element" aria-hidden="true">
                 <span class="circle-element__icon"></span>
               </span>
@@ -3627,7 +3543,7 @@
             </div>
           </div>
           <div class="next-translation-block__footer footer__all">
-            <a href="/biathlon/index-broadcast-tv.html" class="learn-more">
+            <a href="/biathlon/index-private-messages.html" class="learn-more">
               <span class="circle-element" aria-hidden="true">
                 <span class="circle-element__icon"></span>
               </span>
@@ -4928,7 +4844,7 @@
                 <li><a href="#">Интервью</a></li>
                 <li><a href="#">Пресса</a></li>
                 <li><a href="#">Голосования</a></li>
-                <li><a href="/biathlon/index-broadcast-tv.html">Трансляции на ТВ</a></li>
+                <li><a href="/biathlon/index-private-messages.html">Трансляции на ТВ</a></li>
                 <li><a href="#">Сайты о биатлоне</a></li>
                 <li><a href="#">Профайлы</a></li>
                 <li><a href="#">Обои</a></li>
@@ -4999,7 +4915,7 @@
             <li><a href="#">Интервью</a></li>
             <li><a href="#">Пресса</a></li>
             <li><a href="#">Голосования</a></li>
-            <li><a href="/biathlon/index-broadcast-tv.html">Трансляции на ТВ</a></li>
+            <li><a href="/biathlon/index-private-messages.html">Трансляции на ТВ</a></li>
             <li><a href="#">Сайты о биатлоне</a></li>
             <li><a href="#">Профайлы</a></li>
             <li><a href="#">Обои</a></li>
@@ -5324,7 +5240,7 @@
           <div class="timer__more-information last">
             <span class="timer__more-timer">Статус:<span class="race-continues">гонка началась</span>
             </span>
-            <a href="/biathlon/index-broadcast-tv.html" class="timer__more-translation">Трансляции</a>
+            <a href="/biathlon/index-private-messages.html" class="timer__more-translation">Трансляции</a>
           </div>
         </div>
         <div class="mobile-timer__more-events-content">
@@ -5346,7 +5262,7 @@
                 <span class="timer__minutes"></span><span class="timer_plus">м</span>
                 <span class="timer__seconds"></span><span class="timer_plus">с</span>
               </span></span>
-            <a href="/biathlon/index-broadcast-tv.html" class="timer__more-translation">Трансляции</a>
+            <a href="/biathlon/index-private-messages.html" class="timer__more-translation">Трансляции</a>
           </div>
         </div>
         <div class="mobile-timer__more-events-content">
@@ -5368,7 +5284,7 @@
                 <span class="timer__minutes2"></span><span class="timer_plus">м</span>
                 <span class="timer__seconds2"></span><span class="timer_plus">с</span>
               </span></span>
-            <a href="/biathlon/index-broadcast-tv.html" class="timer__more-translation">Трансляции</a>
+            <a href="/biathlon/index-private-messages.html" class="timer__more-translation">Трансляции</a>
           </div>
         </div>
         <div class="mobile-timer__more-events-content">
@@ -5390,7 +5306,7 @@
                 <span class="timer__minutes3"></span><span class="timer_plus">м</span>
                 <span class="timer__seconds3"></span><span class="timer_plus">с</span>
               </span></span>
-            <a href="/biathlon/index-broadcast-tv.html" class="timer__more-translation">Трансляции</a>
+            <a href="/biathlon/index-private-messages.html" class="timer__more-translation">Трансляции</a>
           </div>
         </div>
       </div>
@@ -7924,7 +7840,7 @@
           Киеве + 1:00</div>
         <div class="timer__more-information last">
           <span class="timer__more-timer">Статус:<span class="race-continues">гонка началась</span></span>
-          <span class="timer__more-translation"><a href="/biathlon/index-broadcast-tv.html">Трансляции</a></span>
+          <span class="timer__more-translation"><a href="/biathlon/index-private-messages.html">Трансляции</a></span>
         </div>
       </div>
       <div class="timer__more-item">
@@ -7934,7 +7850,7 @@
           Киеве + 1:00</div>
         <div class="timer__more-information last">
           <span class="timer__more-timer">До старта:<span class="race-waiting">0д 0ч 58м 23с</span></span>
-          <span class="timer__more-translation"><a href="/biathlon/index-broadcast-tv.html">Трансляции</a></span>
+          <span class="timer__more-translation"><a href="/biathlon/index-private-messages.html">Трансляции</a></span>
         </div>
       </div>
       <div class="timer__more-item">
@@ -7944,7 +7860,7 @@
           Киеве + 1:00</div>
         <div class="timer__more-information last">
           <span class="timer__more-timer">До старта:<span class="race-waiting">0д 1ч 58м 23с</span></span>
-          <span class="timer__more-translation"><a href="/biathlon/index-broadcast-tv.html">Трансляции</a></span>
+          <span class="timer__more-translation"><a href="/biathlon/index-private-messages.html">Трансляции</a></span>
         </div>
       </div>
       <div class="timer__more-item">
@@ -7954,7 +7870,7 @@
           Киеве + 1:00</div>
         <div class="timer__more-information last">
           <span class="timer__more-timer">До старта:<span class="race-waiting">0д 1ч 58м 23с</span></span>
-          <span class="timer__more-translation"><a href="/biathlon/index-broadcast-tv.html">Трансляции</a></span>
+          <span class="timer__more-translation"><a href="/biathlon/index-private-messages.html">Трансляции</a></span>
         </div>
       </div>
     </div>
