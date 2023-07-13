@@ -322,6 +322,7 @@
     display: flex;
     align-items: center;
     gap: 5px;
+    color: black;
 }
 .all-messages-icon {
     fill: #81aad5;

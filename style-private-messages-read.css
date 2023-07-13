@@ -154,11 +154,9 @@
 .timeline-private-messages-table-date span{
     color: black;
 }
-
-.text-field {
-    /* padding: 10px 10px 75.8px 10px; */
+.text-field:focus::placeholder {
+    color: transparent;
 }
-
 @media (hover: hover) {
     .timeline-private-messages__remove-messages:hover, .timeline-private-messages__my-contacts:hover {
         background-color: #d1ebfb;
