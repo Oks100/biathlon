@@ -1167,8 +1167,8 @@ $(document).ready(function(){
 
 	$(document).ready(function() {
 		$(".timeline-results__discription").each(function() {
-		  var button = $(this).find('.result-button'), // Find button inside current .timeline-results__discription block
-			  wrapper = $(this).find('.timeline-results__table-wrapper'); // Find wrapper inside current .timeline-results__discription block
+		  var button = $(this).find('.result-button'),
+			  wrapper = $(this).find('.timeline-results__table-wrapper')
 	  
 		  button.on("click", function() {
 			if (button.hasClass('active')) {
@@ -1183,3 +1183,55 @@ $(document).ready(function(){
 		  });
 		});
 	  });
+	  
+// Находим блок, который нужно прокрутить
+const block = document.getElementById('messages');
+
+// Прокручиваем блок в самый низ
+block.scrollTop = block.scrollHeight;
+
+
+/* Продвинутое автоувеличение поля ввода*/
+
+// Targets all textareas with class "text-field"
+let textareas2 = document.querySelectorAll('.text-field3'),
+    hiddenDiv2 = document.createElement('div'),
+    content2 = null;
+
+for (let j of textareas2) {
+  j.classList.add('txtstuff');
+}
+
+hiddenDiv2.classList.add('text-field3');
+
+hiddenDiv2.style.display = 'none';
+hiddenDiv2.style.whiteSpace = 'pre-wrap';
+hiddenDiv2.style.wordWrap = 'break-word';
+
+for(let i of textareas2) {
+  (function(i) {
+    i.addEventListener('input', function() {
+      
+      i.parentNode.appendChild(hiddenDiv2);
+      
+      i.style.resize = 'none';
+      
+      i.style.overflow = 'hidden';
+
+      content2 = i.value;
+
+      content2 = content2.replace(/\n/g, '<br>');
+      
+      hiddenDiv2.innerHTML = content2 + '<br style="line-height: 3px;">';
+
+      hiddenDiv2.style.visibility = 'hidden';
+      hiddenDiv2.style.display = 'block';
+	  i.style.height = hiddenDiv2.offsetHeight + 'px';
+
+      hiddenDiv2.style.visibility = 'visible';
+      hiddenDiv2.style.display = 'none';
+    });
+  })(i);
+}
+
+/* Продвинутое автоувеличение поля ввода*/
