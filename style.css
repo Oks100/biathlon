@@ -533,7 +533,9 @@ body {
     left: 0px;
     border-radius: 0px 0px 0px 8px;
   }
-  
+  .corners:hover, .header__profile[aria-expanded="true"] .corners {
+    text-shadow: none !important;
+  }
   .header-menu .header-menu__list li a.corners::after {
     position: absolute;
     content: "";
