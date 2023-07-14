@@ -168,5 +168,33 @@
         padding: 2em 1.06em 1.75em 1.06em;
     }
 }
+
+@media (max-width: 430px) {
+    #toolbar-message-button {
+      width: auto;
+      scale: 1;
+      margin-left: initial;
+    }
+    .button-icon-edit-i::before {
+        content: "";
+        font-family: 'icomoon';
+        color: #81aad5;
+        font-size: 1.20em;
+      }
+}
 @media screen and (max-width: 380px) {
+    .button-icon-edit-i::before {
+        content: "\e091";
+        font-family: 'icomoon';
+        color: #81aad5;
+        font-size: 1.20em;
+    }
+    #toolbar-message-button .button-text2 {
+        display: none;
+    }
+    #toolbar-message-button {
+        width: 33px;
+        scale: 1;
+        margin-left: 20px;
+    }
 }
