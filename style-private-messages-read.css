@@ -177,22 +177,12 @@
     }
     .button-icon-edit-i::before {
         content: "";
-        font-family: 'icomoon';
-        color: #81aad5;
-        font-size: 1.20em;
     }
 }
 @media (max-width: 379px) {
     .toolbar-list::before {
         position: initial;
-        content: "";
-        top: 0;
-        right: 57px;
-        bottom: 0px;
-        z-index: 1;
-        width: 20px;
-        background: linear-gradient(90deg, rgba(255,255,255,0) 0%, rgba(252,252,252,1) 100%);
-      }
+    }
 }
 @media screen and (max-width: 370px) {
     .button-icon-edit-i::before {
