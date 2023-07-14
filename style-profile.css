@@ -95,8 +95,8 @@
 
 .logged-block {
     display: flex;
-    height: 8px;
-    width: 8px;
+    height: 9px;
+    width: 9px;
     background-color: #1bd212;
     border-radius: 50%;
     cursor: help;
@@ -104,6 +104,7 @@
     align-self: flex-start;
     /* margin-top: 10.65px; */
     margin-top: 11.5px;
+    scale: 1;
 }
 
 .timeline-my-profile__body {
