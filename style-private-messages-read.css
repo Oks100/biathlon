@@ -171,30 +171,30 @@
 
 @media (max-width: 430px) {
     #toolbar-message-button {
-      width: auto !important;
-      scale: 1 !important;
-      margin-left: initial !important;
+      width: auto;
+      scale: 1;
+      margin-left: initial;
     }
     .button-icon-edit-i::before {
-        content: "" !important;
-        font-family: 'icomoon' !important;
-        color: #81aad5 !important;
-        font-size: 1.20em !important;
+        content: "";
+        font-family: 'icomoon';
+        color: #81aad5;
+        font-size: 1.20em;
     }
 }
 @media screen and (max-width: 380px) {
     .button-icon-edit-i::before {
-        content: "\e091" !important;
-        font-family: 'icomoon' !important;
-        color: #81aad5 !important;
-        font-size: 1.20em !important;
+        content: "\e091";
+        font-family: 'icomoon';
+        color: #81aad5;
+        font-size: 1.20em;
     }
     #toolbar-message-button .button-text2 {
-        display: none !important;
+        display: none;
     }
     #toolbar-message-button {
-        width: 33px !important;
-        scale: 1 !important;
-        margin-left: 20px !important;
+        width: 33px;
+        scale: 1;
+        margin-left: 20px;
     }
 }
