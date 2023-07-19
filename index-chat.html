@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Биатлон</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style-comments.css">
+  <link rel="stylesheet" href="style-chat.css">
+  <link rel="stylesheet" href="fonts/icomoon/style.css">
+  <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
+  <link rel="manifest" href="img/favicon/site.webmanifest">
+  <link rel="mask-icon" href="img/favicon/safari-pinned-tab.svg" color="#5bbad5">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="theme-color" content="#ffffff">
+  <link rel="stylesheet" href="fonts/fontello/fontello.css">
+  <link rel="stylesheet" href="fonts/line-awesome/css/line-awesome.css">
+  <link rel="stylesheet"
+    href="https://maxst.icons8.com/vue-static/landings/line-awesome/font-awesome-line-awesome/css/all.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+  <link rel="stylesheet" href="https://unpkg.com/tippy.js@6/animations/scale.css" />
+  <link rel="stylesheet" href="https://unpkg.com/tippy.js@6/animations/perspective.css" />
+  <link rel="stylesheet" href="https://unpkg.com/tippy.js@6/animations/shift-away.css" />
+  <link rel="stylesheet" href="https://unpkg.com/tippy.js@6/animations/shift-toward.css" />
+  <script src="https://kit.fontawesome.com/d70cc4a9aa.js" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+  <script src="js/jquery.mobile.custom.min.js"></script>
+</head>
+
+<body class="body">
+  <div class="wrapper">
+    <div class="layer__chat">
+      <div class="layer__chat-debates">
+        <div class="layer__chat-debates-tabs-body">
+          <div class="layer__chat-debates-tabs">
+            <a href="/biathlon" class="layer__chat-debates-tab tab-0">
+              <span>
+                <svg class="homepage-icon" version="1.0" xmlns="http://www.w3.org/2000/svg" width="682.6666667" height="682.6666667" viewBox="0 0 512 512"><path d="M248.7 53c-2.7.5-7.2 2-10 3.4-3.1 1.6-52 41.6-121.2 99.4C-4.7 257.7-1.3 254.6.3 261.2c.4 1.3 5.8 8.5 12.2 16 9.6 11.4 12.1 13.8 14.9 14.4 1.9.3 4.4.3 5.5-.1 1.1-.3 51.7-42 112.3-92.5 60.7-50.6 110.5-92 110.8-92 .3 0 50.1 41.4 110.8 92 60.6 50.5 111.2 92.2 112.3 92.5 1.1.4 3.6.4 5.5.1 2.8-.6 5.3-3 14.9-14.4 6.4-7.5 11.8-14.7 12.2-16 1.5-6.2.3-7.4-36.7-38.2l-35.5-29.6-.5-67.2-.5-67.2-2.8-2.7-2.7-2.8-32.3-.3c-21-.2-33.5 0-35.8.7-6.8 2-6.8 2.2-7.1 38.6l-.3 32.7-40.8-34c-43.7-36.5-45-37.4-57.2-38.5-3.3-.3-8.2-.2-10.8.3z"/><path d="M164.2 210.2 73 285.4v78c0 53.7.4 79.4 1.1 82.1 1.5 5.5 8.3 11.9 14.2 13.3 3.2.9 22.8 1.2 65.6 1.2H215V338h82v122h61.1c40.7 0 62.5-.4 65.3-1.1 5.6-1.4 11.4-6.2 13.7-11.3 1.8-3.9 1.9-8.4 1.9-83.2v-79l-90.9-74.9c-49.9-41.2-91.2-75-91.7-75.2-.5-.2-42 33.5-92.2 74.9z"/></svg>
+              </span>
+            </a>
+            <div class="layer__chat-debates-tab tab-1 active">
+              <span>Меткие выстрелы</span>
+            </div>
+            <div class="layer__chat-debates-tab tab-2">
+              <span>Полезные ссылки</span>
+            </div>
+          </div>
+          <div class="layer__chat-debates-tabs-title">
+            <span>Чат на сайте биатлона Украины</span>
+          </div>
+        </div>
+        <div class="layer__chat-debates-line"></div>
+        <div class="layer__chat-debates-table">
+          <table id="chat-messages">
+            <tbody>
+              <tr id="message-411673">
+                <td class="message-time">16:47</td>
+                <td data-time="16:47" class="message-name setClick">mj0</td>
+                <td class="message-text">Вот и Анстя с Юлей отмучались</td>
+              </tr>
+              <tr id="message-411674">
+                <td class="message-time">16:47</td>
+                <td data-time="16:47" class="message-name setClick">mj0</td>
+                <td class="message-text">*Настя</td>
+              </tr>
+              <tr id="message-411676">
+                <td class="message-time">16:49</td>
+                <td data-time="16:49" class="message-name setClick">Узорчик</td>
+                <td class="message-text">Секундочка, Хлоя</td>
+              </tr>
+              <tr id="message-411677">
+                <td class="message-time">16:50</td>
+                <td data-time="16:50" class="message-name setClick">Lissa</td>
+                <td class="message-text">ребята, а это правда, что Алена сказала, что она вынуждена оставаться в команде
+                  потому, что иначе она, как военнослужащая, может попасть на фронт? </td>
+              </tr>
+              <tr id="message-411678">
+                <td class="message-time">16:50</td>
+                <td data-time="16:50" class="message-name setClick">mj0</td>
+                <td class="message-text quote-user-icon">Lissa 16:50: было такое</td>
+              </tr>
+              <tr id="message-411680">
+                <td class="message-time">16:52</td>
+                <td data-time="16:52" class="message-name setClick">Lissa</td>
+                <td class="message-text quote-user-icon">mj0 16:50: хм... вопрос не столько в фронте, сколько в том, что это как бы
+                  неправильно, если она будет занимать место в команде не по показателям, а только потому, что это -
+                  защита. Может это как-то можно иначе решать, а не за счет места в команде?</td>
+              </tr>
+              <tr id="message-411681">
+                <td class="message-time">16:53</td>
+                <td data-time="16:53" class="message-name setClick">Миг</td>
+                <td class="message-text quote-user-icon">Lissa 16:50: ну как правда? журналисты написали)</td>
+              </tr>
+              <tr id="message-411682">
+                <td class="message-time">16:53</td>
+                <td data-time="16:53" class="message-name setClick">Lissa</td>
+                <td class="message-text quote-user-icon">Миг 16:53: но опровержения нет. Просто тишина.</td>
+              </tr>
+              <tr id="message-411683">
+                <td class="message-time">16:54</td>
+                <td data-time="16:54" class="message-name setClick">Узорчик</td>
+                <td class="message-text">Що за Альона?</td>
+              </tr>
+              <tr id="message-411684">
+                <td class="message-time">16:55</td>
+                <td data-time="16:55" class="message-name setClick">goldenvika</td>
+                <td class="message-text quote-user-icon">Lissa 16:52: Да просто особо ни чье место она не занимает - у нас особо и
+                  некому бегать:(((</td>
+              </tr>
+              <tr id="message-411685">
+                <td class="message-time">16:55</td>
+                <td data-time="16:55" class="message-name setClick">Marmaka</td>
+                <td class="message-text">Підгрушна</td>
+              </tr>
+              <tr id="message-411686">
+                <td class="message-time">16:56</td>
+                <td data-time="16:56" class="message-name setClick">Миг</td>
+                <td class="message-text quote-user-icon">Lissa 16:53: все как то тихо прошло. Хотя если смысл - спрятаться то не
+                  подберу слова</td>
+              </tr>
+              <tr id="message-411687">
+                <td class="message-time">16:56</td>
+                <td data-time="16:56" class="message-name setClick">mj0</td>
+                <td class="message-text quote-user-icon">Миг 16:53: есть видео, в котором она это говорит</td>
+              </tr>
+              <tr id="message-411688">
+                <td class="message-time">16:57</td>
+                <td data-time="16:57" class="message-name setClick">Миг</td>
+                <td class="message-text">кто писал что Селина молодая Нойнер. Даже не близко, скорость очень обычная
+                </td>
+              </tr>
+              <tr id="message-411689">
+                <td class="message-time">16:57</td>
+                <td data-time="16:57" class="message-name setClick">mj0</td>
+                <td class="message-text">в телеграме biathlonnews_com_ua пролистайте, оно есть</td>
+              </tr>
+              <tr id="message-411690">
+                <td class="message-time">16:58</td>
+                <td data-time="16:58" class="message-name setClick">Lissa</td>
+                <td class="message-text quote-user-icon">Миг 16:56: именно это меня и мучает</td>
+              </tr>
+              <tr id="message-411691">
+                <td class="message-time">16:59</td>
+                <td data-time="16:59" class="message-name setClick">Lissa</td>
+                <td class="message-text quote-user-icon">goldenvika 16:55: может, если бы надо было заполнить квоту, у нас наконец-то
+                  стали бы выводить не в 26 лет в команду, а в 20, как это в большинстве команд. </td>
+              </tr>
+              <tr id="message-411692">
+                <td class="message-time">17:00</td>
+                <td data-time="17:00" class="message-name setClick">Миг</td>
+                <td class="message-text quote-user-icon">Lissa 16:58: отчего мучает? человек ходил в политику а там подобный выбор -
+                  норма. </td>
+              </tr>
+              <tr id="message-411693">
+                <td class="message-time">17:00</td>
+                <td data-time="17:00" class="message-name setClick">mj0</td>
+                <td class="message-text quote-user-icon">Lissa 16:59: кого вводить, фамилии можете назвать? </td>
+              </tr>
+              <tr id="message-411694">
+                <td class="message-time">17:00</td>
+                <td data-time="17:00" class="message-name setClick">goldenvika</td>
+                <td class="message-text quote-user-icon">Lissa 16:59: а кого Вы из наших 20-летних имеете ввиду?</td>
+              </tr>
+              <tr id="message-411695">
+                <td class="message-time">17:02</td>
+                <td data-time="17:02" class="message-name setClick">Lissa</td>
+                <td class="message-text quote-user-icon">goldenvika 17:00: пока в мужскую команду не пришел Санитра, мы точно так же
+                  говорили о резерве мужской команды. А потом внезапно оказалось, что резерв есть и очень даже</td>
+              </tr>
+              <tr id="message-411696">
+                <td class="message-time">17:03</td>
+                <td data-time="17:03" class="message-name setClick">Миг</td>
+                <td class="message-text quote-user-icon">goldenvika 17:00: всех кто был на юниорском ЧМ брать с сборную на следующий
+                  сезон и пусть бегают. Мне как то все равно 61 или 104.</td>
+              </tr>
+              <tr id="message-411697">
+                <td class="message-time">17:04</td>
+                <td data-time="17:04" class="message-name setClick">Евгений</td>
+                <td class="message-text">Кроме Чалык не вижу хоть сколько-то адекватной замены Пидгрушной. Да и то, если
+                  добавит в ходе.<br>
+                  Старшая Городна совсем печально, а младшей Меркушиной стоит отбегать хотя бы 1 полный сезон кубка IBU
+                </td>
+              </tr>
+              <tr id="message-411698">
+                <td class="message-time">17:05</td>
+                <td data-time="17:05" class="message-name setClick">Lissa</td>
+                <td class="message-text quote-user-icon">Миг 17:03: это точно. Когда совершенно другие цели, то и люди раскрываются
+                  быстрее. </td>
+              </tr>
+              <tr id="message-411699">
+                <td class="message-time">17:05</td>
+                <td data-time="17:05" class="message-name setClick">goldenvika</td>
+                <td class="message-text quote-user-icon">Lissa 17:02: У нас у женщин пока нет своего Санитры ( и пока что не
+                  намечается) имеем что имеем</td>
+              </tr>
+              <tr id="message-411700">
+                <td class="message-time">17:05</td>
+                <td data-time="17:05" class="message-name setClick">Миг</td>
+                <td class="message-text">Лучшая наша с 0 проигрывает 20-летней с 2-мя. Краса!</td>
+              </tr>
+              <tr id="message-411701">
+                <td class="message-time">17:06</td>
+                <td data-time="17:06" class="message-name setClick">Lissa</td>
+                <td class="message-text quote-user-icon">goldenvika 17:05: на то, что имеем сейчас, никакой тренер не пойдет. А если
+                  дать выбор на молодую команду, то , может, и тренер какой согласится. </td>
+              </tr>
+              <tr id="message-411702">
+                <td class="message-time">17:07</td>
+                <td data-time="17:07" class="message-name setClick">goldenvika</td>
+                <td class="message-text quote-user-icon">Миг 17:03: А как же поступательное движение ? На кубке мира - сверхнагрузки
+                  на неокрепший организм могут привести к большим проблеммам со здоровьем. Молодежи хоть бы на кубке
+                  IBUзакрепиться<br>
+                </td>
+              </tr>
+              <tr id="message-411703">
+                <td class="message-time">17:07</td>
+                <td data-time="17:07" class="message-name setClick">mj0</td>
+                <td class="message-text quote-user-icon">Миг 17:05: И что? Сколько можно цепляться за возраст? Ну, просто быстрее эта
+                  20летняя всех наших и все, родилась она такой...</td>
+              </tr>
+              <tr id="message-411704">
+                <td class="message-time">17:09</td>
+                <td data-time="17:09" class="message-name setClick">Миг</td>
+                <td class="message-text quote-user-icon">goldenvika 17:07: другие как то справляются. А мы все результаты то
+                  обьективными причинами как фиговым листочком прикрываемся то поступательным движением к 26 годам на КМ
+                </td>
+              </tr>
+              <tr id="message-411705">
+                <td class="message-time">17:11</td>
+                <td data-time="17:11" class="message-name setClick">Миг</td>
+                <td class="message-text quote-user-icon">mj0 17:07: Ну да - у всех рождаются а у нас почему то нет. И потом разговор
+                  по сути о том что молодых надо уже брать в команду. Сколько можно по граблям ползать с кучей синяков
+                  на всех местах. </td>
+              </tr>
+              <tr id="message-411706">
+                <td class="message-time">17:14</td>
+                <td data-time="17:14" class="message-name setClick">Why_Me (!)</td>
+                <td class="message-text">Лена сегодня ещё и по скорости лучшая... А что там "молодежь"?))</td>
+              </tr>
+              <tr id="message-411707">
+                <td class="message-time">17:15</td>
+                <td data-time="17:15" class="message-name setClick">Эдельвейс</td>
+                <td class="message-text">Меняйте тренера или не меняйте, ставьте молодёжь или пусть бегают старики...
+                  Малло, что изменится. Пока биатлон не станет массовым видом спорта, с многими базами и детскими
+                  школами, и у нас не будет возможности выбирать не из десятка биатлонистов, а из сотни, всё останется
+                  на нынешнем уровне. Шанс на то, что родится талантливый спортсмен и с детства (юности) попадёт именно
+                  в биатлон - мизерны. В общем... нихрена нам не светит.</td>
+              </tr>
+              <tr id="message-411708">
+                <td class="message-time">17:15</td>
+                <td data-time="17:15" class="message-name setClick">mj0</td>
+                <td class="message-text quote-user-icon">Миг 17:11: Вы живете в каком-то абстрактном мире...было бы кого брать - нет
+                  вопросов. Но кого?</td>
+              </tr>
+              <tr id="message-411709">
+                <td class="message-time">17:18</td>
+                <td data-time="17:18" class="message-name setClick">Миг</td>
+                <td class="message-text quote-user-icon">Эдельвейс 17:15: А с чего вдруг мы стали олимпийскими чемпионами? Откуда у
+                  нас чемпионы мира и биатлонинсты которые входили в 10-ку КМ. У нас все что Вы перечислили было? Может
+                  все таки кто-то работал профессионально для этого. </td>
+              </tr>
+              <tr id="message-411710">
+                <td class="message-time">17:19</td>
+                <td data-time="17:19" class="message-name setClick">Эдельвейс</td>
+                <td class="message-text">Было... Да прошло.</td>
+              </tr>
+              <tr id="message-411711">
+                <td class="message-time">17:20</td>
+                <td data-time="17:20" class="message-name setClick">Lissa</td>
+                <td class="message-text quote-user-icon">mj0 17:15: в абстрактном мире живем мы. У Шведов тоже долго не было никого .
+                  А потом вдруг пришел Пихлер...</td>
+              </tr>
+              <tr id="message-411712">
+                <td class="message-time">17:21</td>
+                <td data-time="17:21" class="message-name setClick">Миг</td>
+                <td class="message-text quote-user-icon">Lissa 17:20: Да! Тренер , пожалуй даже не 50 а 70% успеха.</td>
+              </tr>
+              <tr id="message-411713">
+                <td class="message-time">17:21</td>
+                <td data-time="17:21" class="message-name setClick">Lissa</td>
+                <td class="message-text quote-user-icon">mj0 17:15: и вспомните, как мы стонали, что уйдут Дериземля, Семенов, Прима -
+                  и нам жопа. Резерва нет. А потом пришел Санитра. И на сейчас уже готовит Мандзина. И не боиться
+                  возраста. И заявил, что готов не смотреть на его результаты сейчас. Потому что его надо накатывать
+                </td>
+              </tr>
+              <tr id="message-411714">
+                <td class="message-time">17:24</td>
+                <td data-time="17:24" class="message-name setClick">mj0</td>
+                <td class="message-text quote-user-icon">Lissa 17:21: А Мандзина до Санитры не было, он внезапно материализовался?
+                </td>
+              </tr>
+              <tr id="message-411715">
+                <td class="message-time">17:26</td>
+                <td data-time="17:26" class="message-name setClick">Эдельвейс</td>
+                <td class="message-text">Если таланта нет, то ни один тренер не поможет. Рождённый плавать стрелять не
+                  сможет.</td>
+              </tr>
+              <tr id="message-411716">
+                <td class="message-time">17:28</td>
+                <td data-time="17:28" class="message-name setClick">Lissa</td>
+                <td class="message-text quote-user-icon">mj0 17:24: до Санитры он бы еще года три минимум бегал бы где угодно, но не
+                  на КМ. Ибо молодой</td>
+              </tr>
+              <tr id="message-411717">
+                <td class="message-time">17:41</td>
+                <td data-time="17:41" class="message-name setClick">Миг</td>
+                <td class="message-text quote-user-icon">Эдельвейс 17:26: так суть хорошего тренера - зреть талант, когда его еще
+                  никто не видит и работать с ним. </td>
+              </tr>
+              <tr id="message-411718">
+                <td class="message-time">18:04</td>
+                <td data-time="18:04" class="message-name setClick">Эдельвейс</td>
+                <td class="message-text">Таланты проявляются в детских школах. А когда тренер сборной выбирает из того,
+                  что есть, то тут и без него понятно кто кем есть. Например, "Динамовская" школа в футболе. С детства
+                  просеиваются тысячи. И остаются наиболее подходящие для этого вида спорта.</td>
+              </tr>
+              <tr id="message-411719">
+                <td class="message-time">13:51</td>
+                <td data-time="13:51" class="message-name setClick">alex2009</td>
+                <td class="message-text">скучная гонка</td>
+              </tr>
+              <tr id="message-411720">
+                <td class="message-time">13:52</td>
+                <td data-time="13:52" class="message-name setClick">Натали V</td>
+                <td class="message-text">Да ще не зрозуміло сумна чи ні? туманчик)</td>
+              </tr>
+              <tr id="message-411721">
+                <td class="message-time">13:55</td>
+                <td data-time="13:55" class="message-name setClick">alex2009</td>
+                <td class="message-text">27с за отсечку в МС - сильно</td>
+              </tr>
+              <tr id="message-411722">
+                <td class="message-time">13:55</td>
+                <td data-time="13:55" class="message-name setClick">alex2009</td>
+                <td class="message-text">на 1 круге</td>
+              </tr>
+              <tr id="message-411723">
+                <td class="message-time">13:57</td>
+                <td data-time="13:57" class="message-name setClick">Натали V</td>
+                <td class="message-text">гонка стає цікавішою </td>
+              </tr>
+              <tr id="message-411724">
+                <td class="message-time">14:19</td>
+                <td data-time="14:19" class="message-name setClick">Andrey 777</td>
+                <td class="message-text">Хартвег тащі</td>
+              </tr>
+              <tr id="message-411725">
+                <td class="message-time">14:24</td>
+                <td data-time="14:24" class="message-name setClick">alex2009</td>
+                <td class="message-text">Ніклас почав сезон з подіуму та завершив</td>
+              </tr>
+              <tr id="message-411726">
+                <td class="message-time">14:28</td>
+                <td data-time="14:28" class="message-name setClick">Why_Me (!)</td>
+                <td class="message-text">Цікава гонка, непередбачувана </td>
+              </tr>
+              <tr id="message-411727">
+                <td class="message-time">14:30</td>
+                <td data-time="14:30" class="message-name setClick">АнастасияЮ</td>
+                <td class="message-text">Николас красавчик</td>
+              </tr>
+              <tr id="message-411728">
+                <td class="message-time">14:32</td>
+                <td data-time="14:32" class="message-name setClick">anele</td>
+                <td class="message-text">Кристиансен выиграл Кубок по МС.</td>
+              </tr>
+              <tr id="message-411729">
+                <td class="message-time">14:41</td>
+                <td data-time="14:41" class="message-name setClick">Натали V</td>
+                <td class="message-text">Хартвег переміг Джакомеля)))</td>
+              </tr>
+              <tr id="message-411730">
+                <td class="message-time">16:15</td>
+                <td data-time="16:15" class="message-name setClick">alex2009</td>
+                <td class="message-text">У гонці битва за те хто раніше на пенсію піде</td>
+              </tr>
+              <tr id="message-411731">
+                <td class="message-time">16:21</td>
+                <td data-time="16:21" class="message-name setClick">Demedrol</td>
+                <td class="message-text">плеяда зірок іде одночасно ( залишається тільки баба Лєна і Доро</td>
+              </tr>
+              <tr id="message-411732">
+                <td class="message-time">16:23</td>
+                <td data-time="16:23" class="message-name setClick">kindderdenis</td>
+                <td class="message-text">Тирилл(</td>
+              </tr>
+              <tr id="message-411675">
+                <td class="message-time">16:47</td>
+                <td data-time="16:47" class="message-name me setClick">Eugen</td>
+                <td class="message-text">Все в порядке</td>
+              </tr>
+              <tr id="message-411733">
+                <td class="message-time">16:48</td>
+                <td data-time="16:48" class="message-name setClick">АнастасияЮ</td>
+                <td class="message-text">Ура! Какие же они классные</td>
+              </tr>
+              <tr id="message-411679">
+                <td class="message-time">16:50</td>
+                <td data-time="16:50" class="message-name setClick">Lissa</td>
+                <td class="message-text quote-user-icon"><span class="for-me"><b>Eugen</b></span> 16:47: так держать
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+      <div class="layer__chat-users">
+        <div class="layer__chat-debates-tabs-body">
+          <div class="layer__chat-debates-tabs">
+            <div class="layer__chat-debates-tab chat">
+              <span>На лыжне</span>
+            </div>
+          </div>
+        </div>
+        <div class="layer__chat-debates-line"></div>
+        <div class="layer__chat-users-list-body">
+          <div class="layer__chat-users-list-title">
+            <span>Все</span> (<span>25</span>)
+          </div>
+          <div class="layer__chat-users-list-wrapper">
+            <ul class="layer__chat-users-list">
+              <li><a href="/biathlon/index-profile.html"><svg class="profile-icon" version="1.0" xmlns="http://www.w3.org/2000/svg" width="693.3333333" height="693.3333333" viewBox="0 0 520 520"><path d="M243 4c-61.7 6.8-113.5 48.9-132.8 108-7.9 24.5-9.7 52.6-4.9 77.1 7.9 39.5 28.6 72.8 60.2 96.5 4.4 3.3 9.7 7.1 11.8 8.3 4.3 2.6 4.6 3.7 1.5 4.7-11.9 3.6-41.7 17.3-51.3 23.5-16 10.5-20.9 13.9-29.5 20.8-26.9 21.5-51.1 51.4-67 82.6-14.4 28.3-21.5 51.9-26.4 87.2l-.5 3.3h31.8l.5-3.3c2.9-16.9 3.8-21.6 6.5-30.7 9.5-33.3 24.2-60.5 47-87.2 8.9-10.4 26.8-27.1 35.7-33.2 17.7-12.2 31.6-20.2 44.9-25.6 31.5-12.9 52.7-17.3 91-19 29-1.3 44.4-4.8 66.2-15.1 20.3-9.7 35.4-21.1 50.7-38.5 25.1-28.5 38.7-64.9 38.7-103.5 0-62.5-37.4-119.1-95.1-144-10.4-4.5-27.3-9.4-37.5-10.9C274 3.5 252.6 3 243 4zm44 33.4c30.5 7.1 55.9 24 75 50.1 27.4 37.3 30.7 90 8.3 131.5-16.8 31.2-44.3 52.8-79.2 62.3-11.2 3.1-12.3 3.2-31.1 3.2s-19.9-.1-31.1-3.2c-31.4-8.5-56.9-26.9-74.3-53.3-8-12.2-12.2-21.9-16.2-37.3-10.8-42.4 1.2-87.2 31.6-117.8 19.3-19.3 42-31.6 67.5-36.4 10.1-1.8 39.9-1.3 49.5.9zM402.5 342.3c-4.3 4-9.7 8.8-11.8 10.7l-3.9 3.5 4.9 3.5c2.6 1.9 5.5 4 6.3 4.7 28.9 23.2 49.4 48.4 64.5 79.5 9.8 20 17.4 43.9 19.8 62.1l1.3 9.2 15.7.3 15.7.3v-2.8c0-14-10.2-53.4-18.7-72.3-4.4-9.9-11.7-24.3-14.7-28.9-15.2-23.8-24.3-35.4-39.9-51.2-8.7-8.8-28.8-25.9-30.4-25.9-.4 0-4.4 3.3-8.8 7.3z"/></svg></a><span>Lissa</span></li>
+              <li><a href="/biathlon/index-profile.html"><svg class="profile-icon" version="1.0" xmlns="http://www.w3.org/2000/svg" width="693.3333333" height="693.3333333" viewBox="0 0 520 520"><path d="M243 4c-61.7 6.8-113.5 48.9-132.8 108-7.9 24.5-9.7 52.6-4.9 77.1 7.9 39.5 28.6 72.8 60.2 96.5 4.4 3.3 9.7 7.1 11.8 8.3 4.3 2.6 4.6 3.7 1.5 4.7-11.9 3.6-41.7 17.3-51.3 23.5-16 10.5-20.9 13.9-29.5 20.8-26.9 21.5-51.1 51.4-67 82.6-14.4 28.3-21.5 51.9-26.4 87.2l-.5 3.3h31.8l.5-3.3c2.9-16.9 3.8-21.6 6.5-30.7 9.5-33.3 24.2-60.5 47-87.2 8.9-10.4 26.8-27.1 35.7-33.2 17.7-12.2 31.6-20.2 44.9-25.6 31.5-12.9 52.7-17.3 91-19 29-1.3 44.4-4.8 66.2-15.1 20.3-9.7 35.4-21.1 50.7-38.5 25.1-28.5 38.7-64.9 38.7-103.5 0-62.5-37.4-119.1-95.1-144-10.4-4.5-27.3-9.4-37.5-10.9C274 3.5 252.6 3 243 4zm44 33.4c30.5 7.1 55.9 24 75 50.1 27.4 37.3 30.7 90 8.3 131.5-16.8 31.2-44.3 52.8-79.2 62.3-11.2 3.1-12.3 3.2-31.1 3.2s-19.9-.1-31.1-3.2c-31.4-8.5-56.9-26.9-74.3-53.3-8-12.2-12.2-21.9-16.2-37.3-10.8-42.4 1.2-87.2 31.6-117.8 19.3-19.3 42-31.6 67.5-36.4 10.1-1.8 39.9-1.3 49.5.9zM402.5 342.3c-4.3 4-9.7 8.8-11.8 10.7l-3.9 3.5 4.9 3.5c2.6 1.9 5.5 4 6.3 4.7 28.9 23.2 49.4 48.4 64.5 79.5 9.8 20 17.4 43.9 19.8 62.1l1.3 9.2 15.7.3 15.7.3v-2.8c0-14-10.2-53.4-18.7-72.3-4.4-9.9-11.7-24.3-14.7-28.9-15.2-23.8-24.3-35.4-39.9-51.2-8.7-8.8-28.8-25.9-30.4-25.9-.4 0-4.4 3.3-8.8 7.3z"/></svg></a><span></span>Миг</li>
+              <li class="me"><a href="/biathlon/index-profile.html"><svg class="profile-icon" version="1.0" xmlns="http://www.w3.org/2000/svg" width="693.3333333" height="693.3333333" viewBox="0 0 520 520"><path d="M243 4c-61.7 6.8-113.5 48.9-132.8 108-7.9 24.5-9.7 52.6-4.9 77.1 7.9 39.5 28.6 72.8 60.2 96.5 4.4 3.3 9.7 7.1 11.8 8.3 4.3 2.6 4.6 3.7 1.5 4.7-11.9 3.6-41.7 17.3-51.3 23.5-16 10.5-20.9 13.9-29.5 20.8-26.9 21.5-51.1 51.4-67 82.6-14.4 28.3-21.5 51.9-26.4 87.2l-.5 3.3h31.8l.5-3.3c2.9-16.9 3.8-21.6 6.5-30.7 9.5-33.3 24.2-60.5 47-87.2 8.9-10.4 26.8-27.1 35.7-33.2 17.7-12.2 31.6-20.2 44.9-25.6 31.5-12.9 52.7-17.3 91-19 29-1.3 44.4-4.8 66.2-15.1 20.3-9.7 35.4-21.1 50.7-38.5 25.1-28.5 38.7-64.9 38.7-103.5 0-62.5-37.4-119.1-95.1-144-10.4-4.5-27.3-9.4-37.5-10.9C274 3.5 252.6 3 243 4zm44 33.4c30.5 7.1 55.9 24 75 50.1 27.4 37.3 30.7 90 8.3 131.5-16.8 31.2-44.3 52.8-79.2 62.3-11.2 3.1-12.3 3.2-31.1 3.2s-19.9-.1-31.1-3.2c-31.4-8.5-56.9-26.9-74.3-53.3-8-12.2-12.2-21.9-16.2-37.3-10.8-42.4 1.2-87.2 31.6-117.8 19.3-19.3 42-31.6 67.5-36.4 10.1-1.8 39.9-1.3 49.5.9zM402.5 342.3c-4.3 4-9.7 8.8-11.8 10.7l-3.9 3.5 4.9 3.5c2.6 1.9 5.5 4 6.3 4.7 28.9 23.2 49.4 48.4 64.5 79.5 9.8 20 17.4 43.9 19.8 62.1l1.3 9.2 15.7.3 15.7.3v-2.8c0-14-10.2-53.4-18.7-72.3-4.4-9.9-11.7-24.3-14.7-28.9-15.2-23.8-24.3-35.4-39.9-51.2-8.7-8.8-28.8-25.9-30.4-25.9-.4 0-4.4 3.3-8.8 7.3z"/></svg></a><span>Eugen</span></li>
+              <li><a href="/biathlon/index-profile.html"><svg class="profile-icon" version="1.0" xmlns="http://www.w3.org/2000/svg" width="693.3333333" height="693.3333333" viewBox="0 0 520 520"><path d="M243 4c-61.7 6.8-113.5 48.9-132.8 108-7.9 24.5-9.7 52.6-4.9 77.1 7.9 39.5 28.6 72.8 60.2 96.5 4.4 3.3 9.7 7.1 11.8 8.3 4.3 2.6 4.6 3.7 1.5 4.7-11.9 3.6-41.7 17.3-51.3 23.5-16 10.5-20.9 13.9-29.5 20.8-26.9 21.5-51.1 51.4-67 82.6-14.4 28.3-21.5 51.9-26.4 87.2l-.5 3.3h31.8l.5-3.3c2.9-16.9 3.8-21.6 6.5-30.7 9.5-33.3 24.2-60.5 47-87.2 8.9-10.4 26.8-27.1 35.7-33.2 17.7-12.2 31.6-20.2 44.9-25.6 31.5-12.9 52.7-17.3 91-19 29-1.3 44.4-4.8 66.2-15.1 20.3-9.7 35.4-21.1 50.7-38.5 25.1-28.5 38.7-64.9 38.7-103.5 0-62.5-37.4-119.1-95.1-144-10.4-4.5-27.3-9.4-37.5-10.9C274 3.5 252.6 3 243 4zm44 33.4c30.5 7.1 55.9 24 75 50.1 27.4 37.3 30.7 90 8.3 131.5-16.8 31.2-44.3 52.8-79.2 62.3-11.2 3.1-12.3 3.2-31.1 3.2s-19.9-.1-31.1-3.2c-31.4-8.5-56.9-26.9-74.3-53.3-8-12.2-12.2-21.9-16.2-37.3-10.8-42.4 1.2-87.2 31.6-117.8 19.3-19.3 42-31.6 67.5-36.4 10.1-1.8 39.9-1.3 49.5.9zM402.5 342.3c-4.3 4-9.7 8.8-11.8 10.7l-3.9 3.5 4.9 3.5c2.6 1.9 5.5 4 6.3 4.7 28.9 23.2 49.4 48.4 64.5 79.5 9.8 20 17.4 43.9 19.8 62.1l1.3 9.2 15.7.3 15.7.3v-2.8c0-14-10.2-53.4-18.7-72.3-4.4-9.9-11.7-24.3-14.7-28.9-15.2-23.8-24.3-35.4-39.9-51.2-8.7-8.8-28.8-25.9-30.4-25.9-.4 0-4.4 3.3-8.8 7.3z"/></svg></a><span>goldenvika</span></li>
+              <li><a href="/biathlon/index-profile.html"><svg class="profile-icon" version="1.0" xmlns="http://www.w3.org/2000/svg" width="693.3333333" height="693.3333333" viewBox="0 0 520 520"><path d="M243 4c-61.7 6.8-113.5 48.9-132.8 108-7.9 24.5-9.7 52.6-4.9 77.1 7.9 39.5 28.6 72.8 60.2 96.5 4.4 3.3 9.7 7.1 11.8 8.3 4.3 2.6 4.6 3.7 1.5 4.7-11.9 3.6-41.7 17.3-51.3 23.5-16 10.5-20.9 13.9-29.5 20.8-26.9 21.5-51.1 51.4-67 82.6-14.4 28.3-21.5 51.9-26.4 87.2l-.5 3.3h31.8l.5-3.3c2.9-16.9 3.8-21.6 6.5-30.7 9.5-33.3 24.2-60.5 47-87.2 8.9-10.4 26.8-27.1 35.7-33.2 17.7-12.2 31.6-20.2 44.9-25.6 31.5-12.9 52.7-17.3 91-19 29-1.3 44.4-4.8 66.2-15.1 20.3-9.7 35.4-21.1 50.7-38.5 25.1-28.5 38.7-64.9 38.7-103.5 0-62.5-37.4-119.1-95.1-144-10.4-4.5-27.3-9.4-37.5-10.9C274 3.5 252.6 3 243 4zm44 33.4c30.5 7.1 55.9 24 75 50.1 27.4 37.3 30.7 90 8.3 131.5-16.8 31.2-44.3 52.8-79.2 62.3-11.2 3.1-12.3 3.2-31.1 3.2s-19.9-.1-31.1-3.2c-31.4-8.5-56.9-26.9-74.3-53.3-8-12.2-12.2-21.9-16.2-37.3-10.8-42.4 1.2-87.2 31.6-117.8 19.3-19.3 42-31.6 67.5-36.4 10.1-1.8 39.9-1.3 49.5.9zM402.5 342.3c-4.3 4-9.7 8.8-11.8 10.7l-3.9 3.5 4.9 3.5c2.6 1.9 5.5 4 6.3 4.7 28.9 23.2 49.4 48.4 64.5 79.5 9.8 20 17.4 43.9 19.8 62.1l1.3 9.2 15.7.3 15.7.3v-2.8c0-14-10.2-53.4-18.7-72.3-4.4-9.9-11.7-24.3-14.7-28.9-15.2-23.8-24.3-35.4-39.9-51.2-8.7-8.8-28.8-25.9-30.4-25.9-.4 0-4.4 3.3-8.8 7.3z"/></svg></a><span>mj0</span></li>
+              <li class="red-color"><a href="/biathlon/index-profile.html"><svg class="profile-icon" version="1.0" xmlns="http://www.w3.org/2000/svg" width="693.3333333" height="693.3333333" viewBox="0 0 520 520"><path d="M243 4c-61.7 6.8-113.5 48.9-132.8 108-7.9 24.5-9.7 52.6-4.9 77.1 7.9 39.5 28.6 72.8 60.2 96.5 4.4 3.3 9.7 7.1 11.8 8.3 4.3 2.6 4.6 3.7 1.5 4.7-11.9 3.6-41.7 17.3-51.3 23.5-16 10.5-20.9 13.9-29.5 20.8-26.9 21.5-51.1 51.4-67 82.6-14.4 28.3-21.5 51.9-26.4 87.2l-.5 3.3h31.8l.5-3.3c2.9-16.9 3.8-21.6 6.5-30.7 9.5-33.3 24.2-60.5 47-87.2 8.9-10.4 26.8-27.1 35.7-33.2 17.7-12.2 31.6-20.2 44.9-25.6 31.5-12.9 52.7-17.3 91-19 29-1.3 44.4-4.8 66.2-15.1 20.3-9.7 35.4-21.1 50.7-38.5 25.1-28.5 38.7-64.9 38.7-103.5 0-62.5-37.4-119.1-95.1-144-10.4-4.5-27.3-9.4-37.5-10.9C274 3.5 252.6 3 243 4zm44 33.4c30.5 7.1 55.9 24 75 50.1 27.4 37.3 30.7 90 8.3 131.5-16.8 31.2-44.3 52.8-79.2 62.3-11.2 3.1-12.3 3.2-31.1 3.2s-19.9-.1-31.1-3.2c-31.4-8.5-56.9-26.9-74.3-53.3-8-12.2-12.2-21.9-16.2-37.3-10.8-42.4 1.2-87.2 31.6-117.8 19.3-19.3 42-31.6 67.5-36.4 10.1-1.8 39.9-1.3 49.5.9zM402.5 342.3c-4.3 4-9.7 8.8-11.8 10.7l-3.9 3.5 4.9 3.5c2.6 1.9 5.5 4 6.3 4.7 28.9 23.2 49.4 48.4 64.5 79.5 9.8 20 17.4 43.9 19.8 62.1l1.3 9.2 15.7.3 15.7.3v-2.8c0-14-10.2-53.4-18.7-72.3-4.4-9.9-11.7-24.3-14.7-28.9-15.2-23.8-24.3-35.4-39.9-51.2-8.7-8.8-28.8-25.9-30.4-25.9-.4 0-4.4 3.3-8.8 7.3z"/></svg></a><span>Андрій Столярчук</span></li>
+              <li><a href="/biathlon/index-profile.html"><svg class="profile-icon" version="1.0" xmlns="http://www.w3.org/2000/svg" width="693.3333333" height="693.3333333" viewBox="0 0 520 520"><path d="M243 4c-61.7 6.8-113.5 48.9-132.8 108-7.9 24.5-9.7 52.6-4.9 77.1 7.9 39.5 28.6 72.8 60.2 96.5 4.4 3.3 9.7 7.1 11.8 8.3 4.3 2.6 4.6 3.7 1.5 4.7-11.9 3.6-41.7 17.3-51.3 23.5-16 10.5-20.9 13.9-29.5 20.8-26.9 21.5-51.1 51.4-67 82.6-14.4 28.3-21.5 51.9-26.4 87.2l-.5 3.3h31.8l.5-3.3c2.9-16.9 3.8-21.6 6.5-30.7 9.5-33.3 24.2-60.5 47-87.2 8.9-10.4 26.8-27.1 35.7-33.2 17.7-12.2 31.6-20.2 44.9-25.6 31.5-12.9 52.7-17.3 91-19 29-1.3 44.4-4.8 66.2-15.1 20.3-9.7 35.4-21.1 50.7-38.5 25.1-28.5 38.7-64.9 38.7-103.5 0-62.5-37.4-119.1-95.1-144-10.4-4.5-27.3-9.4-37.5-10.9C274 3.5 252.6 3 243 4zm44 33.4c30.5 7.1 55.9 24 75 50.1 27.4 37.3 30.7 90 8.3 131.5-16.8 31.2-44.3 52.8-79.2 62.3-11.2 3.1-12.3 3.2-31.1 3.2s-19.9-.1-31.1-3.2c-31.4-8.5-56.9-26.9-74.3-53.3-8-12.2-12.2-21.9-16.2-37.3-10.8-42.4 1.2-87.2 31.6-117.8 19.3-19.3 42-31.6 67.5-36.4 10.1-1.8 39.9-1.3 49.5.9zM402.5 342.3c-4.3 4-9.7 8.8-11.8 10.7l-3.9 3.5 4.9 3.5c2.6 1.9 5.5 4 6.3 4.7 28.9 23.2 49.4 48.4 64.5 79.5 9.8 20 17.4 43.9 19.8 62.1l1.3 9.2 15.7.3 15.7.3v-2.8c0-14-10.2-53.4-18.7-72.3-4.4-9.9-11.7-24.3-14.7-28.9-15.2-23.8-24.3-35.4-39.9-51.2-8.7-8.8-28.8-25.9-30.4-25.9-.4 0-4.4 3.3-8.8 7.3z"/></svg></a><span>Эдельвейс</span></li>
+              <li><a href="/biathlon/index-profile.html"><svg class="profile-icon" version="1.0" xmlns="http://www.w3.org/2000/svg" width="693.3333333" height="693.3333333" viewBox="0 0 520 520"><path d="M243 4c-61.7 6.8-113.5 48.9-132.8 108-7.9 24.5-9.7 52.6-4.9 77.1 7.9 39.5 28.6 72.8 60.2 96.5 4.4 3.3 9.7 7.1 11.8 8.3 4.3 2.6 4.6 3.7 1.5 4.7-11.9 3.6-41.7 17.3-51.3 23.5-16 10.5-20.9 13.9-29.5 20.8-26.9 21.5-51.1 51.4-67 82.6-14.4 28.3-21.5 51.9-26.4 87.2l-.5 3.3h31.8l.5-3.3c2.9-16.9 3.8-21.6 6.5-30.7 9.5-33.3 24.2-60.5 47-87.2 8.9-10.4 26.8-27.1 35.7-33.2 17.7-12.2 31.6-20.2 44.9-25.6 31.5-12.9 52.7-17.3 91-19 29-1.3 44.4-4.8 66.2-15.1 20.3-9.7 35.4-21.1 50.7-38.5 25.1-28.5 38.7-64.9 38.7-103.5 0-62.5-37.4-119.1-95.1-144-10.4-4.5-27.3-9.4-37.5-10.9C274 3.5 252.6 3 243 4zm44 33.4c30.5 7.1 55.9 24 75 50.1 27.4 37.3 30.7 90 8.3 131.5-16.8 31.2-44.3 52.8-79.2 62.3-11.2 3.1-12.3 3.2-31.1 3.2s-19.9-.1-31.1-3.2c-31.4-8.5-56.9-26.9-74.3-53.3-8-12.2-12.2-21.9-16.2-37.3-10.8-42.4 1.2-87.2 31.6-117.8 19.3-19.3 42-31.6 67.5-36.4 10.1-1.8 39.9-1.3 49.5.9zM402.5 342.3c-4.3 4-9.7 8.8-11.8 10.7l-3.9 3.5 4.9 3.5c2.6 1.9 5.5 4 6.3 4.7 28.9 23.2 49.4 48.4 64.5 79.5 9.8 20 17.4 43.9 19.8 62.1l1.3 9.2 15.7.3 15.7.3v-2.8c0-14-10.2-53.4-18.7-72.3-4.4-9.9-11.7-24.3-14.7-28.9-15.2-23.8-24.3-35.4-39.9-51.2-8.7-8.8-28.8-25.9-30.4-25.9-.4 0-4.4 3.3-8.8 7.3z"/></svg></a><span>Узорчик</span></li>
+              <li><a href="/biathlon/index-profile.html"><svg class="profile-icon" version="1.0" xmlns="http://www.w3.org/2000/svg" width="693.3333333" height="693.3333333" viewBox="0 0 520 520"><path d="M243 4c-61.7 6.8-113.5 48.9-132.8 108-7.9 24.5-9.7 52.6-4.9 77.1 7.9 39.5 28.6 72.8 60.2 96.5 4.4 3.3 9.7 7.1 11.8 8.3 4.3 2.6 4.6 3.7 1.5 4.7-11.9 3.6-41.7 17.3-51.3 23.5-16 10.5-20.9 13.9-29.5 20.8-26.9 21.5-51.1 51.4-67 82.6-14.4 28.3-21.5 51.9-26.4 87.2l-.5 3.3h31.8l.5-3.3c2.9-16.9 3.8-21.6 6.5-30.7 9.5-33.3 24.2-60.5 47-87.2 8.9-10.4 26.8-27.1 35.7-33.2 17.7-12.2 31.6-20.2 44.9-25.6 31.5-12.9 52.7-17.3 91-19 29-1.3 44.4-4.8 66.2-15.1 20.3-9.7 35.4-21.1 50.7-38.5 25.1-28.5 38.7-64.9 38.7-103.5 0-62.5-37.4-119.1-95.1-144-10.4-4.5-27.3-9.4-37.5-10.9C274 3.5 252.6 3 243 4zm44 33.4c30.5 7.1 55.9 24 75 50.1 27.4 37.3 30.7 90 8.3 131.5-16.8 31.2-44.3 52.8-79.2 62.3-11.2 3.1-12.3 3.2-31.1 3.2s-19.9-.1-31.1-3.2c-31.4-8.5-56.9-26.9-74.3-53.3-8-12.2-12.2-21.9-16.2-37.3-10.8-42.4 1.2-87.2 31.6-117.8 19.3-19.3 42-31.6 67.5-36.4 10.1-1.8 39.9-1.3 49.5.9zM402.5 342.3c-4.3 4-9.7 8.8-11.8 10.7l-3.9 3.5 4.9 3.5c2.6 1.9 5.5 4 6.3 4.7 28.9 23.2 49.4 48.4 64.5 79.5 9.8 20 17.4 43.9 19.8 62.1l1.3 9.2 15.7.3 15.7.3v-2.8c0-14-10.2-53.4-18.7-72.3-4.4-9.9-11.7-24.3-14.7-28.9-15.2-23.8-24.3-35.4-39.9-51.2-8.7-8.8-28.8-25.9-30.4-25.9-.4 0-4.4 3.3-8.8 7.3z"/></svg></a><span>Marmaka</span></li>
+              <li><a href="/biathlon/index-profile.html"><svg class="profile-icon" version="1.0" xmlns="http://www.w3.org/2000/svg" width="693.3333333" height="693.3333333" viewBox="0 0 520 520"><path d="M243 4c-61.7 6.8-113.5 48.9-132.8 108-7.9 24.5-9.7 52.6-4.9 77.1 7.9 39.5 28.6 72.8 60.2 96.5 4.4 3.3 9.7 7.1 11.8 8.3 4.3 2.6 4.6 3.7 1.5 4.7-11.9 3.6-41.7 17.3-51.3 23.5-16 10.5-20.9 13.9-29.5 20.8-26.9 21.5-51.1 51.4-67 82.6-14.4 28.3-21.5 51.9-26.4 87.2l-.5 3.3h31.8l.5-3.3c2.9-16.9 3.8-21.6 6.5-30.7 9.5-33.3 24.2-60.5 47-87.2 8.9-10.4 26.8-27.1 35.7-33.2 17.7-12.2 31.6-20.2 44.9-25.6 31.5-12.9 52.7-17.3 91-19 29-1.3 44.4-4.8 66.2-15.1 20.3-9.7 35.4-21.1 50.7-38.5 25.1-28.5 38.7-64.9 38.7-103.5 0-62.5-37.4-119.1-95.1-144-10.4-4.5-27.3-9.4-37.5-10.9C274 3.5 252.6 3 243 4zm44 33.4c30.5 7.1 55.9 24 75 50.1 27.4 37.3 30.7 90 8.3 131.5-16.8 31.2-44.3 52.8-79.2 62.3-11.2 3.1-12.3 3.2-31.1 3.2s-19.9-.1-31.1-3.2c-31.4-8.5-56.9-26.9-74.3-53.3-8-12.2-12.2-21.9-16.2-37.3-10.8-42.4 1.2-87.2 31.6-117.8 19.3-19.3 42-31.6 67.5-36.4 10.1-1.8 39.9-1.3 49.5.9zM402.5 342.3c-4.3 4-9.7 8.8-11.8 10.7l-3.9 3.5 4.9 3.5c2.6 1.9 5.5 4 6.3 4.7 28.9 23.2 49.4 48.4 64.5 79.5 9.8 20 17.4 43.9 19.8 62.1l1.3 9.2 15.7.3 15.7.3v-2.8c0-14-10.2-53.4-18.7-72.3-4.4-9.9-11.7-24.3-14.7-28.9-15.2-23.8-24.3-35.4-39.9-51.2-8.7-8.8-28.8-25.9-30.4-25.9-.4 0-4.4 3.3-8.8 7.3z"/></svg></a><span>Andrey 777</span></li>
+              <li><a href="/biathlon/index-profile.html"><svg class="profile-icon" version="1.0" xmlns="http://www.w3.org/2000/svg" width="693.3333333" height="693.3333333" viewBox="0 0 520 520"><path d="M243 4c-61.7 6.8-113.5 48.9-132.8 108-7.9 24.5-9.7 52.6-4.9 77.1 7.9 39.5 28.6 72.8 60.2 96.5 4.4 3.3 9.7 7.1 11.8 8.3 4.3 2.6 4.6 3.7 1.5 4.7-11.9 3.6-41.7 17.3-51.3 23.5-16 10.5-20.9 13.9-29.5 20.8-26.9 21.5-51.1 51.4-67 82.6-14.4 28.3-21.5 51.9-26.4 87.2l-.5 3.3h31.8l.5-3.3c2.9-16.9 3.8-21.6 6.5-30.7 9.5-33.3 24.2-60.5 47-87.2 8.9-10.4 26.8-27.1 35.7-33.2 17.7-12.2 31.6-20.2 44.9-25.6 31.5-12.9 52.7-17.3 91-19 29-1.3 44.4-4.8 66.2-15.1 20.3-9.7 35.4-21.1 50.7-38.5 25.1-28.5 38.7-64.9 38.7-103.5 0-62.5-37.4-119.1-95.1-144-10.4-4.5-27.3-9.4-37.5-10.9C274 3.5 252.6 3 243 4zm44 33.4c30.5 7.1 55.9 24 75 50.1 27.4 37.3 30.7 90 8.3 131.5-16.8 31.2-44.3 52.8-79.2 62.3-11.2 3.1-12.3 3.2-31.1 3.2s-19.9-.1-31.1-3.2c-31.4-8.5-56.9-26.9-74.3-53.3-8-12.2-12.2-21.9-16.2-37.3-10.8-42.4 1.2-87.2 31.6-117.8 19.3-19.3 42-31.6 67.5-36.4 10.1-1.8 39.9-1.3 49.5.9zM402.5 342.3c-4.3 4-9.7 8.8-11.8 10.7l-3.9 3.5 4.9 3.5c2.6 1.9 5.5 4 6.3 4.7 28.9 23.2 49.4 48.4 64.5 79.5 9.8 20 17.4 43.9 19.8 62.1l1.3 9.2 15.7.3 15.7.3v-2.8c0-14-10.2-53.4-18.7-72.3-4.4-9.9-11.7-24.3-14.7-28.9-15.2-23.8-24.3-35.4-39.9-51.2-8.7-8.8-28.8-25.9-30.4-25.9-.4 0-4.4 3.3-8.8 7.3z"/></svg></a><span>alex2009</span></li>
+              <li><a href="/biathlon/index-profile.html"><svg class="profile-icon" version="1.0" xmlns="http://www.w3.org/2000/svg" width="693.3333333" height="693.3333333" viewBox="0 0 520 520"><path d="M243 4c-61.7 6.8-113.5 48.9-132.8 108-7.9 24.5-9.7 52.6-4.9 77.1 7.9 39.5 28.6 72.8 60.2 96.5 4.4 3.3 9.7 7.1 11.8 8.3 4.3 2.6 4.6 3.7 1.5 4.7-11.9 3.6-41.7 17.3-51.3 23.5-16 10.5-20.9 13.9-29.5 20.8-26.9 21.5-51.1 51.4-67 82.6-14.4 28.3-21.5 51.9-26.4 87.2l-.5 3.3h31.8l.5-3.3c2.9-16.9 3.8-21.6 6.5-30.7 9.5-33.3 24.2-60.5 47-87.2 8.9-10.4 26.8-27.1 35.7-33.2 17.7-12.2 31.6-20.2 44.9-25.6 31.5-12.9 52.7-17.3 91-19 29-1.3 44.4-4.8 66.2-15.1 20.3-9.7 35.4-21.1 50.7-38.5 25.1-28.5 38.7-64.9 38.7-103.5 0-62.5-37.4-119.1-95.1-144-10.4-4.5-27.3-9.4-37.5-10.9C274 3.5 252.6 3 243 4zm44 33.4c30.5 7.1 55.9 24 75 50.1 27.4 37.3 30.7 90 8.3 131.5-16.8 31.2-44.3 52.8-79.2 62.3-11.2 3.1-12.3 3.2-31.1 3.2s-19.9-.1-31.1-3.2c-31.4-8.5-56.9-26.9-74.3-53.3-8-12.2-12.2-21.9-16.2-37.3-10.8-42.4 1.2-87.2 31.6-117.8 19.3-19.3 42-31.6 67.5-36.4 10.1-1.8 39.9-1.3 49.5.9zM402.5 342.3c-4.3 4-9.7 8.8-11.8 10.7l-3.9 3.5 4.9 3.5c2.6 1.9 5.5 4 6.3 4.7 28.9 23.2 49.4 48.4 64.5 79.5 9.8 20 17.4 43.9 19.8 62.1l1.3 9.2 15.7.3 15.7.3v-2.8c0-14-10.2-53.4-18.7-72.3-4.4-9.9-11.7-24.3-14.7-28.9-15.2-23.8-24.3-35.4-39.9-51.2-8.7-8.8-28.8-25.9-30.4-25.9-.4 0-4.4 3.3-8.8 7.3z"/></svg></a><span>Натали V</span></li>
+              <li><a href="/biathlon/index-profile.html"><svg class="profile-icon" version="1.0" xmlns="http://www.w3.org/2000/svg" width="693.3333333" height="693.3333333" viewBox="0 0 520 520"><path d="M243 4c-61.7 6.8-113.5 48.9-132.8 108-7.9 24.5-9.7 52.6-4.9 77.1 7.9 39.5 28.6 72.8 60.2 96.5 4.4 3.3 9.7 7.1 11.8 8.3 4.3 2.6 4.6 3.7 1.5 4.7-11.9 3.6-41.7 17.3-51.3 23.5-16 10.5-20.9 13.9-29.5 20.8-26.9 21.5-51.1 51.4-67 82.6-14.4 28.3-21.5 51.9-26.4 87.2l-.5 3.3h31.8l.5-3.3c2.9-16.9 3.8-21.6 6.5-30.7 9.5-33.3 24.2-60.5 47-87.2 8.9-10.4 26.8-27.1 35.7-33.2 17.7-12.2 31.6-20.2 44.9-25.6 31.5-12.9 52.7-17.3 91-19 29-1.3 44.4-4.8 66.2-15.1 20.3-9.7 35.4-21.1 50.7-38.5 25.1-28.5 38.7-64.9 38.7-103.5 0-62.5-37.4-119.1-95.1-144-10.4-4.5-27.3-9.4-37.5-10.9C274 3.5 252.6 3 243 4zm44 33.4c30.5 7.1 55.9 24 75 50.1 27.4 37.3 30.7 90 8.3 131.5-16.8 31.2-44.3 52.8-79.2 62.3-11.2 3.1-12.3 3.2-31.1 3.2s-19.9-.1-31.1-3.2c-31.4-8.5-56.9-26.9-74.3-53.3-8-12.2-12.2-21.9-16.2-37.3-10.8-42.4 1.2-87.2 31.6-117.8 19.3-19.3 42-31.6 67.5-36.4 10.1-1.8 39.9-1.3 49.5.9zM402.5 342.3c-4.3 4-9.7 8.8-11.8 10.7l-3.9 3.5 4.9 3.5c2.6 1.9 5.5 4 6.3 4.7 28.9 23.2 49.4 48.4 64.5 79.5 9.8 20 17.4 43.9 19.8 62.1l1.3 9.2 15.7.3 15.7.3v-2.8c0-14-10.2-53.4-18.7-72.3-4.4-9.9-11.7-24.3-14.7-28.9-15.2-23.8-24.3-35.4-39.9-51.2-8.7-8.8-28.8-25.9-30.4-25.9-.4 0-4.4 3.3-8.8 7.3z"/></svg></a><span>Евгений</span></li>
+              <li><a href="/biathlon/index-profile.html"><svg class="profile-icon" version="1.0" xmlns="http://www.w3.org/2000/svg" width="693.3333333" height="693.3333333" viewBox="0 0 520 520"><path d="M243 4c-61.7 6.8-113.5 48.9-132.8 108-7.9 24.5-9.7 52.6-4.9 77.1 7.9 39.5 28.6 72.8 60.2 96.5 4.4 3.3 9.7 7.1 11.8 8.3 4.3 2.6 4.6 3.7 1.5 4.7-11.9 3.6-41.7 17.3-51.3 23.5-16 10.5-20.9 13.9-29.5 20.8-26.9 21.5-51.1 51.4-67 82.6-14.4 28.3-21.5 51.9-26.4 87.2l-.5 3.3h31.8l.5-3.3c2.9-16.9 3.8-21.6 6.5-30.7 9.5-33.3 24.2-60.5 47-87.2 8.9-10.4 26.8-27.1 35.7-33.2 17.7-12.2 31.6-20.2 44.9-25.6 31.5-12.9 52.7-17.3 91-19 29-1.3 44.4-4.8 66.2-15.1 20.3-9.7 35.4-21.1 50.7-38.5 25.1-28.5 38.7-64.9 38.7-103.5 0-62.5-37.4-119.1-95.1-144-10.4-4.5-27.3-9.4-37.5-10.9C274 3.5 252.6 3 243 4zm44 33.4c30.5 7.1 55.9 24 75 50.1 27.4 37.3 30.7 90 8.3 131.5-16.8 31.2-44.3 52.8-79.2 62.3-11.2 3.1-12.3 3.2-31.1 3.2s-19.9-.1-31.1-3.2c-31.4-8.5-56.9-26.9-74.3-53.3-8-12.2-12.2-21.9-16.2-37.3-10.8-42.4 1.2-87.2 31.6-117.8 19.3-19.3 42-31.6 67.5-36.4 10.1-1.8 39.9-1.3 49.5.9zM402.5 342.3c-4.3 4-9.7 8.8-11.8 10.7l-3.9 3.5 4.9 3.5c2.6 1.9 5.5 4 6.3 4.7 28.9 23.2 49.4 48.4 64.5 79.5 9.8 20 17.4 43.9 19.8 62.1l1.3 9.2 15.7.3 15.7.3v-2.8c0-14-10.2-53.4-18.7-72.3-4.4-9.9-11.7-24.3-14.7-28.9-15.2-23.8-24.3-35.4-39.9-51.2-8.7-8.8-28.8-25.9-30.4-25.9-.4 0-4.4 3.3-8.8 7.3z"/></svg></a><span>trov</span></li>
+              <li><a href="/biathlon/index-profile.html"><svg class="profile-icon" version="1.0" xmlns="http://www.w3.org/2000/svg" width="693.3333333" height="693.3333333" viewBox="0 0 520 520"><path d="M243 4c-61.7 6.8-113.5 48.9-132.8 108-7.9 24.5-9.7 52.6-4.9 77.1 7.9 39.5 28.6 72.8 60.2 96.5 4.4 3.3 9.7 7.1 11.8 8.3 4.3 2.6 4.6 3.7 1.5 4.7-11.9 3.6-41.7 17.3-51.3 23.5-16 10.5-20.9 13.9-29.5 20.8-26.9 21.5-51.1 51.4-67 82.6-14.4 28.3-21.5 51.9-26.4 87.2l-.5 3.3h31.8l.5-3.3c2.9-16.9 3.8-21.6 6.5-30.7 9.5-33.3 24.2-60.5 47-87.2 8.9-10.4 26.8-27.1 35.7-33.2 17.7-12.2 31.6-20.2 44.9-25.6 31.5-12.9 52.7-17.3 91-19 29-1.3 44.4-4.8 66.2-15.1 20.3-9.7 35.4-21.1 50.7-38.5 25.1-28.5 38.7-64.9 38.7-103.5 0-62.5-37.4-119.1-95.1-144-10.4-4.5-27.3-9.4-37.5-10.9C274 3.5 252.6 3 243 4zm44 33.4c30.5 7.1 55.9 24 75 50.1 27.4 37.3 30.7 90 8.3 131.5-16.8 31.2-44.3 52.8-79.2 62.3-11.2 3.1-12.3 3.2-31.1 3.2s-19.9-.1-31.1-3.2c-31.4-8.5-56.9-26.9-74.3-53.3-8-12.2-12.2-21.9-16.2-37.3-10.8-42.4 1.2-87.2 31.6-117.8 19.3-19.3 42-31.6 67.5-36.4 10.1-1.8 39.9-1.3 49.5.9zM402.5 342.3c-4.3 4-9.7 8.8-11.8 10.7l-3.9 3.5 4.9 3.5c2.6 1.9 5.5 4 6.3 4.7 28.9 23.2 49.4 48.4 64.5 79.5 9.8 20 17.4 43.9 19.8 62.1l1.3 9.2 15.7.3 15.7.3v-2.8c0-14-10.2-53.4-18.7-72.3-4.4-9.9-11.7-24.3-14.7-28.9-15.2-23.8-24.3-35.4-39.9-51.2-8.7-8.8-28.8-25.9-30.4-25.9-.4 0-4.4 3.3-8.8 7.3z"/></svg></a><span>ньюбеланс</span></li>
+              <li><a href="/biathlon/index-profile.html"><svg class="profile-icon" version="1.0" xmlns="http://www.w3.org/2000/svg" width="693.3333333" height="693.3333333" viewBox="0 0 520 520"><path d="M243 4c-61.7 6.8-113.5 48.9-132.8 108-7.9 24.5-9.7 52.6-4.9 77.1 7.9 39.5 28.6 72.8 60.2 96.5 4.4 3.3 9.7 7.1 11.8 8.3 4.3 2.6 4.6 3.7 1.5 4.7-11.9 3.6-41.7 17.3-51.3 23.5-16 10.5-20.9 13.9-29.5 20.8-26.9 21.5-51.1 51.4-67 82.6-14.4 28.3-21.5 51.9-26.4 87.2l-.5 3.3h31.8l.5-3.3c2.9-16.9 3.8-21.6 6.5-30.7 9.5-33.3 24.2-60.5 47-87.2 8.9-10.4 26.8-27.1 35.7-33.2 17.7-12.2 31.6-20.2 44.9-25.6 31.5-12.9 52.7-17.3 91-19 29-1.3 44.4-4.8 66.2-15.1 20.3-9.7 35.4-21.1 50.7-38.5 25.1-28.5 38.7-64.9 38.7-103.5 0-62.5-37.4-119.1-95.1-144-10.4-4.5-27.3-9.4-37.5-10.9C274 3.5 252.6 3 243 4zm44 33.4c30.5 7.1 55.9 24 75 50.1 27.4 37.3 30.7 90 8.3 131.5-16.8 31.2-44.3 52.8-79.2 62.3-11.2 3.1-12.3 3.2-31.1 3.2s-19.9-.1-31.1-3.2c-31.4-8.5-56.9-26.9-74.3-53.3-8-12.2-12.2-21.9-16.2-37.3-10.8-42.4 1.2-87.2 31.6-117.8 19.3-19.3 42-31.6 67.5-36.4 10.1-1.8 39.9-1.3 49.5.9zM402.5 342.3c-4.3 4-9.7 8.8-11.8 10.7l-3.9 3.5 4.9 3.5c2.6 1.9 5.5 4 6.3 4.7 28.9 23.2 49.4 48.4 64.5 79.5 9.8 20 17.4 43.9 19.8 62.1l1.3 9.2 15.7.3 15.7.3v-2.8c0-14-10.2-53.4-18.7-72.3-4.4-9.9-11.7-24.3-14.7-28.9-15.2-23.8-24.3-35.4-39.9-51.2-8.7-8.8-28.8-25.9-30.4-25.9-.4 0-4.4 3.3-8.8 7.3z"/></svg></a><span>shiber</span></li>
+              <li><a href="/biathlon/index-profile.html"><svg class="profile-icon" version="1.0" xmlns="http://www.w3.org/2000/svg" width="693.3333333" height="693.3333333" viewBox="0 0 520 520"><path d="M243 4c-61.7 6.8-113.5 48.9-132.8 108-7.9 24.5-9.7 52.6-4.9 77.1 7.9 39.5 28.6 72.8 60.2 96.5 4.4 3.3 9.7 7.1 11.8 8.3 4.3 2.6 4.6 3.7 1.5 4.7-11.9 3.6-41.7 17.3-51.3 23.5-16 10.5-20.9 13.9-29.5 20.8-26.9 21.5-51.1 51.4-67 82.6-14.4 28.3-21.5 51.9-26.4 87.2l-.5 3.3h31.8l.5-3.3c2.9-16.9 3.8-21.6 6.5-30.7 9.5-33.3 24.2-60.5 47-87.2 8.9-10.4 26.8-27.1 35.7-33.2 17.7-12.2 31.6-20.2 44.9-25.6 31.5-12.9 52.7-17.3 91-19 29-1.3 44.4-4.8 66.2-15.1 20.3-9.7 35.4-21.1 50.7-38.5 25.1-28.5 38.7-64.9 38.7-103.5 0-62.5-37.4-119.1-95.1-144-10.4-4.5-27.3-9.4-37.5-10.9C274 3.5 252.6 3 243 4zm44 33.4c30.5 7.1 55.9 24 75 50.1 27.4 37.3 30.7 90 8.3 131.5-16.8 31.2-44.3 52.8-79.2 62.3-11.2 3.1-12.3 3.2-31.1 3.2s-19.9-.1-31.1-3.2c-31.4-8.5-56.9-26.9-74.3-53.3-8-12.2-12.2-21.9-16.2-37.3-10.8-42.4 1.2-87.2 31.6-117.8 19.3-19.3 42-31.6 67.5-36.4 10.1-1.8 39.9-1.3 49.5.9zM402.5 342.3c-4.3 4-9.7 8.8-11.8 10.7l-3.9 3.5 4.9 3.5c2.6 1.9 5.5 4 6.3 4.7 28.9 23.2 49.4 48.4 64.5 79.5 9.8 20 17.4 43.9 19.8 62.1l1.3 9.2 15.7.3 15.7.3v-2.8c0-14-10.2-53.4-18.7-72.3-4.4-9.9-11.7-24.3-14.7-28.9-15.2-23.8-24.3-35.4-39.9-51.2-8.7-8.8-28.8-25.9-30.4-25.9-.4 0-4.4 3.3-8.8 7.3z"/></svg></a><span>tetyana</span></li>
+              <li><a href="/biathlon/index-profile.html"><svg class="profile-icon" version="1.0" xmlns="http://www.w3.org/2000/svg" width="693.3333333" height="693.3333333" viewBox="0 0 520 520"><path d="M243 4c-61.7 6.8-113.5 48.9-132.8 108-7.9 24.5-9.7 52.6-4.9 77.1 7.9 39.5 28.6 72.8 60.2 96.5 4.4 3.3 9.7 7.1 11.8 8.3 4.3 2.6 4.6 3.7 1.5 4.7-11.9 3.6-41.7 17.3-51.3 23.5-16 10.5-20.9 13.9-29.5 20.8-26.9 21.5-51.1 51.4-67 82.6-14.4 28.3-21.5 51.9-26.4 87.2l-.5 3.3h31.8l.5-3.3c2.9-16.9 3.8-21.6 6.5-30.7 9.5-33.3 24.2-60.5 47-87.2 8.9-10.4 26.8-27.1 35.7-33.2 17.7-12.2 31.6-20.2 44.9-25.6 31.5-12.9 52.7-17.3 91-19 29-1.3 44.4-4.8 66.2-15.1 20.3-9.7 35.4-21.1 50.7-38.5 25.1-28.5 38.7-64.9 38.7-103.5 0-62.5-37.4-119.1-95.1-144-10.4-4.5-27.3-9.4-37.5-10.9C274 3.5 252.6 3 243 4zm44 33.4c30.5 7.1 55.9 24 75 50.1 27.4 37.3 30.7 90 8.3 131.5-16.8 31.2-44.3 52.8-79.2 62.3-11.2 3.1-12.3 3.2-31.1 3.2s-19.9-.1-31.1-3.2c-31.4-8.5-56.9-26.9-74.3-53.3-8-12.2-12.2-21.9-16.2-37.3-10.8-42.4 1.2-87.2 31.6-117.8 19.3-19.3 42-31.6 67.5-36.4 10.1-1.8 39.9-1.3 49.5.9zM402.5 342.3c-4.3 4-9.7 8.8-11.8 10.7l-3.9 3.5 4.9 3.5c2.6 1.9 5.5 4 6.3 4.7 28.9 23.2 49.4 48.4 64.5 79.5 9.8 20 17.4 43.9 19.8 62.1l1.3 9.2 15.7.3 15.7.3v-2.8c0-14-10.2-53.4-18.7-72.3-4.4-9.9-11.7-24.3-14.7-28.9-15.2-23.8-24.3-35.4-39.9-51.2-8.7-8.8-28.8-25.9-30.4-25.9-.4 0-4.4 3.3-8.8 7.3z"/></svg></a><span>vedmak277</span></li>
+              <li><a href="/biathlon/index-profile.html"><svg class="profile-icon" version="1.0" xmlns="http://www.w3.org/2000/svg" width="693.3333333" height="693.3333333" viewBox="0 0 520 520"><path d="M243 4c-61.7 6.8-113.5 48.9-132.8 108-7.9 24.5-9.7 52.6-4.9 77.1 7.9 39.5 28.6 72.8 60.2 96.5 4.4 3.3 9.7 7.1 11.8 8.3 4.3 2.6 4.6 3.7 1.5 4.7-11.9 3.6-41.7 17.3-51.3 23.5-16 10.5-20.9 13.9-29.5 20.8-26.9 21.5-51.1 51.4-67 82.6-14.4 28.3-21.5 51.9-26.4 87.2l-.5 3.3h31.8l.5-3.3c2.9-16.9 3.8-21.6 6.5-30.7 9.5-33.3 24.2-60.5 47-87.2 8.9-10.4 26.8-27.1 35.7-33.2 17.7-12.2 31.6-20.2 44.9-25.6 31.5-12.9 52.7-17.3 91-19 29-1.3 44.4-4.8 66.2-15.1 20.3-9.7 35.4-21.1 50.7-38.5 25.1-28.5 38.7-64.9 38.7-103.5 0-62.5-37.4-119.1-95.1-144-10.4-4.5-27.3-9.4-37.5-10.9C274 3.5 252.6 3 243 4zm44 33.4c30.5 7.1 55.9 24 75 50.1 27.4 37.3 30.7 90 8.3 131.5-16.8 31.2-44.3 52.8-79.2 62.3-11.2 3.1-12.3 3.2-31.1 3.2s-19.9-.1-31.1-3.2c-31.4-8.5-56.9-26.9-74.3-53.3-8-12.2-12.2-21.9-16.2-37.3-10.8-42.4 1.2-87.2 31.6-117.8 19.3-19.3 42-31.6 67.5-36.4 10.1-1.8 39.9-1.3 49.5.9zM402.5 342.3c-4.3 4-9.7 8.8-11.8 10.7l-3.9 3.5 4.9 3.5c2.6 1.9 5.5 4 6.3 4.7 28.9 23.2 49.4 48.4 64.5 79.5 9.8 20 17.4 43.9 19.8 62.1l1.3 9.2 15.7.3 15.7.3v-2.8c0-14-10.2-53.4-18.7-72.3-4.4-9.9-11.7-24.3-14.7-28.9-15.2-23.8-24.3-35.4-39.9-51.2-8.7-8.8-28.8-25.9-30.4-25.9-.4 0-4.4 3.3-8.8 7.3z"/></svg></a><span>Neofit</span></li>
+              <li><a href="/biathlon/index-profile.html"><svg class="profile-icon" version="1.0" xmlns="http://www.w3.org/2000/svg" width="693.3333333" height="693.3333333" viewBox="0 0 520 520"><path d="M243 4c-61.7 6.8-113.5 48.9-132.8 108-7.9 24.5-9.7 52.6-4.9 77.1 7.9 39.5 28.6 72.8 60.2 96.5 4.4 3.3 9.7 7.1 11.8 8.3 4.3 2.6 4.6 3.7 1.5 4.7-11.9 3.6-41.7 17.3-51.3 23.5-16 10.5-20.9 13.9-29.5 20.8-26.9 21.5-51.1 51.4-67 82.6-14.4 28.3-21.5 51.9-26.4 87.2l-.5 3.3h31.8l.5-3.3c2.9-16.9 3.8-21.6 6.5-30.7 9.5-33.3 24.2-60.5 47-87.2 8.9-10.4 26.8-27.1 35.7-33.2 17.7-12.2 31.6-20.2 44.9-25.6 31.5-12.9 52.7-17.3 91-19 29-1.3 44.4-4.8 66.2-15.1 20.3-9.7 35.4-21.1 50.7-38.5 25.1-28.5 38.7-64.9 38.7-103.5 0-62.5-37.4-119.1-95.1-144-10.4-4.5-27.3-9.4-37.5-10.9C274 3.5 252.6 3 243 4zm44 33.4c30.5 7.1 55.9 24 75 50.1 27.4 37.3 30.7 90 8.3 131.5-16.8 31.2-44.3 52.8-79.2 62.3-11.2 3.1-12.3 3.2-31.1 3.2s-19.9-.1-31.1-3.2c-31.4-8.5-56.9-26.9-74.3-53.3-8-12.2-12.2-21.9-16.2-37.3-10.8-42.4 1.2-87.2 31.6-117.8 19.3-19.3 42-31.6 67.5-36.4 10.1-1.8 39.9-1.3 49.5.9zM402.5 342.3c-4.3 4-9.7 8.8-11.8 10.7l-3.9 3.5 4.9 3.5c2.6 1.9 5.5 4 6.3 4.7 28.9 23.2 49.4 48.4 64.5 79.5 9.8 20 17.4 43.9 19.8 62.1l1.3 9.2 15.7.3 15.7.3v-2.8c0-14-10.2-53.4-18.7-72.3-4.4-9.9-11.7-24.3-14.7-28.9-15.2-23.8-24.3-35.4-39.9-51.2-8.7-8.8-28.8-25.9-30.4-25.9-.4 0-4.4 3.3-8.8 7.3z"/></svg></a><span>FISH00</span></li>
+              <li><a href="/biathlon/index-profile.html"><svg class="profile-icon" version="1.0" xmlns="http://www.w3.org/2000/svg" width="693.3333333" height="693.3333333" viewBox="0 0 520 520"><path d="M243 4c-61.7 6.8-113.5 48.9-132.8 108-7.9 24.5-9.7 52.6-4.9 77.1 7.9 39.5 28.6 72.8 60.2 96.5 4.4 3.3 9.7 7.1 11.8 8.3 4.3 2.6 4.6 3.7 1.5 4.7-11.9 3.6-41.7 17.3-51.3 23.5-16 10.5-20.9 13.9-29.5 20.8-26.9 21.5-51.1 51.4-67 82.6-14.4 28.3-21.5 51.9-26.4 87.2l-.5 3.3h31.8l.5-3.3c2.9-16.9 3.8-21.6 6.5-30.7 9.5-33.3 24.2-60.5 47-87.2 8.9-10.4 26.8-27.1 35.7-33.2 17.7-12.2 31.6-20.2 44.9-25.6 31.5-12.9 52.7-17.3 91-19 29-1.3 44.4-4.8 66.2-15.1 20.3-9.7 35.4-21.1 50.7-38.5 25.1-28.5 38.7-64.9 38.7-103.5 0-62.5-37.4-119.1-95.1-144-10.4-4.5-27.3-9.4-37.5-10.9C274 3.5 252.6 3 243 4zm44 33.4c30.5 7.1 55.9 24 75 50.1 27.4 37.3 30.7 90 8.3 131.5-16.8 31.2-44.3 52.8-79.2 62.3-11.2 3.1-12.3 3.2-31.1 3.2s-19.9-.1-31.1-3.2c-31.4-8.5-56.9-26.9-74.3-53.3-8-12.2-12.2-21.9-16.2-37.3-10.8-42.4 1.2-87.2 31.6-117.8 19.3-19.3 42-31.6 67.5-36.4 10.1-1.8 39.9-1.3 49.5.9zM402.5 342.3c-4.3 4-9.7 8.8-11.8 10.7l-3.9 3.5 4.9 3.5c2.6 1.9 5.5 4 6.3 4.7 28.9 23.2 49.4 48.4 64.5 79.5 9.8 20 17.4 43.9 19.8 62.1l1.3 9.2 15.7.3 15.7.3v-2.8c0-14-10.2-53.4-18.7-72.3-4.4-9.9-11.7-24.3-14.7-28.9-15.2-23.8-24.3-35.4-39.9-51.2-8.7-8.8-28.8-25.9-30.4-25.9-.4 0-4.4 3.3-8.8 7.3z"/></svg></a><span>АнастасияЮ</span></li>
+              <li><a href="/biathlon/index-profile.html"><svg class="profile-icon" version="1.0" xmlns="http://www.w3.org/2000/svg" width="693.3333333" height="693.3333333" viewBox="0 0 520 520"><path d="M243 4c-61.7 6.8-113.5 48.9-132.8 108-7.9 24.5-9.7 52.6-4.9 77.1 7.9 39.5 28.6 72.8 60.2 96.5 4.4 3.3 9.7 7.1 11.8 8.3 4.3 2.6 4.6 3.7 1.5 4.7-11.9 3.6-41.7 17.3-51.3 23.5-16 10.5-20.9 13.9-29.5 20.8-26.9 21.5-51.1 51.4-67 82.6-14.4 28.3-21.5 51.9-26.4 87.2l-.5 3.3h31.8l.5-3.3c2.9-16.9 3.8-21.6 6.5-30.7 9.5-33.3 24.2-60.5 47-87.2 8.9-10.4 26.8-27.1 35.7-33.2 17.7-12.2 31.6-20.2 44.9-25.6 31.5-12.9 52.7-17.3 91-19 29-1.3 44.4-4.8 66.2-15.1 20.3-9.7 35.4-21.1 50.7-38.5 25.1-28.5 38.7-64.9 38.7-103.5 0-62.5-37.4-119.1-95.1-144-10.4-4.5-27.3-9.4-37.5-10.9C274 3.5 252.6 3 243 4zm44 33.4c30.5 7.1 55.9 24 75 50.1 27.4 37.3 30.7 90 8.3 131.5-16.8 31.2-44.3 52.8-79.2 62.3-11.2 3.1-12.3 3.2-31.1 3.2s-19.9-.1-31.1-3.2c-31.4-8.5-56.9-26.9-74.3-53.3-8-12.2-12.2-21.9-16.2-37.3-10.8-42.4 1.2-87.2 31.6-117.8 19.3-19.3 42-31.6 67.5-36.4 10.1-1.8 39.9-1.3 49.5.9zM402.5 342.3c-4.3 4-9.7 8.8-11.8 10.7l-3.9 3.5 4.9 3.5c2.6 1.9 5.5 4 6.3 4.7 28.9 23.2 49.4 48.4 64.5 79.5 9.8 20 17.4 43.9 19.8 62.1l1.3 9.2 15.7.3 15.7.3v-2.8c0-14-10.2-53.4-18.7-72.3-4.4-9.9-11.7-24.3-14.7-28.9-15.2-23.8-24.3-35.4-39.9-51.2-8.7-8.8-28.8-25.9-30.4-25.9-.4 0-4.4 3.3-8.8 7.3z"/></svg></a><span>Думич Михайло</span></li>
+              <li><a href="/biathlon/index-profile.html"><svg class="profile-icon" version="1.0" xmlns="http://www.w3.org/2000/svg" width="693.3333333" height="693.3333333" viewBox="0 0 520 520"><path d="M243 4c-61.7 6.8-113.5 48.9-132.8 108-7.9 24.5-9.7 52.6-4.9 77.1 7.9 39.5 28.6 72.8 60.2 96.5 4.4 3.3 9.7 7.1 11.8 8.3 4.3 2.6 4.6 3.7 1.5 4.7-11.9 3.6-41.7 17.3-51.3 23.5-16 10.5-20.9 13.9-29.5 20.8-26.9 21.5-51.1 51.4-67 82.6-14.4 28.3-21.5 51.9-26.4 87.2l-.5 3.3h31.8l.5-3.3c2.9-16.9 3.8-21.6 6.5-30.7 9.5-33.3 24.2-60.5 47-87.2 8.9-10.4 26.8-27.1 35.7-33.2 17.7-12.2 31.6-20.2 44.9-25.6 31.5-12.9 52.7-17.3 91-19 29-1.3 44.4-4.8 66.2-15.1 20.3-9.7 35.4-21.1 50.7-38.5 25.1-28.5 38.7-64.9 38.7-103.5 0-62.5-37.4-119.1-95.1-144-10.4-4.5-27.3-9.4-37.5-10.9C274 3.5 252.6 3 243 4zm44 33.4c30.5 7.1 55.9 24 75 50.1 27.4 37.3 30.7 90 8.3 131.5-16.8 31.2-44.3 52.8-79.2 62.3-11.2 3.1-12.3 3.2-31.1 3.2s-19.9-.1-31.1-3.2c-31.4-8.5-56.9-26.9-74.3-53.3-8-12.2-12.2-21.9-16.2-37.3-10.8-42.4 1.2-87.2 31.6-117.8 19.3-19.3 42-31.6 67.5-36.4 10.1-1.8 39.9-1.3 49.5.9zM402.5 342.3c-4.3 4-9.7 8.8-11.8 10.7l-3.9 3.5 4.9 3.5c2.6 1.9 5.5 4 6.3 4.7 28.9 23.2 49.4 48.4 64.5 79.5 9.8 20 17.4 43.9 19.8 62.1l1.3 9.2 15.7.3 15.7.3v-2.8c0-14-10.2-53.4-18.7-72.3-4.4-9.9-11.7-24.3-14.7-28.9-15.2-23.8-24.3-35.4-39.9-51.2-8.7-8.8-28.8-25.9-30.4-25.9-.4 0-4.4 3.3-8.8 7.3z"/></svg></a><span>Noname</span></li>
+              <li><a href="/biathlon/index-profile.html"><svg class="profile-icon" version="1.0" xmlns="http://www.w3.org/2000/svg" width="693.3333333" height="693.3333333" viewBox="0 0 520 520"><path d="M243 4c-61.7 6.8-113.5 48.9-132.8 108-7.9 24.5-9.7 52.6-4.9 77.1 7.9 39.5 28.6 72.8 60.2 96.5 4.4 3.3 9.7 7.1 11.8 8.3 4.3 2.6 4.6 3.7 1.5 4.7-11.9 3.6-41.7 17.3-51.3 23.5-16 10.5-20.9 13.9-29.5 20.8-26.9 21.5-51.1 51.4-67 82.6-14.4 28.3-21.5 51.9-26.4 87.2l-.5 3.3h31.8l.5-3.3c2.9-16.9 3.8-21.6 6.5-30.7 9.5-33.3 24.2-60.5 47-87.2 8.9-10.4 26.8-27.1 35.7-33.2 17.7-12.2 31.6-20.2 44.9-25.6 31.5-12.9 52.7-17.3 91-19 29-1.3 44.4-4.8 66.2-15.1 20.3-9.7 35.4-21.1 50.7-38.5 25.1-28.5 38.7-64.9 38.7-103.5 0-62.5-37.4-119.1-95.1-144-10.4-4.5-27.3-9.4-37.5-10.9C274 3.5 252.6 3 243 4zm44 33.4c30.5 7.1 55.9 24 75 50.1 27.4 37.3 30.7 90 8.3 131.5-16.8 31.2-44.3 52.8-79.2 62.3-11.2 3.1-12.3 3.2-31.1 3.2s-19.9-.1-31.1-3.2c-31.4-8.5-56.9-26.9-74.3-53.3-8-12.2-12.2-21.9-16.2-37.3-10.8-42.4 1.2-87.2 31.6-117.8 19.3-19.3 42-31.6 67.5-36.4 10.1-1.8 39.9-1.3 49.5.9zM402.5 342.3c-4.3 4-9.7 8.8-11.8 10.7l-3.9 3.5 4.9 3.5c2.6 1.9 5.5 4 6.3 4.7 28.9 23.2 49.4 48.4 64.5 79.5 9.8 20 17.4 43.9 19.8 62.1l1.3 9.2 15.7.3 15.7.3v-2.8c0-14-10.2-53.4-18.7-72.3-4.4-9.9-11.7-24.3-14.7-28.9-15.2-23.8-24.3-35.4-39.9-51.2-8.7-8.8-28.8-25.9-30.4-25.9-.4 0-4.4 3.3-8.8 7.3z"/></svg></a><span>Надежда(Феодосия)</span></li>
+              <li><a href="/biathlon/index-profile.html"><svg class="profile-icon" version="1.0" xmlns="http://www.w3.org/2000/svg" width="693.3333333" height="693.3333333" viewBox="0 0 520 520"><path d="M243 4c-61.7 6.8-113.5 48.9-132.8 108-7.9 24.5-9.7 52.6-4.9 77.1 7.9 39.5 28.6 72.8 60.2 96.5 4.4 3.3 9.7 7.1 11.8 8.3 4.3 2.6 4.6 3.7 1.5 4.7-11.9 3.6-41.7 17.3-51.3 23.5-16 10.5-20.9 13.9-29.5 20.8-26.9 21.5-51.1 51.4-67 82.6-14.4 28.3-21.5 51.9-26.4 87.2l-.5 3.3h31.8l.5-3.3c2.9-16.9 3.8-21.6 6.5-30.7 9.5-33.3 24.2-60.5 47-87.2 8.9-10.4 26.8-27.1 35.7-33.2 17.7-12.2 31.6-20.2 44.9-25.6 31.5-12.9 52.7-17.3 91-19 29-1.3 44.4-4.8 66.2-15.1 20.3-9.7 35.4-21.1 50.7-38.5 25.1-28.5 38.7-64.9 38.7-103.5 0-62.5-37.4-119.1-95.1-144-10.4-4.5-27.3-9.4-37.5-10.9C274 3.5 252.6 3 243 4zm44 33.4c30.5 7.1 55.9 24 75 50.1 27.4 37.3 30.7 90 8.3 131.5-16.8 31.2-44.3 52.8-79.2 62.3-11.2 3.1-12.3 3.2-31.1 3.2s-19.9-.1-31.1-3.2c-31.4-8.5-56.9-26.9-74.3-53.3-8-12.2-12.2-21.9-16.2-37.3-10.8-42.4 1.2-87.2 31.6-117.8 19.3-19.3 42-31.6 67.5-36.4 10.1-1.8 39.9-1.3 49.5.9zM402.5 342.3c-4.3 4-9.7 8.8-11.8 10.7l-3.9 3.5 4.9 3.5c2.6 1.9 5.5 4 6.3 4.7 28.9 23.2 49.4 48.4 64.5 79.5 9.8 20 17.4 43.9 19.8 62.1l1.3 9.2 15.7.3 15.7.3v-2.8c0-14-10.2-53.4-18.7-72.3-4.4-9.9-11.7-24.3-14.7-28.9-15.2-23.8-24.3-35.4-39.9-51.2-8.7-8.8-28.8-25.9-30.4-25.9-.4 0-4.4 3.3-8.8 7.3z"/></svg></a><span>anyut_82</span></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="layer__comment">
+      <div class="layer__chat-debates-tabs-body">
+        <div class="layer__chat-debates-tabs">
+          <div class="layer__chat-debates-tab tab-chat tab-chat-1 active">
+            <span>На рубеже</span>
+          </div>
+          <div class="layer__chat-debates-tab tab-chat tab-chat-2">
+            <span>На лыжне</span>
+          </div>
+        </div>
+      </div>
+      <div class="layer__chat-debates-line"></div>
+      <div class="layer__comment-write-body">
+        <div class="timeline__item-comments-write-textarea-body">
+          <div class="timeline__item-comments-write-textarea-content" tabindex="0">
+            <div class="textarea">
+            <textarea id="text-field" class="text-field" placeholder="Написать комментарий..."></textarea>
+            <div class="toolbar-list">
+              <div class="toolbar-content">
+                <div class="toolbar">
+                </div>
+              </div>
+              <button id="toolbar-message-button" type="submit"><p class="button-text">Огонь</p><p class="button-icon"></p></button>
+            </div>                   
+            </div>
+        </div>
+      </div>
+      <div class="layer__comment-write-body-rules">
+        <span>
+          Уважаемые болельщики, в нашем чате действуют такие же правила, как и на сайте, при добавлении комментариев. Что бы иметь возможность писать в чате, вы должны пройти проверку на сайте и добавить как минимум 10 проверенных комментариев. Нарушения в чате влекут за собой перевод вашего логина в режим Проверки и вы не сможете оставлять сообщения в чате какое-то время. 
+        </span>
+      </div>
+      </div>
+    </div>
+    <script src="js/script3.js"></script>
+    <script src="js/script-cup.js"></script>
+    <!-- <script src="js/script-comments.js"></script> -->
+    <script src="js/timer.js"></script>
+    <script src="js/tippy.js"></script>
+    <script src="js/tippy2.js"></script>
+    <script src="js/tippy3.js"></script>
+    <script src="js/script.js"></script>
+  </div>
+  <script src="js/chat.js"></script>
+</body>
+
+</html>
