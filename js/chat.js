@@ -12,6 +12,40 @@ $(document).ready(function() {
     });
     });
 
+
+$(document).ready(function() {
+    $(".tab-2").click(function() {
+      $(".layer__chat-debates").addClass("links");
+    });
+    
+  $(".tab-1").click(function() {
+      $(".layer__chat-debates").removeClass("links");
+    });
+  });
+
+  $(document).ready(function() {
+    $(".tab-chat-2").click(function() {
+      $(".layer__comment").addClass("piste");
+  });
+    
+  $(".tab-chat-1").click(function() {
+      $(".layer__comment").removeClass("piste");
+    });
+  });
+
+  /* добавление/удаление класса при изменение ширины экрана */
+
+  function toggleClasses() {
+    if (window.innerWidth >= 701) {
+      document.querySelector(".tab-chat-1").classList.add("active");
+      document.querySelector(".layer__comment").classList.remove("piste");
+      document.querySelector(".tab-chat-2").classList.remove("active");
+    }
+  }
+  
+  window.addEventListener("resize", toggleClasses);
+/* добавление/удаление класса при изменение ширины экрана */
+
 /* Скролл блока вниз*/
 $(document).ready(function() {
     $(".layer__chat-debates-table").scrollTop($(".layer__chat-debates-table").prop("scrollHeight") - $(".layer__chat-debates-table").height());
@@ -337,3 +371,25 @@ for(let i of textareas) {
 }
 
 /* Продвинутое автоувеличение поля ввода*/
+
+
+/*Добавление/удаление класса при достижении конца скролла*/
+
+$('.toolbar-content').scroll(function() {
+  var width = $('.toolbar-content').scrollLeft();
+  if (this.scrollWidth - this.scrollLeft === this.clientWidth) {
+  $('.toolbar-list').addClass('hide');
+  } else{
+  $('.toolbar-list').removeClass('hide');
+  }
+  });
+
+/*Добавление/удаление класса при достижении конца скролла*/
+
+document.querySelectorAll('.layer__chat-users-list-body-2 > .layer__chat-users-list-wrapper > .layer__chat-users-list > li > span').forEach(function(span) {
+  span.addEventListener('click', function() {
+    document.querySelector('.tab-chat-2').classList.remove('active');
+    document.querySelector('.layer__comment').classList.remove('piste');
+    document.querySelector('.tab-chat-1').classList.add('active');
+  });
+});
