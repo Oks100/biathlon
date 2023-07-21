@@ -88,9 +88,14 @@
     margin-left: 7px;
     padding: 5px 0 5px 5px;
 }
-  .timeline-calendar__select-season {
+.timeline-calendar__select-season {
     outline: 1px solid #d0d9dd;
     border-radius: 3px;
+    transition: all .3s ease;
+    cursor: pointer;
+}
+.timeline-calendar__select-season:focus {
+    outline-color: #bfc6ca;
 }
 .timeline-calendar__stages {
     font-size: 1.2em;

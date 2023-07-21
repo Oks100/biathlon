@@ -182,7 +182,7 @@
 input:focus::placeholder, .input-text-2:focus::placeholder {
     color: transparent;
 }
-.timeline-my-profile__body-form-group-wrapper button {
+.button-10 {
     display: flex;
     padding: 8.5px 20px;
     background-color: #e7f3fa;
@@ -191,6 +191,10 @@ input:focus::placeholder, .input-text-2:focus::placeholder {
     margin: 25px 0 0px 0;
     -webkit-tap-highlight-color: transparent;
     color: #002b71;
+    width: fit-content;
+}
+.change-button {
+    margin: 15px 0 0px 0;
 }
 .checkbox-group {
     display: flex;
@@ -442,7 +446,7 @@ input:focus::placeholder, .input-text-2:focus::placeholder {
     .timeline-my-profile__body-avatar-upload:hover {
         background-color: #d1ebfb;
     }
-    .timeline-my-profile__body-form-group-wrapper button:hover {
+    .button-10:hover {
         background-color: #d1ebfb;
     }
     .checkbox-group .label-for-allow-messages:hover::before {
@@ -473,7 +477,7 @@ input:focus::placeholder, .input-text-2:focus::placeholder {
     .form-group {
         max-width: 250px;
     }
-    .timeline-my-profile__body-form-group-wrapper button {
+    .button-10 {
         margin: 25px auto 0 auto;
     }
     .timeline-my-profile__body-my-favourite-select-group {

@@ -304,6 +304,11 @@ html[data-theme="grey"] #tippy-16 ul li a:hover {
 .timeline-cup__select-body select {
     outline: 1px solid #d0d9dd;
     border-radius: 3px;
+    transition: all .3s ease;
+    cursor: pointer;
+}
+.timeline-cup__select-body select:focus {
+    outline-color: #bfc6ca;
 }
 
 .timeline-cup-tables {

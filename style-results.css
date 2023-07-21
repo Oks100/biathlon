@@ -196,6 +196,11 @@
 .timeline-results__select-season {
     outline: 1px solid #d0d9dd;
     border-radius: 3px;
+    transition: all .3s ease;
+    cursor: pointer;
+}
+.timeline-results__select-season:focus {
+    outline-color: #bfc6ca;
 }
 .timeline-results__select-season {
     margin-left: 7px;

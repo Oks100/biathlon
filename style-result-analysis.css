@@ -205,6 +205,11 @@
 .timeline-cup__flag select {
     outline: 1px solid #d0d9dd;
     border-radius: 3px;
+    transition: all .3s ease;
+    cursor: pointer;
+}
+.timeline-cup__flag select:focus {
+    outline-color: #bfc6ca;
 }
 .timeline-cup__select-flag {
     margin-left: 10px;
