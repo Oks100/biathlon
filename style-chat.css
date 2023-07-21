@@ -371,14 +371,16 @@ footer {
 .layer__chat-debates .layer__chat-debates-links {
     display: none;
 }
+/* .layer__chat-debates.links .layer__chat-debates-links {
+
+} */
 .layer__chat-debates.links .layer__chat-debates-links {
     display: flex;
-    gap: 15px;
-}
-.layer__chat-debates-links {
-    display: flex;
+    gap: 30px 20px;
     flex-direction: row;
-    margin-top: 1em;
+    padding: 22px;
+    /* margin-top: 1em; */
+    /* margin-bottom: 1em; */
 }
 .layer__chat-debates-links-item {
     display: flex;
@@ -386,9 +388,13 @@ footer {
     width: 100%;
     gap: 8px;
     z-index: 1;
-    background-color: rgba(0, 0, 0, 0.203);
+    /* background-color: rgba(255, 255, 255, 0.5); */
     border-radius: 8px;
+    /* padding: 15px; */
 }
+/* .layer__chat-debates-links-item a {
+    background-color: white;
+} */
 .layer__chat-debates-links-item-title {
     text-transform: uppercase;
     font-weight: 800;
@@ -404,15 +410,14 @@ footer {
     gap: 8px;
 }
 .layer__chat-debates-links-item-title-small {
-    /* color: #1f7ec4; */
+    color: #1f7ec4;
     text-transform: uppercase;
 }
 .layer__chat-debates.links .layer__chat-debates-table {
     position: relative;
-    padding-left: 22px;
-    padding-right: 22px;
+    /* padding: 22px; */
 }
-.layer__chat-debates.links .layer__chat-debates-table::before {
+.layer__chat-debates.links .layer__chat-debates-links::before {
     content: '';
     position: absolute;
     top: 0;
@@ -420,12 +425,12 @@ footer {
     right: 0;
     bottom: 0;
     display: block;
-    background-image: linear-gradient(rgba(0, 0, 255, 0.5), rgba(255, 255, 0, 0.5));
+    /* background-image: linear-gradient(rgb(19, 95, 151), rgb(250, 210, 2)); */
     background-image: url("img/picture/03.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     /* background-position: center center; */
-    opacity: 0.35;
+    opacity: 0.15;
 }
 @media (hover: hover) {
     .checkbox-group .label-for-useEnter:hover::before {
@@ -482,6 +487,14 @@ footer {
         flex: auto;
     }
 }
+@media screen and (max-width: 750px) {
+    .layer__chat-debates.links .layer__chat-debates-links::before {
+        background-image: none;
+    }
+    .layer__chat-debates.links .layer__chat-debates-links {
+        background-image: linear-gradient(rgba(19, 96, 151, 0.15), rgb(250, 210, 2, 0.15));
+    }
+}
 @media screen and (max-width: 700px) {
     .layer__chat-users {
         display: none;
@@ -533,7 +546,11 @@ footer {
         margin-left: initial;
     }
 }
-
+@media (max-width: 390px) {
+    .layer__chat-debates-links {
+        flex-wrap: wrap;
+    }
+}
 @media (max-width: 379px) {
     .toolbar-list::before {
         position: absolute;
