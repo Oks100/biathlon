@@ -284,7 +284,7 @@ const italic = new GenericElement("", "Italic", "i");
 const underline = new GenericElement("", "Underline", "u");
 const strikethrough = new GenericElement("", "Strikethrough", "s");
 const url = new PopupInputElement("", "Добавить ссылку", "url", "Введите адрес:");
-const quote = new GenericElement("", "Quote", "quote");
+// const quote = new GenericElement("", "Quote", "quote");
 
 window.onload = () => {
   document.querySelector(".toolbar-button:nth-child(1)").setAttribute("title", "Жирный");
@@ -292,7 +292,7 @@ window.onload = () => {
   document.querySelector(".toolbar-button:nth-child(3)").setAttribute("title", "Подчеркнутый");
   document.querySelector(".toolbar-button:nth-child(4)").setAttribute("title", "Зачеркнутый");
   document.querySelector(".toolbar-button:nth-child(5)").setAttribute("title", "Ссылка");
-  document.querySelector(".toolbar-button:nth-child(6)").setAttribute("title", "Цитата");
+  // document.querySelector(".toolbar-button:nth-child(6)").setAttribute("title", "Цитата");
 };
 
 /* Форма ввода комментария*/
