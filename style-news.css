@@ -116,6 +116,11 @@
 .timeline-news__select-month, .timeline-news__select-season {
     padding: 5px 0 5px 8px;
     outline: 1px solid #d0d9dd;
+    transition: all .3s ease;
+    cursor: pointer;
+}
+.timeline-news__select-month:focus, .timeline-news__select-season:focus {
+    outline-color: #bfc6ca;
 }
 .timeline-news__select-season {
     width: 60px;
