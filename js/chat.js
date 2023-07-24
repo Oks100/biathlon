@@ -48,8 +48,9 @@ $(document).ready(function() {
 
 /* Скролл блока вниз*/
 $(document).ready(function() {
-    $(".layer__chat-debates-table").scrollTop($(".layer__chat-debates-table").prop("scrollHeight") - $(".layer__chat-debates-table").height());
-    });
+  $(".chat-messages-wrapper").scrollTop($(".chat-messages-wrapper").prop("scrollHeight") - $(".chat-messages-wrapper").height());
+  });
+
 /* Скролл блока вниз*/
 
 
