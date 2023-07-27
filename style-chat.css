@@ -419,6 +419,11 @@ footer {
     background-size: cover;
     opacity: 0.15;
 }
+
+.timeline__item-comments-write-textarea-content .popup {
+    transform: translate(-50%, -50%);
+}
+
 @media (hover: hover) {
     .checkbox-group .label-for-useEnter:hover::before {
         border-color: #c0e5fb;

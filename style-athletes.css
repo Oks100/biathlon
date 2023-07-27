@@ -1,0 +1,349 @@
+#tippy-16 {
+    width: auto;
+}
+#tippy-16 .tippy-content {
+    overflow: hidden;
+}
+#tippy-16 ul li a {
+    color: black !important;
+    font-size: 13.5px !important;
+    text-transform: none !important;
+    padding: 0px 10px 0px 10px !important;
+    transition: 0s !important;
+    text-shadow: none !important;
+    width: 100%;
+    display: flex;
+}
+#tippy-16 ul li:last-of-type a {
+    border-bottom: none !important;
+}
+  
+#tippy-16 ul li::before, #tippy-16 ul li::after {
+    display: none !important;
+}
+  
+#tippy-16 ul li a:hover {
+    background-color: #ecf5fb;
+}
+#tippy-16 ul li {
+    white-space: nowrap;
+    line-height: 33px;
+}
+#tippy-16 ul li:last-of-type {
+    white-space: nowrap;
+    line-height: 33px;
+}
+#tippy-16 ul li:last-of-type a, #tippy-16 ul li:last-of-type a::before {
+    color: red !important;
+   }
+#tippy-16 ul li:first-of-type a::before {
+    content: "\e016";
+    font-family: 'icomoon';
+    margin-right: 7px;
+    font-size: 13px;
+    color: #81aad5;
+}
+#tippy-16 ul li:nth-child(2) a::before {
+    content: "\e015";
+    font-family: 'icomoon';
+    margin-right: 7px;
+    font-size: 13px;
+    color: #81aad5;
+}
+#tippy-16 ul li:last-of-type a::before {
+    content: "\e9b";
+    font-family: 'icomoon';
+    margin-right: 7px;
+    font-size: 13px;
+    color: #81aad5;
+}
+
+.timeline-athletes {
+    padding: 2em 1.5em 1.75em 1.5em;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0px 5px 24px rgba(32,60,87,0.11);
+    overflow-x: hidden;
+}
+.timeline-athletes__head {
+    display: flex;
+    justify-content: space-between;
+    /* margin-bottom: 1.5em; */
+    margin-bottom: 2em;
+    position: relative;
+    gap: 20px;
+    align-items: center;
+}
+.timeline-athletes__head > span:nth-child(1) {
+    font-size: 1.3em;
+    color: black;
+    font-weight: 700;
+}
+.timeline-athletes__select-body {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.timeline-athletes__select-body select {
+    outline: 1px solid #d0d9dd;
+    border-radius: 3px;
+    transition: all .3s ease;
+    cursor: pointer;
+    padding: 5px 0 5px 5px;
+}
+.timeline-athletes__select-body select:focus {
+    outline-color: #bfc6ca;
+}
+
+.search-name-label {
+    display: flex;
+    position: relative;
+}
+.input-text-2 {
+    padding: 0 10px 0 43px;
+    height: 33px;
+    transition: all .3s ease;
+    width: 100%;
+}
+.input-text-2 {
+    border-radius: 33px;
+    max-width: 250px;
+}
+.input-text-2 {
+    border: 1px solid #d0d9dd;
+}
+.icon {
+    position: absolute;
+    width: 33px;
+    height: 33px;
+    bottom: 0;
+    left: 0;
+    background-color: #bfc6ca;
+    border-radius: 33px;
+    transition: all .4s ease-in-out;
+}
+.search-icon {
+    fill: #fff;
+    width: 17px;
+    height: 17px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+input:focus::placeholder, .input-text-2:focus::placeholder {
+    color: transparent;
+}
+.input-text-2:focus {
+    border-color: #bfc6ca;
+}
+.input-text-2:focus ~ .icon {
+    border-radius: 33px 0 0 33px;
+}
+
+
+
+/* .timeline-athletes__filters {
+    position: relative;
+} */
+.timeline-athletes__filters {
+    /* display: flex;
+    width: 100%;
+    justify-content: center; */
+}
+.filters {
+    box-shadow: 0px 0px 12px rgba(91, 91, 91, 0.3);
+    padding: 53px 10px 10px 10px;
+    position: absolute;
+    z-index: 2;
+    background-color: white;
+    border-radius: 8px;
+    transform: translateY(-8px);
+}
+  
+.filters__list li {
+    display: flex;
+    user-select: none;
+    flex-wrap: wrap;
+    gap: 5px;
+    flex-direction: column;
+}
+
+.filters__list li:not(:first-of-type) label {
+    margin-top: 15px;
+}
+  
+input[type="checkbox"] {
+    margin-right: 0.5em;
+}
+  
+.filters:not(.filters--active) {
+    display: none;
+}
+  
+.filter-button {
+    position: relative;
+    background-color: #e7f3fa;
+    padding: 8.5px 40px 8.5px 20px;
+    border-radius: 33px;
+    text-align: center;
+    display: inline-flex;
+    cursor: pointer;
+    color: #002b71;
+    transition: all .3s ease;
+    z-index: 3;
+}
+.circle-for-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    right: 0;
+    top: 0;
+    border-radius: 50%;
+    width: 33px;
+    height: 33px;
+    background-color: white;
+    border: 2px solid #e7f3fa;
+    scale: 1;
+    transition: all .3s ease;
+    color: black;
+}
+.circle-for-button::before {
+    display: block;
+    content: "\e081";
+    font-family: 'icomoon';
+    color: #81aad5;
+    font-size: .85em;
+    transition: all 0.3s ease;
+    scale: 1;
+}
+.filters.filters--active ~ .filter-button .circle-for-button::before {
+    display: none;
+}
+.filters.filters--active ~ .filter-button .circle-for-button {
+    border-color: transparent;
+}
+
+.timeline-athletes__filters.one .circle-for-button::before, .timeline-athletes__filters.two .circle-for-button::before, .timeline-athletes__filters.three .circle-for-button::before, .timeline-athletes__filters.four .circle-for-button::before {
+    display: none;
+}
+.timeline-athletes__filters.one .circle-for-button, .timeline-athletes__filters.two .circle-for-button, .timeline-athletes__filters.three .circle-for-button, .timeline-athletes__filters.four .circle-for-button {
+    border-color: #e7f3fa !important;
+}
+
+
+.apply-button {
+    background-color: transparent;
+    border: 2px solid #dfedf4;
+    padding: 8.5px 15px;
+    border-radius: 33px;
+    color: #002b71;
+    transition: all .3s ease;
+}
+.filters-remove {
+    display: none;
+    background-color: transparent;
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+}
+.timeline-athletes__filters.one .filters-remove, .timeline-athletes__filters.two .filters-remove, .timeline-athletes__filters.three .filters-remove, .timeline-athletes__filters.four .filters-remove {
+    display: block;
+}
+
+.timeline-athletes__filters .filters--active ~ .filter-button {
+    background-color: transparent;
+    transition: all 0s;
+    pointer-events: none;
+}
+.timeline-athletes__filters .filters--active ~ .filter-button .circle-for-button {
+    transition: all 0s;
+}
+.filter__button-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.remove-icon {
+    fill: #81aad5;
+    width: 16px;
+    height: 16px;
+    scale: 1;
+    transition: all .3s ease;
+}
+.popular-profile-table-wrapper {
+    margin-top: 2em;
+    overflow-x: auto;
+}
+.popular-profile-table {
+    border-collapse: collapse;
+    width: 100%;
+    white-space: nowrap;
+}
+.popular-profile-table thead tr td {
+    color: #5d5d5d;
+}
+.popular-profile-table tr td:nth-last-child(1) {
+    text-align: center;
+}
+.popular-profile-table tbody tr:nth-child(2n+1) {
+    background-color: #e7f3fa;
+}
+.popular-profile-table tr td:not(:nth-child(1), :nth-child(2)) {
+    padding: 2.4px 7px;
+}
+.popular-profile-table tr td:nth-child(1) {
+    padding: 2.4px 2.4px 2.4px 7px;
+    width: 22.8px;
+}
+.popular-profile-table tr td:nth-child(2) {
+    padding: 2.4px 7px 2.4px 2.4px;
+}
+.popular-profile-table img {
+    cursor: pointer;
+}
+
+.chosen-string.active {
+    box-shadow: 0 0 0 1px white;
+    background-color: #ffcae5 !important;
+}
+
+.timeline-cup__select-flag {
+    margin-left: 0 !important;
+    width: auto !important;
+}
+
+@media (hover: hover) {
+    .popular-profile-table tbody tr:not(.active):hover td {
+        background-color: #fffce5;
+    }
+    .filter-button:hover {
+        background-color: #d1ebfb;
+    }
+    .filter-button:hover .circle-for-button {
+        border-color: #d1ebfb;
+    }
+    .apply-button:hover {
+        background-color: #e7f3fa;
+        border-color: #e7f3fa;
+    }
+    .filters-remove:hover .remove-icon {
+        fill: red;
+    }
+}
+@media screen and (max-width: 500px) {
+    .timeline-athletes__filters {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+}
+@media screen and (max-width: 550px) {
+    .timeline-athletes {
+        padding: 2em 1.06em 1.75em 1.06em;
+    }
+}
