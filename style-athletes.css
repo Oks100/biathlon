@@ -194,6 +194,7 @@ input[type="checkbox"] {
     color: #002b71;
     transition: all .3s ease;
     z-index: 3;
+    -webkit-tap-highlight-color: transparent;
 }
 .circle-for-button {
     display: flex;
@@ -242,6 +243,7 @@ input[type="checkbox"] {
     border-radius: 33px;
     color: #002b71;
     transition: all .3s ease;
+    -webkit-tap-highlight-color: transparent;
 }
 .filters-remove {
     display: none;
@@ -249,6 +251,7 @@ input[type="checkbox"] {
     width: 28px;
     height: 28px;
     border-radius: 50%;
+    -webkit-tap-highlight-color: transparent;
 }
 .timeline-athletes__filters.one .filters-remove, .timeline-athletes__filters.two .filters-remove, .timeline-athletes__filters.three .filters-remove, .timeline-athletes__filters.four .filters-remove {
     display: block;

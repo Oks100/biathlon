@@ -1,0 +1,200 @@
+#tippy-16 {
+    width: auto;
+}
+#tippy-16 .tippy-content {
+    overflow: hidden;
+}
+#tippy-16 ul li a {
+    color: black !important;
+    font-size: 13.5px !important;
+    text-transform: none !important;
+    padding: 0px 10px 0px 10px !important;
+    transition: 0s !important;
+    text-shadow: none !important;
+    width: 100%;
+    display: flex;
+}
+#tippy-16 ul li:last-of-type a {
+    border-bottom: none !important;
+}
+  
+#tippy-16 ul li::before, #tippy-16 ul li::after {
+    display: none !important;
+}
+  
+#tippy-16 ul li a:hover {
+    background-color: #ecf5fb;
+}
+#tippy-16 ul li {
+    white-space: nowrap;
+    line-height: 33px;
+}
+#tippy-16 ul li:last-of-type {
+    white-space: nowrap;
+    line-height: 33px;
+}
+#tippy-16 ul li:last-of-type a, #tippy-16 ul li:last-of-type a::before {
+    color: red !important;
+   }
+#tippy-16 ul li:first-of-type a::before {
+    content: "\e016";
+    font-family: 'icomoon';
+    margin-right: 7px;
+    font-size: 13px;
+    color: #81aad5;
+}
+#tippy-16 ul li:nth-child(2) a::before {
+    content: "\e015";
+    font-family: 'icomoon';
+    margin-right: 7px;
+    font-size: 13px;
+    color: #81aad5;
+}
+#tippy-16 ul li:last-of-type a::before {
+    content: "\e9b";
+    font-family: 'icomoon';
+    margin-right: 7px;
+    font-size: 13px;
+    color: #81aad5;
+}
+
+.timeline-general-info {
+    padding: 2em 1.5em 1.75em 1.5em;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0px 5px 24px rgba(32,60,87,0.11);
+    overflow-x: hidden;
+}
+.timeline-general-info__head {
+    display: flex;
+    justify-content: space-between;
+    /* margin-bottom: 1.5em; */
+    margin-bottom: 2em;
+    position: relative;
+    gap: 20px;
+    align-items: center;
+}
+.timeline-general-info__head > span:nth-child(1) {
+    font-size: 1.3em;
+    color: black;
+    font-weight: 700;
+}
+.timeline-general-info__title {
+    background-color: #e7f3fa;
+    padding: 3.4px 0 3.4px 3.5px;
+    display: flex;
+    margin-top: 1.5em;
+    font-weight: 600;
+}
+
+.timeline-general-info__list {
+    display: flex;
+    flex-wrap: wrap;
+}
+.timeline-general-info__list ul {
+    width: 50%;
+}
+.timeline-general-info__list span {
+    cursor: pointer;
+}
+
+.timeline-general-info__list li::before {
+    content: "\e902";
+    font-family: 'icomoon';
+    color: #81aad5;
+    font-size: 0.95em;
+    padding-right: 5px;
+}
+.timeline-general-info__body-title {
+    display: flex;
+    background-color: #d1ebfb;
+    margin: 2em 0 1em 0;
+    position: relative;
+    padding: 1.3px 10px 1.3px 51px;
+}
+.timeline-general-info__body-title span {
+    font-size: 1.2em;
+    font-weight: 600;
+}
+.timeline-general-info__body-title-icon {
+    position: absolute;
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    background-color: white;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 7px;
+    border: 2px solid #d1ebfb;
+}
+.timeline-general-info__body-title svg {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    fill: #81aad5;
+    scale: 1;
+}
+.legend-icon {
+    width: 20px;
+    height: 20px;
+}
+.timeline-general-info__body-text-wrapper {
+    display: none;
+}
+.timeline-general-info.text-1-show .text-1, .timeline-general-info.text-2-show .text-2, .timeline-general-info.text-3-show .text-3, .timeline-general-info.text-4-show .text-4, .timeline-general-info.text-5-show .text-5, .timeline-general-info.text-6-show .text-6, .timeline-general-info.text-7-show .text-7, .timeline-general-info.text-8-show .text-8, .timeline-general-info.text-9-show .text-9, .timeline-general-info.text-10-show .text-10, .timeline-general-info.text-11-show .text-11, .timeline-general-info.text-12-show .text-12, .timeline-general-info.text-13-show .text-13, .timeline-general-info.text-14-show .text-14, .timeline-general-info.text-14-show .text-14, .timeline-general-info.text-15-show .text-15, .timeline-general-info.text-16-show .text-16, .timeline-general-info.text-17-show .text-17, .timeline-general-info.text-18-show .text-18, .timeline-general-info.text-19-show .text-19, .timeline-general-info.text-20-show .text-20 {
+    display: block;
+}
+.timeline-general-info-table-wrapper {
+    overflow-x: auto;
+    border: 2px solid black;
+}
+.timeline-general-info-table-4, .timeline-general-info-table-13 {
+    border-collapse: collapse;
+    width: 100%;
+    min-width: 560px;
+}
+.timeline-general-info-table-4 tr td, .timeline-general-info-table-13 tr td {
+    max-width: 33.333px;
+    border: 1px solid #d0d9dd;
+    padding: 3px 7px;
+}
+.timeline-general-info-table-4 tr td:not(:last-child) {
+    white-space: nowrap;
+}
+.timeline-general-info-table-4 tbody tr:nth-child(2n+1), .timeline-general-info-table-13 tbody tr:nth-child(2n+1) {
+    background-color: #d6ecf9;
+}
+.timeline-general-info-table-4 tbody tr:nth-child(2n), .timeline-general-info-table-13 tbody tr:nth-child(2n) {
+    background-color: #e7f3fa;
+}
+.history-icon, .autograph-icon, .money-icon {
+    width: 19px;
+    height: 19px;
+}
+.target-icon, .bullet-icon, .rifle-icon, .race-icon {
+    width: 22px;
+    height: 22px;
+}
+.skis-icon, .coin-icon {
+    width: 21px;
+    height: 21px;
+}
+.score-icon {
+    width: 25px;
+    height: 25px;
+}
+
+@media (hover: hover) {
+}
+
+@media screen and (max-width: 550px) {
+    .timeline-general-info {
+        padding: 2em 1.06em 1.75em 1.06em;
+    }
+    .timeline-general-info__list ul {
+        width: 100%;
+    }
+}
+@media screen and (max-width: 380px) {
+}

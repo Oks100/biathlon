@@ -122,6 +122,9 @@
     flex-wrap: wrap;
     gap: 20px;
 }
+.timeline-private-messages-controls a {
+    -webkit-tap-highlight-color: transparent;
+}
 .timeline-private-messages__remove-messages, .timeline-private-messages__my-contacts {
     padding: 6px 15px;
     background-color: #e7f3fa;
