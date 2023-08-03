@@ -709,6 +709,16 @@
 .personal-best {
     color: #08a400;
     cursor: help;
+    position: relative;
+}
+.personal-best::before {
+    position: absolute;
+    content: '';
+    left: 0;
+    top: 0;
+    width: 1px;
+    height: 100%;
+    background-color: #08a400;
 }
 
 @media screen and (max-width: 992px) {
