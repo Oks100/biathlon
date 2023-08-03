@@ -1431,6 +1431,125 @@ tippy('.comments-delete1', {
   animation: 'shift-away',
 });
 
+tippy('.message-delete-1', {
+  content: document.querySelector('.message-delete-1-body'),
+  arrow: true,
+  interactive: true,
+  trigger: 'click',
+  delay: [0, 0],
+  placement: 'bottom',
+  duration: 350,
+  maxWidth: 400,
+  animation: 'shift-away',
+});
+
+tippy('.message-delete-2', {
+  content: document.querySelector('.message-delete-2-body'),
+  arrow: true,
+  interactive: true,
+  trigger: 'click',
+  delay: [0, 0],
+  placement: 'bottom',
+  duration: 350,
+  maxWidth: 400,
+  animation: 'shift-away',
+});
+
+tippy('.message-delete-3', {
+  content: document.querySelector('.message-delete-3-body'),
+  arrow: true,
+  interactive: true,
+  trigger: 'click',
+  delay: [0, 0],
+  placement: 'bottom',
+  duration: 350,
+  maxWidth: 400,
+  animation: 'shift-away',
+});
+
+tippy('.message-delete-4', {
+  content: document.querySelector('.message-delete-4-body'),
+  arrow: true,
+  interactive: true,
+  trigger: 'click',
+  delay: [0, 0],
+  placement: 'bottom',
+  duration: 350,
+  maxWidth: 400,
+  animation: 'shift-away',
+});
+
+tippy('.message-delete-5', {
+  content: document.querySelector('.message-delete-5-body'),
+  arrow: true,
+  interactive: true,
+  trigger: 'click',
+  delay: [0, 0],
+  placement: 'bottom',
+  duration: 350,
+  maxWidth: 400,
+  animation: 'shift-away',
+});
+
+tippy('.message-delete-6', {
+  content: document.querySelector('.message-delete-6-body'),
+  arrow: true,
+  interactive: true,
+  trigger: 'click',
+  delay: [0, 0],
+  placement: 'bottom',
+  duration: 350,
+  maxWidth: 400,
+  animation: 'shift-away',
+});
+
+tippy('.message-delete-7', {
+  content: document.querySelector('.message-delete-7-body'),
+  arrow: true,
+  interactive: true,
+  trigger: 'click',
+  delay: [0, 0],
+  placement: 'bottom',
+  duration: 350,
+  maxWidth: 400,
+  animation: 'shift-away',
+});
+
+tippy('.message-delete-8', {
+  content: document.querySelector('.message-delete-8-body'),
+  arrow: true,
+  interactive: true,
+  trigger: 'click',
+  delay: [0, 0],
+  placement: 'bottom',
+  duration: 350,
+  maxWidth: 400,
+  animation: 'shift-away',
+});
+
+tippy('.message-delete-9', {
+  content: document.querySelector('.message-delete-9-body'),
+  arrow: true,
+  interactive: true,
+  trigger: 'click',
+  delay: [0, 0],
+  placement: 'bottom',
+  duration: 350,
+  maxWidth: 400,
+  animation: 'shift-away',
+});
+
+tippy('.message-delete-10', {
+  content: document.querySelector('.message-delete-10-body'),
+  arrow: true,
+  interactive: true,
+  trigger: 'click',
+  delay: [0, 0],
+  placement: 'bottom',
+  duration: 350,
+  maxWidth: 400,
+  animation: 'shift-away',
+});
 
 
 tippy('.header__notifications', {
