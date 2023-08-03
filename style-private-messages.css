@@ -330,6 +330,55 @@
     width: 15px;
 }
 
+
+/* .timeline__item-comments-delete-info {
+    padding-top: 5px;
+}
+.timeline__item-comments-delete-info span {
+    display: flex;
+    height: 33px;
+    align-items: center;
+    justify-content: center;
+    padding: 0 10px;
+}
+.timeline__item-comments-delete-info_choose {
+    display: flex;
+    justify-content: space-around;
+}
+.delete-yes {
+    color: red;
+    border-radius: 0 0 0px 8px;
+    position: relative;
+}
+.delete-yes, .delete-no {
+    width: 100%;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+.delete-yes:hover, .delete-no:hover {
+    background-color: #ecf5fb;
+  }
+.delete-no {
+    border-radius: 0 0 8px 0px;
+}
+.delete-yes::before {
+    position: absolute;
+    content: '';
+    width: 0.5px;
+    height: 15px;
+    background-color: #d0d9dd;
+    right: 0;
+} */
+.timeline__item-comments-delete-info span {
+    padding: 0 15px;
+}
+.delete-yes::before {
+    width: 0.7px;
+}
+.timeline-private-messages__item-remove[aria-expanded="true"] {
+    border-color: #c0e5fb;
+}
+
 @media (hover: hover) {
     .timeline-private-messages__item-remove:hover {
         border-color: #c0e5fb;
