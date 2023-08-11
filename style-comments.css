@@ -2542,7 +2542,9 @@ html[data-theme='dark'] .guest-user.tab-password .timeline__item-comments-write-
     border-color: #d1ebfb;
 }
 
-
+.timeline__item-comments-write.guest-user .timeline__item-comments-write-textarea-content .popup {
+    transform: translate(-50%, -50%);
+}
 
 
 
