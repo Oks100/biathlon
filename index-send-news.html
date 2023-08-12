@@ -8,7 +8,7 @@
   <title>Биатлон</title>
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="style-comments.css">
-  <link rel="stylesheet" href="style-my-profile.css">
+  <link rel="stylesheet" href="style-send-news.css">
   <link rel="stylesheet" href="fonts/icomoon/style.css">
   <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
@@ -335,591 +335,63 @@
         <div class="timeline__speedbar">
           <a href="/biathlon">Главная</a>
           <span class="delimiter"></span>
-          <span class="timeline__speedbar-title">Мой профиль</span>
+          <span class="timeline__speedbar-title">Прислать новость</span>
         </div>
-        <div class="timeline-my-profile">
-          <div class="timeline-my-profile__head">
-            <span>Мой профайл
-            </span>
+        <div class="timeline-send">
+          <div class="timeline-send__head">
+            <span>Прислать новость</span>
           </div>
-          <div class="timeline-my-profile__body">
-            <div class="timeline-my-profile__body-avatar-wrapper">
-              <div class="timeline-my-profile__body-avatar-image">
-                <svg class="discussion-male" version="1.0" xmlns="http://www.w3.org/2000/svg" width="50" height="50"
-                viewBox="0 0 50 50">
-                <path
-                  d="M17.7 1.4C3.1 6.8-3.8 22.5 2.6 35.3c7.9 15.6 27.7 19.1 39.8 7.1 9.6-9.7 9.6-25.1 0-34.8-6.4-6.3-17.1-9-24.7-6.2zm13.8 3.7c2.3.7 5.7 2.8 8.1 5.3 7.8 7.8 8.5 19.3 1.6 27.6-2.8 3.2-3 3.3-6 2.1-3.9-1.6-3.9-2.5-.7-7.3 2.3-3.4 2.5-4.3 1.9-10.8-.5-4.7-1.3-7.7-2.5-9.2-1.1-1.1-1.9-2.7-1.9-3.5 0-1.8-7-1.7-11.5.1-4.6 1.9-6.2 4.9-6.9 12.9-.6 6.1-.4 7.1 1.9 10.4 3.2 4.8 3.2 5.8-.6 7.4-3 1.2-3.3 1.1-6-1.9-6.7-7.5-6.3-19.6.9-27.4 5.7-6 13.2-8 21.7-5.7zm.9 13.6c1.9 6.6 1.7 9.1-.8 13.1-4.2 6.8-9 6.8-13.2 0-2.2-3.5-2.5-4.7-1.9-8.7.4-2.5.9-4.9 1.2-5.4.2-.4 3.5-.7 7.3-.7 5.7 0 7 .3 7.4 1.7zm-2.4 23c0 1.6-.8 2.5-2.5 2.9-4 1-7.5-.3-7.5-2.9 0-2 .5-2.2 5-2.2s5 .2 5 2.2z" />
-              </svg>
-              </div>
-              <div class="timeline-my-profile__body-avatar-upload-wrapper">
-                <input class="timeline-my-profile__body-avatar-upload" type="file" name="avatar" accept="image/*" size="65">
-              <span>(максимальный размер файла 100kb)</span>
-            </div>
-            </div>
-            <div class="timeline-my-profile__body-form-group-wrapper">
-              <div class="timeline-my-profile__body-form-group">
-                <div class="timeline-my-profile__body-form-group-1">
-                  <div class="form-group">
-                    <div class="data-group">
-                    <span>Дата рождения:</span>
-                        <select tabindex="1" name="number" class="choosing">
-                          <option>1</option>
-                          <option>2</option>
-                          <option>3</option>
-                          <option>4</option>
-                          <option>5</option>
-                          <option>6</option>
-                          <option>7</option>
-                          <option>8</option>
-                          <option>9</option>
-                          <option>10</option>
-                          <option>11</option>
-                          <option>12</option>
-                          <option>13</option>
-                          <option>14</option>
-                          <option>15</option>
-                          <option>16</option>
-                          <option>17</option>
-                          <option>18</option>
-                          <option>19</option>
-                          <option>20</option>
-                          <option>21</option>
-                          <option>22</option>
-                          <option>23</option>
-                          <option>24</option>
-                          <option>25</option>
-                          <option>26</option>
-                          <option>27</option>
-                          <option>28</option>
-                          <option>29</option>
-                          <option>30</option>
-                          <option>31</option>
-                        </select>
-                        <select tabindex="2" name="month" class="choosing">
-                          <option>Январь</option>
-                          <option>Февраль</option>
-                          <option>Март</option>
-                          <option>Апрель</option>
-                          <option>Май</option>
-                          <option>Июнь</option>
-                          <option>Июль</option>
-                          <option>Август</option>
-                          <option>Сентябрь</option>
-                          <option>Октябрь</option>
-                          <option>Ноябрь</option>
-                          <option>Декабрь</option>
-                        </select>
-                        <select tabindex="3" name="year" class="choosing">
-                          <option>2017</option>
-                          <option>2016</option>
-                          <option>2015</option>
-                          <option>2014</option>
-                          <option>2013</option>
-                          <option>2012</option>
-                          <option>2011</option>
-                          <option>2010</option>
-                          <option>2009</option>
-                          <option>2008</option>
-                          <option>2007</option>
-                          <option>2006</option>
-                          <option>2005</option>
-                          <option>2004</option>
-                          <option>2003</option>
-                          <option>2002</option>
-                          <option>2001</option>
-                          <option>2000</option>
-                          <option>1999</option>
-                          <option>1998</option>
-                          <option>1997</option>
-                          <option>1996</option>
-                          <option>1995</option>
-                          <option>1994</option>
-                          <option>1993</option>
-                          <option>1992</option>
-                          <option>1991</option>
-                          <option>1990</option>
-                          <option>1989</option>
-                          <option>1988</option>
-                          <option>1987</option>
-                          <option>1986</option>
-                          <option>1985</option>
-                          <option>1984</option>
-                          <option>1983</option>
-                          <option>1982</option>
-                          <option>1981</option>
-                          <option>1980</option>
-                          <option>1979</option>
-                          <option selected>1978</option>
-                          <option>1977</option>
-                          <option>1976</option>
-                          <option>1975</option>
-                          <option>1974</option>
-                          <option>1973</option>
-                          <option>1972</option>
-                          <option>1971</option>
-                          <option>1970</option>
-                          <option>1969</option>
-                          <option>1968</option>
-                          <option>1967</option>
-                          <option>1966</option>
-                          <option>1965</option>
-                          <option>1964</option>
-                          <option>1963</option>
-                          <option>1962</option>
-                          <option>1961</option>
-                          <option>1960</option>
-                          <option>1959</option>
-                          <option>1958</option>
-                          <option>1957</option>
-                          <option>1956</option>
-                          <option>1955</option>
-                          <option>1954</option>
-                          <option>1953</option>
-                          <option>1952</option>
-                          <option>1951</option>
-                          <option>1950</option>
-                          <option>1949</option>
-                          <option>1948</option>
-                          <option>1947</option>
-                          <option>1946</option>
-                          <option>1945</option>
-                          <option>1944</option>
-                          <option>1943</option>
-                          <option>1942</option>
-                          <option>1941</option>
-                          <option>1940</option>
-                          <option>1939</option>
-                          <option>1938</option>
-                          <option>1937</option>
-                          <option>1936</option>
-                          <option>1935</option>
-                          <option>1934</option>
-                          <option>1933</option>
-                          <option>1932</option>
-                          <option>1931</option>
-                          <option>1930</option>
-                        </select>
-                    </div>
-                          <span>Настоящее имя:</span>
-                          <label for="realname">
-                          <input type="text" name="realname" value="Евгений" class="input-text" placeholder="Ваше настоящее имя">
-                          <div class="realname-icon icon"></div>
-                        </label>
-                        <span>Мой пол:</span>
-                        <div class="radio-buttons-body">
-                          <input type="radio" id="registr-option-1" name="select" checked>
-                          <input type="radio" id="registr-option-2" name="select">
-                          <label for="registr-option-1" class="registr-option registr-option-1">
-                            <div class="registr-dot registr-dot-1"></div>
-                            <span>Мужской</span>
-                          </label>
-                          <label for="registr-option-2" class="registr-option registr-option-2">
-                            <div class="registr-dot registr-dot-2"></div>
-                            <span>Женский</span>
-                          </label>
-                        </div>
-                        <span>Страница в соцсетях:</span>
-                        <label for="social">
-                        <input type="text" name="social" placeholder="Ваша страница в соцсетях" class="input-text">
-                        <div class="social-icon icon">
-                          <svg version="1.0" xmlns="http://www.w3.org/2000/svg" width="1368" height="1368" viewBox="0 0 1026 1026"><path d="M794 .7c-9.8.8-27.6 4.5-37.8 7.9-58.5 19.6-100.9 69-111.2 129.7-3.7 22.1-2.3 51.1 3.6 71.3 1.3 4.6 2.4 8.8 2.4 9.3s-1.9 2-4.2 3.3c-2.4 1.3-27.7 15.9-56.3 32.5-50.4 29.1-82.3 47.6-149 86.1-17.6 10.1-46.8 27-65 37.5-18.1 10.5-33.7 19.5-34.7 20-1.3.9-3.5-.6-11.5-7.7-18-16-37.3-27.3-59.3-34.7-33-11-71-11-104 0-56.4 18.9-97.3 65-110.2 124.1-1.9 9.2-2.2 13.3-2.2 33 0 19.6.3 23.8 2.2 32.7 7.3 33.6 21.6 59.9 45.6 83.9 24 24 50.3 38.3 83.9 45.6 8.9 1.9 13.1 2.2 32.7 2.2 19.4 0 23.9-.3 32.5-2.2 28.7-6.2 54.6-19 75.1-36.8 6.1-5.3 8-6.5 9.3-5.7.9.5 25.2 14.6 54.1 31.3 28.9 16.7 73.7 42.5 99.5 57.5 25.9 14.9 72.3 41.7 103.3 59.6 48.8 28.1 56.2 32.7 55.7 34.4-4.4 16.8-5 22.2-5 44.5 0 19.7.3 23.8 2.3 33 14.8 67.8 67.1 118.5 134.1 130.1 13.5 2.3 38.1 2.8 50.7.9 25.4-3.7 48.3-12.5 69.4-26.6 36-24.1 60.6-60.8 70.2-104.7 1.9-8.9 2.2-13.2 2.2-32.7 0-19.6-.3-23.8-2.2-32.7-7.3-33.6-21.6-59.7-45.7-83.9-23.9-24-50.2-38.3-83.8-45.6-8.9-1.9-13.1-2.2-32.7-2.2s-23.8.3-32.7 2.2c-33.1 7.2-59.4 21.4-83.3 44.9-6.9 6.8-12.6 12.3-12.8 12.3-.1 0-11.8-6.7-26-14.9-52-30-213.5-123.3-239.2-138.1-14.6-8.5-30-17.4-34.2-19.8-4.3-2.4-7.8-4.7-7.8-5.1 0-.4 1.6-5.4 3.5-11.2 5.9-17.2 7.6-27.3 8.2-47.4.6-21-.9-33.9-6-51.9l-3.3-11.3 49.6-28.5c41.6-24.1 94.2-54.5 242-139.8l18.5-10.7 8.5 8.1c23.7 22.7 50.5 36.9 82.5 43.6 14.5 3 39.3 3.7 54.8 1.6 63-8.9 114.1-51.4 134.8-112.4 6-17.7 7.4-27.6 7.4-51.7-.1-19-.4-23.4-2.4-32.5-11.3-52.3-44.1-94.3-91.6-117C853.4 4.1 822.5-1.6 794 .7z"/></svg>
-                        </div>
-                      </label>
-                        <span>Первый год увлечения биатлоном:</span>
-                        <select tabindex="3" name="year-2" class="choosing">
-                          <option>2017</option>
-                          <option>2016</option>
-                          <option>2015</option>
-                          <option>2014</option>
-                          <option>2013</option>
-                          <option>2012</option>
-                          <option>2011</option>
-                          <option>2010</option>
-                          <option>2009</option>
-                          <option>2008</option>
-                          <option>2007</option>
-                          <option>2006</option>
-                          <option>2005</option>
-                          <option>2004</option>
-                          <option>2003</option>
-                          <option>2002</option>
-                          <option>2001</option>
-                          <option>2000</option>
-                          <option>1999</option>
-                          <option>1998</option>
-                          <option>1997</option>
-                          <option>1996</option>
-                          <option>1995</option>
-                          <option>1994</option>
-                          <option>1993</option>
-                          <option>1992</option>
-                          <option>1991</option>
-                          <option>1990</option>
-                          <option>1989</option>
-                          <option selected>1988</option>
-                          <option>1987</option>
-                          <option>1986</option>
-                          <option>1985</option>
-                          <option>1984</option>
-                          <option>1983</option>
-                          <option>1982</option>
-                          <option>1981</option>
-                          <option>1980</option>
-                          <option>1979</option>
-                          <option>1978</option>
-                          <option>1977</option>
-                          <option>1976</option>
-                          <option>1975</option>
-                          <option>1974</option>
-                          <option>1973</option>
-                          <option>1972</option>
-                          <option>1971</option>
-                          <option>1970</option>
-                          <option>1969</option>
-                          <option>1968</option>
-                          <option>1967</option>
-                          <option>1966</option>
-                          <option>1965</option>
-                          <option>1964</option>
-                          <option>1963</option>
-                          <option>1962</option>
-                          <option>1961</option>
-                          <option>1960</option>
-                          <option>1959</option>
-                          <option>1958</option>
-                          <option>1957</option>
-                          <option>1956</option>
-                          <option>1955</option>
-                          <option>1954</option>
-                          <option>1953</option>
-                          <option>1952</option>
-                          <option>1951</option>
-                          <option>1950</option>
-                          <option>1949</option>
-                          <option>1948</option>
-                          <option>1947</option>
-                          <option>1946</option>
-                          <option>1945</option>
-                          <option>1944</option>
-                          <option>1943</option>
-                          <option>1942</option>
-                          <option>1941</option>
-                          <option>1940</option>
-                          <option>1939</option>
-                          <option>1938</option>
-                          <option>1937</option>
-                          <option>1936</option>
-                          <option>1935</option>
-                          <option>1934</option>
-                          <option>1933</option>
-                          <option>1932</option>
-                          <option>1931</option>
-                          <option>1930</option>
-                        </select>
-                  </div>
-                </div>
-                <div class="timeline-my-profile__body-form-group-2">
-                  <div class="form-group">
-                    <span>Выберите страну:</span>
-                      <select tabindex="4" name="country_id" class="choosing">
-                        <option value="5">Австралия</option>
-                        <option value="4">Австрия</option>
-                        <option value="72">Андорра</option>
-                        <option value="62">Аргентина</option>
-                        <option value="69">Армения</option>
-                        <option value="7">Беларусь</option>
-                        <option value="6">Бельгия</option>
-                        <option value="8">Болгария</option>
-                        <option value="51">Босния и Герцеговина</option>
-                        <option value="9">Бразилия</option>
-                        <option value="56">Великобритания</option>
-                        <option value="24">Венгрия</option>
-                        <option value="50">Венесуэла</option>
-                        <option value="22">Гватемала</option>
-                        <option value="89">ГДР</option>
-                        <option value="15">Германия</option>
-                        <option value="23">Гонконг</option>
-                        <option value="60">Гренландия</option>
-                        <option value="21">Греция</option>
-                        <option value="71">Грузия</option>
-                        <option value="68">Дания</option>
-                        <option value="58">Европа</option>
-                        <option value="28">Израиль</option>
-                        <option value="77">Индия</option>
-                        <option value="25">Индонезия</option>
-                        <option value="26">Иран</option>
-                        <option value="81">Ирландия</option>
-                        <option value="18">Испания</option>
-                        <option value="27">Италия</option>
-                        <option value="30">Казахстан</option>
-                        <option value="10">Канада</option>
-                        <option value="76">Кения</option>
-                        <option value="12">Китай</option>
-                        <option value="94">Коста-Рика</option>
-                        <option value="63">Кыргызстан</option>
-                        <option value="32">Латвия</option>
-                        <option value="57">Литва</option>
-                        <option value="83">Лихтенштейн</option>
-                        <option value="52">Македония</option>
-                        <option value="33">Малайзия</option>
-                        <option value="64">Марокко</option>
-                        <option value="34">Мексика</option>
-                        <option value="61">Молдова</option>
-                        <option value="80">Монголия</option>
-                        <option value="74">Монголия</option>
-                        <option value="65">Нидерланды</option>
-                        <option value="37">НОА</option>
-                        <option value="38">Новая Зеландия</option>
-                        <option value="36">Норвегия</option>
-                        <option value="39">Перу</option>
-                        <option value="40">Польша</option>
-                        <option value="41">Португалия</option>
-                        <option value="90">Пуэрто-Рико</option>
-                        <option value="43">Россия</option>
-                        <option value="42">Румыния</option>
-                        <option value="70">Сербия</option>
-                        <option value="54">Сербия и Черногория</option>
-                        <option value="53">Словакия</option>
-                        <option value="55">Словения</option>
-                        <option value="85">СНГ</option>
-                        <option value="84">СССР</option>
-                        <option value="49">США</option>
-                        <option value="46">Таиланд</option>
-                        <option value="73">Тайвань</option>
-                        <option value="91">Территория Гуам</option>
-                        <option value="47">Турция</option>
-                        <option value="66">Узбекистан</option>
-                        <option value="48" selected>Украина</option>
-                        <option value="19">Финляндия</option>
-                        <option value="20">Франция</option>
-                        <option value="88">ФРГ</option>
-                        <option value="13">Хорватия</option>
-                        <option value="75">Черногория</option>
-                        <option value="14">Чехия</option>
-                        <option value="82">Чехословакия</option>
-                        <option value="11">Чили</option>
-                        <option value="59">Швейцария</option>
-                        <option value="45">Швеция</option>
-                        <option value="44">Шотландия</option>
-                        <option value="17">Эстония</option>
-                        <option value="78">Югославия</option>
-                        <option value="31">Южная Корея</option>
-                        <option value="29">Япония</option>
-                        </select>
-                        <span>Мой населенный пункт:</span>
-                        <label for="city">
-                        <input type="text" name="city" value="Харків" class="input-text" placeholder="Ваш населенный пункт">
-                        <div class="city-icon icon">
-                          <svg version="1.0" xmlns="http://www.w3.org/2000/svg" width="456" height="456" viewBox="0 0 342 342"><path d="M4 171v167h334V103h-54V69l-7.2-5.3c-4-3-14-10.2-22.3-16.1-8.2-5.9-18.1-12.9-21.8-15.7l-6.9-4.9-14.6 10.2c-8.1 5.5-16.7 11.7-19.2 13.5l-4.5 3.5-.3-25.1L187 4H4v167zm157-50v91H56v100H30V30h131v91zm83.5-48.6 13.5 9.7V103h-45v109h-26V86.4l4.3-3c2.3-1.7 10.9-7.9 19.1-13.8l14.8-10.7 2.9 1.9c1.6 1 9 6.2 16.4 11.6zM312 142v13h-46v27h46v26h-46v26h46v26h-46v26h46v26h-73V129h73v13zm-99 133v37H82v-74h131v37z"/><path d="M56 69.5V83h26V56H56v13.5zM108 69v13h26V56h-26v13zM56 121.5V135h26v-27H56v13.5zM108 121.5V135h27v-27h-27v13.5zM56 174v13h26v-26H56v13zM108 174v13h26v-26h-26v13zM108 277v13h26v-26h-26v13zM161 277v13h26v-26h-26v13z"/></svg>
-                        </div>
-                      </label>
-                        <span>Почта:</span>
-                        <label for="my-e-mail">
-                        <input type="text" name="my-e-mail" value="myemail@gmail.com" class="input-text" placeholder="Ваша почта">
-                        <div class="my-e-mail-icon icon"></div>
-                      </label>
-                        <div class="checkbox-group">
-                          <input type="checkbox" id="allow-messages" checked>
-                          <label for="allow-messages" class="label-for-allow-messages">
-                          </label>
-                          <label for="allow-messages">Разрешить другим болельщикам отправлять вам личные сообщения
-                          </label>
-                        </div>
-                  </div>
-                </div>
-                <div>
-              </div>
-            </div>
-            <button class="button-10">Сохранить</button>
-            </div>
-            <div class="timeline-my-profile__body-my-favourite">
-              <div class="timeline-my-profile__body-my-favourite-title">
-                Я болею за такие нации (не более 5):
-              </div>
-              <div class="timeline-my-profile__body-my-favourite-select-group">
-                <div class="timeline-my-profile__body-my-favourite-select-wrapper">
-                  <select tabindex="4" name="country_id" class="choosing">
-                    <option value="" selected>Выбрать страну</option>
-                    <option value="5">Австралия</option>
-                    <option value="4">Австрия</option>
-                    <option value="72">Андорра</option>
-                    <option value="62">Аргентина</option>
-                    <option value="69">Армения</option>
-                    <option value="7">Беларусь</option>
-                    <option value="6">Бельгия</option>
-                    <option value="8">Болгария</option>
-                    <option value="51">Босния и Герцеговина</option>
-                    <option value="9">Бразилия</option>
-                    <option value="56">Великобритания</option>
-                    <option value="24">Венгрия</option>
-                    <option value="50">Венесуэла</option>
-                    <option value="22">Гватемала</option>
-                    <option value="89">ГДР</option>
-                    <option value="15">Германия</option>
-                    <option value="23">Гонконг</option>
-                    <option value="60">Гренландия</option>
-                    <option value="21">Греция</option>
-                    <option value="71">Грузия</option>
-                    <option value="68">Дания</option>
-                    <option value="58">Европа</option>
-                    <option value="28">Израиль</option>
-                    <option value="77">Индия</option>
-                    <option value="25">Индонезия</option>
-                    <option value="26">Иран</option>
-                    <option value="81">Ирландия</option>
-                    <option value="18">Испания</option>
-                    <option value="27">Италия</option>
-                    <option value="30">Казахстан</option>
-                    <option value="10">Канада</option>
-                    <option value="76">Кения</option>
-                    <option value="12">Китай</option>
-                    <option value="94">Коста-Рика</option>
-                    <option value="63">Кыргызстан</option>
-                    <option value="32">Латвия</option>
-                    <option value="57">Литва</option>
-                    <option value="83">Лихтенштейн</option>
-                    <option value="52">Македония</option>
-                    <option value="33">Малайзия</option>
-                    <option value="64">Марокко</option>
-                    <option value="34">Мексика</option>
-                    <option value="61">Молдова</option>
-                    <option value="80">Монголия</option>
-                    <option value="74">Монголия</option>
-                    <option value="65">Нидерланды</option>
-                    <option value="37">НОА</option>
-                    <option value="38">Новая Зеландия</option>
-                    <option value="36">Норвегия</option>
-                    <option value="39">Перу</option>
-                    <option value="40">Польша</option>
-                    <option value="41">Португалия</option>
-                    <option value="90">Пуэрто-Рико</option>
-                    <option value="43">Россия</option>
-                    <option value="42">Румыния</option>
-                    <option value="70">Сербия</option>
-                    <option value="54">Сербия и Черногория</option>
-                    <option value="53">Словакия</option>
-                    <option value="55">Словения</option>
-                    <option value="85">СНГ</option>
-                    <option value="84">СССР</option>
-                    <option value="49">США</option>
-                    <option value="46">Таиланд</option>
-                    <option value="73">Тайвань</option>
-                    <option value="91">Территория Гуам</option>
-                    <option value="47">Турция</option>
-                    <option value="66">Узбекистан</option>
-                    <option value="48">Украина</option>
-                    <option value="19">Финляндия</option>
-                    <option value="20">Франция</option>
-                    <option value="88">ФРГ</option>
-                    <option value="13">Хорватия</option>
-                    <option value="75">Черногория</option>
-                    <option value="14">Чехия</option>
-                    <option value="82">Чехословакия</option>
-                    <option value="11">Чили</option>
-                    <option value="59">Швейцария</option>
-                    <option value="45">Швеция</option>
-                    <option value="44">Шотландия</option>
-                    <option value="17">Эстония</option>
-                    <option value="78">Югославия</option>
-                    <option value="31">Южная Корея</option>
-                    <option value="29">Япония</option>
-                    </select>
-                </div>
-                  <button></button>
-              </div>
-              <ul class="timeline-my-profile__body-my-favourite-list">
-                <li><img src="img/flags2/Greenland.png" alt=""> 
-                  <p><a href="#">Гренландия</a></p>
-                  <div class="timeline-my-profile__body-my-favourite-remove"></div>
-                </li>
-                <li><img src="img/flags2/Ukraine.png" alt=""> 
-                  <p><a href="#">Украина</a></p>
-                  <div class="timeline-my-profile__body-my-favourite-remove"></div>
-                </li>
-              </ul>
-              <div class="timeline-my-profile__body-my-favourite-title">
-                Я болею за таких спортсменов (не более 10):
-              </div>
-              <span>
-                В выпадающем списке нажимайте на имя, чтобы добавить его.
-              </span>
-              <label for="search-name" class="search-name-label">
-                <input type="text" name="search-name" class="input-text-2" placeholder="Введите имя">
-                <div class="icon">
-                  <svg class="search-icon" version="1.0" xmlns="http://www.w3.org/2000/svg" width="622.6666667" height="622.6666667" viewBox="0 0 467 467"><path d="M166 4.1c-29.8 3.4-62 15.6-86 32.6-12.3 8.7-34.6 31-43.3 43.3-14.4 20.4-26.1 48.3-30.9 73.6-3.2 17.3-3.2 48.7 0 65.7 4.9 25.6 16.5 53.3 31 73.7 8.2 11.5 24.9 29.1 35.7 37.6 55.6 43.4 131.9 51.4 195 20.5l12-5.9 55.5 55.3c33.7 33.5 57.3 56.3 60 57.8 10.4 5.9 25.3 7.4 36.9 3.8 23.4-7.3 36.8-31.7 30.6-55.6-3.2-12.2-4-13.1-62.3-71.6l-55.4-55.7 4-7.3c22.4-41.3 26.8-96.1 11.6-142.6-13.4-41-38.7-73.7-75.7-97.7C251.4 9.9 206.5-.5 166 4.1zm48.1 40.8c20.7 4.1 41.9 13.5 58 25.6 10.8 8.1 26.9 24.8 33.7 35 26 39 31.8 85.8 16.2 130-9.1 25.5-27.4 50.1-49.9 67-16.3 12.3-39.4 22.3-60.1 26.2-14.1 2.6-40.1 2.3-53.7-.5-41.5-8.9-75.1-33-96.8-69.4-16.8-28.2-23.3-66-17-98.8 12-62.1 62.1-109 125.1-117 10.1-1.3 33.4-.3 44.5 1.9z"/><path d="M187 82.9v12l4.8.6c21.1 2.5 31.9 6.4 47 16.8 21.9 15.1 38.2 44.4 38.2 68.8v4.9h24.6l-.8-9.8c-2-25.1-12.6-49-30.1-67.8-20.5-21.9-45.6-34.1-76.4-36.9l-7.3-.6v12z"/></svg>
-                </div>
-              </label>
-              <ul class="timeline-my-profile__body-my-favourite-list">
-                <li><img src="img/flags2/Ukraine.png" alt=""> 
-                  <p><a href="#">Анна Кривонос</a></p>
-                  <div class="timeline-my-profile__body-my-favourite-remove"></div>
-                </li>
-                <li><img src="img/flags2/Ukraine.png" alt=""> 
-                  <p><a href="#">Артем Прима</a></p>
-                  <div class="timeline-my-profile__body-my-favourite-remove"></div>
-                </li>
-                <li><img src="img/flags2/Ukraine.png" alt=""> 
-                  <p><a href="#">Богдан Цымбал</a></p>
-                  <div class="timeline-my-profile__body-my-favourite-remove"></div>
-                </li>
-                <li><img src="img/flags2/Ukraine.png" alt=""> 
-                  <p><a href="#">Валя Семеренко</a></p>
-                  <div class="timeline-my-profile__body-my-favourite-remove"></div>
-                </li>
-                <li><img src="img/flags2/Ukraine.png" alt=""> 
-                  <p><a href="#">Вита Семеренко</a></p>
-                  <div class="timeline-my-profile__body-my-favourite-remove"></div>
-                </li>
-                <li><img src="img/flags2/Ukraine.png" alt=""> 
-                  <p><a href="#">Дарья Блашко</a></p>
-                  <div class="timeline-my-profile__body-my-favourite-remove"></div>
-                </li>
-                <li><img src="img/flags2/Ukraine.png" alt=""> 
-                  <p><a href="#">Дмитрий Пидручный</a></p>
-                  <div class="timeline-my-profile__body-my-favourite-remove"></div>
-                </li>
-                <li><img src="img/flags2/Ukraine.png" alt=""> 
-                  <p><a href="#">Елена Билосюк</a></p>
-                  <div class="timeline-my-profile__body-my-favourite-remove"></div>
-                </li>
-                <li><img src="img/flags2/Ukraine.png" alt=""> 
-                  <p><a href="#">Степан Кинаш</a></p>
-                  <div class="timeline-my-profile__body-my-favourite-remove"></div>
-                </li>
-                <li><img src="img/flags2/Ukraine.png" alt=""> 
-                  <p><a href="#">Юлия Журавок</a></p>
-                  <div class="timeline-my-profile__body-my-favourite-remove"></div>
-                </li>
-              </ul>
-            </div>
-            <div class="timeline-my-profile__body-change-pass">
-            <div class="timeline-my-profile__body-my-favourite-title">
-              Смена пароля
-            </div>
-            <div class="timeline-my-profile__body-change-pass-group">
-            <label for="old-pass">
-              <input class="input-text-2 " type="password" name="old-pass" value="" placeholder="Старый пароль">
-              <div class=" icon">
-                <svg class="password-open" version="1.0" xmlns="http://www.w3.org/2000/svg" width="2444" height="2444" viewBox="0 0 1833 1833"><path d="M878 19.5c-67.6 7.7-147.1 36.8-205 74.9-24.1 15.9-44.3 33-70 59.2-41.6 42.5-73.5 88.5-93 134.4-12.3 28.9-22.8 64.1-28.5 95.5-7.1 39.7-6.9 33.6-7.2 154.2l-.4 109.3H373.6c-61.2 0-104.4.4-110.7 1-37.2 3.7-72.4 17.4-102.5 40.1-11.6 8.7-29.6 26.7-38.3 38.3-22.7 30.1-36.4 65.3-40.1 102.5-.7 6.8-1 141.3-1 401.5.1 414.1-.1 400.3 4.5 421.6 10.9 51.4 42.4 97.1 87 126.5 25.4 16.7 58.8 28.4 90.4 31.5 6.9.7 223.5 1 660.5 1 694.8 0 655.9.3 678.6-4.5 76.5-16 138.2-77.7 154.5-154.5 4.6-21.3 4.4-7.5 4.5-421.6 0-260.2-.3-394.7-1-401.5-6.6-66.5-45.1-124.9-103.6-157.1-16-8.8-36.8-16.6-54.4-20.4-21.5-4.5-3-4.3-490.2-4.4H652v-83.8c0-145.7 2.1-162.2 27.1-212.2 22-43.9 46-73.4 81.3-99.9 61.4-46.1 141.4-63.4 217.1-47.1 35.2 7.6 72.3 24.1 100 44.5 31 22.8 51.6 45 69.5 75.1 19.7 33 30.6 60.2 37.6 93.3 1.9 9.1 3.7 17.4 4 18.3.5 1.7 5.6 1.8 89.8 1.8h89.2l-2.2-22c-3.3-31.5-6.6-48.8-14.6-76-22-74.5-71.9-152.9-130.5-205.2-67.9-60.6-155.1-100-249.6-112.9-20.1-2.7-73.7-3.5-92.7-1.4zm60.8 900.6c84 9.2 149.9 75.1 159.1 159.1 6 53.9-13.5 107.7-52.8 146.3-5.6 5.5-11.9 12.5-13.9 15.5s-4.5 6.4-5.5 7.5c-2.6 2.8-7.4 11.4-9.3 16.6-5 13.8-4.8 8.1-5.4 107.9-.5 92.5-.6 93.6-2.8 101.5-8.6 31.3-33.5 56.1-64.7 64.7-11.5 3.1-33.5 3.1-45 0-31.4-8.7-55.9-33.2-64.7-64.7-2.2-7.9-2.3-8.6-2.8-100-.6-103.6-.1-97.7-8.4-113.6-5.5-10.6-12.8-20-26.5-33.8-17.6-18-28.7-33.5-38.2-53.6-44.9-95.2 3.7-210 103.4-244.4 25.5-8.8 51.8-11.9 77.5-9z"/></svg>
-              </div>
-            </label>
-            <label for="new-pass">
-              <input class="input-text-2" type="password" name="new-pass" value="" placeholder="Новый пароль">
-              <div class="icon">
-                <svg class="password-open" version="1.0" xmlns="http://www.w3.org/2000/svg" width="2444" height="2444" viewBox="0 0 1833 1833"><path d="M878 19.5c-67.6 7.7-147.1 36.8-205 74.9-24.1 15.9-44.3 33-70 59.2-41.6 42.5-73.5 88.5-93 134.4-12.3 28.9-22.8 64.1-28.5 95.5-7.1 39.7-6.9 33.6-7.2 154.2l-.4 109.3H373.6c-61.2 0-104.4.4-110.7 1-37.2 3.7-72.4 17.4-102.5 40.1-11.6 8.7-29.6 26.7-38.3 38.3-22.7 30.1-36.4 65.3-40.1 102.5-.7 6.8-1 141.3-1 401.5.1 414.1-.1 400.3 4.5 421.6 10.9 51.4 42.4 97.1 87 126.5 25.4 16.7 58.8 28.4 90.4 31.5 6.9.7 223.5 1 660.5 1 694.8 0 655.9.3 678.6-4.5 76.5-16 138.2-77.7 154.5-154.5 4.6-21.3 4.4-7.5 4.5-421.6 0-260.2-.3-394.7-1-401.5-6.6-66.5-45.1-124.9-103.6-157.1-16-8.8-36.8-16.6-54.4-20.4-19.6-4.1-26.4-4.3-132.2-4.4H1368V543.6c0-103 0-103.4-2.5-127.2-3.5-33.4-6.6-49.9-14.7-77.4-22-74.5-71.9-152.9-130.5-205.2-67.9-60.6-155.1-100-249.6-112.9-20.1-2.7-73.7-3.5-92.7-1.4zm79.5 180.9c60.8 9.1 111.9 35 156.1 79.1 20.2 20.1 40.2 51.6 55.5 87.1 7 16.5 11.4 31.1 16.4 54.3l4.5 20.8V647H652v-83.8c0-145.7 2.1-162.2 27.1-212.2 10.7-21.3 21.6-39 32.4-52.5 44.9-56.2 109.6-91.5 182.5-99.4 12-1.4 51.5-.5 63.5 1.3zm-18.7 719.7c84 9.2 149.9 75.1 159.1 159.1 6 53.9-13.5 107.7-52.8 146.3-5.6 5.5-11.9 12.5-13.9 15.5s-4.5 6.4-5.5 7.5c-2.6 2.8-7.4 11.4-9.3 16.6-5 13.8-4.8 8.1-5.4 107.9-.5 92.5-.6 93.6-2.8 101.5-8.6 31.3-33.5 56.1-64.7 64.7-11.5 3.1-33.5 3.1-45 0-31.4-8.7-55.9-33.2-64.7-64.7-2.2-7.9-2.3-8.6-2.8-100-.6-103.6-.1-97.7-8.4-113.6-5.5-10.6-12.8-20-26.5-33.8-17.6-18-28.7-33.5-38.2-53.6-44.9-95.2 3.7-210 103.4-244.4 25.5-8.8 51.8-11.9 77.5-9z"/></svg>
-              </div>
-            </label>
-            <label for="repeat-pass">
-              <input class="input-text-2" type="password" name="repeat-pass" value="" placeholder="Повторите пароль">
-              <div class="icon">
-                <svg class="password-open" version="1.0" xmlns="http://www.w3.org/2000/svg" width="2444" height="2444" viewBox="0 0 1833 1833"><path d="M878 19.5c-67.6 7.7-147.1 36.8-205 74.9-24.1 15.9-44.3 33-70 59.2-41.6 42.5-73.5 88.5-93 134.4-12.3 28.9-22.8 64.1-28.5 95.5-7.1 39.7-6.9 33.6-7.2 154.2l-.4 109.3H373.6c-61.2 0-104.4.4-110.7 1-37.2 3.7-72.4 17.4-102.5 40.1-11.6 8.7-29.6 26.7-38.3 38.3-22.7 30.1-36.4 65.3-40.1 102.5-.7 6.8-1 141.3-1 401.5.1 414.1-.1 400.3 4.5 421.6 10.9 51.4 42.4 97.1 87 126.5 25.4 16.7 58.8 28.4 90.4 31.5 6.9.7 223.5 1 660.5 1 694.8 0 655.9.3 678.6-4.5 76.5-16 138.2-77.7 154.5-154.5 4.6-21.3 4.4-7.5 4.5-421.6 0-260.2-.3-394.7-1-401.5-6.6-66.5-45.1-124.9-103.6-157.1-16-8.8-36.8-16.6-54.4-20.4-19.6-4.1-26.4-4.3-132.2-4.4H1368V543.6c0-103 0-103.4-2.5-127.2-3.5-33.4-6.6-49.9-14.7-77.4-22-74.5-71.9-152.9-130.5-205.2-67.9-60.6-155.1-100-249.6-112.9-20.1-2.7-73.7-3.5-92.7-1.4zm79.5 180.9c60.8 9.1 111.9 35 156.1 79.1 20.2 20.1 40.2 51.6 55.5 87.1 7 16.5 11.4 31.1 16.4 54.3l4.5 20.8V647H652v-83.8c0-145.7 2.1-162.2 27.1-212.2 10.7-21.3 21.6-39 32.4-52.5 44.9-56.2 109.6-91.5 182.5-99.4 12-1.4 51.5-.5 63.5 1.3zm-18.7 719.7c84 9.2 149.9 75.1 159.1 159.1 6 53.9-13.5 107.7-52.8 146.3-5.6 5.5-11.9 12.5-13.9 15.5s-4.5 6.4-5.5 7.5c-2.6 2.8-7.4 11.4-9.3 16.6-5 13.8-4.8 8.1-5.4 107.9-.5 92.5-.6 93.6-2.8 101.5-8.6 31.3-33.5 56.1-64.7 64.7-11.5 3.1-33.5 3.1-45 0-31.4-8.7-55.9-33.2-64.7-64.7-2.2-7.9-2.3-8.6-2.8-100-.6-103.6-.1-97.7-8.4-113.6-5.5-10.6-12.8-20-26.5-33.8-17.6-18-28.7-33.5-38.2-53.6-44.9-95.2 3.7-210 103.4-244.4 25.5-8.8 51.8-11.9 77.5-9z"/></svg>
-              </div>
-            </label>
-            <button class="button-10 change-button">Сменить</button>
-          </div>
-          </div>
+          <div class="timeline-send__discription">
+            Ежедневно мы просматриваем множество сайтов и ищем интересные новости, которыми делимся с болельщиками.
+            <br>
+Но с каждым днем информации становится все больше.
+<br>
+С помощью этой формы вы можете помочь нам и прислать новости или интервью, которые вы нашли.
+<br>
+Если вы зарегистрированы на сайте, ваш Логин будет записан автоматически.
+<br>
+<br>
+<b>Несколько рекомендаций:</b>
+<ul class="timeline-send__discription-list">
+  <li>Присылайте ссылку на новость и ее название, а не саму новость.</li>
+  <li>Если у вас есть возможность перевести новость с иностранного сайта, присылайте перевод и ссылку на оригинал.</li>
+  <li>Не присылайте новости, которые содержат одну-две фразы какого-нибудь спортсмена, не несущие смысловых нагрузок.</li>
+  <li>Мы не обещаем, что добавим все присланные новости, так как у сайта есть определенный формат подачи данных, но рассмотрим, естественно, все. </li>
+</ul>
+<div class="timeline__item-comments-write-textarea-body">
+  <div class="timeline__item-comments-write-textarea-content" tabindex="0">
+    <div class="textarea">
+    <textarea id="text-field" class="text-field" placeholder="Написать новость..."></textarea>
+    <div class="toolbar-list">
+      <div class="toolbar-content">
+        <div class="toolbar">
         </div>
       </div>
+      <button id="toolbar-message-button" type="submit"><p class="button-text">Отправить</p><p class="button-icon"></p></button>
+    </div>                   
+    </div>
+</div>
+</div>
+<span>Введите символы (буквы латинские):</span>
+<br>
+<img src="img/picture/securimage-show.png" alt="">
+<br>
+<a href="#">Сменить картинку</a>
+<br>
+<!-- <label for="" class="label-form-control">
+  <input type="text" class="form-control" name="captcha_code">
+  <span class="icon-for-form-control"></span>
+</label> -->
+<label for="login">
+<input type="text" name="login" placeholder="Введите код" class="login-registr-form input-login">
+<span class="code-form-icon">
+  <svg class="code-icon" version="1.0" xmlns="http://www.w3.org/2000/svg" width="2277.3333333" height="2277.3333333" viewBox="0 0 1708 1708"><path d="M818.5 9.6c-44.9 2.8-57.7 4-89 8.5C593 37.6 461.5 92 349.1 175.3c-64.2 47.5-128.3 111.6-175.8 175.8C90 463.5 35.6 595 16.1 731.5c-6.7 46.4-8.5 73.3-8.5 123 0 38.9.8 56.6 4 87.5 20.7 200.5 112.5 386.9 259 525.5 62.6 59.3 128.2 105.4 204 143.3 101 50.5 203.7 78.5 321.4 87.4 21.5 1.6 91.5 1.6 113 0 117.3-8.9 220.2-36.8 320.5-87 83.7-41.8 153.6-92.3 220.5-159.2 66.9-66.9 117.4-136.8 159.2-220.5 50.2-100.3 78.1-203.2 87-320.5 1.6-21.5 1.6-91.5 0-113-8.9-117.7-36.9-220.4-87.4-321.4-41.4-82.7-92.3-153.1-158.8-219.6-66.8-66.8-136.9-117.5-220.5-159.2C1129.9 48 1026.3 19.7 911 11c-13.7-1.1-81.5-2.1-92.5-1.4zm90 180.8c109.9 9.8 211.9 44.6 303.1 103.3 98.8 63.6 181.9 155.8 233.9 259.3 39.7 79.1 62.1 159.7 69.7 250 1.7 20.2 1.7 79.8 0 100-7.6 90.3-30 170.9-69.7 250-62.4 124.4-169.1 231.1-293.5 293.5-79.1 39.7-159.7 62.1-250 69.7-20.2 1.7-79.8 1.7-100 0-90.3-7.6-170.9-30-250-69.7-124.3-62.4-231.1-169.2-293.5-293.5-39.7-79.1-62.1-159.7-69.7-250-1.7-20.2-1.7-79.8 0-100 5.8-69.2 20-131.3 44.2-193 46.6-118.8 127.5-222.5 232.4-297.9C563.3 241.7 683.1 198.3 802 190c8.5-.6 17.8-1.2 20.5-1.4 11.3-.8 70.2.4 86 1.8z"/><path d="M822 364.1c-146.9 9.6-281.4 84.6-367.7 204.9-8.4 11.7-24 35.8-29.8 45.9-30.2 53.1-51.8 121.5-59.2 188.1-2.1 19.5-2.4 73.6-.5 94.5 5.1 55.1 15.7 99.2 34.3 143.3 45.8 108.2 127.4 197.5 228.4 249.6 101.5 52.5 221.1 67.7 334.3 42.5 193-42.8 343.6-201.5 376.1-396.4 10.7-64.4 9.1-126.9-5-190.3-34.6-155.8-145.7-286.8-294.4-347.2-67.6-27.4-143.5-39.7-216.5-34.9zm68.5 228.2c36.1 8.1 65.4 24.4 90.6 50.3 11.2 11.6 16.6 18.5 24.4 31.4 11 18 18 35.9 22.6 57.5 2.1 9.8 2.4 13.6 2.4 34.5s-.3 24.7-2.4 34.5c-7.9 36.9-24.3 66.8-50.7 92.6-9.7 9.4-21.6 18.8-30.8 24.1L942 920v201H766V920l-4.7-2.8c-9.1-5.3-23.9-17.1-33-26.4-25.3-25.5-40.8-54.5-48.4-90.3-2.1-9.8-2.4-13.6-2.4-34.5s.3-24.7 2.4-34.5c4.4-20.9 11.3-38.7 21.3-55.3 26.2-43.8 69.2-74.5 117.8-84.1 15.4-3 14.7-2.9 38.5-2.6 19 .3 23.5.7 33 2.8z"/></svg>
+</span>
+</label>
+<br>
+<input type="submit" value="Прислать новость" class="send-button">
+          </div>
+        </div>
         <div class="timeline__item hide">
           <div class="timeline__head">
             <a href="#">День народження Богдана Цимбала!</a>
@@ -5462,7 +4934,7 @@
           </a>
         </div>
         <div class="mobile-notification__head-admin-panel">
-          <a href="/biathlon/index-check.html" class="mobile-notification__head-admin-comments">
+          <a href="/biathlon/index-send.html" class="mobile-notification__head-admin-comments">
             Комментарии: (<span>2</span>)
           </a>
           <a href="#" class="mobile-notification__head-admin-news">
@@ -8341,7 +7813,7 @@
         <a href="#">Пометить все как прочитанные <i>(</i><span>2</span><i>)</i></a>
       </div>
       <div class="header__notifications_head-admin-panel">
-        <a href="/biathlon/index-check.html" class="header__notifications_head-admin-comments">Комментарии: <i>(</i><span>2</span><i>)</i></a>
+        <a href="/biathlon/index-send.html" class="header__notifications_head-admin-comments">Комментарии: <i>(</i><span>2</span><i>)</i></a>
         <a href="#" class="header__notifications_head-admin-news">Новости: <i>(</i><span>1</span><i>)</i></a>
       </div>
     </div>
@@ -9099,36 +8571,36 @@
       <span class="delete-yes">Да</span>
       <span class="delete-no">Нет</span>
     </div>
-  </div>
-  <div class="timeline__item-comments-delete-info delete6">
-    <span>Удалить комментарий?</span>
+  </div> -->
+  <!-- <div class="timeline__item-comments-delete-info delete6">
+    <span>Одобрить комментарий?</span>
     <div class="timeline__item-comments-delete-info_choose">
       <span class="delete-yes">Да</span>
       <span class="delete-no">Нет</span>
     </div>
-  </div>
-  <div class="timeline__item-comments-delete-info delete5">
-    <span>Удалить комментарий?</span>
+  </div> -->
+  <!-- <div class="timeline__item-comments-delete-info delete5">
+    <span>Одобрить комментарий?</span>
     <div class="timeline__item-comments-delete-info_choose">
       <span class="delete-yes">Да</span>
       <span class="delete-no">Нет</span>
     </div>
   </div>
   <div class="timeline__item-comments-delete-info delete4">
+    <span>Одобрить комментарий?</span>
+    <div class="timeline__item-comments-delete-info_choose">
+      <span class="delete-yes">Да</span>
+      <span class="delete-no">Нет</span>
+    </div>
+  </div> -->
+  <!-- <div class="timeline__item-comments-delete-info delete3">
     <span>Удалить комментарий?</span>
     <div class="timeline__item-comments-delete-info_choose">
       <span class="delete-yes">Да</span>
       <span class="delete-no">Нет</span>
     </div>
-  </div>
-  <div class="timeline__item-comments-delete-info delete3">
-    <span>Удалить комментарий?</span>
-    <div class="timeline__item-comments-delete-info_choose">
-      <span class="delete-yes">Да</span>
-      <span class="delete-no">Нет</span>
-    </div>
-  </div>
-  <div class="timeline__item-comments-delete-info delete2">
+  </div> -->
+  <!-- <div class="timeline__item-comments-delete-info delete2">
     <span>Удалить комментарий?</span>
     <div class="timeline__item-comments-delete-info_choose">
       <span class="delete-yes">Да</span>
@@ -9142,6 +8614,7 @@
       <span class="delete-no">Нет</span>
     </div>
   </div> -->
+  <script src="js/profile.js"></script>
   <script src="js/script3.js"></script>
   <script src="js/script-cup.js"></script>
   <!-- <script src="js/script-comments.js"></script> -->
