@@ -104,6 +104,12 @@
 .timeline-check__comments-item:not(:first-child) {
     margin-top: 2em;
 }
+.timeline__item-comments-delete-info {
+    white-space: nowrap;
+}
+#tippy-20, #tippy-18, #tippy-17, #tippy-19 {
+    inset: -5px auto auto 0px !important;
+}
 
 @media (hover: hover) {
 
