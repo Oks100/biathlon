@@ -92,26 +92,12 @@
 #toolbar-message-button {
     display: none;
 }
-/* .form-control {
-    border: 1px solid #d0d9dd;
-    height: 33px;
-    border-radius: 33px;
-    padding: 0 15px;
-    transition: all .4s ease-in-out;
-}
-.form-control:focus {
-    border-color: #bfc6ca;
-}
-.label-form-control {
-    position: relative;
-}
-.icon-for-form-control {
 
-} */
 .timeline-send__discription label {
     position: relative;
     display: block;
     max-width: 200px;
+    margin-top: 0.5em;
 }
 .login-registr-form {
     height: 33px;
