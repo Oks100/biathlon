@@ -58,14 +58,14 @@
     color: #81aad5;
 }
 
-.timeline-check {
+.timeline-vote {
     padding: 2em 1.5em 1.75em 1.5em;
     background-color: #fff;
     border-radius: 8px;
     box-shadow: 0px 5px 24px rgba(32,60,87,0.11);
     overflow-x: hidden;
 }
-.timeline-check__head {
+.timeline-vote__head {
     display: flex;
     justify-content: space-between;
     /* margin-bottom: 1.5em; */
@@ -74,55 +74,11 @@
     gap: 20px;
     align-items: center;
 }
-.timeline-check__head > span:nth-child(1) {
+.timeline-vote__head > span:nth-child(1) {
     font-size: 1.3em;
     color: black;
     font-weight: 700;
 }
-.timeline__item-comments-rumor {
-    margin: 5px 0 0px 0;
-}
-.timeline__item-comments-ip::before {
-    content: "";
-}
-.ok-icon {
-    width: 14px;
-    height: 14px;
-    fill: #81aad5;
-    scale: 1;
-}
-.timeline-check__comments-title {
-    font-size: 1.2em;
-    font-weight: 600;
-}
-.timeline-check__comments-title a {
-    color: black;
-}
-.timeline__item-comments-discussion {
-    margin-top: 0.75em;
-}
-.timeline-check__comments-item:not(:first-child) {
-    margin-top: 2em;
-}
-.timeline__item-comments-delete-info {
-    white-space: nowrap;
-}
-#tippy-20, #tippy-18, #tippy-17, #tippy-19 {
-    inset: -5px auto auto 0px !important;
-}
-
-@media (hover: hover) {
-
-}
-@media screen and (max-width: 992px) {
-    .timeline__item-comments-discussion {
-        margin-top: 2.11em;
-    }
-}
-@media screen and (max-width: 550px) {
-    .timeline-check {
-        padding: 2em 1.06em 1.75em 1.06em;
-    }
-}
-@media screen and (max-width: 380px) {
+.timeline-vote__title {
+    margin-bottom: 2em;
 }
