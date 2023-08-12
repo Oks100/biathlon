@@ -82,3 +82,8 @@
 .timeline-vote__title {
     margin-bottom: 2em;
 }
+@media screen and (max-width: 550px) {
+    .timeline-vote {
+        padding: 2em 1.06em 1.75em 1.06em;
+    }
+}
