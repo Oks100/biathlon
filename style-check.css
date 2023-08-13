@@ -110,7 +110,19 @@
 #tippy-20, #tippy-18, #tippy-17, #tippy-19 {
     inset: -5px auto auto 0px !important;
 }
-
+.timeline__item-comments-delete::before {
+    content: '';
+}
+.timeline__item-comments-quote, .timeline__item-comments-edit, .timeline__item-comments-delete, .timeline__item-comments-ip {
+    width: auto;
+    padding: 0 15px;
+}
+.timeline__item-comments-ip {
+    color: red;
+}
+.timeline__item-comments-delete {
+    color: #002b71;
+}
 @media (hover: hover) {
 
 }
