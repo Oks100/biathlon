@@ -139,6 +139,12 @@
     height: 27px;
 }
 
+.img-container {
+    background: url(img/picture/logo-fbu-2.jpg) 50% 50% no-repeat;
+    background-size: 100%;
+    min-height: 173px;
+}
+
 @media (hover: hover) {
     .img-container:hover .timeline-photogalleries__body-season {
         height: 34px;
