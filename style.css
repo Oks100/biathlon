@@ -2991,6 +2991,7 @@ img[src*="flags"] {
   .burger-menu__profile-icon {
     margin-top: 12.3px;
     position: relative;
+    margin: auto 0;
   }
   .burger-menu__profile-icon::before {
     content: "\e024";
@@ -3002,7 +3003,8 @@ img[src*="flags"] {
     position: absolute;
     width: 40px;
     height: 40px;
-    bottom: 5px;
+    /* bottom: 5px; */
+    bottom: -12px;
     display: flex;
     flex-direction: row;
     justify-content: center;
