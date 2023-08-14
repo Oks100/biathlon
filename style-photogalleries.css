@@ -132,19 +132,18 @@
     transition: all 0.3s ease-in-out;
 }
 
-.img-container:hover .timeline-photogalleries__body-season {
-    height: 34px;
-}
-.img-container:hover .timeline-photogalleries__body-info {
-    height: 27px;
-}
-
 .img-container {
     background: url(img/picture/logo-fbu-2.jpg) 50% 50% no-repeat;
     background-size: 100%;
     min-height: 173px;
+    -webkit-tap-highlight-color: transparent;
 }
-
+.img-container:focus .timeline-photogalleries__body-season {
+    height: 34px;
+}
+.img-container:focus .timeline-photogalleries__body-info {
+    height: 27px;
+}
 @media (hover: hover) {
     .img-container:hover .timeline-photogalleries__body-season {
         height: 34px;
