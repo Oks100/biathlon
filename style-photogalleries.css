@@ -138,12 +138,6 @@
     min-height: 173px;
     -webkit-tap-highlight-color: transparent;
 }
-.img-container:focus .timeline-photogalleries__body-season {
-    height: 34px;
-}
-.img-container:focus .timeline-photogalleries__body-info {
-    height: 27px;
-}
 @media (hover: hover) {
     .img-container:hover .timeline-photogalleries__body-season {
         height: 34px;
@@ -164,6 +158,12 @@
     .img-grid {
         grid-template-columns: repeat(3, 1fr);
    }
+   .img-container:focus .timeline-photogalleries__body-season {
+    height: 34px;
+}
+    .img-container:focus .timeline-photogalleries__body-info {
+    height: 27px;
+}
 }
 @media only screen and (max-width: 600px) {
     .img-grid {
