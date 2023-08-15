@@ -150,6 +150,7 @@
     background-color: #d1ebfb;
     border-radius: 33px;
     margin-left: 7px;
+    color: #002b71;
 }
 .timeline-news__select-year {
     margin-bottom: 2em;
@@ -164,6 +165,13 @@
 }
 .timeline-news__select-season:focus {
     outline-color: #bfc6ca;
+}
+
+.timeline-photogalleries-info {
+    display: flex;
+    gap: 0 10px;
+    flex-wrap: wrap;
+    margin-bottom: 2em;
 }
 
 @media (hover: hover) {
