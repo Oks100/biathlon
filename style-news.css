@@ -118,6 +118,7 @@
     outline: 1px solid #d0d9dd;
     transition: all .3s ease;
     cursor: pointer;
+    border-radius: 3px;
 }
 .timeline-news__select-month:focus, .timeline-news__select-season:focus {
     outline-color: #bfc6ca;

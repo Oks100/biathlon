@@ -199,7 +199,6 @@ input:focus::placeholder, .input-text-2:focus::placeholder {
 .checkbox-group {
     display: flex;
     flex-direction: row;
-    /* margin-top: 30px; */
     margin-top: 25px;
     align-items: center;
 }
@@ -247,7 +246,7 @@ input:focus::placeholder, .input-text-2:focus::placeholder {
     cursor: pointer;
     border-radius: 50%;
     transition: all .3s ease;
-  }
+}
 
 .checkbox-group #allow-messages:checked + .label-for-allow-messages::before {
     border-color: #c0e5fb;
@@ -256,8 +255,6 @@ input:focus::placeholder, .input-text-2:focus::placeholder {
     content: '';
     display: block;
     position: absolute;
-    /* top: 3.5px;
-    left: 8.5px; */
     top: 5px;
     left: 11px;
     transform: translate(-50%, -50%);
@@ -456,6 +453,9 @@ input:focus::placeholder, .input-text-2:focus::placeholder {
         border-color: #c0e5fb;
     }
     .timeline-my-profile__body-my-favourite-remove:hover {
+        border-color: #c0e5fb;
+    }
+    .checkbox-group .label-for-allow-messages:hover::before {
         border-color: #c0e5fb;
     }
 }

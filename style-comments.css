@@ -321,9 +321,12 @@
     right: 1px;
     top: 35px;
     scale: 1;
+    z-index: 1;
 }
 .discussion-male, .discussion-female, .discussion-unknown {
     fill: #679bcd;
+    z-index: 1;
+    position: relative;
 }
 .timeline__item-comments-profile-all {
     /* display: flex;

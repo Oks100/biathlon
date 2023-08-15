@@ -1,0 +1,211 @@
+#tippy-16 {
+    width: auto;
+}
+#tippy-16 .tippy-content {
+    overflow: hidden;
+}
+#tippy-16 ul li a {
+    color: black !important;
+    font-size: 13.5px !important;
+    text-transform: none !important;
+    padding: 0px 10px 0px 10px !important;
+    transition: 0s !important;
+    text-shadow: none !important;
+    width: 100%;
+    display: flex;
+}
+#tippy-16 ul li:last-of-type a {
+    border-bottom: none !important;
+}
+  
+#tippy-16 ul li::before, #tippy-16 ul li::after {
+    display: none !important;
+}
+  
+#tippy-16 ul li a:hover {
+    background-color: #ecf5fb;
+}
+#tippy-16 ul li {
+    white-space: nowrap;
+    line-height: 33px;
+}
+#tippy-16 ul li:last-of-type {
+    white-space: nowrap;
+    line-height: 33px;
+}
+#tippy-16 ul li:last-of-type a, #tippy-16 ul li:last-of-type a::before {
+    color: red !important;
+   }
+#tippy-16 ul li:first-of-type a::before {
+    content: "\e016";
+    font-family: 'icomoon';
+    margin-right: 7px;
+    font-size: 13px;
+    color: #81aad5;
+}
+#tippy-16 ul li:nth-child(2) a::before {
+    content: "\e015";
+    font-family: 'icomoon';
+    margin-right: 7px;
+    font-size: 13px;
+    color: #81aad5;
+}
+#tippy-16 ul li:last-of-type a::before {
+    content: "\e9b";
+    font-family: 'icomoon';
+    margin-right: 7px;
+    font-size: 13px;
+    color: #81aad5;
+}
+
+.timeline-photogalleries {
+    padding: 2em 1.5em 1.75em 1.5em;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0px 5px 24px rgba(32,60,87,0.11);
+    overflow-x: hidden;
+}
+.timeline-photogalleries__head {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2em;
+    position: relative;
+    gap: 20px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.timeline-photogalleries__head > span:nth-child(1) {
+    font-size: 1.3em;
+    color: black;
+    font-weight: 700;
+}
+.container {
+}
+
+.img-container {
+    border-radius: 8px;
+    overflow: hidden;
+    position: relative;
+    scale: 1;
+}
+.timeline-photogalleries__body img {
+    width: 100%;
+    object-fit: cover;
+    height: 100%;
+    transition: all 0.5s linear;
+    scale: 1;
+}
+.img-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 5px;
+}
+
+.img-container {
+    background: url(img/picture/logo-fbu-2.jpg) 50% 50% no-repeat;
+    background-size: 100%;
+    min-height: 173px;
+    -webkit-tap-highlight-color: transparent;
+}
+.vertical {
+    grid-row: span 2;
+}
+
+.timeline-photogalleries__body-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.45);
+    color: white;
+    width: 100%;
+    height: 100%;
+    transition: all .3s ease-in-out;
+    border-radius: 8px;
+    gap: 10px;
+}
+.timeline-photogalleries__body-title {
+    font-size: 1.2em;
+    text-align: center;
+    font-weight: 600;
+    padding: 10px 10px 0 10px;
+    transition: all .3s ease-in-out;
+    display: -webkit-box;
+    -webkit-line-clamp: 5;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+.timeline-photogalleries__body-date {
+    transition: all .3s ease-in-out;
+}
+.img-container:hover .timeline-photogalleries__body-title {
+    color: gold;
+}
+.timeline-photogalleries__body-date {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10px 10px 10px;
+}
+.all-photo-number {
+    padding: 6px 8px;
+    background-color: #d1ebfb;
+    border-radius: 33px;
+    margin-left: 7px;
+}
+.timeline-news__select-year {
+    margin-bottom: 2em;
+}
+.timeline-news__select-season {
+    padding: 5px 0 5px 8px;
+    outline: 1px solid #d0d9dd;
+    transition: all .3s ease;
+    cursor: pointer;
+    margin-left: 7px;
+    border-radius: 3px;
+}
+.timeline-news__select-season:focus {
+    outline-color: #bfc6ca;
+}
+
+@media (hover: hover) {
+    .img-container:hover img {
+        scale: 1.055;
+    }
+}
+@media only screen and (max-width: 1299px) {
+    .img-grid {
+        grid-template-columns: repeat(2, 1fr);
+   }
+}
+@media only screen and (max-width: 992px) {
+    .img-grid {
+        grid-template-columns: repeat(3, 1fr);
+   }
+}
+@media only screen and (max-width: 800px) {
+    .img-grid {
+        grid-template-columns: repeat(2, 1fr);
+   }
+}
+@media screen and (max-width: 550px) {
+    .timeline-photogalleries {
+        padding: 2em 1.06em 1.75em 1.06em;
+    }
+    /* .img-grid {
+        grid-template-columns: repeat(1, 1fr);
+   } */
+   .timeline-photogalleries__body-title {
+    padding: 10px 10px 0 10px;
+  }
+  .timeline-photogalleries__body-date {
+    padding: 0 10px 10px 10px;
+}
+}
+@media only screen and (max-width: 395px) {
+    .img-grid {
+        grid-template-columns: repeat(1, 1fr);
+   }
+}
