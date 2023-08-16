@@ -427,6 +427,10 @@
     scale: 1;
 }
 
+.img-container__scale-button:focus .scale-up-icon {
+    fill: white;
+}
+
 @media (hover: hover) {
     .img-container__scale-button:hover .scale-up-icon {
         fill: gold;
