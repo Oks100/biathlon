@@ -141,9 +141,6 @@
 .timeline-photogalleries__body-date {
     transition: all .3s ease-in-out;
 }
-.img-container:hover .timeline-photogalleries__body-title {
-    color: gold;
-}
 .timeline-photogalleries__body-date {
     display: flex;
     justify-content: space-between;
@@ -170,10 +167,19 @@
 .timeline-news__select-season:focus {
     outline-color: #bfc6ca;
 }
+.img-container:focus .timeline-photogalleries__body-title {
+    color: gold;
+}
+.img-container:focus img {
+    scale: 1.055;
+}
 
 @media (hover: hover) {
     .img-container:hover img {
         scale: 1.055;
+    }
+    .img-container:hover .timeline-photogalleries__body-title {
+        color: gold;
     }
 }
 @media only screen and (max-width: 1299px) {

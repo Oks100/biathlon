@@ -166,12 +166,16 @@
 .timeline-news__select-season:focus {
     outline-color: #bfc6ca;
 }
-
 .timeline-photogalleries-info {
+    display: flex;
+    gap: 0 25px;
+    flex-wrap: wrap;
+    margin-bottom: 2em;
+}
+.timeline-photogalleries-info-text {
     display: flex;
     gap: 0 10px;
     flex-wrap: wrap;
-    margin-bottom: 2em;
 }
 
 @media (hover: hover) {
