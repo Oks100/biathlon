@@ -113,6 +113,7 @@
     color: white;
     cursor: pointer;
     border-radius: 0 0 0 8px;
+    -webkit-tap-highlight-color: transparent;
 }
 .scale-up-icon {
     width: 18px;
@@ -185,7 +186,7 @@
 .timeline-photogalleries-info {
     display: flex;
     justify-content: space-between;
-    gap: 0 25px;
+    gap: 20px 25px;
     flex-wrap: wrap;
     align-items: center;
     margin-bottom: 2em;
