@@ -154,6 +154,9 @@
     color: #002b71;
 }
 .timeline-news__select-year {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     margin-bottom: 2em;
 }
 .timeline-news__select-season {
