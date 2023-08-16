@@ -365,9 +365,6 @@
     scale: 1;
 }
 
-.img-container__scale-button:focus .scale-up-icon {
-    fill: gold;
-}
 .timeline-photogalleries-next:focus::before {
     transform: translateX(11px);
 }
