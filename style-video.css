@@ -252,10 +252,18 @@
     color: #81aad5;
 }
 
-.timeline-calendar.by-date .timeline-calendar__body.default {
+.timeline-calendar__body.by-date .timeline-video__container {
+    margin-top: 2.5em;
+}
+.timeline.by-date .timeline-calendar__body.default {
     display: none;
 }
-
+.timeline-navigation, .timeline-calendar__body.by-date  {
+    display: none;
+}
+.timeline.by-date .timeline-navigation, .timeline.by-date .timeline-calendar__body.by-date {
+    display: initial;
+}
 
 
 @media (hover: hover) {
