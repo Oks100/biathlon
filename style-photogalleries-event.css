@@ -172,7 +172,9 @@
     flex-wrap: wrap;
     margin-bottom: 2em;
     align-items: center;
-    justify-content: space-between;
+}
+.timeline-photogalleries__body-back-button {
+    margin-left: auto;
 }
 .timeline-photogalleries-info-text {
     display: flex;

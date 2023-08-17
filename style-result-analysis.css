@@ -614,6 +614,12 @@
     display: none;
 }
 
+.timeline-cup-result-discription-links {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
 #tippy-16 {
     width: auto;
 }

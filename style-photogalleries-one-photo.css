@@ -79,9 +79,6 @@
     color: black;
     font-weight: 700;
 }
-.container {
-}
-
 .img-container {
     border-radius: 8px;
     overflow: hidden;
@@ -185,12 +182,15 @@
 
 .timeline-photogalleries-info {
     display: flex;
-    justify-content: space-between;
     gap: 20px 25px;
     flex-wrap: wrap;
     align-items: center;
     margin-bottom: 2em;
 }
+.timeline-photogalleries__body-back-button {
+    margin-left: auto;
+}
+
 .timeline-photogalleries-info-text {
     display: flex;
     gap: 0 10px;
@@ -430,35 +430,34 @@
 .img-container__scale-button:focus .scale-up-icon {
     fill: white;
 }
-
+.timeline-photogalleries-next:hover::before {
+    transform: translateX(11px);
+}
+.timeline-photogalleries-next:hover .timeline-photogalleries-next-icon {
+    background-color: #4e79ad;
+    transform: translateX(11px) translateY(-1px);
+}
+.timeline-photogalleries-prev:hover::before {
+    transform: translateX(-11.2px);
+}
+.timeline-photogalleries-prev:hover .timeline-photogalleries-prev-icon {
+    background-color: #4e79ad;
+    transform: translateX(-11px) translateY(-1px);
+}
+.timeline-cup__head-back-button:hover {
+    background-color: #d1ebfb;
+}
+.timeline-cup__head-back-button:hover .timeline-cup__head-back-button-icon::after {
+    transform: translate(-50%, calc(-50%)) rotate(90deg);
+    opacity: 1;
+}
+.timeline-cup__head-back-button:hover .timeline-cup__head-back-button-icon::before {
+    transform: translate(calc(-50% - 28px), -50%) rotate(90deg);
+    opacity: 0;
+}
 @media (hover: hover) {
     .img-container__scale-button:hover .scale-up-icon {
         fill: gold;
-    }
-    .timeline-photogalleries-next:hover::before {
-        transform: translateX(11px);
-    }
-    .timeline-photogalleries-next:hover .timeline-photogalleries-next-icon {
-        background-color: #4e79ad;
-        transform: translateX(11px) translateY(-1px);
-    }
-    .timeline-photogalleries-prev:hover::before {
-        transform: translateX(-11.2px);
-    }
-    .timeline-photogalleries-prev:hover .timeline-photogalleries-prev-icon {
-        background-color: #4e79ad;
-        transform: translateX(-11px) translateY(-1px);
-    }
-    .timeline-cup__head-back-button:hover {
-        background-color: #d1ebfb;
-    }
-    .timeline-cup__head-back-button:hover .timeline-cup__head-back-button-icon::after {
-        transform: translate(-50%, calc(-50%)) rotate(90deg);
-        opacity: 1;
-    }
-    .timeline-cup__head-back-button:hover .timeline-cup__head-back-button-icon::before {
-        transform: translate(calc(-50% - 28px), -50%) rotate(90deg);
-        opacity: 0;
     }
 }
 @media screen and (max-width: 550px) {
