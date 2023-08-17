@@ -1236,8 +1236,17 @@ for(let i of textareas2) {
 /* Продвинутое автоувеличение поля ввода*/
 	
 
+// function updateTimelineCalendarClass(selectElement) {
+//     var timelineCalendar = document.querySelector('.timeline-calendar');
+//     if (selectElement.value === 'by-date') {
+//       timelineCalendar.classList.add('by-date');
+//     } else {
+//       timelineCalendar.classList.remove('by-date');
+//     }
+//   }
+
 function updateTimelineCalendarClass(selectElement) {
-    var timelineCalendar = document.querySelector('.timeline-calendar');
+    var timelineCalendar = document.querySelector('.timeline');
     if (selectElement.value === 'by-date') {
       timelineCalendar.classList.add('by-date');
     } else {
