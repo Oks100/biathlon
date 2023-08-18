@@ -1,0 +1,138 @@
+#tippy-16 {
+    width: auto;
+}
+#tippy-16 .tippy-content {
+    overflow: hidden;
+}
+#tippy-16 ul li a {
+    color: black !important;
+    font-size: 13.5px !important;
+    text-transform: none !important;
+    padding: 0px 10px 0px 10px !important;
+    transition: 0s !important;
+    text-shadow: none !important;
+    width: 100%;
+    display: flex;
+}
+#tippy-16 ul li:last-of-type a {
+    border-bottom: none !important;
+}
+  
+#tippy-16 ul li::before, #tippy-16 ul li::after {
+    display: none !important;
+}
+  
+#tippy-16 ul li a:hover {
+    background-color: #ecf5fb;
+}
+#tippy-16 ul li {
+    white-space: nowrap;
+    line-height: 33px;
+}
+#tippy-16 ul li:last-of-type {
+    white-space: nowrap;
+    line-height: 33px;
+}
+#tippy-16 ul li:last-of-type a, #tippy-16 ul li:last-of-type a::before {
+    color: red !important;
+   }
+#tippy-16 ul li:first-of-type a::before {
+    content: "\e016";
+    font-family: 'icomoon';
+    margin-right: 7px;
+    font-size: 13px;
+    color: #81aad5;
+}
+#tippy-16 ul li:nth-child(2) a::before {
+    content: "\e015";
+    font-family: 'icomoon';
+    margin-right: 7px;
+    font-size: 13px;
+    color: #81aad5;
+}
+#tippy-16 ul li:last-of-type a::before {
+    content: "\e9b";
+    font-family: 'icomoon';
+    margin-right: 7px;
+    font-size: 13px;
+    color: #81aad5;
+}
+
+.timeline-news {
+    padding: 2em 1.5em 1.75em 1.5em;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0px 5px 24px rgba(32,60,87,0.11);
+    overflow-x: hidden;
+}
+.timeline-news__head {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2em;
+    position: relative;
+    gap: 20px;
+    align-items: center;
+}
+.timeline-news__head > span:nth-child(1) {
+    font-size: 1.3em;
+    color: black;
+    font-weight: 700;
+}
+.timeline-sports-school__body {
+}
+.timeline-sports-school__body-item {
+    display: flex;
+    gap: 15px;
+    padding: 1em 0;
+    border-bottom: 1px solid #d0d9dd;
+}
+.timeline-sports-school__body-item:last-of-type {
+    padding: 10px 0 0 0;
+    border: none;
+}
+.timeline-sports-school__body-image {
+    display: flex;
+    width: 100%;
+    min-width: 150px;
+    flex: 0;
+}
+.timeline-sports-school__body-image-container {
+    width: 100%;
+    border-radius: 8px;
+    overflow: hidden;
+    position: relative;
+}
+.timeline-sports-school__body-image img {
+    border-radius: 8px;
+    width: 100%;
+    object-fit: cover;
+}
+.timeline-sports-school__body-text {
+    display: flex;
+    flex-direction: column;
+}
+.timeline-sports-school__body-title {
+    font-weight: 600;
+    font-size: 1.1em;
+}
+.region {
+    color: #1f7ec4;
+}
+
+@media (hover: hover) {
+
+}
+@media screen and (max-width: 600px) {
+}
+
+@media screen and (max-width: 550px) {
+    .timeline-news {
+        padding: 2em 1.06em 1.75em 1.06em;
+    }
+    .timeline-sports-school__body-item {
+        flex-direction: column;
+    }
+    .timeline-sports-school__body-text {
+        margin-top: -10px;
+      }
+}
