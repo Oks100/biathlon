@@ -234,6 +234,18 @@
 .img-container:focus .timeline-photogalleries__body-title {
     opacity: 0;
 }
+.timeline-cup__head-back-button:focus {
+    background-color: #d1ebfb;
+}
+.timeline-cup__head-back-button:focus .timeline-cup__head-back-button-icon::after {
+    transform: translate(-50%, calc(-50%)) rotate(90deg);
+    opacity: 1;
+}
+.timeline-cup__head-back-button:focus .timeline-cup__head-back-button-icon::before {
+    transform: translate(calc(-50% - 28px), -50%) rotate(90deg);
+    opacity: 0;
+}
+
 @media (hover: hover) {
     .img-container:hover img {
         scale: 1.055;

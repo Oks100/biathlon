@@ -188,11 +188,12 @@
     border-top: 1px solid #d0d9dd;
 }
 .timeline-video__container-item-image {
-    width: 70%;
+    width: 50%;
     max-width: 150px;
     height: 90px;
     border-radius: 8px;
     overflow: hidden;
+    -webkit-tap-highlight-color: transparent;
 }
 .timeline-video__container-item.not-released .timeline-video__container-title-date::before {
     color: #8d8d8d;
@@ -208,6 +209,7 @@
 }
 .timeline-video__container-item-image a {
     position: relative;
+    -webkit-tap-highlight-color: transparent;
 }
 .timeline-video__container-item:not(.not-released) .timeline-video__container-item-image a::before {
     content: '';
@@ -216,11 +218,9 @@
     left: 0;
     right: 0;
     bottom: 0;
-    background-image: url(img/picture/video/video-9.png);
+    background: url(img/picture/video/video-9.png) center center / contain no-repeat;
     background-color: rgb(0, 0, 0, 0.45);
     z-index: 1;
-    background-size: contain;
-    background-repeat: no-repeat;
     opacity: 0.6;
     transition: all .4s ease-in-out;
 }
@@ -253,7 +253,7 @@
 }
 
 .timeline-calendar__body.by-date .timeline-video__container {
-    margin-top: 2.5em;
+    margin-top: 3.5em;
 }
 .timeline.by-date .timeline-calendar__body.default {
     display: none;

@@ -380,6 +380,18 @@
     background: radial-gradient(circle, rgba(128, 202, 128, 0.7) 0%, rgb(128, 202, 128) 100%);
 }
 
+.timeline-cup__head-back-button:focus {
+    background-color: #d1ebfb;
+}
+.timeline-cup__head-back-button:focus .timeline-cup__head-back-button-icon::after {
+    transform: translate(-50%, calc(-50%)) rotate(90deg);
+    opacity: 1;
+}
+.timeline-cup__head-back-button:focus .timeline-cup__head-back-button-icon::before {
+    transform: translate(calc(-50% - 28px), -50%) rotate(90deg);
+    opacity: 0;
+}
+
 @media (hover: hover) {
     .timeline-cup__head-back-button:hover {
         background-color: #d1ebfb;
