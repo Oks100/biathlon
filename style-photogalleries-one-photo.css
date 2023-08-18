@@ -455,9 +455,6 @@
     transform: translate(calc(-50% - 28px), -50%) rotate(90deg);
     opacity: 0;
 }
-.img-container__scale-button:not(:hover) {
-    color: initial; 
-}
 @media (hover: hover) {
     .img-container__scale-button:hover .scale-up-icon {
         fill: gold;
