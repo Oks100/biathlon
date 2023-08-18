@@ -270,10 +270,7 @@
 }
 
 @media screen and (max-width: 650px) {
-    .timeline-video__container-item-image {
-        height: 78px;
-        max-width: 130px;
-    }
+
 }
 @media screen and (max-width: 550px) {
     .timeline-calendar {
