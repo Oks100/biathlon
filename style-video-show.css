@@ -82,6 +82,13 @@
     color: black;
     font-weight: 700;
 }
+.timeline-cup-result-discription-links {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin-bottom: 2em;
+}
+
 .iframe-video-wrapper {
     position: relative;
     width: 100%;
