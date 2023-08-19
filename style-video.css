@@ -224,10 +224,10 @@
     opacity: 0.6;
     transition: all .4s ease-in-out;
 }
-.timeline-video__container-item:not(.not-released) .timeline-video__container-item-image a:hover::before {
+.timeline-video__container-item:not(.not-released) .timeline-video__container-item-image a:focus::before {
     opacity: 0;
 }
-.timeline-video__container-item:not(.not-released) .timeline-video__container-item-image a:hover img {
+.timeline-video__container-item:not(.not-released) .timeline-video__container-item-image a:focus img {
     scale: 1.03;
 }
 .timeline-video__container-item-image-link {
@@ -267,6 +267,12 @@
 
 
 @media (hover: hover) {
+    .timeline-video__container-item:not(.not-released) .timeline-video__container-item-image a:hover::before {
+        opacity: 0;
+    }
+    .timeline-video__container-item:not(.not-released) .timeline-video__container-item-image a:hover img {
+        scale: 1.03;
+    }
 }
 
 @media screen and (max-width: 650px) {
