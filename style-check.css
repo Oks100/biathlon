@@ -107,9 +107,6 @@
 .timeline__item-comments-delete-info {
     white-space: nowrap;
 }
-#tippy-20, #tippy-18, #tippy-17, #tippy-19 {
-    inset: -5px auto auto 0px !important;
-}
 .timeline__item-comments-delete::before {
     content: '';
 }
