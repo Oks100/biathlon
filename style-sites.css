@@ -1,0 +1,151 @@
+#tippy-16 {
+    width: auto;
+}
+#tippy-16 .tippy-content {
+    overflow: hidden;
+}
+#tippy-16 ul li a {
+    color: black !important;
+    font-size: 13.5px !important;
+    text-transform: none !important;
+    padding: 0px 10px 0px 10px !important;
+    transition: 0s !important;
+    text-shadow: none !important;
+    width: 100%;
+    display: flex;
+}
+#tippy-16 ul li:last-of-type a {
+    border-bottom: none !important;
+}
+  
+#tippy-16 ul li::before, #tippy-16 ul li::after {
+    display: none !important;
+}
+  
+#tippy-16 ul li a:hover {
+    background-color: #ecf5fb;
+}
+#tippy-16 ul li {
+    white-space: nowrap;
+    line-height: 33px;
+}
+#tippy-16 ul li:last-of-type {
+    white-space: nowrap;
+    line-height: 33px;
+}
+#tippy-16 ul li:last-of-type a, #tippy-16 ul li:last-of-type a::before {
+    color: red !important;
+   }
+#tippy-16 ul li:first-of-type a::before {
+    content: "\e016";
+    font-family: 'icomoon';
+    margin-right: 7px;
+    font-size: 13px;
+    color: #81aad5;
+}
+#tippy-16 ul li:nth-child(2) a::before {
+    content: "\e015";
+    font-family: 'icomoon';
+    margin-right: 7px;
+    font-size: 13px;
+    color: #81aad5;
+}
+#tippy-16 ul li:last-of-type a::before {
+    content: "\e9b";
+    font-family: 'icomoon';
+    margin-right: 7px;
+    font-size: 13px;
+    color: #81aad5;
+}
+
+.timeline-video {
+    padding: 2em 1.5em 1.75em 1.5em;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0px 5px 24px rgba(32,60,87,0.11);
+    overflow-x: hidden;
+}
+.timeline-video__head {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2em;
+    position: relative;
+    gap: 15px 25px;
+    /* align-items: center; */
+}
+.timeline__date {
+    align-items: flex-start;
+    margin-top: 5px;
+}
+.timeline-video__head > span:nth-child(1) {
+    font-size: 1.3em;
+    color: black;
+    font-weight: 700;
+}
+
+.timeline-cup-statistics-title {
+    display: flex;
+    background-color: #d1ebfb;
+    margin-bottom: 1em;
+    position: relative;
+    padding: 1.3px 10px 1.3px 51px;
+}
+.timeline-cup-statistics-title:not(:first-child) {
+    margin-top: 2em;
+}
+.timeline-cup-statistics-title span {
+    font-size: 1.2em;
+    font-weight: 600;
+}
+.timeline-cup-statistics-title-icon {
+    position: absolute;
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    background-color: white;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 7px;
+    border: 2px solid #d1ebfb;
+}
+.timeline-cup-statistics-title-icon svg {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    fill: #81aad5;
+    scale: 1;
+}
+.stadium-icon {
+    width: 22px;
+    height: 22px;
+}
+.national-icon {
+    width: 21px;
+    height: 21px;
+}
+.fan-site-icon {
+    width: 21px;
+    height: 21px;
+}
+.timeline-sites__list {
+    /* margin-top: 1em; */
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.timeline-sites__list li {
+    display: flex;
+    flex-direction: column;
+}
+
+@media (hover: hover) {
+}
+
+@media screen and (max-width: 1200px) {
+}
+@media screen and (max-width: 550px) {
+    .timeline-video {
+        padding: 2em 1.06em 1.75em 1.06em;
+    }
+}
