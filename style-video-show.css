@@ -82,11 +82,21 @@
     color: black;
     font-weight: 700;
 }
+.timeline-cup-result-discription-info {
+    display: flex;
+    align-items: center;
+    margin-bottom: 2em;
+    flex-wrap: wrap;
+    gap: 25px;
+}
+.timeline-photogalleries__body-back-button {
+    margin-left: auto;
+}
+
 .timeline-cup-result-discription-links {
     display: flex;
     gap: 10px;
     flex-wrap: wrap;
-    margin-bottom: 2em;
 }
 
 .iframe-video-wrapper {

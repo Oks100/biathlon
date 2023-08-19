@@ -284,6 +284,7 @@
     border-radius: 33px;
     transition: all .3s ease;
     -webkit-tap-highlight-color: transparent;
+    margin-left: auto;
 }
 .timeline-cup__head-back-button-icon {
     position: absolute;
