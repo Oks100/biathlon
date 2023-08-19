@@ -1291,7 +1291,22 @@ html[data-theme="grey"] #tippy-16 ul li a:hover {
     position: relative;
     /* margin-left: 12px; */
 }
-
+.timeline-cup__any-tables-go-to-male-table:focus::before {
+    transform: translate(-50%, calc(-50% + 28px));
+    opacity: 0;
+}
+.timeline-cup__any-tables-go-to-female-table:focus::before {
+    transform: translate(-50%, calc(-50% - 28px)) rotate(180deg);
+    opacity: 0;
+}
+.timeline-cup__any-tables-go-to-male-table:focus::after {
+    transform: translate(-50%, calc(-50%));
+    opacity: 1;
+}
+.timeline-cup__any-tables-go-to-female-table:focus::after {
+    transform: translate(-50%, calc(-50%)) rotate(180deg);
+    opacity: 1;
+}
 @media (hover: hover) {
     .timeline-cup__any-tables-go-to-male-table:hover::before {
         transform: translate(-50%, calc(-50% + 28px));
