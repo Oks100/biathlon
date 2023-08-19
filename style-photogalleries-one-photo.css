@@ -277,6 +277,7 @@
     transition: all 0.45s ease;
     scale: 1;
     margin-right: -15px;
+    user-select: none;
 }
 .timeline-photogalleries-next {
     display: flex;
@@ -291,6 +292,7 @@
     transition: all 0.45s ease;
     scale: 1;
     margin-left: -15px;
+    user-select: none;
 }
 .timeline-photogalleries-next::before {
     content: '';
