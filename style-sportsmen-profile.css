@@ -1486,9 +1486,15 @@
     .timeline-sportsmen-profile__body-target-table.ranking tr td {
         padding: 2.4px 4.5px;
     }
-}
-
-@media screen and (min-width: 371px) and (max-width: 550px) {
+    .timeline-sportsmen-profile__body-info {
+        flex-wrap: wrap;
+    }
+    .timeline-sportsmen-profile__body-info-discription, .timeline-sportsmen-profile__body-info-photo {
+        flex-basis: auto;
+    }
+    .timeline-sportsmen-profile__body-info {
+        gap: 30px;
+    }
     .timeline-sportsmen-profile__body-info-table tr td {
         display: flex;
         flex-direction: column;
@@ -1497,8 +1503,21 @@
         text-align: left;
     }
     .timeline-sportsmen-profile__body-info-discription, .timeline-sportsmen-profile__body-info-photo {
-        flex-basis: 50%;
+        flex-basis: 100%;
     }
+}
+
+@media screen and (min-width: 371px) and (max-width: 550px) {
+    /* .timeline-sportsmen-profile__body-info-table tr td {
+        display: flex;
+        flex-direction: column;
+    }
+    .timeline-sportsmen-profile__body-info-table tbody tr td:first-of-type {
+        text-align: left;
+    }
+    .timeline-sportsmen-profile__body-info-discription, .timeline-sportsmen-profile__body-info-photo {
+        flex-basis: 50%;
+    } */
 }
 
 @media screen and (max-width: 380px) {
@@ -1520,7 +1539,7 @@
     }
 }
 @media screen and (max-width: 370px) {
-    .timeline-sportsmen-profile__body-info {
+    /* .timeline-sportsmen-profile__body-info {
         flex-wrap: wrap;
     }
     .timeline-sportsmen-profile__body-info-discription, .timeline-sportsmen-profile__body-info-photo {
@@ -1528,7 +1547,7 @@
     }
     .timeline-sportsmen-profile__body-info {
         gap: 30px;
-    }
+    } */
 }
 @media screen and (max-width: 332px) {
     .timeline-sportsmen-profile__body-add-info.open .timeline-sportsmen-profile__body-add-info-menu {
