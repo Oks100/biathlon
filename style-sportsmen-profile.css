@@ -1286,14 +1286,15 @@
     flex-wrap: wrap;
 }
 .timeline-sportsmen-profile__body-total ul li {
-    padding: 5px 0px;
+    padding: 5px 10px;
     border-radius: 8px;
     /* border: 1px solid #d0d9dd; */
     box-shadow: 0px 0px 5px rgba(91, 91, 91, 0.3);
     white-space: nowrap;
+    flex: 0 1 fit-content;
 }
 .timeline-sportsmen-profile__body-total ul li span {
-    padding: 0px 10px;
+
 }
 .timeline-cup__footer-legend-title-2 {
     display: flex;
