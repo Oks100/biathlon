@@ -164,6 +164,7 @@
 }
 .timeline-sportsmen-profile__body-add-info {
     position: relative;
+    -webkit-tap-highlight-color: transparent;
 }
 
 .timeline-sportsmen-profile__body-table-button {
@@ -1298,6 +1299,7 @@
     align-items: center;
 }
 .timeline-cup__footer-legend-title-2 span {
+    display: flex;
     padding-left: 5px;
 }
 .sportsmen-profile__table.achiv tr td:first-child {
@@ -1348,8 +1350,6 @@
     background-color: #e7f3fa;
     position: absolute;
     left: 1px;
-/* top: 1px;
-bottom: 1px; */
     height: calc(100% - 2px);
     top: 50%;
     transform: translateY(-50%);
@@ -1358,6 +1358,7 @@ bottom: 1px; */
     transition: all .3s ease;
     color: #002b71;
     scale: 1;
+    -webkit-tap-highlight-color: transparent;
 }
 .timeline-sportsmen-profile-card-copy-title {
     margin-bottom: 0.5em;
