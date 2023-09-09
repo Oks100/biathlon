@@ -443,11 +443,11 @@ var ctx = document.getElementById('myChart5').getContext('2d');
 var myChart5 = new Chart(ctx, {
   type: 'line',
   data: {
-    labels: ['Сезон 08/09', 'Сезон 09/10', 'Сезон 10/11', 'Сезон 11/12', 'Сезон 12/13', 'Сезон 13/14', 'Сезон 14/15', 'Сезон 15/16', 'Сезон 16/17', 'Сезон 17/18', 'Сезон 18/19', 'Сезон 19/20', 'Сезон 20/21', 'Сезон 21/22', 'Сезон 22/23'],
+    labels: ['Сезон 10/11', 'Сезон 11/12', 'Сезон 12/13', 'Сезон 13/14', 'Сезон 14/15', 'Сезон 15/16', 'Сезон 16/17', 'Сезон 17/18', 'Сезон 18/19', 'Сезон 19/20', 'Сезон 20/21', 'Сезон 21/22', 'Сезон 22/23'],
     datasets: [
       {
         label: 'Доротея Вирер',
-        data: [NaN, NaN, 17, 71, 27, 29, 14, 21, 31, 33, 30, 29, 14, 43, 19],
+        data: [17, 71, 27, 29, 14, 21, 31, 33, 30, 29, 14, 43, 19],
         fill: 'start',
         backgroundColor: 'rgba(255, 0, 0, 0.1)',
         borderColor: 'rgba(255, 0, 0, 0.5)',
@@ -462,7 +462,7 @@ var myChart5 = new Chart(ctx, {
       },
       {
         label: 'Юлия Джима',
-        data: [NaN, NaN, NaN, 24, 12, 20, 4, 14, 36, 15, 13, 12, 22, 89, 31],
+        data: [NaN, 24, 12, 20, 4, 14, 36, 15, 13, 12, 22, 89, 31],
         fill: 'start',
         backgroundColor: 'rgb(255, 147, 83, 0.1)',
         borderColor: 'rgb(255, 147, 83, 0.5)',
@@ -519,14 +519,14 @@ chartSelect5.addEventListener('change', function () {
   const selectedValue = chartSelect5.value;
 
   if (selectedValue === 'dataset1') {
-    myChart5.data.datasets[1].data = [NaN, NaN, NaN, 24, 12, 20, 4, 14, 36, 15, 13, 12, 22, 89, 31];
+    myChart5.data.datasets[1].data = [NaN, 24, 12, 20, 4, 14, 36, 15, 13, 12, 22, 89, 31];
     myChart5.data.datasets[1].label = 'Юлия Джима';
   } else if (selectedValue === 'dataset2') {
-    myChart5.data.datasets[1].data = [NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, 41, 32, 53, 93, 90, 102];
+    myChart5.data.datasets[1].data = [NaN, NaN, NaN, NaN, NaN, NaN, NaN, 41, 32, 53, 93, 90, 102];
     myChart5.data.datasets[1].label = 'Регина Ойя';
   }
   else if (selectedValue === 'dataset3') {
-    myChart5.data.datasets[1].data = [NaN, NaN, NaN, NaN, NaN, 53, 55, 70, 50, 59, 47, 14, 27, 5, 6, 19];
+    myChart5.data.datasets[1].data = [NaN, NaN, NaN, 53, 55, 70, 50, 59, 47, 14, 27, 5, 6, 19];
     myChart5.data.datasets[1].label = 'Марте Олсбю Ройселанд';
   }
 
