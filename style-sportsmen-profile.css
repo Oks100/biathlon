@@ -1277,6 +1277,7 @@
     padding: 7px;
     border-radius: 8px;
     text-align: center;
+    white-space: nowrap;
 }
 .speed-item-title {
     border-bottom: 1px solid #dfedf4;
