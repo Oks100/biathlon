@@ -306,8 +306,6 @@ footer {
     content: '';
     display: block;
     position: absolute;
-    /* top: 3.5px;
-    left: 8.5px; */
     top: 5px;
     left: 10.5px;
     transform: translate(-50%, -50%);
@@ -322,7 +320,6 @@ footer {
 }
 .form-group label:not(.checkbox-group .label-for-useEnter) {
     display: flex;
-    /* height: 100%; */
     position: relative;
 }
 .icon {
