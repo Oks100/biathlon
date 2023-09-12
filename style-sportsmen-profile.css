@@ -263,6 +263,9 @@
     padding: 0 10px 0 43px;
     transition: all .4s ease-in-out;
 }
+.login-registr-form:focus::placeholder {   
+    color: transparent; 
+}
 .password-registr-form-icon::before {
     content: "" !important;
 }
@@ -1293,6 +1296,7 @@
 }
 .timeline-sportsmen-profile__body-target-table tr td {
     padding: 2.4px 7px;
+    text-align: center;
 }
 .timeline-sportsmen-profile__body-target-table tr:not(:first-child) td:not(:nth-child(1), :nth-child(2)) {
     font-size: 0.95em;

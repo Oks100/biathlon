@@ -1,0 +1,188 @@
+#tippy-16 {
+    width: auto;
+}
+#tippy-16 .tippy-content {
+    overflow: hidden;
+}
+#tippy-16 ul li a {
+    color: black !important;
+    font-size: 13.5px !important;
+    text-transform: none !important;
+    padding: 0px 10px 0px 10px !important;
+    transition: 0s !important;
+    text-shadow: none !important;
+    width: 100%;
+    display: flex;
+}
+#tippy-16 ul li:last-of-type a {
+    border-bottom: none !important;
+}
+  
+#tippy-16 ul li::before, #tippy-16 ul li::after {
+    display: none !important;
+}
+  
+#tippy-16 ul li a:hover {
+    background-color: #ecf5fb;
+}
+#tippy-16 ul li {
+    white-space: nowrap;
+    line-height: 33px;
+}
+#tippy-16 ul li:last-of-type {
+    white-space: nowrap;
+    line-height: 33px;
+}
+#tippy-16 ul li:last-of-type a, #tippy-16 ul li:last-of-type a::before {
+    color: red !important;
+   }
+#tippy-16 ul li:first-of-type a::before {
+    content: "\e016";
+    font-family: 'icomoon';
+    margin-right: 7px;
+    font-size: 13px;
+    color: #81aad5;
+}
+#tippy-16 ul li:nth-child(2) a::before {
+    content: "\e015";
+    font-family: 'icomoon';
+    margin-right: 7px;
+    font-size: 13px;
+    color: #81aad5;
+}
+#tippy-16 ul li:last-of-type a::before {
+    content: "\e9b";
+    font-family: 'icomoon';
+    margin-right: 7px;
+    font-size: 13px;
+    color: #81aad5;
+}
+
+.timeline-check {
+    padding: 2em 1.5em 1.75em 1.5em;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0px 5px 24px rgba(32,60,87,0.11);
+    overflow-x: hidden;
+}
+.timeline-check__head {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2em;
+    position: relative;
+    gap: 20px;
+    align-items: center;
+}
+.timeline-check__head > span:nth-child(1) {
+    font-size: 1.3em;
+    color: black;
+    font-weight: 700;
+}
+.title-h3 {
+    font-weight: 600;
+    margin-bottom: 1.5em;
+}
+.sportsmen-votes__discription {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2em;
+}
+.sportsmen-votes__body {
+}
+.sportsmen-votes__table-wrapper {
+    overflow-x: auto;
+}
+.sportsmen-votes__table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 2em;
+}
+.sportsmen-votes__table tr td {
+    padding: 2.4px 7px;
+}
+.sportsmen-votes__table tr td:last-child {
+    text-align: right;
+}
+.sportsmen-votes__table thead tr td:last-child {
+    padding-right: 15px;
+}
+.sportsmen-votes__table thead tr td {
+    color: #5d5d5d;
+}
+.sportsmen-votes__table tbody tr:nth-child(2n+1) {
+    background-color: #e7f3fa;
+}
+.sportsmen-votes__table tr td:first-child {
+    padding: 2.4px 2.4px 2.4px 7px;
+    width: 27.4px;
+}
+.sportsmen-votes__table tr td:nth-child(2) {
+    padding: 2.4px 7px 2.4px 2.4px;
+}
+.timeline-cup__footer-legend-title {
+    font-size: 1.2em;
+    font-weight: 700;
+    display: flex;
+    background-color: #d1ebfb;
+    position: relative;
+    padding: 1.3px 10px 1.3px 51px;
+    margin: 2em 0 1em 0;
+}
+.circle-element-for-cup {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 8px;
+    width: 35px;
+    height: 35px;
+    background-color: white;
+    border-radius: 50%;
+    border: 2px solid #d1ebfb;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.legend-icon {
+    width: 20px;
+    height: 20px;
+    fill: #81aad5;
+    scale: 1;
+}
+.sportsmen-votes__list li {
+    padding: 2.4px 0;
+}
+.vote-hide-1, .vote-hide-2 {
+    display: none;
+}
+.sportsmen-votes__table.hide-td-1 .vote-hide-1, .sportsmen-votes__table.hide-td-2 .vote-hide-2 {
+    display: initial;
+}
+.sport-vote-0 {
+    outline: 1px solid #d0d9dd;
+    border-radius: 3px;
+    transition: all .3s ease;
+    cursor: pointer;
+    padding: 0 0 0 5px;
+    height: 19.4px;
+}
+.sport-vote-0:focus {
+    outline-color: #bfc6ca;
+}
+@media (hover: hover) {
+    .sportsmen-votes__table tbody tr:hover {
+        background-color: #fffce5;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .timeline__item-comments-discussion {
+        margin-top: 2.11em;
+    }
+}
+@media screen and (max-width: 550px) {
+    .timeline-check {
+        padding: 2em 1.06em 1.75em 1.06em;
+    }
+}
+@media screen and (max-width: 380px) {
+}

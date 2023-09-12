@@ -74,7 +74,7 @@
     gap: 20px 25px;
     /* align-items: center; */
     /* flex-wrap: wrap; */
-    align-items: center;
+    /* align-items: center; */
 }
 .timeline-my-profile__head > span:first-child {
     font-size: 1.3em;
@@ -94,17 +94,8 @@
 
 
 .logged-block {
-    display: flex;
-    height: 9px;
-    width: 9px;
-    background-color: #1bd212;
-    border-radius: 50%;
-    cursor: help;
-    flex-shrink: 0;
-    align-self: flex-start;
-    /* margin-top: 10.65px; */
-    margin-top: 11.5px;
-    scale: 1;
+    color: #08a400;
+    margin-top: 5px;
 }
 
 .timeline-my-profile__body {
@@ -138,7 +129,7 @@
 .timeline-my-profile__body-avatar-table {
     border-collapse: collapse;
     overflow: hidden;
-    min-width: 350px;
+    /* min-width: 350px; */
 }
 .timeline-my-profile__predictor-tournament {
     border-collapse: collapse;
@@ -154,6 +145,10 @@
 }
 .timeline-my-profile__body-avatar-table tbody tr td, .timeline-my-profile__predictor-tournament tr td {
     padding: 2.4px 7px 2.4px 7px;
+}
+.timeline-my-profile__body-avatar-table tbody tr td:first-child {
+    color: #0e68ab;
+    text-align: right;
 }
 .timeline-my-profile__predictor-tournament thead tr td {
     color: #5d5d5d;
@@ -291,7 +286,7 @@
 }
 
 @media (hover: hover) {
-    .timeline-my-profile__body-avatar-table tr:hover, .timeline-my-profile__predictor-tournament tbody tr:hover {
+    .timeline-my-profile__predictor-tournament tbody tr:hover {
         background-color: #fffce5;
     }
     .timeline-my-profile__body-form-group-wrapper button:hover {
@@ -329,6 +324,19 @@
         margin: 0 auto;
     }
 }
+@media screen and (max-width: 500px) {
+    .timeline-my-profile__body-avatar-table tbody tr td:first-child {
+        text-align: left;
+    }
+    .timeline-my-profile__body-avatar-table tbody tr td {
+        display: flex;
+        flex-direction: column;
+    }
+    .timeline-my-profile__body-avatar-wrapper {
+        flex-direction: column;
+    }
+}
+
 @media (max-width: 430px) {
     .button-icon::before {
         content: "";
