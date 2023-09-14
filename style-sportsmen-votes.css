@@ -150,6 +150,19 @@
 }
 .sportsmen-votes__list li {
     padding: 2.4px 0;
+    position: relative;
+}
+.votes-icon {
+    position: absolute;
+    top: 5px;
+    left: 0;
+    width: 15px;
+    height: 15px;
+    fill: #81aad5;
+    scale: 1;
+}
+.sportsmen-votes__list li a {
+    margin-left: 20px;
 }
 .vote-hide-1, .vote-hide-2 {
     display: none;

@@ -317,7 +317,6 @@ html[data-theme="grey"] #tippy-16 ul li a:hover {
 }
 .timeline-cup-table tbody tr td {
     padding: 2.4px;
-    white-space: nowrap;
 }
 .timeline-cup-table tbody tr td:last-child {
     /* width: 40.4667px; */
@@ -566,6 +565,7 @@ html[data-theme="grey"] #tippy-16 ul li a:hover {
     /* min-width: 212.767px; */
     min-width: 217.8px;
     display: block;
+    padding-right: 5px;
 }
 .table-compare-exemple-2 tr td:nth-child(3), .table-compare-exemple-4 tr td:nth-child(3) {
     width: 22.8px;
@@ -922,9 +922,12 @@ html[data-theme="grey"] #tippy-16 ul li a:hover {
     .timeline-cup__select-body {
         display: none;
     }
+    /* .timeline-cup-table tbody tr td {
+        white-space: nowrap;
+    } */
 }
 
-@media screen and (min-width: 992px) and (max-width: 1300px) {
+@media screen and (min-width: 993px) and (max-width: 1300px) {
     .timeline-cup-tables {
         justify-content: left;
     }
