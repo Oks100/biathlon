@@ -418,7 +418,7 @@ chartSelect4.addEventListener('change', function () {
     myChart4.data.datasets[1].label = 'Регина Ойя';
   }
   else if (selectedValue === 'dataset3') {
-    myChart4.data.datasets[1].data = [NaN, NaN, NaN, NaN, 95.0, 82.7, 80.8, 81.8, 82.9, 82.4, 83.2, 84.8, 84.0, 90.8, 89.7];
+    myChart4.data.datasets[1].data = [NaN, NaN, NaN, NaN, NaN, 82.7, 80.8, 81.8, 82.9, 82.4, 83.2, 84.8, 84.0, 90.8, 89.7];
     myChart4.data.datasets[1].label = 'Марте Олсбю Ройселанд';
   }
 
