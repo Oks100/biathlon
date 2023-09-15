@@ -99,7 +99,8 @@
 .first-photo {
     grid-column-start: 1;
     grid-column-end: 3;
-  }
+    min-height: 373.333px;
+}
 .timeline-sportsmen-profile__body-info-image a {
     overflow: hidden;
     border-radius: 8px;
