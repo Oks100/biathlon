@@ -950,7 +950,7 @@ html[data-theme="grey"] #tippy-16 ul li a:hover {
     padding: 2em 1.06em 1.75em 1.06em;
 }
 .timeline__more-tables-body ul {
-    height: initial;
+    height: fit-content;
 }
 .timeline__more-tables-body svg {
     top: 50%;
