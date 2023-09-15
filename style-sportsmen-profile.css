@@ -1378,6 +1378,11 @@
 .sportsmen-profile__table.achiv tr td:first-child {
     width: 46px;
 }
+.top10-icon {
+    width: 19px;
+    height: 19px;
+    fill: #81aad5;
+}
 .star-icon {
     width: 16px;
     height: 16px;
