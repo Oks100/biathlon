@@ -371,15 +371,19 @@ html[data-theme="grey"] #tippy-16 ul li a:hover {
     overflow: hidden;
     position: relative;
     transition: all .3s ease;
+    -webkit-tap-highlight-color: transparent;
 }
 .shooting-type span {
     position: relative;
     z-index: 1;
 }
 .shooting-type.active {
-    /* background-color: #e7f3fa; */
     background-color: #c0e5fb;
     z-index: 2;
+}
+.accuracy-discription {
+    display: flex;
+    margin-bottom: 2em;
 }
 .shooting-type-1 {
     border-radius: 33px 0 0 33px;

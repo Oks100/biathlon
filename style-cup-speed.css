@@ -110,7 +110,10 @@ html[data-theme="grey"] #tippy-16 ul li a:hover {
     font-weight: 700;
     padding-right: 58px;
 }
-
+.speed-discription {
+    display: flex;
+    margin-bottom: 2em;
+}
 .age-button {
     display: flex;
     /* width: 35px; */
@@ -922,9 +925,6 @@ html[data-theme="grey"] #tippy-16 ul li a:hover {
     .timeline-cup__select-body {
         display: none;
     }
-    /* .timeline-cup-table tbody tr td {
-        white-space: nowrap;
-    } */
 }
 
 @media screen and (min-width: 993px) and (max-width: 1300px) {
@@ -950,7 +950,7 @@ html[data-theme="grey"] #tippy-16 ul li a:hover {
     padding: 2em 1.06em 1.75em 1.06em;
 }
 .timeline__more-tables-body ul {
-    height: auto;
+    height: initial;
 }
 .timeline__more-tables-body svg {
     top: 50%;
