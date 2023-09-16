@@ -393,6 +393,7 @@ html[data-theme="grey"] #tippy-16 ul li a:hover {
     z-index: 1;
 }
 .timeline__more-tables-body li {
+    display: block;
     /* list-style: disc;
     list-style-position: inside; */
 }
