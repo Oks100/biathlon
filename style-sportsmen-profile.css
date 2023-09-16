@@ -1453,7 +1453,7 @@
 }
 .timeline-sportsmen-profile__competition-list {
     display: flex;
-    gap: 10px 10px;
+    gap: 10px 15px;
     flex-wrap: wrap;
 }
 .timeline-sportsmen-profile__competition-list li {
