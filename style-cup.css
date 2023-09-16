@@ -393,7 +393,6 @@ html[data-theme="grey"] #tippy-16 ul li a:hover {
     z-index: 1;
 }
 .timeline__more-tables-body li {
-    display: block;
     /* list-style: disc;
     list-style-position: inside; */
 }
@@ -875,8 +874,11 @@ html[data-theme="grey"] #tippy-16 ul li a:hover {
     .timeline-cup__table-comments-tables-recommend-list li {
         width: auto;
     }
-    .timeline__more-tables-body ul, .timeline-cup__table-comments-tables-recommend-list {
+    /* .timeline__more-tables-body ul, .timeline-cup__table-comments-tables-recommend-list {
         gap: 8px 0;
+    } */
+    .timeline__more-tables-body ul li:not(:last-of-type), .timeline-cup__table-comments-tables-recommend-list li:not(:last-of-type) {
+        margin-bottom: 8px;
     }
     .timeline__more-tables-body ul {
         height: 172px;
