@@ -1352,6 +1352,7 @@
     flex-wrap: wrap;
 }
 .timeline-sportsmen-profile__body-total ul li {
+    display: block;
     padding: 5px 10px;
     border-radius: 8px;
     /* border: 1px solid #d0d9dd; */
