@@ -1273,6 +1273,12 @@
     fill: #81aad5;
     scale: 1;
 }
+.competition-icon {
+    width: 21px;
+    height: 21px;
+    fill: #81aad5;
+    scale: 1;
+}
 .profile-speed-icon {
     width: 22px;
     height: 22px;
@@ -1443,9 +1449,31 @@
 .timeline-sportsmen-profile-card-copy-title {
     margin-bottom: 0.5em;
 }
+.timeline-sportsmen-profile__competition {
+}
+.timeline-sportsmen-profile__competition-list {
+    display: flex;
+    gap: 10px 10px;
+    flex-wrap: wrap;
+}
+.timeline-sportsmen-profile__competition-list li {
+    padding: 5px 15px;
+    background-color: #e7f3fa;
+    border-radius: 33px;
+    color: #002b71;
+    cursor: pointer;
+    transition: all .3s ease;
+}
+.timeline-sportsmen-profile__competition-list li.active {
+    background-color: #d1ebfb;
+}
+
 
 
 @media (hover: hover) {
+    .timeline-sportsmen-profile__competition-list li:hover {
+        background-color: #d1ebfb;
+    }
     .btn-copy:hover {
         background-color: #d1ebfb;
     }
