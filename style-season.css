@@ -1,0 +1,324 @@
+#tippy-16 {
+    width: auto;
+}
+#tippy-16 .tippy-content {
+    overflow: hidden;
+}
+#tippy-16 ul li a {
+    color: black !important;
+    font-size: 13.5px !important;
+    text-transform: none !important;
+    padding: 0px 10px 0px 10px !important;
+    transition: 0s !important;
+    text-shadow: none !important;
+    width: 100%;
+    display: flex;
+}
+#tippy-16 ul li:last-of-type a {
+    border-bottom: none !important;
+}
+  
+#tippy-16 ul li::before, #tippy-16 ul li::after {
+    display: none !important;
+}
+  
+#tippy-16 ul li a:hover {
+    background-color: #ecf5fb;
+}
+#tippy-16 ul li {
+    white-space: nowrap;
+    line-height: 33px;
+}
+#tippy-16 ul li:last-of-type {
+    white-space: nowrap;
+    line-height: 33px;
+}
+#tippy-16 ul li:last-of-type a, #tippy-16 ul li:last-of-type a::before {
+    color: red !important;
+   }
+#tippy-16 ul li:first-of-type a::before {
+    content: "\e016";
+    font-family: 'icomoon';
+    margin-right: 7px;
+    font-size: 13px;
+    color: #81aad5;
+}
+#tippy-16 ul li:nth-child(2) a::before {
+    content: "\e015";
+    font-family: 'icomoon';
+    margin-right: 7px;
+    font-size: 13px;
+    color: #81aad5;
+}
+#tippy-16 ul li:last-of-type a::before {
+    content: "\e9b";
+    font-family: 'icomoon';
+    margin-right: 7px;
+    font-size: 13px;
+    color: #81aad5;
+}
+
+.timeline-video {
+    padding: 2em 1.5em 1.75em 1.5em;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0px 5px 24px rgba(32,60,87,0.11);
+    overflow-x: hidden;
+}
+.timeline-video__head {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2em;
+    position: relative;
+    gap: 15px 25px;
+    /* align-items: center; */
+}
+.timeline__date {
+    align-items: flex-start;
+    margin-top: 5px;
+}
+.timeline-video__head > span:nth-child(1) {
+    font-size: 1.3em;
+    color: black;
+    font-weight: 700;
+}
+.timeline-contacts__body table td {
+    vertical-align: top;
+    padding: 2.4px 15px;
+}
+.timeline-contacts__body table td:first-child {
+    padding: 2.4px 0;
+}
+.timeline-contacts__body-group:not(:last-child) {
+    margin-bottom: 2em;
+}
+.timeline-contacts__body-title {
+    color: #1f7ec4;
+    font-size: 1.2em;
+    font-weight: 600;
+    margin-bottom: 0.75em;
+}
+.timeline-contacts__body-list li {
+    padding: 2.4px 0;
+}
+.timeline-ukraine-cup__body-title {
+    font-weight: 600;
+    font-size: 1.1em;
+    display: flex;
+    margin: 2em 0 0.5em 0;
+}
+.timeline__select-body {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2em;
+}
+.timeline-calendar__select-season {
+    outline: 1px solid #d0d9dd;
+    border-radius: 3px;
+    transition: all .3s ease;
+    cursor: pointer;
+    margin-left: 7px;
+    padding: 5px 0 5px 5px;
+}
+.timeline-calendar__select-season:focus {
+    outline-color: #bfc6ca;
+}
+.title-race {
+    font-weight: 600;
+    font-size: 1.1em;
+    margin: 2em 0 0px 0;
+    background-color: #e7f3fa;
+    padding: 2px 8px 2px 8px;
+}
+.timeline-season__body-events img[src*="season"] {
+    width: 100%;
+    border-radius: 8px;
+}
+.title-race-area {
+    display: flex;
+    height: 350px;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    border-radius: 8px;
+    margin-bottom: 2em;
+}
+.timeline-season__body .title-race-area:not(:first-child) {
+    margin-top: 2em;
+}
+.title-race-area__img {
+    width: 100%;
+    object-fit: cover;
+}
+.title-race-area__text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    padding: 15px;
+}
+.title-race-area__text-2 {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.4);
+    padding: 7px 10px;
+    border-radius: 8px 0 0 0;
+}
+.title-race-area__text-2 {
+    color: white;
+}
+.title-race-area__text a {
+    color: white;
+    font-size: 2em;
+    transition: all .3s ease;
+}
+.title-race-area__text img {
+    width: 50px;
+    margin-right: 10px;
+}
+.title-race.m-list {
+    margin-bottom: 1em;
+}
+.timeline-cup-statistics-title {
+    display: flex;
+    background-color: #d1ebfb;
+    margin: 2em 0 1em 0;
+    position: relative;
+    padding: 1.3px 10px 1.3px 51px;
+}
+.outcomes-icon {
+    width: 18px;
+    height: 18px;
+}
+.timeline-cup-statistics-title:not(:first-child) {
+    margin-top: 2em;
+}
+.timeline-cup-statistics-title span {
+    font-size: 1.2em;
+    font-weight: 600;
+}
+.timeline-cup-statistics-title-icon {
+    position: absolute;
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    background-color: white;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 7px;
+    border: 2px solid #d1ebfb;
+}
+.timeline-cup-statistics-title-icon svg {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    fill: #81aad5;
+    scale: 1;
+}
+.stadium-icon {
+    width: 22px;
+    height: 22px;
+}
+.season__important-news-list li {
+    list-style: disc inside;
+}
+.timeline-season__body-nav {
+    border: 1px solid #dfedf4;
+    border-radius: 15px;
+    background-color: #f4fbff;
+    overflow: hidden;
+    margin: 2em 0;
+}
+.timeline-season__body-nav-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 15px;
+    cursor: pointer;
+}
+.timeline-season__body-nav-title span {
+    font-size: 1.1em;
+    font-weight: 600;
+}
+.timeline-season__body-nav-list {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1em;
+    margin: 0 15px 20px 15px;
+}
+.timeline-season__body-nav-title-text {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.timeline-season__body-nav-button {
+    position: relative;
+    height: 100%;
+}
+.timeline-season__body-nav-button::before {
+    display: block;
+    content: "\e081";
+    font-family: 'icomoon';
+    font-size: .95em;
+    margin-right: 7px;
+    transition: all 0.3s ease;
+    scale: 1;
+    color: #81aad5;
+}
+.timeline-season__body-nav-title.active .timeline-season__body-nav-button::before {
+    transform: rotate(180deg);
+}
+.nav-icon{
+    width: 22px;
+    height: 23px;
+    fill: #81aad5;
+    scale: 1;
+}
+.stadium-icon {
+    width: 19px;
+    height: 19px;
+    fill: #81aad5;
+    scale: 1;
+}
+.timeline-season__body-nav-list li span {
+    color: #002b71;
+}
+.timeline-season__body-nav-list li span {
+    cursor: pointer;
+}
+.timeline-season__body-nav-list li::before {
+    content: "\e902";
+    font-family: 'icomoon';
+    color: #81aad5;
+    font-size: 0.95em;
+    padding-right: 5px;
+}
+.timeline-season__body-nav-list .active span {
+    color: #5d5d5d;
+    cursor: default;
+}
+.timeline-season__body-nav-list .active::before {
+    color: #8d8d8d;
+}
+@media (hover: hover) {
+    .title-race-area__text a:hover {
+        color: gold;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+}
+@media screen and (max-width: 992px) {
+    .timeline-season__body-nav-list {
+        gap: 7px;
+    }
+}
+@media screen and (max-width: 550px) {
+    .timeline-video {
+        padding: 2em 1.06em 1.75em 1.06em;
+    }
+}
