@@ -104,22 +104,17 @@ body {
     color: #81aad5;
     font-style: normal;
   }
-  
-  .timeline__body a:hover[href*="http"]::before, .timeline__body a:hover[href*="galleri"]::before {
-    color: #81aad5 !important;
-  }
-
   .timeline__body a[href*="http"]:hover::before {
     color: #81aad5;
   }
-  .timeline__body a[href*="galleri"]::before {
+    .timeline__body a.all-photo::before {
     content: "\e90c";
     font-family: 'icomoon';
     font-size: 0.95em;
     padding-right: 5px;
     color: #81aad5;
   }
-  .timeline__body a[href*="galleri"]:hover::before, .timeline__body a[href*="http"]:hover::before {
+  .timeline__body a.all-photo:hover::before, .timeline__body a[href*="http"]:hover::before {
     color: #81aad5;
     border-bottom: 1px solid #fff;
     padding-bottom: 2.4px;
