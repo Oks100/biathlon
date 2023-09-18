@@ -1118,6 +1118,173 @@ $(document).ready(function() {
 	});
   });
 
+  $(document).ready(function() {
+	$('.offseason-list:not(.offseason-list.active)').click(function() {
+	  $('html, body').animate({
+		scrollTop: $('.offseason').offset().top - 50
+	  }, {
+		duration: 0,
+		easing: 'swing',
+		behavior: 'smooth'
+	  });
+	});
+  });
+
+  $(document).ready(function() {
+	$('.cup-men-list:not(.cup-men-list.active)').click(function() {
+	  $('html, body').animate({
+		scrollTop: $('.cup-men').offset().top - 50
+	  }, {
+		duration: 0,
+		easing: 'swing',
+		behavior: 'smooth'
+	  });
+	});
+  });
+
+  $(document).ready(function() {
+	$('.world-cup-men-list:not(.world-cup-men-list.active)').click(function() {
+	  $('html, body').animate({
+		scrollTop: $('.world-cup-men').offset().top - 50
+	  }, {
+		duration: 0,
+		easing: 'swing',
+		behavior: 'smooth'
+	  });
+	});
+  });
+
+  $(document).ready(function() {
+	$('.ibu-cup-men-list:not(.ibu-cup-men-list.active)').click(function() {
+	  $('html, body').animate({
+		scrollTop: $('.ibu-cup-men').offset().top - 50
+	  }, {
+		duration: 0,
+		easing: 'swing',
+		behavior: 'smooth'
+	  });
+	});
+  });
+
+  $(document).ready(function() {
+	$('.u-ibu-cup-men-list:not(.u-ibu-cup-men-list.active)').click(function() {
+	  $('html, body').animate({
+		scrollTop: $('.u-ibu-cup-men').offset().top - 50
+	  }, {
+		duration: 0,
+		easing: 'swing',
+		behavior: 'smooth'
+	  });
+	});
+  });
+
+  $(document).ready(function() {
+	$('.u-ibu-europe-cup-men-list:not(.u-ibu-europe-cup-men-list.active)').click(function() {
+	  $('html, body').animate({
+		scrollTop: $('.u-ibu-europe-cup-men').offset().top - 50
+	  }, {
+		duration: 0,
+		easing: 'swing',
+		behavior: 'smooth'
+	  });
+	});
+  });
+
+  $(document).ready(function() {
+	$('.u-ibu-world-cup-men-list:not(.u-ibu-world-cup-men-list.active)').click(function() {
+	  $('html, body').animate({
+		scrollTop: $('.u-ibu-world-cup-men').offset().top - 50
+	  }, {
+		duration: 0,
+		easing: 'swing',
+		behavior: 'smooth'
+	  });
+	});
+  });
+
+  $(document).ready(function() {
+	$('.cup-women-list:not(.cup-women-list.active)').click(function() {
+	  $('html, body').animate({
+		scrollTop: $('.cup-women').offset().top - 50
+	  }, {
+		duration: 0,
+		easing: 'swing',
+		behavior: 'smooth'
+	  });
+	});
+  });
+
+  $(document).ready(function() {
+	$('.world-cup-women-list:not(.world-cup-women-list.active)').click(function() {
+	  $('html, body').animate({
+		scrollTop: $('.world-cup-women').offset().top - 50
+	  }, {
+		duration: 0,
+		easing: 'swing',
+		behavior: 'smooth'
+	  });
+	});
+  });
+
+  $(document).ready(function() {
+	$('.ibu-cup-women-list:not(.ibu-cup-women-list.active)').click(function() {
+	  $('html, body').animate({
+		scrollTop: $('.ibu-cup-women').offset().top - 50
+	  }, {
+		duration: 0,
+		easing: 'swing',
+		behavior: 'smooth'
+	  });
+	});
+  });
+
+  $(document).ready(function() {
+	$('.u-ibu-cup-women-list:not(.u-ibu-cup-women-list.active)').click(function() {
+	  $('html, body').animate({
+		scrollTop: $('.u-ibu-cup-women').offset().top - 50
+	  }, {
+		duration: 0,
+		easing: 'swing',
+		behavior: 'smooth'
+	  });
+	});
+  });
+
+  $(document).ready(function() {
+	$('.u-ibu-europe-cup-women-list:not(.u-ibu-europe-cup-women-list.active)').click(function() {
+	  $('html, body').animate({
+		scrollTop: $('.u-ibu-europe-cup-women').offset().top - 50
+	  }, {
+		duration: 0,
+		easing: 'swing',
+		behavior: 'smooth'
+	  });
+	});
+  });
+
+  $(document).ready(function() {
+	$('.u-ibu-world-cup-women-list:not(.u-ibu-world-cup-women-list.active)').click(function() {
+	  $('html, body').animate({
+		scrollTop: $('.u-ibu-world-cup-women').offset().top - 50
+	  }, {
+		duration: 0,
+		easing: 'swing',
+		behavior: 'smooth'
+	  });
+	});
+  });
+
+  $(document).ready(function() {
+	$('.summary-list:not(.summary-list.active)').click(function() {
+	  $('html, body').animate({
+		scrollTop: $('.summary').offset().top - 50
+	  }, {
+		duration: 0,
+		easing: 'swing',
+		behavior: 'smooth'
+	  });
+	});
+  });
 
 $(document).ready(function(){
     $('.mix-table, .other-table').click(function () {
@@ -1245,6 +1412,7 @@ for(let i of textareas2) {
 //     }
 //   }
 
+/* Сортировка */
 function updateTimelineCalendarClass(selectElement) {
     var timelineCalendar = document.querySelector('.timeline');
     if (selectElement.value === 'by-date') {
@@ -1253,3 +1421,14 @@ function updateTimelineCalendarClass(selectElement) {
       timelineCalendar.classList.remove('by-date');
     }
   }
+/* Сортировка */
+
+
+
+
+$(document).ready(function(){
+	$('#sport-vote').click(function () {
+		$('.sportsmen-votes__table').addClass('offdf');
+		});
+	});
+  
