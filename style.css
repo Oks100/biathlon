@@ -8138,9 +8138,12 @@ html[data-theme="dark"] .timeline__item-comments-write-enter-button:hover, html[
 html[data-theme='dark'] .timeline-sponsors .swiper-button-next, html[data-theme='dark'] .timeline-sponsors .swiper-button-prev {
   color: #7bade3 !important;
 }
-html[data-theme="dark"] .timer__more-information:not(.timer__more-information.last) a:hover, html[data-theme="dark"] .timeline__speedbar a:hover, html[data-theme="dark"] .forgot-login-password a:hover, html[data-theme="dark"] main a:hover:not(.red-color, .timeline__item-last-photos-head a, .last--comments-news-head a, .vertical-menu-block__link), html[data-theme="dark"] .comment-block__rumor:hover, html[data-theme="dark"] .timeline__body a:hover {
+html[data-theme="dark"] .timer__more-information.last a:hover, html[data-theme="dark"] .timer__more-information:not(.timer__more-information.last) a:hover, html[data-theme="dark"] .timeline__speedbar a:hover, html[data-theme="dark"] .forgot-login-password a:hover, html[data-theme="dark"] main a:hover:not(.red-color, .timeline__item-last-photos-head a, .last--comments-news-head a, .vertical-menu-block__link), html[data-theme="dark"] .comment-block__rumor:hover, html[data-theme="dark"] .timeline__body a:hover {
   color: #8ab4f8;
   border-color: #8ab4f8;
+}
+html[data-theme="dark"] .timeline a:hover {
+  color: #8ab4f8 !important;
 }
 html[data-theme="dark"] .quote-user:hover, html[data-theme="dark"] .timeline__item-comments-to-write-comments:hover, html[data-theme="dark"] .timeline__head a:hover, html[data-theme="dark"] .timeline__speedbar a:hover {
   color: #8ab4f8;
