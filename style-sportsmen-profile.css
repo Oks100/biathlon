@@ -71,7 +71,7 @@
     margin-bottom: 2em;
     position: relative;
     gap: 20px;
-    align-items: center;
+    flex-wrap: wrap;
 }
 .timeline-vote__head > span:nth-child(1) {
     font-size: 1.3em;
@@ -166,8 +166,11 @@
 .timeline-sportsmen-profile__body-add-info {
     position: relative;
     -webkit-tap-highlight-color: transparent;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-left: auto;
 }
-
 .timeline-sportsmen-profile__body-table-button {
     display: flex;
     width: 33px;
