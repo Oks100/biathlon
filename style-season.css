@@ -120,9 +120,6 @@
     margin-left: 7px;
     padding: 5px 0 5px 5px;
 }
-.timeline-calendar__select-season:focus {
-    outline-color: #bfc6ca;
-}
 .title-race {
     font-weight: 600;
     font-size: 1.1em;
@@ -318,6 +315,9 @@
     color: #8d8d8d;
 }
 @media (hover: hover) {
+    .timeline-calendar__select-season:hover {
+        outline-color: #bfc6ca;
+    }
     .title-race-area__text a:hover {
         color: gold;
     }

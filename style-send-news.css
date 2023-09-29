@@ -124,9 +124,6 @@
     justify-content: center;
     align-items: center;
 }
-.login-registr-form:focus {
-    border-color: #bfc6ca;
-}
 .login-registr-form:focus ~ .code-form-icon {
     border-radius: 33px 0 0 33px;
 }
@@ -146,6 +143,9 @@
 }
 
 @media (hover: hover) {
+    .login-registr-form:hover {
+        border-color: #bfc6ca;
+    }
     .send-button:hover {
         background-color: #d1ebfb;
     }

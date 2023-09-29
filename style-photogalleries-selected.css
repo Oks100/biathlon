@@ -167,9 +167,6 @@
     margin-left: 7px;
     border-radius: 3px;
 }
-.timeline-news__select-season:focus {
-    outline-color: #bfc6ca;
-}
 .img-container:focus .timeline-photogalleries__body-title {
     color: gold;
 }
@@ -178,6 +175,9 @@
 }
 
 @media (hover: hover) {
+    .timeline-news__select-season:hover {
+        outline-color: #bfc6ca;
+    }
     .img-container:hover img {
         scale: 1.055;
     }

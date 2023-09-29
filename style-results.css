@@ -199,15 +199,15 @@
     transition: all .3s ease;
     cursor: pointer;
 }
-.timeline-results__select-season:focus {
-    outline-color: #bfc6ca;
-}
 .timeline-results__select-season {
     margin-left: 7px;
     padding: 5px 0 5px 5px;
 }
 
 @media (hover: hover) {
+    .timeline-results__select-season:hover {
+        outline-color: #bfc6ca;
+    }
     .result-button:hover {
         background-color: #c0e5fb;
     }

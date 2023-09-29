@@ -121,9 +121,6 @@
     transition: all .3s ease;
     cursor: pointer;
 }
-.timeline-calendar__select-season:focus {
-    outline-color: #bfc6ca;
-}
 
 .olympic-games-icon {
     width: 24px;
@@ -267,6 +264,9 @@
 
 
 @media (hover: hover) {
+    .timeline-calendar__select-season:hover {
+        outline-color: #bfc6ca;
+    }
     .timeline-video__container-item:not(.not-released) .timeline-video__container-item-image a:hover::before {
         opacity: 0;
     }

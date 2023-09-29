@@ -113,7 +113,7 @@
 }
 .timeline-cup-result-table tbody tr:not(:first-child) td:nth-child(1) {
     font-weight: 600;
-    font-size: 0.85em;
+    font-size: 0.95em;
     text-align: center;
 }
 .timeline-cup-result-table tbody tr:nth-child(2n) {
@@ -207,9 +207,6 @@
     border-radius: 3px;
     transition: all .3s ease;
     cursor: pointer;
-}
-.timeline-cup__flag select:focus {
-    outline-color: #bfc6ca;
 }
 .timeline-cup__select-flag {
     margin-left: 10px;
@@ -681,6 +678,9 @@
 }
 
 @media (hover: hover) {
+    .timeline-cup__flag select:hover {
+        outline-color: #bfc6ca;
+    }
     .toggle-style-table:hover .toggle-style-table__icon {
         box-shadow: 0 0 0 2px rgba(192, 229, 251,.35);
     }

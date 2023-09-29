@@ -94,9 +94,6 @@
     transition: all .3s ease;
     cursor: pointer;
 }
-.timeline-calendar__select-season:focus {
-    outline-color: #bfc6ca;
-}
 .timeline-calendar__stages {
     font-size: 1.2em;
     font-weight: 700;
@@ -157,6 +154,9 @@
     color: #1f7ec4;
 }
 @media (hover: hover) {
+    .timeline-calendar__select-season:hover {
+        outline-color: #bfc6ca;
+    }
     .timeline-team__body-table tbody tr:hover td {
         background-color: #fffce5;
     }

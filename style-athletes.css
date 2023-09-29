@@ -93,9 +93,6 @@
     cursor: pointer;
     padding: 5px 0 5px 5px;
 }
-.timeline-athletes__select-body select:focus {
-    outline-color: #bfc6ca;
-}
 
 .search-name-label {
     display: flex;
@@ -321,6 +318,9 @@ input[type="checkbox"] {
 }
 
 @media (hover: hover) {
+    .timeline-athletes__select-body select:hover {
+        outline-color: #bfc6ca;
+    }
     .popular-profile-table tbody tr:not(.active):hover td {
         background-color: #fffce5;
     }

@@ -243,9 +243,6 @@ html[data-theme="grey"] #tippy-16 ul li a:hover {
     transition: all .3s ease;
     cursor: pointer;
 }
-.timeline-cup__select-body select:focus {
-    outline-color: #bfc6ca;
-}
 
 .timeline-cup-tables {
     display: flex;
@@ -256,27 +253,19 @@ html[data-theme="grey"] #tippy-16 ul li a:hover {
     overflow-x: auto;
 }
 .timeline-cup-table {
-    /* background-color: #e7f3fa; */
-    /* font-size: 0.95em; */
     border-collapse: collapse;
     margin-top: 10px;
 }
-.timeline-cup-table tr {
-    /* height: 25.35px; */
-    /* display: flex; */
-}
 .timeline-cup-table tbody tr:nth-child(2n) {
-    /* background-color: #d6ecf9; */
     background-color: #e7f3fa;
 }
 .timeline-cup-table tbody tr td:nth-child(2) {
-    min-width: 25px;
+    min-width: 27px;
     text-align: center;
 }
 .timeline-cup-table tbody tr:not(:first-child) td:nth-child(2) {
     font-weight: 600;
-    font-size: 0.85em;
-    padding-bottom: 4px;
+    font-size: 0.95em;
     text-align: center;
 }
 
@@ -316,7 +305,7 @@ html[data-theme="grey"] #tippy-16 ul li a:hover {
 }
 .table-compare-exemple-3 tr:not(:first-child), .table-compare-exemple-4 tr:not(:first-child) {
     display: flex;
-    width: 330.9px;
+    width: 332.9px;
 }
 .timeline-cup-table tbody tr td:nth-child(3) {
     width: 22.8px;
@@ -450,7 +439,7 @@ html[data-theme="grey"] #tippy-16 ul li a:hover {
     font-weight: 600;
     color: #464646;
     /* border: 1px solid #dfedf4; */
-    border: 1px solid #ddeffa;
+    border: 2px solid #ddeffa;
     font-family: tahoma;
 }
 
@@ -831,6 +820,9 @@ html[data-theme="grey"] #tippy-16 ul li a:hover {
 }
 
 @media (hover: hover) {
+    .timeline-cup__select-body select:hover {
+        outline-color: #bfc6ca;
+    }
     .timeline-cup__table-comments-tables-recommend-list a:hover::before {
         background-color: #81aad5;
     }

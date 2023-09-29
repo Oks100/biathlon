@@ -120,9 +120,6 @@
     cursor: pointer;
     border-radius: 3px;
 }
-.timeline-news__select-month:focus, .timeline-news__select-season:focus {
-    outline-color: #bfc6ca;
-}
 .timeline-news__select-season {
     width: 60px;
 }
@@ -163,6 +160,9 @@
     scale: 1;
 }
 @media (hover: hover) {
+    .timeline-news__select-month:hover, .timeline-news__select-season:hover {
+        outline-color: #bfc6ca;
+    }
     .timeline-news__filters-button:hover {
         background-color: #d1ebfb;
     }

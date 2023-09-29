@@ -255,9 +255,6 @@ html[data-theme="grey"] #tippy-16 ul li a:hover {
     transition: all .3s ease;
     cursor: pointer;
 }
-.timeline-cup__select-body select:focus {
-    outline-color: #bfc6ca;
-}
 
 .timeline-cup-tables {
     display: flex;
@@ -282,13 +279,12 @@ html[data-theme="grey"] #tippy-16 ul li a:hover {
     background-color: #e7f3fa;
 }
 .timeline-cup-table tbody tr td:nth-child(2) {
-    min-width: 25px;
+    min-width: 27px;
     text-align: center;
 }
 .timeline-cup-table tbody tr:not(:first-child) td:nth-child(2) {
     font-weight: 600;
-    font-size: 0.85em;
-    padding-bottom: 4px;
+    font-size: 0.95em;
     text-align: center;
 }
 
@@ -490,7 +486,7 @@ html[data-theme="grey"] #tippy-16 ul li a:hover {
     font-weight: 600;
     color: #464646;
     /* border: 1px solid #dfedf4; */
-    border: 1px solid #ddeffa;
+    border: 2px solid #ddeffa;
     font-family: tahoma;
 }
 
@@ -865,6 +861,9 @@ html[data-theme="grey"] #tippy-16 ul li a:hover {
 
 
 @media (hover: hover) {
+    .timeline-cup__select-body select:hover {
+        outline-color: #bfc6ca;
+    }
     .timeline-cup__table-comments-tables-recommend-list a:hover::before {
         background-color: #81aad5;
     }

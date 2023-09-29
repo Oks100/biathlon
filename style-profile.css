@@ -285,6 +285,8 @@
     transform: translate(-50%, -50%);
 }
 
+
+
 @media (hover: hover) {
     .timeline-my-profile__predictor-tournament tbody tr:hover {
         background-color: #fffce5;

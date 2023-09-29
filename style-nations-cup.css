@@ -307,9 +307,6 @@ html[data-theme="grey"] #tippy-16 ul li a:hover {
     transition: all .3s ease;
     cursor: pointer;
 }
-.timeline-cup__select-body select:focus {
-    outline-color: #bfc6ca;
-}
 
 .timeline-cup-tables {
     display: flex;
@@ -327,13 +324,12 @@ html[data-theme="grey"] #tippy-16 ul li a:hover {
     background-color: #e7f3fa;
 }
 .timeline-cup-table tbody tr td:nth-child(2) {
-    min-width: 25px;
+    min-width: 27px;
     text-align: center;
 }
 .timeline-cup-table tbody tr:not(:first-child) td:nth-child(2) {
     font-weight: 600;
-    font-size: 0.85em;
-    padding-bottom: 4px;
+    font-size: 0.95em;
     text-align: center;
 }
 
@@ -368,15 +364,9 @@ html[data-theme="grey"] #tippy-16 ul li a:hover {
     white-space: nowrap;
 }
 .timeline-cup-table tbody tr td:last-child {
-    /* width: 40.4667px; */
-    /* min-width: 41.5px; */
     min-width: 62px;
     padding: 0;
 }
-/* .table-compare-exemple-3 tr:not(:first-child), .table-compare-exemple-4 tr:not(:first-child) {
-    display: flex;
-    width: 330.9px;
-} */
 .timeline-cup-table tbody tr td:nth-child(3) {
     width: 22.8px;
 }
@@ -386,27 +376,11 @@ html[data-theme="grey"] #tippy-16 ul li a:hover {
 }
 .timeline-cup-table-title tr:first-child td {
     text-align: center;
-    /* height: 50px; */
     font-weight: 600;
-    /* font-size: 1.1em; */
     text-transform: uppercase;
     color: #1f7ec4;
     font-family: tahoma, Arial, Helvetica, sans-serif;
 }
-
-/* .timeline-cup-table tbody {
-    margin-top: 20px;
-    display: block;
-} */
-
-/* .timeline-cup-table-title tr:first-child td::after {
-    content: "\e91e";
-    font-family: 'icomoon';
-    color: #81aad5;
-    font-size: 1em;
-    padding-left: 5px;
-    font-weight: normal;
-} */
 
 .timeline-cup__flag span {
     display: flex;
@@ -425,9 +399,6 @@ html[data-theme="grey"] #tippy-16 ul li a:hover {
     content: '=';
 }
 
-/* .timeline-cup.norway .norway-string {
-    background-color: #ffcae5;
-} */
 .chosen-string.active {
     background-color: #ffcae5 !important;
 }
@@ -841,7 +812,7 @@ html[data-theme="grey"] #tippy-16 ul li a:hover {
 }
 .timeline-cup__any-tables-races tr td:first-of-type {
     font-weight: 600;
-    font-size: .9em;
+    font-size: .95em;
 }
 .timeline-cup__any-tables-races tbody tr:nth-child(2n+1) {
     background-color: #e7f3fa;
@@ -943,7 +914,7 @@ html[data-theme="grey"] #tippy-16 ul li a:hover {
     padding: 0 7px;
 }
 .timeline-cup__any-tables-races-scores tr:not(:first-child) th span, .strong.col span {
-    font-size: 0.9em;
+    font-size: 0.95em;
 }
 .timeline-cup__any-tables-races-scores a, .timeline-cup__any-tables-races-scores img, .timeline-cup__any-tables-races-scores .col {
     position: relative;
@@ -1129,7 +1100,7 @@ html[data-theme="grey"] #tippy-16 ul li a:hover {
 }
 .timeline-cup__any-tables-all-result-table tbody tr:not(.table-nations, .table-column-description) td:first-child {
     font-weight: 600;
-    font-size: .9em;
+    font-size: .95em;
     min-width: 24px;
 }
 .timeline-cup__any-tables-all-result-table tbody tr td:nth-child(4), .timeline-cup__any-tables-all-result-table tbody tr td:nth-child(5), .timeline-cup__any-tables-all-result-table tbody tr td:nth-child(6) {
@@ -1308,6 +1279,9 @@ html[data-theme="grey"] #tippy-16 ul li a:hover {
     opacity: 1;
 }
 @media (hover: hover) {
+    .timeline-cup__select-body select:hover {
+        outline-color: #bfc6ca;
+    }
     .timeline-cup__any-tables-go-to-male-table:hover::before {
         transform: translate(-50%, calc(-50% + 28px));
         opacity: 0;

@@ -1753,14 +1753,6 @@ html[data-theme='dark'] .guest-user.tab-password .timeline__item-comments-write-
     width: 100%;
     margin: 10px 0;
   }
-/* .timeline__item-comments-write-textarea-content input[type="text"]:focus {
-    border-color: #b0dbf1;
-}
-  
-.timeline__item-comments-write-textarea-content input[type="submit"] {
-    padding: 4px;
-    margin: 4px auto 0 auto;
-} */
 
 .timeline__item-comments-write-textarea-content .toolbar-button {
     height: 25px;
@@ -1835,12 +1827,10 @@ html[data-theme='dark'] .guest-user.tab-password .timeline__item-comments-write-
 }
 
 .text-field:focus {
-    /* background: #fafdff; */
     border-color: #b0dbf1;
     box-shadow: rgb(176, 219, 241, 0.5) 0px 0px 3px 2px;
 }
 .text-field:focus ~ .toolbar-list {
-    /* border-top-color: #e5e9ea; */
     border-left-color: #b0dbf1;
     border-right-color: #b0dbf1;
     border-bottom-color: #b0dbf1;
