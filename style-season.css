@@ -314,6 +314,9 @@
 .timeline-season__body-nav-list .active::before {
     color: #8d8d8d;
 }
+.standings-list {
+    margin-bottom: 2em;
+}
 @media (hover: hover) {
     .timeline-calendar__select-season:hover {
         outline-color: #bfc6ca;
