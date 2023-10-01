@@ -1,0 +1,191 @@
+#tippy-16 {
+    width: auto;
+}
+#tippy-16 .tippy-content {
+    overflow: hidden;
+}
+#tippy-16 ul li a {
+    color: black !important;
+    font-size: 13.5px !important;
+    text-transform: none !important;
+    padding: 0px 10px 0px 10px !important;
+    transition: 0s !important;
+    text-shadow: none !important;
+    width: 100%;
+    display: flex;
+}
+#tippy-16 ul li:last-of-type a {
+    border-bottom: none !important;
+}
+  
+#tippy-16 ul li::before, #tippy-16 ul li::after {
+    display: none !important;
+}
+  
+#tippy-16 ul li a:hover {
+    background-color: #ecf5fb;
+}
+#tippy-16 ul li {
+    white-space: nowrap;
+    line-height: 33px;
+}
+#tippy-16 ul li:last-of-type {
+    white-space: nowrap;
+    line-height: 33px;
+}
+#tippy-16 ul li:last-of-type a, #tippy-16 ul li:last-of-type a::before {
+    color: red !important;
+   }
+#tippy-16 ul li:first-of-type a::before {
+    content: "\e016";
+    font-family: 'icomoon';
+    margin-right: 7px;
+    font-size: 13px;
+    color: #81aad5;
+}
+#tippy-16 ul li:nth-child(2) a::before {
+    content: "\e015";
+    font-family: 'icomoon';
+    margin-right: 7px;
+    font-size: 13px;
+    color: #81aad5;
+}
+#tippy-16 ul li:last-of-type a::before {
+    content: "\e9b";
+    font-family: 'icomoon';
+    margin-right: 7px;
+    font-size: 13px;
+    color: #81aad5;
+}
+
+.timeline-athletes {
+    padding: 2em 1.5em 1.75em 1.5em;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0px 5px 24px rgba(32,60,87,0.11);
+    overflow-x: hidden;
+}
+.timeline-athletes__head {
+    display: flex;
+    justify-content: space-between;
+    /* margin-bottom: 1.5em; */
+    margin-bottom: 2em;
+    position: relative;
+    gap: 20px;
+    align-items: center;
+}
+.timeline-athletes__head > span:nth-child(1) {
+    font-size: 1.3em;
+    color: black;
+    font-weight: 700;
+}
+.timeline-athletes__select-body {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.timeline-athletes__select-body select {
+    outline: 1px solid #d0d9dd;
+    border-radius: 3px;
+    transition: all .3s ease;
+    cursor: pointer;
+    padding: 5px 0 5px 5px;
+}
+
+.search-name-label {
+    display: flex;
+    position: relative;
+}
+.input-text-2 {
+    padding: 0 10px 0 43px;
+    height: 33px;
+    transition: all .3s ease;
+    width: 100%;
+}
+.input-text-2 {
+    border-radius: 33px;
+    max-width: 250px;
+}
+.input-text-2 {
+    border: 1px solid #d0d9dd;
+}
+.icon {
+    position: absolute;
+    width: 33px;
+    height: 33px;
+    bottom: 0;
+    left: 0;
+    background-color: #bfc6ca;
+    border-radius: 33px;
+    transition: all .4s ease-in-out;
+}
+.search-icon {
+    fill: #fff;
+    width: 17px;
+    height: 17px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+input:focus::placeholder, .input-text-2:focus::placeholder {
+    color: transparent;
+}
+.input-text-2:focus {
+    border-color: #bfc6ca;
+}
+.input-text-2:focus ~ .icon {
+    border-radius: 33px 0 0 33px;
+}
+
+.popular-profile-table-wrapper {
+    margin-top: 2em;
+    overflow-x: auto;
+}
+.popular-profile-table {
+    border-collapse: collapse;
+    width: 100%;
+    white-space: nowrap;
+}
+.popular-profile-table thead tr td {
+    color: #5d5d5d;
+}
+.popular-profile-table tr td:nth-last-child(1) {
+    text-align: center;
+}
+.popular-profile-table tbody tr:nth-child(2n+1) {
+    background-color: #e7f3fa;
+}
+.popular-profile-table tr td:not(:nth-child(1), :nth-child(2)) {
+    padding: 2.4px 7px;
+}
+.popular-profile-table tr td:nth-child(1) {
+    padding: 2.4px 2.4px 2.4px 7px;
+    width: 22.8px;
+}
+.popular-profile-table tr td:nth-child(2) {
+    padding: 2.4px 7px 2.4px 2.4px;
+}
+
+.chosen-string.active {
+    box-shadow: 0 0 0 1px white;
+    background-color: #ffcae5 !important;
+}
+
+@media (hover: hover) {
+    .timeline-athletes__select-body select:hover {
+        outline-color: #bfc6ca;
+    }
+    .popular-profile-table tbody tr:not(.active):hover td {
+        background-color: #fffce5;
+    }
+}
+@media screen and (max-width: 500px) {
+}
+@media screen and (max-width: 550px) {
+    .timeline-athletes {
+        padding: 2em 1.06em 1.75em 1.06em;
+    }
+}

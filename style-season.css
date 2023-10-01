@@ -229,6 +229,7 @@
     background-color: #f4fbff;
     overflow: hidden;
     margin: 2em 0;
+    -webkit-tap-highlight-color: transparent;
 }
 .timeline-season__body-nav-title {
     display: flex;
@@ -317,6 +318,27 @@
 .standings-list {
     margin-bottom: 2em;
 }
+.standings-list li {
+    display: flex;
+    align-items: center;
+}
+/* .standings-list li::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+} */
+.standings-list li span {
+    margin-left: 5px;
+}
+.arrow-right-icon {
+    width: 17px;
+    height: 17px;
+    fill: #81aad5;
+}
+
+
 @media (hover: hover) {
     .timeline-calendar__select-season:hover {
         outline-color: #bfc6ca;
