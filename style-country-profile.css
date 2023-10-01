@@ -1700,6 +1700,8 @@
     border-bottom: 2px solid #dfedf4;
     border-top: 2px solid #dfedf4;
     z-index: 1;
+    -webkit-tap-highlight-color: transparent;
+
 }
 .wc-plus-icon {
     width: 15px;
@@ -1766,15 +1768,20 @@
     justify-content: center;
     margin-top: 1.5em;
 }
-.top-10__button {
+/* .top-10__button {
     position: relative;
-    padding: 6.9px 20px;
     border-radius: 33px;
     background-color: #d1ebfb;
     color: #002b71;
-    border: 2px solid #c0e5fb;
     overflow: hidden;
     -webkit-tap-highlight-color: transparent;
+}
+.top-10__button a {
+    display: flex;
+    padding: 6.9px 20px;
+    position: relative;
+    z-index: 1;
+    border: 2px solid #c0e5fb;
 }
 .top-10__button span {
     position: relative;
@@ -1795,7 +1802,42 @@
 .top-10__button:hover::before {
     width: 0%;
     left: 50%;
+} */
+
+.top-10__button {
+    display: flex;
+    padding: 4.4px 20px;
+    position: relative;
+    z-index: 1;
+    border: 2px solid #c0e5fb;
+    position: relative;
+    border-radius: 33px;
+    background-color: #d1ebfb;
+    color: #002b71;
+    overflow: hidden;
+    -webkit-tap-highlight-color: transparent;
 }
+.top-10__button span {
+    position: relative;
+    z-index: 2;
+}
+.top-10__button::before {
+    content: '';
+    position: absolute;
+    background-color: white;
+    top: 0;
+    left: -10%;
+    width: 120%;
+    height: 100%;
+    z-index: 1;
+    transition: all 0.5s ease-in-out;
+    border-radius: 33px;
+}
+.top-10__button:hover::before {
+    width: 0%;
+    left: 50%;
+}
+
 .timeline-cup__footer-legend-title-3 {
     font-weight: 1.1em;
     text-align: center;
