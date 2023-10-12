@@ -63,7 +63,7 @@
 }
 
 .timeline-vote {
-    padding: 2em 1.5em 1.75em 1.5em;
+    padding: 2em 1.5em 2em 1.5em;
     background-color: #fff;
     border-radius: 8px;
     box-shadow: 0px 5px 24px rgba(32,60,87,0.11);
@@ -1110,7 +1110,7 @@
 }
 .chosen-string.active {
     box-shadow: 0 0 0 1px white;
-    background-color: #ffcae5 !important;
+    background-color: #ffcfe8 !important;
 }
 
 .sportsmen-profile__table tr:nth-child(2n+1) {
@@ -1697,7 +1697,6 @@
     font-weight: 600;
     font-size: 1.05em;
     transition: all .3s ease;
-    border-bottom: 2px solid #dfedf4;
     border-top: 2px solid #dfedf4;
     z-index: 1;
     -webkit-tap-highlight-color: transparent;
@@ -1768,54 +1767,20 @@
     justify-content: center;
     margin-top: 1.5em;
 }
-/* .top-10__button {
-    position: relative;
-    border-radius: 33px;
-    background-color: #d1ebfb;
-    color: #002b71;
-    overflow: hidden;
-    -webkit-tap-highlight-color: transparent;
-}
-.top-10__button a {
-    display: flex;
-    padding: 6.9px 20px;
-    position: relative;
-    z-index: 1;
-    border: 2px solid #c0e5fb;
-}
-.top-10__button span {
-    position: relative;
-    z-index: 1;
-}
-.top-10__button::before {
-    content: '';
-    position: absolute;
-    background-color: white;
-    top: 0;
-    left: -10%;
-    width: 120%;
-    height: 100%;
-    z-index: 1;
-    transition: all 0.5s ease-in-out;
-    border-radius: 33px;
-}
-.top-10__button:hover::before {
-    width: 0%;
-    left: 50%;
-} */
 
 .top-10__button {
     display: flex;
     padding: 4.4px 20px;
     position: relative;
     z-index: 1;
-    border: 2px solid #c0e5fb;
+    border: 2px solid #d1ebfb;
     position: relative;
     border-radius: 33px;
     background-color: #d1ebfb;
     color: #002b71;
     overflow: hidden;
     -webkit-tap-highlight-color: transparent;
+    transition: all 0.5s ease-in-out;
 }
 .top-10__button span {
     position: relative;
@@ -1832,10 +1797,6 @@
     z-index: 1;
     transition: all 0.5s ease-in-out;
     border-radius: 33px;
-}
-.top-10__button:hover::before {
-    width: 0%;
-    left: 50%;
 }
 
 .timeline-cup__footer-legend-title-3 {
@@ -1882,7 +1843,56 @@
     }
 }
 
+.sportsmen-profile__table.achiv .td-column span:first-child {
+    border-bottom: 1px solid #d0d9dd;
+    padding-bottom: 5px;
+}
+.sportsmen-profile__table.achiv .td-column span:last-child {
+    padding-top: 5px;
+}
+.gold.relay.alt::before, .gold.relay.alt::after, .bronze.relay.alt::before, .bronze.relay.alt::after {
+    content: none;
+}
+.gold.relay.alt, .bronze.alt {
+    background: none;
+    box-shadow: none;
+}
+.gold.relay.alt b {
+    display: flex;
+    width: 23px;
+    height: 23px;
+    /* background: radial-gradient(circle, rgb(255, 250, 221) 0%, rgb(246, 234, 167) 100%); */
+    background: rgb(246, 234, 167);
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid rgb(240, 210, 42);
+    font-size: 0.95em;
+}
+.bronze.alt b {
+    display: flex;
+    width: 23px;
+    height: 23px;
+    /* background: radial-gradient(circle, rgb(255, 239, 218) 0%, rgb(227, 212, 192) 100%); */
+    background: rgb(227, 212, 192);
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.95em;
+}
+.bronze.alt-2 b {
+    width: 33px;
+    height: 33px;
+}
+
+
+
+
 @media (hover: hover) {
+    .top-10__button:hover::before {
+        width: 0%;
+        left: 50%;
+    }
     .timeline-sportsmen-profile__body-chart select:hover, .timeline-cup__footer-legend-title select:hover {
         outline-color: #bfc6ca;
     }
@@ -1929,9 +1939,6 @@
     .timeline-sportsmen-profile-card-menu-list .menu-tab-2:hover, .timeline-sportsmen-profile-card-menu-list .menu-tab-3:hover {
         color: #1f7ec4;
     }
-    /* .timeline-sportsmen-profile-card-button:hover a, .timeline-sportsmen-profile-card-button-2:hover a, .timeline-sportsmen-profile-card-button-3:hover a {
-        background-color: #fff;
-    } */
     .timeline-sportsmen-profile-card-button:hover::before {
         transform: translateX(100%);
         width: 100%;
@@ -2000,7 +2007,7 @@
 
 @media screen and (max-width: 550px) {
     .timeline-vote {
-        padding: 2em 1.06em 1.75em 1.06em;
+        padding: 2em 1.06em 2em 1.06em;
     }
     .timeline-sportsmen-profile__body-info-table tr td {
         display: flex;

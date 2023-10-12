@@ -62,7 +62,7 @@
 
 
 .timeline-cup {
-    padding: 2em 1.5em 1.75em 1.5em;
+    padding: 2em 1.5em 2em 1.5em;
     background-color: #fff;
     border-radius: 8px;
     box-shadow: 0px 5px 24px rgba(32,60,87,0.11);
@@ -207,9 +207,14 @@
     border-left: 2px solid #adb4b7;
     border-right: 2px solid #adb4b7;
 }
-.timeline-cup-statistics-table tbody tr td span {
+.timeline-cup-statistics-table tbody tr td:not(:nth-child(2)) span {
     display: flex;
     justify-content: center;
+    position: relative;
+    z-index: 1;
+}
+.timeline-cup-statistics-table tbody tr td span {
+    display: block;
     position: relative;
     z-index: 1;
 }
@@ -470,10 +475,10 @@
 
 @media screen and (max-width: 550px) {
     .timeline-cup {
-        padding: 2em 1.06em 1.75em 1.06em;
+        padding: 2em 1.06em 2em 1.06em;
     }
       .timeline-cup, .timeline__more-tables {
-        padding: 2em 1.06em 1.75em 1.06em;
+        padding: 2em 1.06em 2em 1.06em;
     }
     .timeline__more-tables-body ul {
         height: auto;

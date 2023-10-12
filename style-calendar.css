@@ -59,7 +59,7 @@
 }
 
 .timeline-calendar {
-    padding: 2em 1.5em 1.75em 1.5em;
+    padding: 2em 1.5em 2em 1.5em;
     background-color: #fff;
     border-radius: 8px;
     box-shadow: 0px 5px 24px rgba(32,60,87,0.11);
@@ -249,7 +249,7 @@ a.targets-block.done {
 
 @media screen and (max-width: 550px) {
     .timeline-calendar {
-        padding: 2em 1.06em 1.75em 1.06em;
+        padding: 2em 1.06em 2em 1.06em;
     }
     .timeline-calendar__table tbody tr td:nth-child(2), .timeline-calendar__table tbody tr td:nth-child(3) {
         width: auto;

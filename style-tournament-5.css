@@ -1,0 +1,271 @@
+#tippy-16 {
+    width: auto;
+}
+#tippy-16 .tippy-content {
+    overflow: hidden;
+}
+#tippy-16 ul li a {
+    color: black !important;
+    font-size: 13.5px !important;
+    text-transform: none !important;
+    padding: 0px 10px 0px 10px !important;
+    transition: 0s !important;
+    text-shadow: none !important;
+    width: 100%;
+    display: flex;
+}
+#tippy-16 ul li:last-of-type a {
+    border-bottom: none !important;
+}
+  
+#tippy-16 ul li::before, #tippy-16 ul li::after {
+    display: none !important;
+}
+  
+#tippy-16 ul li a:hover {
+    background-color: #ecf5fb;
+}
+#tippy-16 ul li {
+    white-space: nowrap;
+    line-height: 33px;
+}
+#tippy-16 ul li:last-of-type {
+    white-space: nowrap;
+    line-height: 33px;
+}
+#tippy-16 ul li:last-of-type a, #tippy-16 ul li:last-of-type a::before {
+    color: red !important;
+   }
+#tippy-16 ul li:first-of-type a::before {
+    content: "\e016";
+    font-family: 'icomoon';
+    margin-right: 7px;
+    font-size: 13px;
+    color: #81aad5;
+}
+#tippy-16 ul li:nth-child(2) a::before {
+    content: "\e015";
+    font-family: 'icomoon';
+    margin-right: 7px;
+    font-size: 13px;
+    color: #81aad5;
+}
+#tippy-16 ul li:last-of-type a::before {
+    content: "\e9b";
+    font-family: 'icomoon';
+    margin-right: 7px;
+    font-size: 13px;
+    color: #81aad5;
+}
+
+.timeline-tournament {
+    padding: 2em 1.5em 2em 1.5em;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0px 5px 24px rgba(32,60,87,0.11);
+    overflow-x: hidden;
+}
+.timeline-tournament__head {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2em;
+    position: relative;
+    gap: 15px 25px;
+    /* align-items: center; */
+}
+.timeline__date {
+    align-items: flex-start;
+    margin-top: 5px;
+}
+.timeline-tournament__head > span:nth-child(1) {
+    font-size: 1.3em;
+    color: black;
+    font-weight: 700;
+}
+.timeline-tournament__menu {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2em;
+}
+.tournament-menu__body {
+    display: inline-flex;
+    flex-wrap: wrap;
+    gap: 10px 7px;
+    justify-content: center;
+}
+.timeline-tournament__menu a {
+    display: inline-block;
+    width: fit-content;
+    padding: 7px 13px;
+    background-color: #e7f3fa;
+    white-space: nowrap;
+    border-radius: 33px;
+    transition: all .3s ease;
+    -webkit-tap-highlight-color: transparent;
+
+}
+.timeline-tournament__menu a.active {
+    background-color: #c0e5fb;
+}
+.timeline-cup__footer-legend-title {
+    font-size: 1.2em;
+    font-weight: 700;
+    display: flex;
+    background-color: #d1ebfb;
+    position: relative;
+    padding: 1.3px 10px 1.3px 51px;
+    margin-top: 2em;
+}
+.circle-element-for-cup {
+    position: absolute;
+    top: 3px;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 8px;
+    width: 35px;
+    height: 35px;
+    background-color: white;
+    border-radius: 50%;
+    border: 2px solid #d1ebfb;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.seasons-icon {
+    width: 22px;
+    height: 22px;
+    fill: #81aad5;
+    scale: 1;
+}
+.timeline__tournament-table-wrapper {
+    overflow-x: auto;
+}
+.timeline__tournament-table {
+    border-collapse: collapse;
+    width: 100%;
+}
+.timeline__tournament-table tr td:first-child, .timeline__tournament-table tr td:last-child {
+    text-align: center;
+}
+.timeline__tournament-table tr td {
+    padding: 4.8px 7px;
+}
+.timeline__tournament-table tr:first-child td {
+    color: #5d5d5d;
+}
+.timeline__tournament-table tr td:first-child {
+    width: 30.333px;
+}
+.timeline__tournament-table tr:nth-child(2n) {
+    background-color: #e7f3fa;
+}
+.td-row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 7px;
+}
+.td-avatar {
+    display: flex;
+    width: 42.5px;
+    height: 42.5px;
+    min-width: 42.5px;
+    min-height: 42.5px;
+    position: relative;
+    scale: 1;
+}
+.avatar-male, .avatar-female, .avatar-unknown {
+    width: 42.5px;
+    height: 42.5px;
+    fill: #679bcd;
+}
+.logged {
+    position: absolute;
+    height: 12px;
+    width: 12px;
+    border: 2px solid #e7f3fa;
+    border-radius: 50%;
+    background-color: #1bd212;
+    right: 1px;
+    top: 29px;
+    scale: 1;
+    z-index: 1;
+}
+.td-avatar {
+    display: flex;
+    width: 42.5px;
+    height: 42.5px;
+    min-width: 42.5px;
+    min-height: 42.5px;
+    position: relative;
+    scale: 1;
+}
+.td-avatar img {
+    width: 100%;
+}
+.timeline-tournament__title-2 {
+    display: flex;
+    justify-content: center;
+    margin-top: 0.5em;
+    font-size: 1.05em;
+    font-weight: 600;
+}
+.timeline-tournament__title-2.teams {
+    margin-top: 2em;
+}
+.timeline__tournament-table .my-string td {
+    background-color: #bfffbf;
+}
+.timeline__tournament-table .my-string td .logged {
+    border-color: #bfffbf;
+}
+.timeline__tournament-table tr:not(:first-child) td:first-child {
+    font-weight: 600;
+    font-size: 0.95em;
+}
+.timeline__tournament-table.single tr td:nth-child(2) {
+    min-width: 250px;
+    width: 250px;
+    overflow-wrap: anywhere;
+}
+.timeline__tournament-table-button-body {
+    display: flex;
+    justify-content: center;
+    margin-top: 1.5em;
+}
+.timeline__tournament-table-button {
+    display: flex;
+    text-align: center;
+    padding: 6px 15px;
+    background-color: #e7f3fa;
+    border-radius: 33px;
+    position: relative;
+    overflow: hidden;
+    transition: all .3s ease;
+}
+
+@media (hover: hover) {
+    .timeline__tournament-table-button:hover {
+        background-color: #d1ebfb;
+    }
+    .timeline__tournament-table tr:hover:not(:first-child, .my-string) td {
+        background-color: #fffce5;
+    }
+    .timeline__tournament-table tr:hover:not(:first-child, .my-string) td .logged {
+        border-color: #fffce5;
+    }
+    .timeline-tournament__menu a:hover:not(.active) {
+        background-color: #d1ebfb;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .timeline__tournament-table.single tr td:nth-child(3), .timeline__tournament-table.teams tr td:nth-child(2) {
+        white-space: nowrap;
+    }
+}
+@media screen and (max-width: 550px) {
+    .timeline-tournament {
+        padding: 2em 1.06em 2em 1.06em;
+    }
+}

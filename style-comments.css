@@ -49,8 +49,7 @@
     display: none;
 }
 .timeline__item-comments {
-    /* padding: 2em 1.5em; */
-    padding: 2em 1.5em 1.75em 1.5em;
+    padding: 2em 1.5em 2em 1.5em;
     background-color: white;
     border-radius: 8px;
     box-shadow: 0px 5px 24px rgba(32,60,87,0.11);
@@ -928,7 +927,7 @@
         padding: 1em 1.5em;
     }
     .timeline__item-comments {
-        padding: 2em 1.06em 1.75em 1.06em;
+        padding: 2em 1.06em 2em 1.06em;
       }
     .timeline__item-comments-head {
         margin-bottom: 2.0em;
@@ -1340,25 +1339,6 @@
 .timeline__item-comments-write.guest-user .timeline__item-comments-write-body-tab-registr:hover {
     background-color: #d1ebfb;
 }
-/* html[data-theme='dark'] .timeline__item-comments-write.guest-user .timeline__item-comments-write-body-tab-registr {
-    background-color: #184779;
-}
-/* html[data-theme='dark'] .timeline__item-comments-write.guest-user .timeline__item-comments-write-body-tab-registr {
-    background-color: #184779;
-}
-html[data-theme='dark'] .timeline__item-comments-write.guest-user .timeline__item-comments-write-body-tab-registr:hover {
-    background-color: #235f9f;
-} */
-
-/* html[data-theme='dark'] .timeline__item-comments-write.guest-user .timeline__item-comments-write-body-tab-enter {
-    background-color: #202124;
-}
-html[data-theme='dark'] .timeline__item-comments-write.guest-user .timeline__item-comments-write-body-tab-registr {
-    background-color: #184779;
-}
-html[data-theme='dark'] .timeline__item-comments-write.guest-user .timeline__item-comments-write-body-tab-registr:hover {
-    background-color: #235f9f;
-} */
 
 .login-fieldset {
     width: 100%;
@@ -1387,7 +1367,7 @@ html[data-theme='dark'] .timeline__item-comments-write.guest-user .timeline__ite
     border: 1px solid #d0d9dd;
     border-radius: 33px;
     margin-top: 5px;
-    padding: 0 10px 0 43px;
+    padding: 0 20px 0 43px;
     transition: all .4s ease-in-out;
 }
 .timeline__item-comments-write-enter-form .input-login:focus, .timeline__item-comments-write-registr-form .input-registr:focus {
@@ -2295,7 +2275,7 @@ html[data-theme='dark'] .guest-user.tab-password .timeline__item-comments-write-
 .timeline__item-last-comments-news {
     background-color: #fff;
     border-radius: 8px;
-    padding: 2em 1.5em 1.75em 1.5em;
+    padding: 2em 1.5em 2em 1.5em;
     box-shadow: 0px 5px 24px rgba(32,60,87,0.11);
     overflow-x: hidden;
 }
@@ -2470,7 +2450,7 @@ html[data-theme='dark'] .guest-user.tab-password .timeline__item-comments-write-
 .timeline__item-last-photos {
     background-color: #fff;
     border-radius: 8px;
-    padding: 2em 1.5em 1.75em 1.5em;
+    padding: 2em 1.5em 2em 1.5em;
     box-shadow: 0px 5px 24px rgba(32,60,87,0.11);
     overflow-x: hidden;
 }
@@ -2605,7 +2585,7 @@ html[data-theme='dark'] .guest-user.tab-password .timeline__item-comments-write-
 
 @media screen and (max-width: 550px) {
     .timeline__item-last-comments-news {
-        padding: 2em 1.06em 1.75em 1.06em;
+        padding: 2em 1.06em 2em 1.06em;
     }
     .timeline__item-last-photos {
         padding: 2em 1.06em 3.5em 1.06em;

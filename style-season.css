@@ -59,7 +59,7 @@
 }
 
 .timeline-video {
-    padding: 2em 1.5em 1.75em 1.5em;
+    padding: 2em 1.5em 2em 1.5em;
     background-color: #fff;
     border-radius: 8px;
     box-shadow: 0px 5px 24px rgba(32,60,87,0.11);
@@ -322,19 +322,12 @@
     display: flex;
     align-items: center;
 }
-/* .standings-list li::before {
-    content: '';
-    position: absolute;
-    left: 0;
-    top: 50%;
-    transform: translateY(-50%);
-} */
 .standings-list li span {
     margin-left: 5px;
 }
 .arrow-right-icon {
-    width: 17px;
-    height: 17px;
+    width: 15px;
+    height: 15px;
     fill: #81aad5;
 }
 
@@ -357,6 +350,6 @@
 }
 @media screen and (max-width: 550px) {
     .timeline-video {
-        padding: 2em 1.06em 1.75em 1.06em;
+        padding: 2em 1.06em 2em 1.06em;
     }
 }

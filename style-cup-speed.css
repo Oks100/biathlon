@@ -178,6 +178,8 @@ html[data-theme="grey"] #tippy-16 ul li a:hover {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    border-radius: 18px;
+    overflow: hidden;
 }
 .timeline-cup__list li {
     background-color: #e7f3fa;
@@ -293,7 +295,7 @@ html[data-theme="grey"] #tippy-16 ul li a:hover {
     min-width: 28.8px;
 }
 .timeline-cup-table tbody tr:not(:first-child) td:first-child {
-    padding-bottom: 4px;
+    padding-bottom: 3px;
 }
 .timeline-cup-table .red {
     color: red;
@@ -380,17 +382,10 @@ html[data-theme="grey"] #tippy-16 ul li a:hover {
 .timeline-cup__flag i:nth-child(2) {
     font-size: 0.9em;
 }
-
-
-/* .timeline-cup.norway .norway-string {
-    background-color: #ffcae5;
-} */
 .chosen-string.active {
     box-shadow: 0 0 0 1px white;
-    background-color: #ffcae5 !important;
+    background-color: #ffcfe8 !important;
 }
-
-
 .timeline__more-tables {
     padding: 2em 1.5em 1.39em 1.5em;
     background-color: #fff;
@@ -407,9 +402,6 @@ html[data-theme="grey"] #tippy-16 ul li a:hover {
 
 .timeline__more-tables-body {
     margin-top: 0.75em;
-    /* border: 1px solid #d0d9dd;
-    padding: 15px;
-    border-radius: 15px; */
 }
 .timeline__more-tables-body svg {
     position: absolute;
@@ -830,15 +822,13 @@ html[data-theme="grey"] #tippy-16 ul li a:hover {
     overflow: hidden;
     position: relative;
     z-index: 2;
+    transition: all .4s ease;
 }
 .timeline-cup__another-competitions a {
     padding: 2.9px 25px;
 }
-.timeline-cup__another-competitions .world-cup {
+.timeline-cup__another-competitions .active {
     border: 1px solid #d1ebfb;
-}
-
-.timeline-cup__another-competitions .world-cup {
     background-color: #c0e5fb;
 }
 
@@ -861,6 +851,9 @@ html[data-theme="grey"] #tippy-16 ul li a:hover {
 
 
 @media (hover: hover) {
+    .timeline-cup__another-competitions span:not(.active):hover {
+        border-color: #d1ebfb;
+    }
     .timeline-cup__select-body select:hover {
         outline-color: #bfc6ca;
     }
@@ -943,10 +936,10 @@ html[data-theme="grey"] #tippy-16 ul li a:hover {
 
 @media screen and (max-width: 550px) {
 .timeline-cup {
-    padding: 2em 1.06em 1.75em 1.06em;
+    padding: 2em 1.06em 2em 1.06em;
 }
 .timeline__more-tables {
-    padding: 2em 1.06em 1.75em 1.06em;
+    padding: 2em 1.06em 2em 1.06em;
 }
 .timeline__more-tables-body ul {
     height: fit-content;

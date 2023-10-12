@@ -2872,73 +2872,11 @@ img[src*="flags"] {
     line-height: 33px;
     font-size: 0.95em !important;
   }
-  /* .dropdown__box ul li a[href*="UA"]::before {
-    content: '';
-    background-image: url(img/UA2.png);
-    margin-right: 5px;
-    background-size: 18px 18px;
-    width: 18px;
-    height: 18px;
-    display: block;
-    background-repeat: no-repeat;
-    margin-top: 7px;
-    scale: 1;
-  } */
-  /* .dropdown__box ul li a[href*="EN"]::before {
-    content: '';
-    background-image: url(img/GB2.png);
-    margin-right: 5px;
-    background-size: 18px 18px;
-    width: 18px;
-    height: 18px;
-    display: block;
-    background-repeat: no-repeat;
-    margin-top: 7px;
-    scale: 1;
-  }
-  .burger-menu_nav-menu-list li a[href*="UA"] .list-center2::before {
-    content: '';
-    background-image: url(img/UA2.png);
-    margin-right: 5px;
-    background-size: 20px 20px;
-    width: 20px;
-    height: 20px;
-    display: block;
-    background-repeat: no-repeat;
-    scale: 1;
-  }
-  .burger-menu_nav-menu-list li a[href*="EN"] .list-center2::before {
-    content: '';
-    background-image: url(img/GB2.png);
-    margin-right: 5px;
-    background-size: 20px 20px;
-    width: 20px;
-    height: 20px;
-    display: block;
-    background-repeat: no-repeat;
-    scale: 1;
-  } */
   .burger-menu_nav-menu-list li a .list-center2 {
     display: flex;
     align-items: center;
   }
 
-  /* .dropdown__box ul li a[href*="RU"]::before {
-    content: url('img/nullflag2.png');
-    margin-right: 5px;
-    scale: 1;
-  }
-  .burger-menu_nav-menu-list li a[href*="RU"] .list-center2::before {
-    content: '';
-    background-image: url(img/null.png);
-    margin-right: 5px;
-    background-size: 20px 20px;
-    width: 20px;
-    height: 20px;
-    display: block;
-    background-repeat: no-repeat;
-    scale: 1;
-  } */
   .burger-menu__profile {
     display: flex;
     flex-direction: column;
@@ -3239,51 +3177,6 @@ img[src*="flags"] {
     width: 18px;
     margin-right: 5px;
   }
-  /* .burger-menu_link[data-set-theme="winter"]::before {
-    background-image: url(img/Winter-theme.png);
-    background-size: 20px 20px;
-    width: 20px;
-    height: 20px;
-    display: block;
-    content: "";
-    margin-right: 5px;
-  }
-  .burger-menu_link[data-set-theme="dark"]::before {
-    background-image: url(img/Dark-theme.png);
-    background-size: 20px 20px;
-    width: 20px;
-    height: 20px;
-    display: block;
-    content: "";
-    margin-right: 5px;
-  }
-  .burger-menu_link[data-set-theme="summer"]::before {
-    background-image: url(img/Summer-theme.png);
-    background-size: 20px 20px;
-    width: 20px;
-    height: 20px;
-    display: block;
-    content: "";
-    margin-right: 5px;
-  }
-  .burger-menu_link[data-set-theme="Black"]::before {
-    background-image: url(img/Black-theme.png);
-    background-size: 20px 20px;
-    width: 20px;
-    height: 20px;
-    display: block;
-    content: "";
-    margin-right: 5px;
-  }
-  .burger-menu_link[data-set-theme="grey"]::before {
-    background-image: url(img/Grey-theme.png);
-    background-size: 20px 20px;
-    width: 20px;
-    height: 20px;
-    display: block;
-    content: "";
-    margin-right: 5px;
-  } */
   .burger-menu__layer-background {
     position: absolute;
     top: 0;
@@ -3427,14 +3320,14 @@ img[src*="flags"] {
   .timeline-general-info__list span, .timeline a, .layer__chat-debates-table a {
     color: #002b71;
   }
-  .timeline-season__body-nav-list li span:hover:not(.timeline-season__body-nav-list .active span), .timeline-general-info__list span:hover, .layer__chat-debates-table a:hover, .timer__more-information a:hover, .timeline__item-comments-to-write-comments:hover, .timeline a:hover:not(.top-10__button, .title-race-area__text a, .timeline-sportsmen-profile-card-button-3 a:hover, .timeline-sportsmen-profile-card-button-2 a:hover, .timeline-sportsmen-profile-card a:hover, .timeline-sportsmen-profile__body-info-button, .timeline-private-messages__my-contacts, .timeline-private-messages__item-incoming-messages-content, .timeline-cup__head-back-button, .timeline-cup-result__analysis-button a, .timeline-cup__another-competitions a, .timeline-cup__navbar a, .timeline-navigation__page a, .last--comments-news-body-discription-comments-number, .last--comments-news-head a, .last--comments-news-body-discription-head a, .user-link, .quote-user, .timeline__item-comments-username a, .timeline__item-last-photos-head a, .last--comments-news-head a, .timeline__item-comments-to-write-comments) {
+  .timeline-season__body-nav-list li span:hover:not(.timeline-season__body-nav-list .active span), .timeline-general-info__list span:hover, .layer__chat-debates-table a:hover, .timer__more-information a:hover, .timeline__item-comments-to-write-comments:hover, .timeline a:hover:not(.timeline__tournament-table-button, .timeline__tournament-navigation a, .timeline-tournament__menu a, .top-10__button, .title-race-area__text a, .timeline-sportsmen-profile-card-button-3 a:hover, .timeline-sportsmen-profile-card-button-2 a:hover, .timeline-sportsmen-profile-card a:hover, .timeline-sportsmen-profile__body-info-button, .timeline-private-messages__my-contacts, .timeline-private-messages__item-incoming-messages-content, .timeline-cup__head-back-button, .timeline-cup-result__analysis-button a, .timeline-cup__another-competitions a, .timeline-cup__navbar a, .timeline-navigation__page a, .last--comments-news-body-discription-comments-number, .last--comments-news-head a, .last--comments-news-body-discription-head a, .user-link, .quote-user, .timeline__item-comments-username a, .timeline__item-last-photos-head a, .last--comments-news-head a, .timeline__item-comments-to-write-comments) {
     color: #73b5e5;
   }
   .last--comments-news-body-discription-head h2 a:hover, .timeline__item-comments-username a:hover, .user-link:hover {
     color: #73b5e5;
     border-color: #73b5e5;
   }
-  .interview-block__item a:hover, .top-season__table a:hover, .timeline-season__body-nav-list li span:hover:not(.timeline-season__body-nav-list .active span), .timeline-season__body a:hover:not(.title-race a,.title-race-area__text a, .timeline-season__body-events a[href*="cdn.biathlon"], .timeline-season__body-events a[href*="uploads/"]), .timeline-ukraine-cup-table a:hover, .sportsmen-votes__list li a:hover, .sportsmen-votes__table a:hover, .timeline-sportsmen-profile__body-speed-item a:hover, .timeline-sportsmen-profile__body-target-table a:hover, .sportsmen-profile__table a:hover, .timeline-sportsmen-profile__body-info-table a:hover, .timeline-sites__body a:hover, .timeline-cup-result-discription-links a:hover, .timeline-photogalleries-profiles a:hover, .timeline-photogalleries-info-text a:hover, .timeline-general-info__body-text-wrapper a:hover, .popular-profile-table a:hover, .layer__chat-debates-table a:hover, .timeline-private-messages-username a:hover,.timeline-private-messages .timeline-private-messages__item-username a:hover, .timeline-my-profile a:hover, .timeline-team__body-table a:hover, .timeline-news__filters_type2 a:hover, .timeline-my-comments__body-name-user a:hover, .timer__more-information:not(.timer__more-information.last) a:hover, .timeline-broadcast-tv__title a:hover, .timeline-broadcast-tv .timeline-broadcast-tv-legend.last a:hover, .timeline-calendar a:not(.targets-block, .timeline-video__container-item-image-link):hover, .timeline-results a:hover, .timeline-cup-statistics-table-maga-wrapper a:hover, .timeline__more-tables a:hover, .timeline-cup-statistics-table a:hover, .timeline-cup-result-discription a:hover, .timeline__body a:hover, .timeline__body-important-news a:hover, .timeline__speedbar a:hover, .timeline-cup-result__body tbody tr td:nth-child(3) a:hover {
+  .timeline-tournament__body a:hover:not(.timeline__tournament-table-button, .timeline__tournament-navigation a, .timeline-tournament__menu a), .interview-block__item a:hover, .top-season__table a:hover, .timeline-season__body-nav-list li span:hover:not(.timeline-season__body-nav-list .active span), .timeline-season__body a:hover:not(.title-race a,.title-race-area__text a, .timeline-season__body-events a[href*="cdn.biathlon"], .timeline-season__body-events a[href*="uploads/"]), .timeline-ukraine-cup-table a:hover, .sportsmen-votes__list li a:hover, .sportsmen-votes__table a:hover, .timeline-sportsmen-profile__body-speed-item a:hover, .timeline-sportsmen-profile__body-target-table a:hover, .sportsmen-profile__table a:hover, .timeline-sportsmen-profile__body-info-table a:hover, .timeline-sites__body a:hover, .timeline-cup-result-discription-links a:hover, .timeline-photogalleries-profiles a:hover, .timeline-photogalleries-info-text a:hover, .timeline-general-info__body-text-wrapper a:hover, .popular-profile-table a:hover, .layer__chat-debates-table a:hover, .timeline-private-messages-username a:hover,.timeline-private-messages .timeline-private-messages__item-username a:hover, .timeline-my-profile a:hover, .timeline-team__body-table a:hover, .timeline-news__filters_type2 a:hover, .timeline-my-comments__body-name-user a:hover, .timer__more-information:not(.timer__more-information.last) a:hover, .timeline-broadcast-tv__title a:hover, .timeline-broadcast-tv .timeline-broadcast-tv-legend.last a:hover, .timeline-calendar a:not(.targets-block, .timeline-video__container-item-image-link):hover, .timeline-results a:hover, .timeline-cup-statistics-table-maga-wrapper a:hover, .timeline__more-tables a:hover, .timeline-cup-statistics-table a:hover, .timeline-cup-result-discription a:hover, .timeline__body a:hover, .timeline__body-important-news a:hover, .timeline__speedbar a:hover, .timeline-cup-result__body tbody tr td:nth-child(3) a:hover {
     border-bottom: 1px solid #73b5e5;
   }
   .timeline__body-important-news {
@@ -3519,12 +3412,6 @@ img[src*="flags"] {
     background-repeat: no-repeat;
     border-radius: 0 0 8px 8px;
   }
-  .important-news__item {
-  }
-  .important-news__list {
-  }
-  .important-news__link {
-  }
   .important-news__link::before {
     content: "\e902";
     font-family: 'icomoon';
@@ -3535,9 +3422,7 @@ img[src*="flags"] {
   .timeline__item {
     background-color: #fff;
     border-radius: 8px;
-    /* padding: 1.5em; */
-    /* padding: 2em 1.5em; */
-    padding: 2em 1.5em 1.75em 1.5em;
+    padding: 2em 1.5em 2em 1.5em;
     box-shadow: 0px 5px 24px rgba(32,60,87,0.11);
     overflow-x: hidden;
   }
@@ -4180,7 +4065,7 @@ img[src*="flags"] {
 
   }
   .main-cup {
-    padding: 1.5em 0.6em 0.75em 0.6em;
+    padding: 1.5em 0.6em 1.2em 0.6em;
     background-color: #e7f3fa;
     border-radius: 8px;
     box-shadow: 0px 5px 24px rgba(32,60,87,0.11);
@@ -4906,11 +4791,8 @@ img[src*="flags"] {
   width: 42.5px;
   height: 42.5px;
   fill: #679bcd;
-  /* margin-right: 9px;
-  position: relative; */
 }
 .comment-block-logged {
-  position: absolute;
   position: absolute;
   height: 12px;
   width: 12px;
@@ -7700,7 +7582,7 @@ article.timeline {
       flex-wrap: wrap;
     }
     .timeline__item, .timeline__item.timeline-sponsors {
-      padding: 2em 1.06em 1.75em 1.06em;
+      padding: 2em 1.06em 2em 1.06em;
     }
     .timeline__body-important-news .spoiler {
       padding: 1.1em 1.06em;
@@ -8131,13 +8013,10 @@ html[data-theme="dark"] .timeline__item-comments-answer-button:hover, html[data-
 html[data-theme="dark"] .timeline__item-comments-write-enter-button:hover, html[data-theme="dark"] .timeline__item-comments-write-registr-button:hover, html[data-theme="dark"] .popup input[type="submit"]:hover, html[data-theme='dark'] .timeline-sponsors .swiper-button-prev:hover, html[data-theme='dark'] .timeline-sponsors .swiper-button-next:hover {
   background-color: #235f9f;
 }
-/* html[data-theme="dark"] .timeline__item-comments-answer-button::before, html[data-theme="dark"] #toolbar-message-button::before {
-  background: none;
-} */
 html[data-theme='dark'] .timeline-sponsors .swiper-button-next, html[data-theme='dark'] .timeline-sponsors .swiper-button-prev {
   color: #7bade3 !important;
 }
-html[data-theme="dark"] .timer__more-information.last a:hover, html[data-theme="dark"] .timer__more-information:not(.timer__more-information.last) a:hover, html[data-theme="dark"] .timeline__speedbar a:hover, html[data-theme="dark"] .forgot-login-password a:hover, html[data-theme="dark"] main a:hover:not(.red-color, .timeline__item-last-photos-head a, .last--comments-news-head a, .vertical-menu-block__link), html[data-theme="dark"] .comment-block__rumor:hover, html[data-theme="dark"] .timeline__body a:hover {
+html[data-theme="dark"] .timer__more-information.last a:hover, html[data-theme="dark"] .timer__more-information:not(.timer__more-information.last) a:hover, html[data-theme="dark"] .timeline__speedbar a:hover, html[data-theme="dark"] .forgot-login-password a:hover, html[data-theme="dark"] main a:hover:not(.timeline-cup__another-competitions a, .red-color, .timeline__item-last-photos-head a, .last--comments-news-head a, .vertical-menu-block__link), html[data-theme="dark"] .comment-block__rumor:hover, html[data-theme="dark"] .timeline__body a:hover {
   color: #8ab4f8;
   border-color: #8ab4f8;
 }

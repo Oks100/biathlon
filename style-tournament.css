@@ -1,0 +1,214 @@
+#tippy-16 {
+    width: auto;
+}
+#tippy-16 .tippy-content {
+    overflow: hidden;
+}
+#tippy-16 ul li a {
+    color: black !important;
+    font-size: 13.5px !important;
+    text-transform: none !important;
+    padding: 0px 10px 0px 10px !important;
+    transition: 0s !important;
+    text-shadow: none !important;
+    width: 100%;
+    display: flex;
+}
+#tippy-16 ul li:last-of-type a {
+    border-bottom: none !important;
+}
+  
+#tippy-16 ul li::before, #tippy-16 ul li::after {
+    display: none !important;
+}
+  
+#tippy-16 ul li a:hover {
+    background-color: #ecf5fb;
+}
+#tippy-16 ul li {
+    white-space: nowrap;
+    line-height: 33px;
+}
+#tippy-16 ul li:last-of-type {
+    white-space: nowrap;
+    line-height: 33px;
+}
+#tippy-16 ul li:last-of-type a, #tippy-16 ul li:last-of-type a::before {
+    color: red !important;
+   }
+#tippy-16 ul li:first-of-type a::before {
+    content: "\e016";
+    font-family: 'icomoon';
+    margin-right: 7px;
+    font-size: 13px;
+    color: #81aad5;
+}
+#tippy-16 ul li:nth-child(2) a::before {
+    content: "\e015";
+    font-family: 'icomoon';
+    margin-right: 7px;
+    font-size: 13px;
+    color: #81aad5;
+}
+#tippy-16 ul li:last-of-type a::before {
+    content: "\e9b";
+    font-family: 'icomoon';
+    margin-right: 7px;
+    font-size: 13px;
+    color: #81aad5;
+}
+
+.timeline-tournament {
+    padding: 2em 1.5em 2em 1.5em;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0px 5px 24px rgba(32,60,87,0.11);
+    overflow-x: hidden;
+}
+.timeline-tournament__head {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2em;
+    position: relative;
+    gap: 15px 25px;
+    /* align-items: center; */
+}
+.timeline__date {
+    align-items: flex-start;
+    margin-top: 5px;
+}
+.timeline-tournament__head > span:nth-child(1) {
+    font-size: 1.3em;
+    color: black;
+    font-weight: 700;
+}
+.timeline-tournament__menu {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2em;
+}
+.tournament-menu__body {
+    display: inline-flex;
+    flex-wrap: wrap;
+    gap: 10px 7px;
+    justify-content: center;
+}
+.timeline-tournament__menu a {
+    display: inline-block;
+    width: fit-content;
+    padding: 7px 13px;
+    background-color: #e7f3fa;
+    white-space: nowrap;
+    border-radius: 33px;
+    transition: all .3s ease;
+}
+.timeline-tournament__menu a.active {
+    background-color: #c0e5fb;
+}
+.timeline-tournament__red-title {
+    display: flex;
+    color: red;
+    font-size: 1.1em;
+    font-weight: 600;
+    margin-top: 2em;
+}
+.timeline-tournament__title {
+    display: flex;
+    font-size: 1.1em;
+    font-weight: 600;
+    margin-top: 2em;
+}
+.checkbox-group {
+    display: flex;
+    flex-direction: row;
+    margin-top: 0.5em;
+    align-items: center;
+}
+.checkbox-group #allow-messages:checked + .label-for-allow-messages::after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 5px;
+    left: 11px;
+    transform: translate(-50%, -50%);
+    width: 6px;
+    height: 14px;
+    border: solid #679bcd;
+    border-width: 0 2px 2px 0;
+    transform: rotate(45deg);
+}
+.checkbox-group #allow-messages:checked + .label-for-allow-messages::before {
+    border-color: #c0e5fb;
+}
+.checkbox-group .label-for-allow-messages::before {
+    content: '';
+    -webkit-appearance: none;
+    border: 2px solid transparent;
+    background-color: #e7f3fa;
+    padding: 12px;
+    display: inline-block;
+    position: relative;
+    vertical-align: middle;
+    cursor: pointer;
+    border-radius: 50%;
+    transition: all .3s ease;
+}
+.checkbox-group .label-for-allow-messages {
+    position: relative;
+    cursor: pointer;
+    -webkit-tap-highlight-color: transparent;
+}
+.checkbox-group label:last-child {
+    margin-left: 12px;
+}
+.form-group label:not(.checkbox-group .label-for-allow-messages) {
+    display: flex;
+    position: relative;
+}
+.form-group input:not(.input-text) {
+    padding: 8.5px 10px 8.5px 10px;
+    height: fit-content;
+}
+.checkbox-group input {
+    padding: 0;
+    height: initial;
+    width: initial;
+    margin-bottom: 0;
+    display: none;
+    cursor: pointer;
+}
+.timeline-tournament__join-button {
+    margin-top: 2em;
+}
+.timeline-tournament__join-button input {
+    background-color: transparent;
+    padding: 6.5px 15px;
+    white-space: pre-wrap;
+    cursor: pointer;
+    border-radius: 33px;
+    border: 2px solid #c0e5fb;
+    color: #002b71;
+    transition: all .3s ease;
+    font-size: 1em;
+}
+
+@media (hover: hover) {
+    .checkbox-group .label-for-allow-messages:hover::before {
+        border-color: #c0e5fb;
+    }
+    .timeline-tournament__join-button input:hover {
+        background-color: #d1ebfb;
+        border-color: #d1ebfb;
+    }
+    .timeline-tournament__menu a:hover:not(.active) {
+        background-color: #d1ebfb;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+}
+@media screen and (max-width: 550px) {
+    .timeline-tournament {
+        padding: 2em 1.06em 2em 1.06em;
+    }
+}

@@ -91,18 +91,15 @@ html[data-theme="grey"] #tippy-16 ul li a:hover {
 
 
 .timeline-cup {
-    padding: 2em 1.5em 1.75em 1.5em;
+    padding: 2em 1.5em 2em 1.5em;
     background-color: #fff;
     border-radius: 8px;
     box-shadow: 0px 5px 24px rgba(32,60,87,0.11);
     overflow-x: hidden;
 }
 .timeline-cup__head {
-    /* padding-bottom: 0.75em; */
     margin-bottom: 2em;
     position: relative;
-    /* display: flex;
-    justify-content: space-between; */
 }
 .timeline-cup__head span:nth-child(1) {
     font-size: 1.3em;
@@ -113,7 +110,6 @@ html[data-theme="grey"] #tippy-16 ul li a:hover {
 
 .age-button {
     display: flex;
-    /* width: 35px; */
     position: absolute;
     top: 50%;
     right: 0;
@@ -140,30 +136,21 @@ html[data-theme="grey"] #tippy-16 ul li a:hover {
     transition: background-color .3s ease;
 }
 .timeline-cup.profiles-color .age-color-1 {
-    /* background-color: #bcffbc; */
-    /* background-color: #c1ffc1; */
     background-color: #cfffcf;
 }
 .timeline-cup.profiles-color .age-color-2 {
-    /* background-color: #5bff5b; */
     background-color: #95ff95;
 }
 .timeline-cup.profiles-color .age-color-3 {
-    /* background-color: rgb(255, 255, 164); */
-    /* background-color: #ffffba; */
     background-color: #ffc;
 }
 .timeline-cup.profiles-color .age-color-4 {
-    /* background-color: #ffff3c; */
     background-color: #ff7;
 }
 .timeline-cup.profiles-color .age-color-5 {
-    /* background-color: #ffc1c1; */
-    /* background-color: #ffd0d0; */
     background-color: #ffd4d4;
 }
 .timeline-cup.profiles-color .age-color-6 {
-    /* background-color: #ff7b7b; */
     background-color: #ff9f9f;
 }
 
@@ -173,57 +160,11 @@ html[data-theme="grey"] #tippy-16 ul li a:hover {
 .timeline-cup.points-table-1 .timeline-cup-table-male tbody td:nth-child(4), .timeline-cup.points-table-2 .timeline-cup-table-female tbody td:nth-child(4) {
     width: 161px;
 }
-
-/* .age-button {
-    position: absolute;
-    right: 0;
-    top: 50%;
-    transform: translatey(-50%);
-    width: 35px;
-    height: 35px;
-    cursor: pointer;
-}
-.age-button-icon {
-    background-image: url(img/Age-5.png);
-    background-size: cover;
-    transition: all 0.4s ease;
-    width: 100%;
-    height: 100%;
-    z-index: 1;
-}
-
-.age-button-icon:hover {
-    transform: rotate(360deg);
-}
-.age-button-icon:hover ~ .age-button-title {
-    color: red;
-}
-.age-button-title {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    z-index: -1;
-    font-size: 12px;
-    transition: all 0.4s ease;
-    color: #002b71;
-} */
-
-/* .age-button::before {
-    content: "\e91f";
-    font-family: 'icomoon';
-    font-size: 1.5em;
-    font-weight: normal;
-    padding-left: 5px;
-    color: #81aad5;
-} */
 .timeline-cup__body {
 }
 .timeline-cup__navbar {
-    /* margin-top: 0.75em; */
     margin-top: 0.75em;
     background-color: white;
-    /* padding-bottom: 0.75em; */
     padding-bottom: 1em;
 }
 
@@ -231,11 +172,12 @@ html[data-theme="grey"] #tippy-16 ul li a:hover {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    border-radius: 18px;
+    overflow: hidden;
 }
 .timeline-cup__list li {
     background-color: #e7f3fa;
     cursor: pointer;
-    /* outline: 1px solid #d0d9dd; */
     outline: 1px solid #c0e5fb;
     flex: 1 1 auto;
     text-align: center;
@@ -338,7 +280,7 @@ html[data-theme="grey"] #tippy-16 ul li a:hover {
     min-width: 28.8px;
 }
 .timeline-cup-table tbody tr:not(:first-child) td:first-child {
-    padding-bottom: 4px;
+    padding-bottom: 3px;
 }
 .timeline-cup-table .red {
     color: red;
@@ -400,12 +342,12 @@ html[data-theme="grey"] #tippy-16 ul li a:hover {
 }
 
 .chosen-string.active {
-    background-color: #ffcae5 !important;
+    background-color: #ffcfe8 !important;
 }
 
 
 .timeline__more-tables {
-    padding: 2em 1.5em 1.75em 1.5em;
+    padding: 2em 1.5em 2em 1.5em;
     background-color: #fff;
     border-radius: 8px;
     box-shadow: 0px 5px 24px rgba(32,60,87,0.11);
@@ -934,29 +876,15 @@ html[data-theme="grey"] #tippy-16 ul li a:hover {
     -webkit-tap-highlight-color: transparent;
 }
 .nations-string.active {
-    background-color: #ffcae5 !important;
+    background-color: #ffcfe8 !important;
 }
 .nations-string img, .timeline-cup__any-tables-races-scores .col {
     cursor: pointer;
 }
-
-/* .timeline-cup__any-tables-all-result span {
-    display: block;
-} */
-/* .position {
-    border-radius: 50%;
-    border: 1px solid #d0d9dd;
-    padding: 2px 7px;
-    background-color: #e7f3fa;
-} */
-
 .timeline-cup__any-tables-all-result-table .table-nations td:first-child {
-    /* min-width: 24px;
-    padding-bottom: 1.8px; */
     min-width: 25.8px;
 }
 .timeline-cup__any-tables-all-result-table .table-nations td:last-child {
-    /* padding: 2.4px 7px 2.4px 3px; */
     padding: 2.4px 7px 2.4px 7px;
 }
 .position {
@@ -966,7 +894,7 @@ html[data-theme="grey"] #tippy-16 ul li a:hover {
     border-radius: 50%;
     align-items: center;
     justify-content: center;
-    font-size: .9em;
+    font-size: .95em;
     font-weight: 600;
 }
 .timeline-cup__any-tables-all-result-title {
@@ -1379,7 +1307,7 @@ html[data-theme="grey"] #tippy-16 ul li a:hover {
         background-color: white;
     }
     .nations-string.active th, .nations-string.active td {
-        background-color: #ffcae5 !important;
+        background-color: #ffcfe8 !important;
     }
     .timeline-cup__table-comments-tables-recommend-list {
         height: auto;
@@ -1427,10 +1355,10 @@ html[data-theme="grey"] #tippy-16 ul li a:hover {
 
 @media screen and (max-width: 550px) {
 .timeline-cup {
-    padding: 2em 1.06em 1.75em 1.06em;
+    padding: 2em 1.06em 2em 1.06em;
 }
 .timeline__more-tables {
-    padding: 2em 1.06em 1.75em 1.06em;
+    padding: 2em 1.06em 2em 1.06em;
 }
 .timeline__more-tables-body ul {
     height: auto;

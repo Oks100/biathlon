@@ -59,7 +59,7 @@
 }
 
 .timeline-cup-result {
-    padding: 2em 1.5em 1.75em 1.5em;
+    padding: 2em 1.5em 2em 1.5em;
     background-color: #fff;
     border-radius: 8px;
     box-shadow: 0px 5px 24px rgba(32,60,87,0.11);
@@ -196,7 +196,7 @@
     cursor: pointer;
 }
 .chosen-string.active {
-    background-color: #ffcae5 !important;
+    background-color: #ffcfe8 !important;
     box-shadow: 0 0 0 1px white;
 }
 .shooting-icon, .timeline-cup-result-table tr td:nth-child(8), .timeline-cup-result-table tr td:nth-child(7) {
@@ -780,7 +780,7 @@
 }
 @media screen and (max-width: 550px) {
     .timeline-cup-result {
-        padding: 2em 1.06em 1.75em 1.06em;
+        padding: 2em 1.06em 2em 1.06em;
     }
     .timeline-cup-result-table tbody tr td:nth-child(4), .timeline-cup-result-table tbody tr td:nth-child(5), .timeline-cup-result-table tbody tr td:nth-child(6), .timeline-cup-result-table tbody tr td:nth-child(7), .timeline-cup-result-table tbody tr td:nth-child(8) {
         padding: 2.4px 6px 2.4px 6px;

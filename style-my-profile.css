@@ -59,7 +59,7 @@
 }
 
 .timeline-my-profile {
-    padding: 2em 1.5em 1.75em 1.5em;
+    padding: 2em 1.5em 2em 1.5em;
     background-color: #fff;
     border-radius: 8px;
     box-shadow: 0px 5px 24px rgba(32,60,87,0.11);
@@ -148,9 +148,6 @@
 .form-group input:not(.input-text), .form-group select, .timeline-my-profile__body-my-favourite-select-group select {
     cursor: pointer;
 }
-.form-group input:not(.input-text, input[type="checkbox"]):focus, .form-group select:focus, .timeline-my-profile__body-my-favourite-select-group select:focus {
-    outline-color: #bfc6ca;
-}
 .input-text, .input-text-2 {
     border: 1px solid #d0d9dd;
 }
@@ -171,7 +168,7 @@
     height: fit-content;
 }
 .form-group .input-text, .input-text-2 {
-    padding: 0 10px 0 43px;
+    padding: 0 20px 0 43px;
     height: 33px;
     transition: all .3s ease;
     width: 100%;
@@ -440,6 +437,9 @@ input:focus::placeholder, .input-text-2:focus::placeholder {
 }
 
 @media (hover: hover) {
+    .form-group input:not(.input-text, input[type="checkbox"]):hover, .form-group select:hover, .timeline-my-profile__body-my-favourite-select-group select:hover {
+        outline-color: #bfc6ca;
+    }
     .timeline-my-profile__body-avatar-upload:hover {
         background-color: #d1ebfb;
     }
@@ -462,7 +462,7 @@ input:focus::placeholder, .input-text-2:focus::placeholder {
 
 @media screen and (max-width: 600px) {
     .timeline-my-profile {
-        padding: 2em 1.06em 1.75em 1.06em;
+        padding: 2em 1.06em 2em 1.06em;
     }
     .timeline-my-profile__body-form-group {
         flex-wrap: wrap;

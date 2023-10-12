@@ -91,7 +91,7 @@ html[data-theme="grey"] #tippy-16 ul li a:hover {
 
 
 .timeline-cup {
-    padding: 2em 1.5em 1.75em 1.5em;
+    padding: 2em 1.5em 2em 1.5em;
     background-color: #fff;
     border-radius: 8px;
     box-shadow: 0px 5px 24px rgba(32,60,87,0.11);
@@ -156,10 +156,7 @@ html[data-theme="grey"] #tippy-16 ul li a:hover {
 .timeline-cup__body {
 }
 .timeline-cup__navbar {
-    /* margin-top: 0.75em; */
     margin-top: 0.75em;
-    background-color: white;
-    /* padding-bottom: 0.75em; */
     padding-bottom: 1em;
 }
 
@@ -167,11 +164,12 @@ html[data-theme="grey"] #tippy-16 ul li a:hover {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    border-radius: 18px;
+    overflow: hidden;
 }
 .timeline-cup__list li {
     background-color: #e7f3fa;
     cursor: pointer;
-    /* outline: 1px solid #d0d9dd; */
     outline: 1px solid #c0e5fb;
     flex: 1 1 auto;
     text-align: center;
@@ -274,7 +272,7 @@ html[data-theme="grey"] #tippy-16 ul li a:hover {
     min-width: 28.8px;
 }
 .timeline-cup-table tbody tr:not(:first-child) td:first-child {
-    padding-bottom: 4px;
+    padding-bottom: 3px;
 }
 .timeline-cup-table .red {
     color: red;
@@ -286,7 +284,6 @@ html[data-theme="grey"] #tippy-16 ul li a:hover {
     color: #fcd401;
 }
 .timeline-cup-table tbody tr:nth-child(1) {
-    background-color: white;
     color: #5d5d5d;
 }
 .timeline-cup-table img {
@@ -316,10 +313,7 @@ html[data-theme="grey"] #tippy-16 ul li a:hover {
 }
 .timeline-cup:not(.mix) .timeline-cup-table-title tr:first-child td {
     text-align: center;
-    /* height: 50px; */
     font-weight: 600;
-    /* font-size: 1.1em; */
-    background-color: white;
     text-transform: uppercase;
     color: #1f7ec4;
     font-family: tahoma, Arial, Helvetica, sans-serif;
@@ -342,13 +336,14 @@ html[data-theme="grey"] #tippy-16 ul li a:hover {
 }
 
 .chosen-string.active {
+    z-index: 1;
+    position: relative;
     box-shadow: 0 0 0 1px white;
-    background-color: #ffcae5 !important;
+    background-color: #ffcfe8 !important;
 }
 
-
 .timeline__more-tables {
-    padding: 2em 1.5em 1.75em 1.5em;
+    padding: 2em 1.5em 2em 1.5em;
     background-color: #fff;
     border-radius: 8px;
     box-shadow: 0px 5px 24px rgba(32,60,87,0.11);
@@ -511,6 +506,7 @@ html[data-theme="grey"] #tippy-16 ul li a:hover {
 .timeline-cup-table-male tbody td:nth-child(4) {
     width: 202.6px;
     display: block;
+    padding-right: 5px;
 }
 .timeline-cup-tables.mix .timeline-cup-table tbody td:nth-child(4) {
     width: 150px;
@@ -790,15 +786,13 @@ html[data-theme="grey"] #tippy-16 ul li a:hover {
     overflow: hidden;
     position: relative;
     z-index: 2;
+    transition: all .4s ease;
 }
 .timeline-cup__another-competitions a {
     padding: 2.9px 25px;
 }
-.timeline-cup__another-competitions .world-cup {
+.timeline-cup__another-competitions .active {
     border: 1px solid #d1ebfb;
-}
-
-.timeline-cup__another-competitions .world-cup {
     background-color: #c0e5fb;
 }
 
@@ -820,6 +814,9 @@ html[data-theme="grey"] #tippy-16 ul li a:hover {
 }
 
 @media (hover: hover) {
+    .timeline-cup__another-competitions span:not(.active):hover {
+        border-color: #d1ebfb;
+    }
     .timeline-cup__select-body select:hover {
         outline-color: #bfc6ca;
     }
@@ -912,7 +909,7 @@ html[data-theme="grey"] #tippy-16 ul li a:hover {
 
 @media screen and (max-width: 550px) {
 .timeline-cup, .timeline__more-tables {
-    padding: 2em 1.06em 1.75em 1.06em;
+    padding: 2em 1.06em 2em 1.06em;
 }
 .timeline__more-tables-body ul {
     height: auto;
@@ -923,4 +920,522 @@ html[data-theme="grey"] #tippy-16 ul li a:hover {
     height: 180px;
     width: 180px;
 }
+}
+
+html[data-theme="dark"] .timeline-cup, html[data-theme="dark"] .timeline__more-tables {
+    background-color: #202124;
+    color: #e1e1e1;
+}
+html[data-theme="dark"] .circle-element-for-cup, html[data-theme="dark"] .table-title {
+    background-color: #202124;
+}
+html[data-theme="dark"] .timeline-cup__head span:nth-child(1), html[data-theme="dark"] .table-title {
+    color: #e1e1e1;
+}
+html[data-theme="dark"] .timeline-cup:not(.mix) .timeline-cup-table-title tr:first-child td {
+    color: #2b7ed7;
+}
+html[data-theme="dark"] .table-compare-exemple-2 .compare-icon-2::before, html[data-theme="dark"] .table-compare-exemple-4 .compare-icon-2::before, html[data-theme="dark"] .timeline__more-tables-body li.active, html[data-theme="dark"] .compare-icon::before, html[data-theme="dark"] .points-button-stars::before, html[data-theme="dark"] .points-button-stars-2::before, html[data-theme="dark"] .timeline-cup-table tbody tr:nth-child(1) {
+    color: #b5b5b5;
+}
+html[data-theme="dark"] .timeline-cup__list li {
+    background-color: #1f2d40;
+    color: #abcbff;
+    outline: 1px solid #184779;
+}
+html[data-theme="dark"] .timeline-cup__another-competitions span {
+    border-color: #184779;
+}
+html[data-theme="dark"] .timeline-cup__list li:hover {
+    background-color: #215994;
+}
+html[data-theme="dark"] .timeline-cup__another-competitions span::before {
+    background-color: #215994;
+}
+html[data-theme="dark"] .timeline-cup__another-competitions span:hover {
+    border-color: #215994;
+}
+html[data-theme="dark"] .timeline-cup__list li.active {
+    background-color: #235f9f;
+}
+html[data-theme="dark"] .timeline-cup__another-competitions .active {
+    background-color: #235f9f;
+    border-color: #235f9f;
+}
+html[data-theme="dark"] .timeline-cup__another-competitions a:hover {
+    color: #abcbff !important;
+}
+html[data-theme="dark"] .table-button-earlier-1, html[data-theme="dark"] .table-button-earlier-2, html[data-theme="dark"] .table-button-now-1, html[data-theme="dark"] .table-button-now-2, html[data-theme="dark"] .points-button, html[data-theme="dark"] .points-button-2 {
+    color: #abcbff;
+}
+html[data-theme="dark"] .points-button:hover, html[data-theme="dark"] .points-button-2:hover, html[data-theme="dark"] .points-button-td:hover .points-button-stars::before, html[data-theme="dark"] .points-button-td-2:hover .points-button-stars-2::before {
+    color: #8ab4f8;
+}
+html[data-theme="dark"] .age-button-svg path, html[data-theme="dark"] .legend-icon, html[data-theme="dark"] .people-group, html[data-theme="dark"] .recommend-icon {
+    fill: #2d63af;
+}
+html[data-theme="dark"] .timeline__more-tables-body svg {
+    fill: #1f2d40;
+}
+html[data-theme="dark"] .timeline-cup__table-comments-tables-recommend, html[data-theme="dark"] .timeline-cup-table tbody tr:nth-child(2n), html[data-theme="dark"] .timeline-cup__footer-legend-title, html[data-theme="dark"] .timeline-cup__footer-legend-title-2 {
+    background-color: #1f2d40;
+}
+html[data-theme="dark"] .circle-element-for-cup {
+    border-color: #1f2d40;
+}
+html[data-theme="dark"] .table-button::before {
+    background-color: #215994;
+}
+html[data-theme="dark"] .table-title {
+    border-color: #215994;
+}
+html[data-theme="dark"] .table-button-now-1:hover, html[data-theme="dark"] .table-button-now-2:hover, html[data-theme="dark"] .table-button-earlier-1:hover, html[data-theme="dark"] .table-button-earlier-2:hover {
+    box-shadow: inset 0px 0px 0px 1px #215994;
+}
+html[data-theme="dark"] .timeline-cup-table tbody tr:not(:first-child, .active):hover td {
+    background-color: #585750;
+}
+html[data-theme="dark"] .chosen-string.active {
+    box-shadow: 0 0 0 1px #202124;
+    background-color: #604d57 !important;
+}
+html[data-theme="dark"] .green.square::before, html[data-theme="dark"] .triangle::before, html[data-theme="dark"] .timeline-cup-table .green {
+    color: #079600;
+}
+html[data-theme="dark"] .triangle-down::before, html[data-theme="dark"] .red.square::before {
+    color: #d40000;
+}
+html[data-theme="dark"] .table-circle::before {
+    color: #e3c000;
+}
+
+html[data-theme="dark"] .based-table tr:not(:first-child) .points-button-td::before, html[data-theme="dark"] .based-table tr:not(:first-child) .points-button-td-2::before {
+    background-color: #45484a;
+}
+html[data-theme="dark"] .age-legend-3, html[data-theme="dark"] .timeline-cup.profiles-color .age-color-3, html[data-theme="dark"] .age-legend-2, html[data-theme="dark"] .timeline-cup.profiles-color .age-color-2, html[data-theme="dark"] .age-legend-1, html[data-theme="dark"] .timeline-cup.profiles-color .age-color-1, html[data-theme="dark"] .age-legend-4, html[data-theme="dark"] .timeline-cup.profiles-color .age-color-4, html[data-theme="dark"] .timeline-cup.profiles-color .age-color-5, html[data-theme="dark"] .age-legend-5, html[data-theme="dark"] .timeline-cup.profiles-color .age-color-6, html[data-theme="dark"] .age-legend-6 {
+    color: #12151a;
+}
+html[data-theme="dark"] .age-legend-1, html[data-theme="dark"] .timeline-cup.profiles-color .age-color-1 {
+    background-color: #b8e9b8;
+}
+html[data-theme="dark"] .timeline-cup.profiles-color .age-button-svg path:nth-child(1), html[data-theme="dark"] .age-legend-2, html[data-theme="dark"] .timeline-cup.profiles-color .age-color-2 {
+    background-color: #7bd27b;
+}
+html[data-theme="dark"] .age-legend-3, html[data-theme="dark"] .timeline-cup.profiles-color .age-color-3 {
+    background-color: #d8d8a4;
+}
+html[data-theme="dark"] .timeline-cup.profiles-color .age-button-svg path:nth-child(4), html[data-theme="dark"] .age-legend-4, html[data-theme="dark"] .timeline-cup.profiles-color .age-color-4 {
+    background-color: #caca61;
+}
+html[data-theme="dark"] .timeline-cup.profiles-color .age-color-5, html[data-theme="dark"] .age-legend-5 {
+    background-color: #e0a2a2;
+}
+html[data-theme="dark"] .timeline-cup.profiles-color .age-button-svg path:nth-child(3), html[data-theme="dark"] .age-legend-6, html[data-theme="dark"] .timeline-cup.profiles-color .age-color-6 {
+    background-color: #dd7878;
+}
+html[data-theme="dark"] .timeline-cup.profiles-color .age-color-6:hover, html[data-theme="dark"] .timeline-cup.profiles-color .age-color-5:hover, html[data-theme="dark"] .timeline-cup.profiles-color .age-color-4:hover, html[data-theme="dark"] .timeline-cup.profiles-color .age-color-3:hover, html[data-theme="dark"] .timeline-cup.profiles-color .age-color-2:hover, html[data-theme="dark"] .timeline-cup.profiles-color .age-color-1:hover {
+    color: #286ede !important;
+    border-color: #286ede;
+}
+
+html[data-theme="dark"] .timeline__more-tables-body li::before {
+    color: rgba(47, 111, 200, 0.85);
+}
+html[data-theme="dark"] .timeline__more-tables-body li.active::before {
+    color: #7b7b7b;
+}
+html[data-theme="dark"] .timeline-cup__table-comments-tables-recommend-list a::before {
+    border-color: #8ab4f8;
+}
+html[data-theme="dark"] .timeline-cup__table-comments-tables-recommend-list a:hover::before {
+    background-color: #8ab4f8;
+}
+
+
+
+
+
+
+
+
+html[data-theme="Black"] .timeline-cup, html[data-theme="Black"] .timeline__more-tables {
+    background-color: #121212;
+    color: #c9ccd0;
+}
+html[data-theme="Black"] .circle-element-for-cup, html[data-theme="Black"] .table-title {
+    background-color: #121212;
+}
+html[data-theme="Black"] .timeline-cup__head span:nth-child(1), html[data-theme="Black"] .table-title {
+    color: #c9ccd0;
+}
+html[data-theme="Black"] .timeline-cup {
+    box-shadow: 0px 5px 24px rgba(32,60,87,0.11);
+    border: 1px solid #292a2c;
+}
+html[data-theme="Black"] .timeline-cup:not(.mix) .timeline-cup-table-title tr:first-child td {
+    color: #326bb3;
+}
+html[data-theme="Black"] .table-compare-exemple-2 .compare-icon-2::before, html[data-theme="Black"] .table-compare-exemple-4 .compare-icon-2::before, html[data-theme="Black"] .timeline__more-tables-body li.active, html[data-theme="Black"] .compare-icon::before, html[data-theme="Black"] .points-button-stars::before, html[data-theme="Black"] .points-button-stars-2::before, html[data-theme="Black"] .timeline-cup-table tbody tr:nth-child(1) {
+    color: #a4a6a7;
+}
+
+html[data-theme="Black"] .timeline-cup__list li {
+    background-color: #0e1721;
+    color: #6688c0;
+    outline: 1px solid #122b4d;
+}
+html[data-theme="Black"] .timeline-cup__another-competitions span {
+    border-color: #122b4d;
+}
+html[data-theme="Black"] .timeline-cup__list li:hover {
+    background-color: #122b4d;
+}
+html[data-theme="Black"] .timeline-cup__another-competitions span::before {
+    background-color: #122b4d;
+}
+html[data-theme="Black"] .timeline-cup__another-competitions span:hover {
+    border-color: #122b4d;
+}
+html[data-theme="Black"] .timeline-cup__list li.active {
+    background-color: #173660;
+}
+html[data-theme="Black"] .timeline-cup__another-competitions .active {
+    background-color: #173660;
+    border-color: #173660;
+}
+html[data-theme="Black"] .timeline-cup__another-competitions a:hover {
+    color: #6688c0 !important;
+}
+html[data-theme="Black"] .table-button-earlier-1, html[data-theme="Black"] .table-button-earlier-2, html[data-theme="Black"] .table-button-now-1, html[data-theme="Black"] .table-button-now-2, html[data-theme="Black"] .points-button, html[data-theme="Black"] .points-button-2 {
+    color: #6688c0;
+}
+html[data-theme="Black"] .points-button:hover, html[data-theme="Black"] .points-button-2:hover, html[data-theme="Black"] .points-button-td:hover .points-button-stars::before, html[data-theme="Black"] .points-button-td-2:hover .points-button-stars-2::before {
+    color: #93bbff;
+}
+html[data-theme="Black"] .age-button-svg path, html[data-theme="Black"] .legend-icon, html[data-theme="Black"] .people-group, html[data-theme="Black"] .recommend-icon {
+    fill: #265591;
+}
+html[data-theme="Black"] .timeline__more-tables-body svg {
+    fill: #101a25;
+}
+html[data-theme="Black"] .timeline-cup__table-comments-tables-recommend, html[data-theme="Black"] .timeline-cup-table tbody tr:nth-child(2n), html[data-theme="Black"] .timeline-cup__footer-legend-title, html[data-theme="Black"] .timeline-cup__footer-legend-title-2 {
+    background-color: #0e1721;
+}
+html[data-theme="Black"] .circle-element-for-cup {
+    border-color: #0e1721;
+}
+html[data-theme="Black"] .table-button::before {
+    background-color: #173660;
+}
+html[data-theme="Black"] .table-title {
+    border-color: #173660;
+}
+html[data-theme="Black"] .table-button-now-1:hover, html[data-theme="Black"] .table-button-now-2:hover, html[data-theme="Black"] .table-button-earlier-1:hover, html[data-theme="Black"] .table-button-earlier-2:hover {
+    box-shadow: inset 0px 0px 0px 1px #173660;
+}
+html[data-theme="Black"] .timeline-cup-table tbody tr:not(:first-child, .active):hover td {
+    background-color: #413e2c;
+}
+html[data-theme="Black"] .chosen-string.active {
+    box-shadow: 0 0 0 1px #202124;
+    background-color: #452435 !important;
+}
+html[data-theme="Black"] .green.square::before, html[data-theme="Black"] .triangle::before, html[data-theme="Black"] .timeline-cup-table .green {
+    color: #156d11;
+}
+html[data-theme="Black"] .triangle-down::before, html[data-theme="Black"] .red.square::before {
+    color: #a40000;
+}
+html[data-theme="Black"] .table-circle::before {
+    color: #c8a900;
+}
+html[data-theme="Black"] .based-table tr:not(:first-child) .points-button-td::before, html[data-theme="Black"] .based-table tr:not(:first-child) .points-button-td-2::before {
+    background-color: #292a2c;
+}
+html[data-theme="Black"] .timeline__more-tables-body li::before {
+    color: rgba(47, 114, 200, 0.7);
+}
+html[data-theme="Black"] .timeline__more-tables-body li.active::before {
+    color: #626262;
+}
+html[data-theme="Black"] .timeline-cup__table-comments-tables-recommend-list a::before {
+    border: 1px solid #6688c0;
+}
+html[data-theme="Black"] .timeline-cup__table-comments-tables-recommend-list a:hover::before {
+    background-color: #6688c0;
+}
+
+
+html[data-theme="Black"] .age-legend-3, html[data-theme="Black"] .timeline-cup.profiles-color .age-color-3, html[data-theme="Black"] .age-legend-2, html[data-theme="Black"] .timeline-cup.profiles-color .age-color-2, html[data-theme="Black"] .age-legend-1, html[data-theme="Black"] .timeline-cup.profiles-color .age-color-1, html[data-theme="Black"] .age-legend-4, html[data-theme="Black"] .timeline-cup.profiles-color .age-color-4, html[data-theme="Black"] .timeline-cup.profiles-color .age-color-5, html[data-theme="Black"] .age-legend-5, html[data-theme="Black"] .timeline-cup.profiles-color .age-color-6, html[data-theme="Black"] .age-legend-6 {
+    color: #12151a;
+}
+html[data-theme="Black"] .age-legend-1, html[data-theme="Black"] .timeline-cup.profiles-color .age-color-1 {
+    background-color: #99c099;
+}
+html[data-theme="Black"] .timeline-cup.profiles-color .age-button-svg path:nth-child(1), html[data-theme="Black"] .age-legend-2, html[data-theme="Black"] .timeline-cup.profiles-color .age-color-2 {
+    background-color: #65ad65;
+}
+html[data-theme="Black"] .age-legend-3, html[data-theme="Black"] .timeline-cup.profiles-color .age-color-3 {
+    background-color: #afaf86;
+}
+html[data-theme="Black"] .timeline-cup.profiles-color .age-button-svg path:nth-child(4), html[data-theme="Black"] .age-legend-4, html[data-theme="Black"] .timeline-cup.profiles-color .age-color-4 {
+    background-color: #a5a550;
+}
+html[data-theme="Black"] .timeline-cup.profiles-color .age-color-5, html[data-theme="Black"] .age-legend-5 {
+    background-color: #ba8787;
+}
+html[data-theme="Black"] .timeline-cup.profiles-color .age-button-svg path:nth-child(3), html[data-theme="Black"] .age-legend-6, html[data-theme="Black"] .timeline-cup.profiles-color .age-color-6 {
+    background-color: #b56363;
+}
+html[data-theme="Black"] .timeline-cup.profiles-color .age-color-6:hover, html[data-theme="Black"] .timeline-cup.profiles-color .age-color-5:hover, html[data-theme="Black"] .timeline-cup.profiles-color .age-color-4:hover, html[data-theme="Black"] .timeline-cup.profiles-color .age-color-3:hover, html[data-theme="Black"] .timeline-cup.profiles-color .age-color-2:hover, html[data-theme="Black"] .timeline-cup.profiles-color .age-color-1:hover {
+    color: #286ede !important;
+    border-color: #286ede;
+}
+
+
+
+
+
+
+
+html[data-theme="summer"] .timeline-cup, html[data-theme="summer"] .timeline__more-tables {
+    background-color: #fffdf8;
+}
+html[data-theme="summer"] .circle-element-for-cup, html[data-theme="summer"] .table-title {
+    background-color: #fffdf8;
+}
+html[data-theme="summer"] .timeline-cup {
+    box-shadow: 0px 5px 24px rgba(32,60,87,0.11);
+}
+html[data-theme="summer"] .timeline-cup:not(.mix) .timeline-cup-table-title tr:first-child td {
+    color: #e99e00;
+}
+
+html[data-theme="summer"] .timeline-cup__list li {
+    background-color: #fff2d5;
+    color: #348232;
+    outline: 1px solid #ffe4a4;
+}
+html[data-theme="summer"] .timeline__more-tables-body a, html[data-theme="summer"] .points-button, html[data-theme="summer"] .timeline-cup__another-competitions a, html[data-theme="summer"] .timeline-cup a {
+    color: #348232;
+}
+html[data-theme="summer"] .timeline-cup a:hover, html[data-theme="summer"] .points-button:hover, html[data-theme="summer"] .timeline__more-tables-body a:hover {
+    color: #63b961 !important;
+    border-color: #63b961;
+}
+html[data-theme="summer"] .timeline-cup__another-competitions a:hover {
+    color: #348232 !important;
+}
+html[data-theme="summer"] .table-button-earlier-1, html[data-theme="summer"] .table-button-earlier-2, html[data-theme="summer"] .table-button-now-1, html[data-theme="summer"] .table-button-now-2, html[data-theme="summer"] .points-button, html[data-theme="summer"] .points-button-2 {
+    color: #348232;
+}
+html[data-theme="summer"] .points-button:hover, html[data-theme="summer"] .points-button-2:hover, html[data-theme="summer"] .points-button-td:hover .points-button-stars::before, html[data-theme="summer"] .points-button-td-2:hover .points-button-stars-2::before {
+    color: #63b961;
+}
+html[data-theme="summer"] .timeline-cup__another-competitions span {
+    border-color: #ffe4a4;
+}
+html[data-theme="summer"] .timeline-cup__list li:hover {
+    background-color: #ffedc3;
+}
+html[data-theme="summer"] .timeline-cup__another-competitions span::before {
+    background-color: #ffedc3;
+}
+html[data-theme="summer"] .timeline-cup__another-competitions span:hover {
+    border-color: #ffedc3;
+}
+html[data-theme="summer"] .timeline-cup__list li.active {
+    background-color: #ffe4a4;
+}
+html[data-theme="summer"] .timeline-cup__another-competitions .active {
+    background-color: #ffe4a4;
+    border-color: #ffe4a4;
+}
+html[data-theme="summer"] .age-button-svg path, html[data-theme="summer"] .legend-icon, html[data-theme="summer"] .people-group, html[data-theme="summer"] .recommend-icon {
+    fill: rgb(101, 192, 99);
+}
+html[data-theme="summer"] .timeline__more-tables-body svg {
+    fill: #fff6e0;
+}
+html[data-theme="summer"] .timeline-cup__table-comments-tables-recommend, html[data-theme="summer"] .timeline-cup-table tbody tr:nth-child(2n), html[data-theme="summer"] .timeline-cup__footer-legend-title, html[data-theme="summer"] .timeline-cup__footer-legend-title-2 {
+    background-color: #fff2d5;
+}
+html[data-theme="summer"] .circle-element-for-cup {
+    border-color: #fff2d5;
+}
+html[data-theme="summer"] .table-button::before {
+    background-color: #ffedc3;
+}
+html[data-theme="summer"] .table-title {
+    border-color: #ffedc3;
+}
+html[data-theme="summer"] .table-button-now-1:hover, html[data-theme="summer"] .table-button-now-2:hover, html[data-theme="summer"] .table-button-earlier-1:hover, html[data-theme="summer"] .table-button-earlier-2:hover {
+    box-shadow: inset 0px 0px 0px 1px #ffedc3;
+}
+html[data-theme="summer"] .timeline-cup-table tbody tr:not(:first-child, .active):hover td {
+    background-color: #efe8ba;
+    background-color: #d1f5d1;
+}
+html[data-theme="summer"] .chosen-string.active {
+    box-shadow: 0 0 0 1px #fffdf8;
+    background-color: #fbd2e7 !important;
+}
+html[data-theme="summer"] .timeline__more-tables-body li::before {
+    color: rgb(101, 192, 99);
+}
+html[data-theme="summer"] .timeline__more-tables-body .active::before {
+    color: #8d8d8d;
+}
+html[data-theme="summer"] .timeline-cup__table-comments-tables-recommend-list a::before {
+    border: 1px solid #63b961;
+}
+html[data-theme="summer"] .timeline-cup__table-comments-tables-recommend-list a:hover::before {
+    background-color: #63b961;
+}
+html[data-theme="summer"] .timeline-cup__select-body select {
+    outline-color: #dbd6cc;
+}
+html[data-theme="summer"] .timeline-cup__select-body select:hover {
+    outline-color: #d5c9b1;
+}
+html[data-theme="summer"] .based-table tr:not(:first-child) .points-button-td::before, html[data-theme="summer"] .based-table tr:not(:first-child) .points-button-td-2::before {
+    background-color: #dbd6cc;
+}
+
+
+
+
+
+
+
+html[data-theme="grey"] .timeline-cup, html[data-theme="grey"] .timeline__more-tables, html[data-theme="grey"] .timeline-cup__head span:nth-child(1), html[data-theme="grey"] .table-title {
+    color: #1e1e1e;
+}
+html[data-theme="grey"] .timeline-cup:not(.mix) .timeline-cup-table-title tr:first-child td {
+    color: #648099;
+}
+html[data-theme="grey"] .timeline__more-tables-body li.active, html[data-theme="grey"] .points-button-stars::before, html[data-theme="grey"] .points-button-stars-2::before, html[data-theme="grey"] .timeline-cup-table tbody tr:nth-child(1) {
+    color: #7e7e7e;
+}
+html[data-theme="grey"] .table-compare-exemple-2 .compare-icon-2::before, html[data-theme="grey"] .table-compare-exemple-4 .compare-icon-2::before, html[data-theme="grey"] .compare-icon::before, html[data-theme="grey"] .points-button-stars::before, html[data-theme="grey"] .points-button-stars-2::before {
+    color: #9b9b9b;
+}
+html[data-theme="grey"] .timeline-cup__list li {
+    background-color: #eeeeee;
+    color: #2f5278;
+    outline: 1px solid #dadada;
+}
+html[data-theme="grey"] .timeline-cup__another-competitions span {
+    border-color: #dadada;
+}
+html[data-theme="grey"] .timeline-cup__list li:hover {
+    background-color: #e4e4e4;
+}
+html[data-theme="grey"] .timeline-cup__another-competitions span::before {
+    background-color: #e4e4e4;
+}
+html[data-theme="grey"] .timeline-cup__another-competitions span:hover {
+    border-color: #e4e4e4;
+}
+html[data-theme="grey"] .timeline-cup__list li.active {
+    background-color: #dadada;
+}
+html[data-theme="grey"] .timeline-cup__another-competitions .active {
+    background-color: #dadada;
+    border-color: #dadada;
+}
+html[data-theme="grey"] .timeline-cup__another-competitions a:hover {
+    color: #2f5278 !important;
+}
+html[data-theme="grey"] .table-button-earlier-1, html[data-theme="grey"] .table-button-earlier-2, html[data-theme="grey"] .table-button-now-1, html[data-theme="dark"] .table-button-now-2, html[data-theme="grey"] .points-button, html[data-theme="grey"] .points-button-2 {
+    color: #2f5278;
+}
+html[data-theme="grey"] .points-button:hover, html[data-theme="grey"] .points-button-2:hover {
+    color: #73abd2;
+}
+html[data-theme="grey"] .age-button-svg path, html[data-theme="grey"] .legend-icon, html[data-theme="grey"] .people-group, html[data-theme="grey"] .recommend-icon {
+    fill: rgba(98, 129, 157, 0.75);
+}
+html[data-theme="grey"] .timeline__more-tables-body svg {
+    fill: #edf1f4;
+}
+html[data-theme="grey"] .timeline-cup__table-comments-tables-recommend, html[data-theme="grey"] .timeline-cup-table tbody tr:nth-child(2n), html[data-theme="grey"] .timeline-cup__footer-legend-title, html[data-theme="grey"] .timeline-cup__footer-legend-title-2 {
+    background-color: #eeeeee;
+}
+html[data-theme="grey"] .circle-element-for-cup {
+    border-color: #eeeeee;
+}
+html[data-theme="grey"] .table-button::before {
+    background-color: #e4e4e4;
+}
+html[data-theme="grey"] .table-title {
+    border-color: #e4e4e4;
+}
+html[data-theme="grey"] .table-button-now-1:hover, html[data-theme="grey"] .table-button-now-2:hover, html[data-theme="grey"] .table-button-earlier-1:hover, html[data-theme="grey"] .table-button-earlier-2:hover {
+    box-shadow: inset 0px 0px 0px 1px #e4e4e4;
+}
+/* html[data-theme="dark"] .timeline-cup-table tbody tr:not(:first-child, .active):hover td {
+    background-color: #585750;
+} */
+html[data-theme="grey"] .chosen-string.active {
+    box-shadow: 0 0 0 1px #fff;
+    background-color: #fbd2e7 !important;
+}
+html[data-theme="grey"] .green.square::before, html[data-theme="grey"] .triangle::before, html[data-theme="grey"] .timeline-cup-table .green {
+    color: #50ae4b;
+}
+html[data-theme="grey"] .triangle-down::before, html[data-theme="grey"] .red.square::before {
+    color: #ee3232;
+}
+/* html[data-theme="grey"] .table-circle::before {
+    color: #e3c000;
+} */
+
+html[data-theme="grey"] .based-table tr:not(:first-child) .points-button-td::before, html[data-theme="grey"] .based-table tr:not(:first-child) .points-button-td-2::before {
+    background-color: #dfdfdf;
+}
+/* html[data-theme="dark"] .age-legend-3, html[data-theme="dark"] .timeline-cup.profiles-color .age-color-3, html[data-theme="dark"] .age-legend-2, html[data-theme="dark"] .timeline-cup.profiles-color .age-color-2, html[data-theme="dark"] .age-legend-1, html[data-theme="dark"] .timeline-cup.profiles-color .age-color-1, html[data-theme="dark"] .age-legend-4, html[data-theme="dark"] .timeline-cup.profiles-color .age-color-4, html[data-theme="dark"] .timeline-cup.profiles-color .age-color-5, html[data-theme="dark"] .age-legend-5, html[data-theme="dark"] .timeline-cup.profiles-color .age-color-6, html[data-theme="dark"] .age-legend-6 {
+    color: #12151a;
+} */
+html[data-theme="grey"] .age-legend-1, html[data-theme="grey"] .timeline-cup.profiles-color .age-color-1 {
+    background-color: #b8e9b8;
+    background-color: #c1edc1;
+}
+html[data-theme="grey"] .timeline-cup.profiles-color .age-button-svg path:nth-child(1), html[data-theme="grey"] .age-legend-2, html[data-theme="grey"] .timeline-cup.profiles-color .age-color-2 {
+    background-color: #7bd27b;
+    background-color: #8aed8a;
+}
+html[data-theme="grey"] .age-legend-3, html[data-theme="grey"] .timeline-cup.profiles-color .age-color-3 {
+    background-color: #d8d8a4;
+    background-color: #eeeebe;
+}
+html[data-theme="grey"] .timeline-cup.profiles-color .age-button-svg path:nth-child(4), html[data-theme="grey"] .age-legend-4, html[data-theme="grey"] .timeline-cup.profiles-color .age-color-4 {
+    background-color: #caca61;
+    background-color: #ecec6e;
+}
+html[data-theme="grey"] .timeline-cup.profiles-color .age-color-5, html[data-theme="grey"] .age-legend-5 {
+    background-color: #e0a2a2;
+    background-color: #edc6c6;
+}
+html[data-theme="grey"] .timeline-cup.profiles-color .age-button-svg path:nth-child(3), html[data-theme="grey"] .age-legend-6, html[data-theme="grey"] .timeline-cup.profiles-color .age-color-6 {
+    background-color: #dd7878;
+    background-color: #ef9595;
+}
+html[data-theme="grey"] .timeline-cup.profiles-color .age-color-6:hover, html[data-theme="grey"] .timeline-cup.profiles-color .age-color-5:hover, html[data-theme="grey"] .timeline-cup.profiles-color .age-color-4:hover, html[data-theme="grey"] .timeline-cup.profiles-color .age-color-3:hover, html[data-theme="grey"] .timeline-cup.profiles-color .age-color-2:hover, html[data-theme="grey"] .timeline-cup.profiles-color .age-color-1:hover {
+    color: #286ede !important;
+    border-color: #286ede;
+}
+
+html[data-theme="grey"] .timeline__more-tables-body li::before {
+    color: rgba(98, 129, 157, 0.75);
+}
+html[data-theme="grey"] .timeline__more-tables-body li.active::before {
+    color: #9b9b9b;
+}
+
+html[data-theme="grey"] .timeline-cup__table-comments-tables-recommend-list a::before {
+    border-color: #73abd2;
+}
+html[data-theme="grey"] .timeline-cup__table-comments-tables-recommend-list a:hover::before {
+    background-color: #73abd2;
 }

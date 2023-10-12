@@ -1,0 +1,424 @@
+#tippy-16 {
+    width: auto;
+}
+#tippy-16 .tippy-content {
+    overflow: hidden;
+}
+#tippy-16 ul li a {
+    color: black !important;
+    font-size: 13.5px !important;
+    text-transform: none !important;
+    padding: 0px 10px 0px 10px !important;
+    transition: 0s !important;
+    text-shadow: none !important;
+    width: 100%;
+    display: flex;
+}
+#tippy-16 ul li:last-of-type a {
+    border-bottom: none !important;
+}
+  
+#tippy-16 ul li::before, #tippy-16 ul li::after {
+    display: none !important;
+}
+  
+#tippy-16 ul li a:hover {
+    background-color: #ecf5fb;
+}
+#tippy-16 ul li {
+    white-space: nowrap;
+    line-height: 33px;
+}
+#tippy-16 ul li:last-of-type {
+    white-space: nowrap;
+    line-height: 33px;
+}
+#tippy-16 ul li:last-of-type a, #tippy-16 ul li:last-of-type a::before {
+    color: red !important;
+   }
+#tippy-16 ul li:first-of-type a::before {
+    content: "\e016";
+    font-family: 'icomoon';
+    margin-right: 7px;
+    font-size: 13px;
+    color: #81aad5;
+}
+#tippy-16 ul li:nth-child(2) a::before {
+    content: "\e015";
+    font-family: 'icomoon';
+    margin-right: 7px;
+    font-size: 13px;
+    color: #81aad5;
+}
+#tippy-16 ul li:last-of-type a::before {
+    content: "\e9b";
+    font-family: 'icomoon';
+    margin-right: 7px;
+    font-size: 13px;
+    color: #81aad5;
+}
+
+.timeline-tournament {
+    padding: 2em 1.5em 2em 1.5em;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0px 5px 24px rgba(32,60,87,0.11);
+    overflow-x: hidden;
+}
+.timeline-tournament__head {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2em;
+    position: relative;
+    gap: 15px 25px;
+}
+.timeline__date {
+    align-items: flex-start;
+    margin-top: 5px;
+}
+.timeline-tournament__head > span:nth-child(1) {
+    font-size: 1.3em;
+    color: black;
+    font-weight: 700;
+}
+.timeline-tournament__menu {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2em;
+}
+.tournament-menu__body {
+    display: inline-flex;
+    flex-wrap: wrap;
+    gap: 10px 7px;
+    justify-content: center;
+}
+.timeline-tournament__menu a {
+    display: inline-block;
+    width: fit-content;
+    padding: 7px 13px;
+    background-color: #e7f3fa;
+    white-space: nowrap;
+    border-radius: 33px;
+    transition: all .3s ease;
+    -webkit-tap-highlight-color: transparent;
+
+}
+.timeline-tournament__menu a.active {
+    background-color: #c0e5fb;
+}
+.timeline-tournament__content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 2em;
+    gap: 2em 30px;
+}
+
+.timeline-tournament__content-title {
+    display: flex;
+    color: #1f7ec4;
+    font-size: 1.2em;
+    margin-bottom: .9em;
+    justify-content: center;
+}
+.timeline-tournament__content-team label:not(.checkbox-group .label-for-allow-messages) {
+    display: flex;
+    position: relative;
+}
+.timeline-tournament__content-team .input-text, .input-text-2 {
+    padding: 0 20px 0 43px;
+    height: 33px;
+    transition: all .3s ease;
+    width: 100%;
+}
+.timeline-tournament__content-team input, .input-text-2 {
+    border-radius: 33px;
+    max-width: 250px;
+}
+.timeline-tournament__content-team {
+    min-width: 250px;
+    margin: 0 auto;
+}
+.input-text, .input-text-2 {
+    border: 1px solid #d0d9dd;
+}
+.icon {
+    position: absolute;
+    width: 33px;
+    height: 33px;
+    bottom: 0;
+    left: 0;
+    background-color: #bfc6ca;
+    border-radius: 33px;
+    transition: all .4s ease-in-out;
+}
+.team-icon, .slogan-icon, .communication-icon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    fill: white;
+}
+.team-icon {
+    width: 20px;
+    height: 20px;
+}
+.slogan-icon {
+    width: 18px;
+    height: 18px;
+}
+.communication-icon {
+    width: 16px;
+    height: 16px;
+}
+.timeline-tournament__title-block {
+    display: flex;
+    width: 100%;
+    margin: 0 0 5px 0;
+}
+.timeline-tournament__title-block:not(:first-child) {
+    margin-top: 2em;
+}
+input:focus::placeholder, .input-text-2:focus::placeholder {
+    color: transparent;
+ }
+.timeline-tournament__content-team .input-text:focus, .input-text-2:focus {
+    border-color: #bfc6ca;
+}
+.input-text:focus ~ .icon, .input-text-2:focus ~ .icon {
+    border-radius: 33px 0 0 33px;
+}
+.timeline-tournament__logo {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.timeline-tournament__logo-image {
+    width: 42.5px;
+    height: 42.5px;
+}
+.timeline-tournament__logo-image img {
+    width: 100%;
+}
+.timeline-tournament__logo-upload {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.timeline-tournament__logo-upload span {
+    color: #5d5d5d;
+}
+.timeline-tournament__logo-upload-button {
+    padding: 5.9px 15px;
+    background-color: #e7f3fa;
+    transition: all .3s ease;
+    cursor: pointer;
+}
+.timeline-tournament__team-button {
+    padding: 8.5px 15px;
+    cursor: pointer;
+    background-color: #e7f3fa;
+    color: #002b71;
+    transition: all .3s ease;
+    margin-top: 2em;
+}
+
+.timeline-tournament__content-table-wrapper {
+    border-collapse: collapse;
+    width: 100%;
+}
+.timeline-tournament__content-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+.timeline-tournament__content-table tr td {
+    padding: 4.8px 7px;
+}
+.timeline-tournament__content-table tr:nth-child(2n) {
+    background-color: #e7f3fa;
+}
+.timeline-tournament__content-table tr:first-child td {
+    color: #5d5d5d;
+}
+.td-row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 7px;
+}
+.td-row a {
+    overflow-wrap: anywhere;
+}
+.td-avatar {
+    display: flex;
+    width: 42.5px;
+    height: 42.5px;
+    min-width: 42.5px;
+    min-height: 42.5px;
+    position: relative;
+    scale: 1;
+}
+.td-avatar img {
+    width: 100%;
+}
+
+
+
+.checkbox-group {
+    display: flex;
+    flex-direction: row;
+    /* margin-top: 0.5em; */
+    align-items: center;
+    justify-content: center;
+}
+.checkbox-group #allow-messages:checked + .label-for-allow-messages::after, .checkbox-group #allow-messages2:checked + .label-for-allow-messages::after, .checkbox-group #allow-messages3:checked + .label-for-allow-messages::after, .checkbox-group #allow-messages4:checked + .label-for-allow-messages::after, .checkbox-group #allow-messages5:checked + .label-for-allow-messages::after, .checkbox-group #allow-messages6:checked + .label-for-allow-messages::after, .checkbox-group #allow-messages7:checked + .label-for-allow-messages::after, .checkbox-group #allow-messages8:checked + .label-for-allow-messages::after, .checkbox-group #allow-messages9:checked + .label-for-allow-messages::after, .checkbox-group #allow-messages10:checked + .label-for-allow-messages::after, .checkbox-group #allow-messages11:checked + .label-for-allow-messages::after, .checkbox-group #allow-messages12:checked + .label-for-allow-messages::after, .checkbox-group #allow-messages13:checked + .label-for-allow-messages::after, .checkbox-group #allow-messages14:checked + .label-for-allow-messages::after, .checkbox-group #allow-messages15:checked + .label-for-allow-messages::after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 6px;
+    left: 10px;
+    width: 7px;
+    height: 14px;
+    border: solid #679bcd;
+    border-width: 0 3px 3px 0;
+    transform: rotate(45deg);
+}
+.checkbox-group #allow-messages:checked + .label-for-allow-messages::before, .checkbox-group #allow-messages2:checked + .label-for-allow-messages::before, .checkbox-group #allow-messages3:checked + .label-for-allow-messages::before, .checkbox-group #allow-messages4:checked + .label-for-allow-messages::before, .checkbox-group #allow-messages5:checked + .label-for-allow-messages::before, .checkbox-group #allow-messages6:checked + .label-for-allow-messages::before, .checkbox-group #allow-messages7:checked + .label-for-allow-messages::before, .checkbox-group #allow-messages8:checked + .label-for-allow-messages::before, .checkbox-group #allow-messages9:checked + .label-for-allow-messages::before, .checkbox-group #allow-messages10:checked + .label-for-allow-messages::before, .checkbox-group #allow-messages11:checked + .label-for-allow-messages::before, .checkbox-group #allow-messages12:checked + .label-for-allow-messages::before, .checkbox-group #allow-messages13:checked + .label-for-allow-messages::before, .checkbox-group #allow-messages14:checked + .label-for-allow-messages::before, .checkbox-group #allow-messages15:checked + .label-for-allow-messages::before {
+    border-color: #c0e5fb;
+}
+.checkbox-group .label-for-allow-messages::before {
+    content: '';
+    -webkit-appearance: none;
+    background-color: #fff;
+    padding: 13.6px;
+    display: inline-block;
+    position: relative;
+    vertical-align: middle;
+    cursor: pointer;
+    border-radius: 50%;
+    transition: all .3s ease;
+    box-shadow: 0 1px 2px rgba(0,0,0,.5) inset, 0 -1px 0 rgba(0,0,0,.2) inset;
+}
+.checkbox-group .label-for-allow-messages {
+    position: relative;
+    cursor: pointer;
+    -webkit-tap-highlight-color: transparent;
+}
+.form-group label:not(.checkbox-group .label-for-allow-messages) {
+    display: flex;
+    position: relative;
+}
+.form-group input:not(.input-text) {
+    padding: 8.5px 10px 8.5px 10px;
+    height: fit-content;
+}
+.checkbox-group input {
+    padding: 0;
+    height: initial;
+    width: initial;
+    margin-bottom: 0;
+    display: none;
+    cursor: pointer;
+}
+.timeline-tournament__join-button {
+    margin-top: 2em;
+}
+.timeline-tournament__join-button input {
+    background-color: transparent;
+    padding: 6.9px 15px;
+    white-space: pre-wrap;
+    cursor: pointer;
+    border-radius: 33px;
+    border: 2px solid #c0e5fb;
+    color: #002b71;
+    transition: all .3s ease;
+    font-size: 1em;
+}
+.timeline-tournament__captcha {
+    display: flex;
+    flex-direction: column;
+}
+.timeline-send__discription label {
+    position: relative;
+    display: block;
+    max-width: 200px;
+    margin-top: 0.5em;
+}
+.login-registr-form {
+    height: 33px;
+    width: 100%;
+    border: 1px solid #d0d9dd;
+    border-radius: 33px;
+    margin-top: 10px;
+    padding: 0 10px 0 43px;
+    transition: all .4s ease-in-out;
+}
+.code-form-icon {
+    position: absolute;
+    width: 33px;
+    height: 33px;
+    bottom: 0;
+    left: 0;
+    background-color: #bfc6ca;
+    border-radius: 33px;
+    transition: all .4s ease-in-out;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.code-icon {
+    width: 19px;
+    height: 19px;
+    fill: white;
+}
+.login-registr-form:focus {
+    border-color: #bfc6ca;
+}
+.login-registr-form:focus ~ .code-form-icon {
+    border-radius: 33px 0 0 33px;
+}
+
+@media (hover: hover) {
+    .timeline-tournament__content-table tr:hover:not(:first-child) td {
+        background-color: #fffce5;
+    }
+    .timeline-tournament__menu a:hover:not(.active), .timeline-tournament__team-button:hover, .timeline-tournament__logo-upload-button:hover {
+        background-color: #d1ebfb;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    .timeline-tournament__content {
+        flex-wrap: wrap;
+    }
+    .timeline-tournament__content-team.one {
+        order: 2;
+    }
+    .timeline-tournament__content-team.two {
+        order: 1;
+    }
+}
+@media screen and (max-width: 992px) {
+    .timeline-tournament__content-team.one {
+        order: 1;
+    }
+    .timeline-tournament__content-team.two {
+        order: 2;
+    }
+}
+@media screen and (max-width: 700px) {
+    .timeline-tournament__content {
+        flex-direction: column;
+    }
+    .timeline-tournament__content-team.one {
+        order: 2;
+    }
+    .timeline-tournament__content-team.two {
+        order: 1;
+    }
+}
+@media screen and (max-width: 550px) {
+    .timeline-tournament {
+        padding: 2em 1.06em 2em 1.06em;
+    }
+}
