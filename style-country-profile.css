@@ -1087,7 +1087,7 @@
 .sportsmen-profile__table .table-padding-top-bottom td:first-child::before {
     content: '';
     position: absolute;
-    width: 1px;
+    width: 2px;
     top: 1px;
     bottom: 1px;
     left: 0;
