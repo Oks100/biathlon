@@ -58,14 +58,14 @@
     color: #81aad5;
 }
 
-.timeline-video {
+.timeline-tournament {
     padding: 2em 1.5em 2em 1.5em;
     background-color: #fff;
     border-radius: 8px;
     box-shadow: 0px 5px 24px rgba(32,60,87,0.11);
     overflow-x: hidden;
 }
-.timeline-video__head {
+.timeline-tournament__head {
     display: flex;
     justify-content: space-between;
     margin-bottom: 2em;
@@ -77,79 +77,79 @@
     align-items: flex-start;
     margin-top: 5px;
 }
-.timeline-video__head > span:nth-child(1) {
+.timeline-tournament__head > span:nth-child(1) {
     font-size: 1.3em;
     color: black;
     font-weight: 700;
 }
-.timeline-contacts__body table td {
-    vertical-align: top;
-    padding: 2.4px 15px;
-}
-.timeline-contacts__body table td:first-child {
-    padding: 2.4px 0;
-}
-.timeline-contacts__body-group:not(:last-child) {
+.timeline-tournament__menu {
+    display: flex;
+    justify-content: center;
     margin-bottom: 2em;
 }
-.timeline-contacts__body-title {
-    color: #1f7ec4;
-    font-size: 1.2em;
-    font-weight: 600;
-    margin-bottom: 0.75em;
+.tournament-menu__body {
+    display: inline-flex;
+    flex-wrap: wrap;
+    gap: 10px 7px;
+    justify-content: center;
 }
-.timeline-contacts__body-list li {
-    padding: 2.4px 0;
+.timeline-tournament__menu a {
+    display: inline-block;
+    width: fit-content;
+    padding: 7px 13px;
+    background-color: #e7f3fa;
+    white-space: nowrap;
+    border-radius: 33px;
+    transition: all .3s ease;
 }
-.timeline-ukraine-cup__body-title {
-    font-weight: 600;
-    font-size: 1.1em;
+.timeline-tournament__menu a.active {
+    background-color: #c0e5fb;
+}
+.timeline-tournament-discription {
     display: flex;
-    margin: 2em 0 0.5em 0;
+    justify-content: center;
+    margin-bottom: 2em;
 }
-.timeline-ukraine-cup-table-wrapper {
+.timeline__tournament-table-wrapper {
     overflow-x: auto;
 }
-.timeline-ukraine-cup-table {
+.timeline__tournament-table {
     border-collapse: collapse;
     width: 100%;
 }
-.timeline-ukraine-cup-table tr td {
+.timeline__tournament-table tr td {
     padding: 2.4px 7px;
 }
-.timeline-ukraine-cup-table tr td:first-child {
-    width: 84px;
-    color: #0e68ab;
-}
-.timeline-ukraine-cup-table tr:nth-child(2n+1) {
+.timeline__tournament-table tbody tr:nth-child(2n) {
     background-color: #e7f3fa;
 }
-.timeline__select-body {
-    display: flex;
-    justify-content: center;
+.timeline__tournament-table tr td:nth-child(3), .timeline__tournament-table tr td:nth-child(4), .timeline__tournament-table tr td:nth-child(5) {
+    text-align: center;
 }
-.timeline-calendar__select-season {
-    outline: 1px solid #d0d9dd;
-    border-radius: 3px;
-    transition: all .3s ease;
-    cursor: pointer;
-    margin-left: 7px;
-    padding: 5px 0 5px 5px;
+.timeline__tournament-table tbody tr:first-child td {
+    color: #5d5d5d;
+}
+.timeline-tournament-discription-footer {
+    display: block;
+    margin-top: 2em;
 }
 
 @media (hover: hover) {
-    .timeline-calendar__select-season:hover {
-        outline-color: #bfc6ca;
-    }
-    .timeline-ukraine-cup-table tr:hover {
+    .timeline__tournament-table tr:hover td {
         background-color: #fffce5;
+    }
+    .timeline-tournament__menu a:hover:not(.active) {
+        background-color: #d1ebfb;
     }
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 650px) {
+    .timeline__tournament-table tr td {
+        white-space: nowrap;
+    }
 }
 @media screen and (max-width: 550px) {
-    .timeline-video {
+    .timeline-tournament {
         padding: 2em 1.06em 2em 1.06em;
     }
 }
