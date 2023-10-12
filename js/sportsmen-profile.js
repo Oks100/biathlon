@@ -267,7 +267,7 @@ var myChart3 = new Chart(ctx, {
     plugins: {
       title: {
         display: true,
-        text: 'Индивидуальные результаты в сезоне 2021/2022',
+        text: 'Личные результаты в сезоне 2021/2022',
         color: '#1f7ec4',
         font: {
           size: 18,
@@ -893,7 +893,7 @@ var myChart10 = new Chart(ctx, {
   options: {
     scales: {
       r: {
-        beginAtZero: true,
+        // beginAtZero: true,
         suggestedMax: 100,
         reverse: true,
       },
@@ -972,7 +972,7 @@ var myChart11 = new Chart(ctx, {
   options: {
     scales: {
       r: {
-        beginAtZero: true,
+        // beginAtZero: true,
         suggestedMax: 100,
         reverse: true,
       },
@@ -1611,3 +1611,12 @@ for (var i = 0; i < inputCopyGroups.length; i++) {
     }
   });
 }
+
+
+
+
+$(document).ready(function(){
+  $('.sportsmen-profile__table-wrapper-text').click(function () {
+    $(this).closest('.sportsmen-profile__table-wrapper').removeClass('lock');
+  });
+});    

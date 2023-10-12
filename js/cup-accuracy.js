@@ -13,4 +13,3 @@
         this.classList.add('active');
       });
     }
-    

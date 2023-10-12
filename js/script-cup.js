@@ -1431,4 +1431,3 @@ $(document).ready(function(){
 		$('.sportsmen-votes__table').addClass('offdf');
 		});
 	});
-  

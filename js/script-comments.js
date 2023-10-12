@@ -545,7 +545,7 @@ $(document).ready(function(){
 
 
       $(document).ready(function(){
-        $('.timeline__item-comments-more-comments').click(function () {
+        $('.timeline__item-comments-more-comments span').click(function () {
             $('.timeline__item-comments-more-comments').addClass('hide');
             $('.timeline__item-comments-discussion').removeClass('hide');
             });
@@ -913,7 +913,6 @@ for(let i of textareass) {
 /* Продвинутое автоувеличение поля ввода*/
 
 
-
 /*Добавление/удаление класса при достижении конца скролла*/
 
 $('.toolbar-content').scroll(function() {
@@ -924,6 +923,7 @@ $('.toolbar-content').scroll(function() {
   $('.toolbar-list').removeClass('hide');
   }
   });
+/*Добавление/удаление класса при достижении конца скролла*/
 
 /* Спойлер кнопка в комментах */
 $(document).ready(function() {
