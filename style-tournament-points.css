@@ -109,6 +109,7 @@
     display: flex;
     justify-content: center;
     margin-bottom: 2em;
+    background-color: #d1ebfb;
 }
 .timeline__tournament-table-wrapper {
     overflow-x: auto;
