@@ -379,6 +379,9 @@ input:focus::placeholder, .input-text-2:focus::placeholder {
 }
 
 @media (hover: hover) {
+    .checkbox-group .label-for-allow-messages:hover::before {
+        background-color: #e3ffe3;
+    }
     .timeline-tournament__content-table tr:hover:not(:first-child) td {
         background-color: #fffce5;
     }

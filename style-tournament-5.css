@@ -243,6 +243,10 @@
     overflow: hidden;
     transition: all .3s ease;
 }
+.timeline__tournament-table tr td:last-child {
+    width: 60px;
+}
+
 
 @media (hover: hover) {
     .timeline__tournament-table-button:hover {
