@@ -1685,7 +1685,7 @@
     display: flex;
 }
 .sportsmen-profile__table-wrapper-text {
-    position: absolute;
+    position: sticky;
     left: 0;
     right: 0;
     bottom: 0;
@@ -1999,6 +1999,7 @@
     }
     .timeline-cup__footer-legend-title form span {
         display: inline-block;
+        margin-right: 4px;
     }
     .timeline-cup__footer-legend-title:not(.nullstyle) {
         margin-bottom: 3em;
