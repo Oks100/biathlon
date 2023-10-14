@@ -111,7 +111,7 @@
     flex-direction: row;
     justify-content: space-around;
     margin-top: 2em;
-    gap: 2em 30px;
+    gap: 3em 30px;
 }
 
 .timeline-tournament__content-title {
@@ -420,6 +420,10 @@ input:focus::placeholder, .input-text-2:focus::placeholder {
     }
     .timeline-tournament__content-team.two {
         order: 1;
+    }
+    .timeline-tournament__team-button-wrapper {
+        display: flex;
+        justify-content: center;
     }
 }
 @media screen and (max-width: 550px) {
