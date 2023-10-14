@@ -106,6 +106,7 @@
     border: 1px solid #dfedf4;
     border-radius: 8px;
     overflow: hidden;
+    -webkit-tap-highlight-color: transparent;
 }
 .timeline-stadiums__body-item-list li {
 
@@ -117,6 +118,7 @@
     display: flex;
     align-items: center;
     transition: all .3s ease;
+    -webkit-tap-highlight-color: transparent;
 }
 .timeline-stadiums__body-item-list-image {
     height: 100%;

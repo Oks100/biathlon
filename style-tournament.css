@@ -101,6 +101,7 @@
     white-space: nowrap;
     border-radius: 33px;
     transition: all .3s ease;
+    -webkit-tap-highlight-color: transparent;
 }
 .timeline-tournament__menu a.active {
     background-color: #c0e5fb;
@@ -190,6 +191,7 @@
     color: #002b71;
     transition: all .3s ease;
     font-size: 1em;
+    -webkit-tap-highlight-color: transparent;
 }
 
 @media (hover: hover) {

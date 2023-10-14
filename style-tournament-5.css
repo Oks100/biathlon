@@ -242,6 +242,7 @@
     position: relative;
     overflow: hidden;
     transition: all .3s ease;
+    -webkit-tap-highlight-color: transparent;
 }
 .timeline__tournament-table tr td:last-child {
     width: 60px;

@@ -213,6 +213,7 @@ input:focus::placeholder, .input-text-2:focus::placeholder {
     background-color: #e7f3fa;
     transition: all .3s ease;
     cursor: pointer;
+    -webkit-tap-highlight-color: transparent;
 }
 .timeline-tournament__team-button {
     padding: 8.5px 15px;
@@ -221,6 +222,7 @@ input:focus::placeholder, .input-text-2:focus::placeholder {
     color: #002b71;
     transition: all .3s ease;
     margin-top: 2em;
+    -webkit-tap-highlight-color: transparent;
 }
 
 .timeline-tournament__content-table-wrapper {
