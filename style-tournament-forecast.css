@@ -243,9 +243,12 @@
 .timeline-tournament__forecast-table thead tr:first-child td, .timeline-tournament__forecast-table-2 thead tr td {
     color: #5d5d5d;
 }
-.timeline-tournament__forecast-table tbody tr td:nth-child(2), .timeline-tournament__forecast-table-2 tr td:nth-child(3) {
+.timeline-tournament__forecast-table tbody tr td:nth-child(2), .timeline-tournament__forecast-table-2 tbody tr td:nth-child(3) {
     font-weight: 600;
     font-size: 0.95em;
+    padding-right: 0;
+}
+.timeline-tournament__forecast-table-2 thead tr td:nth-child(3) {
     padding-right: 0;
 }
 
