@@ -1850,40 +1850,6 @@
 .sportsmen-profile__table.achiv .td-column span:last-child {
     padding-top: 5px;
 }
-.gold.relay.alt::before, .gold.relay.alt::after, .bronze.relay.alt::before, .bronze.relay.alt::after {
-    content: none;
-}
-.gold.relay.alt, .bronze.alt {
-    background: none;
-    box-shadow: none;
-}
-.gold.relay.alt b {
-    display: flex;
-    width: 23px;
-    height: 23px;
-    /* background: radial-gradient(circle, rgb(255, 250, 221) 0%, rgb(246, 234, 167) 100%); */
-    background: rgb(246, 234, 167);
-    border-radius: 50%;
-    justify-content: center;
-    align-items: center;
-    border: 2px solid rgb(240, 210, 42);
-    font-size: 0.95em;
-}
-.bronze.alt b {
-    display: flex;
-    width: 23px;
-    height: 23px;
-    /* background: radial-gradient(circle, rgb(255, 239, 218) 0%, rgb(227, 212, 192) 100%); */
-    background: rgb(227, 212, 192);
-    border-radius: 50%;
-    justify-content: center;
-    align-items: center;
-    font-size: 0.95em;
-}
-.bronze.alt-2 b {
-    width: 33px;
-    height: 33px;
-}
 
 
 
