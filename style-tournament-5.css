@@ -183,13 +183,16 @@
     position: absolute;
     height: 12px;
     width: 12px;
-    border: 2px solid #e7f3fa;
+    border: 2px solid #fff;
     border-radius: 50%;
     background-color: #1bd212;
     right: 1px;
     top: 29px;
     scale: 1;
     z-index: 1;
+}
+.timeline__tournament-table tr:nth-child(2n) .logged {
+    border-color: #e7f3fa;
 }
 .td-avatar {
     display: flex;
@@ -247,7 +250,9 @@
 .timeline__tournament-table tr td:last-child {
     width: 60px;
 }
-
+.timeline__tournament-table.single tr td:nth-child(3) .td-avatar {
+    display: none;
+}
 
 @media (hover: hover) {
     .timeline__tournament-table-button:hover {

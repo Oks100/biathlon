@@ -114,6 +114,9 @@
     overflow-x: auto;
     margin-top: 1.5em;
 }
+.timeline__tournament-table tr td:nth-child(4) .td-avatar {
+    display: none;
+}
 .timeline__tournament-table tr td {
     padding: 4.8px 7px;
 }
@@ -170,13 +173,16 @@
     position: absolute;
     height: 12px;
     width: 12px;
-    border: 2px solid #e7f3fa;
+    border: 2px solid #fff;
     border-radius: 50%;
     background-color: #1bd212;
     right: 1px;
     top: 29px;
     scale: 1;
     z-index: 1;
+}
+.timeline__tournament-table tr:nth-child(2n) {
+    border-color: #e7f3fa;
 }
 .triangle-down::before {
     content: "\e924";

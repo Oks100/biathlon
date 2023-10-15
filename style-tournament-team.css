@@ -269,7 +269,6 @@ input[type="file"] {
     display: flex;
     flex-direction: row;
     gap: 2em 30px;
-    margin-top: 2em;
 }
 .timeline-tournament__team-container-title {
     display: block;

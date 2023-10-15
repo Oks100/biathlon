@@ -267,6 +267,9 @@
 .timeline__tournament-table .my-string td {
     background-color: #bfffbf;
 }
+.timeline__tournament-table tr td:nth-child(5) .td-avatar {
+    display: none;
+}
 .bonus-icon {
     width: 37px;
     height: 37px;

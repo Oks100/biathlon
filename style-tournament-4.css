@@ -152,7 +152,7 @@
     border-radius: 33px;
     transition: all .4s ease-in-out;
 }
-.team-icon, .slogan-icon, .communication-icon {
+.team-icon, .slogan-icon {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -166,10 +166,6 @@
 .slogan-icon {
     width: 18px;
     height: 18px;
-}
-.communication-icon {
-    width: 16px;
-    height: 16px;
 }
 .timeline-tournament__title-block {
     display: flex;
@@ -382,7 +378,7 @@ input:focus::placeholder, .input-text-2:focus::placeholder {
 
 @media (hover: hover) {
     .checkbox-group .label-for-allow-messages:hover::before {
-        background-color: #e3ffe3;
+        background-color: #e7f3fa;
     }
     .timeline-tournament__content-table tr:hover:not(:first-child) td {
         background-color: #fffce5;
