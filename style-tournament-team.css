@@ -153,6 +153,7 @@
 }
 .timeline-cup__footer-legend-title form span {
     display: none;
+    margin-right: 7px;
 }
 .timeline-cup__footer-legend-title select {
     border-radius: 3px;
