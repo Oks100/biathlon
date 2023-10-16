@@ -204,6 +204,7 @@ footer {
 .layer__chat-users-list li {
     padding: 1.3px 0;
     width: fit-content;
+    white-space: nowrap;
 }
 .layer__chat-users-list li span {
     cursor: pointer;
