@@ -993,7 +993,8 @@ html[data-theme="dark"] .table-button-now-1:hover, html[data-theme="dark"] .tabl
     box-shadow: inset 0px 0px 0px 1px #215994;
 }
 html[data-theme="dark"] .timeline-cup-table tbody tr:not(:first-child, .active):hover td {
-    background-color: #585750;
+    /* background-color: #585750; */
+    background-color: #383838;
 }
 html[data-theme="dark"] .chosen-string.active {
     box-shadow: 0 0 0 1px #202124;
@@ -1134,7 +1135,8 @@ html[data-theme="Black"] .table-button-now-1:hover, html[data-theme="Black"] .ta
     box-shadow: inset 0px 0px 0px 1px #173660;
 }
 html[data-theme="Black"] .timeline-cup-table tbody tr:not(:first-child, .active):hover td {
-    background-color: #413e2c;
+    /* background-color: #413e2c; */
+    background-color: #232219;
 }
 html[data-theme="Black"] .chosen-string.active {
     box-shadow: 0 0 0 1px #202124;
