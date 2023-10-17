@@ -9341,7 +9341,7 @@ html[data-theme="Black"] .guest-user.tab-password .timeline__item-comments-write
 html[data-theme="grey"] .header, html[data-theme="grey"] footer.footer {
   background-color: #4d6577;
 }
-html[data-theme="grey"] .timer__more-information:not(.last) a:hover, html[data-theme="grey"] main a:hover:not(.vertical-menu-block__link, .timeline__item-last-photos-head a, .last--comments-news-head a, .last--comments-news-body-discription-comments-number), html[data-theme="grey"] .comment-block__rumor:hover, html[data-theme="grey"] .icon.icon--left::before, html[data-theme="grey"] .icon.icon--right::before {
+html[data-theme="grey"] .timeline__item-comments-to-write-comments:hover, html[data-theme="grey"] .timer__more-information:not(.last) a:hover, html[data-theme="grey"] main a:hover:not(.vertical-menu-block__link, .timeline__item-last-photos-head a, .last--comments-news-head a, .last--comments-news-body-discription-comments-number), html[data-theme="grey"] .comment-block__rumor:hover, html[data-theme="grey"] .icon.icon--left::before, html[data-theme="grey"] .icon.icon--right::before {
   color: #73abd2;
   border-color: #73abd2;
 }
