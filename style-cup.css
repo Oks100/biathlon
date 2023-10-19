@@ -787,6 +787,7 @@ html[data-theme="grey"] #tippy-16 ul li a:hover {
     position: relative;
     z-index: 2;
     transition: all .4s ease;
+    -webkit-tap-highlight-color: transparent;
 }
 .timeline-cup__another-competitions a {
     padding: 2.9px 25px;
