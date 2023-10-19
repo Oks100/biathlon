@@ -1348,7 +1348,7 @@ html[data-theme="grey"] .timeline-cup__another-competitions .active {
 html[data-theme="grey"] .timeline-cup__another-competitions a:hover {
     color: #2f5278 !important;
 }
-html[data-theme="grey"] .table-button-earlier-1, html[data-theme="grey"] .table-button-earlier-2, html[data-theme="grey"] .table-button-now-1, html[data-theme="dark"] .table-button-now-2, html[data-theme="grey"] .points-button, html[data-theme="grey"] .points-button-2 {
+html[data-theme="grey"] .table-button-earlier-1, html[data-theme="grey"] .table-button-earlier-2, html[data-theme="grey"] .table-button-now-1, html[data-theme="grey"] .table-button-now-2, html[data-theme="grey"] .points-button, html[data-theme="grey"] .points-button-2 {
     color: #2f5278;
 }
 html[data-theme="grey"] .points-button:hover, html[data-theme="grey"] .points-button-2:hover {
