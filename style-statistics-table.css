@@ -211,6 +211,9 @@
     background-color: white;
     box-shadow: -2px 0 0 0 white;
 }
+.timeline-cup-statistics-table tbody tr:nth-last-child(2) td:not(:first-child) {
+    font-weight: 600;
+}
 .timeline-cup-statistics-table thead {
     position: sticky;
     top: 0;
