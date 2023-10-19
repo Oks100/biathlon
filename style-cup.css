@@ -791,6 +791,7 @@ html[data-theme="grey"] #tippy-16 ul li a:hover {
 }
 .timeline-cup__another-competitions a {
     padding: 2.9px 25px;
+    -webkit-tap-highlight-color: transparent;
 }
 .timeline-cup__another-competitions .active {
     border: 1px solid #d1ebfb;
