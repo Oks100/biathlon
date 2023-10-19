@@ -495,13 +495,9 @@ footer {
 }
 @media screen and (max-width: 750px) {
     .layer__chat-debates.links .layer__chat-debates-links::before {
-        /* background-image: none; */
         background-image: url(img/picture/bg-2.jpg);
-        opacity: 0.25;
+        opacity: 0.2;
     }
-    /* .layer__chat-debates.links .layer__chat-debates-links {
-        background-image: linear-gradient(rgba(19, 96, 151, 0.15), rgb(250, 210, 2, 0.15));
-    } */
 }
 @media screen and (max-width: 700px) {
     .layer__chat-users {
