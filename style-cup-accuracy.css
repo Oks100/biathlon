@@ -893,9 +893,11 @@ html[data-theme="grey"] #tippy-16 ul li a:hover {
     position: relative;
     z-index: 2;
     transition: all .4s ease;
+    -webkit-tap-highlight-color: transparent;
 }
 .timeline-cup__another-competitions a {
     padding: 2.9px 25px;
+    -webkit-tap-highlight-color: transparent;
 }
 .timeline-cup__another-competitions .active {
     background-color: #c0e5fb;
@@ -988,12 +990,6 @@ html[data-theme="grey"] #tippy-16 ul li a:hover {
         display: none;
     }
 }
-
-/* @media screen and (max-width: 1300px) {
-    .timeline-cup-table tbody tr td {
-        white-space: nowrap;
-}
-} */
 
 @media screen and (min-width: 993px) and (max-width: 1300px) {
     .timeline-cup-tables {
