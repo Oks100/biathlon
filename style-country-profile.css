@@ -1834,6 +1834,11 @@
 .top-season__table tbody tr:nth-child(2n+1) td:not(.td-season) {
     background-color: #e7f3fa;
 }
+
+
+
+
+
 @keyframes bg-color {
     from {
         background-color: rgb(180, 255, 176, 0.5);
