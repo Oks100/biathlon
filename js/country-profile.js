@@ -1188,6 +1188,104 @@ window.addEventListener('resize', function () {
 
 
 
+const skipped14 = (ctx, value) => ctx.p0.skip
+  || ctx.p1.skip ? value : undefined;
+const down14 = (ctx, value) => ctx.p0.parsed.y >
+  ctx.p1.parsed.y ? value : undefined;
+
+var ctx = document.getElementById('myChart14').getContext('2d');
+var myChart14 = new Chart(ctx, {
+  type: 'line',
+  data: {
+    labels: ['Сезон 92/93', 'Сезон 93/94', 'Сезон 94/95', 'Сезон 95/96', 'Сезон 96/97', 'Сезон 97/98', 'Сезон 98/99', 'Сезон 99/00', 'Сезон 00/01', 'Сезон 01/02', 'Сезон 02/03', 'Сезон 03/04', 'Сезон 04/05', 'Сезон 05/06', 'Сезон 06/07', 'Сезон 07/08', 'Сезон 08/09', 'Сезон 09/10', 'Сезон 10/11', 'Сезон 11/12', 'Сезон 12/13', 'Сезон 13/14', 'Сезон 14/15', 'Сезон 15/16', 'Сезон 16/17', 'Сезон 17/18', 'Сезон 18/19', 'Сезон 19/20', 'Сезон 20/21', 'Сезон 21/22', 'Сезон 22/23'],
+    datasets: [
+      {
+        label: 'Украина',
+        data: [1, 2, 2, 7, 7, 4, 21, 17, 11, 8, 2, 1, 0, 2, 3, 3, 3, 1, 3, 3, 11, 9, 7, 6, 2, 6, 2, 2, 3, 0, 0],
+        fill: 'start',
+        backgroundColor: 'rgba(255, 0, 0, 0.1)',
+        borderColor: 'rgba(255, 0, 0, 0.5)',
+        pointBackgroundColor: 'rgba(255, 0, 0, 1)',
+        tension: 0.3,
+        segment: {
+          borderColor: ctx => skipped4(ctx,
+            'rgba(255, 0, 0, 0.5)'),
+          borderDash: ctx => skipped4(ctx, [6, 6]),
+        },
+        spanGaps: true,
+      },
+      {
+        label: 'Италия',
+        data: [4, 7, 1, 0, 0, 0, 0, 2, 1, 0, 1, 0, 0, 1, 0, 4, 1, 0, 0, 0, 1, 1, 8, 13, 7, 9, 14, 9, 6, 5, 17],
+        fill: 'start',
+        backgroundColor: 'rgb(255, 147, 83, 0.1)',
+        borderColor: 'rgb(255, 147, 83, 0.5)',
+        pointBackgroundColor: 'rgb(255, 147, 83)',
+        tension: 0.3,
+        segment: {
+          borderColor: ctx => skipped4(ctx,
+            'rgb(255, 147, 83, 0.5)'),
+          borderDash: ctx => skipped4(ctx, [6, 6]),
+        },
+        spanGaps: true,
+      }
+    ]
+  },
+  options: {
+    plugins: {
+      title: {
+        display: true,
+        text: 'Количество медалей по сезонам',
+        color: '#1f7ec4',
+        font: {
+          size: 18,
+          family: 'Arial',
+        }
+      }
+    },
+    scales: {
+      y: {
+        responsive: true,
+        maintainAspectRatio: true,
+        // beginAtZero: true,
+      },
+      x: {
+        ticks: {
+          maxRotation: 0,
+          minRotation: 0,
+          display: false
+        }
+      }
+    }
+  },
+  animation: {
+    tension: {
+      duration: 2000,
+      easing: 'linear'
+    }
+  }
+});
+
+const chartSelect14 = document.getElementById('chartSelect14');
+chartSelect14.addEventListener('change', function () {
+  const selectedValue = chartSelect14.value;
+
+  if (selectedValue === 'dataset1') {
+    myChart14.data.datasets[1].data = [4, 7, 1, 0, 0, 0, 0, 2, 1, 0, 1, 0, 0, 1, 0, 4, 1, 0, 0, 0, 1, 1, 8, 13, 7, 9, 14, 9, 6, 5, 17];
+    myChart14.data.datasets[1].label = 'Италия';
+  } else if (selectedValue === 'dataset2') {
+    myChart14.data.datasets[1].data = [NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN];
+    myChart14.data.datasets[1].label = 'Конго';
+  }
+
+  myChart14.update();
+});
+
+
+window.addEventListener('resize', function () {
+  myChart14.resize();
+});
+
 
 
 
