@@ -1585,11 +1585,13 @@
     width: 21px;
     height: 21px;
     fill: #81aad5;
+    flex-shrink: 0;
 }
 .top10-icon-2 {
     width: 19px;
     height: 19px;
     fill: #81aad5;
+    flex-shrink: 0;
 }
 .star-icon {
     width: 16px;
