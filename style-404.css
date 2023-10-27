@@ -39,6 +39,7 @@
     white-space: nowrap;
     padding: 0 5px 0 23px;
     border-radius: 33px 0px 0px 33px;
+    -webkit-tap-highlight-color: transparent;
 }
 .layer__404_image_text_title {
     font-weight: 600;
