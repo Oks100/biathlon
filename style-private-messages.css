@@ -325,6 +325,9 @@
     gap: 5px;
     color: black;
 }
+.all-messages.red {
+    color: red;
+}
 .all-messages-icon {
     fill: #81aad5;
     height: 15px;
