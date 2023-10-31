@@ -5257,7 +5257,7 @@ table.popular__table tbody tr {
   align-items: center;
 }
 .interview-block__gossip_image {
-  background-color: rgba(103,155,205,1.00);
+  background-color: #bbe0f6;
   width: 3.308em;
   height: 3.308em;
   border-radius: 50%;
@@ -8413,11 +8413,11 @@ html[data-theme='dark'] .guest-user.tab-password .timeline__item-comments-write-
   background-color: #235f9f;
 }
 html[data-theme='dark'] .timeline__item-comments-discussion.hover {
-  /* outline: 1px solid #81aad5;
-  border-color: #81aad5; */
   animation: 3s ease forwards hover-dark;
 }
-
+html[data-theme='dark'] .interview-block__gossip_image {
+  background-color: #20344c;
+}
 
 @media screen and (min-width: 993px) {
   [data-theme="dark"] .important-news__news-spoiler:hover {
@@ -8533,9 +8533,6 @@ html[data-theme="summer"] .timeline__item-comments-more-comments span, html[data
 html[data-theme="summer"] .timeline__item-comments-target-shooting-plus:hover, html[data-theme="summer"] .timeline__item-comments-target-shooting-minus:hover, html[data-theme="summer"] .timeline-navigation__page a:hover::before, html[data-theme="summer"] .timeline-navigation_arrow-left:hover::before, html[data-theme="summer"] .timeline-navigation_arrow-right:hover::before, html[data-theme="summer"] .timeline-navigation__list a.active, html[data-theme='summer'] .timeline-navigation__page a::before, html[data-theme='summer'] .timeline-navigation__page a::before, html[data-theme='summer'] .timeline-navigation_arrow-left::before, html[data-theme='summer'] .timeline-navigation_arrow-right::before, html[data-theme="summer"] .timeline-sponsors .swiper-pagination-bullet-active, html[data-theme="summer"] .slider-container3 .swiper-pagination-bullet-active {
   background-color: #ffeab8;
 }
-/* html[data-theme="summer"] .timeline__item-comments-answer-button::before, html[data-theme="summer"] #toolbar-message-button::before {
-  background: none;
-} */
 html[data-theme='summer'] .map-legend-1::before, html[data-theme='summer'] .number-item[data-num="23"]::before, html[data-theme='summer'] .number-item[data-num="22"]::before, html[data-theme='summer'] .number-item[data-num="18"]::before, html[data-theme='summer'] .number-item[data-num="17"]::before, html[data-theme='summer'] .number-item[data-num="9"]::before, html[data-theme='summer'] .number-item[data-num="8"]::before, html[data-theme="summer"] .burger-menu__profile-messange span, html[data-theme="summer"] .header__mobile-number-massage2 span, html[data-theme="summer"] .race-ended::before, html[data-theme="summer"] .header__number-massage span, html[data-theme="summer"] .header__number-massage2 span {
   background-color: #ff4949;
 }
@@ -8794,7 +8791,9 @@ background-color: #ffeab8;
 }
 
 
-
+html[data-theme='summer'] .interview-block__gossip_image {
+  background-color: #f4e7c7;
+}
 
 
 
@@ -9127,16 +9126,9 @@ html[data-theme="Black"] .timeline__item-comments-answer-button, html[data-theme
 html[data-theme="Black"] .dropbtn:hover, html[data-theme="Black"] .header__logo .socials .facebook, html[data-theme="Black"] .header__logo .socials .twitter, html[data-theme="Black"] .header__logo .socials .instagram, html[data-theme="Black"] .header__logo .socials .telegram, html[data-theme="Black"] .header__logo .socials .youtube, html[data-theme="Black"] .footer__facebook, html[data-theme="Black"] .footer__twitter, html[data-theme="Black"] .footer__instagram, html[data-theme="Black"] .footer__telegram, html[data-theme="Black"] .footer__youtube {
   background-color: #192e45;
 }
-/* html[data-theme="Black"] .timeline__item-comments-answer-button::before, html[data-theme="Black"] #toolbar-message-button::before {
-  background: none;
-} */
 html[data-theme="Black"] .timeline__item-comments-answer-button:hover, html[data-theme="Black"] #toolbar-message-button:hover {
   background: #173660;
 }
-/* html[data-theme="Black"] .timeline__item-comments-answer-button:hover, html[data-theme="Black"] #toolbar-message-button:hover {
-  background-color: #173660;
-  background-color: red !important;
-} */
 html[data-theme="Black"] .mobile-notification__all, html[data-theme="Black"] .mobile-notification__head, html[data-theme="Black"] .mobile-timer__more-events__all, html[data-theme="Black"] .mobile-timer__more-events_head, html[data-theme="Black"] .select__list2, html[data-theme="Black"] .header__notifications_head, html[data-theme="Black"] .header__notification_all, html[data-theme="Black"] .dropdown-content, html[data-theme='Black'] .important-news__list, html[data-theme='Black'] .vertical-menu-block__body .vertical-menu-block__list li {
   background-color: #181818;
 }
@@ -9231,7 +9223,6 @@ html[data-theme="Black"] #back-to-top-button::after {
   color: #b5b5b5;
 }
 html[data-theme="Black"] .timeline__item-comments-write-textarea-content .title span::after, html[data-theme="Black"] .timeline__item-comments-write-textarea-content .title span::before, html[data-theme="Black"] .calendar-close-crosshair::after, html[data-theme="Black"] .calendar-close-crosshair::before, html[data-theme="Black"] .burger-menu-back-tab::before, html[data-theme="Black"] .burger-menu-back-tab::after, html[data-theme="Black"] .mobile-timer__more-events_head-close::before, html[data-theme="Black"] .mobile-timer__more-events_head-close::after, html[data-theme="Black"] .mobile-notification__close::before, html[data-theme="Black"] .mobile-notification__close::after, html[data-theme="Black"] .burger-menu__log-in-menu_close::before, html[data-theme="Black"] .burger-menu__log-in-menu_close::after, html[data-theme="Black"] .burger-menu_active .burger-menu_lines, html[data-theme="Black"] .burger-menu_active .burger-menu_lines::after, html[data-theme="Black"] .burger-menu_active .burger-menu_lines::before {
-  /* background-color: #326bb3; */
   background-color: #245ca8;
 }
 html[data-theme="Black"] .burger-menu_nav-menu-content li .burger-menu_nav-more .list-number::after {
@@ -9310,6 +9301,11 @@ html[data-theme="Black"] .guest-user.tab-password .timeline__item-comments-write
 }
 html[data-theme="Black"] .guest-user.tab-password .timeline__item-comments-write-body-tab-enter:hover {
   background-color: #173660;
+}
+
+
+html[data-theme='Black'] .interview-block__gossip_image {
+  background-color: #232323;
 }
 
 
@@ -9596,9 +9592,6 @@ html[data-theme="grey"] .burger-menu:not(.burger-menu_active) .burger-menu_lines
 html[data-theme="grey"] .password-registr-form-icon, html[data-theme="grey"] .nickname-registr-form-icon, html[data-theme="grey"] .login-registr-form-icon, html[data-theme="grey"] .registr-option::before, html[data-theme="grey"] .registr-dot, html[data-theme="grey"] .form__field_radio .option .dot, html[data-theme="grey"] .option::before, html[data-theme="grey"] .form__e-mail-icon, html[data-theme="grey"] .form__password-icon, html[data-theme="grey"] .form__user-icon {
   background-color: #c8c9ca;
 }
-/* html[data-theme="grey"] .form__input, html[data-theme="grey"] .form__field_radio .option {
-  border-color: #c8c9ca;
-} */
 html[data-theme="grey"] .popup input[type="text"], html[data-theme="grey"] .popup input[type="text"]:focus, html[data-theme="grey"] .timeline__item-comments-write.guest-user .timeline__item-comments-write-body-tab-registr, html[data-theme="grey"] .timeline__item-comments-comment-more, html[data-theme="grey"] .timeline__item-comments-controls, html[data-theme="grey"] .toolbar-button2, html[data-theme="grey"] .toolbar-button, html[data-theme="grey"] .last--comments-news-body-item:not(:first-of-type), html[data-theme="grey"] .timeline__item-comments-write.guest-user .timeline__item-comments-write-body-tab-enter, html[data-theme="grey"] .timeline__item-comments-write.guest-user .timeline__item-comments-write-body, html[data-theme="grey"] .timeline__item-comments-write-spoiler, html[data-theme="grey"] .timeline__item-total-accuracy span, html[data-theme="grey"] .text-field:focus ~ .toolbar-list, html[data-theme="grey"] .toolbar-list, html[data-theme="grey"] .text-field, html[data-theme="grey"] .timeline__item-comments-discussion, html[data-theme="grey"] .vertical-menu-block__body .vertical-menu-block__list li a, html[data-theme="grey"] .slider-container3 .swiper-pagination-bullet, html[data-theme="grey"] .timeline-sponsors .swiper-pagination-bullet, html[data-theme="grey"] .timer__more-item, html[data-theme="grey"] .timeline__body table td:not(.table0_100 tr td), html[data-theme="grey"] .burger-menu__tab.burger-menu__tab1, html[data-theme="grey"] .burger-menu__tab.burger-menu__tab1.active, html[data-theme="grey"] .burger-menu__tab.burger-menu__tab2, html[data-theme="grey"] .burger-menu-back-tab.slide4, html[data-theme="grey"] .burger-menu-back-tab.slide3, html[data-theme="grey"] .burger-menu-back-tab.slide2, html[data-theme="grey"] .burger-menu-back-tab.slide1, html[data-theme="grey"] .burger-menu__new-slide, html[data-theme="grey"] .burger-menu_nav-menu-title, html[data-theme="grey"] .burger-menu_nav-menu-list li:not(:last-of-type) a, html[data-theme="grey"] .burger-menu_nav-menu-list__default li:not(:last-of-type) a, html[data-theme="grey"] .timer__more_info div, html[data-theme="grey"] .statistics1, html[data-theme="grey"] .statistics2, html[data-theme="grey"] .statistics4, html[data-theme="grey"] .interview-block__items, html[data-theme="grey"] .mobile-timer__more-events-content, html[data-theme="grey"] .timeline__head {
   border-color: #dfdfdf;
 }
@@ -9650,6 +9643,11 @@ background-color: #ffffff;
 }
 html[data-theme='grey'] .guest-user.tab-password .timeline__item-comments-write-body-tab-enter:hover {
 background-color: #e1e1e1;
+}
+
+
+html[data-theme='grey'] .interview-block__gossip_image {
+  background-color: #e7e7e7;
 }
 
 
