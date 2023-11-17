@@ -134,6 +134,14 @@
     fill: #81aad5;
     scale: 1;
 }
+.circle-icon {
+    fill: #81aad5;
+    scale: 1;
+}
+.circle-icon-21 {
+    width: 21px;
+    height: 21px;
+}
 .target-block__circle {
     display: flex;
     width: 14px;
@@ -211,6 +219,7 @@
     padding-bottom: 56.2%;
     overflow: hidden;
     border-radius: 8px;
+    -webkit-tap-highlight-color: transparent;
 }
 .timeline-video__container-item:not(.not-released) .timeline-video__container-item-image a::before {
     content: '';

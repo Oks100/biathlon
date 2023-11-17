@@ -47,7 +47,8 @@
 }
 
 html[data-theme="dark"] #tippy-16 ul li a {
-    color: #e1e1e1 !important;
+    /* color: #e1e1e1 !important; */
+    color: #dfdfdf !important;
 }
 html[data-theme="dark"] #tippy-16 ul li a:hover {
     background-color: #293139;
@@ -815,6 +816,11 @@ html[data-theme="grey"] #tippy-16 ul li a:hover {
     height: 100%;
 }
 
+
+
+
+
+
 @media (hover: hover) {
     .timeline-cup__another-competitions span:not(.active):hover {
         border-color: #d1ebfb;
@@ -889,9 +895,6 @@ html[data-theme="grey"] #tippy-16 ul li a:hover {
     .timeline-cup__table-comments-tables-recommend-list {
         height: auto;
     }
-    /* .timeline-cup-table tbody tr td {
-        white-space: nowrap;
-    } */
 }
 
 @media screen and (min-width: 993px) and (max-width: 1200px) {
@@ -926,13 +929,15 @@ html[data-theme="grey"] #tippy-16 ul li a:hover {
 
 html[data-theme="dark"] .timeline-cup, html[data-theme="dark"] .timeline__more-tables {
     background-color: #202124;
-    color: #e1e1e1;
+    /* color: #e1e1e1; */
+    color: #dfdfdf;
 }
 html[data-theme="dark"] .circle-element-for-cup, html[data-theme="dark"] .table-title {
     background-color: #202124;
 }
 html[data-theme="dark"] .timeline-cup__head span:nth-child(1), html[data-theme="dark"] .table-title {
-    color: #e1e1e1;
+    /* color: #e1e1e1; */
+    color: #dfdfdf;
 }
 html[data-theme="dark"] .timeline-cup:not(.mix) .timeline-cup-table-title tr:first-child td {
     color: #2b7ed7;
@@ -995,8 +1000,8 @@ html[data-theme="dark"] .table-button-now-1:hover, html[data-theme="dark"] .tabl
     box-shadow: inset 0px 0px 0px 1px #215994;
 }
 html[data-theme="dark"] .timeline-cup-table tbody tr:not(:first-child, .active):hover td {
-    /* background-color: #585750; */
-    background-color: #383838;
+    /* background-color: #383838; */
+    background-color: #282720;
 }
 html[data-theme="dark"] .chosen-string.active {
     box-shadow: 0 0 0 1px #202124;
@@ -1021,20 +1026,29 @@ html[data-theme="dark"] .age-legend-3, html[data-theme="dark"] .timeline-cup.pro
 html[data-theme="dark"] .age-legend-1, html[data-theme="dark"] .timeline-cup.profiles-color .age-color-1 {
     background-color: #b8e9b8;
 }
-html[data-theme="dark"] .timeline-cup.profiles-color .age-button-svg path:nth-child(1), html[data-theme="dark"] .age-legend-2, html[data-theme="dark"] .timeline-cup.profiles-color .age-color-2 {
+html[data-theme="dark"] .age-legend-2, html[data-theme="dark"] .timeline-cup.profiles-color .age-color-2 {
     background-color: #7bd27b;
+}
+html[data-theme="dark"] .timeline-cup.profiles-color .age-button-svg path:nth-child(1) {
+    fill: #7bd27b;
 }
 html[data-theme="dark"] .age-legend-3, html[data-theme="dark"] .timeline-cup.profiles-color .age-color-3 {
     background-color: #d8d8a4;
 }
-html[data-theme="dark"] .timeline-cup.profiles-color .age-button-svg path:nth-child(4), html[data-theme="dark"] .age-legend-4, html[data-theme="dark"] .timeline-cup.profiles-color .age-color-4 {
+html[data-theme="dark"] .age-legend-4, html[data-theme="dark"] .timeline-cup.profiles-color .age-color-4 {
     background-color: #caca61;
+}
+html[data-theme="dark"] .timeline-cup.profiles-color .age-button-svg path:nth-child(4) {
+    fill: #caca61;
 }
 html[data-theme="dark"] .timeline-cup.profiles-color .age-color-5, html[data-theme="dark"] .age-legend-5 {
     background-color: #e0a2a2;
 }
-html[data-theme="dark"] .timeline-cup.profiles-color .age-button-svg path:nth-child(3), html[data-theme="dark"] .age-legend-6, html[data-theme="dark"] .timeline-cup.profiles-color .age-color-6 {
+html[data-theme="dark"] .age-legend-6, html[data-theme="dark"] .timeline-cup.profiles-color .age-color-6 {
     background-color: #dd7878;
+}
+html[data-theme="dark"] .timeline-cup.profiles-color .age-button-svg path:nth-child(3) {
+    fill: #dd7878;
 }
 html[data-theme="dark"] .timeline-cup.profiles-color .age-color-6:hover, html[data-theme="dark"] .timeline-cup.profiles-color .age-color-5:hover, html[data-theme="dark"] .timeline-cup.profiles-color .age-color-4:hover, html[data-theme="dark"] .timeline-cup.profiles-color .age-color-3:hover, html[data-theme="dark"] .timeline-cup.profiles-color .age-color-2:hover, html[data-theme="dark"] .timeline-cup.profiles-color .age-color-1:hover {
     color: #286ede !important;
@@ -1053,8 +1067,23 @@ html[data-theme="dark"] .timeline-cup__table-comments-tables-recommend-list a::b
 html[data-theme="dark"] .timeline-cup__table-comments-tables-recommend-list a:hover::before {
     background-color: #8ab4f8;
 }
+html[data-theme="dark"] .timeline-cup__footer-legend-remark {
+    color: #868686;
+}
 
 
+
+@media (hover: hover) {
+    html[data-theme="dark"] .timeline-cup .age-button-svg:hover path:nth-child(1) {
+        fill: #7bd27b;
+    }
+    html[data-theme="dark"] .timeline-cup .age-button-svg:hover path:nth-child(3) {
+        fill: #dd7878;
+    }
+    html[data-theme="dark"] .timeline-cup .age-button-svg:hover path:nth-child(4) {
+        fill: #caca61;
+    }
+}
 
 
 
@@ -1176,14 +1205,20 @@ html[data-theme="Black"] .age-legend-3, html[data-theme="Black"] .timeline-cup.p
 html[data-theme="Black"] .age-legend-1, html[data-theme="Black"] .timeline-cup.profiles-color .age-color-1 {
     background-color: #99c099;
 }
-html[data-theme="Black"] .timeline-cup.profiles-color .age-button-svg path:nth-child(1), html[data-theme="Black"] .age-legend-2, html[data-theme="Black"] .timeline-cup.profiles-color .age-color-2 {
+html[data-theme="Black"] .age-legend-2, html[data-theme="Black"] .timeline-cup.profiles-color .age-color-2 {
     background-color: #65ad65;
+}
+html[data-theme="Black"] .timeline-cup.profiles-color .age-button-svg path:nth-child(1) {
+    fill: #65ad65;
 }
 html[data-theme="Black"] .age-legend-3, html[data-theme="Black"] .timeline-cup.profiles-color .age-color-3 {
     background-color: #afaf86;
 }
-html[data-theme="Black"] .timeline-cup.profiles-color .age-button-svg path:nth-child(4), html[data-theme="Black"] .age-legend-4, html[data-theme="Black"] .timeline-cup.profiles-color .age-color-4 {
+html[data-theme="Black"] .age-legend-4, html[data-theme="Black"] .timeline-cup.profiles-color .age-color-4 {
     background-color: #a5a550;
+}
+html[data-theme="Black"] .timeline-cup.profiles-color .age-button-svg path:nth-child(4) {
+    fill: #a5a550;
 }
 html[data-theme="Black"] .timeline-cup.profiles-color .age-color-5, html[data-theme="Black"] .age-legend-5 {
     background-color: #ba8787;
@@ -1191,13 +1226,29 @@ html[data-theme="Black"] .timeline-cup.profiles-color .age-color-5, html[data-th
 html[data-theme="Black"] .timeline-cup.profiles-color .age-button-svg path:nth-child(3), html[data-theme="Black"] .age-legend-6, html[data-theme="Black"] .timeline-cup.profiles-color .age-color-6 {
     background-color: #b56363;
 }
+html[data-theme="Black"] .timeline-cup.profiles-color .age-button-svg path:nth-child(3) {
+    fill: #b56363;
+}
 html[data-theme="Black"] .timeline-cup.profiles-color .age-color-6:hover, html[data-theme="Black"] .timeline-cup.profiles-color .age-color-5:hover, html[data-theme="Black"] .timeline-cup.profiles-color .age-color-4:hover, html[data-theme="Black"] .timeline-cup.profiles-color .age-color-3:hover, html[data-theme="Black"] .timeline-cup.profiles-color .age-color-2:hover, html[data-theme="Black"] .timeline-cup.profiles-color .age-color-1:hover {
     color: #286ede !important;
     border-color: #286ede;
 }
+html[data-theme="Black"] .timeline-cup__footer-legend-remark {
+    color: #868686;
+}
 
 
-
+@media (hover: hover) {
+    html[data-theme="Black"] .timeline-cup .age-button-svg:hover path:nth-child(1) {
+        fill: #65ad65;
+    }
+    html[data-theme="Black"] .timeline-cup .age-button-svg:hover path:nth-child(3) {
+        fill: #b56363;
+    }
+    html[data-theme="Black"] .timeline-cup .age-button-svg:hover path:nth-child(4) {
+        fill: #a5a550;
+    }
+}
 
 
 
@@ -1310,7 +1361,6 @@ html[data-theme="summer"] .based-table tr:not(:first-child) .points-button-td::b
 
 
 
-
 html[data-theme="grey"] .timeline-cup, html[data-theme="grey"] .timeline__more-tables, html[data-theme="grey"] .timeline-cup__head span:nth-child(1), html[data-theme="grey"] .table-title {
     color: #1e1e1e;
 }
@@ -1377,9 +1427,6 @@ html[data-theme="grey"] .table-title {
 html[data-theme="grey"] .table-button-now-1:hover, html[data-theme="grey"] .table-button-now-2:hover, html[data-theme="grey"] .table-button-earlier-1:hover, html[data-theme="grey"] .table-button-earlier-2:hover {
     box-shadow: inset 0px 0px 0px 1px #e4e4e4;
 }
-/* html[data-theme="dark"] .timeline-cup-table tbody tr:not(:first-child, .active):hover td {
-    background-color: #585750;
-} */
 html[data-theme="grey"] .chosen-string.active {
     box-shadow: 0 0 0 1px #fff;
     background-color: #fbd2e7 !important;
@@ -1390,39 +1437,36 @@ html[data-theme="grey"] .green.square::before, html[data-theme="grey"] .triangle
 html[data-theme="grey"] .triangle-down::before, html[data-theme="grey"] .red.square::before {
     color: #ee3232;
 }
-/* html[data-theme="grey"] .table-circle::before {
-    color: #e3c000;
-} */
 
 html[data-theme="grey"] .based-table tr:not(:first-child) .points-button-td::before, html[data-theme="grey"] .based-table tr:not(:first-child) .points-button-td-2::before {
     background-color: #dfdfdf;
 }
-/* html[data-theme="dark"] .age-legend-3, html[data-theme="dark"] .timeline-cup.profiles-color .age-color-3, html[data-theme="dark"] .age-legend-2, html[data-theme="dark"] .timeline-cup.profiles-color .age-color-2, html[data-theme="dark"] .age-legend-1, html[data-theme="dark"] .timeline-cup.profiles-color .age-color-1, html[data-theme="dark"] .age-legend-4, html[data-theme="dark"] .timeline-cup.profiles-color .age-color-4, html[data-theme="dark"] .timeline-cup.profiles-color .age-color-5, html[data-theme="dark"] .age-legend-5, html[data-theme="dark"] .timeline-cup.profiles-color .age-color-6, html[data-theme="dark"] .age-legend-6 {
-    color: #12151a;
-} */
 html[data-theme="grey"] .age-legend-1, html[data-theme="grey"] .timeline-cup.profiles-color .age-color-1 {
-    background-color: #b8e9b8;
     background-color: #c1edc1;
 }
-html[data-theme="grey"] .timeline-cup.profiles-color .age-button-svg path:nth-child(1), html[data-theme="grey"] .age-legend-2, html[data-theme="grey"] .timeline-cup.profiles-color .age-color-2 {
-    background-color: #7bd27b;
+html[data-theme="grey"] .age-legend-2, html[data-theme="grey"] .timeline-cup.profiles-color .age-color-2 {
     background-color: #8aed8a;
 }
+html[data-theme="grey"] .timeline-cup.profiles-color .age-button-svg path:nth-child(1) {
+    fill: #8aed8a;
+}
 html[data-theme="grey"] .age-legend-3, html[data-theme="grey"] .timeline-cup.profiles-color .age-color-3 {
-    background-color: #d8d8a4;
     background-color: #eeeebe;
 }
-html[data-theme="grey"] .timeline-cup.profiles-color .age-button-svg path:nth-child(4), html[data-theme="grey"] .age-legend-4, html[data-theme="grey"] .timeline-cup.profiles-color .age-color-4 {
-    background-color: #caca61;
+html[data-theme="grey"] .age-legend-4, html[data-theme="grey"] .timeline-cup.profiles-color .age-color-4 {
     background-color: #ecec6e;
 }
+html[data-theme="grey"] .timeline-cup.profiles-color .age-button-svg path:nth-child(4) {
+    fill: #ecec6e;
+}
 html[data-theme="grey"] .timeline-cup.profiles-color .age-color-5, html[data-theme="grey"] .age-legend-5 {
-    background-color: #e0a2a2;
     background-color: #edc6c6;
 }
-html[data-theme="grey"] .timeline-cup.profiles-color .age-button-svg path:nth-child(3), html[data-theme="grey"] .age-legend-6, html[data-theme="grey"] .timeline-cup.profiles-color .age-color-6 {
-    background-color: #dd7878;
+html[data-theme="grey"] .age-legend-6, html[data-theme="grey"] .timeline-cup.profiles-color .age-color-6 {
     background-color: #ef9595;
+}
+html[data-theme="grey"] .timeline-cup.profiles-color .age-button-svg path:nth-child(3) {
+    fill: #ef9595;
 }
 html[data-theme="grey"] .timeline-cup.profiles-color .age-color-6:hover, html[data-theme="grey"] .timeline-cup.profiles-color .age-color-5:hover, html[data-theme="grey"] .timeline-cup.profiles-color .age-color-4:hover, html[data-theme="grey"] .timeline-cup.profiles-color .age-color-3:hover, html[data-theme="grey"] .timeline-cup.profiles-color .age-color-2:hover, html[data-theme="grey"] .timeline-cup.profiles-color .age-color-1:hover {
     color: #286ede !important;
@@ -1441,4 +1485,17 @@ html[data-theme="grey"] .timeline-cup__table-comments-tables-recommend-list a::b
 }
 html[data-theme="grey"] .timeline-cup__table-comments-tables-recommend-list a:hover::before {
     background-color: #73abd2;
+}
+
+
+@media (hover: hover) {
+    html[data-theme="grey"] .timeline-cup .age-button-svg:hover path:nth-child(1) {
+        fill: #8aed8a;
+    }
+    html[data-theme="grey"] .timeline-cup .age-button-svg:hover path:nth-child(3) {
+        fill: #ef9595;
+    }
+    html[data-theme="grey"] .timeline-cup .age-button-svg:hover path:nth-child(4) {
+        fill: #ecec6e;
+    }
 }

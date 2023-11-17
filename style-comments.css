@@ -108,6 +108,7 @@
     color: #81aad5;
     transition: all .4s ease;
     scale: 1;
+    pointer-events: none;
 }
 .timeline__item-comments-to-write-comments:hover::before {
     transform: translateY(20px);
@@ -125,6 +126,7 @@
     transition: all .4s ease;
     opacity: 0;
     scale: 1;
+    pointer-events: none;
 }
 .timeline__item-comments-to-write-comments:hover::after {
     top: 4px;

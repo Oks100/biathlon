@@ -126,7 +126,7 @@
     align-items: center;
     width: fit-content;
     -webkit-tap-highlight-color: transparent;
-    margin: 0 auto;
+    margin: 0 auto 2em auto;
 }
 
 .timeline-sportsmen-profile__body-info-button::before {
@@ -464,6 +464,7 @@
     padding: 0 10px;
     width: 100%;
     -webkit-tap-highlight-color: transparent;
+    z-index: 2;
 }
 .timeline-sportsmen-profile-card-button::before {
     content: '';
@@ -476,12 +477,26 @@
     background-color: #81aad5;
     border-radius: 3px;
     transition: all 0.5s ease-in-out;
-    z-index: 1;
+    z-index: 2;
     pointer-events: none;
     transform: translateX(-100%);
     scale: 1;
 }
-
+.timeline-sportsmen-profile-card-button::after {
+    content: '';
+    position: absolute;
+    display: block;
+    height: 100%;
+    top: 0;
+    left: 4px;
+    width: 0;
+    border-radius: 3px;
+    transition: all 0.5s ease-in-out;
+    background-color: white;
+    pointer-events: none;
+    z-index: 1;
+    scale: 1;
+}
 
 
 
@@ -1297,7 +1312,7 @@
 .timeline-sportsmen-profile__body-chart.tab-2 #myChart3, .timeline-sportsmen-profile__body-chart.tab-2 #chartSelect3, .timeline-sportsmen-profile__body-chart-2.tab-3 #myChart5, .timeline-sportsmen-profile__body-chart-2.tab-3 #chartSelect5, .timeline-sportsmen-profile__body-chart-3.tab-4 #myChart7, .timeline-sportsmen-profile__body-chart-3.tab-4 #chartSelect7, .timeline-sportsmen-profile__body-chart-4.tab-5 #myChart9, .timeline-sportsmen-profile__body-chart-4.tab-5 #chartSelect9, .timeline-sportsmen-profile__body-chart-5.tab-6 #myChart11, .timeline-sportsmen-profile__body-chart-5.tab-6 #chartSelect11 {
     display: inherit !important;
 }
-#myChart, #myChart2, #myChart3, #myChart4, #myChart5, #myChart6, #myChart7, #myChart9, #myChart10, #myChart11 {
+#myChart, #myChart2, #myChart3, #myChart4, #myChart5, #myChart6, #myChart7, #myChart9, #myChart10, #myChart11, #myChart12 {
     margin-top: 0.5em;
 }
 .select-disription {
@@ -1326,6 +1341,18 @@
     height: 19px;
     fill: #81aad5;
     scale: 1;
+}
+.circle-icon {
+    fill: #81aad5;
+    scale: 1;
+}
+.top-10__discription {
+    display: flex;
+    padding-bottom: 0.5em;
+}
+.circle-icon-21 {
+    width: 21px;
+    height: 21px;
 }
 .timeline-sportsmen-profile__body-target-table-wrapper {
     overflow-x: auto;
@@ -1364,13 +1391,13 @@
 }
 
 .timeline-sportsmen-profile__body-speed {
-    display: flex;
-    gap: 8px;
-    flex-wrap: wrap;
     margin: 0.5em 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(90px, 1fr));
+    grid-template-rows: auto;
+    grid-gap: 8px;
 }
 .timeline-sportsmen-profile__body-speed-item {
-    width: 87.2px;
     border: 1px solid #dfedf4;
     padding: 7px;
     border-radius: 8px;
@@ -1540,9 +1567,86 @@
 
 
 
+.competition-card {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    grid-template-rows: auto;
+    grid-gap: 20px;
+}
+.comp-card-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #dfedf4;
+    border-radius: 8px;
+    padding: 10px;
+    gap: 15px;
+}
+.comp-card-item__award {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.award-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 33px;
+    height: 33px;
+    border-radius: 50%;
+    font-weight: 600;
+    font-size: 0.95em;
+    scale: 1;
+}
+.gold-medal {
+    background-color: rgb(252, 238, 163);
+}
+.silver-medal {
+    background-color: rgb(231, 231, 231);
+}
+.bronze-medal {
+    background-color: rgb(227, 212, 192);
+}
+.award-item.throphy-1 {
+    background: rgb(255, 231, 100);
+}
+.award-item.throphy-2 {
+    background: rgb(255, 163, 163);
+}
+.comp-card-item__image {
+    display: flex;
+    align-items: flex-end;
+    min-height: 70px;
+}
+.svg-icon {
+    width: 70px;
+    height: 70px;
+    fill: #81aad5;
+    scale: 1;
+}
+.svg-icon.small {
+    width: 55px;
+    height: 55px;
+}
+.svg-icon.big {
+    width: 118px;
+    height: 118px;
+}
+.comp-card-item__title {
+    font-size: 1.1em;
+    text-align: center;
+} 
+.legend-icon.hw24 {
+    height: 24px;
+    width: 24px;
+}
+
 
 
 @media (hover: hover) {
+    .timeline-sportsmen-profile-card-button:hover::after {
+        width: 100%;
+    }
     .timeline-sportsmen-profile__body-info-button:hover {
         background-color: #dfedf4;
     }
@@ -1571,9 +1675,6 @@
     
     .timeline-sportsmen-profile-card-menu-list .menu-tab-2:hover, .timeline-sportsmen-profile-card-menu-list .menu-tab-3:hover {
         color: #1f7ec4;
-    }
-    .timeline-sportsmen-profile-card-button:hover a, .timeline-sportsmen-profile-card-button-2:hover a, .timeline-sportsmen-profile-card-button-3:hover a {
-        background-color: #fff;
     }
     .timeline-sportsmen-profile-card-button:hover::before {
         transform: translateX(100%);
@@ -1647,18 +1748,16 @@
     .timeline-cup__footer-legend-title:not(.nullstyle) {
         margin-bottom: 3em;
     }
-}
-
-@media screen and (max-width: 550px) {
-    .timeline-vote {
-        padding: 2em 1.06em 2em 1.06em;
-    }
     .timeline-sportsmen-profile__body-info-table tr td {
         display: flex;
         flex-direction: column;
     }
     .timeline-sportsmen-profile__body-info-table tbody tr td:first-of-type {
         text-align: left;
+        padding: 2.4px 7px 0 7px;
+    }
+    .timeline-sportsmen-profile__body-info-table tbody tr td:last-of-type{
+        padding: 0 7px 2.4px 7px;
     }
     .timeline-sportsmen-profile__body-info-discription {
         flex-basis: 55%;
@@ -1667,46 +1766,38 @@
         flex-basis: 45%;
     }
 }
+@media screen and (max-width: 600px) {
+    .timeline-sportsmen-profile__body-info-discription, .timeline-sportsmen-profile__body-info-photo {
+        flex-basis: auto;
+    }
+    .timeline-sportsmen-profile__body-info {
+        flex-wrap: wrap;
+    }
+    .timeline-sportsmen-profile__body-info {
+        gap: 30px;
+    }
+    .timeline-sportsmen-profile__body-info-table {
+        width: 100%;
+    }
+    .timeline-sportsmen-profile__body-info-discription, .timeline-sportsmen-profile__body-info-photo {
+        flex-basis: 100%;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .timeline-vote {
+        padding: 2em 1.06em 2em 1.06em;
+    }
+}
 
 @media screen and (max-width: 500px) {
     .timeline-sportsmen-profile__body-target-table.ranking tr td {
         padding: 2.4px 4.5px;
     }
-    .timeline-sportsmen-profile__body-info {
-        flex-wrap: wrap;
-    }
-    .timeline-sportsmen-profile__body-info-discription, .timeline-sportsmen-profile__body-info-photo {
-        flex-basis: auto;
-    }
-    .timeline-sportsmen-profile__body-info {
-        gap: 30px;
-    }
-    .timeline-sportsmen-profile__body-info-table tr td {
-        display: flex;
-        flex-direction: column;
-    }
-    .timeline-sportsmen-profile__body-info-table tbody tr td:first-of-type {
-        text-align: left;
-    }
-    .timeline-sportsmen-profile__body-info-discription, .timeline-sportsmen-profile__body-info-photo {
-        flex-basis: 100%;
-    }
-    /* .timeline-sportsmen-profile-card .timeline-sportsmen-profile-card-menu-2 {
-        display: flex;
-    } */
 }
 
 @media screen and (min-width: 371px) and (max-width: 550px) {
-    /* .timeline-sportsmen-profile__body-info-table tr td {
-        display: flex;
-        flex-direction: column;
-    }
-    .timeline-sportsmen-profile__body-info-table tbody tr td:first-of-type {
-        text-align: left;
-    }
-    .timeline-sportsmen-profile__body-info-discription, .timeline-sportsmen-profile__body-info-photo {
-        flex-basis: 50%;
-    } */
+
 }
 
 @media screen and (max-width: 380px) {
@@ -1731,15 +1822,7 @@
     }
 }
 @media screen and (max-width: 370px) {
-    /* .timeline-sportsmen-profile__body-info {
-        flex-wrap: wrap;
-    }
-    .timeline-sportsmen-profile__body-info-discription, .timeline-sportsmen-profile__body-info-photo {
-        flex-basis: auto;
-    }
-    .timeline-sportsmen-profile__body-info {
-        gap: 30px;
-    } */
+
 }
 @media screen and (max-width: 332px) {
     .timeline-sportsmen-profile__body-add-info.open .timeline-sportsmen-profile__body-add-info-menu {

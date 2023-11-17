@@ -132,7 +132,14 @@
     fill: #81aad5;
     scale: 1;
 }
-
+.circle-icon {
+    fill: #81aad5;
+    scale: 1;
+}
+.circle-icon-21 {
+    width: 21px;
+    height: 21px;
+}
 .timeline-calendar__table-wrapper {
     overflow-x: auto;
     margin-top: 0.3em;

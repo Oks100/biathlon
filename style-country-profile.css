@@ -1386,6 +1386,18 @@
     fill: #81aad5;
     scale: 1;
 }
+.circle-icon  {
+    fill: #81aad5;
+    scale: 1;
+}
+.circle-icon-21 {
+    width: 21px;
+    height: 21px;
+}
+.circle-icon-22 {
+    width: 21px;
+    height: 21px;
+}
 .timeline-sportsmen-profile__body-target-table-wrapper {
     overflow-x: auto;
 }
@@ -1410,7 +1422,6 @@
 }
 .td-column.ablosute {
     position: relative;
-    /* padding-right: 17px; */
     padding-right: 22px;
 }
 .wc-plus-icon.ablosute {
@@ -1466,10 +1477,6 @@
 .timeline-sportsmen-profile__body-top-10 {
     margin-top: 2em;
 }
-/* .timeline-sportsmen-profile__body-top-10 span {
-    display: flex;
-    margin-bottom: 1em;
-} */
 .title-2__discroption {
     display: flex;
     margin: 1em 0;
@@ -1479,14 +1486,13 @@
     font-size: 0.95em;
 }
 .timeline-sportsmen-profile__body-speed {
-    display: flex;
-    gap: 8px;
-    flex-wrap: wrap;
     margin: 0.5em 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(90px, 1fr));
+    grid-template-rows: auto;
+    grid-gap: 8px;
 }
 .timeline-sportsmen-profile__body-speed-item {
-    /* width: 87.2px; */
-    width: 100px;
     border: 1px solid #dfedf4;
     padding: 7px;
     border-radius: 8px;
@@ -1569,7 +1575,7 @@
     margin-bottom: 0.5em;
 }
 .timeline-cup__footer-legend-title-2.top-10 svg {
-    margin-right: 5px;
+    margin-right: 8px;
 }
 .top-10__discription {
     display: flex;
@@ -1577,6 +1583,7 @@
 }
 .timeline-cup__footer-legend-title-2 span {
     display: flex;
+    align-items: center;
 }
 .sportsmen-profile__table.achiv tr td:first-child {
     width: 46px;
@@ -1841,6 +1848,103 @@
 
 
 
+.competition-card {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    grid-template-rows: auto;
+    grid-gap: 20px;
+}
+.comp-card-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #dfedf4;
+    border-radius: 8px;
+    padding: 10px;
+    gap: 15px;
+}
+.comp-card-item__award {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.award-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 33px;
+    height: 33px;
+    border-radius: 50%;
+    font-weight: 600;
+    font-size: 0.95em;
+    scale: 1;
+}
+.gold-medal {
+    background-color: rgb(252, 238, 163);
+}
+.silver-medal {
+    background-color: rgb(231, 231, 231);
+}
+.bronze-medal {
+    background-color: rgb(227, 212, 192);
+}
+.award-item.throphy-1 {
+    background-color: rgb(255, 231, 100);
+}
+.award-item.throphy-2 {
+    background-color: rgb(255, 163, 163);
+}
+.award-item.fame-member {
+    background-color: #c7efff;
+}
+.comp-card-item__image {
+    display: flex;
+    align-items: flex-end;
+    min-height: 70px;
+}
+.svg-icon {
+    width: 70px;
+    height: 70px;
+    fill: #81aad5;
+    scale: 1;
+}
+.svg-icon.small {
+    width: 55px;
+    height: 55px;
+}
+.comp-card-item__title {
+    font-size: 1.1em;
+    text-align: center;
+} 
+.legend-icon.hw24 {
+    height: 24px;
+    width: 24px;
+}
+
+
+.active-career td:nth-child(2) {
+    background-color: #ffdfdf !important;
+}
+.top-10 .active-career td {
+    background-color: #ffdfdf !important;
+}
+.active-career:hover td:nth-child(2) {
+    background-color: #ffd4d4 !important;
+}
+.top-10 .active-career:hover td {
+    background-color: #ffd4d4 !important;
+}
+.active-career {
+    box-shadow: 0 0 0 1px white;
+}
+.active-career td:nth-child(2) {
+    box-shadow: 0px -1px 0px 0px white;
+}
+
+
+
+
+
 @keyframes bg-color {
     from {
         background-color: rgb(180, 255, 176, 0.5);
@@ -1977,18 +2081,16 @@
     .timeline-cup__footer-legend-title:not(.nullstyle) {
         margin-bottom: 3em;
     }
-}
-
-@media screen and (max-width: 550px) {
-    .timeline-vote {
-        padding: 2em 1.06em 2em 1.06em;
-    }
     .timeline-sportsmen-profile__body-info-table tr td {
         display: flex;
         flex-direction: column;
     }
     .timeline-sportsmen-profile__body-info-table tbody tr td:first-of-type {
         text-align: left;
+        padding: 2.4px 7px 0 7px;
+    }
+    .timeline-sportsmen-profile__body-info-table tbody tr td:last-of-type{
+        padding: 0 7px 2.4px 7px;
     }
     .timeline-sportsmen-profile__body-info-discription {
         flex-basis: 55%;
@@ -1998,11 +2100,48 @@
     }
 }
 
+@media screen and (max-width: 600px) {
+    .timeline-sportsmen-profile__body-info-discription, .timeline-sportsmen-profile__body-info-photo {
+        flex-basis: auto;
+    }
+    .timeline-sportsmen-profile__body-info {
+        flex-wrap: wrap;
+    }
+    .timeline-sportsmen-profile__body-info {
+        gap: 30px;
+    }
+    .timeline-sportsmen-profile__body-info-table {
+        width: 100%;
+    }
+    .timeline-sportsmen-profile__body-info-discription, .timeline-sportsmen-profile__body-info-photo {
+        flex-basis: 100%;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .timeline-vote {
+        padding: 2em 1.06em 2em 1.06em;
+    }
+    /* .timeline-sportsmen-profile__body-info-table tr td {
+        display: flex;
+        flex-direction: column;
+    } */
+    /* .timeline-sportsmen-profile__body-info-table tbody tr td:first-of-type {
+        text-align: left;
+    } */
+    /* .timeline-sportsmen-profile__body-info-discription {
+        flex-basis: 55%;
+    }
+    .timeline-sportsmen-profile__body-info-photo {
+        flex-basis: 45%;
+    } */
+}
+
 @media screen and (max-width: 500px) {
     .timeline-sportsmen-profile__body-target-table.ranking tr td {
         padding: 2.4px 4.5px;
     }
-    .timeline-sportsmen-profile__body-info {
+    /* .timeline-sportsmen-profile__body-info {
         flex-wrap: wrap;
     }
     .timeline-sportsmen-profile__body-info-discription, .timeline-sportsmen-profile__body-info-photo {
@@ -2020,7 +2159,7 @@
     }
     .timeline-sportsmen-profile__body-info-discription, .timeline-sportsmen-profile__body-info-photo {
         flex-basis: 100%;
-    }
+    } */
 }
 
 @media screen and (max-width: 400px) {
