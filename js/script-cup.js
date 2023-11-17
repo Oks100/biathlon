@@ -1082,6 +1082,60 @@ $(document).ready(function(){
 
 
 $(document).ready(function(){
+	var isTransitionActive = false;
+	
+	$('.age-button-svg').click(function () {
+	  if (!isTransitionActive) {
+		$('.timeline-cup .timeline-cup-table tbody a').css('transition', 'all .3s ease');
+		isTransitionActive = true;
+		setTimeout(function() {
+		  $('.timeline-cup .timeline-cup-table tbody a').css('transition', 'none');
+		  isTransitionActive = false;
+		}, 300);
+	  }
+	});
+  });
+
+
+// $(document).ready(function(){
+// 	var isTransitionActive = false;
+	
+// 	$('.age-button-svg').click(function () {
+// 	  if (!isTransitionActive) {
+// 		$('html[data-theme="dark"] .timeline-cup.profiles-color .timeline-cup-table tbody a').css('transition', 'all .3s ease');
+// 		isTransitionActive = true;
+// 		setTimeout(function() {
+// 		  $('html[data-theme="dark"] .timeline-cup.profiles-color .timeline-cup-table tbody a').css('transition', 'none');
+// 		  isTransitionActive = false;
+// 		}, 300);
+// 	  }
+// 	});
+//   });
+  
+
+
+
+// $(document).ready(function(){
+// 	var isProfilesColor2Added = false;
+	
+// 	$('.age-button-svg').click(function () {
+// 	  if (!isProfilesColor2Added) {
+// 		$('.timeline-cup').addClass('profiles-color-2');
+// 		isProfilesColor2Added = true;
+// 	  } else {
+// 		setTimeout(function() {
+// 		  $('.timeline-cup').removeClass('profiles-color-2');
+// 		  isProfilesColor2Added = false;
+// 		}, 2300);
+// 	  }
+// 	  $('.timeline-cup').toggleClass('profiles-color');
+// 	});
+//   });
+
+
+
+
+$(document).ready(function(){
 	$('.points-button-td').click(function () {
 		$('.timeline-cup').toggleClass('points-table-1');
 		});

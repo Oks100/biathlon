@@ -940,7 +940,7 @@ var ctx = document.getElementById('myChart10').getContext('2d');
 var myChart10 = new Chart(ctx, {
   type: 'radar',
   data: {
-    labels: ['Скорость', 'Точность', 'Скорострельность'],
+    labels: ['Скорость', 'Точн.', 'Скоростр.'],
     datasets: [
       {
         label: 'Украина',
@@ -1568,6 +1568,8 @@ $(document).on('click', function (event) {
     infoBlock.removeClass('open');
   }
 });
+
+
 
 
 
