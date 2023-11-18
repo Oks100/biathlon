@@ -502,9 +502,6 @@
 .fame-table tbody .active-career:hover td:nth-child(2) {
     background-color: #ffd4d4 !important;
 }
-.fame-table .active-career:hover td {
-    background-color: #ffd4d4;
-}
 .fame-table tbody tr.active-career {
     box-shadow: 0 0 0 1px white;
 }
@@ -720,6 +717,9 @@
 
 
 @media (hover: hover) {
+    .fame-table .active-career:hover td {
+        background-color: #ffd4d4;
+    }
     .fame-btn__text:hover .arrow-round__svg {
         transform: rotate(1turn);
     }
