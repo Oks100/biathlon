@@ -1558,7 +1558,7 @@
 .timeline-sportsmen-profile__body-target-table.top-10.trophies {
     white-space: normal;
 }
-.timeline-sportsmen-profile__body-target-table.top-10.trophies tr td:nth-child(2) {
+.timeline-sportsmen-profile__body-target-table.top-10.trophies tr td:nth-child(2), .timeline-sportsmen-profile__body-target-table.top-10.trophies tr td:last-of-type {
     white-space: nowrap;
 }
 .timeline-sportsmen-profile__body-target-table.top-10.trophies tr td:nth-child(3), .timeline-sportsmen-profile__body-target-table.top-10.trophies tr td:nth-child(4) {
