@@ -1931,9 +1931,6 @@
 .active-career:hover td:nth-child(2) {
     background-color: #ffd4d4 !important;
 }
-.top-10 .active-career:hover td {
-    background-color: #ffd4d4 !important;
-}
 .active-career {
     box-shadow: 0 0 0 1px white;
 }
@@ -1966,6 +1963,9 @@
 
 
 @media (hover: hover) {
+    .top-10 .active-career:hover td {
+        background-color: #ffd4d4 !important;
+    }
     .top-10__button:hover::before {
         width: 0%;
         left: 50%;
