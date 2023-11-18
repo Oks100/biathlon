@@ -3,13 +3,16 @@ footer {
   flex: initial;
   background-color: initial;
 }
+.body {
+    padding: 0.5em 1.06em;
+}
 .wrapper {
     max-width: initial;
-    margin: 0.5em 1.06em;
     color: black;
     background-color: white;
     padding: 1em 1.5em;
     box-shadow: 0px 5px 24px rgba(32,60,87,0.11);
+    border-radius: 8px;
 }
 
 .layer__chat {
@@ -182,10 +185,8 @@ footer {
 }
 
 .layer__chat-users-list-title {
-    background-color: #edeef0;
+    /* background-color: #edeef0; */
     padding: 6px 15px;
-    /* position: sticky;
-    top: 0; */
 }
 .layer__chat-users-list-title span:last-child {
     color: #08a400;
@@ -431,6 +432,9 @@ footer {
 }
 
 @media (hover: hover) {
+    .layer__chat-users-list .red-color span:hover, .message-name.red-color:hover {
+        color: rgb(227, 0, 0);
+    }
     .checkbox-group .label-for-useEnter:hover::before {
         border-color: #c0e5fb;
     }
@@ -544,6 +548,9 @@ footer {
         scale: initial;
         margin-left: initial;
     }
+    .layer__chat-debates-tab:not(.tab-0) {
+        padding: 6px 15px;
+    }
 }
 @media (max-width: 390px) {
     .layer__chat-debates-links {
@@ -591,5 +598,94 @@ footer {
         z-index: 1;
         width: 20px;
         background: linear-gradient(90deg, rgba(255,255,255,0) 0%, rgba(252,252,252,1) 100%);
+    }
+}
+
+
+
+
+
+html[data-theme="dark"] html, html[data-theme="dark"] .body {
+    background-color: #333333;
+}
+
+html[data-theme="dark"] .homepage-icon, html[data-theme="dark"] .profile-icon {
+    fill: #2b63b1;
+}
+html[data-theme="dark"] .checkbox-group #useEnter:checked + .label-for-useEnter::after {
+    border-color: #2b63b1;
+}
+html[data-theme="dark"] .wrapper, html[data-theme="dark"] .layer__chat-users-list {
+    background-color: #202124;
+}
+html[data-theme="dark"] .layer__chat-debates-tabs-title, html[data-theme="dark"] .layer__chat-debates-links-item-title, html[data-theme="dark"] .layer__chat-debates-links-item-title-small {
+    color: #2b7ed7;
+}
+html[data-theme="dark"] .layer__chat-users-list-body, html[data-theme="dark"] .layer__chat-debates-line  {
+    background-color: #242628;
+}
+html[data-theme="dark"] .layer__chat-users-list-body {
+    border-color: #242628;
+}
+html[data-theme="dark"] .layer__chat-users-list-body {
+    outline-color: #2f3234;
+}
+html[data-theme="dark"] .layer__chat-debates-line, html[data-theme="dark"] .layer__chat-debates-tabs {
+    border-color: #2f3234;
+}
+html[data-theme="dark"] .layer__chat .layer__chat-debates-tab:not(:last-child)::after {
+    background-color: #2f3234;
+}
+html[data-theme="dark"] .red-color {
+    color: #d40000;
+}
+html[data-theme="dark"] .layer__chat-users-list-title span:last-child, html[data-theme="dark"] .for-me {
+    color: #079600;
+}
+html[data-theme="dark"] #chat-messages tr:nth-child(2n+1), html[data-theme="dark"] .checkbox-group .label-for-useEnter::before {
+    background-color: #1f2d40;
+    color: #dfdfdf;
+}
+html[data-theme="dark"] .layer__chat-debates-table a {
+    color: #abcbff;
+}
+
+html[data-theme="dark"] .layer__chat-debates-tab {
+    background: linear-gradient(#1e2c3c 50%, #242628 100%);
+}
+html[data-theme="dark"] .layer__chat-debates-tab::before {
+    background: linear-gradient(#212225 50%, #242628 100%);
+}
+html[data-theme="dark"] .layer__chat-debates-tab.active {
+    background: linear-gradient(#212225 50%, #242628 100%);
+}
+html[data-theme="dark"] .layer__chat-debates-tab.chat {
+    background: linear-gradient(#212225 50%, #242628 100%);
+}
+html[data-theme="dark"] .checkbox-group #useEnter:checked + .label-for-useEnter::before {
+    border-color: #184779;
+}
+
+
+@media (hover: hover) {
+    html[data-theme="dark"] .checkbox-group .label-for-useEnter:hover::before {
+        border-color: #215994;
+        border-color: #184779;
+      }
+    html[data-theme="dark"] .layer__chat-users-list .red-color span:hover, html[data-theme="dark"] .message-name.red-color:hover {
+        color: rgb(227, 0, 0);
+    }
+    html[data-theme="dark"] .layer__chat-debates-tab:hover {
+        color: #dfdfdf;
+    }
+    html[data-theme="dark"] .layer__chat-debates-tab:not(.layer__chat-debates-tab.chat):hover::before {
+        background: linear-gradient(#212225 50%, #242628 100%);
+    }
+    html[data-theme="dark"] .layer__chat-debates-table a:hover, html[data-theme="dark"] .message-name:hover, html[data-theme="dark"] .layer__chat-users-list li span:hover {
+        color: #8ab4f8;
+        border-color: #8ab4f8;
+    }
+    html[data-theme="dark"] .layer__chat-users-list li a:hover {
+        background-color: #152f4b;
     }
 }
