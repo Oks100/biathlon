@@ -4,7 +4,7 @@ footer {
   background-color: initial;
 }
 .body {
-    padding: 0.5em 1.06em;
+    padding: 0 1.06em;
 }
 .wrapper {
     max-width: initial;
@@ -12,7 +12,7 @@ footer {
     background-color: white;
     padding: 1em 1.5em;
     box-shadow: 0px 5px 24px rgba(32,60,87,0.11);
-    border-radius: 8px;
+    max-width: 1500px;
 }
 
 .layer__chat {
@@ -411,7 +411,6 @@ footer {
 }
 .layer__chat-debates.links .layer__chat-debates-table {
     position: relative;
-    /* padding: 22px; */
 }
 .layer__chat-debates.links .layer__chat-debates-links::before {
     content: '';
@@ -424,6 +423,7 @@ footer {
     background-image: url("img/picture/03.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center top;
     opacity: 0.15;
 }
 
@@ -433,7 +433,7 @@ footer {
 
 @media (hover: hover) {
     .layer__chat-users-list .red-color span:hover, .message-name.red-color:hover {
-        color: rgb(227, 0, 0);
+        color: #FF0000;
     }
     .checkbox-group .label-for-useEnter:hover::before {
         border-color: #c0e5fb;
@@ -496,8 +496,6 @@ footer {
     .layer__comment-write-body-rules {
         flex: auto;
     }
-}
-@media screen and (max-width: 750px) {
     .layer__chat-debates.links .layer__chat-debates-links::before {
         background-image: url(img/picture/bg-2.jpg);
         opacity: 0.2;
@@ -605,10 +603,6 @@ footer {
 
 
 
-html[data-theme="dark"] html, html[data-theme="dark"] .body {
-    background-color: #333333;
-}
-
 html[data-theme="dark"] .homepage-icon, html[data-theme="dark"] .profile-icon {
     fill: #2b63b1;
 }
@@ -618,22 +612,25 @@ html[data-theme="dark"] .checkbox-group #useEnter:checked + .label-for-useEnter:
 html[data-theme="dark"] .wrapper, html[data-theme="dark"] .layer__chat-users-list {
     background-color: #202124;
 }
+html[data-theme="dark"] .wrapper {
+    box-shadow: 0px 0px 12px rgba(65, 65, 65, 0.11);
+}
 html[data-theme="dark"] .layer__chat-debates-tabs-title, html[data-theme="dark"] .layer__chat-debates-links-item-title, html[data-theme="dark"] .layer__chat-debates-links-item-title-small {
     color: #2b7ed7;
 }
-html[data-theme="dark"] .layer__chat-users-list-body, html[data-theme="dark"] .layer__chat-debates-line  {
-    background-color: #242628;
+html[data-theme="dark"] .layer__chat-users-list-body, html[data-theme="dark"] .layer__chat-debates-line, html[data-theme="dark"] .layer__chat-users-list-body-2  {
+    background-color: #252628;
 }
-html[data-theme="dark"] .layer__chat-users-list-body {
-    border-color: #242628;
+html[data-theme="dark"] .layer__chat-users-list-body, html[data-theme="dark"] .layer__chat-users-list-body-2 {
+    border-color: #252628;
 }
-html[data-theme="dark"] .layer__chat-users-list-body {
+html[data-theme="dark"] .layer__chat-users-list-body, html[data-theme="dark"] .layer__chat-users-list-body-2 {
     outline-color: #2f3234;
 }
 html[data-theme="dark"] .layer__chat-debates-line, html[data-theme="dark"] .layer__chat-debates-tabs {
     border-color: #2f3234;
 }
-html[data-theme="dark"] .layer__chat .layer__chat-debates-tab:not(:last-child)::after {
+html[data-theme="dark"] .layer__chat .layer__chat-debates-tab:not(:last-child)::after, html[data-theme="dark"] .layer__comment .layer__chat-debates-tab:not(:last-child)::after {
     background-color: #2f3234;
 }
 html[data-theme="dark"] .red-color {
@@ -644,42 +641,40 @@ html[data-theme="dark"] .layer__chat-users-list-title span:last-child, html[data
 }
 html[data-theme="dark"] #chat-messages tr:nth-child(2n+1), html[data-theme="dark"] .checkbox-group .label-for-useEnter::before {
     background-color: #1f2d40;
-    color: #dfdfdf;
+    color: #83a1ca;
 }
 html[data-theme="dark"] .layer__chat-debates-table a {
     color: #abcbff;
 }
 
+
 html[data-theme="dark"] .layer__chat-debates-tab {
-    background: linear-gradient(#1e2c3c 50%, #242628 100%);
+    background: linear-gradient(#1e2c3c 50%, #252628 100%);
 }
-html[data-theme="dark"] .layer__chat-debates-tab::before {
-    background: linear-gradient(#212225 50%, #242628 100%);
-}
-html[data-theme="dark"] .layer__chat-debates-tab.active {
-    background: linear-gradient(#212225 50%, #242628 100%);
-}
-html[data-theme="dark"] .layer__chat-debates-tab.chat {
-    background: linear-gradient(#212225 50%, #242628 100%);
+html[data-theme="dark"] .layer__chat-debates-tab::before, html[data-theme="dark"] .layer__chat-debates-tab.active, html[data-theme="dark"] .layer__chat-debates-tab.chat {
+    background: linear-gradient(#222327 50%, #252628 100%);
 }
 html[data-theme="dark"] .checkbox-group #useEnter:checked + .label-for-useEnter::before {
     border-color: #184779;
 }
+html[data-theme="dark"] .me {
+    color: #2e8be8;
+}
+
 
 
 @media (hover: hover) {
     html[data-theme="dark"] .checkbox-group .label-for-useEnter:hover::before {
-        border-color: #215994;
         border-color: #184779;
       }
     html[data-theme="dark"] .layer__chat-users-list .red-color span:hover, html[data-theme="dark"] .message-name.red-color:hover {
-        color: rgb(227, 0, 0);
+        color: #FF0000;
     }
     html[data-theme="dark"] .layer__chat-debates-tab:hover {
         color: #dfdfdf;
     }
     html[data-theme="dark"] .layer__chat-debates-tab:not(.layer__chat-debates-tab.chat):hover::before {
-        background: linear-gradient(#212225 50%, #242628 100%);
+        background: linear-gradient(#212225 50%, #252628 100%);
     }
     html[data-theme="dark"] .layer__chat-debates-table a:hover, html[data-theme="dark"] .message-name:hover, html[data-theme="dark"] .layer__chat-users-list li span:hover {
         color: #8ab4f8;
@@ -687,5 +682,265 @@ html[data-theme="dark"] .checkbox-group #useEnter:checked + .label-for-useEnter:
     }
     html[data-theme="dark"] .layer__chat-users-list li a:hover {
         background-color: #152f4b;
+    }
+}
+
+
+
+
+
+
+
+
+
+html[data-theme="Black"] .wrapper, html[data-theme="Black"] .layer__chat-users-list {
+    background-color: #121212;
+    border: 1px solid #292a2c;
+    border-top: none;
+    border-bottom: none;
+}
+html[data-theme="Black"] .wrapper {
+    box-shadow: 0px 0px 12px rgba(65, 65, 65, 0.11);
+}
+html[data-theme="Black"] .homepage-icon, html[data-theme="Black"] .profile-icon {
+    fill: #255490;
+}
+html[data-theme="Black"] .checkbox-group #useEnter:checked + .label-for-useEnter::after {
+    border-color: #255490;
+}
+html[data-theme="Black"] .layer__chat-debates-tabs-title, html[data-theme="Black"] .layer__chat-debates-links-item-title, html[data-theme="Black"] .layer__chat-debates-links-item-title-small {
+    color: #326bb3;
+}
+html[data-theme="Black"] .layer__chat-users-list-body, html[data-theme="Black"] .layer__chat-debates-line, html[data-theme="Black"] .layer__chat-users-list-body-2  {
+    background-color: #181818;
+}
+html[data-theme="Black"] .layer__chat-users-list-body, html[data-theme="Black"] .layer__chat-users-list-body-2 {
+    border-color: #181818;
+}
+html[data-theme="Black"] .layer__chat-users-list-body, html[data-theme="Black"] .layer__chat-users-list-body-2 {
+    outline-color: #292a2c;
+}
+html[data-theme="Black"] .layer__chat-debates-line, html[data-theme="Black"] .layer__chat-debates-tabs {
+    border-color: #292a2c;
+}
+html[data-theme="Black"] .layer__chat .layer__chat-debates-tab:not(:last-child)::after, html[data-theme="Black"] .layer__comment .layer__chat-debates-tab:not(:last-child)::after {
+    background-color: #292a2c;
+}
+html[data-theme="Black"] .layer__chat-users-list-title span:last-child, html[data-theme="Black"] .for-me {
+    color: #156d11;
+}
+html[data-theme="Black"] #chat-messages tr:nth-child(2n+1), html[data-theme="Black"] .checkbox-group .label-for-useEnter::before {
+    background-color: #0e1721;
+    color: #7089ad;
+}
+html[data-theme="Black"] .layer__chat-debates-table a {
+    color: #6688c0;
+}
+html[data-theme="Black"] .me {
+    color: #3879cc;
+}
+html[data-theme="Black"] .layer__chat-debates-tab {
+    background: linear-gradient(#101b27 50%, #181818 100%);
+}
+html[data-theme="Black"] .layer__chat-debates-tab::before, html[data-theme="Black"] .layer__chat-debates-tab.active, html[data-theme="Black"] .layer__chat-debates-tab.chat {
+    background: linear-gradient(#131313 50%, #181818 100%);
+}
+html[data-theme="Black"] .checkbox-group #useEnter:checked + .label-for-useEnter::before {
+    border-color: #102442;
+}
+
+
+
+
+
+@media (hover: hover) {
+    html[data-theme="Black"] .checkbox-group .label-for-useEnter:hover::before {
+        border-color: #102442;
+    }
+    html[data-theme="Black"] .layer__chat-debates-tab:hover {
+        color: #c9ccd0;
+    }
+    html[data-theme="Black"] .layer__chat-users-list .red-color span:hover, html[data-theme="Black"] .message-name.red-color:hover {
+        color: #FF0000 !important;
+    }
+    html[data-theme="Black"] .layer__chat-debates-tab:not(.layer__chat-debates-tab.chat):hover::before {
+        background: linear-gradient(#131313 50%, #181818 100%);
+    }
+    html[data-theme="Black"] .layer__chat-debates-table a:hover, html[data-theme="Black"] .message-name:hover, html[data-theme="Black"] .layer__chat-users-list li span:hover {
+        color: #93bbff;
+        border-color: #93bbff;
+    }
+    html[data-theme="Black"] .layer__chat-users-list li a:hover {
+        background-color: #102442;
+    }
+}
+
+
+
+
+
+
+
+html[data-theme="grey"] .homepage-icon, html[data-theme="grey"] .profile-icon {
+    fill: #869db2;
+}
+html[data-theme="grey"] .checkbox-group #useEnter:checked + .label-for-useEnter::after {
+    border-color: #869db2;
+}
+html[data-theme="grey"] .wrapper, html[data-theme="grey"] .layer__chat-users-list {
+    background-color: #fff;
+    color: #1e1e1e;
+}
+html[data-theme="grey"] .layer__chat-debates-tabs-title, html[data-theme="grey"] .layer__chat-debates-links-item-title, html[data-theme="grey"] .layer__chat-debates-links-item-title-small {
+    color: #648099;
+}
+html[data-theme="grey"] .layer__chat-users-list-body, html[data-theme="grey"] .layer__chat-users-list-body-2 {
+    outline-color: #d8dfe2;
+    outline-color: #ced4d7;
+}
+html[data-theme="grey"] .layer__chat-debates-line, html[data-theme="grey"] .layer__chat-debates-tabs {
+    border-color: #d8dfe2;
+    border-color: #ced4d7;
+}
+html[data-theme="grey"] .layer__chat .layer__chat-debates-tab:not(:last-child)::after, html[data-theme="grey"] .layer__comment .layer__chat-debates-tab:not(:last-child)::after {
+    background-color: #d8dfe2;
+    background-color: #ced4d7;
+}
+html[data-theme="grey"] .layer__chat-users-list-body {
+    border-color: #e9eaec;
+}
+  html[data-theme="grey"] .layer__chat-users-list-body, html[data-theme="grey"] .layer__chat-debates-line {
+    background-color: #e9eaec;
+}
+html[data-theme="grey"] .red-color {
+    color: #ee3232;
+}
+html[data-theme="grey"] .layer__chat-users-list-title span:last-child, html[data-theme="grey"] .for-me {
+    color: #50ae4b;
+}
+html[data-theme="grey"] #chat-messages tr:nth-child(2n+1), html[data-theme="grey"] .checkbox-group .label-for-useEnter::before {
+    background-color: #ececec;
+}
+html[data-theme="grey"] .layer__chat-debates-table a {
+    color: #2f5278;
+}
+html[data-theme="grey"] .layer__chat-debates-tab {
+    background: linear-gradient(#eaf2fa 50%, #edeef0 100%);
+}
+html[data-theme="grey"] .layer__chat-debates-tab::before, html[data-theme="grey"] .layer__chat-debates-tab.active, html[data-theme="grey"] .layer__chat-debates-tab.chat {
+    background: linear-gradient(#fff 50%, #edeef0 100%);
+}
+html[data-theme="grey"] .checkbox-group #useEnter:checked + .label-for-useEnter::before {
+    border-color: #e1e1e1;
+}
+html[data-theme="grey"] .me {
+    color: #4c90d5;
+}
+
+
+
+
+@media (hover: hover) {
+    html[data-theme="grey"] .checkbox-group .label-for-useEnter:hover::before {
+        border-color: #e1e1e1;
+      }
+    html[data-theme="grey"] .layer__chat-users-list .red-color span:hover, html[data-theme="grey"] .message-name.red-color:hover {
+        color: #ff5252;
+    }
+    html[data-theme="grey"] .layer__chat-debates-tab:hover {
+        color: #1e1e1e;
+    }
+    html[data-theme="grey"] .layer__chat-debates-tab:not(.layer__chat-debates-tab.chat):hover::before {
+        background: linear-gradient(#fff 50%, #edeef0 100%);
+    }
+    html[data-theme="grey"] .me:hover, html[data-theme="grey"] .layer__chat-debates-table a:hover, html[data-theme="grey"] .message-name:hover, html[data-theme="grey"] .layer__chat-users-list li span:hover {
+        color: #73abd2;
+        border-color: #73abd2;
+    }
+    html[data-theme="grey"] .layer__chat-users-list li a:hover {
+        background-color: #eeeeee;
+    }
+}
+
+
+
+
+
+
+
+html[data-theme="summer"] .homepage-icon, html[data-theme="summer"] .profile-icon {
+    fill: #65c063;
+}
+html[data-theme="summer"] .checkbox-group #useEnter:checked + .label-for-useEnter::after {
+    border-color: #65c063;
+}
+html[data-theme="summer"] .wrapper, html[data-theme="summer"] .layer__chat-users-list {
+    background-color: #fffdf8;
+}
+html[data-theme="summer"] .layer__chat-debates-tabs-title, html[data-theme="summer"] .layer__chat-debates-links-item-title, html[data-theme="summer"] .layer__chat-debates-links-item-title-small {
+    color: #e99e00;
+}
+html[data-theme="summer"] .layer__chat-users-list-body, html[data-theme="summer"] .layer__chat-debates-line, html[data-theme="summer"] .layer__chat-users-list-body-2  {
+    background-color: #fff9eb;
+}
+html[data-theme="summer"] .layer__chat-users-list-body, html[data-theme="summer"] .layer__chat-users-list-body-2 {
+    border-color: #fff9eb;
+}
+html[data-theme="summer"] .layer__chat-users-list-body, html[data-theme="summer"] .layer__chat-users-list-body-2 {;
+    outline-color: #dbd6cc;
+}
+html[data-theme="summer"] .layer__chat-debates-line, html[data-theme="summer"] .layer__chat-debates-tabs {
+    border-color: #dbd6cc;
+}
+html[data-theme="summer"] .layer__chat .layer__chat-debates-tab:not(:last-child)::after, html[data-theme="summer"] .layer__comment .layer__chat-debates-tab:not(:last-child)::after {
+    background-color: #dbd6cc;
+}
+html[data-theme="summer"] .red-color {
+    color: red;
+}
+html[data-theme="summer"] .layer__chat-users-list-title span:last-child, html[data-theme="summer"] .for-me {
+    color: #29bb21;
+}
+html[data-theme="summer"] #chat-messages tr:nth-child(2n+1), html[data-theme="summer"] .checkbox-group .label-for-useEnter::before {
+    background-color: #fff2d5;
+    color: #896923;
+}
+html[data-theme="summer"] .layer__chat-debates-table a {
+    color: #348232;
+}
+
+
+html[data-theme="summer"] .layer__chat-debates-tab {
+    background: linear-gradient(#f3ecdb 50%, #fff9eb 100%);
+}
+html[data-theme="summer"] .layer__chat-debates-tab::before, html[data-theme="summer"] .layer__chat-debates-tab.active, html[data-theme="summer"] .layer__chat-debates-tab.chat {
+    background: linear-gradient(#fdfaf5 50%, #fff9eb 100%);
+}
+html[data-theme="summer"] .checkbox-group #useEnter:checked + .label-for-useEnter::before {
+    border-color: #ffeab8;
+}
+html[data-theme="summer"] .me {
+    color: #29bb21;
+}
+
+
+
+
+@media (hover: hover) {
+    html[data-theme="summer"] .checkbox-group .label-for-useEnter:hover::before {
+        border-color: #ffeab8;
+    }
+    html[data-theme="summer"] .layer__chat-users-list .red-color span:hover, html[data-theme="summer"] .message-name.red-color:hover {
+        color: rgb(227, 0, 0);
+    }
+    html[data-theme="summer"] .layer__chat-debates-tab:not(.layer__chat-debates-tab.chat):hover::before {
+        background: linear-gradient(#fdfaf5 50%, #fff9eb 100%);
+    }
+    html[data-theme="summer"] .me:hover, html[data-theme="summer"] .layer__chat-debates-table a:hover, html[data-theme="summer"] .message-name:hover, html[data-theme="summer"] .layer__chat-users-list li span:hover {
+        color: #63b961;
+        border-color: #63b961;
+    }
+    html[data-theme="summer"] .layer__chat-users-list li a:hover {
+        background-color: #fff2d4;
     }
 }
