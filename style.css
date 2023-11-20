@@ -8169,18 +8169,16 @@ html[data-theme='dark'] .interview-block__items {
 html[data-theme='dark'] .dropbtn .arrow2::after, html[data-theme='dark'] .dropbtn .arrow2::before {
   background-color: rgb(96, 156, 239);
 }
-html[data-theme='dark'] .mobile-notification__head-content a, html[data-theme='dark'] .mobile-notification__time .view, html[data-theme='dark'] .timer__more-translation, html[data-theme='dark'] .timer__more-result, html[data-theme='dark'] .learn-more__text2-href, html[data-theme='dark'] .learn-more__text3-href, html[data-theme='dark'] .statistics__button.button-style a, html[data-theme='dark'] .learn-more__text2-href:hover, html[data-theme='dark'] .learn-more__text3-href {
+html[data-theme='dark'] .mobile-timer__more-events-content-group a, html[data-theme='dark'] .mobile-notification__head-content a, html[data-theme='dark'] .mobile-notification__time .view, html[data-theme='dark'] .timer__more-translation, html[data-theme='dark'] .timer__more-result, html[data-theme='dark'] .learn-more__text2-href, html[data-theme='dark'] .learn-more__text3-href, html[data-theme='dark'] .statistics__button.button-style a, html[data-theme='dark'] .learn-more__text2-href:hover, html[data-theme='dark'] .learn-more__text3-href {
   color: #abcbff !important;
 }
 html[data-theme='dark'] .statistics__button:hover {
   background-color: #235f9f;
 }
 html[data-theme='dark'] .statistics__button.button-style::after {
-  /* background: #e1e1e1; */
   background: #dfdfdf;
 }
 html[data-theme='dark'] .item__addition::before, html[data-theme='dark'] .dropdown__button, html[data-theme='dark'] .dropdown__button::after, html[data-theme='dark'] .discussion-overflow .timeline__item-comments-comment-more:hover span, html[data-theme="dark"] .toolbar-button2:hover::before, html[data-theme="dark"] .timeline__item-comments-write.guest-user .timeline__item-comments-write-body-tabs, html[data-theme="dark"] .last--comments-news-body-timeline-date, html[data-theme="dark"] .timeline__item-comments-ip-info input, html[data-theme='dark'] .statistics__button.button-style, html[data-theme='dark'] .dropdown-content li {
-  /* color: #e1e1e1; */
   color: #dfdfdf;
 }
 html[data-theme='dark'] .dropdown-content {
