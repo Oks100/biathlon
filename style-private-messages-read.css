@@ -113,6 +113,10 @@
     display: flex;
     gap: 0 5px;
     flex-wrap: wrap;
+    align-items: center;
+}
+.user-locality {
+    margin-right: 10px;
 }
 .timeline-private-messages-username a {
     font-weight: 600;
@@ -161,10 +165,35 @@
 .text-field:focus::placeholder {
     color: transparent;
 }
+.timeline-private-messages__remove-spam {
+    position: relative;
+    cursor: pointer;
+    width: 25px;
+    height: 25px;
+    -webkit-tap-highlight-color: transparent;
+}
+.spam-icon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 25px;
+    height: 25px;
+    fill: #81aad5;
+}
+
+#tippy-17 {
+    inset: -5px auto auto 0px !important;
+}
+
+
 @media (hover: hover) {
     .timeline-private-messages__remove-messages:hover, .timeline-private-messages__my-contacts:hover {
         background-color: #d1ebfb;
       }
+    .timeline-private-messages__remove-spam:hover .spam-icon, .timeline-private-messages__remove-spam[aria-expanded="true"] .spam-icon {
+        fill: #ff5151;
+    }
 }
 
 @media screen and (max-width: 550px) {
