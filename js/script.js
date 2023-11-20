@@ -1212,6 +1212,18 @@ tippy('.comments-delete19', {
   animation: 'shift-away',
 });
 
+tippy('.timeline-private-messages__remove-spam', {
+  content: document.querySelector('.spam'),
+  arrow: true,
+  interactive: true,
+  trigger: 'click',
+  delay: [0, 0],
+  placement: 'bottom',
+  duration: 350,
+  maxWidth: 400,
+  animation: 'shift-away',
+});
+
 tippy('.comments-delete18', {
   content: document.querySelector('.delete18'),
   arrow: true,
