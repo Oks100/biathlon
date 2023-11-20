@@ -186,12 +186,15 @@
     inset: -5px auto auto 0px !important;
 }
 
+.timeline-private-messages__remove-spam[aria-expanded="true"] .spam-icon {
+    fill: #ff5151;
+}
 
 @media (hover: hover) {
     .timeline-private-messages__remove-messages:hover, .timeline-private-messages__my-contacts:hover {
         background-color: #d1ebfb;
       }
-    .timeline-private-messages__remove-spam:hover .spam-icon, .timeline-private-messages__remove-spam[aria-expanded="true"] .spam-icon {
+    .timeline-private-messages__remove-spam:hover .spam-icon {
         fill: #ff5151;
     }
 }
