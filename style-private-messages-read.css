@@ -168,17 +168,18 @@
 .timeline-private-messages__remove-spam {
     position: relative;
     cursor: pointer;
-    width: 25px;
-    height: 25px;
+    width: 22px;
+    height: 22px;
     -webkit-tap-highlight-color: transparent;
+    margin-bottom: 2px;
 }
 .spam-icon {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 25px;
-    height: 25px;
+    width: 22px;
+    height: 22px;
     fill: #81aad5;
 }
 
