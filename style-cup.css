@@ -1166,7 +1166,6 @@ html[data-theme="Black"] .table-button-now-1:hover, html[data-theme="Black"] .ta
     box-shadow: inset 0px 0px 0px 1px #173660;
 }
 html[data-theme="Black"] .timeline-cup-table tbody tr:not(:first-child, .active):hover td {
-    /* background-color: #413e2c; */
     background-color: #232219;
 }
 html[data-theme="Black"] .chosen-string.active {
@@ -1174,10 +1173,10 @@ html[data-theme="Black"] .chosen-string.active {
     background-color: #452435 !important;
 }
 html[data-theme="Black"] .green.square::before, html[data-theme="Black"] .triangle::before, html[data-theme="Black"] .timeline-cup-table .green {
-    color: #156d11;
+    color: #177513;
 }
 html[data-theme="Black"] .triangle-down::before, html[data-theme="Black"] .red.square::before {
-    color: #a40000;
+    color: #d40000;
 }
 html[data-theme="Black"] .table-circle::before {
     color: #c8a900;
@@ -1437,7 +1436,7 @@ html[data-theme="grey"] .chosen-string.active {
 html[data-theme="grey"] .green.square::before, html[data-theme="grey"] .triangle::before, html[data-theme="grey"] .timeline-cup-table .green {
     color: #50ae4b;
 }
-html[data-theme="grey"] .triangle-down::before, html[data-theme="grey"] .red.square::before {
+html[data-theme="grey"] .timeline-cup-table .red, html[data-theme="grey"] .triangle-down::before, html[data-theme="grey"] .red.square::before {
     color: #ee3232;
 }
 
