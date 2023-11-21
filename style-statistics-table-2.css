@@ -362,28 +362,22 @@
     display: none;
 }
 .color-0 {
-    /* background-color: #dedede; */
     background: radial-gradient(circle, rgba(222, 222, 222, 0.7) 0%, rgb(222, 222, 222) 100%);
 }
 .color-1 {
-    /* background-color: #f7c0c0; */
     background: radial-gradient(circle, rgba(247, 192, 192, 0.7) 0%, rgb(247, 192, 192) 100%);
 }
 .color-2 {
-    /* background-color: #ffdbb8; */
     background: radial-gradient(circle, rgba(255, 219, 184, 0.7) 0%, rgb(255, 219, 184) 100%);
 }
 .color-3 {
-    /* background-color: #ffffba; */
     background: radial-gradient(circle, rgba(255, 255, 186, 0.7) 0%, rgb(255, 255, 186) 100%);
 }
 .color-4 {
-    /* background-color: #c6e9c6; */
     background: radial-gradient(circle, rgba(198, 233, 198, 0.7) 0%, rgb(198, 233, 198) 100%);
 }
 .color-5 {
-    /* background-color: #80ca80; */
-    background: radial-gradient(circle, rgba(128, 202, 128, 0.7) 0%, rgb(128, 202, 128) 100%);
+    background: radial-gradient(circle, rgba(144, 202, 144, 0.7) 0%, rgb(142, 205, 142) 100%);
 }
 
 .timeline-cup__head-back-button:focus {

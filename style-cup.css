@@ -1236,6 +1236,9 @@ html[data-theme="Black"] .timeline-cup.profiles-color .age-color-6:hover, html[d
 html[data-theme="Black"] .timeline-cup__footer-legend-remark {
     color: #868686;
 }
+html[data-theme="Black"] .timeline__more-tables {
+    border: 1px solid #292a2c;
+}
 
 
 @media (hover: hover) {

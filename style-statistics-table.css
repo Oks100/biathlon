@@ -178,9 +178,6 @@
     z-index: -1;
 }
 
-.timeline-cup-statistics-table-wrapper {
-    /* overflow-x: auto; */
-}
 .timeline-cup-statistics-table {
     width: 100%;
     position: relative;
@@ -195,7 +192,7 @@
 .timeline-cup-statistics-table thead tr td, .timeline-cup-statistics-table tr:last-child td {
     padding: 5px 7px;
 }
-.timeline-cup-statistics-table tr:first-child td:first-child  {
+.timeline-cup-statistics-table tr:first-child td:first-child, .timeline-cup-statistics-table tbody tr:nth-last-child(2) td:first-child {
     color: #5d5d5d;
 }
 .timeline-cup-statistics-table tr td {
@@ -235,48 +232,23 @@
     margin: 0 auto;
 }
 
-/* .color-0 {
-    background-color: #dedede;
-}
-.color-1 {
-    background-color: #f7c0c0;
-}
-.color-2 {
-    background-color: #ffdbb8;
-}
-.color-3 {
-    background-color: #ffffba;
-}
-.color-4 {
-    background-color: #c6e9c6;
-}
-.color-5 {
-    background-color: #80ca80;
-} */
-
 .color-0 {
-    /* background-color: #dedede; */
     background: radial-gradient(circle, rgba(222, 222, 222, 0.5) 0%, rgb(222, 222, 222) 100%);
 }
 .color-1 {
-    /* background-color: #f7c0c0; */
     background: radial-gradient(circle, rgba(247, 192, 192, 0.7) 0%, rgb(247, 192, 192) 100%);
 }
 .color-2 {
-    /* background-color: #ffdbb8; */
     background: radial-gradient(circle, rgba(255, 219, 184, 0.7) 0%, rgb(255, 219, 184) 100%);
 }
 .color-3 {
-    /* background-color: #ffffba; */
     background: radial-gradient(circle, rgba(255, 255, 186, 0.7) 0%, rgb(255, 255, 186) 100%);
 }
 .color-4 {
-    /* background-color: #c6e9c6; */
     background: radial-gradient(circle, rgba(198, 233, 198, 0.7) 0%, rgb(198, 233, 198) 100%);
 }
 .color-5 {
-    /* background-color: #80ca80; */
-    background: radial-gradient(circle, rgba(128, 202, 128, 0.7) 0%, rgb(128, 202, 128) 100%);
+    background: radial-gradient(circle, rgba(144, 202, 144, 0.7) 0%, rgb(142, 205, 142) 100%);
 }
 
 .timeline-cup__head-back-button {
@@ -379,5 +351,264 @@
         transform: translateY(-50%);
         height: 180px;
         width: 180px;
+    }
+}
+
+
+
+
+
+
+
+
+html[data-theme="dark"] .timeline-cup-statistics-title {
+    background-color: #1f2d40;
+}
+html[data-theme="dark"] .circle-element-for-cup {
+    border-color: #1f2d40;
+}
+html[data-theme="dark"] .medals-icon, html[data-theme="dark"] .female-icon, html[data-theme="dark"] .male-icon {
+    fill: #2d63af;
+}
+html[data-theme="dark"] .timeline-cup-statistics-table tbody tr td:first-child, html[data-theme="dark"] .timeline-cup-statistics-table thead tr td, html[data-theme="dark"] .timeline__more-tables, html[data-theme="dark"] .timeline-cup, html[data-theme="dark"] .circle-element-for-cup, html[data-theme="dark"] .timeline-cup__head-back-button-icon {
+    background-color: #202124;
+}
+html[data-theme="dark"] .timeline-cup-statistics-table tbody tr td:first-child, html[data-theme="dark"] .timeline-cup-statistics-table thead tr td:first-child {
+    box-shadow: -2px 0 0 0 #202124;
+}
+html[data-theme="dark"] .timeline__more-tables-body svg {
+    fill: #1f2d40;
+}
+html[data-theme="dark"] .timeline__more-tables-body li::before {
+    color: #2d63af;
+}
+html[data-theme="dark"] .timeline__more-tables-body li.active::before {
+    color: #7b7b7b;
+}
+html[data-theme="dark"] .timeline__more-tables-head span, html[data-theme="dark"] .timeline-cup, html[data-theme="dark"] .timeline-cup__head span:nth-child(1) {
+    color: #dfdfdf;
+}
+html[data-theme="dark"] .timeline-cup-statistics-table tr:first-child td:first-child, html[data-theme="dark"] .timeline-cup-statistics-table tbody tr td:first-child {
+    color: #b5b5b5;
+}
+html[data-theme="dark"] .timeline-cup__head-back-button {
+    background-color: #184779;
+}
+html[data-theme="dark"] .timeline-cup__head-back-button-icon::after, html[data-theme="dark"] .timeline-cup__head-back-button-icon::before {
+    color: #2b63b1;
+}
+html[data-theme="dark"] .timeline-cup-statistics-table tr td {
+    border-color: #45484a;
+}
+
+html[data-theme="dark"] .color-0 {
+    background: radial-gradient(circle, rgb(150, 150, 150) 0%, rgb(144, 144, 144) 100%);
+}
+html[data-theme="dark"] .color-1 {
+    background: radial-gradient(circle, rgb(185, 118, 118) 0%, rgb(168, 107, 107) 100%);
+}
+html[data-theme="dark"] .color-2 {
+    background: radial-gradient(circle, rgb(188, 155, 125) 0%, rgb(168, 139, 112) 100%);
+}
+html[data-theme="dark"] .color-3 {
+    background: radial-gradient(circle, rgb(168, 168, 101) 0%, rgb(164, 164, 81) 100%);
+}
+html[data-theme="dark"] .color-4 {
+    background: radial-gradient(circle, rgb(129, 163, 129) 0%, rgb(118, 148, 118) 100%);
+}
+html[data-theme="dark"] .color-5 {
+    background: radial-gradient(circle, rgb(96, 158, 96) 0%, rgb(81, 137, 81) 100%);
+}
+
+@media (hover: hover) {
+    html[data-theme="dark"] .timeline-cup__head-back-button:hover {
+        background-color: #235f9f;
+    }
+}
+
+
+
+
+
+
+
+html[data-theme="summer"] .timeline-cup-statistics-title {
+    background-color: #fff2d5;
+}
+html[data-theme="summer"] .circle-element-for-cup {
+    border-color: #fff2d5;
+}
+html[data-theme="summer"] .medals-icon, html[data-theme="summer"] .female-icon, html[data-theme="summer"] .male-icon {
+    fill: #65c063;
+}
+html[data-theme="summer"] .timeline-cup-statistics-table tbody tr td:first-child, html[data-theme="summer"] .timeline-cup-statistics-table thead tr td, html[data-theme="summer"] .timeline__more-tables, html[data-theme="summer"] .timeline-cup, html[data-theme="summer"] .circle-element-for-cup, html[data-theme="summer"] .timeline-cup__head-back-button-icon {
+    background-color: #fffdf8;
+}
+html[data-theme="summer"] .timeline-cup-statistics-table tbody tr td:first-child, html[data-theme="summer"] .timeline-cup-statistics-table thead tr td:first-child {
+    box-shadow: -2px 0 0 0 #fffdf8;
+}
+html[data-theme="summer"] .timeline__more-tables-body svg {
+    fill: #fff2d5;
+}
+html[data-theme="summer"] .timeline__more-tables-body li::before {
+    color: rgb(101, 192, 99);
+}
+html[data-theme="summer"] .timeline__more-tables-body li.active::before {
+    color: #8d8d8d;
+}
+html[data-theme="summer"] .timeline-cup__head-back-button {
+    background-color: #fff2d4;
+}
+html[data-theme="summer"] .timeline-cup__head-back-button-icon::after, html[data-theme="summer"] .timeline-cup__head-back-button-icon::before {
+    color: #65c063;
+}
+html[data-theme="summer"] .timeline-cup-statistics-table tr td {
+    border-color: #dbd6cc;
+}
+html[data-theme="summer"] .timeline-cup-statistics-table a, html[data-theme="summer"] .timeline__more-tables-body a, html[data-theme="summer"] .timeline-cup__head-back-button{
+    color: #348232;
+}
+html[data-theme="summer"] .timeline .timeline__more-tables-body a:hover, html[data-theme="summer"] .timeline .timeline-cup-statistics-table a:hover {
+    color: #63b961;
+    border-color: #63b961;
+}
+
+@media (hover: hover) {
+    html[data-theme="summer"] .timeline-cup__head-back-button:hover {
+        background-color: #ffeab8;
+    }
+}
+
+
+
+
+
+html[data-theme="grey"] .timeline-cup {
+    color: #1e1e1e;
+}
+
+html[data-theme="grey"] .timeline-cup-statistics-title {
+    background-color: #eeeeee;
+}
+html[data-theme="grey"] .circle-element-for-cup {
+    border-color: #eeeeee;
+}
+html[data-theme="grey"] .medals-icon, html[data-theme="grey"] .female-icon, html[data-theme="grey"] .male-icon {
+    fill: #89a0b5;
+}
+html[data-theme="grey"] .timeline__more-tables-body svg {
+    fill: #edf1f4;
+}
+html[data-theme="grey"] .timeline__more-tables-body li.active::before {
+    color: #9b9b9b;
+}
+html[data-theme="dark"] .timeline__more-tables-head span, html[data-theme="dark"] .timeline-cup, html[data-theme="dark"] .timeline-cup__head span:nth-child(1) {
+    color: #dfdfdf;
+}
+html[data-theme="grey"] .timeline-cup-statistics-table tr:first-child td:first-child {
+    color: #7e7e7e;
+}
+html[data-theme="grey"] .timeline-cup__head-back-button {
+    background-color: #eeeeee;
+}
+html[data-theme="grey"] .timeline__more-tables-body li::before, html[data-theme="grey"] .timeline-cup__head-back-button-icon::after, html[data-theme="grey"] .timeline-cup__head-back-button-icon::before {
+    color: #89a0b5;
+}
+html[data-theme="dark"] .timeline-cup-statistics-table tr td {
+    border-color: #45484a;
+}
+
+html[data-theme="grey"] .color-1 {
+    background: radial-gradient(circle, rgba(240, 196, 196, 0.7) 0%, rgb(240, 196, 196) 100%);
+}
+html[data-theme="grey"] .color-2 {
+    background: radial-gradient(circle, rgba(241, 211, 183, 0.7) 0%, rgb(241, 211, 183) 100%);
+}
+html[data-theme="grey"] .color-3 {
+    background: radial-gradient(circle, rgba(247, 247, 188, 0.7) 0%, rgb(247, 247, 188) 100%);
+}
+html[data-theme="grey"] .color-4 {
+    background: radial-gradient(circle, rgba(196, 227, 196, 0.7) 0%, rgb(196, 227, 196) 100%);
+}
+html[data-theme="grey"] .color-5 {
+    background: radial-gradient(circle, rgba(143, 193, 143, 0.7) 0%, rgb(143, 193, 143) 100%);
+}
+
+@media (hover: hover) {
+    html[data-theme="grey"] .timeline-cup__head-back-button:hover {
+        background-color: #e1e1e1;
+    }
+}
+
+
+
+
+
+
+html[data-theme="Black"] .timeline-cup-statistics-title {
+    background-color: #0e1721;
+}
+html[data-theme="Black"] .circle-element-for-cup {
+    border-color: #0e1721;
+}
+html[data-theme="Black"] .medals-icon, html[data-theme="Black"] .female-icon, html[data-theme="Black"] .male-icon {
+    fill: #265591;
+}
+html[data-theme="Black"] .timeline-cup-statistics-table tbody tr td:first-child, html[data-theme="Black"] .timeline-cup-statistics-table thead tr td, html[data-theme="Black"] .timeline__more-tables, html[data-theme="Black"] .timeline-cup, html[data-theme="Black"] .circle-element-for-cup, html[data-theme="Black"] .timeline-cup__head-back-button-icon {
+    background-color: #121212;
+}
+html[data-theme="Black"] .timeline-cup-statistics-table tbody tr td:first-child, html[data-theme="Black"] .timeline-cup-statistics-table thead tr td:first-child {
+    box-shadow: -2px 0 0 0 #121212;
+}
+html[data-theme="Black"] .timeline__more-tables-body svg {
+    fill: #101a25;
+}
+html[data-theme="Black"] .timeline__more-tables-body li.active::before {
+    color: #626262;
+}
+html[data-theme="Black"] .timeline__more-tables-head span, html[data-theme="Black"] .timeline-cup, html[data-theme="Black"] .timeline-cup__head span:nth-child(1) {
+    color: #c9ccd0;
+}
+html[data-theme="Black"] .timeline-cup-statistics-table tr:first-child td:first-child, html[data-theme="Black"] .timeline-cup-statistics-table tbody tr td:first-child {
+    color: #a4a6a7;
+}
+html[data-theme="Black"] .timeline__more-tables-body li.active {
+    color: #a4a6a7;
+}
+html[data-theme="Black"] .timeline__more-tables, html[data-theme="Black"] .timeline-cup {
+    border: 1px solid #292a2c;
+}
+html[data-theme="Black"] .timeline-cup__head-back-button {
+    background-color: #102442;
+}
+html[data-theme="Black"] .timeline__more-tables-body li::before, html[data-theme="Black"] .timeline-cup__head-back-button-icon::after, html[data-theme="Black"] .timeline-cup__head-back-button-icon::before {
+    color: #265591;
+}
+html[data-theme="Black"] .timeline-cup-statistics-table tr td {
+    border-color: #292a2c;
+}
+
+html[data-theme="Black"] .color-0 {
+    background: radial-gradient(circle, rgb(125, 125, 125) 0%, rgb(107, 107, 107) 100%);
+}
+html[data-theme="Black"] .color-1 {
+    background: radial-gradient(circle, rgb(136, 94, 94) 0%, rgb(128, 83, 83) 100%);
+}
+html[data-theme="Black"] .color-2 {
+    background: radial-gradient(circle, rgb(131, 111, 93) 0%, rgb(134, 109, 86) 100%)
+}
+html[data-theme="Black"] .color-3 {
+    background: radial-gradient(circle, rgb(140, 140, 85) 0%, rgb(151, 151, 69) 100%);
+}
+html[data-theme="Black"] .color-4 {
+    background: radial-gradient(circle, rgb(113, 149, 113) 0%, rgb(100, 138, 100) 100%);
+}
+html[data-theme="Black"] .color-5 {
+    background: radial-gradient(circle, rgb(82, 128, 82) 0%, rgb(69, 115, 69) 100%);
+}
+
+@media (hover: hover) {
+    html[data-theme="Black"] .timeline-cup__head-back-button:hover {
+        background-color: #173660;
     }
 }

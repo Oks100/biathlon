@@ -8907,7 +8907,7 @@ html[data-theme='Black'] .timeline__footer button .icon-container .icon svg {
 html[data-theme="Black"] .icon.icon--left::before, html[data-theme="Black"] .icon.icon--right::before {
   border-color: #6688c0;
 }
-html[data-theme="Black"] .timer__more-information:not(.timer__more-information.last) a:hover, html[data-theme="Black"] .user-link:hover, html[data-theme="Black"] .forgot-login-password a:hover, html[data-theme="Black"] .timeline__item-comments-username a:hover, html[data-theme="Black"] .timeline__item-comments-to-write-comments:hover, html[data-theme="Black"] .main-cup a:hover, html[data-theme='Black'] .timeline a:hover:not(.last--comments-news-head a, .timeline__item-last-photos-head a, .last--comments-news-body-discription-comments-number, .btn__socials), html[data-theme='Black'] .left-sidebar a:hover, html[data-theme='Black'] .right-sidebar a:hover {
+html[data-theme="Black"] .timer__more-information:not(.timer__more-information.last) a:hover, html[data-theme="Black"] .user-link:hover, html[data-theme="Black"] .forgot-login-password a:hover, html[data-theme="Black"] .timeline__item-comments-username a:hover, html[data-theme="Black"] .timeline__item-comments-to-write-comments:hover, html[data-theme="Black"] .main-cup a:hover, html[data-theme='Black'] .timeline a:hover:not(.timeline-cup__head-back-button, .last--comments-news-head a, .timeline__item-last-photos-head a, .last--comments-news-body-discription-comments-number, .btn__socials), html[data-theme='Black'] .left-sidebar a:hover, html[data-theme='Black'] .right-sidebar a:hover {
   color: #93bbff;
   border-color: #93bbff;
 }
@@ -9331,7 +9331,7 @@ html[data-theme='Black'] .interview-block__gossip_image {
 html[data-theme="grey"] .header, html[data-theme="grey"] footer.footer {
   background-color: #4d6577;
 }
-html[data-theme="grey"] .timeline__item-comments-to-write-comments:hover, html[data-theme="grey"] .timer__more-information:not(.last) a:hover, html[data-theme="grey"] main a:hover:not(.vertical-menu-block__link, .timeline__item-last-photos-head a, .last--comments-news-head a, .last--comments-news-body-discription-comments-number), html[data-theme="grey"] .comment-block__rumor:hover, html[data-theme="grey"] .icon.icon--left::before, html[data-theme="grey"] .icon.icon--right::before {
+html[data-theme="grey"] .timeline__item-comments-to-write-comments:hover, html[data-theme="grey"] .timer__more-information:not(.last) a:hover, html[data-theme="grey"] main a:hover:not(.timeline-cup__head-back-button, .vertical-menu-block__link, .timeline__item-last-photos-head a, .last--comments-news-head a, .last--comments-news-body-discription-comments-number), html[data-theme="grey"] .comment-block__rumor:hover, html[data-theme="grey"] .icon.icon--left::before, html[data-theme="grey"] .icon.icon--right::before {
   color: #73abd2;
   border-color: #73abd2;
 }
@@ -9512,7 +9512,7 @@ html[data-theme='grey'] .calendar2 .calendar-inner .calendar-body div > a:hover,
 html[data-theme='grey'] .calendar2 .calendar-inner .calendar-controls .calendar-next a:hover .calendar-next-icon, html[data-theme='grey'] .calendar2 .calendar-inner .calendar-controls .calendar-prev a:hover .calendar-prev-icon, html[data-theme="grey"] .calendar .calendar-inner .calendar-controls .calendar-next a:hover .calendar-next-icon, html[data-theme="grey"] .calendar .calendar-inner .calendar-controls .calendar-prev a:hover .calendar-prev-icon, html[data-theme="grey"] .timer__data-next:hover .timer__data-next-icon, html[data-theme="grey"] .timer__data-prev:hover .timer__data-prev-icon, html[data-theme="grey"] .learn-more:hover .circle-element .circle-element__icon, html[data-theme="grey"] .swiper-button-next:hover .swiper-button-next-icon, html[data-theme="grey"] .swiper-button-prev:hover .swiper-button-prev-icon {
   background-color: #8d929c;
 }
-html[data-theme="grey"] .comment-block__rumor:hover, html[data-theme="grey"] .sidebar-block3 a:hover, html[data-theme="grey"] .timeline a:hover:not(.timeline__item-last-photos-head a, .last--comments-news-head a, .last--comments-news-body-discription-comments-number), html[data-theme="grey"] .timeline__body a:hover, html[data-theme="grey"] .timeline__body-important-news a:hover, html[data-theme="grey"] .comment-block__rumor:hover, html[data-theme="grey"] .icon.icon--left::before, html[data-theme="grey"] .icon.icon--right::before {
+html[data-theme="grey"] .comment-block__rumor:hover, html[data-theme="grey"] .sidebar-block3 a:hover, html[data-theme="grey"] .timeline a:hover:not(.timeline-cup__head-back-button, .timeline__item-last-photos-head a, .last--comments-news-head a, .last--comments-news-body-discription-comments-number), html[data-theme="grey"] .timeline__body a:hover, html[data-theme="grey"] .timeline__body-important-news a:hover, html[data-theme="grey"] .comment-block__rumor:hover, html[data-theme="grey"] .icon.icon--left::before, html[data-theme="grey"] .icon.icon--right::before {
   color: #73abd2;
   border-color: #73abd2;
 }
