@@ -256,7 +256,7 @@
     width: 32.4px;
     padding-right: 0;
 }
-.shooting-icon {
+.shooting-icon, .extra-scores {
     position: relative;
     cursor: help;
 }
@@ -296,6 +296,17 @@
     display: none;
 }
 
+.extra-scores svg {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 11.5px;
+    height: 11.5px;
+    fill: #8d8d8d;
+    display: none;
+}
+
 
 @media (hover: hover) {
     .timeline-tournament__forecast-table tbody tr:hover td, .timeline-tournament__forecast-table-2 tbody tr:hover:not(.tr-marked) td {
@@ -313,10 +324,10 @@
     .timeline-tournament {
         padding: 2em 1.06em 2em 1.06em;
     }
-    .shooting-icon::before {
+    .shooting-icon::before, .extra-scores svg {
         display: inherit;
     }
-    .shooting-icon span {
+    .shooting-icon span, .extra-scores span {
         display: none;
     }
 }
