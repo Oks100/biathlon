@@ -499,14 +499,12 @@
 .fame-table .active-career td {
     background-color: #ffdfdf;
 }
-.fame-table tbody .active-career:hover td:nth-child(2) {
-    background-color: #ffd4d4 !important;
-}
 .fame-table tbody tr.active-career {
     box-shadow: 0 0 0 1px white;
 }
 .fame-table tbody tr.active-career td:nth-child(2) {
-    box-shadow: 0px -1px 0px 0px white;
+    /* box-shadow: 0px -1px 0px 0px white; */
+    box-shadow: inset 0px -1px 0px 0px white;
 }
 
 .little-title {
@@ -717,6 +715,9 @@
 
 
 @media (hover: hover) {
+    .fame-table tbody .active-career:hover td:nth-child(2) {
+        background-color: #ffd4d4 !important;
+    }
     .fame-table .active-career:hover td {
         background-color: #ffd4d4;
     }
