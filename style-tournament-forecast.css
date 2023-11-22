@@ -292,7 +292,9 @@
     background-color: #ffcfe8 !important;
     box-shadow: 0 0 0 1px white;
 }
-
+.shooting-icon::before {
+    display: none;
+}
 
 
 @media (hover: hover) {
@@ -302,15 +304,23 @@
     .timeline-tournament__menu a:hover:not(.active) {
         background-color: #d1ebfb;
     }
+    .tr-marked:hover {
+        background-color: #ffbee0 !important;
+    }
 }
 
-@media screen and (max-width: 1200px) {
-}
 @media screen and (max-width: 550px) {
     .timeline-tournament {
         padding: 2em 1.06em 2em 1.06em;
     }
+    .shooting-icon::before {
+        display: inherit;
+    }
+    .shooting-icon span {
+        display: none;
+    }
 }
+
 @media screen and (max-width: 500px) {
     .timeline-tournament__forecast-table-2 tr td {
         padding: 2.4px 6px;
