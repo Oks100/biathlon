@@ -114,15 +114,14 @@
     margin-top: 2em;
 }
 .timeline-tournament__title {
-    display: flex;
+    display: block;
     font-size: 1.1em;
-    font-weight: 600;
-    margin-top: 2em;
+    margin: 2em 0 0.5em 0;
+    color: #1f7ec4;
 }
 .checkbox-group {
     display: flex;
     flex-direction: row;
-    margin-top: 0.5em;
     align-items: center;
 }
 .checkbox-group #allow-messages:checked + .label-for-allow-messages::after {
@@ -194,7 +193,47 @@
     -webkit-tap-highlight-color: transparent;
 }
 
+
+.my-forecast__table-wrapper {
+    overflow-x: auto;
+}
+.my-forecast__container {
+    display: none;
+}
+.show-table .my-forecast__container {
+    display: inherit;
+}
+.show-table .timeline-tournament__join-button {
+    display: none;
+}
+.timeline__tournament-table tr td {
+    padding: 2.4px 7px;
+}
+.my-forecast__table {
+    width: 100%;
+    border-collapse: collapse;
+}
+.my-forecast__table tr td {
+    padding: 2.4px 7px;
+    white-space: nowrap;
+}
+.my-forecast__table tr td:nth-child(2) {
+    position: sticky;
+    left: 0;
+    top: 0;
+}
+.my-forecast__table tbody tr:nth-child(2n+1) {
+    background-color: #e7f3fa;
+}
+
+
+
+
+
 @media (hover: hover) {
+    .my-forecast__table tr:hover td {
+        background-color: #fffce5;
+    }
     .checkbox-group .label-for-allow-messages:hover::before {
         border-color: #c0e5fb;
     }
@@ -212,5 +251,8 @@
 @media screen and (max-width: 550px) {
     .timeline-tournament {
         padding: 2em 1.06em 2em 1.06em;
+    }
+    .my-forecast__table tr td {
+        padding: 2.4px 5px;
     }
 }
