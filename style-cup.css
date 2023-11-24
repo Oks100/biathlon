@@ -1005,7 +1005,7 @@ html[data-theme="dark"] .timeline-cup-table tbody tr:not(:first-child, .active):
 }
 html[data-theme="dark"] .chosen-string.active {
     box-shadow: 0 0 0 1px #202124;
-    background-color: #604d57 !important;
+    background-color: #4a3d44 !important;
 }
 html[data-theme="dark"] .green.square::before, html[data-theme="dark"] .triangle::before, html[data-theme="dark"] .timeline-cup-table .green {
     color: #079600;
@@ -1170,7 +1170,7 @@ html[data-theme="Black"] .timeline-cup-table tbody tr:not(:first-child, .active)
 }
 html[data-theme="Black"] .chosen-string.active {
     box-shadow: 0 0 0 1px #202124;
-    background-color: #452435 !important;
+    background-color: #32292e !important;
 }
 html[data-theme="Black"] .green.square::before, html[data-theme="Black"] .triangle::before, html[data-theme="Black"] .timeline-cup-table .green {
     color: #177513;
@@ -1431,7 +1431,7 @@ html[data-theme="grey"] .table-button-now-1:hover, html[data-theme="grey"] .tabl
 }
 html[data-theme="grey"] .chosen-string.active {
     box-shadow: 0 0 0 1px #fff;
-    background-color: #fbd2e7 !important;
+    background-color: #f4d4e5 !important;
 }
 html[data-theme="grey"] .green.square::before, html[data-theme="grey"] .triangle::before, html[data-theme="grey"] .timeline-cup-table .green {
     color: #50ae4b;

@@ -111,7 +111,7 @@
     display: block;
     color: #1f7ec4;
     font-size: 1.2em;
-    margin-bottom: 0.9em;
+    margin-bottom: 0.5em;
 }
 .timeline-tournament__forecast-view {
     display: flex;
@@ -167,8 +167,9 @@
     padding: 4px 10px;
 }
 .timeline-tournament__forecast-table-scores-block:first-child {
-    font-weight: 600;
     padding-left: 0;
+    color: #1f7ec4;
+    font-size: 1.2em;
 }
 .number {
     width: 35px;
@@ -277,8 +278,8 @@
     font-size: 0.95em;
 }
 .timeline-tournament__team-container-title-2 {
-    font-weight: 600;
-    font-size: 1.1em;
+    color: #1f7ec4;
+    font-size: 1.2em;
     margin-bottom: 0.5em;
 }
 .timeline-tournament__team-container-title-3 {
@@ -337,3 +338,311 @@
         padding: 2.4px 6px;
     }
 }
+
+
+
+
+
+
+
+html[data-theme="dark"] .tournament-menu__body a, html[data-theme="dark"] .view-block-1 span {
+    background-color: #184779;
+}
+html[data-theme="dark"] .view-block-1 span {
+    border-color: #215994;
+}
+html[data-theme="dark"] .timeline-tournament, html[data-theme="dark"] .timeline-tournament__head > span:nth-child(1) {
+    color: #dfdfdf;
+}
+html[data-theme="dark"] .timeline-tournament {
+    background-color: #202124;
+}
+html[data-theme="dark"] .timeline-tournament__team-container-title, html[data-theme="dark"] .timeline-tournament__forecast-table-scores-block:first-child, html[data-theme="dark"] .timeline-tournament__team-container-title-2 {
+    color: #2b7ed7;
+}
+html[data-theme="dark"] .timeline-tournament__forecast-title {
+    background-color: #1f2d40;
+}
+html[data-theme="dark"] .timeline-tournament__forecast-table thead tr:first-child td, html[data-theme="dark"] .timeline-tournament__forecast-table-2 thead tr td {
+    color: #b5b5b5;
+}
+html[data-theme="dark"] .bonus-icon {
+    fill: #ee3232;
+}
+html[data-theme="dark"] .forecast-red-color {
+    color: #d40000;
+}
+html[data-theme="dark"] .timeline-tournament__forecast-table tbody tr:nth-child(2n+1), html[data-theme="dark"] .timeline-tournament__forecast-table-2 tbody tr:nth-child(2n) {
+    background-color: #1f2d40;
+}
+html[data-theme="dark"] .tr-marked {
+    box-shadow: 0 0 0 1px #202124;
+    background-color: #4a3d44 !important;
+}
+
+
+html[data-theme="dark"] .timeline-tournament__forecast-table .forecast-blue, html[data-theme="dark"] .timeline-tournament__forecast-table .forecast-yellow {
+    box-shadow: inset 0 -1px 0 0 #202124, inset 0 1px 0 0 #202124;
+}
+html[data-theme="dark"] .forecast-yellow {
+    background: radial-gradient(circle, rgb(168, 168, 101) 0%, rgb(164, 164, 81) 100%);
+}
+html[data-theme="dark"] .forecast-green {
+    background: radial-gradient(circle, rgb(96, 158, 96) 0%, rgb(81, 137, 81) 100%);
+}
+html[data-theme="dark"] .forecast-pink {
+    background: radial-gradient(circle, rgb(182, 107, 163) 0%, rgb(185, 102, 164) 100%);
+}
+html[data-theme="dark"] .forecast-blue {
+    background: radial-gradient(circle, rgb(88, 125, 160) 0%, rgb(77, 119, 160) 100%);
+}
+html[data-theme="dark"] .forecast-red {
+    background: radial-gradient(circle, rgb(206, 107, 107) 0%, rgb(205, 94, 94) 100%);
+}
+
+
+
+@media (hover: hover) {
+    html[data-theme="dark"] .tr-marked:hover {
+        background-color: #51434b !important;
+    }
+    html[data-theme="dark"] .timeline-tournament__forecast-table tbody tr:hover td, html[data-theme="dark"] .timeline-tournament__forecast-table-2 tbody tr:hover:not(.tr-marked) td {
+        background-color: #282720;
+    }
+    html[data-theme="dark"] .tournament-menu__body a:hover {
+        background-color: #235f9f;
+        color: #abcbff !important;
+    }
+}
+
+
+
+
+
+
+
+
+
+html[data-theme="Black"] .tournament-menu__body a, html[data-theme="Black"] .view-block-1 span {
+    background-color: #102442;
+}
+html[data-theme="Black"] .view-block-1 span {
+    border-color: #1a3359;
+}
+html[data-theme="Black"] .timeline-tournament, html[data-theme="Black"] .timeline-tournament__head > span:nth-child(1) {
+    color: #c9ccd0;
+}
+html[data-theme="Black"] .timeline-tournament {
+    background-color: #121212;
+    border: 1px solid #292a2c;
+}
+html[data-theme="Black"] .timeline-tournament__team-container-title, html[data-theme="Black"] .timeline-tournament__forecast-table-scores-block:first-child, html[data-theme="Black"] .timeline-tournament__team-container-title-2 {
+    color: #326bb3;
+}
+html[data-theme="Black"] .timeline-tournament__forecast-title {
+    background-color: #0e1721;
+}
+html[data-theme="Black"] .timeline-tournament__forecast-table thead tr:first-child td, html[data-theme="Black"] .timeline-tournament__forecast-table-2 thead tr td {
+    color: #a4a6a7;
+}
+html[data-theme="Black"] .bonus-icon {
+    fill: #d40000;
+}
+html[data-theme="Black"] .forecast-red-color {
+    color: #d40000;
+}
+html[data-theme="Black"] .timeline-tournament__forecast-table tbody tr:nth-child(2n+1), html[data-theme="Black"] .timeline-tournament__forecast-table-2 tbody tr:nth-child(2n) {
+    background-color: #0e1721;
+}
+html[data-theme="Black"] .tr-marked {
+    box-shadow: 0 0 0 1px #121212;
+    background-color: #32292e !important;
+}
+
+
+html[data-theme="Black"] .timeline-tournament__forecast-table .forecast-blue, html[data-theme="Black"] .timeline-tournament__forecast-table .forecast-yellow {
+    box-shadow: inset 0 -1px 0 0 #121212, inset 0 1px 0 0 #121212;
+}
+html[data-theme="Black"] .forecast-yellow {
+    background: radial-gradient(circle, rgb(140, 140, 85) 0%, rgb(151, 151, 69) 100%);
+}
+html[data-theme="Black"] .forecast-green {
+    background: radial-gradient(circle, rgb(82, 128, 82) 0%, rgb(69, 115, 69) 100%);
+}
+html[data-theme="Black"] .forecast-pink {
+    background: radial-gradient(circle, rgb(117, 76, 106) 0%, rgb(119, 67, 106) 100%);
+}
+html[data-theme="Black"] .forecast-blue {
+    background: radial-gradient(circle, rgb(64, 88, 112) 0%, rgb(55, 84, 113) 100%);
+}
+html[data-theme="Black"] .forecast-red {
+    background: radial-gradient(circle, rgb(144, 70, 70) 0%, rgb(147, 65, 65) 100%);
+}
+
+
+
+@media (hover: hover) {
+    html[data-theme="Black"] .tr-marked:hover {
+        background-color: #3c3137 !important;
+    }
+    html[data-theme="Black"] .timeline-tournament__forecast-table tbody tr:hover td, html[data-theme="Black"] .timeline-tournament__forecast-table-2 tbody tr:hover:not(.tr-marked) td {
+        background-color: #232219;
+    }
+    html[data-theme="Black"] .tournament-menu__body a:hover {
+        background-color: #173660;
+        color: #6688c0 !important;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+html[data-theme="summer"] .tournament-menu__body a, html[data-theme="summer"] .view-block-1 span {
+    background-color: #fff2d4;
+}
+html[data-theme="summer"] .timeline-tournament__body a {
+    color: #348232;
+}
+html[data-theme="summer"] .timeline-tournament__body a:hover {
+    color: #63b961 !important;
+    border-color: #63b961;
+}
+html[data-theme="summer"] .view-block-1 span {
+    border-color: #ffe4a4;
+}
+html[data-theme="summer"] .timeline-tournament {
+    background-color: #fffdf8;
+}
+html[data-theme="summer"] .timeline-tournament__team-container-title, html[data-theme="summer"] .timeline-tournament__forecast-table-scores-block:first-child, html[data-theme="summer"] .timeline-tournament__team-container-title-2 {
+    color: #e99e00;
+}
+html[data-theme="summer"] .timeline-tournament__forecast-title {
+    background-color: #fff2d5;
+}
+html[data-theme="summer"] .bonus-icon {
+    fill: #ff4949;
+}
+html[data-theme="summer"] .forecast-red-color {
+    color: #ff4949;
+}
+html[data-theme="summer"] .timeline-tournament__forecast-table tbody tr:nth-child(2n+1), html[data-theme="summer"] .timeline-tournament__forecast-table-2 tbody tr:nth-child(2n) {
+    background-color: #fff2d5;
+}
+html[data-theme="summer"] .tr-marked {
+    box-shadow: 0 0 0 1px #fffdf8;
+    background-color: #fbd2e7 !important;
+}
+
+
+html[data-theme="summer"] .timeline-tournament__forecast-table .forecast-blue, html[data-theme="summer"] .timeline-tournament__forecast-table .forecast-yellow {
+    box-shadow: inset 0 -1px 0 0 #fffdf8, inset 0 1px 0 0 #fffdf8;
+}
+html[data-theme="Black"] .forecast-yellow {
+    background: radial-gradient(circle, rgb(140, 140, 85) 0%, rgb(151, 151, 69) 100%);
+}
+html[data-theme="Black"] .forecast-green {
+    background: radial-gradient(circle, rgb(82, 128, 82) 0%, rgb(69, 115, 69) 100%);
+}
+html[data-theme="Black"] .forecast-pink {
+    background: radial-gradient(circle, rgb(117, 76, 106) 0%, rgb(119, 67, 106) 100%);
+}
+html[data-theme="Black"] .forecast-blue {
+    background: radial-gradient(circle, rgb(64, 88, 112) 0%, rgb(55, 84, 113) 100%);
+}
+html[data-theme="Black"] .forecast-red {
+    background: radial-gradient(circle, rgb(144, 70, 70) 0%, rgb(147, 65, 65) 100%);
+}
+
+
+
+@media (hover: hover) {
+    html[data-theme="summer"] .tr-marked:hover {
+        background-color: #f9c8e1 !important;
+    }
+    html[data-theme="summer"] .timeline-tournament__forecast-table tbody tr:hover td, html[data-theme="summer"] .timeline-tournament__forecast-table-2 tbody tr:hover:not(.tr-marked) td {
+        background-color: #e2f4e2;
+    }
+    html[data-theme="summer"] .tournament-menu__body a:hover {
+        background-color: #ffebb8;
+        color: #348232 !important;
+    }
+}
+
+
+
+
+
+
+
+
+
+html[data-theme="grey"] .tournament-menu__body a, html[data-theme="grey"] .view-block-1 span {
+    background-color: #eeeeee;
+}
+html[data-theme="grey"] .view-block-1 span {
+    border-color: #dadada;
+}
+html[data-theme="grey"] .timeline-tournament {
+    color: #1e1e1e;
+}
+html[data-theme="grey"] .timeline-tournament__team-container-title, html[data-theme="grey"] .timeline-tournament__forecast-table-scores-block:first-child, html[data-theme="grey"] .timeline-tournament__team-container-title-2 {
+    color: #648099;
+}
+html[data-theme="grey"] .timeline-tournament__forecast-title {
+    background-color: #eeeeee;
+}
+html[data-theme="grey"] .timeline-tournament__forecast-table thead tr:first-child td, html[data-theme="grey"] .timeline-tournament__forecast-table-2 thead tr td {
+    color: #7e7e7e;
+}
+html[data-theme="grey"] .bonus-icon {
+    fill: #ff0d0d;
+}
+html[data-theme="grey"] .forecast-red-color {
+    color: #ee3232;
+}
+html[data-theme="grey"] .timeline-tournament__forecast-table tbody tr:nth-child(2n+1), html[data-theme="grey"] .timeline-tournament__forecast-table-2 tbody tr:nth-child(2n) {
+    background-color: #eeeeee;
+}
+html[data-theme="grey"] .view-block-1 span {
+    color: #50ae4b;
+}
+
+html[data-theme="grey"] .tr-marked {
+    background-color: #f4d4e5 !important;
+}
+
+
+html[data-theme="grey"] .forecast-yellow {
+    background: radial-gradient(circle, rgba(247, 247, 188, 0.7) 0%, rgb(247, 247, 188) 100%);
+}
+html[data-theme="grey"] .forecast-green {
+    background: radial-gradient(circle, rgba(196, 227, 196, 0.7) 0%, rgb(196, 227, 196) 100%);
+}
+html[data-theme="grey"] .forecast-pink {
+    background: radial-gradient(circle, rgba(255, 186, 238, 0.7) 0%, rgb(255, 186, 238) 100%);
+}
+html[data-theme="grey"] .forecast-blue {
+    background: radial-gradient(circle, rgba(164, 209, 255, 0.7) 0%, rgb(164, 209, 255) 100%);
+}
+html[data-theme="grey"] .forecast-red {
+    background: radial-gradient(circle, rgba(255, 172, 172, 0.7) 0%, rgb(255, 172, 172) 100%);
+}
+
+
+
+@media (hover: hover) {
+    html[data-theme="grey"] .tr-marked:hover {
+        background-color: #f4cbe1 !important;
+    }
+    html[data-theme="grey"] .tournament-menu__body a:hover {
+        background-color: #e1e1e1;
+        color: #2f5278 !important;
+    }
+}
+

@@ -8387,7 +8387,7 @@ html[data-theme='dark'] .interview-block__gossip_image {
 
 @media (hover: hover) {
   html[data-theme="dark"] .chosen-string.active:hover {
-    background-color: #58444e !important;
+    background-color: #32292e !important;
   }
 }
 
@@ -8404,7 +8404,6 @@ html[data-theme='dark'] .interview-block__gossip_image {
     background-color: rgb(0, 0, 0, 0.3);
   }
   html[data-theme="dark"] #back-to-top-button:hover::after {
-    /* color: #e1e1e1; */
     color: #dfdfdf;
   }
   html[data-theme="dark"] #back-to-top-button:hover {
@@ -9297,7 +9296,7 @@ html[data-theme='Black'] .interview-block__gossip_image {
 
 @media (hover: hover) {
   html[data-theme="Black"] .chosen-string.active:hover {
-    background-color: #402031 !important;
+    background-color: #3c3137 !important;
   }
 }
 
@@ -9647,7 +9646,7 @@ html[data-theme='grey'] .interview-block__gossip_image {
 
 @media (hover: hover) {
   html[data-theme='grey'] .chosen-string.active:hover {
-    background-color: #f4c5dd !important;
+    background-color: #f4cbe1 !important;
   }
 }
 

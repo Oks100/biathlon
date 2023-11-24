@@ -275,7 +275,7 @@ input[type="file"] {
     display: block;
     color: #1f7ec4;
     font-size: 1.2em;
-    margin-bottom: 0.9em;
+    margin-bottom: 0.5em;
 }
 .timeline-tournament__table, .timeline-tournament__table-2 {
     border-collapse: collapse;

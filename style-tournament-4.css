@@ -118,7 +118,7 @@
     display: flex;
     color: #1f7ec4;
     font-size: 1.2em;
-    margin-bottom: 1.5em;
+    margin-bottom: 1em;
     justify-content: center;
 }
 .timeline-tournament__content-team label:not(.checkbox-group .label-for-allow-messages) {

@@ -189,10 +189,6 @@
     scale: 1;
     z-index: 3;
 }
-
-.timeline-sportsmen-profile__body-table-button:hover {
-    background-color: #d1ebfb;
-}
 .plus-icon {
     position: absolute;
     top: 50%;
@@ -715,6 +711,9 @@
 
 
 @media (hover: hover) {
+    .timeline-sportsmen-profile__body-table-button:hover {
+        background-color: #d1ebfb;
+    }
     .fame-table tbody .active-career:hover td:nth-child(2) {
         background-color: #ffd4d4 !important;
     }

@@ -107,11 +107,11 @@
     background-color: #c0e5fb;
 }
 
-.timeline-tournament__team-container-title {
+.timeline-tournament__team-container-title, .forecast-rules__title {
     display: block;
     color: #1f7ec4;
     font-size: 1.2em;
-    margin-bottom: 0.9em;
+    margin-bottom: 0.5em;
 }
 .timeline-tournament__forecast-view {
     display: flex;
@@ -342,11 +342,11 @@
     display: flex;
 }
 
-.forecast-rules__title {
+/* .forecast-rules__title {
     color: #1f7ec4;
     font-size: 1.2em;
-    margin-bottom: 0.9em;
-}
+    margin-bottom: 0.5em;
+} */
 
 
 

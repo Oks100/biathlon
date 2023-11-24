@@ -106,6 +106,7 @@
     gap: 20px 30px;
     flex-wrap: wrap;
     align-items: center;
+    justify-content: center;
 }
 .timeline-my-profile__body-avatar-image {
 }
@@ -180,7 +181,6 @@
     padding: 8.5px 15px;
     background-color: #e7f3fa;
     border-radius: 33px;
-    margin-top: 15px;
     transition: all .3s ease;
     -webkit-tap-highlight-color: transparent;
     color: #002b71;
@@ -192,13 +192,12 @@
 
 
 .timeline-my-profile__body-my-favourite-title {
-    margin: 2em 0 .9em 0;
+    margin: 2em 0 .5em 0;
     color: #1f7ec4;
     font-size: 1.2em;
 }
 
 .timeline-my-profile__body-my-favourite-list {
-    margin-top: 15px;
     display: flex;
     gap: 7px;
     flex-direction: column;
@@ -313,11 +312,11 @@
         justify-content: center;
     }
     .timeline-my-profile__body-form-group-wrapper button {
-        margin: 25px auto 0 auto;
+        margin: 0 auto;
     }
     .timeline-my-profile__body-my-favourite-list {
         width: fit-content;
-        margin: 15px auto 0 auto;
+        margin: 0 auto;
     }
     .timeline-my-profile__body-my-favourite-title {
         text-align: center;
@@ -325,18 +324,11 @@
     .timeline-my-profile__predictor-tournament-wrapper {
         margin: 0 auto;
     }
+    .timeline-my-profile__body-avatar-table {
+        width: 100%;
+      }
 }
 @media screen and (max-width: 500px) {
-    .timeline-my-profile__body-avatar-table tbody tr td:first-child {
-        text-align: left;
-    }
-    .timeline-my-profile__body-avatar-table tbody tr td {
-        display: flex;
-        flex-direction: column;
-    }
-    .timeline-my-profile__body-avatar-wrapper {
-        flex-direction: column;
-    }
 }
 
 @media (max-width: 430px) {

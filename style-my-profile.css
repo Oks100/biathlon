@@ -314,7 +314,7 @@ input:focus::placeholder, .input-text-2:focus::placeholder {
 
 
 .timeline-my-profile__body-my-favourite-title {
-    margin: 2em 0 .9em 0;
+    margin: 2em 0 .5em 0;
     color: #1f7ec4;
     font-size: 1.2em;
 }
@@ -414,7 +414,7 @@ input:focus::placeholder, .input-text-2:focus::placeholder {
 .search-name-label, .timeline-my-profile__body-change-pass label {
     display: flex;
     position: relative;
-    margin-top: 5px;
+    margin-top: 1em;
 }
 .search-icon, .password-open {
     fill: #fff;
@@ -489,7 +489,7 @@ input:focus::placeholder, .input-text-2:focus::placeholder {
         margin: 15px auto 0 auto;
     }
     .search-name-label, .timeline-my-profile__body-change-pass label {
-        margin: 5px auto 0 auto;
+        margin: 1em auto 0 auto;
         width: fit-content;
     }
     .timeline-my-profile__body-my-favourite-title {
