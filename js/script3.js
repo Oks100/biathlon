@@ -342,17 +342,12 @@ $(document).ready(function(){
     });
 
 
-    // $(document).ready(function(){
-    //   $('.number-item').click(function () {
-    //       $('.timer__more_info').removeClass('calendar-open');
-    //       });
-    //   });
+    $(document).ready(function(){
+      $('.comment_button').click(function () {
+          $('.timeline-tournament').addClass('show-table');
+          });
+      });
 
-    // $(document).ready(function(){
-    //     $('.spoiler').click(function () {
-    //         $('#tippy-41').addClass('calendar-open');
-    //         });
-    //     });
 
 
 
