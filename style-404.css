@@ -22,7 +22,7 @@
     left: 50%;
     top: 25px;
     transform: translateX(-50%);
-    background-color: rgba(0, 0, 0, .21);
+    background-color: rgba(0, 0, 0, .15);
     border-radius: 33px;
 }
 .layer__404_image_text-2 {
@@ -111,4 +111,95 @@
     .layer__404_image_text-2 {
         top: 78.6px;
     }
+}
+
+
+
+
+
+
+
+html[data-theme='dark'] .wrapper {
+    background-color: #333333;
+}
+html[data-theme='dark'] .layer__404_image_text_title {
+    color: #2b7ed7;
+}
+html[data-theme='dark'] .back-icon-404 {
+    fill: rgba(47, 111, 200, 0.75);
+}
+html[data-theme='dark'] .layer__404_image_text {
+    background-color: rgba(0, 0, 0, .28);
+}
+html[data-theme='dark'] .layer__404_image_text-2 a {
+    background-color: rgba(0, 0, 0, .28);
+    color: #abcbff;
+}
+html[data-theme='dark'] .layer__404_image_text-2 a:hover {
+    color: #8ab4f8;
+}
+
+
+
+html[data-theme='Black'] .wrapper {
+    background-color: #101113;
+}
+html[data-theme='Black'] .layer__404_image_text_title {
+    color: #326bb3;
+}
+html[data-theme='Black'] .back-icon-404 {
+    fill: rgba(47, 114, 200, 0.7);
+}
+html[data-theme='Black'] .layer__404_image_text {
+    background-color: rgba(0, 0, 0, .24);
+}
+html[data-theme='Black'] .layer__404_image_text-2 a {
+    background-color: rgba(0, 0, 0, .24);
+    background-color: rgba(255, 255, 255, 0.4);
+    color: #6688c0;
+}
+html[data-theme='Black'] .layer__404_image_text-2 a:hover {
+    color: #73b5e5;
+}
+
+
+
+html[data-theme='summer'] .wrapper {
+    background-color: #ece6dc;
+}
+html[data-theme='summer'] .layer__404_image_text_title {
+    color: #e99e00;
+}
+html[data-theme='summer'] .back-icon-404 {
+    fill: rgb(101, 192, 99);
+}
+html[data-theme='summer'] .layer__404_image_text-2 a {
+    background-color: #fff9eb;
+    color: #348232;
+}
+html[data-theme='summer'] .layer__404_image_text-2 a:hover {
+    color: #63b961;
+}
+
+
+
+html[data-theme='grey'] .wrapper {
+    background-color: #f7f8f9;
+}
+html[data-theme='grey'] .layer__404_image_text_title {
+    color: #648099;
+}
+html[data-theme='grey'] .back-icon-404 {
+    fill: rgba(98, 129, 157, 0.75);
+}
+html[data-theme='grey'] .layer__404_image_text {
+    /* background-color: rgba(0, 0, 0, .24); */
+}
+html[data-theme='grey'] .layer__404_image_text-2 a {
+    /* background-color: rgba(0, 0, 0, .24); */
+    background-color: #f5f5f5;
+    color: #2f5278;
+}
+html[data-theme='grey'] .layer__404_image_text-2 a:hover {
+    color: #73abd2;
 }
