@@ -511,7 +511,7 @@ html[data-theme="summer"] .timeline-tournament__body a {
 }
 html[data-theme="summer"] .timeline-tournament__body a:hover {
     color: #63b961 !important;
-    border-color: #63b961;
+    border-color: #63b961 !important;
 }
 html[data-theme="summer"] .view-block-1 span {
     border-color: #ffe4a4;
@@ -569,7 +569,7 @@ html[data-theme="Black"] .forecast-red {
         background-color: #e2f4e2;
     }
     html[data-theme="summer"] .tournament-menu__body a:hover {
-        background-color: #ffebb8;
+        background-color: #ffedc3;
         color: #348232 !important;
     }
 }
@@ -641,7 +641,7 @@ html[data-theme="grey"] .forecast-red {
         background-color: #f4cbe1 !important;
     }
     html[data-theme="grey"] .tournament-menu__body a:hover {
-        background-color: #e1e1e1;
+        background-color: #e4e4e4;
         color: #2f5278 !important;
     }
 }

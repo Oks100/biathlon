@@ -1322,6 +1322,12 @@
     transition: all .4s ease;
     -webkit-tap-highlight-color: transparent;
 }
+.guest-user:not(.tab-password) .timeline__item-comments-write-body-tab-enter {
+    cursor: default !important;
+}
+.guest-user.tab-password .timeline__item-comments-write-body-tab-registr {
+    cursor: default !important;
+}
 
 .timeline__item-comments-write.guest-user .timeline__item-comments-write-body-tab-registr {
     display: flex;
@@ -1365,7 +1371,6 @@
 .timeline__item-comments-write-enter-form .input-login, .timeline__item-comments-write-registr-form .input-registr {
     height: 33px;
     width: 100%;
-    /* border: 1px solid #bfc6ca; */
     border: 1px solid #d0d9dd;
     border-radius: 33px;
     margin-top: 5px;
@@ -1374,6 +1379,9 @@
 }
 .timeline__item-comments-write-enter-form .input-login:focus, .timeline__item-comments-write-registr-form .input-registr:focus {
     border-color: #bfc6ca;
+}
+.input-login:focus::placeholder, .input-registr:focus::placeholder {
+    color: transparent;
 }
 .timeline__item-comments-write-enter-form label, .timeline__item-comments-write-registr-form label {
     width: 100%;

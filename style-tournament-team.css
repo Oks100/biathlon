@@ -344,6 +344,7 @@ input[type="file"] {
     border-color: #bfffbf;
 }
 
+
 @media (hover: hover) {
     .timeline-cup__footer-legend-title select:hover {
         outline-color: #bfc6ca;

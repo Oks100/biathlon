@@ -946,28 +946,33 @@ html[data-theme="dark"] .table-compare-exemple-2 .compare-icon-2::before, html[d
     color: #b5b5b5;
 }
 html[data-theme="dark"] .timeline-cup__list li {
-    background-color: #1f2d40;
+    /* background-color: #1f2d40; */
+    background-color: #184779;
+    background-color: #15314d;
     color: #abcbff;
+    /* outline: 1px solid #184779; */
     outline: 1px solid #184779;
 }
 html[data-theme="dark"] .timeline-cup__another-competitions span {
     border-color: #184779;
 }
 html[data-theme="dark"] .timeline-cup__list li:hover {
-    background-color: #215994;
+    background-color: #184779;
 }
 html[data-theme="dark"] .timeline-cup__another-competitions span::before {
-    background-color: #215994;
+    /* background-color: #215994; */
+    background-color: #184779;
 }
 html[data-theme="dark"] .timeline-cup__another-competitions span:hover {
     border-color: #215994;
+    border-color: #184779;
 }
 html[data-theme="dark"] .timeline-cup__list li.active {
-    background-color: #235f9f;
+    background-color: #215994;
 }
 html[data-theme="dark"] .timeline-cup__another-competitions .active {
-    background-color: #235f9f;
-    border-color: #235f9f;
+    background-color: #215994;
+    border-color: #215994;
 }
 html[data-theme="dark"] .timeline-cup__another-competitions a:hover {
     color: #abcbff !important;
@@ -984,11 +989,14 @@ html[data-theme="dark"] .age-button-svg path, html[data-theme="dark"] .legend-ic
 html[data-theme="dark"] .timeline__more-tables-body svg {
     fill: #1f2d40;
 }
-html[data-theme="dark"] .timeline-cup__table-comments-tables-recommend, html[data-theme="dark"] .timeline-cup-table tbody tr:nth-child(2n), html[data-theme="dark"] .timeline-cup__footer-legend-title, html[data-theme="dark"] .timeline-cup__footer-legend-title-2 {
+html[data-theme="dark"] .timeline-cup-table tbody tr:nth-child(2n) {
     background-color: #1f2d40;
 }
+html[data-theme="dark"] .timeline-cup__table-comments-tables-recommend, html[data-theme="dark"] .timeline-cup__footer-legend-title, html[data-theme="dark"] .timeline-cup__footer-legend-title-2 {
+    background-color: #15314d;
+}
 html[data-theme="dark"] .circle-element-for-cup {
-    border-color: #1f2d40;
+    border-color: #15314d;
 }
 html[data-theme="dark"] .table-button::before {
     background-color: #215994;
@@ -1112,28 +1120,30 @@ html[data-theme="Black"] .table-compare-exemple-2 .compare-icon-2::before, html[
 }
 
 html[data-theme="Black"] .timeline-cup__list li {
-    background-color: #0e1721;
+    background-color: #122b4d;
     color: #6688c0;
-    outline: 1px solid #122b4d;
+    outline: 1px solid #1a3d6d;
 }
 html[data-theme="Black"] .timeline-cup__another-competitions span {
-    border-color: #122b4d;
+    border-color: #173660;
 }
 html[data-theme="Black"] .timeline-cup__list li:hover {
-    background-color: #122b4d;
+    background-color: #173660;
 }
 html[data-theme="Black"] .timeline-cup__another-competitions span::before {
-    background-color: #122b4d;
+    background-color: #173660;
+    background-color: #1a3d6d;
 }
 html[data-theme="Black"] .timeline-cup__another-competitions span:hover {
-    border-color: #122b4d;
+    border-color: #173660;
 }
 html[data-theme="Black"] .timeline-cup__list li.active {
     background-color: #173660;
+    background-color: #1a3d6d;
 }
 html[data-theme="Black"] .timeline-cup__another-competitions .active {
-    background-color: #173660;
-    border-color: #173660;
+    background-color: #1a3d6d;
+    border-color: #1a3d6d;
 }
 html[data-theme="Black"] .timeline-cup__another-competitions a:hover {
     color: #6688c0 !important;

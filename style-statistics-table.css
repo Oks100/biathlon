@@ -362,10 +362,10 @@
 
 
 html[data-theme="dark"] .timeline-cup-statistics-title {
-    background-color: #1f2d40;
+    background-color: #15314d;
 }
 html[data-theme="dark"] .circle-element-for-cup {
-    border-color: #1f2d40;
+    border-color: #15314d;
 }
 html[data-theme="dark"] .medals-icon, html[data-theme="dark"] .female-icon, html[data-theme="dark"] .male-icon {
     fill: #2d63af;

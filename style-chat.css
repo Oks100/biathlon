@@ -143,8 +143,7 @@ footer {
     height: 17px;
 }
 .for-me {
-    background-color: #66FF99;
-    padding: 0 3px;
+    color: #090;
 }
 .message-time {
     color: #999999;
@@ -434,7 +433,7 @@ footer {
 
 @media (hover: hover) {
     .layer__chat-users-list .red-color span:hover, .message-name.red-color:hover {
-        color: #FF0000;
+        color: rgb(227, 0, 0);
     }
     .checkbox-group .label-for-useEnter:hover::before {
         border-color: #c0e5fb;
@@ -457,7 +456,10 @@ footer {
     }
     .layer__chat-users-list li a:hover {
         background-color: #e7f3fa;
-    } 
+    }
+    .layer__chat-users-list li.for-me span:hover, .message-name.for-me:hover {
+        color: #17bc17;
+    }
 }
 
 @media screen and (max-width: 1300px) {
@@ -648,7 +650,10 @@ html[data-theme="dark"] .layer__chat-users-list-title span:last-child {
     color: #079600;
 }
 html[data-theme="dark"] .for-me {
-    background-color: #337c4b;
+    color: #090;
+}
+html[data-theme="dark"] .layer__chat-users-list li.for-me span:hover, html[data-theme="dark"] .message-name.for-me:hover {
+    color: #17bc17;
 }
 html[data-theme="dark"] #chat-messages tr:nth-child(2n+1), html[data-theme="dark"] .checkbox-group .label-for-useEnter::before {
     background-color: #1f2d40;
@@ -737,11 +742,11 @@ html[data-theme="Black"] .layer__chat-debates-line, html[data-theme="Black"] .la
 html[data-theme="Black"] .layer__chat .layer__chat-debates-tab:not(:last-child)::after, html[data-theme="Black"] .layer__comment .layer__chat-debates-tab:not(:last-child)::after {
     background-color: #292a2c;
 }
-html[data-theme="Black"] .layer__chat-users-list-title span:last-child {
-    color: #156d11;
-}
 html[data-theme="Black"] .for-me {
-    background-color: #1e492c;
+    color: #080;
+}
+html[data-theme="Black"] .layer__chat-users-list li.for-me span:hover, html[data-theme="Black"] .message-name.for-me:hover {
+    color: #139513;
 }
 html[data-theme="Black"] #chat-messages tr:nth-child(2n+1), html[data-theme="Black"] .checkbox-group .label-for-useEnter::before {
     background-color: #0e1721;
@@ -830,7 +835,10 @@ html[data-theme="grey"] .layer__chat-users-list-title span:last-child {
     color: #50ae4b;
 }
 html[data-theme="grey"] .for-me {
-    background-color: #81FFAB;
+    color: #3ca93c;
+}
+html[data-theme="grey"] .layer__chat-users-list li.for-me span:hover, html[data-theme="grey"] .message-name.for-me:hover {
+    color: #42ba42;
 }
 html[data-theme="grey"] #chat-messages tr:nth-child(2n+1), html[data-theme="grey"] .checkbox-group .label-for-useEnter::before {
     background-color: #ececec;
@@ -914,9 +922,6 @@ html[data-theme="summer"] .red-color {
 }
 html[data-theme="summer"] .layer__chat-users-list-title span:last-child {
     color: #29bb21;
-}
-html[data-theme="summer"] .for-me {
-    background-color: #57FFE7;
 }
 html[data-theme="summer"] #chat-messages tr:nth-child(2n+1), html[data-theme="summer"] .checkbox-group .label-for-useEnter::before {
     background-color: #fff2d5;

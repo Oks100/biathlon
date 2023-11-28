@@ -3321,14 +3321,14 @@ img[src*="flags"] {
   .timeline-general-info__list span, .timeline a, .layer__chat-debates-table a {
     color: #002b71;
   }
-  .timeline-season__body-nav-list li span:hover:not(.timeline-season__body-nav-list .active span), .timeline-general-info__list span:hover, .layer__chat-debates-table a:hover, .timer__more-information a:hover, .timeline__item-comments-to-write-comments:hover, .timeline a:hover:not(.fame-btn__text, .fame-toggle__link, .timeline-stadiums__body-item-list-link, .timeline__tournament-table-button, .timeline__tournament-navigation a, .timeline-tournament__menu a, .top-10__button, .title-race-area__text a, .timeline-sportsmen-profile-card-button-3 a:hover, .timeline-sportsmen-profile-card-button-2 a:hover, .timeline-sportsmen-profile-card a:hover, .timeline-sportsmen-profile__body-info-button, .timeline-private-messages__my-contacts, .timeline-private-messages__item-incoming-messages-content, .timeline-cup__head-back-button, .timeline-cup-result__analysis-button a, .timeline-cup__another-competitions a, .timeline-cup__navbar a, .timeline-navigation__page a, .last--comments-news-body-discription-comments-number, .last--comments-news-head a, .last--comments-news-body-discription-head a, .user-link, .quote-user, .timeline__item-comments-username a, .timeline__item-last-photos-head a, .last--comments-news-head a, .timeline__item-comments-to-write-comments) {
+  .timeline-season__body-nav-list li span:hover:not(.timeline-season__body-nav-list .active span), .timeline-general-info__list span:hover, .layer__chat-debates-table a:hover, .timer__more-information a:hover, .timeline__item-comments-to-write-comments:hover, .timeline a:hover:not(.targets-block, .my-forecast__table tr td:nth-last-child(2) a, .my-forecast__table tr td:nth-last-child(1) a, .fame-btn__text, .fame-toggle__link, .timeline-stadiums__body-item-list-link, .timeline__tournament-table-button, .timeline__tournament-navigation a, .timeline-tournament__menu a, .top-10__button, .title-race-area__text a, .timeline-sportsmen-profile-card-button-3 a:hover, .timeline-sportsmen-profile-card-button-2 a:hover, .timeline-sportsmen-profile-card a:hover, .timeline-sportsmen-profile__body-info-button, .timeline-private-messages__my-contacts, .timeline-private-messages__item-incoming-messages-content, .timeline-cup__head-back-button, .timeline-cup-result__analysis-button a, .timeline-cup__another-competitions a, .timeline-cup__navbar a, .timeline-navigation__page a, .last--comments-news-body-discription-comments-number, .last--comments-news-head a, .last--comments-news-body-discription-head a, .user-link, .quote-user, .timeline__item-comments-username a, .timeline__item-last-photos-head a, .last--comments-news-head a, .timeline__item-comments-to-write-comments) {
     color: #73b5e5;
   }
   .last--comments-news-body-discription-head h2 a:hover, .timeline__item-comments-username a:hover, .user-link:hover {
     color: #73b5e5;
     border-color: #73b5e5;
   }
-  .comp-card-item__title a:hover, .fame-table a:hover, .fame-card a:hover, .timeline-stadiums__body-item-title a:hover, .timeline-tournament__body a:hover:not(.timeline__tournament-table-button, .timeline__tournament-navigation a, .timeline-tournament__menu a), .interview-block__item a:hover, .top-season__table a:hover, .timeline-season__body-nav-list li span:hover:not(.timeline-season__body-nav-list .active span), .timeline-season__body a:hover:not(.title-race a,.title-race-area__text a, .timeline-season__body-events a[href*="cdn.biathlon"], .timeline-season__body-events a[href*="uploads/"]), .timeline-ukraine-cup-table a:hover, .sportsmen-votes__list li a:hover, .sportsmen-votes__table a:hover, .timeline-sportsmen-profile__body-speed-item a:hover, .timeline-sportsmen-profile__body-target-table a:hover, .sportsmen-profile__table a:hover, .timeline-sportsmen-profile__body-info-table a:hover, .timeline-sites__body a:hover, .timeline-cup-result-discription-links a:hover, .timeline-photogalleries-profiles a:hover, .timeline-photogalleries-info-text a:hover, .timeline-general-info__body-text-wrapper a:hover, .popular-profile-table a:hover, .layer__chat-debates-table a:hover, .timeline-private-messages-username a:hover,.timeline-private-messages .timeline-private-messages__item-username a:hover, .timeline-my-profile a:hover, .timeline-team__body-table a:hover, .timeline-news__filters_type2 a:hover, .timeline-my-comments__body-name-user a:hover, .timer__more-information:not(.timer__more-information.last) a:hover, .timeline-broadcast-tv__title a:hover, .timeline-broadcast-tv .timeline-broadcast-tv-legend.last a:hover, .timeline-calendar a:not(.targets-block, .timeline-video__container-item-image-link):hover, .timeline-results a:hover, .timeline-cup-statistics-table-maga-wrapper a:hover, .timeline__more-tables a:hover, .timeline-cup-statistics-table a:hover, .timeline-cup-result-discription a:hover, .timeline__body a:hover, .timeline__body-important-news a:hover, .timeline__speedbar a:hover, .timeline-cup-result__body tbody tr td:nth-child(3) a:hover {
+  .sportsmen-votes__discription a:hover, .comp-card-item__title a:hover, .fame-table a:hover, .fame-card a:hover, .timeline-stadiums__body-item-title a:hover, .timeline-tournament__body a:hover:not(.my-forecast__table tr td:nth-last-child(2) a, .my-forecast__table tr td:nth-last-child(1) a, .timeline__tournament-table-button, .timeline__tournament-navigation a, .timeline-tournament__menu a), .interview-block__item a:hover, .top-season__table a:hover, .timeline-season__body-nav-list li span:hover:not(.timeline-season__body-nav-list .active span), .timeline-season__body a:hover:not(.title-race a,.title-race-area__text a, .timeline-season__body-events a[href*="cdn.biathlon"], .timeline-season__body-events a[href*="uploads/"]), .timeline-ukraine-cup-table a:hover, .sportsmen-votes__list li a:hover, .sportsmen-votes__table a:hover, .timeline-sportsmen-profile__body-speed-item a:hover, .timeline-sportsmen-profile__body-target-table a:hover, .sportsmen-profile__table a:hover, .timeline-sportsmen-profile__body-info-table a:hover, .timeline-sites__body a:hover, .timeline-cup-result-discription-links a:hover, .timeline-photogalleries-profiles a:hover, .timeline-photogalleries-info-text a:hover, .timeline-general-info__body-text-wrapper a:hover, .popular-profile-table a:hover, .layer__chat-debates-table a:hover, .timeline-private-messages-username a:hover,.timeline-private-messages .timeline-private-messages__item-username a:hover, .timeline-my-profile a:hover, .timeline-team__body-table a:hover, .timeline-news__filters_type2 a:hover, .timeline-my-comments__body-name-user a:hover, .timer__more-information:not(.timer__more-information.last) a:hover, .timeline-broadcast-tv__title a:hover, .timeline-broadcast-tv .timeline-broadcast-tv-legend.last a:hover, .timeline-calendar a:not(.targets-block, .timeline-video__container-item-image-link):hover, .timeline-results a:hover, .timeline-cup-statistics-table-maga-wrapper a:hover, .timeline__more-tables a:hover, .timeline-cup-statistics-table a:hover, .timeline-cup-result-discription a:hover, .timeline__body a:hover, .timeline__body-important-news a:hover, .timeline__speedbar a:hover, .timeline-cup-result__body tbody tr td:nth-child(3) a:hover {
     border-bottom: 1px solid #73b5e5;
   }
   .timeline__body-important-news {
@@ -7857,7 +7857,7 @@ html[data-theme='dark'] .notification__text a:first-child, html[data-theme='dark
   /* color: #e1e1e1 !important; */
   color: #dfdfdf !important;
 }
-html[data-theme="dark"] .timer__more-information a, html[data-theme="dark"] .quote-user, html[data-theme="dark"] .timeline__item-comments-answer-button span, html[data-theme="dark"] .timeline__item-comments-to-write-comments, html[data-theme="dark"] .popup input[type="submit"], html[data-theme="dark"] .timeline__item-comments-title-number, html[data-theme='dark'] .birthday-block__congratulations, html[data-theme='dark'] .forgot-password a, html[data-theme='dark'] .enter-button, html[data-theme='dark'] .log-in, html[data-theme='dark'] .sign-up, html[data-theme='dark'] .exit-no, html[data-theme='dark'] .exit-yes, html[data-theme='dark'] .burger-menu__content a, html[data-theme='dark'] main a, html[data-theme='dark'] .timeline__footer button {
+html[data-theme="dark"] .timer__more-information a, html[data-theme="dark"] .quote-user, html[data-theme="dark"] .timeline__item-comments-answer-button span, html[data-theme="dark"] .timeline__item-comments-to-write-comments, html[data-theme="dark"] .popup input[type="submit"], html[data-theme="dark"] .timeline__item-comments-title-number, html[data-theme='dark'] .birthday-block__congratulations, html[data-theme='dark'] .forgot-password a, html[data-theme='dark'] .enter-button, html[data-theme='dark'] .log-in, html[data-theme='dark'] .sign-up, html[data-theme='dark'] .exit-no, html[data-theme='dark'] .exit-yes, html[data-theme='dark'] .burger-menu__content a, html[data-theme='dark'] main a:not(.timeline-sportsmen-profile-card-body a, .timeline-sportsmen-profile-card-body-2 a, .timeline-sportsmen-profile-card-body-3 a), html[data-theme='dark'] .timeline__footer button {
   color: #abcbff;
 }
 html[data-theme="dark"] .header__notifications_head-admin-panel a, html[data-theme="dark"] .header__notifications_head-body a, html[data-theme='dark'] .view {
@@ -7925,8 +7925,6 @@ html[data-theme='dark'] .burger-menu__tab.burger-menu__tab1, html[data-theme='da
 html[data-theme='dark'] .vertical-menu-block__body {
 }
 html[data-theme='dark'] .learn-more .circle-element .circle-element__icon::before, html[data-theme='dark'] .swiper-button-prev-icon::before, html[data-theme='dark'] .swiper-button-next-icon::before {
-  /* border-top: 1.875px solid #abcbff;
-  border-right: 1.875px solid #abcbff; */
   border-top: 1.875px solid #7bade3;
   border-right: 1.875px solid #7bade3;
 }
@@ -7978,11 +7976,11 @@ html[data-theme="dark"] .timeline__item-comments-write-enter-button:hover, html[
 html[data-theme='dark'] .timeline-sponsors .swiper-button-next, html[data-theme='dark'] .timeline-sponsors .swiper-button-prev {
   color: #7bade3 !important;
 }
-html[data-theme="dark"] .timer__more-information.last a:hover, html[data-theme="dark"] .timer__more-information:not(.timer__more-information.last) a:hover, html[data-theme="dark"] .timeline__speedbar a:hover, html[data-theme="dark"] .forgot-login-password a:hover, html[data-theme="dark"] main a:hover:not(.timeline-cup__another-competitions a, .red-color, .timeline__item-last-photos-head a, .last--comments-news-head a, .vertical-menu-block__link), html[data-theme="dark"] .comment-block__rumor:hover, html[data-theme="dark"] .timeline__body a:hover {
+html[data-theme="dark"] .timer__more-information.last a:hover, html[data-theme="dark"] .timer__more-information:not(.timer__more-information.last) a:hover, html[data-theme="dark"] .timeline__speedbar a:hover, html[data-theme="dark"] .forgot-login-password a:hover, html[data-theme="dark"] main a:hover:not(.targets-block, .timeline-sportsmen-profile-card-body a, .timeline-sportsmen-profile-card-body-2 a, .timeline-sportsmen-profile-card-body-3 a, .timeline-cup__another-competitions a, .red-color, .timeline__item-last-photos-head a, .last--comments-news-head a, .vertical-menu-block__link), html[data-theme="dark"] .comment-block__rumor:hover, html[data-theme="dark"] .timeline__body a:hover {
   color: #8ab4f8;
   border-color: #8ab4f8;
 }
-html[data-theme="dark"] .timeline a:hover {
+html[data-theme="dark"] .timeline a:not(.timeline__tournament-navigation a, .tournament-menu__body a, .timeline-cup__another-competitions a, .timeline-sportsmen-profile-card-body a, .timeline-sportsmen-profile-card-body-2 a, .timeline-sportsmen-profile-card-body-3 a):hover {
   color: #8ab4f8 !important;
 }
 html[data-theme="dark"] .quote-user:hover, html[data-theme="dark"] .timeline__item-comments-to-write-comments:hover, html[data-theme="dark"] .timeline__head a:hover, html[data-theme="dark"] .timeline__speedbar a:hover {
@@ -8387,7 +8385,7 @@ html[data-theme='dark'] .interview-block__gossip_image {
 
 @media (hover: hover) {
   html[data-theme="dark"] .chosen-string.active:hover {
-    background-color: #32292e !important;
+    background-color: #514249 !important;
   }
 }
 
@@ -8587,7 +8585,7 @@ html[data-theme='summer'] .timer__more-information:not(.timer__more-information.
   color: #63b961;
   border-color: #63b961;
 }
-html[data-theme='summer'] .timeline__speedbar a:hover, html[data-theme="summer"] .comment-block__body-title a:hover, html[data-theme="summer"] .history-block__body a:hover, html[data-theme="summer"] .birthday-block__text a:hover, html[data-theme="summer"] .timeline__body a:hover:not(.img__profile a), html[data-theme="summer"] .timeline__body-important-news a:hover, html[data-theme="summer"] .timeline__head a:hover, html[data-theme="summer"] .timeline__comments-refer:hover, html[data-theme="summer"] .comment-block__rumor:hover, html[data-theme="summer"] .user:hover, html[data-theme="summer"] .next-race-block a:hover, html[data-theme="summer"] .next-translation-block a:hover, html[data-theme="summer"] .popular-block a:hover, html[data-theme="summer"] .interview-block a:hover, html[data-theme="summer"] .blogs-block a:hover, html[data-theme="summer"] .header__notifications_conteiner a:hover:not(.more-button, .header__notifications_head-body a, .header__notifications_head-admin-panel a), html[data-theme="summer"] .stars-block a:hover {
+html[data-theme="summer"] .timeline-vote a:hover:not(.top-10__button), html[data-theme='summer'] .timeline__speedbar a:hover, html[data-theme="summer"] .comment-block__body-title a:hover, html[data-theme="summer"] .history-block__body a:hover, html[data-theme="summer"] .birthday-block__text a:hover, html[data-theme="summer"] .timeline__body a:hover:not(.img__profile a), html[data-theme="summer"] .timeline__body-important-news a:hover, html[data-theme="summer"] .timeline__head a:hover, html[data-theme="summer"] .timeline__comments-refer:hover, html[data-theme="summer"] .comment-block__rumor:hover, html[data-theme="summer"] .user:hover, html[data-theme="summer"] .next-race-block a:hover, html[data-theme="summer"] .next-translation-block a:hover, html[data-theme="summer"] .popular-block a:hover, html[data-theme="summer"] .interview-block a:hover, html[data-theme="summer"] .blogs-block a:hover, html[data-theme="summer"] .header__notifications_conteiner a:hover:not(.more-button, .header__notifications_head-body a, .header__notifications_head-admin-panel a), html[data-theme="summer"] .stars-block a:hover {
   color: #63b961 !important;
   border-color: #63b961;
 }
@@ -8907,7 +8905,7 @@ html[data-theme='Black'] .timeline__footer button .icon-container .icon svg {
 html[data-theme="Black"] .icon.icon--left::before, html[data-theme="Black"] .icon.icon--right::before {
   border-color: #6688c0;
 }
-html[data-theme="Black"] .timer__more-information:not(.timer__more-information.last) a:hover, html[data-theme="Black"] .user-link:hover, html[data-theme="Black"] .forgot-login-password a:hover, html[data-theme="Black"] .timeline__item-comments-username a:hover, html[data-theme="Black"] .timeline__item-comments-to-write-comments:hover, html[data-theme="Black"] .main-cup a:hover, html[data-theme='Black'] .timeline a:hover:not(.timeline-cup__head-back-button, .last--comments-news-head a, .timeline__item-last-photos-head a, .last--comments-news-body-discription-comments-number, .btn__socials), html[data-theme='Black'] .left-sidebar a:hover, html[data-theme='Black'] .right-sidebar a:hover {
+html[data-theme="Black"] .timer__more-information:not(.timer__more-information.last) a:hover, html[data-theme="Black"] .user-link:hover, html[data-theme="Black"] .forgot-login-password a:hover, html[data-theme="Black"] .timeline__item-comments-username a:hover, html[data-theme="Black"] .timeline__item-comments-to-write-comments:hover, html[data-theme="Black"] .main-cup a:hover, html[data-theme='Black'] .timeline a:hover:not(.targets-block, .top-10__button:hover, .timeline-cup__head-back-button, .last--comments-news-head a, .timeline__item-last-photos-head a, .last--comments-news-body-discription-comments-number, .btn__socials), html[data-theme='Black'] .left-sidebar a:hover, html[data-theme='Black'] .right-sidebar a:hover {
   color: #93bbff;
   border-color: #93bbff;
 }
@@ -9331,7 +9329,7 @@ html[data-theme='Black'] .interview-block__gossip_image {
 html[data-theme="grey"] .header, html[data-theme="grey"] footer.footer {
   background-color: #4d6577;
 }
-html[data-theme="grey"] .timeline__item-comments-to-write-comments:hover, html[data-theme="grey"] .timer__more-information:not(.last) a:hover, html[data-theme="grey"] main a:hover:not(.timeline-cup__head-back-button, .vertical-menu-block__link, .timeline__item-last-photos-head a, .last--comments-news-head a, .last--comments-news-body-discription-comments-number), html[data-theme="grey"] .comment-block__rumor:hover, html[data-theme="grey"] .icon.icon--left::before, html[data-theme="grey"] .icon.icon--right::before {
+html[data-theme="grey"] .timeline__item-comments-to-write-comments:hover, html[data-theme="grey"] .timer__more-information:not(.last) a:hover, html[data-theme="grey"] main a:hover:not(.targets-block, .top-10__button:hover, .timeline-cup__head-back-button, .vertical-menu-block__link, .timeline__item-last-photos-head a, .last--comments-news-head a, .last--comments-news-body-discription-comments-number), html[data-theme="grey"] .comment-block__rumor:hover, html[data-theme="grey"] .icon.icon--left::before, html[data-theme="grey"] .icon.icon--right::before {
   color: #73abd2;
   border-color: #73abd2;
 }
@@ -9512,11 +9510,11 @@ html[data-theme='grey'] .calendar2 .calendar-inner .calendar-body div > a:hover,
 html[data-theme='grey'] .calendar2 .calendar-inner .calendar-controls .calendar-next a:hover .calendar-next-icon, html[data-theme='grey'] .calendar2 .calendar-inner .calendar-controls .calendar-prev a:hover .calendar-prev-icon, html[data-theme="grey"] .calendar .calendar-inner .calendar-controls .calendar-next a:hover .calendar-next-icon, html[data-theme="grey"] .calendar .calendar-inner .calendar-controls .calendar-prev a:hover .calendar-prev-icon, html[data-theme="grey"] .timer__data-next:hover .timer__data-next-icon, html[data-theme="grey"] .timer__data-prev:hover .timer__data-prev-icon, html[data-theme="grey"] .learn-more:hover .circle-element .circle-element__icon, html[data-theme="grey"] .swiper-button-next:hover .swiper-button-next-icon, html[data-theme="grey"] .swiper-button-prev:hover .swiper-button-prev-icon {
   background-color: #8d929c;
 }
-html[data-theme="grey"] .comment-block__rumor:hover, html[data-theme="grey"] .sidebar-block3 a:hover, html[data-theme="grey"] .timeline a:hover:not(.timeline-cup__head-back-button, .timeline__item-last-photos-head a, .last--comments-news-head a, .last--comments-news-body-discription-comments-number), html[data-theme="grey"] .timeline__body a:hover, html[data-theme="grey"] .timeline__body-important-news a:hover, html[data-theme="grey"] .comment-block__rumor:hover, html[data-theme="grey"] .icon.icon--left::before, html[data-theme="grey"] .icon.icon--right::before {
+html[data-theme="grey"] .comment-block__rumor:hover, html[data-theme="grey"] .sidebar-block3 a:hover, html[data-theme="grey"] .timeline a:hover:not(.targets-block, .top-10__button, .timeline-cup__head-back-button, .timeline__item-last-photos-head a, .last--comments-news-head a, .last--comments-news-body-discription-comments-number), html[data-theme="grey"] .timeline__body a:hover, html[data-theme="grey"] .timeline__body-important-news a:hover, html[data-theme="grey"] .comment-block__rumor:hover, html[data-theme="grey"] .icon.icon--left::before, html[data-theme="grey"] .icon.icon--right::before {
   color: #73abd2;
   border-color: #73abd2;
 }
-html[data-theme="grey"] .quote-user:hover, html[data-theme="grey"] .vertical-menu-block__link .news_date, html[data-theme="grey"] .timer__more-result:hover, html[data-theme="grey"] .timer__more-translation:hover {
+html[data-theme="grey"] .timer__more-information.last a:hover, html[data-theme="grey"] .quote-user:hover, html[data-theme="grey"] .vertical-menu-block__link .news_date, html[data-theme="grey"] .timer__more-result:hover, html[data-theme="grey"] .timer__more-translation:hover {
   color: #73abd2;
 }
 html[data-theme="grey"] .notification__time .view:hover, html[data-theme="grey"] .notification__text a:hover:first-child {
@@ -9562,7 +9560,7 @@ html[data-theme="grey"] .vertical-menu-block__link.red-color, html[data-theme="g
 }
 html[data-theme="grey"] .main-cup__top10 .red-color:hover, html[data-theme="grey"] .timeline__item .red-color:hover {
   color: #ff5252 !important;
-  border-color: #ff5252;
+  border-color: #ff5252 !important;
 }
 html[data-theme="grey"] .admin-item {
   border-left: 4px solid #ff3333b3;

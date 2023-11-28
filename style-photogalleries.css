@@ -180,3 +180,46 @@
         grid-template-columns: repeat(1, 1fr);
    }
 }
+
+
+
+
+
+html[data-theme="dark"] .timeline-photogalleries {
+    background-color: #202124;
+}
+html[data-theme="dark"] .timeline-photogalleries__body-season, html[data-theme="dark"] .timeline-photogalleries__body-info, html[data-theme="dark"] .timeline-photogalleries__head > span:nth-child(1) {
+    color: #dfdfdf;
+}
+
+html[data-theme="dark"] .timeline-photogalleries__body-season, html[data-theme="dark"] .timeline-photogalleries__body-info {
+    background-color: rgb(0, 0, 0, 0.50);
+}
+
+
+
+
+html[data-theme="summer"] .timeline-photogalleries {
+    background-color: #fffdf8;
+}
+
+
+html[data-theme="grey"] .timeline-photogalleries__head > span:nth-child(1) {
+    color: #1e1e1e;
+}
+
+
+
+
+html[data-theme="Black"] .timeline-photogalleries {
+    border: 1px solid #292a2c;
+    background-color: #121212;
+    box-shadow: 0px 5px 24px rgba(32,60,87,0.11);
+}
+html[data-theme="Black"] .timeline-photogalleries__body-season, html[data-theme="Black"] .timeline-photogalleries__body-info, html[data-theme="Black"] .timeline-photogalleries__head > span:nth-child(1) {
+    color: #c9ccd0;
+}
+
+html[data-theme="Black"] .timeline-photogalleries__body-season, html[data-theme="Black"] .timeline-photogalleries__body-info {
+    background-color: rgb(0, 0, 0, 0.55);
+}

@@ -324,13 +324,16 @@ html[data-theme="dark"] .timeline-tournament, html[data-theme="dark"] .timeline-
 html[data-theme="dark"] .tournament-menu__body a, html[data-theme="dark"] .timeline__tournament-navigation-next::after {
     color: #abcbff;
 }
+html[data-theme="dark"] .timeline-tournament a:hover {
+    border-color: #8ab4f8 !important;
+}
 html[data-theme="dark"] .tournament-menu__body a {
     background-color: #184779;
 }
 html[data-theme="dark"] .timeline__tournament-navigation ul li a {
     background-color: #1f2d40;
 }
-html[data-theme="dark"] .timeline__tournament-navigation ul li a.active, html[data-theme="dark"] .timeline__tournament-navigation a:hover:not(.active)::before, html[data-theme="dark"] .timeline__tournament-navigation-next:hover::before, html[data-theme="dark"] .timeline__tournament-navigation-prev:hover::before {
+html[data-theme="dark"] .tournament-menu__body .active, html[data-theme="dark"] .timeline__tournament-navigation ul li a.active, html[data-theme="dark"] .timeline__tournament-navigation a:hover:not(.active)::before, html[data-theme="dark"] .timeline__tournament-navigation-next:hover::before, html[data-theme="dark"] .timeline__tournament-navigation-prev:hover::before {
     background-color: #235f9f;
 }
 html[data-theme="dark"] .timeline__tournament-navigation a::before, html[data-theme="dark"] .timeline__tournament-navigation-next::before, html[data-theme="dark"] .timeline__tournament-navigation-prev::before {
@@ -362,6 +365,9 @@ html[data-theme="dark"] .bonus-icon {
 }
 html[data-theme="dark"] .triangle-down::before {
     color: #d40000;
+}
+html[data-theme="dark"] .triangle::before {
+    color: #1bd212;
 }
 html[data-theme="dark"] .triangle::before {
     color: #1bd212;
@@ -407,11 +413,11 @@ html[data-theme="Black"] .tournament-menu__body a {
 html[data-theme="Black"] .timeline__tournament-navigation ul li a {
     background-color: #101c29;
 }
-html[data-theme="Black"] .timeline__tournament-navigation ul li a.active, html[data-theme="Black"] .timeline__tournament-navigation a:hover:not(.active)::before, html[data-theme="Black"] .timeline__tournament-navigation-next:hover::before, html[data-theme="Black"] .timeline__tournament-navigation-prev:hover::before {
-    background-color: #173660;
+html[data-theme="Black"] .tournament-menu__body .active, html[data-theme="Black"] .timeline__tournament-navigation ul li a.active, html[data-theme="Black"] .timeline__tournament-navigation a:hover:not(.active)::before, html[data-theme="Black"] .timeline__tournament-navigation-next:hover::before, html[data-theme="Black"] .timeline__tournament-navigation-prev:hover::before {
+    background-color: #1a3d6d;
 }
 html[data-theme="Black"] .timeline__tournament-navigation a::before, html[data-theme="Black"] .timeline__tournament-navigation-next::before, html[data-theme="Black"] .timeline__tournament-navigation-prev::before {
-    background-color: #173660;
+    background-color: #1a3d6d;
 }
 html[data-theme="Black"] .timeline__tournament-table tr:first-child td, html[data-theme="Black"] .compare-icon::before {
     color: #a4a6a7;
@@ -454,7 +460,7 @@ html[data-theme="Black"] .triangle::before, html[data-theme="Black"] .timeline__
         color: #6688c0 !important;
     }
     html[data-theme="Black"] .tournament-menu__body a:hover {
-        background-color: #173660;
+        background-color: #1a3d6d;
     }
     html[data-theme="Black"] .timeline__tournament-table tr:hover:not(:first-child, .my-string) td {
         background-color: #232219;
@@ -498,8 +504,8 @@ html[data-theme="summer"] .timeline__tournament-table a {
     color: #348232;
 }
 html[data-theme="summer"] .timeline .timeline__tournament-table a:hover {
-    color: #63b961;
-    border-color: #63b961;
+    color: #63b961 !important;
+    border-color: #63b961 !important;
 }
 html[data-theme="summer"] .timeline__tournament-table tr:nth-child(2n) {
     background-color: #fff2d4;
@@ -525,8 +531,8 @@ html[data-theme="summer"] .timeline__tournament-table .my-string .logged {
 html[data-theme="summer"] .bonus-icon {
     fill: #ff4949;
 }
-html[data-theme="dark"] .triangle::before {
-    color: #1bd212;
+html[data-theme="summer"] .tournament-menu__body .active {
+    background-color: #ffebb8;
 }
 
 
@@ -535,7 +541,7 @@ html[data-theme="dark"] .triangle::before {
         color: #348232 !important;
     }
     html[data-theme="summer"] .tournament-menu__body a:hover {
-        background-color: #ffebb8;
+        background-color: #ffedc3;
     }
     html[data-theme="summer"] .timeline__tournament-table tr:hover:not(:first-child, .my-string) td {
         background-color: #e2f4e2;
@@ -600,13 +606,15 @@ html[data-theme="dark"] .triangle-down::before, html[data-theme="dark"] .triangl
 html[data-theme="grey"] .triangle::before, html[data-theme="grey"] .triangle {
     color: #50ae4b;
 }
-
+html[data-theme="grey"] .tournament-menu__body .active {
+    background-color: #e1e1e1;
+}
 
 @media (hover: hover) {
     html[data-theme="grey"] .tournament-menu__body a:hover, html[data-theme="grey"] .timeline__tournament-navigation ul li a:hover {
         color: #2f5278 !important;
     }
     html[data-theme="grey"] .tournament-menu__body a:hover {
-        background-color: #e1e1e1;
+        background-color: #e4e4e4;
     }
 }

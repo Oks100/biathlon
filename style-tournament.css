@@ -222,16 +222,33 @@
     left: 0;
     top: 0;
 }
-.my-forecast__table tbody tr:nth-child(2n+1) {
+.my-forecast__table tbody tr:nth-child(2n+1) td {
     background-color: #e7f3fa;
+}
+.my-forecast__table tbody tr:nth-child(2n) td {
+    background-color: #fff;
+}
+
+
+.my-forecast__table tr td:nth-last-child(2) a, .my-forecast__table tr td:nth-last-child(1) a {
+    display: flex;
+    justify-content: center;
+}
+.forecast-icon {
+    width: 15px;
+    height: 15px;
+    fill: #81aad5;
+    scale: 1;
+    transition: all .3s ease;
 }
 
 
 
-
-
 @media (hover: hover) {
-    .my-forecast__table tr:hover td {
+    .my-forecast__table tr td:nth-last-child(2) a:hover svg, .my-forecast__table tr td:nth-last-child(1) a:hover svg {
+        fill: #689fd8;
+    }
+    .my-forecast__table tbody tr:hover td {
         background-color: #fffce5;
     }
     .checkbox-group .label-for-allow-messages:hover::before {
@@ -252,7 +269,605 @@
     .timeline-tournament {
         padding: 2em 1.06em 2em 1.06em;
     }
-    .my-forecast__table tr td {
-        padding: 2.4px 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+html[data-theme="dark"] .timeline-tournament {
+    background-color: #202124;
+}
+html[data-theme="dark"] .timeline-tournament, html[data-theme="dark"] .timeline-tournament__head > span:nth-child(1) {
+    color: #dfdfdf;
+}
+html[data-theme="dark"] .tournament-menu__body a, html[data-theme="dark"] .timeline__tournament-navigation-next::after {
+    color: #abcbff;
+}
+html[data-theme="dark"] .tournament-menu__body a {
+    background-color: #184779;
+}
+html[data-theme="dark"] .timeline__tournament-navigation ul li a {
+    background-color: #1f2d40;
+}
+html[data-theme="dark"] .timeline__tournament-navigation ul li a.active, html[data-theme="dark"] .timeline__tournament-navigation a:hover:not(.active)::before, html[data-theme="dark"] .timeline__tournament-navigation-next:hover::before, html[data-theme="dark"] .timeline__tournament-navigation-prev:hover::before {
+    background-color: #235f9f;
+}
+html[data-theme="dark"] .timeline__tournament-navigation a::before, html[data-theme="dark"] .timeline__tournament-navigation-next::before, html[data-theme="dark"] .timeline__tournament-navigation-prev::before {
+    background-color: #235f9f;
+}
+html[data-theme="dark"] .timeline__tournament-table tr:first-child td, html[data-theme="dark"] .compare-icon::before {
+    color: #b5b5b5;
+}
+html[data-theme="dark"] .timeline__tournament-table tr:nth-child(2n) {
+    background-color: #1f2d40;
+}
+html[data-theme="dark"] .timeline__tournament-table .logged {
+    border-color: #202124;
+}
+html[data-theme="dark"] .timeline__tournament-table tr:nth-child(2n) .logged {
+    border-color: #1f2d40;
+}
+html[data-theme="dark"] .avatar-male, html[data-theme="dark"] .avatar-female, html[data-theme="dark"] .avatar-unknown {
+    fill: #2d63af;
+}
+html[data-theme="dark"] .timeline__tournament-table .my-string td {
+    background-color: #324932;
+}
+html[data-theme="dark"] .timeline__tournament-table .my-string .logged {
+    border-color: #324932 !important;
+}
+html[data-theme="dark"] .bonus-icon {
+    fill: #d40000;
+}
+html[data-theme="dark"] .triangle-down::before, html[data-theme="dark"] .timeline-tournament__red-title {
+    color: #d40000;
+}
+html[data-theme="dark"] .triangle::before {
+    color: #1bd212;
+}
+
+
+html[data-theme="dark"] .tournament-menu__body .active {
+    background-color: #235f9f;
+}
+
+/*бордер ссылок*/
+html[data-theme="dark"] .timeline-tournament a:hover {
+    border-color: #8ab4f8 !important;
+}
+/*цвет кружка*/
+html[data-theme="dark"] .checkbox-group .label-for-allow-messages::before {
+    background-color: #1f2d40;
+}
+/*цвет ободка кружка*/
+html[data-theme="dark"] .timeline-tournament__join-button input, html[data-theme="dark"] .checkbox-group #allow-messages:checked + .label-for-allow-messages::before {
+    border-color: #184779;
+}
+/*цвет галочки*/
+html[data-theme="dark"] .checkbox-group #allow-messages:checked + .label-for-allow-messages::after {
+    border-color: #2b63b1;
+}
+/*цвет заголовков*/
+html[data-theme="dark"] .timeline-tournament__title {
+    color: #2b7ed7;
+}
+
+/*зебра таблицы*/
+html[data-theme="dark"] .my-forecast__table tbody tr:nth-child(2n) td {
+    background-color: #202124;
+}
+html[data-theme="dark"] .my-forecast__table tbody tr:nth-child(2n+1) td {
+    background-color: #1f2d40;
+}
+
+/*цвет текста в кнопке*/
+html[data-theme="dark"] .comment_button {
+    color: #abcbff;
+}
+
+/*цвет мини картинок*/
+html[data-theme="dark"] .forecast-icon {
+    fill: #2b63b1;
+}
+
+
+
+@media (hover: hover) {
+    /*цвет мини картинок*/
+    html[data-theme="dark"] .my-forecast__table tr td:nth-last-child(2) a:hover svg, html[data-theme="dark"] .my-forecast__table tr td:nth-last-child(1) a:hover svg {
+        fill: #3070ca;
+    }
+    /*цвет кнопки*/
+    html[data-theme="dark"] .timeline-tournament__join-button input:hover {
+        background-color: #184779;
+    }
+    /*цвет бордера кружка*/
+    html[data-theme="dark"] .checkbox-group .label-for-allow-messages:hover::before {
+        border-color: #184779;
+    }
+    /*цвет текста при ховере*/
+    html[data-theme="dark"] .tournament-menu__body a:hover, html[data-theme="dark"] .timeline__tournament-navigation ul li a:hover {
+        color: #abcbff !important;
+    }
+    /*цвет меню при ховере*/
+    html[data-theme="dark"] .tournament-menu__body a:hover {
+        background-color: #235f9f;
+    }
+    /*подсветка строки таблицы*/
+    html[data-theme="dark"] .my-forecast__table tbody tr:hover td, html[data-theme="dark"] .timeline__tournament-table tr:hover:not(:first-child, .my-string) td {
+        background-color: #282720;
+    }
+}
+
+
+
+
+
+
+
+html[data-theme="Black"] .timeline-tournament {
+    background-color: #121212;
+    border: 1px solid #292a2c;
+    box-shadow: 0px 5px 24px rgba(32,60,87,0.11);
+}
+html[data-theme="Black"] .timeline-tournament, html[data-theme="Black"] .timeline-tournament__head > span:nth-child(1) {
+    color: #c9ccd0;
+}
+html[data-theme="Black"] .tournament-menu__body a, html[data-theme="Black"] .timeline__tournament-navigation-next::after {
+    color: #6688c0;
+}
+html[data-theme="Black"] .tournament-menu__body a {
+    background-color: #102442;
+}
+html[data-theme="Black"] .timeline__tournament-navigation ul li a {
+    background-color: #101c29;
+}
+html[data-theme="Black"] .tournament-menu__body .active, html[data-theme="Black"] .timeline__tournament-navigation ul li a.active, html[data-theme="Black"] .timeline__tournament-navigation a:hover:not(.active)::before, html[data-theme="Black"] .timeline__tournament-navigation-next:hover::before, html[data-theme="Black"] .timeline__tournament-navigation-prev:hover::before {
+    background-color: #1a3d6d;
+}
+html[data-theme="Black"] .timeline__tournament-navigation a::before, html[data-theme="Black"] .timeline__tournament-navigation-next::before, html[data-theme="Black"] .timeline__tournament-navigation-prev::before {
+    background-color: #1a3d6d;
+}
+html[data-theme="Black"] .timeline__tournament-table tr:first-child td, html[data-theme="Black"] .compare-icon::before {
+    color: #a4a6a7;
+}
+html[data-theme="Black"] .timeline__tournament-table tr:nth-child(2n) {
+    background-color: #0e1721;
+}
+html[data-theme="Black"] .timeline__tournament-table .logged {
+    border-color: #202124;
+}
+html[data-theme="Black"] .timeline__tournament-table tr:nth-child(2n) .logged {
+    border-color: #0e1721;
+}
+html[data-theme="Black"] .avatar-male, html[data-theme="Black"] .avatar-female, html[data-theme="Black"] .avatar-unknown {
+    fill: #265591;
+}
+html[data-theme="Black"] .timeline__tournament-table .my-string td {
+    background-color: #202e20;
+}
+html[data-theme="Black"] .timeline__tournament-table .my-string .logged {
+    border-color: #202e20 !important;
+}
+html[data-theme="Black"] .bonus-icon {
+    fill: #d40000;
+}
+html[data-theme="Black"] .triangle-down::before, html[data-theme="Black"] .timeline__tournament-table .red, html[data-theme="Black"] .timeline-tournament__red-title {
+    color: #d40000;
+}
+html[data-theme="Black"] .triangle::before, html[data-theme="Black"] .timeline__tournament-table .green {
+    color: #177513;
+}
+html[data-theme="dark"] .triangle::before {
+    color: #1bd212;
+}
+
+
+@media (hover: hover) {
+    html[data-theme="Black"] .tournament-menu__body a:hover, html[data-theme="Black"] .timeline__tournament-navigation ul li a:hover {
+        color: #6688c0 !important;
+    }
+    html[data-theme="Black"] .tournament-menu__body a:hover {
+        background-color: #1a3d6d;
+    }
+    html[data-theme="Black"] .timeline__tournament-table tr:hover:not(:first-child, .my-string) td {
+        background-color: #232219;
+    }
+    html[data-theme="Black"]  .timeline__tournament-table tr:hover:not(.my-string) td .logged {
+        border-color: #232219;
+    }
+}
+
+
+
+
+/*бордер ссылок*/
+/* html[data-theme="Black"] .timeline-tournament a:hover {
+    color: #93bbff;
+    border-color: #93bbff;
+} */
+/*цвет кружка*/
+html[data-theme="Black"] .checkbox-group .label-for-allow-messages::before {
+    background-color: #0e1721;
+}
+/*цвет ободка кружка*/
+html[data-theme="Black"] .timeline-tournament__join-button input, html[data-theme="Black"] .checkbox-group #allow-messages:checked + .label-for-allow-messages::before {
+    border-color: #102442;
+}
+/*цвет галочки*/
+html[data-theme="Black"] .checkbox-group #allow-messages:checked + .label-for-allow-messages::after {
+    border-color: #255490;
+}
+/*цвет заголовков*/
+html[data-theme="Black"] .timeline-tournament__title {
+    color: #326bb3;
+}
+
+/*зебра таблицы*/
+html[data-theme="Black"] .my-forecast__table tbody tr:nth-child(2n) td {
+    background-color: #121212;
+}
+html[data-theme="Black"] .my-forecast__table tbody tr:nth-child(2n+1) td {
+    background-color: #0e1621;
+}
+
+/*цвет текста в кнопке*/
+html[data-theme="Black"] .comment_button {
+    color: #6688c0;
+}
+
+/*цвет мини картинок*/
+html[data-theme="Black"] .forecast-icon {
+    fill: #255490;
+}
+
+
+
+@media (hover: hover) {
+    /*цвет мини картинок*/
+    html[data-theme="Black"] .my-forecast__table tr td:nth-last-child(2) a:hover svg, html[data-theme="Black"] .my-forecast__table tr td:nth-last-child(1) a:hover svg {
+        fill: #2d65ac;
+    }
+    /*цвет кнопки*/
+    html[data-theme="Black"] .timeline-tournament__join-button input:hover {
+        background-color: #122b4d;
+    }
+    /*цвет бордера кружка*/
+    html[data-theme="Black"] .checkbox-group .label-for-allow-messages:hover::before {
+        border-color: #102442;
+    }
+    /*цвет текста при ховере*/
+    /* html[data-theme="dark"] .tournament-menu__body a:hover, html[data-theme="dark"] .timeline__tournament-navigation ul li a:hover {
+        color: #abcbff !important;
+    } */
+    /*цвет меню при ховере*/
+    html[data-theme="Black"] .tournament-menu__body a:hover {
+        background-color: #1a3d6d;
+    }
+    /*подсветка строки таблицы*/
+    html[data-theme="Black"] .my-forecast__table tbody tr:hover td, html[data-theme="dark"] .timeline__tournament-table tr:hover:not(:first-child, .my-string) td {
+        background-color: #232219;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+html[data-theme="summer"] .timeline-tournament {
+    background-color: #fffdf8;
+}
+html[data-theme="summer"] .tournament-menu__body a {
+    color: #348232;
+}
+html[data-theme="summer"] .timeline__tournament-navigation-next::after {
+    color: #e0a11d;
+}
+html[data-theme="summer"] .tournament-menu__body a {
+    background-color: #fff2d4;
+}
+html[data-theme="summer"] .timeline__tournament-navigation ul li a {
+    background-color: #fff2d4;
+    color: #348232;
+}
+html[data-theme="summer"] .timeline__tournament-navigation ul li a.active, html[data-theme="summer"] .timeline__tournament-navigation a:hover:not(.active)::before, html[data-theme="summer"] .timeline__tournament-navigation-next:hover::before, html[data-theme="summer"] .timeline__tournament-navigation-prev:hover::before {
+    background-color: #ffeab8;
+}
+html[data-theme="summer"] .timeline__tournament-navigation a::before, html[data-theme="summer"] .timeline__tournament-navigation-next::before, html[data-theme="summer"] .timeline__tournament-navigation-prev::before {
+    background-color: #ffeab8;
+}
+html[data-theme="summer"] .timeline__tournament-table a {
+    color: #348232;
+}
+html[data-theme="summer"] .timeline .timeline__tournament-table a:hover {
+    color: #63b961 !important;
+    border-color: #63b961 !important;
+}
+html[data-theme="summer"] .timeline__tournament-table tr:nth-child(2n) {
+    background-color: #fff2d4;
+}
+html[data-theme="summer"] .timeline__tournament-table .logged {
+    border-color: #fffdf8;
+}
+html[data-theme="summer"] .timeline__tournament-table .logged {
+    background-color: #ff9d1f;
+}
+html[data-theme="summer"] .timeline__tournament-table tr:nth-child(2n) .logged {
+    border-color: #fff2d4;
+}
+html[data-theme="summer"] .avatar-male, html[data-theme="summer"] .avatar-female, html[data-theme="summer"] .avatar-unknown {
+    fill: #65c263;
+}
+html[data-theme="summer"] .timeline__tournament-table .my-string td {
+    background-color: #bfffbf;
+}
+html[data-theme="summer"] .timeline__tournament-table .my-string .logged {
+    border-color: #bfffbf !important;
+}
+html[data-theme="summer"] .bonus-icon {
+    fill: #ff4949;
+}
+html[data-theme="summer"] .timeline-tournament__red-title {
+    color: #ff4949;
+}
+html[data-theme="summer"] .tournament-menu__body .active {
+    background-color: #ffebb8;
+}
+
+
+
+@media (hover: hover) {
+    html[data-theme="summer"] .tournament-menu__body a:hover, html[data-theme="summer"] .timeline__tournament-navigation ul li a:hover {
+        color: #348232 !important;
+    }
+    html[data-theme="summer"] .tournament-menu__body a:hover {
+        background-color: #ffebb8;
+    }
+    html[data-theme="summer"] .timeline__tournament-table tr:hover:not(:first-child, .my-string) td {
+        background-color: #e2f4e2;
+    }
+    html[data-theme="summer"]  .timeline__tournament-table tr:hover:not(.my-string) td .logged {
+        border-color: #e2f4e2;
+    }
+}
+
+
+
+
+/*бордер ссылок*/
+html[data-theme="summer"] .timeline-tournament a:hover {
+    color: #63b961 !important;
+    border-color: #63b961 !important;
+}
+html[data-theme="summer"] .tournament-menu__body a:hover, html[data-theme="summer"] .timeline-tournament a {
+    color: #348232 !important;
+}
+/*цвет кружка*/
+html[data-theme="summer"] .checkbox-group .label-for-allow-messages::before {
+    background-color: #fff2d5;
+}
+/*цвет ободка кружка*/
+html[data-theme="summer"] .checkbox-group #allow-messages:checked + .label-for-allow-messages::before {
+    border-color: #ffeab8;
+}
+html[data-theme="summer"] .timeline-tournament__join-button input {
+    border-color: #ffedc3;
+}
+/*цвет галочки*/
+html[data-theme="summer"] .checkbox-group #allow-messages:checked + .label-for-allow-messages::after {
+    border-color: #65c063;
+}
+/*цвет заголовков*/
+html[data-theme="summer"] .timeline-tournament__title {
+    color: #e99e00;
+}
+
+/*зебра таблицы*/
+html[data-theme="summer"] .my-forecast__table tbody tr:nth-child(2n) td {
+    background-color: #fffdf8;
+}
+html[data-theme="summer"] .my-forecast__table tbody tr:nth-child(2n+1) td {
+    background-color: #fff2d5;
+}
+
+/*цвет текста в кнопке*/
+html[data-theme="summer"] .comment_button {
+    color: #348232;
+}
+
+/*цвет мини картинок*/
+html[data-theme="summer"] .forecast-icon {
+    fill: #65c063;
+}
+
+
+
+@media (hover: hover) {
+    /*цвет мини картинок*/
+    html[data-theme="summer"] .my-forecast__table tr td:nth-last-child(2) a:hover svg, html[data-theme="summer"] .my-forecast__table tr td:nth-last-child(1) a:hover svg {
+        fill: #72d670;
+    }
+    /*цвет кнопки*/
+    html[data-theme="summer"] .timeline-tournament__join-button input:hover {
+        background-color: #ffedc3;
+    }
+    /*цвет бордера кружка*/
+    html[data-theme="summer"] .checkbox-group .label-for-allow-messages:hover::before {
+        border-color: #ffeab8;
+    }
+    /*цвет текста при ховере*/
+    html[data-theme="dark"] .tournament-menu__body a:hover, html[data-theme="dark"] .timeline__tournament-navigation ul li a:hover {
+        color: #abcbff !important;
+    }
+    /*цвет меню при ховере*/
+    html[data-theme="summer"] .tournament-menu__body a:hover {
+        background-color: #ffedc3;
+    }
+    /*подсветка строки таблицы*/
+    html[data-theme="summer"] .my-forecast__table tbody tr:hover td, html[data-theme="summer"] .timeline__tournament-table tr:hover:not(:first-child, .my-string) td {
+        background-color: #e2f4e2;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+html[data-theme="grey"] .timeline-tournament, html[data-theme="grey"] .timeline-tournament__head > span:nth-child(1) {
+    color: #1e1e1e;
+}
+html[data-theme="grey"] .tournament-menu__body a, html[data-theme="grey"] .timeline__tournament-navigation-next::after {
+    color: #2f5278;
+}
+html[data-theme="grey"] .tournament-menu__body a {
+    background-color: #eeeeee;
+}
+html[data-theme="grey"] .timeline__tournament-navigation ul li a {
+    background-color: #eeeeee;
+}
+html[data-theme="grey"] .timeline__tournament-navigation ul li a.active, html[data-theme="grey"] .timeline__tournament-navigation a:hover:not(.active)::before, html[data-theme="grey"] .timeline__tournament-navigation-next:hover::before, html[data-theme="grey"] .timeline__tournament-navigation-prev:hover::before {
+    background-color: #d7d7d7;
+}
+html[data-theme="grey"] .timeline__tournament-navigation a::before, html[data-theme="grey"] .timeline__tournament-navigation-next::before, html[data-theme="grey"] .timeline__tournament-navigation-prev::before {
+    background-color: #d7d7d7;
+}
+html[data-theme="grey"] .timeline__tournament-table tr:first-child td {
+    color: #7e7e7e;
+}
+html[data-theme="grey"] .compare-icon::before {
+    color: #9b9b9b;
+}
+html[data-theme="grey"] .timeline__tournament-table tr:nth-child(2n) {
+    background-color: #eeeeee;
+}
+html[data-theme="grey"] .timeline__tournament-table tr:nth-child(2n) .logged {
+    border-color: #eeeeee;
+}
+html[data-theme="grey"] .avatar-male, html[data-theme="grey"] .avatar-female, html[data-theme="grey"] .avatar-unknown {
+    fill: #89a0b5;
+}
+html[data-theme="grey"] .timeline__tournament-table .my-string td {
+    background-color: #c7f4c7;
+}
+html[data-theme="grey"] .timeline__tournament-table .my-string .logged {
+    background-color: #20ba19;
+    border-color: #c7f4c7 !important;
+}
+html[data-theme="grey"] .tournament-menu__body .active {
+    background-color: #e1e1e1;
+}
+html[data-theme="grey"] .timeline-tournament__red-title {
+    color: #ff5252;
+}
+
+
+
+@media (hover: hover) {
+    html[data-theme="grey"] .tournament-menu__body a:hover, html[data-theme="grey"] .timeline__tournament-navigation ul li a:hover {
+        color: #2f5278 !important;
+    }
+    html[data-theme="grey"] .tournament-menu__body a:hover {
+        background-color: #e4e4e4;
+    }
+}
+
+
+
+html[data-theme="grey"] .timeline-tournament a:hover {
+    color: #73abd2 !important;
+    border-color: #73abd2 !important;
+}
+html[data-theme="grey"] .tournament-menu__body a:hover, html[data-theme="grey"] .timeline-tournament a {
+    color: #2f5278 !important;
+}
+
+
+/*цвет кружка*/
+html[data-theme="grey"] .checkbox-group .label-for-allow-messages::before {
+    background-color: #ececec;
+}
+/*цвет ободка кружка*/
+html[data-theme="grey"] .checkbox-group #allow-messages:checked + .label-for-allow-messages::before {
+    border-color: #e1e1e1;
+}
+html[data-theme="grey"] .timeline-tournament__join-button input {
+    border-color: #eeeeee;
+}
+/*цвет галочки*/
+html[data-theme="grey"] .checkbox-group #allow-messages:checked + .label-for-allow-messages::after {
+    border-color: #869db2;
+}
+/*цвет заголовков*/
+html[data-theme="grey"] .timeline-tournament__title {
+    color: #648099;
+}
+
+/*зебра таблицы*/
+html[data-theme="grey"] .my-forecast__table tbody tr:nth-child(2n) td {
+    background-color: #fff;
+}
+html[data-theme="grey"] .my-forecast__table tbody tr:nth-child(2n+1) td {
+    background-color: #eeeeee;
+}
+
+/*цвет текста в кнопке*/
+html[data-theme="grey"] .comment_button {
+    color: #2f5278;
+}
+
+/*цвет мини картинок*/
+html[data-theme="grey"] .forecast-icon {
+    fill: #869db2;
+}
+
+
+
+@media (hover: hover) {
+    /*цвет мини картинок*/
+    html[data-theme="grey"] .my-forecast__table tr td:nth-last-child(2) a:hover svg, html[data-theme="grey"] .my-forecast__table tr td:nth-last-child(1) a:hover svg {
+        fill: #98b2ca;
+    }
+    /*цвет кнопки*/
+    html[data-theme="grey"] .timeline-tournament__join-button input:hover {
+        background-color: #eeeeee;
+    }
+    /*цвет бордера кружка*/
+    html[data-theme="grey"] .checkbox-group .label-for-allow-messages:hover::before {
+        border-color: #e1e1e1;
+    }
+    html[data-theme="grey"] .my-forecast__table tbody tr:hover td, html[data-theme="grey"] .timeline__tournament-table tr:hover:not(:first-child, .my-string) td {
+        background-color: #fffce5;
     }
 }

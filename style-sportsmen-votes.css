@@ -99,6 +99,7 @@
 }
 .sportsmen-votes__table tr td {
     padding: 2.4px 7px;
+    white-space: nowrap;
 }
 .sportsmen-votes__table tr td:last-child {
     text-align: right;
@@ -164,9 +165,7 @@
 .sportsmen-votes__list li a {
     margin-left: 20px;
 }
-.vote-hide-1, .vote-hide-2 {
-    display: none;
-}
+
 .sportsmen-votes__table.hide-td-1 .vote-hide-1, .sportsmen-votes__table.hide-td-2 .vote-hide-2 {
     display: initial;
 }
@@ -181,9 +180,23 @@
 .sport-vote-0:focus {
     outline-color: #bfc6ca;
 }
+
+.sport-vote-container {
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+
+
+
+
 @media (hover: hover) {
     .sportsmen-votes__table tbody tr:hover {
         background-color: #fffce5;
+    }
+    .sport-vote-0:hover {
+        outline-color: #bfc6ca;
     }
 }
 

@@ -262,3 +262,145 @@ a.targets-block.done {
         width: auto;
     }
 }
+
+
+
+
+
+
+
+
+
+
+html[data-theme="dark"] .timeline-calendar, html[data-theme="dark"] .circle-element-for-stages {
+    background-color: #202124;
+}
+html[data-theme="dark"] .timeline-calendar__head > span:nth-child(1), html[data-theme="dark"] .timeline-calendar {
+    color: #dfdfdf;
+}
+html[data-theme="dark"] .timeline-calendar__stages {
+    background-color: #15314d;
+}
+html[data-theme="dark"] .circle-element-for-stages {
+    border-color: #15314d;
+}
+html[data-theme="dark"] .olympic-games-icon, html[data-theme="dark"] .local-championship-icon, html[data-theme="dark"] .circle-icon-21 {
+    fill: #2b63b1;
+}
+html[data-theme="dark"] .timeline-calendar__table tbody tr:nth-child(2n+1) {
+    background-color: #1f2d40;
+}
+html[data-theme="dark"] .targets-block.done .target-block__circle::before, html[data-theme="dark"] .targets-block, html[data-theme="dark"] .targets-block.current .target-block__circle:nth-child(2n)::before {
+    background-color: #e8e8e8;
+}
+
+@media (hover: hover) {
+    html[data-theme="dark"] .timeline-calendar__table tr:hover td {
+      background-color: #282720;
+    }
+    html[data-theme="dark"] .targets-block.done:hover .target-block__circle::before {
+        background-color: #5a5a5a;
+    }
+}
+
+
+
+
+html[data-theme="summer"] .timeline-calendar, html[data-theme="summer"] .circle-element-for-stages {
+    background-color: #fffdf8;
+}
+html[data-theme="summer"] .timeline-calendar__stages {
+    background-color: #fff2d5;
+}
+html[data-theme="summer"] .circle-element-for-stages {
+    border-color: #fff2d5;
+}
+html[data-theme="summer"] .olympic-games-icon, html[data-theme="summer"] .local-championship-icon, html[data-theme="summer"] .circle-icon-21 {
+    fill: #65c063;
+}
+html[data-theme="summer"] .timeline-calendar__table tbody tr:nth-child(2n+1) {
+    background-color: #fff2d5;
+}
+html[data-theme="summer"] .targets-block.done .target-block__circle::before, html[data-theme="summer"] .targets-block, html[data-theme="summer"] .targets-block.current .target-block__circle:nth-child(2n)::before {
+    background-color: #fffdf8;
+}
+html[data-theme="summer"] .timeline-calendar a {
+    color: #348232;
+}
+html[data-theme="summer"] .timeline-calendar a:hover:not(.targets-block) {
+    color: #63b961 !important;
+    border-color: #63b961;
+}
+
+
+@media (hover: hover) {
+    html[data-theme="summer"] .timeline-calendar__table tr:hover td {
+      background-color: #e2f4e2;
+    }
+    html[data-theme="summer"] .targets-block.done:hover .target-block__circle::before {
+        background-color: #5a5a5a;
+    }
+}
+
+
+
+
+
+html[data-theme="grey"] .timeline-calendar__stages {
+    background-color: #eeeeee;
+}
+html[data-theme="grey"] .circle-element-for-stages {
+    border-color: #eeeeee;
+}
+html[data-theme="grey"] .olympic-games-icon, html[data-theme="grey"] .local-championship-icon, html[data-theme="grey"] .circle-icon-21 {
+    fill: #869db2;
+}
+html[data-theme="grey"] .timeline-calendar__table tbody tr:nth-child(2n+1) {
+    background-color: #eeeeee;
+}
+html[data-theme="grey"] .timeline-calendar a {
+    color: #2f5278;
+}
+html[data-theme="grey"] .timeline-calendar a:hover:not(.targets-block) {
+    color: #73abd2 !important;
+    border-color: #73abd2;
+}
+
+
+
+
+
+
+
+html[data-theme="Black"] .timeline-calendar, html[data-theme="Black"] .circle-element-for-stages {
+    background-color: #121212;
+    box-shadow: 0px 5px 24px rgba(32,60,87,0.11);
+    border: 1px solid #292a2c;
+}
+html[data-theme="Black"] .timeline-calendar__head > span:nth-child(1), html[data-theme="Black"] .timeline-calendar {
+    color: #c9ccd0;
+}
+html[data-theme="Black"] .timeline-calendar__stages {
+    background-color: #0e1621;
+}
+html[data-theme="Black"] .circle-element-for-stages {
+    border-color: #0e1621;
+}
+html[data-theme="Black"] .olympic-games-icon, html[data-theme="Black"] .local-championship-icon, html[data-theme="Black"] .circle-icon-21 {
+    fill: #255490;
+}
+html[data-theme="Black"] .timeline-calendar__table tbody tr:nth-child(2n+1) {
+    background-color: #0e1721;
+}
+html[data-theme="Black"] .targets-block.done .target-block__circle::before, html[data-theme="Black"] .targets-block, html[data-theme="Black"] .targets-block.current .target-block__circle:nth-child(2n)::before {
+    background-color: #d7d7d7;
+}
+
+@media (hover: hover) {
+    html[data-theme="Black"] .timeline-calendar__table tr:hover td {
+      background-color: #232219;
+    }
+    html[data-theme="Black"] .targets-block.done:hover .target-block__circle::before {
+        background-color: #5a5a5a;
+    }
+}
