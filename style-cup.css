@@ -1241,7 +1241,7 @@ html[data-theme="Black"] .timeline-cup.profiles-color .age-button-svg path:nth-c
 }
 html[data-theme="Black"] .timeline-cup.profiles-color .age-color-6:hover, html[data-theme="Black"] .timeline-cup.profiles-color .age-color-5:hover, html[data-theme="Black"] .timeline-cup.profiles-color .age-color-4:hover, html[data-theme="Black"] .timeline-cup.profiles-color .age-color-3:hover, html[data-theme="Black"] .timeline-cup.profiles-color .age-color-2:hover, html[data-theme="Black"] .timeline-cup.profiles-color .age-color-1:hover {
     color: #286ede !important;
-    border-color: #286ede;
+    border-color: #286ede !important;
 }
 html[data-theme="Black"] .timeline-cup__footer-legend-remark {
     color: #868686;

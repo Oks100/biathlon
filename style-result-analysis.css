@@ -75,14 +75,17 @@
 .yellow-jersey {
     background: radial-gradient(circle, rgba(255, 231, 100, 0.7) 0%, rgb(255, 231, 100) 100%) !important;
     cursor: help;
+    border-radius: 3px;
 }
 .red-jersey {
     background: radial-gradient(circle, rgba(255, 163, 163, 0.7) 0%, rgb(255, 163, 163) 100%) !important;
     cursor: help;
+    border-radius: 3px;
 }
 .blue-jersey {
     background: radial-gradient(circle, rgba(136, 204, 255, 0.7) 0%, rgb(136, 204, 255) 100%) !important;
     cursor: help;
+    border-radius: 3px;
 }
 .timeline-cup-result-wrapper {
     overflow-x: auto;
@@ -247,20 +250,21 @@
 }
 .toggle-style-table__icon {
     position: absolute;
-    top: -2.5px;
+    top: 50%;
     height: 28px;
     width: 28px;
     left: -1px;
     border: 2px solid #c0e5fb;
     background-color: white;
-    transition: all 0.4s ease;
+    transition: all .4s ease;
+    transform: translateY(-50%);
     -webkit-tap-highlight-color: transparent;
 }
 .timeline-cup-result.modern .toggle-style-table__icon {
     border-radius: 50%;
 }
 .timeline-cup-result.old .toggle-style-table__icon {
-    transform: translateX(33px) rotate(360deg);
+    transform: translate(33px, -50%) rotate(360deg);
     border-radius: 0;
 }
 .toggle-style-table__text {
@@ -704,7 +708,7 @@
     }
 }
 
-@media screen and (max-width: 580px) {
+@media screen and (max-width: 600px) {
     .text-1, .timeline-cup-result-select-body-text, .timeline-cup-result-table tbody tr td a.long-name, .shooting-icon span, .bib-icon span {
         display: none;
     }

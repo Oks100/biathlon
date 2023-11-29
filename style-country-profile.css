@@ -2336,7 +2336,7 @@ html[data-theme="dark"] .award-item.throphy-2 {
     background-color: rgb(145, 68, 68);
 }
 html[data-theme="dark"] .award-item.fame-member {
-    background-color: #5b7c89;
+    background-color: #4e727f;
 }
 
 
@@ -2623,8 +2623,7 @@ html[data-theme="Black"] .award-item.throphy-2 {
     background-color: rgb(120, 56, 56);
 }
 html[data-theme="Black"] .award-item.fame-member {
-    /* background-color: #5b7c89; */
-    background-color: #48636d;
+    background-color: #42606b;
 }
 
 

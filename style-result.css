@@ -132,14 +132,17 @@
 .yellow-jersey {
     background: radial-gradient(circle, rgba(255, 231, 100, 0.7) 0%, rgb(255, 231, 100) 100%) !important;
     cursor: help;
+    border-radius: 3px;
 }
 .red-jersey {
     background: radial-gradient(circle, rgba(255, 163, 163, 0.7) 0%, rgb(255, 163, 163) 100%) !important;
     cursor: help;
+    border-radius: 3px;
 }
 .blue-jersey {
     background: radial-gradient(circle, rgba(136, 204, 255, 0.7) 0%, rgb(136, 204, 255) 100%) !important;
     cursor: help;
+    border-radius: 3px;
 }
 .timeline-cup-result-wrapper {
     overflow-x: auto;
@@ -317,20 +320,21 @@
 }
 .toggle-style-table__icon {
     position: absolute;
-    top: -2.5px;
+    top: 50%;
     height: 28px;
     width: 28px;
     left: -1px;
     border: 2px solid #c0e5fb;
     background-color: white;
-    transition: all 0.4s ease;
+    transition: all .4s ease;
+    transform: translateY(-50%);
     -webkit-tap-highlight-color: transparent;
 }
 .timeline-cup-result.modern .toggle-style-table__icon {
     border-radius: 50%;
 }
 .timeline-cup-result.old .toggle-style-table__icon {
-    transform: translateX(33px) rotate(360deg);
+    transform: translate(33px, -50%) rotate(360deg);
     border-radius: 0;
 }
 .toggle-style-table__text {
@@ -727,7 +731,7 @@
     }
 }
 
-@media screen and (max-width: 580px) {
+@media screen and (max-width: 600px) {
     .text-1, .timeline-cup-result-select-body-text, .timeline-cup-result-table tbody tr td a.long-name, .shooting-icon span, .bib-icon span {
         display: none;
     }
@@ -760,3 +764,563 @@
         padding: 2em 1.06em 2em 1.06em;
     }
 }
+
+
+
+
+
+
+
+
+
+
+/*фон*/
+html[data-theme="dark"] .toggle-style-table__icon, html[data-theme="dark"] .timeline-cup-result {
+    background-color: #202124;
+}
+/*цвет текста*/
+html[data-theme="dark"] .timeline-cup-result__head > span:nth-child(1), html[data-theme="dark"] .timeline-cup-result {
+    color: #dfdfdf;
+}
+html[data-theme="dark"] .timeline-cup-result.modern .photo-profile {
+    background-color: #dfdfdf;
+}
+
+
+/*цвет конопки*/
+html[data-theme="dark"] .timeline-cup-result__analysis-button a {
+    background-color: #184779;
+}
+
+/*переключатель*/
+html[data-theme="dark"] .toggle-style-table {
+    background-color: #1f2d40;
+    box-shadow: none;
+    border: 1px solid #2a3c56;
+}
+/*ободка перключателя*/
+html[data-theme="dark"] .toggle-style-table__icon {
+    border-color: #184779;
+}
+
+/*серый цвет*/
+
+html[data-theme="dark"] .timeline-cup-result-table tbody tr:nth-child(1), html[data-theme="dark"] .toggle-style-table__text {
+    color: #b5b5b5;
+}
+html[data-theme="dark"] .timeline-cup-result-table tr:first-child td:nth-child(7)::before, html[data-theme="dark"] .shooting-icon::before, html[data-theme="dark"] .bib-icon::before, html[data-theme="dark"] .timeline-cup-result-table tr:first-child td:nth-child(8)::before {
+    color: #b5b5b5;
+}
+
+/*зебра*/
+html[data-theme="dark"] .timeline-cup-result-table tbody tr:nth-child(2n) {
+    background-color: #1f2d40;
+}
+/*красная строка*/
+html[data-theme="dark"] .chosen-string.active {
+    background-color: #4a3d44 !important;
+    box-shadow: 0 0 0 1px #202124;
+}
+/*зеленая полоса*/
+html[data-theme="dark"] .personal-best::before {
+    background-color: #079600;
+}
+html[data-theme="dark"] .personal-best {
+    color: #079600;
+}
+
+
+/*свг картинка*/
+html[data-theme="dark"] .age-button-svg path {
+    fill: #2d63af;
+}
+html[data-theme="dark"] .timeline-cup.profiles-color .age-button-svg path:nth-child(1) {
+    fill: #7bd27b;
+}
+html[data-theme="dark"] .timeline-cup.profiles-color .age-button-svg path:nth-child(3) {
+    fill: #dd7878;
+}
+html[data-theme="dark"] .timeline-cup.profiles-color .age-button-svg path:nth-child(4) {
+    fill: #caca61;
+}
+
+/*майки лидера*/
+html[data-theme="dark"] .red-jersey {
+    background: radial-gradient(circle, rgb(146, 80, 80) 0%, rgb(145, 68, 68) 100%) !important;
+}
+
+html[data-theme="dark"] .yellow-jersey {
+    background: radial-gradient(circle, rgb(168, 168, 87) 0%, rgb(165, 165, 75) 100%) !important;
+}
+
+html[data-theme="dark"] .blue-jersey {
+    background: radial-gradient(circle, rgb(74, 106, 130) 0%, rgb(67, 101, 127) 100%) !important;
+}
+
+/*ободок фото*/
+html[data-theme="dark"] .timeline-cup-result.modern .photo-profile:hover {
+    box-shadow: none;
+}
+
+
+
+html[data-theme="dark"] .timeline-cup.profiles-color .age-color-1 {
+    background-color: #b8e9b8;
+    color: #12151a;
+}
+html[data-theme="dark"] .timeline-cup.profiles-color .age-color-2 {
+    background-color: #7bd27b;
+    color: #12151a;
+}
+html[data-theme="dark"] .timeline-cup.profiles-color .age-color-3 {
+    background-color: #d8d8a4;
+    color: #12151a;
+}
+html[data-theme="dark"] .timeline-cup.profiles-color .age-color-4 {
+    background-color: #caca61;
+    color: #12151a;
+}
+html[data-theme="dark"] .timeline-cup.profiles-color .age-color-5 {
+    background-color: #e0a2a2;
+    color: #12151a;
+}
+html[data-theme="dark"] .timeline-cup.profiles-color .age-color-6 {
+    background-color: #dd7878;
+    color: #12151a;
+}
+
+html[data-theme="dark"] .timeline-cup.profiles-color .age-color-1:hover, html[data-theme="dark"] .timeline-cup.profiles-color .age-color-2:hover, html[data-theme="dark"] .timeline-cup.profiles-color .age-color-3:hover, html[data-theme="dark"] .timeline-cup.profiles-color .age-color-4:hover, html[data-theme="dark"] .timeline-cup.profiles-color .age-color-5:hover,  html[data-theme="dark"] .timeline-cup.profiles-color .age-color-6:hover {
+    color: #286ede !important;
+    border-color: #286ede;
+}
+
+
+
+
+
+@media (hover: hover) {
+    html[data-theme="dark"] .toggle-style-table:hover .toggle-style-table__icon {
+        box-shadow: 0 0 0 2px rgba(24, 71, 121, 0.35);
+    }
+    /*ховер кнопки*/
+    html[data-theme="dark"] .timeline-cup-result__analysis-button a:hover {
+      background-color: #235f9f;
+    }
+    /*ховер строки*/
+    html[data-theme="dark"] .timeline-cup-result-table tbody tr:not(:first-child, .active):hover td {
+        background-color: #282720;
+    }
+    html[data-theme="dark"] .timeline-cup .age-button-svg:hover path:nth-child(1) {
+        fill: #7bd27b;
+    }
+    html[data-theme="dark"] .timeline-cup .age-button-svg:hover path:nth-child(3) {
+        fill: #dd7878;
+    }
+    html[data-theme="dark"] .timeline-cup .age-button-svg:hover path:nth-child(4) {
+        fill: #caca61;
+    }
+  }
+
+
+
+
+
+
+
+
+
+/*фон*/
+html[data-theme="Black"] .timeline-cup-result {
+    background-color: #121212;
+    box-shadow: 0px 5px 24px rgba(32,60,87,0.11);
+    border: 1px solid #292a2c;
+}
+html[data-theme="Black"] .toggle-style-table__icon {
+    background-color: #121212;
+}
+/*цвет текста*/
+html[data-theme="Black"] .timeline-cup-result__head > span:nth-child(1), html[data-theme="Black"] .timeline-cup-result {
+    color: #c9ccd0;
+}
+html[data-theme="Black"] .timeline-cup-result.modern .photo-profile {
+    background-color: #c9ccd0;
+}
+
+
+/*цвет конопки*/
+html[data-theme="Black"] .timeline-cup-result__analysis-button a {
+    background-color: #102442;
+}
+
+/*переключатель*/
+html[data-theme="Black"] .toggle-style-table {
+    background-color: #0e1721;
+    box-shadow: none;
+    border: 1px solid #18283a;
+}
+/*ободка перключателя*/
+html[data-theme="Black"] .toggle-style-table__icon {
+    border-color: #173660;
+}
+
+/*серый цвет*/
+
+html[data-theme="Black"] .timeline-cup-result-table tbody tr:nth-child(1), html[data-theme="Black"] .toggle-style-table__text {
+    color: #a4a6a7;
+}
+html[data-theme="Black"] .timeline-cup-result-table tr:first-child td:nth-child(7)::before, html[data-theme="Black"] .shooting-icon::before, html[data-theme="Black"] .bib-icon::before, html[data-theme="Black"] .timeline-cup-result-table tr:first-child td:nth-child(8)::before {
+    color: #a4a6a7;
+}
+
+/*зебра*/
+html[data-theme="Black"] .timeline-cup-result-table tbody tr:nth-child(2n) {
+    background-color: #0e1721;
+}
+/*красная строка*/
+html[data-theme="Black"] .chosen-string.active {
+    background-color: #32292e !important;
+    box-shadow: 0 0 0 1px #121212;
+}
+/*зеленая полоса*/
+html[data-theme="Black"] .personal-best::before {
+    background-color: #056900;
+}
+html[data-theme="Black"] .personal-best {
+    color: #056900;
+}
+
+
+/*свг картинка*/
+html[data-theme="Black"] .age-button-svg path {
+    fill: #265591;
+}
+html[data-theme="Black"] .timeline-cup.profiles-color .age-button-svg path:nth-child(1) {
+    fill: #65ad65;
+}
+html[data-theme="Black"] .timeline-cup.profiles-color .age-button-svg path:nth-child(3) {
+    fill: #b56363;
+}
+html[data-theme="Black"] .timeline-cup.profiles-color .age-button-svg path:nth-child(4) {
+    fill: #a5a550;
+}
+
+/*майки лидера*/
+html[data-theme="Black"] .red-jersey {
+    background: radial-gradient(circle, rgb(119, 62, 62) 0%, rgb(120, 56, 56) 100%) !important
+}
+
+html[data-theme="Black"] .yellow-jersey {
+    background: radial-gradient(circle, rgb(131, 131, 75) 0%, rgb(130, 130, 65) 100%) !important;
+}
+
+html[data-theme="Black"] .blue-jersey {
+    background: radial-gradient(circle, rgb(52, 72, 88) 0%, rgb(45, 68, 86) 100%) !important;
+}
+
+/*ободок фото*/
+html[data-theme="Black"] .timeline-cup-result.modern .photo-profile:hover {
+    box-shadow: none;
+}
+
+
+
+html[data-theme="Black"] .timeline-cup.profiles-color .age-color-1 {
+    background-color: #99c099;
+    color: #12151a;
+}
+html[data-theme="Black"] .timeline-cup.profiles-color .age-color-2 {
+    background-color: #65ad65;
+    color: #12151a;
+}
+html[data-theme="Black"] .timeline-cup.profiles-color .age-color-3 {
+    background-color: #afaf86;
+    color: #12151a;
+}
+html[data-theme="Black"] .timeline-cup.profiles-color .age-color-4 {
+    background-color: #a5a550;
+    color: #12151a;
+}
+html[data-theme="Black"] .timeline-cup.profiles-color .age-color-5 {
+    background-color: #ba8787;
+    color: #12151a;
+}
+html[data-theme="Black"] .timeline-cup.profiles-color .age-color-6 {
+    background-color: #b56363;
+    color: #12151a;
+}
+
+html[data-theme="Black"] .timeline-cup.profiles-color .age-color-1:hover, html[data-theme="Black"] .timeline-cup.profiles-color .age-color-2:hover, html[data-theme="Black"] .timeline-cup.profiles-color .age-color-3:hover, html[data-theme="Black"] .timeline-cup.profiles-color .age-color-4:hover, html[data-theme="Black"] .timeline-cup.profiles-color .age-color-5:hover,  html[data-theme="Black"] .timeline-cup.profiles-color .age-color-6:hover {
+    color: #286ede !important;
+    border-color: #286ede !important;
+}
+
+
+
+
+
+
+@media (hover: hover) {
+    /*ховер перключателя*/
+    html[data-theme="Black"] .toggle-style-table:hover .toggle-style-table__icon {
+        box-shadow: 0 0 0 2px rgb(23, 54, 96, 0.35);
+    }
+    /*ховер кнопки*/
+    html[data-theme="Black"] .timeline-cup-result__analysis-button a:hover {
+      background-color: #173660;
+    }
+    /*ховер строки*/
+    html[data-theme="Black"] .timeline-cup-result-table tbody tr:not(:first-child, .active):hover td {
+        background-color: #232219;
+    }
+    html[data-theme="Black"] .timeline-cup .age-button-svg:hover path:nth-child(1) {
+        fill: #65ad65;
+    }
+    html[data-theme="Black"] .timeline-cup .age-button-svg:hover path:nth-child(3) {
+        fill: #b56363;
+    }
+    html[data-theme="Black"] .timeline-cup .age-button-svg:hover path:nth-child(4) {
+        fill: #a5a550;
+    }
+  }
+
+
+
+
+
+
+
+
+
+/*цвет текста*/
+html[data-theme="grey"] .timeline-cup-result__head > span:nth-child(1), html[data-theme="grey"] .timeline-cup-result {
+    color: #1e1e1e;
+}
+
+/*цвет конопки*/
+html[data-theme="grey"] .timeline-cup-result__analysis-button a {
+    background-color: #e9e9e9;
+}
+
+/*переключатель*/
+html[data-theme="grey"] .toggle-style-table {
+    background-color: #eeeeee;
+    box-shadow: 0 1px 2px rgba(181, 203, 217, 0.5) inset, 0 -1px 0 rgba(181, 203, 217, 0.2) inset;
+    box-shadow: 0 1px 2px rgba(145, 145, 145, 0.5) inset, 0 -1px 0 rgba(145, 145, 145, 0.2) inset;
+}
+/*ободка перключателя*/
+html[data-theme="grey"] .toggle-style-table__icon {
+    border-color: #e1e1e1;
+    border-color: #dadada;
+}
+
+/*серый цвет*/
+
+html[data-theme="grey"] .timeline-cup-result-table tbody tr:nth-child(1), html[data-theme="grey"] .toggle-style-table__text {
+    color: #7e7e7e;
+}
+html[data-theme="grey"] .timeline-cup-result-table tr:first-child td:nth-child(7)::before, html[data-theme="grey"] .shooting-icon::before, html[data-theme="grey"] .bib-icon::before, html[data-theme="grey"] .timeline-cup-result-table tr:first-child td:nth-child(8)::before {
+    color: #7e7e7e;
+}
+
+/*зебра*/
+html[data-theme="grey"] .timeline-cup-result-table tbody tr:nth-child(2n) {
+    background-color: #eeeeee;
+}
+/*красная строка*/
+html[data-theme="grey"] .chosen-string.active {
+    background-color: #f4d4e5 !important;
+}
+/*зеленая полоса*/
+html[data-theme="grey"] .personal-best::before {
+    background-color: #50ae4b;
+}
+html[data-theme="grey"] .personal-best {
+    color: #50ae4b;
+}
+
+
+/*свг картинка*/
+html[data-theme="grey"] .age-button-svg path {
+    fill: rgba(98, 129, 157, 0.75);
+}
+html[data-theme="grey"] .timeline-cup.profiles-color .age-button-svg path:nth-child(1) {
+    fill: #8aed8a;
+}
+html[data-theme="grey"] .timeline-cup.profiles-color .age-button-svg path:nth-child(3) {
+    fill: #ef9595;
+}
+html[data-theme="grey"] .timeline-cup.profiles-color .age-button-svg path:nth-child(4) {
+    fill: #ecec6e;
+}
+
+/*майки лидера*/
+html[data-theme="grey"] .red-jersey {
+    background: radial-gradient(circle, rgb(246, 183, 183) 0%, rgb(245, 166, 166) 100%) !important;
+}
+
+html[data-theme="grey"] .yellow-jersey {
+    background: radial-gradient(circle, rgb(255, 241, 162) 0%, rgb(247, 227, 115) 100%) !important;
+}
+
+html[data-theme="grey"] .blue-jersey {
+    background: radial-gradient(circle, rgba(139, 197, 240, 0.7) 0%, rgb(139, 197, 240) 100%) !important;
+}
+
+/*ободок фото*/
+html[data-theme="grey"] .timeline-cup-result.modern .photo-profile:hover {
+    box-shadow: 0 1px 2px rgb(136, 167, 200, .4) inset, 0 -1px 0 rgb(136, 167, 200, .3) inset;
+}
+
+
+
+
+html[data-theme="grey"] .timeline-cup.profiles-color .age-color-1 {
+    background-color: #c1edc1;
+}
+html[data-theme="grey"] .timeline-cup.profiles-color .age-color-2 {
+    background-color: #8aed8a;
+}
+html[data-theme="grey"] .timeline-cup.profiles-color .age-color-3 {
+    background-color: #eeeebe;
+}
+html[data-theme="grey"] .timeline-cup.profiles-color .age-color-4 {
+    background-color: #ecec6e;
+}
+html[data-theme="grey"] .timeline-cup.profiles-color .age-color-5 {
+    background-color: #edc6c6;
+}
+html[data-theme="grey"] .timeline-cup.profiles-color .age-color-6 {
+    background-color: #ef9595;
+}
+
+
+
+
+@media (hover: hover) {
+    html[data-theme="grey"] .toggle-style-table:hover .toggle-style-table__icon {
+        box-shadow: 0 0 0 2px rgba(218, 218, 218, 0.35);
+    }
+    /*ховер кнопки*/
+    html[data-theme="grey"] .timeline-cup-result__analysis-button a:hover {
+      background-color: #e1e1e1;
+    }
+    html[data-theme="grey"] .timeline-cup .age-button-svg:hover path:nth-child(1) {
+        fill: #8aed8a;
+    }
+    html[data-theme="grey"] .timeline-cup .age-button-svg:hover path:nth-child(3) {
+        fill: #ef9595;
+    }
+    html[data-theme="grey"] .timeline-cup .age-button-svg:hover path:nth-child(4) {
+        fill: #ecec6e;
+    }
+  }
+
+
+
+
+
+
+
+
+
+/*фон*/
+html[data-theme="summer"] .toggle-style-table__icon, html[data-theme="summer"] .timeline-cup-result {
+    background-color: #fffdf8;
+}
+
+
+/*цвет конопки*/
+html[data-theme="summer"] .timeline-cup-result__analysis-button a {
+    background-color: #fff2d4;
+    color: #348232;
+}
+html[data-theme="summer"] .timeline-cup-result-table a, html[data-theme="summer"] .timeline-cup-result-discription-links a {
+    color: #348232;
+}
+html[data-theme="summer"] .timeline-cup-result-table a:hover, html[data-theme="summer"] .timeline-cup-result-discription-links a:hover {
+    color: #63b961 !important;
+    border-color: #63b961 !important;
+}
+
+/*переключатель*/
+html[data-theme="summer"] .toggle-style-table {
+    background-color: #fff2d4;
+    box-shadow: 0 1px 2px rgba(218, 210, 194,.5) inset, 0 -1px 0 rgba(218, 210, 194, 0.2) inset;
+}
+/*ободка перключателя*/
+html[data-theme="summer"] .toggle-style-table__icon {
+    border-color: #ffeab8;
+}
+
+
+/*зебра*/
+html[data-theme="summer"] .timeline-cup-result-table tbody tr:nth-child(2n) {
+    background-color: #fff2d5;
+}
+/*красная строка*/
+html[data-theme="summer"] .chosen-string.active {
+    background-color: #fbd2e7 !important;
+    box-shadow: 0 0 0 1px #fffdf8;
+}
+
+
+/*свг картинка*/
+html[data-theme="summer"] .age-button-svg path {
+    fill: rgb(101, 192, 99);
+}
+html[data-theme="summer"] .timeline-cup.profiles-color .age-button-svg path:nth-child(1) {
+    fill: #1bd212;
+}
+html[data-theme="summer"] .timeline-cup.profiles-color .age-button-svg path:nth-child(3) {
+    fill: #ff0000;
+}
+html[data-theme="summer"] .timeline-cup.profiles-color .age-button-svg path:nth-child(4) {
+    fill: #fcd401;
+}
+
+/*майки лидера*/
+html[data-theme="summer"] .red-jersey {
+    background: radial-gradient(circle, rgb(255, 182, 182) 0%, rgb(255, 163, 163) 100%) !important;
+}
+
+html[data-theme="summer"] .yellow-jersey {
+    background: radial-gradient(circle, rgb(250, 234, 138) 0%, rgb(250, 231, 122) 100%) !important;
+}
+
+html[data-theme="summer"] .blue-jersey {
+    background: radial-gradient(circle, rgba(151, 210, 255, 0.7) 0%, rgb(151, 210, 255) 100%) !important;
+}
+
+/*ободок фото*/
+html[data-theme="dark"] .timeline-cup-result.modern .photo-profile:hover {
+    box-shadow: none;
+}
+
+
+
+
+@media (hover: hover) {
+    html[data-theme="summer"] .toggle-style-table:hover .toggle-style-table__icon {
+        box-shadow: 0 0 0 2px rgba(255, 234, 184, 0.35);
+    }
+    html[data-theme="summer"] .timeline-cup-result.modern .photo-profile:hover {
+        box-shadow: 0 1px 2px rgb(8, 164, 0, .4) inset, 0 -1px 0 rgb(8, 164, 0, .3) inset;
+      }
+    /*ховер кнопки*/
+    html[data-theme="summer"] .timeline-cup-result__analysis-button a:hover {
+      background-color: #ffeab8;
+    }
+    /*ховер строки*/
+    html[data-theme="summer"] .timeline-cup-result-table tbody tr:not(:first-child, .active):hover td {
+        background-color: #e2f4e2;
+    }
+    html[data-theme="summer"] .timeline-cup .age-button-svg:hover path:nth-child(1) {
+        fill: #1bd212;
+    }
+    html[data-theme="summer"] .timeline-cup .age-button-svg:hover path:nth-child(3) {
+        fill: #ff0000;
+    }
+    html[data-theme="summer"] .timeline-cup .age-button-svg:hover path:nth-child(4) {
+        fill: #fcd401;;
+    }
+  }
