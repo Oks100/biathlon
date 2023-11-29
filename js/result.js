@@ -19,3 +19,12 @@ $(document).ready(function(){
 	  }
 	});
   });
+
+
+
+  $(document).ready(function(){
+	$('.toggle-style-table').click(function () {
+		$('.timeline-cup-result').toggleClass('modern');
+		$('.timeline-cup-result').toggleClass('old');
+		});
+	});
