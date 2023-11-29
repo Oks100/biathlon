@@ -1554,6 +1554,7 @@
     transition: all .3s ease;
     border-top: 2px solid #dfedf4;
     z-index: 1;
+    -webkit-tap-highlight-color: transparent;
 }
 .blend-color {
     fill: #77d272;

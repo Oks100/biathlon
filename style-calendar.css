@@ -172,6 +172,7 @@
     padding: 3px 6px;
     border: 1px solid #c4c4c4;
     background: white;
+    -webkit-tap-highlight-color: transparent;
 }
 .targets-block.done {
     cursor: auto;
@@ -310,10 +311,10 @@ html[data-theme="summer"] .timeline-calendar, html[data-theme="summer"] .circle-
     background-color: #fffdf8;
 }
 html[data-theme="summer"] .timeline-calendar__stages {
-    background-color: #fff2d5;
+    background-color: #ffefc9;
 }
 html[data-theme="summer"] .circle-element-for-stages {
-    border-color: #fff2d5;
+    border-color: #ffefc9;
 }
 html[data-theme="summer"] .olympic-games-icon, html[data-theme="summer"] .local-championship-icon, html[data-theme="summer"] .circle-icon-21 {
     fill: #65c063;
@@ -347,10 +348,10 @@ html[data-theme="summer"] .timeline-calendar a:hover:not(.targets-block) {
 
 
 html[data-theme="grey"] .timeline-calendar__stages {
-    background-color: #eeeeee;
+    background-color: #e9e9e9;
 }
 html[data-theme="grey"] .circle-element-for-stages {
-    border-color: #eeeeee;
+    border-color: #e9e9e9;
 }
 html[data-theme="grey"] .olympic-games-icon, html[data-theme="grey"] .local-championship-icon, html[data-theme="grey"] .circle-icon-21 {
     fill: #869db2;
@@ -381,10 +382,10 @@ html[data-theme="Black"] .timeline-calendar__head > span:nth-child(1), html[data
     color: #c9ccd0;
 }
 html[data-theme="Black"] .timeline-calendar__stages {
-    background-color: #0e1621;
+    background-color: #102442;
 }
 html[data-theme="Black"] .circle-element-for-stages {
-    border-color: #0e1621;
+    border-color: #102442;
 }
 html[data-theme="Black"] .olympic-games-icon, html[data-theme="Black"] .local-championship-icon, html[data-theme="Black"] .circle-icon-21 {
     fill: #255490;

@@ -1933,6 +1933,7 @@
 }
 .active-career {
     box-shadow: 0 0 0 1px white;
+    scale: 1;
 }
 .active-career td:nth-child(2) {
     box-shadow: 0px -1px 0px 0px white;
@@ -2457,13 +2458,15 @@ html[data-theme="Black"] #card-copy, html[data-theme="Black"] .td-name, html[dat
 html[data-theme="Black"] #card-copy, html[data-theme="Black"] .timeline-vote__head > span:nth-child(1) {
     color: #c9ccd0;
 }
-
-html[data-theme="Black"] .timeline-cup__footer-legend-title, html[data-theme="Black"] .timeline-sportsmen-profile__body-table-button, html[data-theme="Black"] .timeline-sportsmen-profile__body-info-table tbody tr:nth-child(2n+1) {
+html[data-theme="Black"] .timeline-sportsmen-profile__body-table-button, html[data-theme="Black"] .timeline-sportsmen-profile__body-info-table tbody tr:nth-child(2n+1) {
     background-color: #0e1721;
+}
+html[data-theme="Black"] .timeline-cup__footer-legend-title {
+    background-color: #102442;
 }
 /* кружок в заглавной линии*/
 html[data-theme="Black"] .circle-element-for-cup {
-    border-color: #0e1721;
+    border-color: #102442;
 }
 /* кнопки*/
 html[data-theme="Black"] .top-10__button, html[data-theme="Black"] .add-info-button, html[data-theme="Black"] .btn-copy, html[data-theme="Black"] .timeline-sportsmen-profile__competition-list li {
@@ -2732,12 +2735,15 @@ html[data-theme="grey"] .login-registr-form, html[data-theme="grey"] .timeline-v
 html[data-theme="grey"] #card-copy, html[data-theme="grey"] .timeline-vote__head > span:nth-child(1) {
     color: #1e1e1e;
 }
-html[data-theme="grey"] .btn-copy, html[data-theme="grey"] .add-info-button, html[data-theme="grey"] .timeline-cup__footer-legend-title, html[data-theme="grey"] .timeline-sportsmen-profile__body-table-button, html[data-theme="grey"] .timeline-sportsmen-profile__body-info-table tbody tr:nth-child(2n+1) {
+html[data-theme="grey"] .btn-copy, html[data-theme="grey"] .add-info-button, html[data-theme="grey"] .timeline-sportsmen-profile__body-table-button, html[data-theme="grey"] .timeline-sportsmen-profile__body-info-table tbody tr:nth-child(2n+1) {
     background-color: #eeeeee;
+}
+html[data-theme="grey"] .timeline-cup__footer-legend-title {
+    background-color: #e9e9e9;
 }
 /* кружок в заглавной линии*/
 html[data-theme="grey"] .circle-element-for-cup {
-    border-color: #eeeeee;
+    border-color: #e9e9e9;
 }
 /* кнопки*/
 html[data-theme="grey"] .timeline-sportsmen-profile__competition-list li {
@@ -2968,12 +2974,15 @@ html[data-theme="summer"] .gold, html[data-theme="summer"] .silver, html[data-th
 html[data-theme="summer"] #card-copy, html[data-theme="summer"] .td-name, html[data-theme="summer"] .top-10__button::before, html[data-theme="summer"] .circle-element-for-cup, html[data-theme="summer"] .timeline-sportsmen-profile__body-target-table.top-10 tr td:nth-child(2), html[data-theme="summer"] .timeline-sportsmen-profile__body-target-table tr td:first-child {
     background-color: #fffdf8;
 }
-html[data-theme="summer"] .timeline-cup__footer-legend-title, html[data-theme="summer"] .timeline-sportsmen-profile__body-table-button, html[data-theme="summer"] .timeline-sportsmen-profile__body-info-table tbody tr:nth-child(2n+1) {
+html[data-theme="summer"] .timeline-sportsmen-profile__body-table-button, html[data-theme="summer"] .timeline-sportsmen-profile__body-info-table tbody tr:nth-child(2n+1) {
     background-color: #fff2d5;
+}
+html[data-theme="summer"] .timeline-cup__footer-legend-title {
+    background-color: #ffefc9;
 }
 /* кружок в заглавной линии*/
 html[data-theme="summer"] .circle-element-for-cup {
-    border-color: #fff2d5;
+    border-color: #ffefc9;
 }
 /* кнопки*/
 html[data-theme="summer"] .add-info-button, html[data-theme="summer"] .btn-copy, html[data-theme="summer"] .timeline-sportsmen-profile__competition-list li {

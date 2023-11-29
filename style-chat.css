@@ -657,7 +657,8 @@ html[data-theme="dark"] .layer__chat-users-list li.for-me span:hover, html[data-
 }
 html[data-theme="dark"] #chat-messages tr:nth-child(2n+1), html[data-theme="dark"] .checkbox-group .label-for-useEnter::before {
     background-color: #1f2d40;
-    color: #83a1ca;
+    /* color: #83a1ca; */
+    color: #a4bcde;
 }
 html[data-theme="dark"] .layer__chat-debates-table a {
     color: #abcbff;
@@ -674,7 +675,7 @@ html[data-theme="dark"] .checkbox-group #useEnter:checked + .label-for-useEnter:
     border-color: #184779;
 }
 html[data-theme="dark"] .me {
-    color: #2e8be8;
+    color: #5395d7;
 }
 
 
@@ -756,7 +757,7 @@ html[data-theme="Black"] .layer__chat-debates-table a {
     color: #6688c0;
 }
 html[data-theme="Black"] .me {
-    color: #3879cc;
+    color: #4881ca;
 }
 html[data-theme="Black"] .layer__chat-debates-tab {
     background: linear-gradient(#101b27 50%, #181818 100%);

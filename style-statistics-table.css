@@ -433,10 +433,10 @@ html[data-theme="dark"] .color-5 {
 
 
 html[data-theme="summer"] .timeline-cup-statistics-title {
-    background-color: #fff2d5;
+    background-color: #ffefc9;
 }
 html[data-theme="summer"] .circle-element-for-cup {
-    border-color: #fff2d5;
+    border-color: #ffefc9;
 }
 html[data-theme="summer"] .medals-icon, html[data-theme="summer"] .female-icon, html[data-theme="summer"] .male-icon {
     fill: #65c063;
@@ -469,7 +469,7 @@ html[data-theme="summer"] .timeline-cup-statistics-table a, html[data-theme="sum
     color: #348232;
 }
 html[data-theme="summer"] .timeline .timeline__more-tables-body a:hover, html[data-theme="summer"] .timeline .timeline-cup-statistics-table a:hover {
-    color: #63b961;
+    color: #63b961 !important;
     border-color: #63b961;
 }
 
@@ -546,10 +546,10 @@ html[data-theme="grey"] .color-5 {
 
 
 html[data-theme="Black"] .timeline-cup-statistics-title {
-    background-color: #0e1721;
+    background-color: #102442;
 }
 html[data-theme="Black"] .circle-element-for-cup {
-    border-color: #0e1721;
+    border-color: #102442;
 }
 html[data-theme="Black"] .medals-icon, html[data-theme="Black"] .female-icon, html[data-theme="Black"] .male-icon {
     fill: #265591;

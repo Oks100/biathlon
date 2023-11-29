@@ -346,7 +346,7 @@
 
 
 html[data-theme="dark"] .tournament-menu__body a, html[data-theme="dark"] .view-block-1 span {
-    background-color: #184779;
+    background-color: #15314d;
 }
 html[data-theme="dark"] .view-block-1 span {
     border-color: #215994;
@@ -409,8 +409,8 @@ html[data-theme="dark"] .forecast-red {
     html[data-theme="dark"] .timeline-tournament__forecast-table tbody tr:hover td, html[data-theme="dark"] .timeline-tournament__forecast-table-2 tbody tr:hover:not(.tr-marked) td {
         background-color: #282720;
     }
-    html[data-theme="dark"] .tournament-menu__body a:hover {
-        background-color: #235f9f;
+    html[data-theme="dark"] .tournament-menu__body a:hover:not(.active) {
+        background-color: #184779;
         color: #abcbff !important;
     }
 }
@@ -488,7 +488,7 @@ html[data-theme="Black"] .forecast-red {
     html[data-theme="Black"] .timeline-tournament__forecast-table tbody tr:hover td, html[data-theme="Black"] .timeline-tournament__forecast-table-2 tbody tr:hover:not(.tr-marked) td {
         background-color: #232219;
     }
-    html[data-theme="Black"] .tournament-menu__body a:hover {
+    html[data-theme="Black"] .tournament-menu__body a:hover:not(.active) {
         background-color: #173660;
         color: #6688c0 !important;
     }
@@ -504,7 +504,7 @@ html[data-theme="Black"] .forecast-red {
 
 
 html[data-theme="summer"] .tournament-menu__body a, html[data-theme="summer"] .view-block-1 span {
-    background-color: #fff2d4;
+    background-color: #ffefc9;
 }
 html[data-theme="summer"] .timeline-tournament__body a {
     color: #348232;
@@ -569,7 +569,7 @@ html[data-theme="Black"] .forecast-red {
         background-color: #e2f4e2;
     }
     html[data-theme="summer"] .tournament-menu__body a:hover {
-        background-color: #ffedc3;
+        background-color: #ffe9b6;
         color: #348232 !important;
     }
 }
@@ -583,7 +583,7 @@ html[data-theme="Black"] .forecast-red {
 
 
 html[data-theme="grey"] .tournament-menu__body a, html[data-theme="grey"] .view-block-1 span {
-    background-color: #eeeeee;
+    background-color: #e9e9e9;
 }
 html[data-theme="grey"] .view-block-1 span {
     border-color: #dadada;
@@ -641,7 +641,7 @@ html[data-theme="grey"] .forecast-red {
         background-color: #f4cbe1 !important;
     }
     html[data-theme="grey"] .tournament-menu__body a:hover {
-        background-color: #e4e4e4;
+        background-color: #e0e0e0;
         color: #2f5278 !important;
     }
 }
