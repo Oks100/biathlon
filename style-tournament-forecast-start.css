@@ -345,7 +345,7 @@
 
 @media (hover: hover) {
     .arrow-button:hover .arrow-icon {
-        fill: #ff5151;
+        fill: #689fd8;
     }
     .choice-table tr td:last-child:hover .timeline-my-profile__body-my-favourite-remove::after {
         width: 15px;
