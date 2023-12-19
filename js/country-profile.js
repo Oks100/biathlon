@@ -100,6 +100,111 @@ window.addEventListener('resize', function () {
 
 
 
+const skipped32 = (ctx, value) => ctx.p0.skip
+  || ctx.p1.skip ? value : undefined;
+const down32 = (ctx, value) => ctx.p0.parsed.y >
+  ctx.p1.parsed.y ? value : undefined;
+
+var ctx = document.getElementById('myChart32').getContext('2d');
+var myChart32 = new Chart(ctx, {
+  type: 'line',
+  data: {
+    labels: ['Спринт 1', 'Спринт 2', 'Спринт 3', 'Спринт 4', 'Спринт 5', 'Спринт 6', 'Спринт 7', 'Спринт 8', 'Спринт 9', 'Спринт 10'],
+    datasets: [
+      {
+        label: 'Украина',
+        data: [6.20, 6.00, 6.30, 6.20, 6.00, 6.10, 5.70, 5.40, 4.90, 5.10],
+        fill: 'start',
+        backgroundColor: 'rgba(255, 0, 0, 0.1)',
+        borderColor: 'rgba(255, 0, 0, 0.5)',
+        pointBackgroundColor: 'rgba(255, 0, 0, 1)',
+        tension: 0.3,
+        segment: {
+          borderColor: ctx => skipped4(ctx,
+            'rgba(255, 0, 0, 0.5)'),
+          borderDash: ctx => skipped4(ctx, [6, 6]),
+        },
+        spanGaps: true,
+      },
+      {
+        label: 'Италия',
+        data: [5.50, 5.20, 5.10, 5.20, 5.30, 5.10, 4.70, 4.80, 4.60, 4.50],
+        fill: 'start',
+        backgroundColor: 'rgb(255, 147, 83, 0.1)',
+        borderColor: 'rgb(255, 147, 83, 0.5)',
+        pointBackgroundColor: 'rgb(255, 147, 83)',
+        tension: 0.3,
+        segment: {
+          borderColor: ctx => skipped4(ctx,
+            'rgb(255, 147, 83, 0.5)'),
+          borderDash: ctx => skipped4(ctx, [6, 6]),
+        },
+        spanGaps: true,
+      }
+    ]
+  },
+  options: {
+    plugins: {
+      title: {
+        display: true,
+        text: 'Скорость сборной за сезон',
+        color: '#1f7ec4',
+        font: {
+          size: 18,
+          family: 'Arial',
+        }
+      }
+    },
+    scales: {
+      y: {
+        responsive: true,
+        maintainAspectRatio: true,
+        reverse: true,
+      },
+      x: {
+        ticks: {
+          maxRotation: 0,
+          minRotation: 0,
+          display: false
+        }
+      }
+    }
+  },
+  animation: {
+    tension: {
+      duration: 2000,
+      easing: 'linear'
+    }
+  }
+});
+
+const chartSelect32 = document.getElementById('chartSelect32');
+chartSelect32.addEventListener('change', function () {
+  const selectedValue32 = chartSelect32.value;
+
+  if (selectedValue32 === 'dataset1') {
+    myChart32.data.datasets[1].data = [5.50, 5.20, 5.10, 5.20, 5.30, 5.10, 4.70, 4.80, 4.60, 4.50];
+    myChart32.data.datasets[1].label = 'Италия';
+  } else if (selectedValue32 === 'dataset2') {
+    myChart32.data.datasets[1].data = [NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN];
+    myChart32.data.datasets[1].label = 'Конго';
+  }
+
+  myChart32.update();
+});
+
+
+window.addEventListener('resize', function () {
+  myChart32.resize();
+});
+
+
+
+
+
+
+
+
 
 
 
@@ -520,6 +625,120 @@ window.addEventListener('resize', function () {
 
 
 
+
+const skipped30 = (ctx, value) => ctx.p0.skip
+  || ctx.p1.skip ? value : undefined;
+const down30 = (ctx, value) => ctx.p0.parsed.y >
+  ctx.p1.parsed.y ? value : undefined;
+
+var ctx = document.getElementById('myChart30').getContext('2d');
+var myChart30 = new Chart(ctx, {
+  type: 'line',
+  data: {
+    labels: ['Идив. гонка 1', 'Спринт 1', 'Спринт 2', 'Эстафета 1', 'Гонка преследования 1', 'Спринт 2', 'Гонка преследования 2', 'Спринт 3', 'Гонка преследования 3', 'Масс-старт 1', 'Смешанная эстафета 1', 'Спринт 4', 'Гонка преследования 4', 'Спринт 5', 'Эстафета 2', 'Гонка преследования 5', 'Идив. гонка 2', 'Эстафета 3', 'Масс-старт 2', 'Идив. гонка 1', 'Спринт 1', 'Спринт 2', 'Эстафета 1', 'Гонка преследования 1', 'Спринт 2', 'Гонка преследования 2', 'Спринт 3', 'Гонка преследования 3', 'Масс-старт 1', 'Смешанная эстафета 1', 'Спринт 4', 'Гонка преследования 4'],
+    datasets: [
+      {
+        label: 'Украина',
+        data: [90.0, 95.0, 90.0, 87.3, 87.2, 87.6, 87.9, 87.1, 86.3, 86.7, 87.7, 87.8, 88.0, 87.8, 87.7, 87.7, 87.5, 87.5, 87.4, 87.2, 87.2, 87.3, 87.4, 87.6, 87.7, 87.5, 87.7, 87.9, 88.0, 88.2, 88.0, 88.1],
+        fill: 'start',
+        backgroundColor: 'rgba(255, 0, 0, 0.1)',
+        borderColor: 'rgba(255, 0, 0, 0.5)',
+        pointBackgroundColor: 'rgba(255, 0, 0, 1)',
+        tension: 0.3,
+        segment: {
+          borderColor: ctx => skipped4(ctx,
+            'rgba(255, 0, 0, 0.5)'),
+          borderDash: ctx => skipped4(ctx, [6, 6]),
+        },
+        spanGaps: true,
+      },
+      {
+        label: 'Италия',
+        data: [80.0, 80.0, 85.0, 83.2, 84.0, 83.1, 83.1, 83.7, 83.6, 83.9, 83.7, 83.8, 83.6, 83.9, 83.9, 84.0, 84.2, 84.1, 84.3, 84.5, 84.4, 84.6, 84.7, 84.3, 84.2, 84.4, 84.6, 84.8, 84.9, 85.1, 85.2, 85.3],
+        fill: 'start',
+        backgroundColor: 'rgb(255, 147, 83, 0.1)',
+        borderColor: 'rgb(255, 147, 83, 0.5)',
+        pointBackgroundColor: 'rgb(255, 147, 83)',
+        tension: 0.3,
+        segment: {
+          borderColor: ctx => skipped4(ctx,
+            'rgb(255, 147, 83, 0.5)'),
+          borderDash: ctx => skipped4(ctx, [6, 6]),
+        },
+        spanGaps: true,
+      }
+    ]
+  },
+  options: {
+    plugins: {
+      title: {
+        display: true,
+        text: 'Средняя точность сборной за сезон',
+        color: '#1f7ec4',
+        font: {
+          size: 18,
+          family: 'Arial',
+        }
+      }
+    },
+    scales: {
+      y: {
+        responsive: true,
+        maintainAspectRatio: true,
+        suggestedMax: 100,
+      },
+      x: {
+        ticks: {
+          maxRotation: 0,
+          minRotation: 0,
+          display: false
+        }
+      }
+    }
+  },
+  animation: {
+    tension: {
+      duration: 2000,
+      easing: 'linear'
+    }
+  }
+});
+
+const chartSelect30 = document.getElementById('chartSelect30');
+chartSelect30.addEventListener('change', function () {
+  const selectedValue = chartSelect30.value;
+
+  if (selectedValue === 'dataset1') {
+    myChart30.data.datasets[1].data = [80.0, 80.0, 85.0, 83.2, 84.0, 83.1, 83.1, 83.7, 83.6, 83.9, 83.7, 83.8, 83.6, 83.9, 83.9, 84.0, 84.2, 84.1, 84.3, 84.5, 84.4, 84.6, 84.7, 84.3, 84.2, 84.4, 84.6, 84.8, 84.9, 85.1, 85.2, 85.3];
+    myChart30.data.datasets[1].label = 'Италия';
+  } else if (selectedValue === 'dataset2') {
+    myChart30.data.datasets[1].data = [NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN];
+    myChart30.data.datasets[1].label = 'Конго';
+  }
+
+  myChart30.update();
+});
+
+
+window.addEventListener('resize', function () {
+  myChart30.resize();
+});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 const skipped5 = (ctx, value) => ctx.p0.skip
   || ctx.p1.skip ? value : undefined;
 const down5 = (ctx, value) => ctx.p0.parsed.y >
@@ -725,6 +944,123 @@ chartSelect6.addEventListener('change', function () {
 window.addEventListener('resize', function () {
   myChart6.resize();
 });
+
+
+
+
+const skipped31 = (ctx, value) => ctx.p0.skip
+  || ctx.p1.skip ? value : undefined;
+const down31 = (ctx, value) => ctx.p0.parsed.y >
+  ctx.p1.parsed.y ? value : undefined;
+
+var ctx = document.getElementById('myChart31').getContext('2d');
+var myChart31 = new Chart(ctx, {
+  type: 'line',
+  data: {
+    labels: ['Идив. гонка 1', 'Спринт 1', 'Спринт 2', 'Эстафета 1', 'Гонка преследования 1', 'Спринт 2', 'Гонка преследования 2', 'Спринт 3', 'Гонка преследования 3', 'Масс-старт 1', 'Смешанная эстафета 1', 'Спринт 4', 'Гонка преследования 4', 'Спринт 5', 'Эстафета 2', 'Гонка преследования 5', 'Идив. гонка 2', 'Эстафета 3', 'Масс-старт 2', 'Идив. гонка 1', 'Спринт 1', 'Спринт 2', 'Эстафета 1', 'Гонка преследования 1', 'Спринт 2', 'Гонка преследования 2', 'Спринт 3', 'Гонка преследования 3', 'Масс-старт 1', 'Смешанная эстафета 1', 'Спринт 4', 'Гонка преследования 4'],
+    datasets: [
+      {
+        label: 'Украина',
+        data: [25.8, 25.7, 25.8, 25.7, 25.6, 25.7, 25.8, 26.0, 26.2, 26.3, 26.8, 26.7, 26.7, 26.8, 26.8, 26.7, 26.7, 26.6, 26.7, 26.7, 26.7, 26.7, 26.9, 26.7, 26.6, 26.8, 26.6, 26.8, 26.7, 26.7, 26.6, 26.7],
+        fill: 'start',
+        backgroundColor: 'rgba(255, 0, 0, 0.1)',
+        borderColor: 'rgba(255, 0, 0, 0.5)',
+        pointBackgroundColor: 'rgba(255, 0, 0, 1)',
+        tension: 0.3,
+        segment: {
+          borderColor: ctx => skipped4(ctx,
+            'rgba(255, 0, 0, 0.5)'),
+          borderDash: ctx => skipped4(ctx, [6, 6]),
+        },
+        spanGaps: true,
+      },
+      {
+        label: 'Италия',
+        data: [26.9, 27.0, 27.0, 27.1, 27.2, 27.2, 27.2, 27.3, 27.2, 27.2, 27.3, 27.4, 27.3, 27.4, 27.3, 27.4, 27.2, 27.3, 27.2, 27.2, 27.1, 27.1, 27.1, 27.0, 27.0, 26.9, 26.8, 26.9, 26.9, 26.8, 26.8, 26.7],
+        fill: 'start',
+        backgroundColor: 'rgb(255, 147, 83, 0.1)',
+        borderColor: 'rgb(255, 147, 83, 0.5)',
+        pointBackgroundColor: 'rgb(255, 147, 83)',
+        tension: 0.3,
+        segment: {
+          borderColor: ctx => skipped4(ctx,
+            'rgb(255, 147, 83, 0.5)'),
+          borderDash: ctx => skipped4(ctx, [6, 6]),
+        },
+        spanGaps: true,
+      }
+    ]
+  },
+  options: {
+    plugins: {
+      title: {
+        display: true,
+        text: 'Сред. скорострельность сборной за сезон',
+        color: '#1f7ec4',
+        font: {
+          size: 18,
+          family: 'Arial',
+        }
+      }
+    },
+    scales: {
+      y: {
+        responsive: true,
+        maintainAspectRatio: true,
+        // suggestedMax: 100,
+        // beginAtZero: true,
+        reverse: true,
+        // suggestedMax: 1,
+      },
+      x: {
+        ticks: {
+          maxRotation: 0,
+          minRotation: 0,
+          display: false
+        }
+      }
+    }
+  },
+  animation: {
+    tension: {
+      duration: 2000,
+      easing: 'linear'
+    }
+  }
+});
+
+const chartSelect31 = document.getElementById('chartSelect31');
+chartSelect31.addEventListener('change', function () {
+  const selectedValue = chartSelect31.value;
+
+  if (selectedValue === 'dataset1') {
+    myChart31.data.datasets[1].data = [26.9, 27.0, 27.0, 27.1, 27.2, 27.2, 27.2, 27.3, 27.2, 27.2, 27.3, 27.4, 27.3, 27.4, 27.3, 27.4, 27.2, 27.3, 27.2, 27.2, 27.1, 27.1, 27.1, 27.0, 27.0, 26.9, 26.8, 26.9, 26.9, 26.8, 26.8, 26.7];
+    myChart31.data.datasets[1].label = 'Италия';
+  } else if (selectedValue === 'dataset2') {
+    myChart31.data.datasets[1].data = [NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN];
+    myChart31.data.datasets[1].label = 'Конго';
+  }
+
+  myChart31.update();
+});
+
+
+window.addEventListener('resize', function () {
+  myChart31.resize();
+});
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

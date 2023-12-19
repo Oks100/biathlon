@@ -104,6 +104,112 @@ window.addEventListener('resize', function () {
 
 
 
+const skipped22 = (ctx, value) => ctx.p0.skip
+  || ctx.p1.skip ? value : undefined;
+const down22 = (ctx, value) => ctx.p0.parsed.y >
+  ctx.p1.parsed.y ? value : undefined;
+
+var ctx = document.getElementById('myChart22').getContext('2d');
+var myChart22 = new Chart(ctx, {
+  type: 'line',
+  data: {
+    labels: ['Спринт 1', 'Спринт 2', 'Спринт 3', 'Спринт 4', 'Спринт 5', 'Спринт 6', 'Спринт 7', 'Спринт 8', 'Спринт 9', 'Спринт 10'],
+    datasets: [
+      {
+        label: 'Доротея Вирер',
+        data: [5.50, 5.20, NaN, 5.20, 5.30, 5.10, 4.70, 4.80, 4.60, 4.50],
+        fill: 'start',
+        backgroundColor: 'rgba(255, 0, 0, 0.1)',
+        borderColor: 'rgba(255, 0, 0, 0.5)',
+        pointBackgroundColor: 'rgba(255, 0, 0, 1)',
+        tension: 0.3,
+        segment: {
+          borderColor: ctx => skipped4(ctx,
+            'rgba(255, 0, 0, 0.5)'),
+          borderDash: ctx => skipped4(ctx, [6, 6]),
+        },
+        spanGaps: true,
+      },
+      {
+        label: 'Юлия Джима',
+        data: [NaN, NaN, 6.30, 6.20, 6.00, 6.10, 5.70, 5.40, 4.90, 5.10],
+        fill: 'start',
+        backgroundColor: 'rgb(255, 147, 83, 0.1)',
+        borderColor: 'rgb(255, 147, 83, 0.5)',
+        pointBackgroundColor: 'rgb(255, 147, 83)',
+        tension: 0.3,
+        segment: {
+          borderColor: ctx => skipped4(ctx,
+            'rgb(255, 147, 83, 0.5)'),
+          borderDash: ctx => skipped4(ctx, [6, 6]),
+        },
+        spanGaps: true,
+      }
+    ]
+  },
+  options: {
+    plugins: {
+      title: {
+        display: true,
+        text: 'Скорость за сезон',
+        color: '#1f7ec4',
+        font: {
+          size: 18,
+          family: 'Arial',
+        }
+      }
+    },
+    scales: {
+      y: {
+        responsive: true,
+        maintainAspectRatio: true,
+        reverse: true,
+      },
+      x: {
+        ticks: {
+          maxRotation: 0,
+          minRotation: 0,
+          display: false
+        }
+      }
+    }
+  },
+  animation: {
+    tension: {
+      duration: 2000,
+      easing: 'linear'
+    }
+  }
+});
+
+const chartSelect22 = document.getElementById('chartSelect22');
+chartSelect22.addEventListener('change', function () {
+  const selectedValue22 = chartSelect22.value;
+
+  if (selectedValue22 === 'dataset1') {
+    myChart22.data.datasets[1].data = [NaN, NaN, 6.30, 6.20, 6.00, 6.10, 5.70, 5.40, 4.90, 5.10];
+    myChart22.data.datasets[1].label = 'Жулья Симон';
+  } else if (selectedValue22 === 'dataset2') {
+    myChart22.data.datasets[1].data = [11.60, 12.30, 12.00, 11.90, 12.20, 12.60, 11.90, 12.20, 12.40, 12.20];
+    myChart22.data.datasets[1].label = 'Регина Ойя';
+  }
+  else if (selectedValue22 === 'dataset3') {
+    myChart22.data.datasets[1].data = [0.20, 0.30, 0.50, 0.40, 0.30, 0.30, 0.40, 0.30, 0.20, 0.20];
+    myChart22.data.datasets[1].label = 'Марте Олсбю Ройселанд';
+  }
+
+  myChart22.update();
+});
+
+
+window.addEventListener('resize', function () {
+  myChart22.resize();
+});
+
+
+
+
+
 
 
 
@@ -434,6 +540,123 @@ window.addEventListener('resize', function () {
 
 
 
+
+
+const skipped20 = (ctx, value) => ctx.p0.skip
+  || ctx.p1.skip ? value : undefined;
+const down20 = (ctx, value) => ctx.p0.parsed.y >
+  ctx.p1.parsed.y ? value : undefined;
+
+var ctx = document.getElementById('myChart20').getContext('2d');
+var myChart20 = new Chart(ctx, {
+  type: 'line',
+  data: {
+    labels: ['Идив. гонка 1', 'Спринт 1', 'Спринт 2', 'Эстафета 1', 'Гонка преследования 1', 'Спринт 2', 'Гонка преследования 2', 'Спринт 3', 'Гонка преследования 3', 'Масс-старт 1', 'Смешанная эстафета 1', 'Спринт 4', 'Гонка преследования 4', 'Спринт 5', 'Эстафета 2', 'Гонка преследования 5', 'Идив. гонка 2', 'Эстафета 3', 'Масс-старт 2', 'Идив. гонка 1', 'Спринт 1', 'Спринт 2', 'Эстафета 1', 'Гонка преследования 1', 'Спринт 2', 'Гонка преследования 2', 'Спринт 3', 'Гонка преследования 3', 'Масс-старт 1', 'Смешанная эстафета 1', 'Спринт 4', 'Гонка преследования 4'],
+    datasets: [
+      {
+        label: 'Доротея Вирер',
+        data: [90.0, 95.0, NaN, 87.3, 87.2, 87.6, 87.9, 87.1, 86.3, 86.7, 87.7, 87.8, 88.0, 87.8, 87.7, 87.7, 87.5, 87.5, 87.4, 87.2, 87.2, NaN, 87.4, 87.6, 87.7, 87.5, 87.7, 87.9, 88.0, 88.2, 88.0, 88.1],
+        fill: 'start',
+        backgroundColor: 'rgba(255, 0, 0, 0.1)',
+        borderColor: 'rgba(255, 0, 0, 0.5)',
+        pointBackgroundColor: 'rgba(255, 0, 0, 1)',
+        tension: 0.3,
+        segment: {
+          borderColor: ctx => skipped4(ctx,
+            'rgba(255, 0, 0, 0.5)'),
+          borderDash: ctx => skipped4(ctx, [6, 6]),
+        },
+        spanGaps: true,
+      },
+      {
+        label: 'Юлия Джима',
+        data: [80.0, 80.0, 85.0, 83.2, 84.0, 83.1, NaN, 83.7, 83.6, 83.9, 83.7, 83.8, 83.6, 83.9, 83.9, 84.0, 84.2, 84.1, 84.3, 84.5, 84.4, 84.6, 84.7, 84.3, NaN, NaN, 84.6, 84.8, 84.9, 85.1, 85.2, 85.3],
+        fill: 'start',
+        backgroundColor: 'rgb(255, 147, 83, 0.1)',
+        borderColor: 'rgb(255, 147, 83, 0.5)',
+        pointBackgroundColor: 'rgb(255, 147, 83)',
+        tension: 0.3,
+        segment: {
+          borderColor: ctx => skipped4(ctx,
+            'rgb(255, 147, 83, 0.5)'),
+          borderDash: ctx => skipped4(ctx, [6, 6]),
+        },
+        spanGaps: true,
+      }
+    ]
+  },
+  options: {
+    plugins: {
+      title: {
+        display: true,
+        text: 'Точность стрельбы за сезон',
+        color: '#1f7ec4',
+        font: {
+          size: 18,
+          family: 'Arial',
+        }
+      }
+    },
+    scales: {
+      y: {
+        responsive: true,
+        maintainAspectRatio: true,
+        suggestedMax: 100,
+      },
+      x: {
+        ticks: {
+          maxRotation: 0,
+          minRotation: 0,
+          display: false
+        }
+      }
+    }
+  },
+  animation: {
+    tension: {
+      duration: 2000,
+      easing: 'linear'
+    }
+  }
+});
+
+const chartSelect20 = document.getElementById('chartSelect20');
+chartSelect20.addEventListener('change', function () {
+  const selectedValue = chartSelect20.value;
+
+  if (selectedValue === 'dataset1') {
+    myChart20.data.datasets[1].data = [80.0, 80.0, 85.0, 83.2, 84.0, 83.1, NaN, 83.7, 83.6, 83.9, 83.7, 83.8, 83.6, 83.9, 83.9, 84.0, 84.2, 84.1, 84.3, 84.5, 84.4, 84.6, 84.7, 84.3, NaN, NaN, 84.6, 84.8, 84.9, 85.1, 85.2, 85.3];
+    myChart20.data.datasets[1].label = 'Юлия Джима';
+  } else if (selectedValue === 'dataset2') {
+    myChart20.data.datasets[1].data = [NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN];
+    myChart20.data.datasets[1].label = 'Регина Ойя';
+  }
+  else if (selectedValue === 'dataset3') {
+    myChart20.data.datasets[1].data = [NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN];
+    myChart20.data.datasets[1].label = 'Марте Олсбю Ройселанд';
+  }
+
+  myChart20.update();
+});
+
+
+window.addEventListener('resize', function () {
+  myChart20.resize();
+});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 const skipped5 = (ctx, value) => ctx.p0.skip
   || ctx.p1.skip ? value : undefined;
 const down5 = (ctx, value) => ctx.p0.parsed.y >
@@ -647,6 +870,122 @@ chartSelect6.addEventListener('change', function () {
 window.addEventListener('resize', function () {
   myChart6.resize();
 });
+
+
+
+
+
+const skipped21 = (ctx, value) => ctx.p0.skip
+  || ctx.p1.skip ? value : undefined;
+const down21 = (ctx, value) => ctx.p0.parsed.y >
+  ctx.p1.parsed.y ? value : undefined;
+
+var ctx = document.getElementById('myChart21').getContext('2d');
+var myChart21 = new Chart(ctx, {
+  type: 'line',
+  data: {
+    labels: ['Идив. гонка 1', 'Спринт 1', 'Спринт 2', 'Эстафета 1', 'Гонка преследования 1', 'Спринт 2', 'Гонка преследования 2', 'Спринт 3', 'Гонка преследования 3', 'Масс-старт 1', 'Смешанная эстафета 1', 'Спринт 4', 'Гонка преследования 4', 'Спринт 5', 'Эстафета 2', 'Гонка преследования 5', 'Идив. гонка 2', 'Эстафета 3', 'Масс-старт 2', 'Идив. гонка 1', 'Спринт 1', 'Спринт 2', 'Эстафета 1', 'Гонка преследования 1', 'Спринт 2', 'Гонка преследования 2', 'Спринт 3', 'Гонка преследования 3', 'Масс-старт 1', 'Смешанная эстафета 1', 'Спринт 4', 'Гонка преследования 4'],
+    datasets: [
+      {
+        label: 'Доротея Вирер',
+        data: [25.8, 25.7, 25.8, 25.7, 25.6, 25.7, NaN, 26.0, 26.2, 26.3, 26.8, NaN, 26.7, 26.8, 26.8, 26.7, 26.7, 26.6, 26.7, 26.7, 26.7, NaN, 26.9, 26.7, 26.6, 26.8, NaN, 26.8, 26.7, 26.7, 26.6, 26.7],
+        fill: 'start',
+        backgroundColor: 'rgba(255, 0, 0, 0.1)',
+        borderColor: 'rgba(255, 0, 0, 0.5)',
+        pointBackgroundColor: 'rgba(255, 0, 0, 1)',
+        tension: 0.3,
+        segment: {
+          borderColor: ctx => skipped4(ctx,
+            'rgba(255, 0, 0, 0.5)'),
+          borderDash: ctx => skipped4(ctx, [6, 6]),
+        },
+        spanGaps: true,
+      },
+      {
+        label: 'Юлия Джима',
+        data: [26.9, 27.0, 27.0, 27.1, NaN, 27.2, 27.2, 27.3, 27.2, 27.2, 27.3, 27.4, NaN, NaN, 27.3, 27.4, NaN, 27.3, 27.2, 27.2, 27.1, 27.1, 27.1, 27.0, 27.0, 26.9, NaN, 26.9, 26.9, 26.8, 26.8, 26.7],
+        fill: 'start',
+        backgroundColor: 'rgb(255, 147, 83, 0.1)',
+        borderColor: 'rgb(255, 147, 83, 0.5)',
+        pointBackgroundColor: 'rgb(255, 147, 83)',
+        tension: 0.3,
+        segment: {
+          borderColor: ctx => skipped4(ctx,
+            'rgb(255, 147, 83, 0.5)'),
+          borderDash: ctx => skipped4(ctx, [6, 6]),
+        },
+        spanGaps: true,
+      }
+    ]
+  },
+  options: {
+    plugins: {
+      title: {
+        display: true,
+        text: 'Скорострельность за сезон',
+        color: '#1f7ec4',
+        font: {
+          size: 18,
+          family: 'Arial',
+        }
+      }
+    },
+    scales: {
+      y: {
+        responsive: true,
+        maintainAspectRatio: true,
+        // suggestedMax: 100,
+        // beginAtZero: true,
+        reverse: true,
+        // suggestedMax: 1,
+      },
+      x: {
+        ticks: {
+          maxRotation: 0,
+          minRotation: 0,
+          display: false
+        }
+      }
+    }
+  },
+  animation: {
+    tension: {
+      duration: 2000,
+      easing: 'linear'
+    }
+  }
+});
+
+const chartSelect21 = document.getElementById('chartSelect21');
+chartSelect21.addEventListener('change', function () {
+  const selectedValue = chartSelect21.value;
+
+  if (selectedValue === 'dataset1') {
+    myChart21.data.datasets[1].data = [26.9, 27.0, 27.0, 27.1, NaN, 27.2, 27.2, 27.3, 27.2, 27.2, 27.3, 27.4, NaN, NaN, 27.3, 27.4, NaN, 27.3, 27.2, 27.2, 27.1, 27.1, 27.1, 27.0, 27.0, 26.9, NaN, 26.9, 26.9, 26.8, 26.8, 26.7];
+    myChart21.data.datasets[1].label = 'Юлия Джима';
+  } else if (selectedValue === 'dataset2') {
+    myChart21.data.datasets[1].data = [NaN, NaN, NaN, NaN, NaN, NaN, NaN, 24.7, 24.5, 25.1, 24.8, 24.3, 25.2, 24.6, 24.7];
+    myChart21.data.datasets[1].label = 'Регина Ойя';
+  }
+  else if (selectedValue === 'dataset3') {
+    myChart21.data.datasets[1].data = [NaN, NaN, NaN, NaN, 25.6, 25.7, 25.4, 26.2, 26.8, 26.5, 26.4, 26.1, 25.7, 25.9, 25.8];
+    myChart21.data.datasets[1].label = 'Марте Олсбю Ройселанд';
+  }
+
+  myChart21.update();
+});
+
+
+window.addEventListener('resize', function () {
+  myChart21.resize();
+});
+
+
+
+
+
+
+
 
 
 
