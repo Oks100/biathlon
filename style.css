@@ -5535,7 +5535,7 @@ footer.footer .footer__column a:hover, footer.footer .footer__bottom-text a:hove
   }
   
   .bilosyuk-olena__profile, .dzhima-yuliia__profile, .dzhima-yuliia2__profile, .dzhima-yuliia3__profile, .bilosyuk-olena2__profile, .blashko-darya__profile, .blashko-darya2__profile, .blashko-darya3__profile, .semerenko-valj__profile, .semerenko-valj2__profile, .semerenko-vita__profile, .bekh-ekaterina__profile, .kryvonos-anna__profile, .belkina-nadiia__profile, .horodna-yulia__profile, .moskalenko-oksana__profile, .merkushyna-oleksandra__profile, .skrypko-hanna__profile, .steblyna-liliia__profile, .petrenko-iryna__profile, .boe-johannes-thingnes__profile, .kinash-stepan__profile, .borovyk-roman__profile, .grushchak-dmytro__profile, .mandzyn-vitaliy__profile, .chihar-vladislav__profile, .pryma-artem__profile, .tsymbal-bogdan__profile, .tsymbal-bogdan2__profile, .dudchenko-anton__profile, .lesyuk-taras__profile, .tishchenko-artem__profile, .pidruchnuy-dmytro__profile, .pidruchnuy-dmytro2__profile, .pidruchnuy-dmytro3__profile, .nasyko-denys__profile, .nasyko-denys2__profile, .trush-vitaliy__profile, .orlyk-andrіi__profile, .dotdenko-andriy__profile, .bryhadyr-ruslan__profile, .ponomarenko-oleksandr__profile {
-    padding: 7px 7px 15px 7px;
+    padding: 7px;
   }
   .tippy-content {
     padding: 0 !important;
@@ -5704,8 +5704,8 @@ footer.footer .footer__column a:hover, footer.footer .footer__bottom-text a:hove
   .statistics__button {
     display: flex;
     align-items: center;
-    line-height: 37.2px;
-    border-radius: 32px;
+    line-height: 33px;
+    border-radius: 33px;
     background-color: #d1ebfb;
   }
   .statistics__button {
@@ -5719,9 +5719,11 @@ footer.footer .footer__column a:hover, footer.footer .footer__bottom-text a:hove
     overflow: hidden;
     position: relative;
     transition: all 0.3s ease-in-out;
+    margin: auto;
   }
   .statistics__button.button-style a {
     z-index: 2;
+    height: 33px;
   }
   .statistics__button.button-style:after {
     background: #FFF;
@@ -7980,7 +7982,7 @@ html[data-theme="dark"] .timer__more-information.last a:hover, html[data-theme="
   color: #8ab4f8;
   border-color: #8ab4f8;
 }
-html[data-theme="dark"] .timeline a:not(.timeline-cup-result__analysis-button a, .timeline__tournament-navigation a, .tournament-menu__body a, .timeline-cup__another-competitions a, .timeline-sportsmen-profile-card-body a, .timeline-sportsmen-profile-card-body-2 a, .timeline-sportsmen-profile-card-body-3 a):hover {
+html[data-theme="dark"] .timeline a:not(.statistics__button a, .timeline-cup-result__analysis-button a, .timeline__tournament-navigation a, .tournament-menu__body a, .timeline-cup__another-competitions a, .timeline-sportsmen-profile-card-body a, .timeline-sportsmen-profile-card-body-2 a, .timeline-sportsmen-profile-card-body-3 a):hover {
   color: #8ab4f8 !important;
 }
 html[data-theme="dark"] .quote-user:hover, html[data-theme="dark"] .timeline__item-comments-to-write-comments:hover, html[data-theme="dark"] .timeline__head a:hover, html[data-theme="dark"] .timeline__speedbar a:hover {
@@ -8585,7 +8587,7 @@ html[data-theme='summer'] .timer__more-information:not(.timer__more-information.
   color: #63b961;
   border-color: #63b961;
 }
-html[data-theme="summer"] .timeline-vote a:hover:not(.top-10__button), html[data-theme='summer'] .timeline__speedbar a:hover, html[data-theme="summer"] .comment-block__body-title a:hover, html[data-theme="summer"] .history-block__body a:hover, html[data-theme="summer"] .birthday-block__text a:hover, html[data-theme="summer"] .timeline__body a:hover:not(.img__profile a), html[data-theme="summer"] .timeline__body-important-news a:hover, html[data-theme="summer"] .timeline__head a:hover, html[data-theme="summer"] .timeline__comments-refer:hover, html[data-theme="summer"] .comment-block__rumor:hover, html[data-theme="summer"] .user:hover, html[data-theme="summer"] .next-race-block a:hover, html[data-theme="summer"] .next-translation-block a:hover, html[data-theme="summer"] .popular-block a:hover, html[data-theme="summer"] .interview-block a:hover, html[data-theme="summer"] .blogs-block a:hover, html[data-theme="summer"] .header__notifications_conteiner a:hover:not(.more-button, .header__notifications_head-body a, .header__notifications_head-admin-panel a), html[data-theme="summer"] .stars-block a:hover {
+html[data-theme="summer"] .timeline-vote a:hover:not(.top-10__button), html[data-theme='summer'] .timeline__speedbar a:hover, html[data-theme="summer"] .comment-block__body-title a:hover, html[data-theme="summer"] .history-block__body a:hover, html[data-theme="summer"] .birthday-block__text a:hover, html[data-theme="summer"] .timeline__body a:hover:not(.statistics__button a, .img__profile a), html[data-theme="summer"] .timeline__body-important-news a:hover, html[data-theme="summer"] .timeline__head a:hover, html[data-theme="summer"] .timeline__comments-refer:hover, html[data-theme="summer"] .comment-block__rumor:hover, html[data-theme="summer"] .user:hover, html[data-theme="summer"] .next-race-block a:hover, html[data-theme="summer"] .next-translation-block a:hover, html[data-theme="summer"] .popular-block a:hover, html[data-theme="summer"] .interview-block a:hover, html[data-theme="summer"] .blogs-block a:hover, html[data-theme="summer"] .header__notifications_conteiner a:hover:not(.more-button, .header__notifications_head-body a, .header__notifications_head-admin-panel a), html[data-theme="summer"] .stars-block a:hover {
   color: #63b961 !important;
   border-color: #63b961;
 }
@@ -9291,6 +9293,14 @@ html[data-theme='Black'] .interview-block__gossip_image {
   background-color: #232323;
 }
 
+
+html[data-theme='Black'] .statistics__button.button-style::after, html[data-theme='dark'] .statistics__button.button-style::after {
+  background: #b7b7b7;
+}
+
+html[data-theme='Black'] .statistics__button.button-style, html[data-theme='dark'] .statistics__button.button-style {
+  color: #b7b7b7;
+}
 
 @media (hover: hover) {
   html[data-theme="Black"] .chosen-string.active:hover {
