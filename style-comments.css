@@ -1202,9 +1202,6 @@
     user-select: none;
     -webkit-tap-highlight-color: transparent;
 }
-/* .timeline__item-comments-write-rules:hover {
-    background-color: #e7f3fa;
-} */
 .timeline__item-comments-write-rules::before {
     display: block;
     content: "\e081";
@@ -1221,10 +1218,10 @@
 
 
 .timeline__item-comments-write-spoiler {
-    margin: 15px 0;
+    margin: 2em 0;
     border: 1px solid #dfedf4;
     border-radius: 15px;
-    padding: 10px;
+    padding: 15px;
 }
 .timeline__item-comments-write-spoiler span {
     display: inline-block;
