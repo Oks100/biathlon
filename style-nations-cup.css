@@ -505,29 +505,26 @@ html[data-theme="grey"] #tippy-16 ul li a:hover {
     gap: 10px;
 }
 .table-compare-exemple-2 .compare-icon-2::before, .table-compare-exemple-4 .compare-icon-2::before {
-        content: "\e91d";
-        font-family: 'icomoon';
-        color: #8d8d8d;
-        font-size: 1.05em;
+    content: "\e91d";
+    font-family: 'icomoon';
+    color: #8d8d8d;
+    font-size: 1.05em;
+}
+.table-compare-exemple-2 .compare-icon::before, .table-compare-exemple-4 .compare-icon::before {
+    content: "\e91d";
+    font-size: 1.05em;
 }
 .timeline-cup-table-male tbody td:nth-child(4) {
-    /* width: 203.383px; */
-    /* width: 202.6px; */
     width: 150px;
     display: block;
 }
 .timeline-cup-table-female tbody td:nth-child(4) {
-    /* min-width: 212.767px; */
     min-width: 150px;
     display: block;
 }
 .table-compare-exemple-2 tr td:nth-child(3), .table-compare-exemple-4 tr td:nth-child(3) {
     width: 22.8px;
 }
-/* .table-compare-exemple-4 tr td:nth-child(4) {
-    min-width: 212.767px;
-    display: block;
-} */
 
 .table-compare-exemple-2, .table-compare-exemple-4 {
     display: none;
@@ -539,11 +536,6 @@ html[data-theme="grey"] #tippy-16 ul li a:hover {
     margin-top: 20px;
     display: block;
 }
-
-/* .timeline-cup-table .timeline-cup.another-table-1,  {
-    margin-top: 20px;
-    display: block;
-} */
 
 
 .table-button-now-1:focus, .table-button-now-2:focus, .table-button-earlier-1:focus, .table-button-earlier-2:focus {
